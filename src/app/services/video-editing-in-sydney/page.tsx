@@ -6,7 +6,7 @@ const location = locations["sydney"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Sydney | TML Agency",
-  description: "TML offers expert video editing services in Sydney. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing sydney", "video editing agency sydney", "video editing company sydney"],
 };
 

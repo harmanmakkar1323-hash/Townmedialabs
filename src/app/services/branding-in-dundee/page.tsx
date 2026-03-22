@@ -6,7 +6,7 @@ const location = locations["dundee"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Dundee | TML Agency",
-  description: "TML offers expert branding services in Dundee. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding dundee", "branding agency dundee", "branding company dundee"],
 };
 

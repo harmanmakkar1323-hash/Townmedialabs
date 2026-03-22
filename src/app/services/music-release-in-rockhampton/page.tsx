@@ -6,7 +6,7 @@ const location = locations["rockhampton"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Rockhampton | TML Agency",
-  description: "TML offers expert music release services in Rockhampton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release rockhampton", "music release agency rockhampton", "music release company rockhampton"],
 };
 

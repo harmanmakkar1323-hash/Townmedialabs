@@ -6,7 +6,7 @@ const location = locations["abu_dhabi"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Abu Dhabi | TML Agency",
-  description: "TML offers expert packaging design services in Abu Dhabi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Abu Dhabi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design abu dhabi", "packaging design agency abu dhabi", "packaging design company abu dhabi"],
 };
 

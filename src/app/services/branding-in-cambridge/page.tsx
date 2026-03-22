@@ -6,7 +6,7 @@ const location = locations["cambridge"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Cambridge | TML Agency",
-  description: "TML offers expert branding services in Cambridge. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding cambridge", "branding agency cambridge", "branding company cambridge"],
 };
 

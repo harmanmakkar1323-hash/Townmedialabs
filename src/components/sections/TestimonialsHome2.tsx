@@ -434,7 +434,7 @@ export function TestimonialsHome2() {
           </div>
           <div className="h-4 w-[1px] bg-white/10 hidden sm:block" />
           <p className="text-xs text-white/30">
-            Rated 4.9/5 across 200+ projects &middot; 98% client retention rate
+            Rated 4.9/5 across 500+ projects &middot; 98% client retention rate
           </p>
         </motion.div>
       </div>

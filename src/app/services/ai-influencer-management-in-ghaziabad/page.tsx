@@ -6,7 +6,7 @@ const location = locations["ghaziabad"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Ghaziabad | TML Agency",
-  description: "TML offers expert AI influencer management services in Ghaziabad. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI influencer management services in Ghaziabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management ghaziabad", "AI influencer management agency ghaziabad", "AI influencer management company ghaziabad"],
 };
 

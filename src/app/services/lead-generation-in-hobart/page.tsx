@@ -6,7 +6,7 @@ const location = locations["hobart"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Hobart | TML Agency",
-  description: "TML offers expert lead generation services in Hobart. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Hobart. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation hobart", "lead generation agency hobart", "lead generation company hobart"],
 };
 

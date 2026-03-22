@@ -6,7 +6,7 @@ const location = locations["toowoomba"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Toowoomba | TML Agency",
-  description: "TML offers expert video editing services in Toowoomba. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing toowoomba", "video editing agency toowoomba", "video editing company toowoomba"],
 };
 

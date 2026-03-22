@@ -6,7 +6,7 @@ const location = locations["louisville"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Louisville | TML Agency",
-  description: "TML offers expert seo services in Louisville. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Louisville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo louisville", "seo agency louisville", "seo company louisville"],
 };
 

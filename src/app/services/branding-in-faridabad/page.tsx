@@ -6,7 +6,7 @@ const location = locations["faridabad"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Faridabad | TML Agency",
-  description: "TML offers expert branding services in Faridabad. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding faridabad", "branding agency faridabad", "branding company faridabad"],
 };
 

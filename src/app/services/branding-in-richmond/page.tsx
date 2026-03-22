@@ -6,7 +6,7 @@ const location = locations["richmond"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Richmond | TML Agency",
-  description: "TML offers expert branding services in Richmond. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding richmond", "branding agency richmond", "branding company richmond"],
 };
 

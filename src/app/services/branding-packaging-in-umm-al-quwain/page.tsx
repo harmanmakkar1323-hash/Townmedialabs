@@ -6,7 +6,7 @@ const location = locations["umm_al_quwain"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Umm Al Quwain | TML Agency",
-  description: "TML offers expert packaging design services in Umm Al Quwain. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design umm al quwain", "packaging design agency umm al quwain", "packaging design company umm al quwain"],
 };
 

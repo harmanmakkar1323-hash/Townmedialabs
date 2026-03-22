@@ -6,7 +6,7 @@ const location = locations["cardiff"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Cardiff | TML Agency",
-  description: "TML offers expert video editing services in Cardiff. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing cardiff", "video editing agency cardiff", "video editing company cardiff"],
 };
 

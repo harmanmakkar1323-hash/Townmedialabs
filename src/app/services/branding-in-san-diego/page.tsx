@@ -6,7 +6,7 @@ const location = locations["san_diego"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in San Diego | TML Agency",
-  description: "TML offers expert branding services in San Diego. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding san diego", "branding agency san diego", "branding company san diego"],
 };
 

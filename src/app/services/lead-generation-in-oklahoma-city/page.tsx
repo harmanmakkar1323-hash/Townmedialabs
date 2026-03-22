@@ -6,7 +6,7 @@ const location = locations["oklahoma_city"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Oklahoma City | TML Agency",
-  description: "TML offers expert lead generation services in Oklahoma City. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Oklahoma City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation oklahoma city", "lead generation agency oklahoma city", "lead generation company oklahoma city"],
 };
 

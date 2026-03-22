@@ -6,7 +6,7 @@ const location = locations["bendigo"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Bendigo | TML Agency",
-  description: "TML offers expert music release services in Bendigo. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release bendigo", "music release agency bendigo", "music release company bendigo"],
 };
 

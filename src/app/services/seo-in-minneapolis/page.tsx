@@ -6,7 +6,7 @@ const location = locations["minneapolis"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Minneapolis | TML Agency",
-  description: "TML offers expert seo services in Minneapolis. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo minneapolis", "seo agency minneapolis", "seo company minneapolis"],
 };
 

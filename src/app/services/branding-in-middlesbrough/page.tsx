@@ -6,7 +6,7 @@ const location = locations["middlesbrough"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Middlesbrough | TML Agency",
-  description: "TML offers expert branding services in Middlesbrough. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding middlesbrough", "branding agency middlesbrough", "branding company middlesbrough"],
 };
 

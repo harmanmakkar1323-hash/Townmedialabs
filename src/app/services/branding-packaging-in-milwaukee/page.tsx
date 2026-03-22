@@ -6,7 +6,7 @@ const location = locations["milwaukee"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Milwaukee | TML Agency",
-  description: "TML offers expert packaging design services in Milwaukee. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design milwaukee", "packaging design agency milwaukee", "packaging design company milwaukee"],
 };
 

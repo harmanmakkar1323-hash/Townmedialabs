@@ -6,7 +6,7 @@ const location = locations["toowoomba"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Toowoomba | TML Agency",
-  description: "TML offers expert google ads services in Toowoomba. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads toowoomba", "google ads agency toowoomba", "google ads company toowoomba"],
 };
 

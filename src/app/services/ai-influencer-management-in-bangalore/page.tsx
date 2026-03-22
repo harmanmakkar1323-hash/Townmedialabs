@@ -6,7 +6,7 @@ const location = locations["bangalore"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Bangalore | TML Agency",
-  description: "TML offers expert AI influencer management services in Bangalore. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI influencer management services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management bangalore", "AI influencer management agency bangalore", "AI influencer management company bangalore"],
 };
 

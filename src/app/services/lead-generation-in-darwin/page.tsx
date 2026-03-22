@@ -6,7 +6,7 @@ const location = locations["darwin"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Darwin | TML Agency",
-  description: "TML offers expert lead generation services in Darwin. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Darwin. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation darwin", "lead generation agency darwin", "lead generation company darwin"],
 };
 

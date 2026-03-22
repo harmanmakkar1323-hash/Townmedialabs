@@ -6,7 +6,7 @@ const location = locations["abu_dhabi"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Abu Dhabi | TML Agency",
-  description: "TML offers expert google ads services in Abu Dhabi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Abu Dhabi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads abu dhabi", "google ads agency abu dhabi", "google ads company abu dhabi"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["york"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in York | TML Agency",
-  description: "TML offers expert music release services in York. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in York. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release york", "music release agency york", "music release company york"],
 };
 

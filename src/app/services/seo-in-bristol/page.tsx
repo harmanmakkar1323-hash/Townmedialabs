@@ -6,7 +6,7 @@ const location = locations["bristol"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Bristol | TML Agency",
-  description: "TML offers expert seo services in Bristol. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo bristol", "seo agency bristol", "seo company bristol"],
 };
 

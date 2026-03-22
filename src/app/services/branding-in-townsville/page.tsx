@@ -6,7 +6,7 @@ const location = locations["townsville"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Townsville | TML Agency",
-  description: "TML offers expert branding services in Townsville. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding townsville", "branding agency townsville", "branding company townsville"],
 };
 

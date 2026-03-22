@@ -6,7 +6,7 @@ const location = locations["derabassi"];
 
 export const metadata: Metadata = {
   title: "Best Branding & Packaging Agency in Derabassi | TML Agency",
-  description: "TML offers expert branding and packaging services in Derabassi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding and packaging services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging derabassi", "branding and packaging agency derabassi", "branding and packaging company derabassi"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["newcastle"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Newcastle | TML Agency",
-  description: "TML offers expert social media marketing services in Newcastle. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing newcastle", "social media marketing agency newcastle", "social media marketing company newcastle"],
 };
 

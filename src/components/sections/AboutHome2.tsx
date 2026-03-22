@@ -7,8 +7,8 @@ import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
 const ease = [0.23, 1, 0.32, 1] as const;
 
 const stats = [
-  { target: 200, suffix: "+", label: "Brands scaled" },
-  { target: 10, suffix: "+", label: "Years experience" },
+  { target: 500, suffix: "+", label: "Brands scaled" },
+  { target: 15, suffix: "+", label: "Years experience" },
   { target: 12, suffix: "", label: "Core services" },
   { target: 98, suffix: "%", label: "Client retention" },
 ] as const;
@@ -63,7 +63,7 @@ export function AboutHome2() {
           transition={{ duration: 1.5, ease }}
           className="text-[6rem] sm:text-[10rem] md:text-[18rem] lg:text-[24rem] font-bold tracking-tighter text-white leading-none block"
         >
-          10+
+          15+
         </motion.span>
       </motion.div>
 

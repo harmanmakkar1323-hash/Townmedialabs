@@ -6,7 +6,7 @@ const location = locations["bhopal"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Bhopal | TML Agency",
-  description: "TML offers expert Google Ads management services in Bhopal. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads management services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["Google Ads management bhopal", "Google Ads management agency bhopal", "Google Ads management company bhopal"],
 };
 

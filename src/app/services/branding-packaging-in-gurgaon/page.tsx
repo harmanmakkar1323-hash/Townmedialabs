@@ -6,7 +6,7 @@ const location = locations["gurgaon"];
 
 export const metadata: Metadata = {
   title: "Best Branding & Packaging Agency in Gurgaon | TML Agency",
-  description: "TML offers expert branding and packaging services in Gurgaon. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding and packaging services in Gurgaon. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging gurgaon", "branding and packaging agency gurgaon", "branding and packaging company gurgaon"],
 };
 

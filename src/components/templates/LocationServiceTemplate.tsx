@@ -54,7 +54,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
   const cityName = location.name;
 
   const locationFaqs = [
-    { q: `Why should I choose TML for ${serviceName.toLowerCase()} in ${cityName}?`, a: `TML combines deep ${serviceName.toLowerCase()} expertise with local market knowledge of ${cityName}. We've delivered proven results for 200+ businesses and understand what works in the ${location.state} market. Our team specializes in ${location.industries.slice(0, 3).join(", ")} sectors that drive ${cityName}'s economy.` },
+    { q: `Why should I choose TML for ${serviceName.toLowerCase()} in ${cityName}?`, a: `TML combines deep ${serviceName.toLowerCase()} expertise with local market knowledge of ${cityName}. We've delivered proven results for 500+ businesses and understand what works in the ${location.state} market. Our team specializes in ${location.industries.slice(0, 3).join(", ")} sectors that drive ${cityName}'s economy.` },
     { q: `How much does ${serviceName.toLowerCase()} cost in ${cityName}?`, a: `Our ${serviceName.toLowerCase()} packages are customized for each business based on scope, goals, and competitive landscape in ${cityName}. We offer flexible plans starting from affordable entry-level packages to enterprise solutions. Contact us for a free consultation and custom quote tailored to your ${cityName} business needs.` },
     { q: `Do you work with ${cityName} businesses remotely?`, a: `Yes! While we love in-person meetings, we work seamlessly with ${cityName} businesses through video calls, shared dashboards, and regular reporting. Many of our most successful projects in ${location.state} have been managed remotely with excellent results.` },
     { q: `How quickly can I see results from ${serviceName.toLowerCase()} in ${cityName}?`, a: `Timeline varies by service. Paid campaigns like Google Ads can generate results within days, while organic strategies like SEO typically show significant impact within 3-6 months. We set realistic expectations during our initial consultation and provide regular progress updates.` },
@@ -210,7 +210,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                         <AnimatedCounter
                           target={parseInt(stat.value.replace(/[^0-9]/g, ""))}
                           suffix={stat.value.replace(/[0-9]/g, "")}
-                          duration={2000}
+                          duration={2}
                         />
                       ) : (
                         <span className="text-[#ff4500]">{stat.value}</span>
@@ -237,7 +237,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {[
               { title: `${cityName} Market Expertise`, description: `We understand ${cityName}'s market dynamics, consumer behavior, and what resonates with the local audience across ${location.region}.` },
-              { title: "Proven Track Record", description: `200+ successful projects delivered for businesses in ${location.state}. Our results speak for themselves.` },
+              { title: "Proven Track Record", description: `500+ successful projects delivered for businesses in ${location.state}. Our results speak for themselves.` },
               { title: "Industry Specialization", description: `Deep experience working with ${location.industries.slice(0, 4).join(", ")} businesses — the industries that drive ${cityName}'s economy.` },
               { title: "End-to-End Solutions", description: `From strategy to execution, we handle everything so you can focus on running your ${cityName} business.` },
             ].map((item, i) => (
@@ -322,15 +322,15 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
           </motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {[
-              { stat: 200, suffix: "+", label: "Projects Delivered", description: `We have successfully delivered over 200 ${serviceName.toLowerCase()} projects for businesses across ${location.state} and beyond.` },
-              { stat: 95, suffix: "%", label: "Client Retention Rate", description: `Our commitment to results keeps ${cityName} businesses coming back. A 95% retention rate speaks to the quality of our work.` },
+              { stat: 500, suffix: "+", label: "Projects Delivered", description: `We have successfully delivered over 500 ${serviceName.toLowerCase()} projects for businesses across ${location.state} and beyond.` },
+              { stat: 98, suffix: "%", label: "Client Retention Rate", description: `Our commitment to results keeps ${cityName} businesses coming back. A 98% retention rate speaks to the quality of our work.` },
               { stat: 5, suffix: "x", label: "Average ROI", description: `${cityName} businesses working with TML see an average 5x return on their ${serviceName.toLowerCase()} investment within the first year.` },
             ].map((item, i) => (
               <motion.div key={item.label} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.6, delay: i * 0.1, ease }}
                 className="p-6 md:p-8 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] hover:border-[#ff4500]/20 transition-all duration-500 text-center"
               >
                 <div className="text-3xl md:text-4xl font-bold text-[#ff4500] mb-2">
-                  <AnimatedCounter target={item.stat} suffix={item.suffix} duration={2000} />
+                  <AnimatedCounter target={item.stat} suffix={item.suffix} duration={2} />
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-3">{item.label}</h3>
                 <p className="text-sm text-white/40 leading-relaxed">{item.description}</p>
@@ -508,7 +508,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                 </svg>
               ))}
             </div>
-            <p className="text-lg md:text-xl text-white/70 font-medium mb-2">Trusted by 200+ businesses</p>
+            <p className="text-lg md:text-xl text-white/70 font-medium mb-2">Trusted by 500+ businesses</p>
             <p className="text-white/30 text-sm mb-6">across {location.region}</p>
             <div className="h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-6" />
             <p className="text-sm md:text-base text-white/50 italic leading-relaxed max-w-2xl mx-auto">
@@ -694,7 +694,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                     Ready to take your {cityName} business to the next level? TML Agency offers a free, no-obligation consultation where we&apos;ll analyse your current {serviceName.toLowerCase()} presence, identify opportunities for growth, and present a customised strategy designed for your business goals. Whether you&apos;re looking to dominate local search in {cityName}, build brand awareness across {location.state}, or generate high-quality leads from {location.region} — we have the expertise to make it happen.
                   </p>
                   <p className="text-sm md:text-base text-white/50 leading-[1.9]">
-                    Join 200+ businesses across {location.country} who have trusted TML with their {serviceName.toLowerCase()} needs. Our clients in {cityName} consistently report improved visibility, higher engagement, and measurable business growth. Contact us today and discover why TML is the preferred {serviceName.toLowerCase()} agency for businesses in {cityName}, {location.state}.
+                    Join 500+ businesses across {location.country} who have trusted TML with their {serviceName.toLowerCase()} needs. Our clients in {cityName} consistently report improved visibility, higher engagement, and measurable business growth. Contact us today and discover why TML is the preferred {serviceName.toLowerCase()} agency for businesses in {cityName}, {location.state}.
                   </p>
                 </motion.div>
 

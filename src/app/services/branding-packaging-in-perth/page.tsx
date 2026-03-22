@@ -6,7 +6,7 @@ const location = locations["perth"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Perth | TML Agency",
-  description: "TML offers expert packaging design services in Perth. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design perth", "packaging design agency perth", "packaging design company perth"],
 };
 

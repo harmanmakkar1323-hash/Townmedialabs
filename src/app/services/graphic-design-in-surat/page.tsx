@@ -6,7 +6,7 @@ const location = locations["surat"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Surat | TML Agency",
-  description: "TML offers expert graphic design services in Surat. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design surat", "graphic design agency surat", "graphic design company surat"],
 };
 

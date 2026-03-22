@@ -6,7 +6,7 @@ const location = locations["newcastle_au"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Newcastle | TML Agency",
-  description: "TML offers expert branding services in Newcastle. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding newcastle", "branding agency newcastle", "branding company newcastle"],
 };
 

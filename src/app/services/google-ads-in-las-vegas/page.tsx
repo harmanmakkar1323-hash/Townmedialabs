@@ -6,7 +6,7 @@ const location = locations["las_vegas"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Las Vegas | TML Agency",
-  description: "TML offers expert google ads services in Las Vegas. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads las vegas", "google ads agency las vegas", "google ads company las vegas"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["tampa"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Tampa | TML Agency",
-  description: "TML offers expert graphic design services in Tampa. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design tampa", "graphic design agency tampa", "graphic design company tampa"],
 };
 

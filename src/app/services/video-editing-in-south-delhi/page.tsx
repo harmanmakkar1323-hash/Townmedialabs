@@ -6,7 +6,7 @@ const location = locations["south_delhi"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in South Delhi | TML Agency",
-  description: "TML offers expert video editing services in South Delhi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing south delhi", "video editing agency south delhi", "video editing company south delhi"],
 };
 

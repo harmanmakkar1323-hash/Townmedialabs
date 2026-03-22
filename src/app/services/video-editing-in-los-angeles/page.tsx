@@ -6,7 +6,7 @@ const location = locations["los_angeles"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Los Angeles | TML Agency",
-  description: "TML offers expert video editing services in Los Angeles. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing los angeles", "video editing agency los angeles", "video editing company los angeles"],
 };
 

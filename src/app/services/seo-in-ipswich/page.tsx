@@ -6,7 +6,7 @@ const location = locations["ipswich"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Ipswich | TML Agency",
-  description: "TML offers expert seo services in Ipswich. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo ipswich", "seo agency ipswich", "seo company ipswich"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["dundee"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Dundee | TML Agency",
-  description: "TML offers expert google ads services in Dundee. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads dundee", "google ads agency dundee", "google ads company dundee"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["austin"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Austin | TML Agency",
-  description: "TML offers expert google ads services in Austin. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads austin", "google ads agency austin", "google ads company austin"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["punjab"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Punjab | TML Agency",
-  description: "TML offers expert music release services in Punjab. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release punjab", "music release agency punjab", "music release company punjab"],
 };
 

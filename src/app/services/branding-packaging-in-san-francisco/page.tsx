@@ -6,7 +6,7 @@ const location = locations["san_francisco"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in San Francisco | TML Agency",
-  description: "TML offers expert packaging design services in San Francisco. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design san francisco", "packaging design agency san francisco", "packaging design company san francisco"],
 };
 

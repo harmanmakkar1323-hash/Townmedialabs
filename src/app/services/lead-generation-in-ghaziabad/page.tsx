@@ -6,7 +6,7 @@ const location = locations["ghaziabad"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Ghaziabad | TML Agency",
-  description: "TML offers expert lead generation services in Ghaziabad. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Ghaziabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation ghaziabad", "lead generation agency ghaziabad", "lead generation company ghaziabad"],
 };
 

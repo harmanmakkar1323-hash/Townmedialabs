@@ -6,7 +6,7 @@ const location = locations["baltimore"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Baltimore | TML Agency",
-  description: "TML offers expert packaging design services in Baltimore. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design baltimore", "packaging design agency baltimore", "packaging design company baltimore"],
 };
 

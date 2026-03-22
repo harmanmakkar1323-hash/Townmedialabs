@@ -6,7 +6,7 @@ const location = locations["ajman"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Ajman | TML Agency",
-  description: "TML offers expert lead generation services in Ajman. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Ajman. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation ajman", "lead generation agency ajman", "lead generation company ajman"],
 };
 

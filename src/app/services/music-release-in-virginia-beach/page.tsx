@@ -6,7 +6,7 @@ const location = locations["virginia_beach"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Virginia Beach | TML Agency",
-  description: "TML offers expert music release services in Virginia Beach. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release virginia beach", "music release agency virginia beach", "music release company virginia beach"],
 };
 

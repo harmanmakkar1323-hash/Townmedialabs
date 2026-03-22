@@ -6,7 +6,7 @@ const location = locations["gold_coast"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Gold Coast | TML Agency",
-  description: "TML offers expert lead generation services in Gold Coast. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation gold coast", "lead generation agency gold coast", "lead generation company gold coast"],
 };
 

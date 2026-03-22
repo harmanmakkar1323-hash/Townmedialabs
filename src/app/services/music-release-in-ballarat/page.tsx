@@ -6,7 +6,7 @@ const location = locations["ballarat"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Ballarat | TML Agency",
-  description: "TML offers expert music release services in Ballarat. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release ballarat", "music release agency ballarat", "music release company ballarat"],
 };
 

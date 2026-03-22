@@ -6,7 +6,7 @@ const location = locations["nottingham"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Nottingham | TML Agency",
-  description: "TML offers expert music release services in Nottingham. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release nottingham", "music release agency nottingham", "music release company nottingham"],
 };
 

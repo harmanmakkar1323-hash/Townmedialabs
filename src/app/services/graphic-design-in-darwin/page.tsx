@@ -6,7 +6,7 @@ const location = locations["darwin"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Darwin | TML Agency",
-  description: "TML offers expert graphic design services in Darwin. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Darwin. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design darwin", "graphic design agency darwin", "graphic design company darwin"],
 };
 

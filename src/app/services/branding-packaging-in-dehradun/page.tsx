@@ -6,7 +6,7 @@ const location = locations["dehradun"];
 
 export const metadata: Metadata = {
   title: "Best Branding & Packaging Agency in Dehradun | TML Agency",
-  description: "TML offers expert branding and packaging services in Dehradun. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding and packaging services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging dehradun", "branding and packaging agency dehradun", "branding and packaging company dehradun"],
 };
 

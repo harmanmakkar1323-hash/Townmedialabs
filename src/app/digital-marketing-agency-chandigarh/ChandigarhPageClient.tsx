@@ -162,7 +162,7 @@ export default function ChandigarhPageClient() {
               >
                 <div className="text-3xl md:text-4xl font-bold text-white mb-1">
                   {statsInView && (
-                    <AnimatedCounter target={stat.value} suffix={stat.suffix} duration={2000} />
+                    <AnimatedCounter target={stat.value} suffix={stat.suffix} duration={2} />
                   )}
                 </div>
                 <p className="text-[10px] md:text-xs text-white/40">{stat.label}</p>

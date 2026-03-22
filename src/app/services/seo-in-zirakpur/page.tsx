@@ -6,7 +6,7 @@ const location = locations["zirakpur"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Zirakpur | TML Agency",
-  description: "TML offers expert seo services in Zirakpur. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo zirakpur", "seo agency zirakpur", "seo company zirakpur"],
 };
 

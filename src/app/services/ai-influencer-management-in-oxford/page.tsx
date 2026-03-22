@@ -6,7 +6,7 @@ const location = locations["oxford"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Oxford | TML Agency",
-  description: "TML offers expert ai influencer management services in Oxford. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert ai influencer management services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management oxford", "ai influencer management agency oxford", "ai influencer management company oxford"],
 };
 

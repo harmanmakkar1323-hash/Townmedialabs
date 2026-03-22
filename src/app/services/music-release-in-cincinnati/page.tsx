@@ -6,7 +6,7 @@ const location = locations["cincinnati"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Cincinnati | TML Agency",
-  description: "TML offers expert music release services in Cincinnati. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release cincinnati", "music release agency cincinnati", "music release company cincinnati"],
 };
 

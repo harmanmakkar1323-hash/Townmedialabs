@@ -6,7 +6,7 @@ const location = locations["bhopal"];
 
 export const metadata: Metadata = {
   title: "Best Branding & Packaging Agency in Bhopal | TML Agency",
-  description: "TML offers expert branding and packaging services in Bhopal. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding and packaging services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging bhopal", "branding and packaging agency bhopal", "branding and packaging company bhopal"],
 };
 

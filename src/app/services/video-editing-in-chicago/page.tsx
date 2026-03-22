@@ -6,7 +6,7 @@ const location = locations["chicago"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Chicago | TML Agency",
-  description: "TML offers expert video editing services in Chicago. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Chicago. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing chicago", "video editing agency chicago", "video editing company chicago"],
 };
 

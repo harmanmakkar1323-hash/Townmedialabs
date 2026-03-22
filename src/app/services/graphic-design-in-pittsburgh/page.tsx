@@ -6,7 +6,7 @@ const location = locations["pittsburgh"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Pittsburgh | TML Agency",
-  description: "TML offers expert graphic design services in Pittsburgh. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design pittsburgh", "graphic design agency pittsburgh", "graphic design company pittsburgh"],
 };
 

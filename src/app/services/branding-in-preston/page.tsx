@@ -6,7 +6,7 @@ const location = locations["preston"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Preston | TML Agency",
-  description: "TML offers expert branding services in Preston. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding preston", "branding agency preston", "branding company preston"],
 };
 

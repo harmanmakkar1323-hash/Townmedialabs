@@ -6,7 +6,7 @@ const location = locations["derabassi"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Derabassi | TML Agency",
-  description: "TML offers expert Google Ads management services in Derabassi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads management services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["Google Ads management derabassi", "Google Ads management agency derabassi", "Google Ads management company derabassi"],
 };
 

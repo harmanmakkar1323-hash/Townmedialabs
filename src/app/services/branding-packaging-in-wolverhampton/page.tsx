@@ -6,7 +6,7 @@ const location = locations["wolverhampton"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Wolverhampton | TML Agency",
-  description: "TML offers expert packaging design services in Wolverhampton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Wolverhampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design wolverhampton", "packaging design agency wolverhampton", "packaging design company wolverhampton"],
 };
 

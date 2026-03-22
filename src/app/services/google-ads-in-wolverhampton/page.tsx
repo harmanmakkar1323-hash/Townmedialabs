@@ -6,7 +6,7 @@ const location = locations["wolverhampton"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Wolverhampton | TML Agency",
-  description: "TML offers expert google ads services in Wolverhampton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Wolverhampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads wolverhampton", "google ads agency wolverhampton", "google ads company wolverhampton"],
 };
 

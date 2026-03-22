@@ -6,7 +6,7 @@ const location = locations["orlando"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Orlando | TML Agency",
-  description: "TML offers expert graphic design services in Orlando. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design orlando", "graphic design agency orlando", "graphic design company orlando"],
 };
 

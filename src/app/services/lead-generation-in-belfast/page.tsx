@@ -6,7 +6,7 @@ const location = locations["belfast"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Belfast | TML Agency",
-  description: "TML offers expert lead generation services in Belfast. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation belfast", "lead generation agency belfast", "lead generation company belfast"],
 };
 

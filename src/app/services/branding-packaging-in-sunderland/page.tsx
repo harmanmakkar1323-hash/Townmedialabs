@@ -6,7 +6,7 @@ const location = locations["sunderland"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Sunderland | TML Agency",
-  description: "TML offers expert packaging design services in Sunderland. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design sunderland", "packaging design agency sunderland", "packaging design company sunderland"],
 };
 

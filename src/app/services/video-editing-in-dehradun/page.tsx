@@ -6,7 +6,7 @@ const location = locations["dehradun"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Dehradun | TML Agency",
-  description: "TML offers expert video editing services in Dehradun. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing dehradun", "video editing agency dehradun", "video editing company dehradun"],
 };
 

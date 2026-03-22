@@ -6,7 +6,7 @@ const location = locations["new_york"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in New York | TML Agency",
-  description: "TML offers expert google ads services in New York. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in New York. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads new york", "google ads agency new york", "google ads company new york"],
 };
 

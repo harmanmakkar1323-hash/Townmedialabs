@@ -6,7 +6,7 @@ const location = locations["abu_dhabi"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Abu Dhabi | TML Agency",
-  description: "TML offers expert branding services in Abu Dhabi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Abu Dhabi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding abu dhabi", "branding agency abu dhabi", "branding company abu dhabi"],
 };
 

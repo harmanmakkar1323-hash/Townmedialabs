@@ -6,7 +6,7 @@ const location = locations["bournemouth"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Bournemouth | TML Agency",
-  description: "TML offers expert branding services in Bournemouth. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding bournemouth", "branding agency bournemouth", "branding company bournemouth"],
 };
 

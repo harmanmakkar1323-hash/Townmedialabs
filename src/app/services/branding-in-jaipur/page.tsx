@@ -6,7 +6,7 @@ const location = locations["jaipur"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Jaipur | TML Agency",
-  description: "TML offers expert branding services in Jaipur. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Jaipur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding jaipur", "branding agency jaipur", "branding company jaipur"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["bristol"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Bristol | TML Agency",
-  description: "TML offers expert packaging design services in Bristol. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design bristol", "packaging design agency bristol", "packaging design company bristol"],
 };
 

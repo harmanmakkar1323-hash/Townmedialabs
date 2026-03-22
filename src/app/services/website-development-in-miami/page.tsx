@@ -6,7 +6,7 @@ const location = locations["miami"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Miami | TML Agency",
-  description: "TML offers expert website development services in Miami. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development miami", "website development agency miami", "website development company miami"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["newcastle_au"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Newcastle | TML Agency",
-  description: "TML offers expert lead generation services in Newcastle. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation newcastle", "lead generation agency newcastle", "lead generation company newcastle"],
 };
 

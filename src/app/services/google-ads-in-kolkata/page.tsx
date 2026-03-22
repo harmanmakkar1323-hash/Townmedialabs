@@ -6,7 +6,7 @@ const location = locations["kolkata"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Kolkata | TML Agency",
-  description: "TML offers expert Google Ads management services in Kolkata. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads management services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["Google Ads management kolkata", "Google Ads management agency kolkata", "Google Ads management company kolkata"],
 };
 

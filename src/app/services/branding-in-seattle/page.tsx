@@ -6,7 +6,7 @@ const location = locations["seattle"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Seattle | TML Agency",
-  description: "TML offers expert branding services in Seattle. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding seattle", "branding agency seattle", "branding company seattle"],
 };
 

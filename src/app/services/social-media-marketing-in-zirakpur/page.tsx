@@ -6,7 +6,7 @@ const location = locations["zirakpur"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Zirakpur | TML Agency",
-  description: "TML offers expert social media marketing services in Zirakpur. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing zirakpur", "social media marketing agency zirakpur", "social media marketing company zirakpur"],
 };
 

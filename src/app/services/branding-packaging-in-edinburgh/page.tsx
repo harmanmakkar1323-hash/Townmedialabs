@@ -6,7 +6,7 @@ const location = locations["edinburgh"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Edinburgh | TML Agency",
-  description: "TML offers expert packaging design services in Edinburgh. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Edinburgh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design edinburgh", "packaging design agency edinburgh", "packaging design company edinburgh"],
 };
 

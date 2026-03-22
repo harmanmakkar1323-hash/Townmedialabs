@@ -6,7 +6,7 @@ const location = locations["memphis"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Memphis | TML Agency",
-  description: "TML offers expert graphic design services in Memphis. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design memphis", "graphic design agency memphis", "graphic design company memphis"],
 };
 

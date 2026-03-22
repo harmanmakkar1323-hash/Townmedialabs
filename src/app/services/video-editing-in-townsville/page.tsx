@@ -6,7 +6,7 @@ const location = locations["townsville"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Townsville | TML Agency",
-  description: "TML offers expert video editing services in Townsville. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing townsville", "video editing agency townsville", "video editing company townsville"],
 };
 

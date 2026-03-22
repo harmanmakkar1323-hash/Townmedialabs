@@ -6,7 +6,7 @@ const location = locations["ipswich"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Ipswich | TML Agency",
-  description: "TML offers expert website development services in Ipswich. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development ipswich", "website development agency ipswich", "website development company ipswich"],
 };
 

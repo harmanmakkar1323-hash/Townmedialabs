@@ -6,7 +6,7 @@ const location = locations["lucknow"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Lucknow | TML Agency",
-  description: "TML offers expert video editing services in Lucknow. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing lucknow", "video editing agency lucknow", "video editing company lucknow"],
 };
 

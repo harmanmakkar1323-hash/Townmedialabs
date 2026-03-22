@@ -6,7 +6,7 @@ const location = locations["panchkula"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Panchkula | TML Agency",
-  description: "TML offers expert website development services in Panchkula. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development panchkula", "website development agency panchkula", "website development company panchkula"],
 };
 

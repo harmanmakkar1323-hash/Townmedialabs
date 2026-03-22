@@ -6,7 +6,7 @@ const location = locations["dundee"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Dundee | TML Agency",
-  description: "TML offers expert video editing services in Dundee. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing dundee", "video editing agency dundee", "video editing company dundee"],
 };
 

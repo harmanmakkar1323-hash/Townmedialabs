@@ -6,7 +6,7 @@ const location = locations["kochi"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Kochi | TML Agency",
-  description: "TML offers expert branding services in Kochi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding kochi", "branding agency kochi", "branding company kochi"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["patiala"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Patiala | TML Agency",
-  description: "TML offers expert Google Ads management services in Patiala. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads management services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["Google Ads management patiala", "Google Ads management agency patiala", "Google Ads management company patiala"],
 };
 

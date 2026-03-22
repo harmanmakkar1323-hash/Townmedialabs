@@ -6,7 +6,7 @@ const location = locations["kansas_city"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Kansas City | TML Agency",
-  description: "TML offers expert music release services in Kansas City. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release kansas city", "music release agency kansas city", "music release company kansas city"],
 };
 

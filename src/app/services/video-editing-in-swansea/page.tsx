@@ -6,7 +6,7 @@ const location = locations["swansea"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Swansea | TML Agency",
-  description: "TML offers expert video editing services in Swansea. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Swansea. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing swansea", "video editing agency swansea", "video editing company swansea"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["bristol"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Bristol | TML Agency",
-  description: "TML offers expert google ads services in Bristol. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads bristol", "google ads agency bristol", "google ads company bristol"],
 };
 

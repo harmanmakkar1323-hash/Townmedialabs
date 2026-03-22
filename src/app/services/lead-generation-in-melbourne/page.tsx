@@ -6,7 +6,7 @@ const location = locations["melbourne"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Melbourne | TML Agency",
-  description: "TML offers expert lead generation services in Melbourne. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation melbourne", "lead generation agency melbourne", "lead generation company melbourne"],
 };
 

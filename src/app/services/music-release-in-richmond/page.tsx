@@ -6,7 +6,7 @@ const location = locations["richmond"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Richmond | TML Agency",
-  description: "TML offers expert music release services in Richmond. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release richmond", "music release agency richmond", "music release company richmond"],
 };
 

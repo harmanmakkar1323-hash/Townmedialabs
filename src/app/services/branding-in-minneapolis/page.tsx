@@ -6,7 +6,7 @@ const location = locations["minneapolis"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Minneapolis | TML Agency",
-  description: "TML offers expert branding services in Minneapolis. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding minneapolis", "branding agency minneapolis", "branding company minneapolis"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["derby"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Derby | TML Agency",
-  description: "TML offers expert graphic design services in Derby. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design derby", "graphic design agency derby", "graphic design company derby"],
 };
 

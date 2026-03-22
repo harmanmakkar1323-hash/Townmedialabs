@@ -6,7 +6,7 @@ const location = locations["san_jose"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in San Jose | TML Agency",
-  description: "TML offers expert google ads services in San Jose. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads san jose", "google ads agency san jose", "google ads company san jose"],
 };
 

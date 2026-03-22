@@ -6,7 +6,7 @@ const location = locations["pune"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Pune | TML Agency",
-  description: "TML offers expert graphic design services in Pune. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design pune", "graphic design agency pune", "graphic design company pune"],
 };
 

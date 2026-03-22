@@ -6,7 +6,7 @@ const location = locations["oxford"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Oxford | TML Agency",
-  description: "TML offers expert video editing services in Oxford. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing oxford", "video editing agency oxford", "video editing company oxford"],
 };
 

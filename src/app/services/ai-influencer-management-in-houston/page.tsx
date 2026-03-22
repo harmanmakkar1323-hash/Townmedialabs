@@ -6,7 +6,7 @@ const location = locations["houston"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Houston | TML Agency",
-  description: "TML offers expert ai influencer management services in Houston. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert ai influencer management services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management houston", "ai influencer management agency houston", "ai influencer management company houston"],
 };
 

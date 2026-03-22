@@ -6,7 +6,7 @@ const location = locations["bath"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Bath | TML Agency",
-  description: "TML offers expert packaging design services in Bath. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design bath", "packaging design agency bath", "packaging design company bath"],
 };
 

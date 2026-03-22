@@ -6,7 +6,7 @@ const location = locations["honolulu"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Honolulu | TML Agency",
-  description: "TML offers expert social media marketing services in Honolulu. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing honolulu", "social media marketing agency honolulu", "social media marketing company honolulu"],
 };
 

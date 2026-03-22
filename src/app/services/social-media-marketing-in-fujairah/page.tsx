@@ -6,7 +6,7 @@ const location = locations["fujairah"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Fujairah | TML Agency",
-  description: "TML offers expert social media marketing services in Fujairah. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing fujairah", "social media marketing agency fujairah", "social media marketing company fujairah"],
 };
 

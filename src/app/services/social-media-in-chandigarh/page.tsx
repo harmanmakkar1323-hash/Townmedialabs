@@ -6,7 +6,7 @@ const location = locations["chandigarh"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Chandigarh | TML Agency",
-  description: "TML offers expert social media marketing services in Chandigarh. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Chandigarh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing chandigarh", "social media marketing agency chandigarh", "social media marketing company chandigarh"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["panipat"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Panipat | TML Agency",
-  description: "TML offers expert search engine optimization services in Panipat. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert search engine optimization services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization panipat", "search engine optimization agency panipat", "search engine optimization company panipat"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["minneapolis"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Minneapolis | TML Agency",
-  description: "TML offers expert social media marketing services in Minneapolis. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing minneapolis", "social media marketing agency minneapolis", "social media marketing company minneapolis"],
 };
 

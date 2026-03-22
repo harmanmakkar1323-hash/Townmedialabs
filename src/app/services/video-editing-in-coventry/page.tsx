@@ -6,7 +6,7 @@ const location = locations["coventry"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Coventry | TML Agency",
-  description: "TML offers expert video editing services in Coventry. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing coventry", "video editing agency coventry", "video editing company coventry"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["cairns"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Cairns | TML Agency",
-  description: "TML offers expert video editing services in Cairns. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Cairns. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing cairns", "video editing agency cairns", "video editing company cairns"],
 };
 

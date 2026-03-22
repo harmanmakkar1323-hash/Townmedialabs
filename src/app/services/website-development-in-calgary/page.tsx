@@ -6,7 +6,7 @@ const location = locations["calgary"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Calgary | TML Agency",
-  description: "TML offers expert website development services in Calgary, Alberta. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Calgary, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development calgary", "website development agency calgary"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["leeds"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Leeds | TML Agency",
-  description: "TML offers expert packaging design services in Leeds. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design leeds", "packaging design agency leeds", "packaging design company leeds"],
 };
 

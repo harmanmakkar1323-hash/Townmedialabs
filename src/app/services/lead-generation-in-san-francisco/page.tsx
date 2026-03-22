@@ -6,7 +6,7 @@ const location = locations["san_francisco"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in San Francisco | TML Agency",
-  description: "TML offers expert lead generation services in San Francisco. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation san francisco", "lead generation agency san francisco", "lead generation company san francisco"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["edinburgh"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Edinburgh | TML Agency",
-  description: "TML offers expert ai influencer management services in Edinburgh. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert ai influencer management services in Edinburgh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management edinburgh", "ai influencer management agency edinburgh", "ai influencer management company edinburgh"],
 };
 

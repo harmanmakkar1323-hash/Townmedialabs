@@ -6,7 +6,7 @@ const location = locations["atlanta"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Atlanta | TML Agency",
-  description: "TML offers expert video editing services in Atlanta. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing atlanta", "video editing agency atlanta", "video editing company atlanta"],
 };
 

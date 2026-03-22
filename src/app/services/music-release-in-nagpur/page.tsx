@@ -6,7 +6,7 @@ const location = locations["nagpur"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Nagpur | TML Agency",
-  description: "TML offers expert music release and distribution services in Nagpur. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release and distribution services in Nagpur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release and distribution nagpur", "music release and distribution agency nagpur", "music release and distribution company nagpur"],
 };
 

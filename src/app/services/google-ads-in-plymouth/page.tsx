@@ -6,7 +6,7 @@ const location = locations["plymouth"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Plymouth | TML Agency",
-  description: "TML offers expert google ads services in Plymouth. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads plymouth", "google ads agency plymouth", "google ads company plymouth"],
 };
 

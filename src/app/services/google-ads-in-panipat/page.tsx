@@ -6,7 +6,7 @@ const location = locations["panipat"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Panipat | TML Agency",
-  description: "TML offers expert Google Ads management services in Panipat. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads management services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["Google Ads management panipat", "Google Ads management agency panipat", "Google Ads management company panipat"],
 };
 

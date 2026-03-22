@@ -6,7 +6,7 @@ const location = locations["belfast"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Belfast | TML Agency",
-  description: "TML offers expert branding services in Belfast. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding belfast", "branding agency belfast", "branding company belfast"],
 };
 

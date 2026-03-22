@@ -6,7 +6,7 @@ const location = locations["edmonton"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Edmonton | TML Agency",
-  description: "TML offers expert website development services in Edmonton, Alberta. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Edmonton, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development edmonton", "website development agency edmonton"],
 };
 

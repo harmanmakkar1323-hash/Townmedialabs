@@ -6,7 +6,7 @@ const location = locations["tampa"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Tampa | TML Agency",
-  description: "TML offers expert google ads services in Tampa. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads tampa", "google ads agency tampa", "google ads company tampa"],
 };
 

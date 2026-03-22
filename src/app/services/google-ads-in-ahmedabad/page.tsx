@@ -6,7 +6,7 @@ const location = locations["ahmedabad"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Ahmedabad | TML Agency",
-  description: "TML offers expert Google Ads management services in Ahmedabad. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads management services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["Google Ads management ahmedabad", "Google Ads management agency ahmedabad", "Google Ads management company ahmedabad"],
 };
 

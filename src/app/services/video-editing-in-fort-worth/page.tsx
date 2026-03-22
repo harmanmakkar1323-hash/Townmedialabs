@@ -6,7 +6,7 @@ const location = locations["fort_worth"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Fort Worth | TML Agency",
-  description: "TML offers expert video editing services in Fort Worth. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing fort worth", "video editing agency fort worth", "video editing company fort worth"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["brighton"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Brighton | TML Agency",
-  description: "TML offers expert google ads services in Brighton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads brighton", "google ads agency brighton", "google ads company brighton"],
 };
 

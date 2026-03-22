@@ -6,7 +6,7 @@ const location = locations["peterborough"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Peterborough | TML Agency",
-  description: "TML offers expert google ads services in Peterborough. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads peterborough", "google ads agency peterborough", "google ads company peterborough"],
 };
 

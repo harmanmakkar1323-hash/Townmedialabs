@@ -6,7 +6,7 @@ const location = locations["reading"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Reading | TML Agency",
-  description: "TML offers expert graphic design services in Reading. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design reading", "graphic design agency reading", "graphic design company reading"],
 };
 

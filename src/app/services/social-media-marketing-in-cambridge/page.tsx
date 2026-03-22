@@ -6,7 +6,7 @@ const location = locations["cambridge"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Cambridge | TML Agency",
-  description: "TML offers expert social media marketing services in Cambridge. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing cambridge", "social media marketing agency cambridge", "social media marketing company cambridge"],
 };
 

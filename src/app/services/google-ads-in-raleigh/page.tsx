@@ -6,7 +6,7 @@ const location = locations["raleigh"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Raleigh | TML Agency",
-  description: "TML offers expert google ads services in Raleigh. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Raleigh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads raleigh", "google ads agency raleigh", "google ads company raleigh"],
 };
 

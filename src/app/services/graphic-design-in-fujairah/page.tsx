@@ -6,7 +6,7 @@ const location = locations["fujairah"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Fujairah | TML Agency",
-  description: "TML offers expert graphic design services in Fujairah. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design fujairah", "graphic design agency fujairah", "graphic design company fujairah"],
 };
 

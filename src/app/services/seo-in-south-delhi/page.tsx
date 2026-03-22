@@ -6,7 +6,7 @@ const location = locations["south_delhi"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in South Delhi | TML Agency",
-  description: "TML offers expert search engine optimization services in South Delhi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert search engine optimization services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization south delhi", "search engine optimization agency south delhi", "search engine optimization company south delhi"],
 };
 

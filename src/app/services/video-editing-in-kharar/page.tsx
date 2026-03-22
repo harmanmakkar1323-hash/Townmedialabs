@@ -6,7 +6,7 @@ const location = locations["kharar"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Kharar | TML Agency",
-  description: "TML offers expert video editing services in Kharar. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing kharar", "video editing agency kharar", "video editing company kharar"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["panchkula"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Panchkula | TML Agency",
-  description: "TML offers expert lead generation services in Panchkula. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation panchkula", "lead generation agency panchkula", "lead generation company panchkula"],
 };
 

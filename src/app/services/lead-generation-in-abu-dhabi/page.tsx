@@ -6,7 +6,7 @@ const location = locations["abu_dhabi"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Abu Dhabi | TML Agency",
-  description: "TML offers expert lead generation services in Abu Dhabi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Abu Dhabi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation abu dhabi", "lead generation agency abu dhabi", "lead generation company abu dhabi"],
 };
 

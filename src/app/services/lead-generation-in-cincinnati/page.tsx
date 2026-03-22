@@ -6,7 +6,7 @@ const location = locations["cincinnati"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Cincinnati | TML Agency",
-  description: "TML offers expert lead generation services in Cincinnati. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation cincinnati", "lead generation agency cincinnati", "lead generation company cincinnati"],
 };
 

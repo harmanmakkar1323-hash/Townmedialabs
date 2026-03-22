@@ -6,7 +6,7 @@ const location = locations["townsville"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Townsville | TML Agency",
-  description: "TML offers expert graphic design services in Townsville. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design townsville", "graphic design agency townsville", "graphic design company townsville"],
 };
 

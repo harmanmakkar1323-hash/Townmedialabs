@@ -6,7 +6,7 @@ const location = locations["philadelphia"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Philadelphia | TML Agency",
-  description: "TML offers expert video editing services in Philadelphia. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Philadelphia. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing philadelphia", "video editing agency philadelphia", "video editing company philadelphia"],
 };
 

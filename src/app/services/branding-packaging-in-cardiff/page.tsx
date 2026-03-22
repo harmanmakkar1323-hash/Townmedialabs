@@ -6,7 +6,7 @@ const location = locations["cardiff"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Cardiff | TML Agency",
-  description: "TML offers expert packaging design services in Cardiff. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design cardiff", "packaging design agency cardiff", "packaging design company cardiff"],
 };
 

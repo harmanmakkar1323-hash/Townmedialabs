@@ -6,7 +6,7 @@ const location = locations["abu_dhabi"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Abu Dhabi | TML Agency",
-  description: "TML offers expert website development services in Abu Dhabi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Abu Dhabi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development abu dhabi", "website development agency abu dhabi", "website development company abu dhabi"],
 };
 

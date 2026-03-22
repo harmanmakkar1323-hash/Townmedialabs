@@ -6,7 +6,7 @@ const location = locations["gurgaon"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Gurgaon | TML Agency",
-  description: "TML offers expert AI influencer management services in Gurgaon. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI influencer management services in Gurgaon. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management gurgaon", "AI influencer management agency gurgaon", "AI influencer management company gurgaon"],
 };
 

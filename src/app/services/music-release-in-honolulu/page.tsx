@@ -6,7 +6,7 @@ const location = locations["honolulu"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Honolulu | TML Agency",
-  description: "TML offers expert music release services in Honolulu. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release honolulu", "music release agency honolulu", "music release company honolulu"],
 };
 

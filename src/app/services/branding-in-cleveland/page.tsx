@@ -6,7 +6,7 @@ const location = locations["cleveland"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Cleveland | TML Agency",
-  description: "TML offers expert branding services in Cleveland. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Cleveland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding cleveland", "branding agency cleveland", "branding company cleveland"],
 };
 

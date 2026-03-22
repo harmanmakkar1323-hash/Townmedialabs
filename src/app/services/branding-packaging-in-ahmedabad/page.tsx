@@ -6,7 +6,7 @@ const location = locations["ahmedabad"];
 
 export const metadata: Metadata = {
   title: "Best Branding & Packaging Agency in Ahmedabad | TML Agency",
-  description: "TML offers expert branding and packaging services in Ahmedabad. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding and packaging services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging ahmedabad", "branding and packaging agency ahmedabad", "branding and packaging company ahmedabad"],
 };
 

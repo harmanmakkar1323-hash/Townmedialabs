@@ -6,7 +6,7 @@ const location = locations["kharar"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Kharar | TML Agency",
-  description: "TML offers expert AI influencer management services in Kharar. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI influencer management services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management kharar", "AI influencer management agency kharar", "AI influencer management company kharar"],
 };
 

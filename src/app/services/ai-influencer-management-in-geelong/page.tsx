@@ -6,7 +6,7 @@ const location = locations["geelong"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Geelong | TML Agency",
-  description: "TML offers expert ai influencer management services in Geelong. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert ai influencer management services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management geelong", "ai influencer management agency geelong", "ai influencer management company geelong"],
 };
 

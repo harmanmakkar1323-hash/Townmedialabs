@@ -6,7 +6,7 @@ const location = locations["liverpool"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Liverpool | TML Agency",
-  description: "TML offers expert packaging design services in Liverpool. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design liverpool", "packaging design agency liverpool", "packaging design company liverpool"],
 };
 

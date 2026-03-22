@@ -6,7 +6,7 @@ const location = locations["kolkata"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Kolkata | TML Agency",
-  description: "TML offers expert website development services in Kolkata. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development kolkata", "website development agency kolkata", "website development company kolkata"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["swansea"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Swansea | TML Agency",
-  description: "TML offers expert google ads services in Swansea. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Swansea. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads swansea", "google ads agency swansea", "google ads company swansea"],
 };
 

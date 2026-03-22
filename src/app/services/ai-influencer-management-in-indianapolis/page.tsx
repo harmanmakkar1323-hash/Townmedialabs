@@ -6,7 +6,7 @@ const location = locations["indianapolis"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Indianapolis | TML Agency",
-  description: "TML offers expert ai influencer management services in Indianapolis. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert ai influencer management services in Indianapolis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management indianapolis", "ai influencer management agency indianapolis", "ai influencer management company indianapolis"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["jaipur"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Jaipur | TML Agency",
-  description: "TML offers expert social media marketing services in Jaipur. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Jaipur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing jaipur", "social media marketing agency jaipur", "social media marketing company jaipur"],
 };
 

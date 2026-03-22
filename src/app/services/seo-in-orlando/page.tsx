@@ -6,7 +6,7 @@ const location = locations["orlando"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Orlando | TML Agency",
-  description: "TML offers expert seo services in Orlando. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo orlando", "seo agency orlando", "seo company orlando"],
 };
 

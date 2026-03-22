@@ -6,7 +6,7 @@ const location = locations["dubai"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Dubai | TML Agency",
-  description: "TML offers expert graphic design services in Dubai. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design dubai", "graphic design agency dubai", "graphic design company dubai"],
 };
 

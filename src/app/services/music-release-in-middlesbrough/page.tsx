@@ -6,7 +6,7 @@ const location = locations["middlesbrough"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Middlesbrough | TML Agency",
-  description: "TML offers expert music release services in Middlesbrough. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release middlesbrough", "music release agency middlesbrough", "music release company middlesbrough"],
 };
 

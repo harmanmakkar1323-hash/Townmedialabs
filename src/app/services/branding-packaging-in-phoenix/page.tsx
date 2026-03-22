@@ -6,7 +6,7 @@ const location = locations["phoenix"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Phoenix | TML Agency",
-  description: "TML offers expert packaging design services in Phoenix. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design phoenix", "packaging design agency phoenix", "packaging design company phoenix"],
 };
 

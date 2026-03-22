@@ -6,7 +6,7 @@ const location = locations["edinburgh"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Edinburgh | TML Agency",
-  description: "TML offers expert graphic design services in Edinburgh. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Edinburgh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design edinburgh", "graphic design agency edinburgh", "graphic design company edinburgh"],
 };
 

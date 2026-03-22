@@ -6,7 +6,7 @@ const location = locations["derabassi"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Derabassi | TML Agency",
-  description: "TML offers expert AI influencer management services in Derabassi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI influencer management services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management derabassi", "AI influencer management agency derabassi", "AI influencer management company derabassi"],
 };
 

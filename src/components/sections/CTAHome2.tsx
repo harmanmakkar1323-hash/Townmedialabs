@@ -6,9 +6,9 @@ import Image from "next/image";
 import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
 
 const stats = [
-  { label: "Brands scaled", num: 200, suffix: "+", isDecimal: false, intPart: 0, decPart: 0 },
+  { label: "Brands scaled", num: 500, suffix: "+", isDecimal: false, intPart: 0, decPart: 0 },
   { label: "Client retention", num: 98, suffix: "%", isDecimal: false, intPart: 0, decPart: 0 },
-  { label: "Years in the game", num: 10, suffix: "+", isDecimal: false, intPart: 0, decPart: 0 },
+  { label: "Years in the game", num: 15, suffix: "+", isDecimal: false, intPart: 0, decPart: 0 },
   { label: "Average rating", num: 0, suffix: "/5", isDecimal: true, intPart: 4, decPart: 9 },
 ];
 
@@ -394,7 +394,7 @@ export function CTAHome2() {
                   ))}
                 </div>
                 <p className="text-xs text-white/40">
-                  <span className="text-white/60 font-semibold">200+</span> brands trust us
+                  <span className="text-white/60 font-semibold">500+</span> brands trust us
                 </p>
               </motion.div>
 

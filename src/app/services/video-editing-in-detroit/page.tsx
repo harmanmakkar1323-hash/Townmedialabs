@@ -6,7 +6,7 @@ const location = locations["detroit"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Detroit | TML Agency",
-  description: "TML offers expert video editing services in Detroit. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing detroit", "video editing agency detroit", "video editing company detroit"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["derby"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Derby | TML Agency",
-  description: "TML offers expert packaging design services in Derby. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design derby", "packaging design agency derby", "packaging design company derby"],
 };
 

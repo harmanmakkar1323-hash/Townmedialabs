@@ -6,7 +6,7 @@ const location = locations["luton_uk"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Luton | TML Agency",
-  description: "TML offers expert seo services in Luton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo luton", "seo agency luton", "seo company luton"],
 };
 

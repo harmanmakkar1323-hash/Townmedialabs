@@ -6,7 +6,7 @@ const location = locations["columbus_oh"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Columbus | TML Agency",
-  description: "TML offers expert social media marketing services in Columbus. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing columbus", "social media marketing agency columbus", "social media marketing company columbus"],
 };
 

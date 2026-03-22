@@ -6,7 +6,7 @@ const location = locations["ahmedabad"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Ahmedabad | TML Agency",
-  description: "TML offers expert video editing services in Ahmedabad. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing ahmedabad", "video editing agency ahmedabad", "video editing company ahmedabad"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["wolverhampton"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Wolverhampton | TML Agency",
-  description: "TML offers expert seo services in Wolverhampton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Wolverhampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo wolverhampton", "seo agency wolverhampton", "seo company wolverhampton"],
 };
 

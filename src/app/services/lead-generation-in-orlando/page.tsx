@@ -6,7 +6,7 @@ const location = locations["orlando"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Orlando | TML Agency",
-  description: "TML offers expert lead generation services in Orlando. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation orlando", "lead generation agency orlando", "lead generation company orlando"],
 };
 

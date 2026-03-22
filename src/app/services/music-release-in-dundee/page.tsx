@@ -6,7 +6,7 @@ const location = locations["dundee"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Dundee | TML Agency",
-  description: "TML offers expert music release services in Dundee. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release dundee", "music release agency dundee", "music release company dundee"],
 };
 

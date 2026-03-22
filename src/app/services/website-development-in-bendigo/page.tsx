@@ -6,7 +6,7 @@ const location = locations["bendigo"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Bendigo | TML Agency",
-  description: "TML offers expert website development services in Bendigo. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development bendigo", "website development agency bendigo", "website development company bendigo"],
 };
 

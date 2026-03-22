@@ -6,7 +6,7 @@ const location = locations["cincinnati"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Cincinnati | TML Agency",
-  description: "TML offers expert social media marketing services in Cincinnati. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing cincinnati", "social media marketing agency cincinnati", "social media marketing company cincinnati"],
 };
 

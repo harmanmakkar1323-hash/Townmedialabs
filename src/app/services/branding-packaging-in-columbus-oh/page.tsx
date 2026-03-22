@@ -6,7 +6,7 @@ const location = locations["columbus_oh"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Columbus | TML Agency",
-  description: "TML offers expert packaging design services in Columbus. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design columbus", "packaging design agency columbus", "packaging design company columbus"],
 };
 

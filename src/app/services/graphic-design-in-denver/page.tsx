@@ -6,7 +6,7 @@ const location = locations["denver"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Denver | TML Agency",
-  description: "TML offers expert graphic design services in Denver. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design denver", "graphic design agency denver", "graphic design company denver"],
 };
 

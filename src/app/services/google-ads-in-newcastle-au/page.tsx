@@ -6,7 +6,7 @@ const location = locations["newcastle_au"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Newcastle | TML Agency",
-  description: "TML offers expert google ads services in Newcastle. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads newcastle", "google ads agency newcastle", "google ads company newcastle"],
 };
 

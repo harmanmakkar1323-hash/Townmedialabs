@@ -6,7 +6,7 @@ const location = locations["jalandhar"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Jalandhar | TML Agency",
-  description: "TML offers expert lead generation services in Jalandhar. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation jalandhar", "lead generation agency jalandhar", "lead generation company jalandhar"],
 };
 

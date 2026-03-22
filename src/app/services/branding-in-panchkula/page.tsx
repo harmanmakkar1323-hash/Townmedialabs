@@ -6,7 +6,7 @@ const location = locations["panchkula"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Panchkula | TML Agency",
-  description: "TML offers expert branding services in Panchkula. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding panchkula", "branding agency panchkula", "branding company panchkula"],
 };
 

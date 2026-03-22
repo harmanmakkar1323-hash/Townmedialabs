@@ -6,7 +6,7 @@ const location = locations["indianapolis"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Indianapolis | TML Agency",
-  description: "TML offers expert video editing services in Indianapolis. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Indianapolis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing indianapolis", "video editing agency indianapolis", "video editing company indianapolis"],
 };
 

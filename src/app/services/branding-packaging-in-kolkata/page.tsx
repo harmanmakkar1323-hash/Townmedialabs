@@ -6,7 +6,7 @@ const location = locations["kolkata"];
 
 export const metadata: Metadata = {
   title: "Best Branding & Packaging Agency in Kolkata | TML Agency",
-  description: "TML offers expert branding and packaging services in Kolkata. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding and packaging services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging kolkata", "branding and packaging agency kolkata", "branding and packaging company kolkata"],
 };
 

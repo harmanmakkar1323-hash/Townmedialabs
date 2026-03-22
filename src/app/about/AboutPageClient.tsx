@@ -16,7 +16,7 @@ const ease = [0.23, 1, 0.32, 1] as const;
 const whyChooseStats = [
   { value: 500, suffix: "+", label: "Clients Served", description: "Trusted by over 500 brands across India and internationally" },
   { value: 70, suffix: "+", label: "Team Members", description: "Designers, developers, strategists & marketers under one roof" },
-  { value: 8, suffix: "+", label: "Years Experience", description: "Delivering digital marketing excellence since 2015" },
+  { value: 15, suffix: "+", label: "Years Experience", description: "Delivering digital marketing excellence since 2010" },
   { value: 500, suffix: "+", label: "Projects Delivered", description: "From branding to full-scale digital campaigns" },
   { value: 100, suffix: "%", label: "Google Partner Certified", description: "Recognised for expertise in Google Ads & search marketing" },
   { value: 24, suffix: "/7", label: "Dedicated Support", description: "Round-the-clock assistance for all your marketing needs" },
@@ -193,10 +193,10 @@ export default function AboutPageClient() {
               className="space-y-6 text-sm md:text-base text-white/50 leading-relaxed"
             >
               <p>
-                Today, TML Agency is home to over 50 creative professionals — designers,
+                Today, TML Agency is home to over 70 creative professionals — designers,
                 full-stack developers, SEO strategists, content creators, and performance marketers
                 — all united by a shared commitment to delivering work that moves the needle. We
-                have proudly served more than 200 clients, ranging from ambitious startups in
+                have proudly served more than 500 clients, ranging from ambitious startups in
                 Chandigarh to established enterprises across India and internationally.
               </p>
               <p>
@@ -343,7 +343,7 @@ export default function AboutPageClient() {
               >
                 <div className="text-3xl md:text-4xl font-bold text-white mb-2">
                   {statsInView && (
-                    <AnimatedCounter target={stat.value} suffix={stat.suffix} duration={2000} />
+                    <AnimatedCounter target={stat.value} suffix={stat.suffix} duration={2} />
                   )}
                 </div>
                 <h3 className="text-base font-semibold text-white mb-2">{stat.label}</h3>

@@ -6,7 +6,7 @@ const location = locations["reading"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Reading | TML Agency",
-  description: "TML offers expert website development services in Reading. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development reading", "website development agency reading", "website development company reading"],
 };
 

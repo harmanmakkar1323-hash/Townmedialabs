@@ -6,7 +6,7 @@ const location = locations["brighton"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Brighton | TML Agency",
-  description: "TML offers expert lead generation services in Brighton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation brighton", "lead generation agency brighton", "lead generation company brighton"],
 };
 

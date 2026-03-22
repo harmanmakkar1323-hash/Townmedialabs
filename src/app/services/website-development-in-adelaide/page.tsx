@@ -6,7 +6,7 @@ const location = locations["adelaide"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Adelaide | TML Agency",
-  description: "TML offers expert website development services in Adelaide. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Adelaide. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development adelaide", "website development agency adelaide", "website development company adelaide"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["oklahoma_city"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Oklahoma City | TML Agency",
-  description: "TML offers expert seo services in Oklahoma City. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Oklahoma City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo oklahoma city", "seo agency oklahoma city", "seo company oklahoma city"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["panchkula"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Panchkula | TML Agency",
-  description: "TML offers expert Google Ads management services in Panchkula. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads management services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["Google Ads management panchkula", "Google Ads management agency panchkula", "Google Ads management company panchkula"],
 };
 

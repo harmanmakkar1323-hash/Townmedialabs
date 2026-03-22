@@ -6,7 +6,7 @@ const location = locations["rajkot"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Rajkot | TML Agency",
-  description: "TML offers expert website development services in Rajkot. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development rajkot", "website development agency rajkot", "website development company rajkot"],
 };
 

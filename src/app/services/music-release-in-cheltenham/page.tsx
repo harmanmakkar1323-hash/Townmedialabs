@@ -6,7 +6,7 @@ const location = locations["cheltenham"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Cheltenham | TML Agency",
-  description: "TML offers expert music release services in Cheltenham. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release cheltenham", "music release agency cheltenham", "music release company cheltenham"],
 };
 

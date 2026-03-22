@@ -6,7 +6,7 @@ const location = locations["oxford"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Oxford | TML Agency",
-  description: "TML offers expert social media marketing services in Oxford. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing oxford", "social media marketing agency oxford", "social media marketing company oxford"],
 };
 

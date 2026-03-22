@@ -6,7 +6,7 @@ const location = locations["ajman"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Ajman | TML Agency",
-  description: "TML offers expert packaging design services in Ajman. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Ajman. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design ajman", "packaging design agency ajman", "packaging design company ajman"],
 };
 

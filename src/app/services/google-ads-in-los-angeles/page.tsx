@@ -6,7 +6,7 @@ const location = locations["los_angeles"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Los Angeles | TML Agency",
-  description: "TML offers expert google ads services in Los Angeles. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads los angeles", "google ads agency los angeles", "google ads company los angeles"],
 };
 

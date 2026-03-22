@@ -6,7 +6,7 @@ const location = locations["hyderabad"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Hyderabad | TML Agency",
-  description: "TML offers expert search engine optimization services in Hyderabad. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert search engine optimization services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization hyderabad", "search engine optimization agency hyderabad", "search engine optimization company hyderabad"],
 };
 

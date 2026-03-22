@@ -6,7 +6,7 @@ const location = locations["leeds"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Leeds | TML Agency",
-  description: "TML offers expert graphic design services in Leeds. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design leeds", "graphic design agency leeds", "graphic design company leeds"],
 };
 

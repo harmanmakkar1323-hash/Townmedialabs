@@ -6,7 +6,7 @@ const location = locations["leeds"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Leeds | TML Agency",
-  description: "TML offers expert website development services in Leeds. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development leeds", "website development agency leeds", "website development company leeds"],
 };
 

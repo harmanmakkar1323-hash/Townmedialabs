@@ -6,7 +6,7 @@ const location = locations["oxford"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Oxford | TML Agency",
-  description: "TML offers expert branding services in Oxford. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding oxford", "branding agency oxford", "branding company oxford"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["houston"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Houston | TML Agency",
-  description: "TML offers expert google ads services in Houston. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads houston", "google ads agency houston", "google ads company houston"],
 };
 

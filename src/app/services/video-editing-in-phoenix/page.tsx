@@ -6,7 +6,7 @@ const location = locations["phoenix"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Phoenix | TML Agency",
-  description: "TML offers expert video editing services in Phoenix. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing phoenix", "video editing agency phoenix", "video editing company phoenix"],
 };
 

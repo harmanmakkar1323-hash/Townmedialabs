@@ -6,7 +6,7 @@ const location = locations["ipswich"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Ipswich | TML Agency",
-  description: "TML offers expert social media marketing services in Ipswich. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing ipswich", "social media marketing agency ipswich", "social media marketing company ipswich"],
 };
 

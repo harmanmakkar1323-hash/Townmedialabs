@@ -6,7 +6,7 @@ const location = locations["salt_lake_city"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Salt Lake City | TML Agency",
-  description: "TML offers expert lead generation services in Salt Lake City. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation salt lake city", "lead generation agency salt lake city", "lead generation company salt lake city"],
 };
 

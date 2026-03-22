@@ -6,7 +6,7 @@ const location = locations["indianapolis"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Indianapolis | TML Agency",
-  description: "TML offers expert graphic design services in Indianapolis. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Indianapolis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design indianapolis", "graphic design agency indianapolis", "graphic design company indianapolis"],
 };
 

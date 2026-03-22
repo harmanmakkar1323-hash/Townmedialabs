@@ -6,7 +6,7 @@ const location = locations["al_ain"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Al Ain | TML Agency",
-  description: "TML offers expert google ads services in Al Ain. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Al Ain. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads al ain", "google ads agency al ain", "google ads company al ain"],
 };
 

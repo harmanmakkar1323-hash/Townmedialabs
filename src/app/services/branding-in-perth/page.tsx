@@ -6,7 +6,7 @@ const location = locations["perth"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Perth | TML Agency",
-  description: "TML offers expert branding services in Perth. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding perth", "branding agency perth", "branding company perth"],
 };
 

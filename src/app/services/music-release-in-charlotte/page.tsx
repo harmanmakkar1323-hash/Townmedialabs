@@ -6,7 +6,7 @@ const location = locations["charlotte"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Charlotte | TML Agency",
-  description: "TML offers expert music release services in Charlotte. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Charlotte. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release charlotte", "music release agency charlotte", "music release company charlotte"],
 };
 

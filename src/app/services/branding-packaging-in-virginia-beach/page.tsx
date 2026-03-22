@@ -6,7 +6,7 @@ const location = locations["virginia_beach"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Virginia Beach | TML Agency",
-  description: "TML offers expert packaging design services in Virginia Beach. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design virginia beach", "packaging design agency virginia beach", "packaging design company virginia beach"],
 };
 

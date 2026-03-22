@@ -6,7 +6,7 @@ const location = locations["perth"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Perth | TML Agency",
-  description: "TML offers expert google ads services in Perth. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads perth", "google ads agency perth", "google ads company perth"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["faridabad"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Faridabad | TML Agency",
-  description: "TML offers expert music release and distribution services in Faridabad. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release and distribution services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release and distribution faridabad", "music release and distribution agency faridabad", "music release and distribution company faridabad"],
 };
 

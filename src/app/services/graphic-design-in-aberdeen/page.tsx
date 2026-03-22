@@ -6,7 +6,7 @@ const location = locations["aberdeen"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Aberdeen | TML Agency",
-  description: "TML offers expert graphic design services in Aberdeen. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design aberdeen", "graphic design agency aberdeen", "graphic design company aberdeen"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["honolulu"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Honolulu | TML Agency",
-  description: "TML offers expert google ads services in Honolulu. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads honolulu", "google ads agency honolulu", "google ads company honolulu"],
 };
 

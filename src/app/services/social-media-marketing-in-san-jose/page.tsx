@@ -6,7 +6,7 @@ const location = locations["san_jose"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in San Jose | TML Agency",
-  description: "TML offers expert social media marketing services in San Jose. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing san jose", "social media marketing agency san jose", "social media marketing company san jose"],
 };
 

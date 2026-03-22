@@ -6,7 +6,7 @@ const location = locations["preston"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Preston | TML Agency",
-  description: "TML offers expert packaging design services in Preston. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design preston", "packaging design agency preston", "packaging design company preston"],
 };
 

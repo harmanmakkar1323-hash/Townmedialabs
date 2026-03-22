@@ -6,7 +6,7 @@ const location = locations["mohali"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Mohali | TML Agency",
-  description: "TML offers expert video editing services in Mohali. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing mohali", "video editing agency mohali", "video editing company mohali"],
 };
 

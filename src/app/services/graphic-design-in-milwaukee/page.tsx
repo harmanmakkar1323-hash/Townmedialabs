@@ -6,7 +6,7 @@ const location = locations["milwaukee"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Milwaukee | TML Agency",
-  description: "TML offers expert graphic design services in Milwaukee. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design milwaukee", "graphic design agency milwaukee", "graphic design company milwaukee"],
 };
 

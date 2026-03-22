@@ -6,7 +6,7 @@ const location = locations["milwaukee"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Milwaukee | TML Agency",
-  description: "TML offers expert lead generation services in Milwaukee. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation milwaukee", "lead generation agency milwaukee", "lead generation company milwaukee"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["san_antonio"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in San Antonio | TML Agency",
-  description: "TML offers expert packaging design services in San Antonio. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design san antonio", "packaging design agency san antonio", "packaging design company san antonio"],
 };
 

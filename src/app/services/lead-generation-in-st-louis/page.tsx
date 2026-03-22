@@ -6,7 +6,7 @@ const location = locations["st_louis"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in St. Louis | TML Agency",
-  description: "TML offers expert lead generation services in St. Louis. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation st. louis", "lead generation agency st. louis", "lead generation company st. louis"],
 };
 

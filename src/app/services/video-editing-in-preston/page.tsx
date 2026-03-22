@@ -6,7 +6,7 @@ const location = locations["preston"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Preston | TML Agency",
-  description: "TML offers expert video editing services in Preston. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing preston", "video editing agency preston", "video editing company preston"],
 };
 

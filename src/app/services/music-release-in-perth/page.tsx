@@ -6,7 +6,7 @@ const location = locations["perth"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Perth | TML Agency",
-  description: "TML offers expert music release services in Perth. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release perth", "music release agency perth", "music release company perth"],
 };
 

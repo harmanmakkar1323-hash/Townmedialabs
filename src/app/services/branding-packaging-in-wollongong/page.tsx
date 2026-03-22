@@ -6,7 +6,7 @@ const location = locations["wollongong"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Wollongong | TML Agency",
-  description: "TML offers expert packaging design services in Wollongong. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design wollongong", "packaging design agency wollongong", "packaging design company wollongong"],
 };
 

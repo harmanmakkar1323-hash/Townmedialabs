@@ -6,7 +6,7 @@ const location = locations["canberra"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Canberra | TML Agency",
-  description: "TML offers expert social media marketing services in Canberra. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing canberra", "social media marketing agency canberra", "social media marketing company canberra"],
 };
 

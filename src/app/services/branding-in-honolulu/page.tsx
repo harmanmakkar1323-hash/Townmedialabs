@@ -6,7 +6,7 @@ const location = locations["honolulu"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Honolulu | TML Agency",
-  description: "TML offers expert branding services in Honolulu. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding honolulu", "branding agency honolulu", "branding company honolulu"],
 };
 

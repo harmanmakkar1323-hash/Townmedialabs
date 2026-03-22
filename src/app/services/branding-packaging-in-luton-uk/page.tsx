@@ -6,7 +6,7 @@ const location = locations["luton_uk"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Luton | TML Agency",
-  description: "TML offers expert packaging design services in Luton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design luton", "packaging design agency luton", "packaging design company luton"],
 };
 

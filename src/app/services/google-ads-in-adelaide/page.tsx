@@ -6,7 +6,7 @@ const location = locations["adelaide"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Adelaide | TML Agency",
-  description: "TML offers expert google ads services in Adelaide. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Adelaide. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads adelaide", "google ads agency adelaide", "google ads company adelaide"],
 };
 

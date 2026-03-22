@@ -6,7 +6,7 @@ const location = locations["pune"];
 
 export const metadata: Metadata = {
   title: "Best Branding & Packaging Agency in Pune | TML Agency",
-  description: "TML offers expert branding and packaging services in Pune. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding and packaging services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging pune", "branding and packaging agency pune", "branding and packaging company pune"],
 };
 

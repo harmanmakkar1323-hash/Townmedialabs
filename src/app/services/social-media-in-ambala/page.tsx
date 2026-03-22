@@ -6,7 +6,7 @@ const location = locations["ambala"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Ambala | TML Agency",
-  description: "TML offers expert social media marketing services in Ambala. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Ambala. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing ambala", "social media marketing agency ambala", "social media marketing company ambala"],
 };
 

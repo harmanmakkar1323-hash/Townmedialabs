@@ -6,7 +6,7 @@ const location = locations["surat"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Surat | TML Agency",
-  description: "TML offers expert Google Ads management services in Surat. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads management services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["Google Ads management surat", "Google Ads management agency surat", "Google Ads management company surat"],
 };
 

@@ -11,9 +11,14 @@ const ease = [0.23, 1, 0.32, 1] as const;
 // Flatten all tools for marquee rows
 const row1Tools = toolCategories[0].tools.concat(toolCategories[1].tools);
 const row2Tools = toolCategories[2].tools.concat(toolCategories[3].tools);
+// Deterministic shuffle using a simple seed-based approach to avoid hydration mismatch
 const row3Tools = toolCategories
   .flatMap((c) => c.tools)
-  .sort(() => 0.5 - Math.random());
+  .sort((a, b) => {
+    const hashA = a.split("").reduce((acc, ch) => acc + ch.charCodeAt(0), 0);
+    const hashB = b.split("").reduce((acc, ch) => acc + ch.charCodeAt(0), 0);
+    return hashA - hashB;
+  });
 
 const totalTools = toolCategories.reduce(
   (sum, cat) => sum + cat.tools.length,

@@ -6,7 +6,7 @@ const location = locations["jacksonville"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Jacksonville | TML Agency",
-  description: "TML offers expert google ads services in Jacksonville. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads jacksonville", "google ads agency jacksonville", "google ads company jacksonville"],
 };
 

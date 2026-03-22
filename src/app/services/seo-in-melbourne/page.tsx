@@ -6,7 +6,7 @@ const location = locations["melbourne"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Melbourne | TML Agency",
-  description: "TML offers expert seo services in Melbourne. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo melbourne", "seo agency melbourne", "seo company melbourne"],
 };
 

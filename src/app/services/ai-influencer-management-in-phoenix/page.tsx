@@ -6,7 +6,7 @@ const location = locations["phoenix"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Phoenix | TML Agency",
-  description: "TML offers expert ai influencer management services in Phoenix. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert ai influencer management services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management phoenix", "ai influencer management agency phoenix", "ai influencer management company phoenix"],
 };
 

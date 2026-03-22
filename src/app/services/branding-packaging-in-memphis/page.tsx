@@ -6,7 +6,7 @@ const location = locations["memphis"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Memphis | TML Agency",
-  description: "TML offers expert packaging design services in Memphis. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design memphis", "packaging design agency memphis", "packaging design company memphis"],
 };
 

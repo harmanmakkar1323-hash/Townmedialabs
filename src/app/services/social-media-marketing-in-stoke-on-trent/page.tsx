@@ -6,7 +6,7 @@ const location = locations["stoke_on_trent"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Stoke-on-Trent | TML Agency",
-  description: "TML offers expert social media marketing services in Stoke-on-Trent. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing stoke-on-trent", "social media marketing agency stoke-on-trent", "social media marketing company stoke-on-trent"],
 };
 

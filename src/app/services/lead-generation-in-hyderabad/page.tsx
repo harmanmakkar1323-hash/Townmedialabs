@@ -6,7 +6,7 @@ const location = locations["hyderabad"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Hyderabad | TML Agency",
-  description: "TML offers expert lead generation services in Hyderabad. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation hyderabad", "lead generation agency hyderabad", "lead generation company hyderabad"],
 };
 

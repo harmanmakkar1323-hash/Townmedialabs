@@ -6,7 +6,7 @@ const location = locations["punjab"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Punjab | TML Agency",
-  description: "TML offers expert branding services in Punjab. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding punjab", "branding agency punjab", "branding company punjab"],
 };
 

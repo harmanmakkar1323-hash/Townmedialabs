@@ -6,7 +6,7 @@ const location = locations["melbourne"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Melbourne | TML Agency",
-  description: "TML offers expert website development services in Melbourne. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development melbourne", "website development agency melbourne", "website development company melbourne"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["pittsburgh"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Pittsburgh | TML Agency",
-  description: "TML offers expert video editing services in Pittsburgh. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing pittsburgh", "video editing agency pittsburgh", "video editing company pittsburgh"],
 };
 

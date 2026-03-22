@@ -6,7 +6,7 @@ const location = locations["milton_keynes"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Milton Keynes | TML Agency",
-  description: "TML offers expert packaging design services in Milton Keynes. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design milton keynes", "packaging design agency milton keynes", "packaging design company milton keynes"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["noida"];
 
 export const metadata: Metadata = {
   title: "Best Branding & Packaging Agency in Noida | TML Agency",
-  description: "TML offers expert branding and packaging services in Noida. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding and packaging services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging noida", "branding and packaging agency noida", "branding and packaging company noida"],
 };
 

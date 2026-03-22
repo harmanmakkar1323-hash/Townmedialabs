@@ -6,7 +6,7 @@ const location = locations["zirakpur"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Zirakpur | TML Agency",
-  description: "TML offers expert branding services in Zirakpur. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding zirakpur", "branding agency zirakpur", "branding company zirakpur"],
 };
 

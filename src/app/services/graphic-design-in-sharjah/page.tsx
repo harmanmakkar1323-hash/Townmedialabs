@@ -6,7 +6,7 @@ const location = locations["sharjah"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Sharjah | TML Agency",
-  description: "TML offers expert graphic design services in Sharjah. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design sharjah", "graphic design agency sharjah", "graphic design company sharjah"],
 };
 

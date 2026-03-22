@@ -6,7 +6,7 @@ const location = locations["mumbai"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Mumbai | TML Agency",
-  description: "TML offers expert social media marketing services in Mumbai. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing mumbai", "social media marketing agency mumbai", "social media marketing company mumbai"],
 };
 

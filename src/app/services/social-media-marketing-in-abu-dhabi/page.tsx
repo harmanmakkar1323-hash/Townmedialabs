@@ -6,7 +6,7 @@ const location = locations["abu_dhabi"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Abu Dhabi | TML Agency",
-  description: "TML offers expert social media marketing services in Abu Dhabi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Abu Dhabi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing abu dhabi", "social media marketing agency abu dhabi", "social media marketing company abu dhabi"],
 };
 

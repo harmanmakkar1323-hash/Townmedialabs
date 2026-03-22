@@ -6,7 +6,7 @@ const location = locations["toowoomba"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Toowoomba | TML Agency",
-  description: "TML offers expert packaging design services in Toowoomba. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design toowoomba", "packaging design agency toowoomba", "packaging design company toowoomba"],
 };
 

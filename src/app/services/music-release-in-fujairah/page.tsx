@@ -6,7 +6,7 @@ const location = locations["fujairah"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Fujairah | TML Agency",
-  description: "TML offers expert music release services in Fujairah. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release fujairah", "music release agency fujairah", "music release company fujairah"],
 };
 

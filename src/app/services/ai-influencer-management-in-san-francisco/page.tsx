@@ -6,7 +6,7 @@ const location = locations["san_francisco"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in San Francisco | TML Agency",
-  description: "TML offers expert ai influencer management services in San Francisco. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert ai influencer management services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management san francisco", "ai influencer management agency san francisco", "ai influencer management company san francisco"],
 };
 

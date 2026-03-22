@@ -458,8 +458,8 @@ export function WorkHome2() {
         {/* Bottom stats row with AnimatedCounter */}
         <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
           {[
-            { target: 10, suffix: "+", label: "Projects per quarter" },
-            { target: 6, suffix: "", label: "Industries served" },
+            { target: 15, suffix: "+", label: "Projects per quarter" },
+            { target: 25, suffix: "+", label: "Industries served" },
             { target: 100, suffix: "%", label: "Client satisfaction" },
             { target: 48, suffix: "hr", label: "Avg. response time" },
           ].map((stat, i) => (

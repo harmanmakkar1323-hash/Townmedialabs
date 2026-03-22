@@ -6,7 +6,7 @@ const location = locations["southampton"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Southampton | TML Agency",
-  description: "TML offers expert music release services in Southampton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release southampton", "music release agency southampton", "music release company southampton"],
 };
 

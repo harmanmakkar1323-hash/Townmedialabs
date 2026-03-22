@@ -6,7 +6,7 @@ const location = locations["cheltenham"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Cheltenham | TML Agency",
-  description: "TML offers expert social media marketing services in Cheltenham. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing cheltenham", "social media marketing agency cheltenham", "social media marketing company cheltenham"],
 };
 

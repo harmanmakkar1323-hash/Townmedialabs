@@ -6,7 +6,7 @@ const location = locations["luton_uk"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Luton | TML Agency",
-  description: "TML offers expert video editing services in Luton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing luton", "video editing agency luton", "video editing company luton"],
 };
 

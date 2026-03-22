@@ -6,7 +6,7 @@ const location = locations["honolulu"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Honolulu | TML Agency",
-  description: "TML offers expert website development services in Honolulu. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development honolulu", "website development agency honolulu", "website development company honolulu"],
 };
 

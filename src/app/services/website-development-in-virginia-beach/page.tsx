@@ -6,7 +6,7 @@ const location = locations["virginia_beach"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Virginia Beach | TML Agency",
-  description: "TML offers expert website development services in Virginia Beach. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development virginia beach", "website development agency virginia beach", "website development company virginia beach"],
 };
 

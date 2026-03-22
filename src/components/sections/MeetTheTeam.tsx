@@ -1,7 +1,6 @@
 "use client";
 
 import { useRef } from "react";
-import Image from "next/image";
 import { motion, useScroll, useTransform, useInView } from "motion/react";
 
 const ease = [0.23, 1, 0.32, 1] as const;
@@ -23,21 +22,22 @@ export function MeetTheTeam() {
       ref={sectionRef}
       className="relative w-full min-h-[500px] md:min-h-[600px] flex items-center justify-center overflow-hidden bg-[#080808]"
     >
-      {/* Background image with parallax + desaturated treatment */}
+      {/* Background video with parallax + desaturated treatment */}
       <motion.div className="absolute inset-0 z-0" style={{ y: bgY }}>
-        <Image
-          src="/team-bg.png"
-          alt="TML Agency creative team collaborating in modern office"
-          fill
-          sizes="100vw"
-          className="object-cover object-center"
-          style={{ filter: "saturate(0.2) brightness(0.45)" }}
-          loading="lazy"
-        />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover object-center"
+          style={{ filter: "brightness(0.65)" }}
+        >
+          <source src="/team-bg.mp4" type="video/mp4" />
+        </video>
       </motion.div>
 
-      {/* Dark overlay */}
-      <div className="absolute inset-0 z-[1] bg-black/50" />
+      {/* Slight dark overlay for text readability */}
+      <div className="absolute inset-0 z-[1] bg-black/20" />
 
       {/* Ambient gradient orbs */}
       <div className="pointer-events-none absolute inset-0 z-[2] overflow-hidden">
@@ -106,12 +106,12 @@ export function MeetTheTeam() {
           transition={{ duration: 1, delay: 0.1, ease }}
           className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight text-white mb-4"
         >
-          Standing Tall,
+          We Create Ads
           <br />
-          <span className="italic bg-gradient-to-r from-[#ff4500] via-[#ff6b35] to-[#ff4500]/60 bg-clip-text text-transparent">Talking Results.</span>
+          <span className="italic bg-gradient-to-r from-[#ff4500] via-[#ff6b35] to-[#ff4500]/60 bg-clip-text text-transparent">People Remember.</span>
         </motion.h2>
 
-        {/* Team count badge */}
+        {/* Ads shoot badge */}
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -119,15 +119,13 @@ export function MeetTheTeam() {
           transition={{ duration: 0.6, delay: 0.3, ease }}
           className="inline-flex items-center gap-3 bg-black/50 backdrop-blur-xl rounded-full border border-white/10 px-5 py-2.5 mb-8"
         >
-          <div className="flex -space-x-2">
-            {[0, 1, 2, 3].map((i) => (
-              <div
-                key={i}
-                className="w-6 h-6 rounded-full border-2 border-black/50 bg-gradient-to-br from-[#ff4500]/60 to-[#ff6b35]/40"
-              />
-            ))}
+          <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#ff4500]">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23 7L16 12L23 17V7Z" fill="white" />
+              <rect x="1" y="5" width="15" height="14" rx="2" fill="white" />
+            </svg>
           </div>
-          <span className="text-xs font-semibold text-white/80">30+ Creatives</span>
+          <span className="text-xs font-semibold text-white/80">500+ Ads Shot</span>
           <motion.span
             className="w-1.5 h-1.5 rounded-full bg-[#22c55e]"
             animate={{ opacity: [1, 0.4, 1] }}
@@ -143,7 +141,7 @@ export function MeetTheTeam() {
           transition={{ duration: 0.7, delay: 0.3, ease }}
         >
           <motion.a
-            href="#team"
+            href="/contact"
             whileHover={{
               scale: 1.05,
               boxShadow: "0 10px 50px rgba(255,69,0,0.35)",
@@ -165,7 +163,7 @@ export function MeetTheTeam() {
               }}
               className="absolute inset-0 rounded-xl border-2 border-[#ff4500] pointer-events-none"
             />
-            Meet The Squad &rarr;
+            Get In Touch &rarr;
           </motion.a>
         </motion.div>
       </div>

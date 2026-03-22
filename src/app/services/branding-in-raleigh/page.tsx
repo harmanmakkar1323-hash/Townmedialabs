@@ -6,7 +6,7 @@ const location = locations["raleigh"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Raleigh | TML Agency",
-  description: "TML offers expert branding services in Raleigh. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Raleigh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding raleigh", "branding agency raleigh", "branding company raleigh"],
 };
 

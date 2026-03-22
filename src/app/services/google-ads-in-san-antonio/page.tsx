@@ -6,7 +6,7 @@ const location = locations["san_antonio"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in San Antonio | TML Agency",
-  description: "TML offers expert google ads services in San Antonio. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads san antonio", "google ads agency san antonio", "google ads company san antonio"],
 };
 

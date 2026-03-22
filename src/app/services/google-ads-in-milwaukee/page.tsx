@@ -6,7 +6,7 @@ const location = locations["milwaukee"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Milwaukee | TML Agency",
-  description: "TML offers expert google ads services in Milwaukee. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads milwaukee", "google ads agency milwaukee", "google ads company milwaukee"],
 };
 

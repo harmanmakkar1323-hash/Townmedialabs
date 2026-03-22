@@ -225,7 +225,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
                         <AnimatedCounter
                           target={parseInt(stat.value.replace(/[^0-9]/g, ""))}
                           suffix={stat.value.replace(/[0-9]/g, "")}
-                          duration={2000}
+                          duration={2}
                         />
                       </>
                     ) : (

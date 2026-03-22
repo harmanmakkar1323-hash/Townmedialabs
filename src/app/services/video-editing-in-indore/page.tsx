@@ -6,7 +6,7 @@ const location = locations["indore"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Indore | TML Agency",
-  description: "TML offers expert video editing services in Indore. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Indore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing indore", "video editing agency indore", "video editing company indore"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["al_ain"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Al Ain | TML Agency",
-  description: "TML offers expert branding services in Al Ain. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Al Ain. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding al ain", "branding agency al ain", "branding company al ain"],
 };
 

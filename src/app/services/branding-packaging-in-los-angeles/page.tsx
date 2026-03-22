@@ -6,7 +6,7 @@ const location = locations["los_angeles"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Los Angeles | TML Agency",
-  description: "TML offers expert packaging design services in Los Angeles. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design los angeles", "packaging design agency los angeles", "packaging design company los angeles"],
 };
 

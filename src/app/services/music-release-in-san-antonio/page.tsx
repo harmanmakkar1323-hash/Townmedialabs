@@ -6,7 +6,7 @@ const location = locations["san_antonio"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in San Antonio | TML Agency",
-  description: "TML offers expert music release services in San Antonio. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release san antonio", "music release agency san antonio", "music release company san antonio"],
 };
 

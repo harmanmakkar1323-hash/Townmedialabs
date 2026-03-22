@@ -6,7 +6,7 @@ const location = locations["fort_worth"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Fort Worth | TML Agency",
-  description: "TML offers expert lead generation services in Fort Worth. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation fort worth", "lead generation agency fort worth", "lead generation company fort worth"],
 };
 

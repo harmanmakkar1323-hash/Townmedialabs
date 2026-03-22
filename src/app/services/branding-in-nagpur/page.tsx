@@ -6,7 +6,7 @@ const location = locations["nagpur"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Nagpur | TML Agency",
-  description: "TML offers expert branding services in Nagpur. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Nagpur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding nagpur", "branding agency nagpur", "branding company nagpur"],
 };
 

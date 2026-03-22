@@ -6,7 +6,7 @@ const location = locations["wollongong"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Wollongong | TML Agency",
-  description: "TML offers expert social media marketing services in Wollongong. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing wollongong", "social media marketing agency wollongong", "social media marketing company wollongong"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["wolverhampton"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Wolverhampton | TML Agency",
-  description: "TML offers expert ai influencer management services in Wolverhampton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert ai influencer management services in Wolverhampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management wolverhampton", "ai influencer management agency wolverhampton", "ai influencer management company wolverhampton"],
 };
 

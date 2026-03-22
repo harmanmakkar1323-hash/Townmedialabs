@@ -6,7 +6,7 @@ const location = locations["seattle"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Seattle | TML Agency",
-  description: "TML offers expert website development services in Seattle. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development seattle", "website development agency seattle", "website development company seattle"],
 };
 

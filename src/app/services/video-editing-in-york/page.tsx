@@ -6,7 +6,7 @@ const location = locations["york"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in York | TML Agency",
-  description: "TML offers expert video editing services in York. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in York. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing york", "video editing agency york", "video editing company york"],
 };
 

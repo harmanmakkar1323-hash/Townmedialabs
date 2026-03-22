@@ -6,7 +6,7 @@ const location = locations["auckland"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Auckland | TML Agency",
-  description: "TML offers expert video editing services in Auckland. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing auckland", "video editing agency auckland", "video editing company auckland"],
 };
 

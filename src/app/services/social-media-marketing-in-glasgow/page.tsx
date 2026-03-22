@@ -6,7 +6,7 @@ const location = locations["glasgow"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Glasgow | TML Agency",
-  description: "TML offers expert social media marketing services in Glasgow. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing glasgow", "social media marketing agency glasgow", "social media marketing company glasgow"],
 };
 

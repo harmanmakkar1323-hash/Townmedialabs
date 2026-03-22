@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
-const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "+919872648209";
+const PHONE_NUMBER = "+919872648209";
 
 export default function StickyMobileCTA() {
   const [show, setShow] = useState(false);

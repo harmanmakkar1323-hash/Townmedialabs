@@ -6,7 +6,7 @@ const location = locations["townsville"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Townsville | TML Agency",
-  description: "TML offers expert packaging design services in Townsville. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design townsville", "packaging design agency townsville", "packaging design company townsville"],
 };
 

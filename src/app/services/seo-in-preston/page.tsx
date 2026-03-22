@@ -6,7 +6,7 @@ const location = locations["preston"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Preston | TML Agency",
-  description: "TML offers expert seo services in Preston. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo preston", "seo agency preston", "seo company preston"],
 };
 

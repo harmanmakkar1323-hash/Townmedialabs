@@ -6,7 +6,7 @@ const location = locations["preston"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Preston | TML Agency",
-  description: "TML offers expert music release services in Preston. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release preston", "music release agency preston", "music release company preston"],
 };
 

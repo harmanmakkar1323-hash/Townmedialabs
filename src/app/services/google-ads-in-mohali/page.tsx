@@ -6,7 +6,7 @@ const location = locations["mohali"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Mohali | TML Agency",
-  description: "TML offers expert Google Ads management services in Mohali. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads management services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["Google Ads management mohali", "Google Ads management agency mohali", "Google Ads management company mohali"],
 };
 

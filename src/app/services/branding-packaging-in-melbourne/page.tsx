@@ -6,7 +6,7 @@ const location = locations["melbourne"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Melbourne | TML Agency",
-  description: "TML offers expert packaging design services in Melbourne. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design melbourne", "packaging design agency melbourne", "packaging design company melbourne"],
 };
 

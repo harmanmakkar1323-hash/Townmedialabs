@@ -6,7 +6,7 @@ const location = locations["southampton"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Southampton | TML Agency",
-  description: "TML offers expert website development services in Southampton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development southampton", "website development agency southampton", "website development company southampton"],
 };
 

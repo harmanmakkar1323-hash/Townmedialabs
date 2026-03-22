@@ -6,7 +6,7 @@ const location = locations["adelaide"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Adelaide | TML Agency",
-  description: "TML offers expert social media marketing services in Adelaide. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Adelaide. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing adelaide", "social media marketing agency adelaide", "social media marketing company adelaide"],
 };
 

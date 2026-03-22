@@ -6,7 +6,7 @@ const location = locations["cambridge"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Cambridge | TML Agency",
-  description: "TML offers expert google ads services in Cambridge. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads cambridge", "google ads agency cambridge", "google ads company cambridge"],
 };
 

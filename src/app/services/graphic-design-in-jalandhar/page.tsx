@@ -6,7 +6,7 @@ const location = locations["jalandhar"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Jalandhar | TML Agency",
-  description: "TML offers expert graphic design services in Jalandhar. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design jalandhar", "graphic design agency jalandhar", "graphic design company jalandhar"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["tampa"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Tampa | TML Agency",
-  description: "TML offers expert lead generation services in Tampa. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation tampa", "lead generation agency tampa", "lead generation company tampa"],
 };
 

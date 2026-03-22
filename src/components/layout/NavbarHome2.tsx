@@ -8,7 +8,7 @@ const navLinks = [
   { label: "About", href: "/about" },
   { label: "Services", href: "/services", hasMega: true },
   { label: "Portfolio", href: "/#portfolio" },
-  { label: "Contact", href: "/contact" },
+  { label: "Blog", href: "/blog" },
 ];
 
 const megaMenuServices = [

@@ -6,7 +6,7 @@ const location = locations["southampton"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Southampton | TML Agency",
-  description: "TML offers expert branding services in Southampton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding southampton", "branding agency southampton", "branding company southampton"],
 };
 

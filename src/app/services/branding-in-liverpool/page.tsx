@@ -6,7 +6,7 @@ const location = locations["liverpool"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Liverpool | TML Agency",
-  description: "TML offers expert branding services in Liverpool. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding liverpool", "branding agency liverpool", "branding company liverpool"],
 };
 

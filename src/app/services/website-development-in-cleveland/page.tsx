@@ -6,7 +6,7 @@ const location = locations["cleveland"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Cleveland | TML Agency",
-  description: "TML offers expert website development services in Cleveland. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Cleveland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development cleveland", "website development agency cleveland", "website development company cleveland"],
 };
 

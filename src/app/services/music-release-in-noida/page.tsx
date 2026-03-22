@@ -6,7 +6,7 @@ const location = locations["noida"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Noida | TML Agency",
-  description: "TML offers expert music release and distribution services in Noida. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release and distribution services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release and distribution noida", "music release and distribution agency noida", "music release and distribution company noida"],
 };
 

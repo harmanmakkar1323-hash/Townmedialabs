@@ -6,7 +6,7 @@ const location = locations["bhopal"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Bhopal | TML Agency",
-  description: "TML offers expert social media marketing services in Bhopal. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing bhopal", "social media marketing agency bhopal", "social media marketing company bhopal"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["peterborough"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Peterborough | TML Agency",
-  description: "TML offers expert website development services in Peterborough. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development peterborough", "website development agency peterborough", "website development company peterborough"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["leicester"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Leicester | TML Agency",
-  description: "TML offers expert lead generation services in Leicester. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation leicester", "lead generation agency leicester", "lead generation company leicester"],
 };
 

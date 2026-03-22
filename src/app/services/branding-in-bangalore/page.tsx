@@ -6,7 +6,7 @@ const location = locations["bangalore"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Bangalore | TML Agency",
-  description: "TML offers expert branding services in Bangalore. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding bangalore", "branding agency bangalore", "branding company bangalore"],
 };
 

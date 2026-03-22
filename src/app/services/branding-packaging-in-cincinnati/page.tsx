@@ -6,7 +6,7 @@ const location = locations["cincinnati"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Cincinnati | TML Agency",
-  description: "TML offers expert packaging design services in Cincinnati. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design cincinnati", "packaging design agency cincinnati", "packaging design company cincinnati"],
 };
 

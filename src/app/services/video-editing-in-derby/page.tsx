@@ -6,7 +6,7 @@ const location = locations["derby"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Derby | TML Agency",
-  description: "TML offers expert video editing services in Derby. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing derby", "video editing agency derby", "video editing company derby"],
 };
 

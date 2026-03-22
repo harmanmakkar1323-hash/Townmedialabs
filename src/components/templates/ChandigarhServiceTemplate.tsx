@@ -191,7 +191,7 @@ export default function ChandigarhServiceTemplate({ data }: { data: ChandigarhSe
                         <AnimatedCounter
                           target={parseInt(stat.value.replace(/[^0-9]/g, ""))}
                           suffix={stat.value.replace(/[0-9]/g, "")}
-                          duration={2000}
+                          duration={2}
                         />
                       ) : (
                         <span className="text-[#ff4500]">{stat.value}</span>

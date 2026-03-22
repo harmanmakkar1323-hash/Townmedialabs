@@ -6,7 +6,7 @@ const location = locations["norwich"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Norwich | TML Agency",
-  description: "TML offers expert seo services in Norwich. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Norwich. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo norwich", "seo agency norwich", "seo company norwich"],
 };
 

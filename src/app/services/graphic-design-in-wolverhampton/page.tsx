@@ -6,7 +6,7 @@ const location = locations["wolverhampton"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Wolverhampton | TML Agency",
-  description: "TML offers expert graphic design services in Wolverhampton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Wolverhampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design wolverhampton", "graphic design agency wolverhampton", "graphic design company wolverhampton"],
 };
 

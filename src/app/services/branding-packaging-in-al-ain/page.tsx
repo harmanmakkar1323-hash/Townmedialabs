@@ -6,7 +6,7 @@ const location = locations["al_ain"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Al Ain | TML Agency",
-  description: "TML offers expert packaging design services in Al Ain. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Al Ain. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design al ain", "packaging design agency al ain", "packaging design company al ain"],
 };
 

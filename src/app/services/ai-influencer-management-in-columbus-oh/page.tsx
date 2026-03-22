@@ -6,7 +6,7 @@ const location = locations["columbus_oh"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Columbus | TML Agency",
-  description: "TML offers expert ai influencer management services in Columbus. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert ai influencer management services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management columbus", "ai influencer management agency columbus", "ai influencer management company columbus"],
 };
 

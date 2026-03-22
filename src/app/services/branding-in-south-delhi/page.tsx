@@ -6,7 +6,7 @@ const location = locations["south_delhi"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in South Delhi | TML Agency",
-  description: "TML offers expert branding services in South Delhi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding south delhi", "branding agency south delhi", "branding company south delhi"],
 };
 

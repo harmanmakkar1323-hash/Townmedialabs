@@ -6,7 +6,7 @@ const location = locations["st_louis"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in St. Louis | TML Agency",
-  description: "TML offers expert branding services in St. Louis. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding st. louis", "branding agency st. louis", "branding company st. louis"],
 };
 

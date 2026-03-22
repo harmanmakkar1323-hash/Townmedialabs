@@ -6,7 +6,7 @@ const location = locations["manchester"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Manchester | TML Agency",
-  description: "TML offers expert video editing services in Manchester. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing manchester", "video editing agency manchester", "video editing company manchester"],
 };
 

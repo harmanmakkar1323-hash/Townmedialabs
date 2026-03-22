@@ -6,7 +6,7 @@ const location = locations["darwin"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Darwin | TML Agency",
-  description: "TML offers expert music release services in Darwin. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Darwin. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release darwin", "music release agency darwin", "music release company darwin"],
 };
 

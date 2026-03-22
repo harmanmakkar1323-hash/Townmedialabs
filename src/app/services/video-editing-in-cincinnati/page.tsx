@@ -6,7 +6,7 @@ const location = locations["cincinnati"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Cincinnati | TML Agency",
-  description: "TML offers expert video editing services in Cincinnati. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing cincinnati", "video editing agency cincinnati", "video editing company cincinnati"],
 };
 

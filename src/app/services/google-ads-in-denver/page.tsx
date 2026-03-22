@@ -6,7 +6,7 @@ const location = locations["denver"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Denver | TML Agency",
-  description: "TML offers expert google ads services in Denver. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads denver", "google ads agency denver", "google ads company denver"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["derby"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Derby | TML Agency",
-  description: "TML offers expert google ads services in Derby. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads derby", "google ads agency derby", "google ads company derby"],
 };
 

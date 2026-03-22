@@ -6,7 +6,7 @@ const location = locations["toowoomba"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Toowoomba | TML Agency",
-  description: "TML offers expert website development services in Toowoomba. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development toowoomba", "website development agency toowoomba", "website development company toowoomba"],
 };
 

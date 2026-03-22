@@ -6,7 +6,7 @@ const location = locations["cairns"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Cairns | TML Agency",
-  description: "TML offers expert music release services in Cairns. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Cairns. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release cairns", "music release agency cairns", "music release company cairns"],
 };
 

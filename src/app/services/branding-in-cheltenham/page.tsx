@@ -6,7 +6,7 @@ const location = locations["cheltenham"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Cheltenham | TML Agency",
-  description: "TML offers expert branding services in Cheltenham. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding cheltenham", "branding agency cheltenham", "branding company cheltenham"],
 };
 

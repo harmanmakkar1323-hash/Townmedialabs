@@ -6,7 +6,7 @@ const location = locations["southampton"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Southampton | TML Agency",
-  description: "TML offers expert video editing services in Southampton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing southampton", "video editing agency southampton", "video editing company southampton"],
 };
 

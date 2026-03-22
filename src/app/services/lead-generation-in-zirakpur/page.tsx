@@ -6,7 +6,7 @@ const location = locations["zirakpur"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Zirakpur | TML Agency",
-  description: "TML offers expert lead generation services in Zirakpur. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation zirakpur", "lead generation agency zirakpur", "lead generation company zirakpur"],
 };
 

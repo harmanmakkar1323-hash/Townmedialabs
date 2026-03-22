@@ -6,7 +6,7 @@ const location = locations["reading"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Reading | TML Agency",
-  description: "TML offers expert seo services in Reading. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo reading", "seo agency reading", "seo company reading"],
 };
 

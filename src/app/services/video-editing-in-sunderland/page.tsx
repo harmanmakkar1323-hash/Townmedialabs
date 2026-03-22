@@ -6,7 +6,7 @@ const location = locations["sunderland"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Sunderland | TML Agency",
-  description: "TML offers expert video editing services in Sunderland. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing sunderland", "video editing agency sunderland", "video editing company sunderland"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["bendigo"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Bendigo | TML Agency",
-  description: "TML offers expert social media marketing services in Bendigo. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing bendigo", "social media marketing agency bendigo", "social media marketing company bendigo"],
 };
 

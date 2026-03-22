@@ -6,7 +6,7 @@ const location = locations["surat"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Surat | TML Agency",
-  description: "TML offers expert video editing services in Surat. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing surat", "video editing agency surat", "video editing company surat"],
 };
 

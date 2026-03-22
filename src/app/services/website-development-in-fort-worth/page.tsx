@@ -6,7 +6,7 @@ const location = locations["fort_worth"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Fort Worth | TML Agency",
-  description: "TML offers expert website development services in Fort Worth. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development fort worth", "website development agency fort worth", "website development company fort worth"],
 };
 

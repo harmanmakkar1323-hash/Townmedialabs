@@ -6,7 +6,7 @@ const location = locations["dallas"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Dallas | TML Agency",
-  description: "TML offers expert ai influencer management services in Dallas. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert ai influencer management services in Dallas. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management dallas", "ai influencer management agency dallas", "ai influencer management company dallas"],
 };
 

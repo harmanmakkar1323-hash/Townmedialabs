@@ -11,7 +11,7 @@ const companyLinks = [
   { label: "Our Services", href: "/services" },
   { label: "Portfolio", href: "/#portfolio" },
   { label: "Contact Us", href: "/contact" },
-  { label: "Careers", href: "/contact" },
+  { label: "Careers", href: "/carrer" },
 ];
 
 const serviceLinks = [

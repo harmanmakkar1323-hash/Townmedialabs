@@ -6,7 +6,7 @@ const location = locations["sheffield"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Sheffield | TML Agency",
-  description: "TML offers expert music release services in Sheffield. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release sheffield", "music release agency sheffield", "music release company sheffield"],
 };
 

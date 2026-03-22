@@ -6,7 +6,7 @@ const location = locations["virginia_beach"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Virginia Beach | TML Agency",
-  description: "TML offers expert graphic design services in Virginia Beach. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design virginia beach", "graphic design agency virginia beach", "graphic design company virginia beach"],
 };
 

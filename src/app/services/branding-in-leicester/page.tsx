@@ -6,7 +6,7 @@ const location = locations["leicester"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Leicester | TML Agency",
-  description: "TML offers expert branding services in Leicester. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding leicester", "branding agency leicester", "branding company leicester"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["denver"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Denver | TML Agency",
-  description: "TML offers expert lead generation services in Denver. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation denver", "lead generation agency denver", "lead generation company denver"],
 };
 

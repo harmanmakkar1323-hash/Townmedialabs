@@ -6,7 +6,7 @@ const location = locations["boise"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Boise | TML Agency",
-  description: "TML offers expert graphic design services in Boise. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design boise", "graphic design agency boise", "graphic design company boise"],
 };
 

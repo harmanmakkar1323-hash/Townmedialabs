@@ -6,7 +6,7 @@ const location = locations["lucknow"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Lucknow | TML Agency",
-  description: "TML offers expert search engine optimization services in Lucknow. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert search engine optimization services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization lucknow", "search engine optimization agency lucknow", "search engine optimization company lucknow"],
 };
 

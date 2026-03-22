@@ -6,7 +6,7 @@ const location = locations["cairns"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Cairns | TML Agency",
-  description: "TML offers expert social media marketing services in Cairns. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Cairns. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing cairns", "social media marketing agency cairns", "social media marketing company cairns"],
 };
 

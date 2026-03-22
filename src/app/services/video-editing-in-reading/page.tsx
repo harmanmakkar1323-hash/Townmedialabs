@@ -6,7 +6,7 @@ const location = locations["reading"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Reading | TML Agency",
-  description: "TML offers expert video editing services in Reading. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing reading", "video editing agency reading", "video editing company reading"],
 };
 

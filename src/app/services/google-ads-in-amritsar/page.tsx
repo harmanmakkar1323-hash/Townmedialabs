@@ -6,7 +6,7 @@ const location = locations["amritsar"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Amritsar | TML Agency",
-  description: "TML offers expert Google Ads management services in Amritsar. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads management services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["Google Ads management amritsar", "Google Ads management agency amritsar", "Google Ads management company amritsar"],
 };
 

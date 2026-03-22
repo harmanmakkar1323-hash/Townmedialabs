@@ -6,7 +6,7 @@ const location = locations["sheffield"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Sheffield | TML Agency",
-  description: "TML offers expert social media marketing services in Sheffield. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing sheffield", "social media marketing agency sheffield", "social media marketing company sheffield"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["portland"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Portland | TML Agency",
-  description: "TML offers expert seo services in Portland. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Portland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo portland", "seo agency portland", "seo company portland"],
 };
 

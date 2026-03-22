@@ -77,7 +77,7 @@ export function HeroSection() {
           <div className="flex items-center gap-1.5">
             <span className="text-xs font-semibold text-accent">★★★★</span>
             <span className="text-[13px] text-[#888]">
-              200+ businesses scaled
+              500+ businesses scaled
             </span>
           </div>
         </motion.div>

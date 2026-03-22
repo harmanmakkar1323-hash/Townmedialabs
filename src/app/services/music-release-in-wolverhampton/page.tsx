@@ -6,7 +6,7 @@ const location = locations["wolverhampton"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Wolverhampton | TML Agency",
-  description: "TML offers expert music release services in Wolverhampton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Wolverhampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release wolverhampton", "music release agency wolverhampton", "music release company wolverhampton"],
 };
 

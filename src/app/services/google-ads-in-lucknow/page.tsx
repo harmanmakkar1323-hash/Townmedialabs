@@ -6,7 +6,7 @@ const location = locations["lucknow"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Lucknow | TML Agency",
-  description: "TML offers expert Google Ads management services in Lucknow. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads management services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["Google Ads management lucknow", "Google Ads management agency lucknow", "Google Ads management company lucknow"],
 };
 

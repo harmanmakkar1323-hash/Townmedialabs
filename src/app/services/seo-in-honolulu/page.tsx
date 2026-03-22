@@ -6,7 +6,7 @@ const location = locations["honolulu"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Honolulu | TML Agency",
-  description: "TML offers expert seo services in Honolulu. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo honolulu", "seo agency honolulu", "seo company honolulu"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["stoke_on_trent"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Stoke-on-Trent | TML Agency",
-  description: "TML offers expert seo services in Stoke-on-Trent. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo stoke-on-trent", "seo agency stoke-on-trent", "seo company stoke-on-trent"],
 };
 

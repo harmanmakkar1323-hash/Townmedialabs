@@ -6,7 +6,7 @@ const location = locations["columbus_oh"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Columbus | TML Agency",
-  description: "TML offers expert website development services in Columbus. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development columbus", "website development agency columbus", "website development company columbus"],
 };
 

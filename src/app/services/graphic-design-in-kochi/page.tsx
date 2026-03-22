@@ -6,7 +6,7 @@ const location = locations["kochi"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Kochi | TML Agency",
-  description: "TML offers expert graphic design services in Kochi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design kochi", "graphic design agency kochi", "graphic design company kochi"],
 };
 

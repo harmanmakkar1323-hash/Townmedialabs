@@ -67,10 +67,13 @@ export default function HeroHome2() {
       <div className="absolute inset-0 z-[3] bg-gradient-to-t from-[#050505] via-[#050505]/80 to-transparent h-full"></div>
 
       {/* Content Container */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-12 flex flex-col justify-end h-full">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-12 flex flex-col h-full">
+
+        {/* Spacer to push content down and reveal bg image */}
+        <div className="min-h-[200px] md:min-h-0 flex-1" />
 
         {/* Main Typography */}
-        <div className="max-w-5xl mb-8">
+        <div className="max-w-5xl mb-4">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -95,7 +98,7 @@ export default function HeroHome2() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.3, ease }}
-          className="flex flex-col sm:flex-row gap-4 mb-10"
+          className="flex flex-row gap-3 sm:gap-4 mb-10"
         >
           <motion.a
             href="/contact"
@@ -105,9 +108,9 @@ export default function HeroHome2() {
             }}
             whileTap={{ scale: 0.97 }}
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
-            className="relative inline-block rounded-xl bg-[#ff4500] px-8 py-4 text-sm font-semibold text-white text-center overflow-hidden group"
+            className="relative inline-block rounded-xl bg-[#ff4500] px-5 sm:px-8 py-4 text-xs sm:text-sm font-semibold text-white text-center overflow-hidden group"
           >
-            <span className="relative z-10">Book a Free Strategy Call</span>
+            <span className="relative z-10">Say Hi, Don&apos;t Be Shy</span>
             {/* Hover glow overlay */}
             <span className="absolute inset-0 bg-gradient-to-r from-[#ff5a1f] to-[#ff4500] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </motion.a>
@@ -120,7 +123,7 @@ export default function HeroHome2() {
             }}
             whileTap={{ scale: 0.97 }}
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
-            className="inline-block rounded-xl border border-white/[0.08] bg-white/[0.03] px-8 py-4 text-sm font-semibold text-white/80 text-center backdrop-blur-sm hover:text-white transition-colors"
+            className="inline-block rounded-xl border border-white/[0.08] bg-white/[0.03] px-5 sm:px-8 py-4 text-xs sm:text-sm font-semibold text-white/80 text-center backdrop-blur-sm hover:text-white transition-colors"
           >
             See Our Work
           </motion.a>

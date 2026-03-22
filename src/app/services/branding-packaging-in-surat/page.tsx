@@ -6,7 +6,7 @@ const location = locations["surat"];
 
 export const metadata: Metadata = {
   title: "Best Branding & Packaging Agency in Surat | TML Agency",
-  description: "TML offers expert branding and packaging services in Surat. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding and packaging services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging surat", "branding and packaging agency surat", "branding and packaging company surat"],
 };
 

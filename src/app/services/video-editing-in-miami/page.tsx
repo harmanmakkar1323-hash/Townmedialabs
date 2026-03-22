@@ -6,7 +6,7 @@ const location = locations["miami"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Miami | TML Agency",
-  description: "TML offers expert video editing services in Miami. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing miami", "video editing agency miami", "video editing company miami"],
 };
 

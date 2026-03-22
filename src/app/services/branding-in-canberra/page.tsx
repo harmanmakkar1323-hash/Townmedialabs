@@ -6,7 +6,7 @@ const location = locations["canberra"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Canberra | TML Agency",
-  description: "TML offers expert branding services in Canberra. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding canberra", "branding agency canberra", "branding company canberra"],
 };
 

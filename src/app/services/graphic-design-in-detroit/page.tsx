@@ -6,7 +6,7 @@ const location = locations["detroit"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Detroit | TML Agency",
-  description: "TML offers expert graphic design services in Detroit. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design detroit", "graphic design agency detroit", "graphic design company detroit"],
 };
 

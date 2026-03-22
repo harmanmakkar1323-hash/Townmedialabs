@@ -6,7 +6,7 @@ const location = locations["cardiff"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Cardiff | TML Agency",
-  description: "TML offers expert seo services in Cardiff. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo cardiff", "seo agency cardiff", "seo company cardiff"],
 };
 

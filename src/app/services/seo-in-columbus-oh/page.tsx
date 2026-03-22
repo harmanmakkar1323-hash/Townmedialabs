@@ -6,7 +6,7 @@ const location = locations["columbus_oh"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Columbus | TML Agency",
-  description: "TML offers expert seo services in Columbus. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo columbus", "seo agency columbus", "seo company columbus"],
 };
 

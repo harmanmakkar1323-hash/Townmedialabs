@@ -6,7 +6,7 @@ const location = locations["gold_coast"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Gold Coast | TML Agency",
-  description: "TML offers expert music release services in Gold Coast. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release gold coast", "music release agency gold coast", "music release company gold coast"],
 };
 

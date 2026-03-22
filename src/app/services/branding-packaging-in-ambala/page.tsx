@@ -6,7 +6,7 @@ const location = locations["ambala"];
 
 export const metadata: Metadata = {
   title: "Best Branding & Packaging Agency in Ambala | TML Agency",
-  description: "TML offers expert branding and packaging services in Ambala. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding and packaging services in Ambala. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging ambala", "branding and packaging agency ambala", "branding and packaging company ambala"],
 };
 

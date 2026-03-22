@@ -6,7 +6,7 @@ const location = locations["toowoomba"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Toowoomba | TML Agency",
-  description: "TML offers expert seo services in Toowoomba. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo toowoomba", "seo agency toowoomba", "seo company toowoomba"],
 };
 

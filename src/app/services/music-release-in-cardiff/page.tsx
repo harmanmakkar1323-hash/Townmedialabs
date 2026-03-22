@@ -6,7 +6,7 @@ const location = locations["cardiff"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Cardiff | TML Agency",
-  description: "TML offers expert music release services in Cardiff. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release cardiff", "music release agency cardiff", "music release company cardiff"],
 };
 

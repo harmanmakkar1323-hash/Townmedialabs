@@ -6,7 +6,7 @@ const location = locations["bathinda"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Bathinda | TML Agency",
-  description: "TML offers expert google ads services in Bathinda. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads bathinda", "google ads agency bathinda", "google ads company bathinda"],
 };
 

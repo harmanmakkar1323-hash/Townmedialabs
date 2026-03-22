@@ -6,7 +6,7 @@ const location = locations["calgary"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Calgary | TML Agency",
-  description: "TML offers expert graphic design services in Calgary, Alberta. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Calgary, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design calgary", "graphic design agency calgary"],
 };
 

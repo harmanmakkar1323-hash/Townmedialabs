@@ -6,7 +6,7 @@ const location = locations["dallas"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Dallas | TML Agency",
-  description: "TML offers expert video editing services in Dallas. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Dallas. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing dallas", "video editing agency dallas", "video editing company dallas"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["richmond"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Richmond | TML Agency",
-  description: "TML offers expert website development services in Richmond. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development richmond", "website development agency richmond", "website development company richmond"],
 };
 

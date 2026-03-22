@@ -6,7 +6,7 @@ const location = locations["brisbane"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Brisbane | TML Agency",
-  description: "TML offers expert website development services in Brisbane. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development brisbane", "website development agency brisbane", "website development company brisbane"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["cheltenham"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Cheltenham | TML Agency",
-  description: "TML offers expert video editing services in Cheltenham. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing cheltenham", "video editing agency cheltenham", "video editing company cheltenham"],
 };
 

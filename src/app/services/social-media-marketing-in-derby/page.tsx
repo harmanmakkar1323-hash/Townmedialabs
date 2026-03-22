@@ -6,7 +6,7 @@ const location = locations["derby"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Derby | TML Agency",
-  description: "TML offers expert social media marketing services in Derby. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing derby", "social media marketing agency derby", "social media marketing company derby"],
 };
 

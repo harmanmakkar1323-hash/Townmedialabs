@@ -6,7 +6,7 @@ const location = locations["leicester"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Leicester | TML Agency",
-  description: "TML offers expert social media marketing services in Leicester. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing leicester", "social media marketing agency leicester", "social media marketing company leicester"],
 };
 

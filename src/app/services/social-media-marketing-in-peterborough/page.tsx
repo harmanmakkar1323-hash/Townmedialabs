@@ -6,7 +6,7 @@ const location = locations["peterborough"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Peterborough | TML Agency",
-  description: "TML offers expert social media marketing services in Peterborough. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing peterborough", "social media marketing agency peterborough", "social media marketing company peterborough"],
 };
 

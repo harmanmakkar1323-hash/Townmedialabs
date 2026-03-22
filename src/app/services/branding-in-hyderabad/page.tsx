@@ -6,7 +6,7 @@ const location = locations["hyderabad"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Hyderabad | TML Agency",
-  description: "TML offers expert branding services in Hyderabad. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding hyderabad", "branding agency hyderabad", "branding company hyderabad"],
 };
 

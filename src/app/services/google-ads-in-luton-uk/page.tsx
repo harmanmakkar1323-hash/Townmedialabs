@@ -6,7 +6,7 @@ const location = locations["luton_uk"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Luton | TML Agency",
-  description: "TML offers expert google ads services in Luton. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads luton", "google ads agency luton", "google ads company luton"],
 };
 

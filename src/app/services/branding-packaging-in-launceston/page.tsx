@@ -6,7 +6,7 @@ const location = locations["launceston"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Launceston | TML Agency",
-  description: "TML offers expert packaging design services in Launceston. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design launceston", "packaging design agency launceston", "packaging design company launceston"],
 };
 

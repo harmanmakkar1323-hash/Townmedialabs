@@ -6,7 +6,7 @@ const location = locations["derabassi"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Derabassi | TML Agency",
-  description: "TML offers expert website development services in Derabassi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development derabassi", "website development agency derabassi", "website development company derabassi"],
 };
 

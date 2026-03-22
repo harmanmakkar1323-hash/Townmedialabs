@@ -6,7 +6,7 @@ const location = locations["auckland"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Auckland | TML Agency",
-  description: "TML offers expert music release services in Auckland. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release auckland", "music release agency auckland", "music release company auckland"],
 };
 

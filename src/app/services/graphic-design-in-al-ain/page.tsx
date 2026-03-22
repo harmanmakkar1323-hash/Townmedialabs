@@ -6,7 +6,7 @@ const location = locations["al_ain"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Al Ain | TML Agency",
-  description: "TML offers expert graphic design services in Al Ain. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Al Ain. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design al ain", "graphic design agency al ain", "graphic design company al ain"],
 };
 

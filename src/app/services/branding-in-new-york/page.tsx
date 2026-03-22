@@ -6,7 +6,7 @@ const location = locations["new_york"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in New York | TML Agency",
-  description: "TML offers expert branding services in New York. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in New York. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding new york", "branding agency new york", "branding company new york"],
 };
 

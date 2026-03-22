@@ -6,7 +6,7 @@ const location = locations["nottingham"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Nottingham | TML Agency",
-  description: "TML offers expert social media marketing services in Nottingham. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing nottingham", "social media marketing agency nottingham", "social media marketing company nottingham"],
 };
 

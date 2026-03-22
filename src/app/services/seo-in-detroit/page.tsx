@@ -6,7 +6,7 @@ const location = locations["detroit"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Detroit | TML Agency",
-  description: "TML offers expert seo services in Detroit. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo detroit", "seo agency detroit", "seo company detroit"],
 };
 

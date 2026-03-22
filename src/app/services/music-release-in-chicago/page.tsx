@@ -6,7 +6,7 @@ const location = locations["chicago"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Chicago | TML Agency",
-  description: "TML offers expert music release services in Chicago. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Chicago. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release chicago", "music release agency chicago", "music release company chicago"],
 };
 

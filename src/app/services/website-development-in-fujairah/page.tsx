@@ -6,7 +6,7 @@ const location = locations["fujairah"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Fujairah | TML Agency",
-  description: "TML offers expert website development services in Fujairah. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development fujairah", "website development agency fujairah", "website development company fujairah"],
 };
 

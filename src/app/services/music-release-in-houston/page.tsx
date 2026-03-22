@@ -6,7 +6,7 @@ const location = locations["houston"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Houston | TML Agency",
-  description: "TML offers expert music release services in Houston. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release houston", "music release agency houston", "music release company houston"],
 };
 

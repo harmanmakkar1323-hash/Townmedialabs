@@ -6,7 +6,7 @@ const location = locations["noida"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Noida | TML Agency",
-  description: "TML offers expert search engine optimization services in Noida. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert search engine optimization services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization noida", "search engine optimization agency noida", "search engine optimization company noida"],
 };
 

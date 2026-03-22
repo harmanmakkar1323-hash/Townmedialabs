@@ -6,7 +6,7 @@ const location = locations["charlotte"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Charlotte | TML Agency",
-  description: "TML offers expert google ads services in Charlotte. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Charlotte. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads charlotte", "google ads agency charlotte", "google ads company charlotte"],
 };
 

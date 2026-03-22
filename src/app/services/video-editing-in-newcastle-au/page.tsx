@@ -6,7 +6,7 @@ const location = locations["newcastle_au"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Newcastle | TML Agency",
-  description: "TML offers expert video editing services in Newcastle. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing newcastle", "video editing agency newcastle", "video editing company newcastle"],
 };
 

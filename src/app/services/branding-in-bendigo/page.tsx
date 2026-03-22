@@ -6,7 +6,7 @@ const location = locations["bendigo"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Bendigo | TML Agency",
-  description: "TML offers expert branding services in Bendigo. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding bendigo", "branding agency bendigo", "branding company bendigo"],
 };
 

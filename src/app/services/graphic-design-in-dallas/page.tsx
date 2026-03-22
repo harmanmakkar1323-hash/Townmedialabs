@@ -6,7 +6,7 @@ const location = locations["dallas"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Dallas | TML Agency",
-  description: "TML offers expert graphic design services in Dallas. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Dallas. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design dallas", "graphic design agency dallas", "graphic design company dallas"],
 };
 

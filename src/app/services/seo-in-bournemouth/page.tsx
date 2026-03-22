@@ -6,7 +6,7 @@ const location = locations["bournemouth"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Bournemouth | TML Agency",
-  description: "TML offers expert seo services in Bournemouth. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo bournemouth", "seo agency bournemouth", "seo company bournemouth"],
 };
 

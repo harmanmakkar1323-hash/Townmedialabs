@@ -6,7 +6,7 @@ const location = locations["san_francisco"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in San Francisco | TML Agency",
-  description: "TML offers expert social media marketing services in San Francisco. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing san francisco", "social media marketing agency san francisco", "social media marketing company san francisco"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["nagpur"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Nagpur | TML Agency",
-  description: "TML offers expert AI influencer management services in Nagpur. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI influencer management services in Nagpur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management nagpur", "AI influencer management agency nagpur", "AI influencer management company nagpur"],
 };
 

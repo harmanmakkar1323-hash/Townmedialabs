@@ -6,7 +6,7 @@ const location = locations["louisville"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Louisville | TML Agency",
-  description: "TML offers expert website development services in Louisville. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Louisville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development louisville", "website development agency louisville", "website development company louisville"],
 };
 

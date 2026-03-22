@@ -6,7 +6,7 @@ const location = locations["sacramento"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Sacramento | TML Agency",
-  description: "TML offers expert graphic design services in Sacramento. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design sacramento", "graphic design agency sacramento", "graphic design company sacramento"],
 };
 

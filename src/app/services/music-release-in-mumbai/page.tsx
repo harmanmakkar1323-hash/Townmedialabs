@@ -6,7 +6,7 @@ const location = locations["mumbai"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Mumbai | TML Agency",
-  description: "TML offers expert music release services in Mumbai. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release mumbai", "music release agency mumbai", "music release company mumbai"],
 };
 

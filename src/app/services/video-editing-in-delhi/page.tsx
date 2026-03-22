@@ -6,7 +6,7 @@ const location = locations["delhi"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Delhi | TML Agency",
-  description: "TML offers expert video editing services in Delhi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing delhi", "video editing agency delhi", "video editing company delhi"],
 };
 

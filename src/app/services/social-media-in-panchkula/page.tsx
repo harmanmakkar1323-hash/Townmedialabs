@@ -6,7 +6,7 @@ const location = locations["panchkula"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Panchkula | TML Agency",
-  description: "TML offers expert social media marketing services in Panchkula. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing panchkula", "social media marketing agency panchkula", "social media marketing company panchkula"],
 };
 

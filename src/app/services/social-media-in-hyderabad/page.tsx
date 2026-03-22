@@ -6,7 +6,7 @@ const location = locations["hyderabad"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Hyderabad | TML Agency",
-  description: "TML offers expert social media marketing services in Hyderabad. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing hyderabad", "social media marketing agency hyderabad", "social media marketing company hyderabad"],
 };
 

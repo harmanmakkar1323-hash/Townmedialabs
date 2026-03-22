@@ -6,7 +6,7 @@ const location = locations["manchester"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Manchester | TML Agency",
-  description: "TML offers expert social media marketing services in Manchester. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing manchester", "social media marketing agency manchester", "social media marketing company manchester"],
 };
 

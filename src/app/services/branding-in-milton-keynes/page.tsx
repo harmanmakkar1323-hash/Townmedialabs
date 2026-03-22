@@ -6,7 +6,7 @@ const location = locations["milton_keynes"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Milton Keynes | TML Agency",
-  description: "TML offers expert branding services in Milton Keynes. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding milton keynes", "branding agency milton keynes", "branding company milton keynes"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["zirakpur"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Zirakpur | TML Agency",
-  description: "TML offers expert video editing services in Zirakpur. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing zirakpur", "video editing agency zirakpur", "video editing company zirakpur"],
 };
 

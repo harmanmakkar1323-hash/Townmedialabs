@@ -6,7 +6,7 @@ const location = locations["salt_lake_city"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Salt Lake City | TML Agency",
-  description: "TML offers expert branding services in Salt Lake City. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding salt lake city", "branding agency salt lake city", "branding company salt lake city"],
 };
 

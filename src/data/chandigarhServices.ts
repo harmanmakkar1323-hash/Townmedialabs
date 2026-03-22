@@ -23,7 +23,7 @@ export const chandigarhServices: Record<string, ChandigarhServiceData> = {
     metaTitle: "Best Branding Agency in Chandigarh | TML Agency",
     metaDescription: "TML is Chandigarh's top branding agency offering logo design, brand identity, brand strategy, and guidelines. 500+ brands built. Get a free consultation.",
     keywords: ["branding agency chandigarh", "logo design chandigarh", "brand identity chandigarh", "branding company chandigarh"],
-    heroDescription: "Looking for a branding agency in Chandigarh? TML has helped 200+ businesses in Chandigarh, Mohali, and Panchkula build powerful brand identities that stand out. From logo design to complete brand systems — we create brands that your customers remember.",
+    heroDescription: "Looking for a branding agency in Chandigarh? TML has helped 500+ businesses in Chandigarh, Mohali, and Panchkula build powerful brand identities that stand out. From logo design to complete brand systems — we create brands that your customers remember.",
     whyChoose: [
       { title: "Deep Local Understanding", description: "We understand Chandigarh's market dynamics, consumer behavior, and what resonates with the tricity audience." },
       { title: "500+ Brands Built", description: "From startups in IT Park to established businesses in Sector 17 — we've branded them all." },

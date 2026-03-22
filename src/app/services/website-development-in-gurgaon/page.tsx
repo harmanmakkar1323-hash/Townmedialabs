@@ -6,7 +6,7 @@ const location = locations["gurgaon"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Gurgaon | TML Agency",
-  description: "TML offers expert website development services in Gurgaon. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Gurgaon. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development gurgaon", "website development agency gurgaon", "website development company gurgaon"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["delhi"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Delhi | TML Agency",
-  description: "TML offers expert branding services in Delhi. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding delhi", "branding agency delhi", "branding company delhi"],
 };
 

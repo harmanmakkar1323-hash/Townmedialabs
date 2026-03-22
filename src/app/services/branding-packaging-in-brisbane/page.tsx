@@ -6,7 +6,7 @@ const location = locations["brisbane"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Brisbane | TML Agency",
-  description: "TML offers expert packaging design services in Brisbane. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design brisbane", "packaging design agency brisbane", "packaging design company brisbane"],
 };
 

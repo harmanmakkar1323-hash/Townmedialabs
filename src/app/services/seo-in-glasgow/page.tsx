@@ -6,7 +6,7 @@ const location = locations["glasgow"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Glasgow | TML Agency",
-  description: "TML offers expert seo services in Glasgow. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo glasgow", "seo agency glasgow", "seo company glasgow"],
 };
 

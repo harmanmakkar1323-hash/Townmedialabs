@@ -6,7 +6,7 @@ const location = locations["portland"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Portland | TML Agency",
-  description: "TML offers expert google ads services in Portland. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Portland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads portland", "google ads agency portland", "google ads company portland"],
 };
 

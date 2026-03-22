@@ -6,7 +6,7 @@ const location = locations["sacramento"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Sacramento | TML Agency",
-  description: "TML offers expert video editing services in Sacramento. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing sacramento", "video editing agency sacramento", "video editing company sacramento"],
 };
 

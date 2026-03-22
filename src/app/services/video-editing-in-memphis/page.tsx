@@ -6,7 +6,7 @@ const location = locations["memphis"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Memphis | TML Agency",
-  description: "TML offers expert video editing services in Memphis. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing memphis", "video editing agency memphis", "video editing company memphis"],
 };
 

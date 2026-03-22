@@ -6,7 +6,7 @@ const location = locations["panipat"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Panipat | TML Agency",
-  description: "TML offers expert social media marketing services in Panipat. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing panipat", "social media marketing agency panipat", "social media marketing company panipat"],
 };
 

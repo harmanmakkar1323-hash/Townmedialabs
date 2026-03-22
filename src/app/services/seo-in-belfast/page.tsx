@@ -6,7 +6,7 @@ const location = locations["belfast"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Belfast | TML Agency",
-  description: "TML offers expert seo services in Belfast. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo belfast", "seo agency belfast", "seo company belfast"],
 };
 

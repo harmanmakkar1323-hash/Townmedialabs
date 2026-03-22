@@ -6,7 +6,7 @@ const location = locations["sydney"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Sydney | TML Agency",
-  description: "TML offers expert music release services in Sydney. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release sydney", "music release agency sydney", "music release company sydney"],
 };
 

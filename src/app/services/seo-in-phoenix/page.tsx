@@ -6,7 +6,7 @@ const location = locations["phoenix"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Phoenix | TML Agency",
-  description: "TML offers expert seo services in Phoenix. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo phoenix", "seo agency phoenix", "seo company phoenix"],
 };
 

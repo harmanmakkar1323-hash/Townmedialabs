@@ -6,7 +6,7 @@ const location = locations["coventry"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Coventry | TML Agency",
-  description: "TML offers expert google ads services in Coventry. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads coventry", "google ads agency coventry", "google ads company coventry"],
 };
 

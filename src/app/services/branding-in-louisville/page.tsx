@@ -6,7 +6,7 @@ const location = locations["louisville"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Louisville | TML Agency",
-  description: "TML offers expert branding services in Louisville. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Louisville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding louisville", "branding agency louisville", "branding company louisville"],
 };
 

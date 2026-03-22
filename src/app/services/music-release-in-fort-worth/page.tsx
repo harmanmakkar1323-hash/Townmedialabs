@@ -6,7 +6,7 @@ const location = locations["fort_worth"];
 
 export const metadata: Metadata = {
   title: "Best Music Release Agency in Fort Worth | TML Agency",
-  description: "TML offers expert music release services in Fort Worth. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert music release services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release fort worth", "music release agency fort worth", "music release company fort worth"],
 };
 

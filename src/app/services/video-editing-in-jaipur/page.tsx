@@ -6,7 +6,7 @@ const location = locations["jaipur"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Jaipur | TML Agency",
-  description: "TML offers expert video editing services in Jaipur. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Jaipur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing jaipur", "video editing agency jaipur", "video editing company jaipur"],
 };
 

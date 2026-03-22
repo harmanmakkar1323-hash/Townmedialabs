@@ -6,7 +6,7 @@ const location = locations["pune"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Pune | TML Agency",
-  description: "TML offers expert social media marketing services in Pune. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing pune", "social media marketing agency pune", "social media marketing company pune"],
 };
 

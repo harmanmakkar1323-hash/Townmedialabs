@@ -6,7 +6,7 @@ const location = locations["las_vegas"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Las Vegas | TML Agency",
-  description: "TML offers expert graphic design services in Las Vegas. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design las vegas", "graphic design agency las vegas", "graphic design company las vegas"],
 };
 

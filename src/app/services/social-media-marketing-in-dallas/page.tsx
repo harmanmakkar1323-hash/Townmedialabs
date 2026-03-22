@@ -6,7 +6,7 @@ const location = locations["dallas"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Dallas | TML Agency",
-  description: "TML offers expert social media marketing services in Dallas. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Dallas. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing dallas", "social media marketing agency dallas", "social media marketing company dallas"],
 };
 

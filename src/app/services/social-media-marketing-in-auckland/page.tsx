@@ -6,7 +6,7 @@ const location = locations["auckland"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Auckland | TML Agency",
-  description: "TML offers expert social media marketing services in Auckland. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing auckland", "social media marketing agency auckland", "social media marketing company auckland"],
 };
 

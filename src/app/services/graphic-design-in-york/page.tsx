@@ -6,7 +6,7 @@ const location = locations["york"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in York | TML Agency",
-  description: "TML offers expert graphic design services in York. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in York. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design york", "graphic design agency york", "graphic design company york"],
 };
 

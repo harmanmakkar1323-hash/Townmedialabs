@@ -6,7 +6,7 @@ const location = locations["canberra"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Canberra | TML Agency",
-  description: "TML offers expert packaging design services in Canberra. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design canberra", "packaging design agency canberra", "packaging design company canberra"],
 };
 

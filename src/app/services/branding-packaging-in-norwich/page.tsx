@@ -6,7 +6,7 @@ const location = locations["norwich"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Norwich | TML Agency",
-  description: "TML offers expert packaging design services in Norwich. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Norwich. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design norwich", "packaging design agency norwich", "packaging design company norwich"],
 };
 

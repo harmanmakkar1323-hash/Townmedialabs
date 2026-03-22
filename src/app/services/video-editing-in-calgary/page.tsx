@@ -6,7 +6,7 @@ const location = locations["calgary"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Calgary | TML Agency",
-  description: "TML offers expert video editing services in Calgary, Alberta. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Calgary, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing calgary", "video editing agency calgary"],
 };
 

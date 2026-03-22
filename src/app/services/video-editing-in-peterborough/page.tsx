@@ -6,7 +6,7 @@ const location = locations["peterborough"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Peterborough | TML Agency",
-  description: "TML offers expert video editing services in Peterborough. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing peterborough", "video editing agency peterborough", "video editing company peterborough"],
 };
 

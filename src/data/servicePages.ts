@@ -285,10 +285,10 @@ export const servicePages: Record<string, ServicePageData> = {
       { step: "05", title: "Build", description: "Acquire quality backlinks and monitor rankings, continuously refining strategy for growth." },
     ],
     stats: [
-      { label: "Keywords Ranked", value: "10K+" },
-      { label: "Avg Traffic Increase", value: "280%" },
+      { label: "Keywords Ranked", value: "3000+" },
+      { label: "Avg Traffic Increase", value: "150%" },
       { label: "First Page Rankings", value: "500+" },
-      { label: "Clients Served", value: "150+" },
+      { label: "Clients Served", value: "500+" },
     ],
     faqs: [
       { q: "How long does SEO take to show results?", a: "SEO is a long-term strategy. You'll typically see initial improvements in 3-4 months, with significant results in 6-12 months." },

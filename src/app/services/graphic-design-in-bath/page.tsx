@@ -6,7 +6,7 @@ const location = locations["bath"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Bath | TML Agency",
-  description: "TML offers expert graphic design services in Bath. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design bath", "graphic design agency bath", "graphic design company bath"],
 };
 

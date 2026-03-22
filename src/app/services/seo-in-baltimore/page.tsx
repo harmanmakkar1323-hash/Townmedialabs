@@ -6,7 +6,7 @@ const location = locations["baltimore"];
 
 export const metadata: Metadata = {
   title: "Best SEO Agency in Baltimore | TML Agency",
-  description: "TML offers expert seo services in Baltimore. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert seo services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo baltimore", "seo agency baltimore", "seo company baltimore"],
 };
 

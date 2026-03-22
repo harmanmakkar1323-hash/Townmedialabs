@@ -6,7 +6,7 @@ const location = locations["townsville"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Townsville | TML Agency",
-  description: "TML offers expert google ads services in Townsville. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads townsville", "google ads agency townsville", "google ads company townsville"],
 };
 

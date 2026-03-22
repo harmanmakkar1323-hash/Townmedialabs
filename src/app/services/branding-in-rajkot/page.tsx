@@ -6,7 +6,7 @@ const location = locations["rajkot"];
 
 export const metadata: Metadata = {
   title: "Best Branding Agency in Rajkot | TML Agency",
-  description: "TML offers expert branding services in Rajkot. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert branding services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding rajkot", "branding agency rajkot", "branding company rajkot"],
 };
 

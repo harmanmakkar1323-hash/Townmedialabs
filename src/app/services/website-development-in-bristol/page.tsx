@@ -6,7 +6,7 @@ const location = locations["bristol"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Bristol | TML Agency",
-  description: "TML offers expert website development services in Bristol. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development bristol", "website development agency bristol", "website development company bristol"],
 };
 

@@ -6,7 +6,7 @@ const location = locations["sydney"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Sydney | TML Agency",
-  description: "TML offers expert google ads services in Sydney. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads sydney", "google ads agency sydney", "google ads company sydney"],
 };
 

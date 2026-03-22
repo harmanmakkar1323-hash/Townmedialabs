@@ -6,7 +6,7 @@ const location = locations["punjab"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Punjab | TML Agency",
-  description: "TML offers expert social media marketing services in Punjab. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing punjab", "social media marketing agency punjab", "social media marketing company punjab"],
 };
 

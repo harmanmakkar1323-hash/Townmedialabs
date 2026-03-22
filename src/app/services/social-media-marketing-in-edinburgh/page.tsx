@@ -6,7 +6,7 @@ const location = locations["edinburgh"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Edinburgh | TML Agency",
-  description: "TML offers expert social media marketing services in Edinburgh. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Edinburgh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing edinburgh", "social media marketing agency edinburgh", "social media marketing company edinburgh"],
 };
 

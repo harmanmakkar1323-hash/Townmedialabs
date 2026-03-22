@@ -6,7 +6,7 @@ const location = locations["coventry"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Coventry | TML Agency",
-  description: "TML offers expert ai influencer management services in Coventry. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert ai influencer management services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management coventry", "ai influencer management agency coventry", "ai influencer management company coventry"],
 };
 

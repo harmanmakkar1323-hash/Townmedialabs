@@ -6,7 +6,7 @@ const location = locations["honolulu"];
 
 export const metadata: Metadata = {
   title: "Best Lead Generation Agency in Honolulu | TML Agency",
-  description: "TML offers expert lead generation services in Honolulu. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert lead generation services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation honolulu", "lead generation agency honolulu", "lead generation company honolulu"],
 };
 

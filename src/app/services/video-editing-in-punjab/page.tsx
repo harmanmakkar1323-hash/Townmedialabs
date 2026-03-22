@@ -6,7 +6,7 @@ const location = locations["punjab"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Punjab | TML Agency",
-  description: "TML offers expert video editing services in Punjab. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing punjab", "video editing agency punjab", "video editing company punjab"],
 };
 

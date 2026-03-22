@@ -6,7 +6,7 @@ const location = locations["gold_coast"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Gold Coast | TML Agency",
-  description: "TML offers expert website development services in Gold Coast. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development gold coast", "website development agency gold coast", "website development company gold coast"],
 };
 

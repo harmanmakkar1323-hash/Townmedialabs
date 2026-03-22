@@ -6,7 +6,7 @@ const location = locations["bathinda"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Bathinda | TML Agency",
-  description: "TML offers expert video editing services in Bathinda. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing bathinda", "video editing agency bathinda", "video editing company bathinda"],
 };
 

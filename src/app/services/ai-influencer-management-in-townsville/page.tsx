@@ -6,7 +6,7 @@ const location = locations["townsville"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Townsville | TML Agency",
-  description: "TML offers expert ai influencer management services in Townsville. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert ai influencer management services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management townsville", "ai influencer management agency townsville", "ai influencer management company townsville"],
 };
 

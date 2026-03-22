@@ -6,7 +6,7 @@ const location = locations["columbus_oh"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Columbus | TML Agency",
-  description: "TML offers expert google ads services in Columbus. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads columbus", "google ads agency columbus", "google ads company columbus"],
 };
 

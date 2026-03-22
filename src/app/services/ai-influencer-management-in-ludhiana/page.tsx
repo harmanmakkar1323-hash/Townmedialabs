@@ -6,7 +6,7 @@ const location = locations["ludhiana"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Ludhiana | TML Agency",
-  description: "TML offers expert ai influencer management services in Ludhiana. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert ai influencer management services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management ludhiana", "ai influencer management agency ludhiana", "ai influencer management company ludhiana"],
 };
 

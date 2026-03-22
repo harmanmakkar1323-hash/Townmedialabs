@@ -6,7 +6,7 @@ const location = locations["sheffield"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Sheffield | TML Agency",
-  description: "TML offers expert graphic design services in Sheffield. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design sheffield", "graphic design agency sheffield", "graphic design company sheffield"],
 };
 

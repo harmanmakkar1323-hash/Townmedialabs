@@ -6,7 +6,7 @@ const location = locations["bournemouth"];
 
 export const metadata: Metadata = {
   title: "Best Packaging Design Agency in Bournemouth | TML Agency",
-  description: "TML offers expert packaging design services in Bournemouth. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert packaging design services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design bournemouth", "packaging design agency bournemouth", "packaging design company bournemouth"],
 };
 

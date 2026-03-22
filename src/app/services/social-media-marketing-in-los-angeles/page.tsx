@@ -6,7 +6,7 @@ const location = locations["los_angeles"];
 
 export const metadata: Metadata = {
   title: "Best Social Media Marketing Agency in Los Angeles | TML Agency",
-  description: "TML offers expert social media marketing services in Los Angeles. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert social media marketing services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing los angeles", "social media marketing agency los angeles", "social media marketing company los angeles"],
 };
 

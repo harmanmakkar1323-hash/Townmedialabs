@@ -6,7 +6,7 @@ const location = locations["new_york"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in New York | TML Agency",
-  description: "TML offers expert website development services in New York. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in New York. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development new york", "website development agency new york", "website development company new york"],
 };
 

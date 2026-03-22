@@ -6,7 +6,7 @@ const location = locations["austin"];
 
 export const metadata: Metadata = {
   title: "Best Video Editing Agency in Austin | TML Agency",
-  description: "TML offers expert video editing services in Austin. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert video editing services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing austin", "video editing agency austin", "video editing company austin"],
 };
 

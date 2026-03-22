@@ -6,7 +6,7 @@ const location = locations["san_francisco"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in San Francisco | TML Agency",
-  description: "TML offers expert graphic design services in San Francisco. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design san francisco", "graphic design agency san francisco", "graphic design company san francisco"],
 };
 

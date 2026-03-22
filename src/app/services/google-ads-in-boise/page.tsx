@@ -6,7 +6,7 @@ const location = locations["boise"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Boise | TML Agency",
-  description: "TML offers expert google ads services in Boise. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads boise", "google ads agency boise", "google ads company boise"],
 };
 

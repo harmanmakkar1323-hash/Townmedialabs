@@ -6,7 +6,7 @@ const location = locations["zirakpur"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Zirakpur | TML Agency",
-  description: "TML offers expert ai influencer management services in Zirakpur. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert ai influencer management services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management zirakpur", "ai influencer management agency zirakpur", "ai influencer management company zirakpur"],
 };
 

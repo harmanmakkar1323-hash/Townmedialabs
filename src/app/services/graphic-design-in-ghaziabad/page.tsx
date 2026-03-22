@@ -6,7 +6,7 @@ const location = locations["ghaziabad"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Ghaziabad | TML Agency",
-  description: "TML offers expert graphic design services in Ghaziabad. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Ghaziabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design ghaziabad", "graphic design agency ghaziabad", "graphic design company ghaziabad"],
 };
 

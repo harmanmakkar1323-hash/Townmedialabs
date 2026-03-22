@@ -6,7 +6,7 @@ const location = locations["ahmedabad"];
 
 export const metadata: Metadata = {
   title: "Best Website Development Agency in Ahmedabad | TML Agency",
-  description: "TML offers expert website development services in Ahmedabad. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert website development services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development ahmedabad", "website development agency ahmedabad", "website development company ahmedabad"],
 };
 

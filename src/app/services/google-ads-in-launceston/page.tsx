@@ -6,7 +6,7 @@ const location = locations["launceston"];
 
 export const metadata: Metadata = {
   title: "Best Google Ads Agency in Launceston | TML Agency",
-  description: "TML offers expert google ads services in Launceston. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert google ads services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads launceston", "google ads agency launceston", "google ads company launceston"],
 };
 

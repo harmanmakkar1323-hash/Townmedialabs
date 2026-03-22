@@ -6,7 +6,7 @@ const location = locations["derby"];
 
 export const metadata: Metadata = {
   title: "Best AI Influencer Management Agency in Derby | TML Agency",
-  description: "TML offers expert ai influencer management services in Derby. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert ai influencer management services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management derby", "ai influencer management agency derby", "ai influencer management company derby"],
 };
 

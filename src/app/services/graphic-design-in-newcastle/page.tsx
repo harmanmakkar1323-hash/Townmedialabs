@@ -6,7 +6,7 @@ const location = locations["newcastle"];
 
 export const metadata: Metadata = {
   title: "Best Graphic Design Agency in Newcastle | TML Agency",
-  description: "TML offers expert graphic design services in Newcastle. Proven results for 200+ businesses. Get a free consultation today.",
+  description: "TML offers expert graphic design services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design newcastle", "graphic design agency newcastle", "graphic design company newcastle"],
 };
 
