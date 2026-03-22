@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la /Users/ramanmakkar/Desktop/tml-nextjs/sh-thd-*)",
+      "Bash(ls -d /Users/ramanmakkar/Desktop/tml-nextjs/src/app/services/*/)",
+      "Bash(node generate-india-pages.mjs)",
+      "Bash(lsof -ti:3000,3001,3002,3003)",
+      "Bash(lsof -i:3002)",
+      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/public/favicon* /Users/ramanmakkar/Desktop/tml-nextjs/public/apple-touch-icon* /Users/ramanmakkar/Desktop/tml-nextjs/src/app/favicon*)"
+    ],
+    "additionalDirectories": [
+      "/Users/ramanmakkar/Desktop/tml-nextjs"
+    ]
+  }
+}

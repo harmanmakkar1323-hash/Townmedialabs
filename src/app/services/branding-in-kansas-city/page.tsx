@@ -1,0 +1,21 @@
+import type { Metadata } from "next";
+import { locations } from "@/data/locations";
+import LocationServiceTemplate from "@/components/templates/LocationServiceTemplate";
+
+const location = locations["kansas_city"];
+
+export const metadata: Metadata = {
+  title: "Best Branding Agency in Kansas City | TML Agency",
+  description: "TML offers expert branding services in Kansas City. Proven results for 200+ businesses. Get a free consultation today.",
+  keywords: ["branding kansas city", "branding agency kansas city", "branding company kansas city"],
+};
+
+export default function BrandingInKansasCityPage() {
+  return (
+    <LocationServiceTemplate
+      location={location}
+      serviceSlug="branding"
+      serviceName="Branding"
+    />
+  );
+}

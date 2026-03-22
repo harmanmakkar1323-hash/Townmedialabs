@@ -1,0 +1,21 @@
+import type { Metadata } from "next";
+import { locations } from "@/data/locations";
+import LocationServiceTemplate from "@/components/templates/LocationServiceTemplate";
+
+const location = locations["tauranga"];
+
+export const metadata: Metadata = {
+  title: "Best Website Development Agency in Tauranga | TML Agency",
+  description: "TML offers expert website development services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  keywords: ["website development tauranga", "website development agency tauranga", "website development tauranga nz"],
+};
+
+export default function WebsiteDevelopmentInTaurangaPage() {
+  return (
+    <LocationServiceTemplate
+      location={location}
+      serviceSlug="website-development"
+      serviceName="Website Development"
+    />
+  );
+}

@@ -1,0 +1,21 @@
+import type { Metadata } from "next";
+import { locations } from "@/data/locations";
+import LocationServiceTemplate from "@/components/templates/LocationServiceTemplate";
+
+const location = locations["al_ain"];
+
+export const metadata: Metadata = {
+  title: "Best Social Media Marketing Agency in Al Ain | TML Agency",
+  description: "TML offers expert social media marketing services in Al Ain. Proven results for 200+ businesses. Get a free consultation today.",
+  keywords: ["social media marketing al ain", "social media marketing agency al ain", "social media marketing company al ain"],
+};
+
+export default function SocialMediaInAlAinPage() {
+  return (
+    <LocationServiceTemplate
+      location={location}
+      serviceSlug="social-media"
+      serviceName="Social Media Marketing"
+    />
+  );
+}

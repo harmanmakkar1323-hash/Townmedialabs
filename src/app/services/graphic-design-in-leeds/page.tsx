@@ -1,0 +1,21 @@
+import type { Metadata } from "next";
+import { locations } from "@/data/locations";
+import LocationServiceTemplate from "@/components/templates/LocationServiceTemplate";
+
+const location = locations["leeds"];
+
+export const metadata: Metadata = {
+  title: "Best Graphic Design Agency in Leeds | TML Agency",
+  description: "TML offers expert graphic design services in Leeds. Proven results for 200+ businesses. Get a free consultation today.",
+  keywords: ["graphic design leeds", "graphic design agency leeds", "graphic design company leeds"],
+};
+
+export default function GraphicDesignInLeedsPage() {
+  return (
+    <LocationServiceTemplate
+      location={location}
+      serviceSlug="graphic-design"
+      serviceName="Graphic Design"
+    />
+  );
+}
