@@ -51,7 +51,7 @@ export default function HeroHome2() {
             Drive growth.
           </h1>
           <p
-            className="hero-fade-up hero-delay-1 text-base sm:text-lg md:text-2xl lg:text-3xl text-white/90 font-sans tracking-tight leading-snug font-normal text-balance"
+            className="hero-fade-up hero-delay-1 text-base sm:text-lg md:text-2xl lg:text-3xl text-white font-sans tracking-tight leading-snug font-normal text-balance"
           >
             A full-service branding &amp; marketing agency for ambitious businesses.
           </p>
@@ -74,7 +74,7 @@ export default function HeroHome2() {
           </a>
           <a
             href="#portfolio"
-            className="inline-block rounded-xl border border-white/[0.08] bg-white/[0.03] px-5 sm:px-8 py-4 text-xs sm:text-sm font-semibold text-white/90 text-center hover:bg-white/[0.06] hover:border-white/[0.15] hover:text-white active:scale-[0.97] transition-all duration-200"
+            className="inline-block rounded-xl border border-white/[0.08] bg-white/[0.03] px-5 sm:px-8 py-4 text-xs sm:text-sm font-semibold text-white text-center hover:bg-white/[0.06] hover:border-white/[0.15] hover:text-white active:scale-[0.97] transition-all duration-200"
           >
             <span className="inline-flex items-center gap-2">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
@@ -99,10 +99,10 @@ export default function HeroHome2() {
                 <span
                   className="w-1.5 h-1.5 rounded-full bg-[#ff4500] hidden sm:block hero-pulse-dot"
                 />
-                <span className="text-sm md:text-base font-bold text-white/90 tracking-tight">
+                <span className="text-sm md:text-base font-bold text-white tracking-tight">
                   {stat.value}
                 </span>
-                <span className="text-[10px] md:text-xs text-white/35 tracking-[0.1em] uppercase font-medium">
+                <span className="text-[10px] md:text-xs text-white tracking-[0.1em] uppercase font-medium">
                   {stat.label}
                 </span>
               </span>
@@ -116,18 +116,18 @@ export default function HeroHome2() {
         {/* Bottom Metadata / Description */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-2">
           <div className="hero-fade-up hero-delay-5">
-            <p className="text-[10px] md:text-xs text-white/90 tracking-widest uppercase font-semibold mb-4">
+            <p className="text-[10px] md:text-xs text-white tracking-widest uppercase font-semibold mb-4">
               Full-service agency
             </p>
-            <p className="text-sm text-white/90 leading-relaxed">
+            <p className="text-sm text-white leading-relaxed">
               Strategy, design, and performance marketing — everything your brand needs to stand out and scale.
             </p>
           </div>
           <div className="hero-fade-up hero-delay-6">
-            <p className="text-[10px] md:text-xs text-white/90 tracking-widest uppercase font-semibold mb-4">
+            <p className="text-[10px] md:text-xs text-white tracking-widest uppercase font-semibold mb-4">
               How we work
             </p>
-            <p className="text-sm text-white/90 leading-relaxed">
+            <p className="text-sm text-white leading-relaxed">
               No silos. No handoffs. Just one team driving real, measurable growth across every channel.
             </p>
           </div>
@@ -139,13 +139,13 @@ export default function HeroHome2() {
         className="hero-fade-up hero-delay-7 absolute bottom-8 left-1/2 -translate-x-1/2 z-10"
       >
         <div className="hero-bounce flex flex-col items-center gap-2">
-          <span className="text-[9px] text-white/30 tracking-[0.2em] uppercase">Scroll</span>
+          <span className="text-[9px] text-white tracking-[0.2em] uppercase">Scroll</span>
           <svg
             width="16"
             height="16"
             viewBox="0 0 16 16"
             fill="none"
-            className="text-white/30"
+            className="text-white"
           >
             <path
               d="M4 6L8 10L12 6"

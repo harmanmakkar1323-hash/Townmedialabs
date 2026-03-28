@@ -163,7 +163,7 @@ function ServiceRow({ service, index }: { service: (typeof services)[0]; index: 
           <div className="flex items-center gap-5">
             {/* Number */}
             <motion.span
-              className="text-[11px] text-white/20 font-mono tabular-nums w-6 shrink-0 group-hover:text-[#ff4500]/70 transition-colors duration-300"
+              className="text-[11px] text-white font-mono tabular-nums w-6 shrink-0 group-hover:text-[#ff4500]/70 transition-colors duration-300"
               whileHover={{ scale: 1.15 }}
               transition={{ type: "spring", stiffness: 400, damping: 15 }}
             >
@@ -171,7 +171,7 @@ function ServiceRow({ service, index }: { service: (typeof services)[0]; index: 
             </motion.span>
 
             {/* Icon */}
-            <span className="text-white/20 group-hover:text-[#ff4500]/60 transition-colors duration-300 shrink-0">
+            <span className="text-white group-hover:text-[#ff4500]/60 transition-colors duration-300 shrink-0">
               {serviceIcons[service.title] ?? (
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <circle cx="12" cy="12" r="10" />
@@ -180,14 +180,14 @@ function ServiceRow({ service, index }: { service: (typeof services)[0]; index: 
             </span>
 
             {/* Title */}
-            <h3 className="text-lg md:text-xl font-medium text-white/90 tracking-tight group-hover:text-white transition-colors duration-300">
+            <h3 className="text-lg md:text-xl font-medium text-white tracking-tight group-hover:text-white transition-colors duration-300">
               {service.title}
             </h3>
           </div>
 
           <div className="flex items-center gap-5 md:gap-6">
             {/* Description */}
-            <p className="text-sm text-white/30 max-w-md leading-relaxed md:text-right group-hover:text-white/55 transition-colors duration-400">
+            <p className="text-sm text-white max-w-md leading-relaxed md:text-right group-hover:text-white transition-colors duration-400">
               {service.description}
             </p>
 
@@ -266,7 +266,7 @@ export function ServicesHome2() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.6, ease }}
-          className="text-[10px] md:text-xs text-white/90 tracking-[0.2em] uppercase font-semibold mb-8"
+          className="text-[10px] md:text-xs text-white tracking-[0.2em] uppercase font-semibold mb-8"
         >
           What we do
         </motion.p>
@@ -282,7 +282,7 @@ export function ServicesHome2() {
             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium leading-[1.08] tracking-tight text-white max-w-3xl"
           >
             Every service you need{" "}
-            <span className="text-white/90 italic">under one roof.</span>
+            <span className="text-white italic">under one roof.</span>
           </motion.h2>
 
           {/* Service count badge */}
@@ -294,7 +294,7 @@ export function ServicesHome2() {
             className="mt-6 inline-flex items-center gap-2 bg-white/[0.03] border border-white/[0.06] rounded-full px-4 py-1.5"
           >
             <span className="w-1.5 h-1.5 rounded-full bg-[#ff4500]" />
-            <span className="text-xs text-white/90 font-medium tracking-wide">
+            <span className="text-xs text-white font-medium tracking-wide">
               {services.length} services
             </span>
           </motion.div>

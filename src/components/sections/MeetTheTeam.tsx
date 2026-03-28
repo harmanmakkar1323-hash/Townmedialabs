@@ -95,7 +95,7 @@ export function MeetTheTeam() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.6, ease }}
-          className="text-[10px] md:text-xs text-white/90 tracking-[0.2em] uppercase font-semibold mb-6"
+          className="text-[10px] md:text-xs text-white tracking-[0.2em] uppercase font-semibold mb-6"
         >
           Since 2010 &middot; TML Agency
         </motion.p>
@@ -128,7 +128,7 @@ export function MeetTheTeam() {
               <rect x="1" y="5" width="15" height="14" rx="2" fill="white" />
             </svg>
           </div>
-          <span className="text-xs font-semibold text-white/90">500+ Ads Shot</span>
+          <span className="text-xs font-semibold text-white">500+ Ads Shot</span>
           <motion.span
             className="w-1.5 h-1.5 rounded-full bg-[#22c55e]"
             animate={{ opacity: [1, 0.4, 1] }}

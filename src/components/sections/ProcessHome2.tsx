@@ -123,7 +123,7 @@ function StepCard({ step, index }: { step: (typeof steps)[number]; index: number
             </motion.span>
           </div>
 
-          <p className="text-sm md:text-[15px] text-white/90 leading-relaxed max-w-xl mb-5">
+          <p className="text-sm md:text-[15px] text-white leading-relaxed max-w-xl mb-5">
             {step.desc}
           </p>
 
@@ -141,7 +141,7 @@ function StepCard({ step, index }: { step: (typeof steps)[number]; index: number
                   damping: 20,
                   delay: 0.4 + index * 0.08 + ti * 0.06,
                 }}
-                className="text-[10px] text-white/35 border border-white/[0.07] rounded-md px-3 py-1.5 tracking-wide hover:border-white/[0.14] hover:text-white/90 transition-colors duration-300"
+                className="text-[10px] text-white border border-white/[0.07] rounded-md px-3 py-1.5 tracking-wide hover:border-white/[0.14] hover:text-white transition-colors duration-300"
               >
                 {tool}
               </motion.span>
@@ -229,7 +229,7 @@ export function ProcessHome2() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.6, ease }}
-          className="text-[10px] md:text-xs text-white/90 tracking-[0.2em] uppercase font-semibold mb-8"
+          className="text-[10px] md:text-xs text-white tracking-[0.2em] uppercase font-semibold mb-8"
         >
           Our process
         </motion.p>
@@ -244,7 +244,7 @@ export function ProcessHome2() {
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium leading-[1.08] tracking-tight text-white max-w-3xl mb-20"
         >
           How we turn ideas{" "}
-          <span className="text-white/90">into outcomes.</span>
+          <span className="text-white">into outcomes.</span>
         </motion.h2>
 
         {/* Steps with animated timeline */}

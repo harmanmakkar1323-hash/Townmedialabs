@@ -73,7 +73,7 @@ export default function FreeToolsIndexClient() {
             Free Marketing{" "}
             <span className="text-[#ff4500]">Tools</span>
           </h1>
-          <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto mt-6">
+          <p className="text-white text-lg md:text-xl max-w-2xl mx-auto mt-6">
             Powerful calculators and generators to help you make smarter marketing decisions. No signup required.
           </p>
         </motion.div>
@@ -101,7 +101,7 @@ export default function FreeToolsIndexClient() {
                     <h2 className="text-xl font-bold font-[family-name:var(--font-syne)] mt-1 group-hover:text-[#ff4500] transition-colors">
                       {tool.name}
                     </h2>
-                    <p className="text-white/90 text-sm mt-2 leading-relaxed">
+                    <p className="text-white text-sm mt-2 leading-relaxed">
                       {tool.description}
                     </p>
                   </div>

@@ -125,7 +125,7 @@ function MarqueeLogoCard({ logo }: { logo: MarqueeLogo }) {
           className="object-contain max-w-full max-h-full grayscale group-hover:grayscale-0 transition-all duration-500"
         />
       </div>
-      <p className="text-[10px] text-white/30 text-center leading-tight px-3 group-hover:text-white/90 transition-colors duration-300 font-medium tracking-wide">
+      <p className="text-[10px] text-white text-center leading-tight px-3 group-hover:text-white transition-colors duration-300 font-medium tracking-wide">
         {logo.name}
       </p>
     </motion.div>
@@ -200,7 +200,7 @@ function PartnerCard({
             </p>
           </div>
         </div>
-        <p className="text-xs text-white/35 leading-relaxed group-hover:text-white/90 transition-colors duration-300 flex-1">
+        <p className="text-xs text-white leading-relaxed group-hover:text-white transition-colors duration-300 flex-1">
           {partner.description}
         </p>
 
@@ -267,7 +267,7 @@ export function AwardsPartners() {
             initial={{ opacity: 0, y: 14 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, ease }}
-            className="text-[10px] md:text-xs text-white/90 tracking-[0.2em] uppercase font-semibold mb-8"
+            className="text-[10px] md:text-xs text-white tracking-[0.2em] uppercase font-semibold mb-8"
           >
             Awards &amp; Certified Partners
           </motion.p>
@@ -280,7 +280,7 @@ export function AwardsPartners() {
             className="text-3xl sm:text-4xl md:text-5xl font-medium leading-[1.08] tracking-tight text-white max-w-3xl"
           >
             Trusted by the{" "}
-            <span className="text-white/90 italic">best in industry.</span>
+            <span className="text-white italic">best in industry.</span>
           </motion.h2>
         </div>
       </div>
@@ -336,7 +336,7 @@ export function AwardsPartners() {
               initial={{ opacity: 0, y: 14 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.6, ease }}
-              className="text-[10px] md:text-xs text-white/90 tracking-[0.2em] uppercase font-semibold"
+              className="text-[10px] md:text-xs text-white tracking-[0.2em] uppercase font-semibold"
             >
               Certified Partners
             </motion.p>
@@ -344,7 +344,7 @@ export function AwardsPartners() {
               initial={{ opacity: 0 }}
               animate={inView ? { opacity: 1 } : {}}
               transition={{ duration: 0.6, delay: 0.8, ease }}
-              className="text-xs text-white/20"
+              className="text-xs text-white"
             >
               {partners.length} verified partnerships
             </motion.span>
@@ -371,7 +371,7 @@ export function AwardsPartners() {
             <span className="text-4xl md:text-5xl font-bold text-[#ff4500]/80">
               <AnimatedCounter target={20} suffix="+" duration={1.8} />
             </span>
-            <span className="text-sm text-white/30 leading-tight">
+            <span className="text-sm text-white leading-tight">
               Awards &amp;<br />
               Certifications
             </span>

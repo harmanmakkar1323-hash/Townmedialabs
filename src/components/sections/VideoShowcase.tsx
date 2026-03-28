@@ -87,7 +87,7 @@ function CardNumber({ number }: { number: number }) {
   }, [isInView, number]);
 
   return (
-    <span ref={ref} className="text-[10px] text-white/20 font-mono tracking-wider tabular-nums">
+    <span ref={ref} className="text-[10px] text-white font-mono tracking-wider tabular-nums">
       {String(count).padStart(2, "0")}
     </span>
   );
@@ -159,7 +159,7 @@ export function VideoShowcase() {
             initial={{ opacity: 0, y: 14 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, ease }}
-            className="text-[10px] md:text-xs text-white/90 tracking-[0.2em] uppercase font-semibold mb-8"
+            className="text-[10px] md:text-xs text-white tracking-[0.2em] uppercase font-semibold mb-8"
           >
             Our work in motion
           </motion.p>
@@ -172,14 +172,14 @@ export function VideoShowcase() {
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium leading-[1.08] tracking-tight text-white max-w-4xl"
             >
               Brands come alive{" "}
-              <span className="text-white/90 italic">through motion.</span>
+              <span className="text-white italic">through motion.</span>
             </motion.h2>
 
             <motion.p
               initial={{ opacity: 0 }}
               animate={inView ? { opacity: 1 } : {}}
               transition={{ duration: 0.6, delay: 0.2, ease }}
-              className="text-sm text-white/30 max-w-sm leading-relaxed shrink-0"
+              className="text-sm text-white max-w-sm leading-relaxed shrink-0"
             >
               Short-form content, brand films, and animated visuals — crafted to
               stop the scroll.
@@ -295,7 +295,7 @@ export function VideoShowcase() {
                 {/* Number + client top left */}
                 <div className="absolute top-5 left-5 flex items-center gap-3 z-20">
                   <CardNumber number={i + 1} />
-                  <span className="text-[9px] text-white/0 group-hover:text-white/30 tracking-[0.15em] uppercase transition-colors duration-500">
+                  <span className="text-[9px] text-white group-hover:text-white tracking-[0.15em] uppercase transition-colors duration-500">
                     {reel.client}
                   </span>
                 </div>
@@ -357,7 +357,7 @@ export function VideoShowcase() {
                   >
                     <div className="w-0 h-0 border-t-[7px] border-t-transparent border-b-[7px] border-b-transparent border-l-[12px] border-l-white ml-1" />
                   </motion.div>
-                  <p className="text-[8px] text-white/90 tracking-[0.15em] uppercase text-center mt-2 font-medium">Watch</p>
+                  <p className="text-[8px] text-white tracking-[0.15em] uppercase text-center mt-2 font-medium">Watch</p>
                 </div>
 
                 {/* Top accent glow on hover */}
@@ -377,12 +377,12 @@ export function VideoShowcase() {
             transition={{ duration: 0.8, delay: 1, ease }}
             className="flex items-center gap-3"
           >
-            <p className="text-xs text-white/20">
+            <p className="text-xs text-white">
               {reels.length} projects
             </p>
             {/* Animated drag indicator */}
             <motion.div
-              className="flex items-center gap-2 text-xs text-white/30"
+              className="flex items-center gap-2 text-xs text-white"
               animate={{
                 opacity: dragVisible ? [0.3, 0.7, 0.3] : 0.3,
                 x: dragVisible ? [0, 8, 0] : 0,
@@ -393,7 +393,7 @@ export function VideoShowcase() {
                 ease: "easeInOut",
               }}
             >
-              <span className="text-white/15">&middot;</span>
+              <span className="text-white">&middot;</span>
               <svg
                 width="16"
                 height="16"

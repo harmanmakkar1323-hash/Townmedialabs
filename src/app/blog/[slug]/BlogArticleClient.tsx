@@ -8,7 +8,8 @@ import { FooterHome2 } from "@/components/sections/FooterHome2";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import type { BlogArticle } from "@/data/blogArticles";
 import { servicePages } from "@/data/servicePages";
-import { blogRelatedServices } from "@/lib/internalLinks";
+import { blogRelatedServices, blogRelatedArticles } from "@/lib/internalLinks";
+import { blogArticles } from "@/data/blogArticles";
 
 const ease = [0.23, 1, 0.32, 1] as const;
 
@@ -128,7 +129,7 @@ function FloatingTOC({ items }: { items: string[] }) {
 
   return (
     <nav aria-label="Table of contents" className="hidden xl:block sticky top-32 max-h-[70vh] overflow-y-auto pr-4">
-      <p className="text-[9px] tracking-[0.2em] uppercase text-white/25 font-semibold mb-4">
+      <p className="text-[9px] tracking-[0.2em] uppercase text-white font-semibold mb-4">
         On This Page
       </p>
       <div className="space-y-1">
@@ -141,8 +142,8 @@ function FloatingTOC({ items }: { items: string[] }) {
               href={`#${id}`}
               className={`block text-[11px] leading-relaxed py-1 pl-3 border-l-2 transition-all duration-300 ${
                 isActive
-                  ? "border-[#ff4500] text-white/90 font-medium"
-                  : "border-white/[0.06] text-white/25 hover:text-white/90 hover:border-white/20"
+                  ? "border-[#ff4500] text-white font-medium"
+                  : "border-white/[0.06] text-white hover:text-white hover:border-white/20"
               }`}
             >
               {item.length > 40 ? item.slice(0, 40) + "..." : item}
@@ -206,7 +207,7 @@ export default function BlogArticleClient({
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.03 }}
           transition={{ duration: 2 }}
-          className="absolute top-10 -right-10 md:right-10 text-[20rem] md:text-[30rem] font-bold text-white leading-none select-none pointer-events-none"
+          className="absolute top-10 -right-10 md:right-10 text-[20rem] md:text-[30rem] font-bold text-white/[0.02] leading-none select-none pointer-events-none"
         >
           10
         </motion.div>
@@ -253,12 +254,12 @@ export default function BlogArticleClient({
             <span className="text-[10px] tracking-wider uppercase bg-[#ff4500] rounded-full px-4 py-1.5 text-white font-bold shadow-[0_0_25px_rgba(255,69,0,0.4)]">
               {article.category}
             </span>
-            <span className="text-[10px] tracking-wider uppercase text-white/30 font-medium flex items-center gap-1.5">
+            <span className="text-[10px] tracking-wider uppercase text-white font-medium flex items-center gap-1.5">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2" /></svg>
               {article.readTime}
             </span>
             <span className="w-1 h-1 rounded-full bg-white/15" />
-            <span className="text-[10px] tracking-wider uppercase text-white/30 font-medium">
+            <span className="text-[10px] tracking-wider uppercase text-white font-medium">
               {new Date(article.date).toLocaleDateString("en-IN", {
                 year: "numeric",
                 month: "long",
@@ -286,7 +287,7 @@ export default function BlogArticleClient({
             initial={{ opacity: 0, y: 20 }}
             animate={heroInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2, ease }}
-            className="text-base md:text-lg text-white/90 leading-relaxed max-w-2xl mb-10"
+            className="text-base md:text-lg text-white leading-relaxed max-w-2xl mb-10"
           >
             {article.metaDescription}
           </motion.p>
@@ -303,8 +304,8 @@ export default function BlogArticleClient({
                 TML
               </div>
               <div>
-                <p className="text-sm font-semibold text-white/90">TML Agency</p>
-                <p className="text-[11px] text-white/30">India&apos;s #1 Branding Agency</p>
+                <p className="text-sm font-semibold text-white">TML Agency</p>
+                <p className="text-[11px] text-white">India&apos;s #1 Branding Agency</p>
               </div>
             </div>
             <div className="hidden sm:flex items-center gap-2">
@@ -314,7 +315,7 @@ export default function BlogArticleClient({
                 { href: `https://wa.me/?text=${encodeURIComponent(article.title + " https://townmedialabs.com/blog/" + slug)}`, icon: <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" /> },
               ].map((s, i) => (
                 <a key={i} href={s.href} target="_blank" rel="noopener noreferrer"
-                  className="w-9 h-9 rounded-xl bg-white/[0.04] border border-white/[0.06] flex items-center justify-center text-white/30 hover:text-[#ff4500] hover:border-[#ff4500]/30 hover:bg-[#ff4500]/5 transition-all duration-300">
+                  className="w-9 h-9 rounded-xl bg-white/[0.04] border border-white/[0.06] flex items-center justify-center text-white hover:text-[#ff4500] hover:border-[#ff4500]/30 hover:bg-[#ff4500]/5 transition-all duration-300">
                   <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">{s.icon}</svg>
                 </a>
               ))}
@@ -357,13 +358,13 @@ export default function BlogArticleClient({
                   [&_h3]:text-white [&_h3]:mt-12 [&_h3]:mb-5
                   [&_h3]:flex [&_h3]:items-center [&_h3]:gap-3
 
-                  [&_p]:text-[15px] [&_p]:md:text-base [&_p]:text-white/90 [&_p]:leading-[1.85] [&_p]:mb-5
+                  [&_p]:text-[15px] [&_p]:md:text-base [&_p]:text-white [&_p]:leading-[1.85] [&_p]:mb-5
 
-                  [&_li]:text-[15px] [&_li]:md:text-base [&_li]:text-white/90 [&_li]:leading-[1.8]
+                  [&_li]:text-[15px] [&_li]:md:text-base [&_li]:text-white [&_li]:leading-[1.8]
                   [&_ul]:space-y-2.5 [&_ul]:my-6
                   [&_ul]:pl-5
 
-                  [&_strong]:text-white/90 [&_strong]:font-semibold
+                  [&_strong]:text-white [&_strong]:font-semibold
 
                   [&_a]:text-[#ff4500] [&_a]:no-underline [&_a]:font-medium
                   [&_a]:border-b [&_a]:border-[#ff4500]/30
@@ -373,17 +374,17 @@ export default function BlogArticleClient({
                   [&_table]:w-full [&_table]:my-8
                   [&_table]:border [&_table]:border-white/[0.06] [&_table]:rounded-2xl [&_table]:overflow-hidden
                   [&_table]:bg-white/[0.02]
-                  [&_caption]:caption-bottom [&_caption]:text-xs [&_caption]:text-white/30
+                  [&_caption]:caption-bottom [&_caption]:text-xs [&_caption]:text-white
                   [&_caption]:py-3 [&_caption]:px-5 [&_caption]:text-left
                   [&_thead]:bg-[#ff4500]/[0.08]
                   [&_th]:px-5 [&_th]:py-4 [&_th]:text-left [&_th]:text-xs [&_th]:font-bold
                   [&_th]:text-[#ff4500]/90 [&_th]:uppercase [&_th]:tracking-wider
                   [&_th]:border-b [&_th]:border-white/[0.06]
-                  [&_td]:px-5 [&_td]:py-4 [&_td]:text-sm [&_td]:text-white/90
+                  [&_td]:px-5 [&_td]:py-4 [&_td]:text-sm [&_td]:text-white
                   [&_td]:border-b [&_td]:border-white/[0.04]
                   [&_tr:last-child_td]:border-b-0
                   [&_tr]:transition-colors [&_tr:hover]:bg-white/[0.02]
-                  [&_td:first-child]:text-white/90 [&_td:first-child]:font-medium
+                  [&_td:first-child]:text-white [&_td:first-child]:font-medium
 
                   [&_hr]:border-0 [&_hr]:h-px [&_hr]:my-16
                   [&_hr]:bg-gradient-to-r [&_hr]:from-transparent [&_hr]:via-[#ff4500]/20 [&_hr]:to-transparent
@@ -394,10 +395,10 @@ export default function BlogArticleClient({
                   [&_blockquote]:px-6 [&_blockquote]:md:px-8 [&_blockquote]:py-6
                   [&_blockquote]:my-10 [&_blockquote]:not-italic
                   [&_blockquote]:shadow-[inset_0_0_40px_rgba(255,69,0,0.03)]
-                  [&_blockquote_p]:text-white/90 [&_blockquote_p]:text-base [&_blockquote_p]:md:text-lg
+                  [&_blockquote_p]:text-white [&_blockquote_p]:text-base [&_blockquote_p]:md:text-lg
                   [&_blockquote_p]:font-medium [&_blockquote_p]:leading-relaxed [&_blockquote_p]:mb-0 [&_blockquote_p]:italic
 
-                  [&_em]:text-white/90
+                  [&_em]:text-white
 
                   [&_img]:rounded-2xl [&_img]:border [&_img]:border-white/[0.06]
                 "
@@ -413,22 +414,22 @@ export default function BlogArticleClient({
         <div className="max-w-4xl mx-auto xl:ml-[calc(14rem+3rem)]">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 py-8 border-t border-b border-white/[0.06]">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="text-[10px] text-white/25 uppercase tracking-widest font-semibold mr-1">Tags</span>
+              <span className="text-[10px] text-white uppercase tracking-widest font-semibold mr-1">Tags</span>
               {article.keywords.slice(0, 5).map((kw) => (
-                <span key={kw} className="text-[10px] tracking-wider bg-white/[0.03] border border-white/[0.06] rounded-full px-3 py-1.5 text-white/35 font-medium hover:border-[#ff4500]/20 hover:text-white/90 transition-colors cursor-default">
+                <span key={kw} className="text-[10px] tracking-wider bg-white/[0.03] border border-white/[0.06] rounded-full px-3 py-1.5 text-white font-medium hover:border-[#ff4500]/20 hover:text-white transition-colors cursor-default">
                   {kw}
                 </span>
               ))}
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-[10px] text-white/25 uppercase tracking-widest font-semibold mr-1">Share</span>
+              <span className="text-[10px] text-white uppercase tracking-widest font-semibold mr-1">Share</span>
               {[
                 { href: `https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=https://townmedialabs.com/blog/${slug}`, label: "X" },
                 { href: `https://www.linkedin.com/sharing/share-offsite/?url=https://townmedialabs.com/blog/${slug}`, label: "in" },
                 { href: `https://wa.me/?text=${encodeURIComponent(article.title + " https://townmedialabs.com/blog/" + slug)}`, label: "wa" },
               ].map((s) => (
                 <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer"
-                  className="w-8 h-8 rounded-lg bg-white/[0.04] border border-white/[0.06] flex items-center justify-center text-[10px] font-bold text-white/30 hover:text-[#ff4500] hover:border-[#ff4500]/30 transition-all">
+                  className="w-8 h-8 rounded-lg bg-white/[0.04] border border-white/[0.06] flex items-center justify-center text-[10px] font-bold text-white hover:text-[#ff4500] hover:border-[#ff4500]/30 transition-all">
                   {s.label}
                 </a>
               ))}
@@ -436,6 +437,78 @@ export default function BlogArticleClient({
           </div>
         </div>
       </section>
+
+      {/* Related Articles */}
+      {(() => {
+        const articleSlugs = blogRelatedArticles[slug]
+          || (slug.startsWith("top-10-branding-agencies-")
+            ? ["branding-cost-small-business", "how-to-choose-branding-agency-checklist", "why-professional-branding-matters"]
+            : []);
+        const relatedArticleData = articleSlugs
+          .map((s) => {
+            const art = blogArticles[s];
+            return art ? { slug: s, ...art } : null;
+          })
+          .filter(Boolean) as (BlogArticle & { slug: string })[];
+        if (relatedArticleData.length === 0) return null;
+        return (
+          <section className="px-6 lg:px-12 py-16 md:py-24">
+            <div className="max-w-5xl mx-auto">
+              <motion.p
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, ease }}
+                className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
+              >
+                Keep Reading
+              </motion.p>
+              <motion.h2
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.7, ease }}
+                className="text-2xl sm:text-3xl font-medium text-white mb-10"
+              >
+                Related Articles
+                <span className="text-[#ff4500]">.</span>
+              </motion.h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                {relatedArticleData.map((art, i) => (
+                  <motion.div
+                    key={art.slug}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: i * 0.1, ease }}
+                  >
+                    <Link
+                      href={`/blog/${art.slug}`}
+                      className="group block p-6 md:p-8 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] hover:border-[#ff4500]/20 transition-all duration-500 h-full"
+                    >
+                      <span className="inline-block text-[10px] tracking-widest uppercase text-[#ff4500]/70 font-medium mb-3">
+                        {art.category}
+                      </span>
+                      <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-[#ff4500] transition-colors line-clamp-2">
+                        {art.title}
+                      </h3>
+                      <p className="text-sm text-white leading-relaxed mb-4 line-clamp-2">
+                        {art.metaDescription}
+                      </p>
+                      <div className="flex items-center justify-between">
+                        <span className="text-[11px] text-white">{art.readTime}</span>
+                        <span className="text-xs text-[#ff4500] font-medium tracking-wide group-hover:underline">
+                          Read &rarr;
+                        </span>
+                      </div>
+                    </Link>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })()}
 
       {/* Related Services */}
       {(() => {
@@ -452,7 +525,7 @@ export default function BlogArticleClient({
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, ease }}
-                className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4"
+                className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
               >
                 Explore Our Services
               </motion.p>
@@ -482,7 +555,7 @@ export default function BlogArticleClient({
                       <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-[#ff4500] transition-colors">
                         {service.title}
                       </h3>
-                      <p className="text-sm text-white/90 leading-relaxed mb-4 line-clamp-2">
+                      <p className="text-sm text-white leading-relaxed mb-4 line-clamp-2">
                         {service.tagline}
                       </p>
                       <span className="text-xs text-[#ff4500] font-medium tracking-wide group-hover:underline">
@@ -538,7 +611,7 @@ export default function BlogArticleClient({
                 Ready to build your{" "}
                 <span className="bg-gradient-to-r from-[#ff4500] to-[#ff6b35] bg-clip-text text-transparent italic">brand?</span>
               </h2>
-              <p className="text-sm md:text-base text-white/45 max-w-lg mx-auto mb-10 leading-relaxed">
+              <p className="text-sm md:text-base text-white max-w-lg mx-auto mb-10 leading-relaxed">
                 Get a free consultation with our branding experts. Let&apos;s create something people remember.
               </p>
 
@@ -549,7 +622,7 @@ export default function BlogArticleClient({
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
                 </Link>
                 <a href="tel:+919872648209"
-                  className="inline-flex items-center gap-2 border border-white/[0.08] bg-white/[0.03] text-white/90 px-10 py-4 rounded-2xl text-sm font-semibold hover:bg-white/[0.06] hover:text-white transition-all">
+                  className="inline-flex items-center gap-2 border border-white/[0.08] bg-white/[0.03] text-white px-10 py-4 rounded-2xl text-sm font-semibold hover:bg-white/[0.06] hover:text-white transition-all">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
                   +91 98726 48209
                 </a>

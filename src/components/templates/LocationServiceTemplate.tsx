@@ -15,6 +15,8 @@ import { industries, industryPages } from "@/data/industries";
 import { serviceRelatedBlogs, serviceRelatedIndustries } from "@/lib/internalLinks";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import { getCityServiceContent } from "@/data/cityServiceContent";
+import { getImagesForService } from "@/data/portfolioImages";
+import Image from "next/image";
 
 function convertPriceRange(range: string, country: string): string {
   if (country === "India") return range;
@@ -182,13 +184,13 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
           </h1>
 
           <p
-            className="hero-fade-up hero-delay-2 text-lg md:text-xl text-white/90 font-medium mb-4"
+            className="hero-fade-up hero-delay-2 text-lg md:text-xl text-white font-medium mb-4"
           >
             {enrichment?.tagline || `Grow your ${cityName} business with expert ${serviceName.toLowerCase()} services.`}
           </p>
 
           <p
-            className="hero-fade-up hero-delay-3 text-sm md:text-base text-white/30 leading-relaxed max-w-2xl mx-auto mb-10"
+            className="hero-fade-up hero-delay-3 text-sm md:text-base text-white leading-relaxed max-w-2xl mx-auto mb-10"
           >
             {enrichment?.heroDescription || `TML is a leading ${serviceName.toLowerCase()} agency serving businesses across ${location.region}. We combine deep industry expertise with local market understanding to deliver ${serviceName.toLowerCase()} solutions that drive real results for ${cityName} businesses.`}
           </p>
@@ -204,7 +206,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
             </Link>
             <Link
               href={`/services/${serviceSlug}`}
-              className="px-8 py-4 rounded-full border border-white/10 text-white/90 font-semibold text-sm hover:bg-white/5 transition-colors"
+              className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
               View Full Service Details
             </Link>
@@ -234,10 +236,10 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                         <span className="text-[#ff4500]">{stat.value}</span>
                       )
                     ) : (
-                      <span className="text-white/20">&mdash;</span>
+                      <span className="text-white">&mdash;</span>
                     )}
                   </div>
-                  <p className="text-xs text-white/90">{stat.label}</p>
+                  <p className="text-xs text-white">{stat.label}</p>
                 </div>
               ))}
             </div>
@@ -251,7 +253,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
       {/* Why Choose Us */}
       <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
         <div className="relative mx-auto max-w-7xl">
-          <p className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4">Why Choose TML</p>
+          <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">Why Choose TML</p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16">
             Why {cityName} businesses choose us<span className="text-[#ff4500]">.</span>
           </h2>
@@ -269,7 +271,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                   <div className="w-2 h-2 rounded-full bg-[#ff4500]" />
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-3">{item.title}</h3>
-                <p className="text-sm text-white/90 leading-relaxed">{item.description}</p>
+                <p className="text-sm text-white leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
@@ -281,7 +283,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
       {/* How We Work - Process Section */}
       <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
         <div className="relative mx-auto max-w-7xl">
-          <p className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4">Our Process</p>
+          <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">Our Process</p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16">
             Our {serviceName} Process in {cityName}<span className="text-[#ff4500]">.</span>
           </h2>
@@ -300,12 +302,39 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                   <span className="text-sm font-bold text-[#ff4500]">{item.step}</span>
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-3">{item.title}</h3>
-                <p className="text-sm text-white/90 leading-relaxed">{item.description}</p>
+                <p className="text-sm text-white leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
+
+      {/* Work Showcase Strip — early visual break */}
+      {(() => {
+        const stripImages = getImagesForService(serviceSlug, 7);
+        const earlyImages = stripImages.slice(4, 7);
+        if (earlyImages.length === 0) return null;
+        return (
+          <section className="relative w-full px-6 py-12 md:py-16 lg:px-12 overflow-hidden">
+            <div className="relative mx-auto max-w-7xl">
+              <div className="grid grid-cols-3 gap-3 md:gap-4">
+                {earlyImages.map((img) => (
+                  <div key={img.src} className="relative aspect-[3/4] overflow-hidden rounded-xl border border-white/[0.06] group">
+                    <Image
+                      src={img.src}
+                      alt={img.alt}
+                      fill
+                      sizes="(max-width: 768px) 33vw, 33vw"
+                      className="object-cover transition-transform duration-700 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })()}
 
       <SectionDivider />
 
@@ -313,7 +342,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
       {serviceData && (
         <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 bg-[#080808] overflow-hidden">
           <div className="relative mx-auto max-w-7xl">
-            <p className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4">What We Offer</p>
+            <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">What We Offer</p>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16">
               Our {serviceName} Services in {cityName}<span className="text-[#ff4500]">.</span>
             </h2>
@@ -332,9 +361,9 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                         <div key={f.title}
                           className="p-6 md:p-8 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] hover:border-[#ff4500]/20 transition-all duration-500"
                         >
-                          <div className="text-[10px] text-white/20 font-mono mb-4">{String(idx + 1).padStart(2, "0")}</div>
+                          <div className="text-[10px] text-white font-mono mb-4">{String(idx + 1).padStart(2, "0")}</div>
                           <h3 className="text-lg font-semibold text-white mb-3">{f.title}</h3>
-                          <p className="text-sm text-white/90 leading-relaxed">{f.description}</p>
+                          <p className="text-sm text-white leading-relaxed">{f.description}</p>
                         </div>
                       );
                     })}
@@ -351,7 +380,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
       {/* Our Expertise */}
       <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
         <div className="relative mx-auto max-w-7xl">
-          <p className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4">Our Expertise</p>
+          <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">Our Expertise</p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16">
             Why {cityName} Businesses Trust Our {serviceName}<span className="text-[#ff4500]">.</span>
           </h2>
@@ -368,7 +397,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                   <AnimatedCounter target={item.stat} suffix={item.suffix} duration={2} />
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-3">{item.label}</h3>
-                <p className="text-sm text-white/90 leading-relaxed">{item.description}</p>
+                <p className="text-sm text-white leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
@@ -383,7 +412,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
         <div className="relative mx-auto max-w-5xl">
           {/* Section header */}
           <div className="flex items-center gap-4 mb-10">
-            <p className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase font-semibold">Local Expertise</p>
+            <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase font-semibold">Local Expertise</p>
             <div className="flex-1 h-[1px] bg-white/[0.06]" />
           </div>
 
@@ -391,62 +420,103 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
             {serviceName} in {cityName}<span className="text-[#ff4500]">.</span>
           </h2>
 
-          {/* Content blocks — card grid for local info */}
+          {/* Content blocks — image + content editorial layout */}
+          {(() => {
+            const localImages = getImagesForService(serviceSlug, 2);
+            return (
           <div className="space-y-16">
-            {/* Block 1: Your Local Partner */}
+            {/* Block 1: Your Local Partner — image + content side by side */}
             <div>
               <div className="flex items-center gap-4 mb-6">
                 <span className="text-xs font-mono text-[#ff4500]/50 font-bold">01</span>
                 <div className="flex-1 h-[1px] bg-gradient-to-r from-[#ff4500]/20 to-transparent" />
               </div>
               <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-start">
-                <div className="md:w-2/5">
-                  <h3 className="text-2xl sm:text-3xl font-medium text-white leading-tight">Your Local {serviceName} Partner<span className="text-[#ff4500]">.</span></h3>
-                </div>
-                <div className="md:w-3/5 space-y-5 pl-5 border-l border-white/[0.06]">
-                  {enrichment?.localContent ? (
-                    enrichment.localContent.map((p, i) => (
-                      <p key={i} className="text-sm md:text-[15px] text-white/45 leading-[1.8]">{p}</p>
-                    ))
-                  ) : (
-                    <>
-                      <p className="text-sm md:text-[15px] text-white/45 leading-[1.8]">
-                        As a leading {serviceName.toLowerCase()} agency serving {cityName}, TML has helped businesses across
-                        {" "}{location.region} achieve their digital marketing goals. Whether you&apos;re a startup or an established
-                        enterprise — our {serviceName.toLowerCase()} expertise delivers measurable results.
-                      </p>
-                      <p className="text-sm md:text-[15px] text-white/45 leading-[1.8]">
-                        From businesses near {location.landmarks[0]} to companies across {location.landmarks.slice(1, 3).join(" and ")} —
-                        we&apos;ve delivered {serviceName.toLowerCase()} solutions that drive growth. Our local knowledge combined
-                        with national-level expertise makes TML the ideal partner for {cityName} businesses.
-                      </p>
-                    </>
-                  )}
+                {/* Image side */}
+                {localImages[0] && (
+                  <div className="md:w-[40%] flex-shrink-0">
+                    <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-white/[0.06]">
+                      <Image
+                        src={localImages[0].src}
+                        alt={localImages[0].alt}
+                        fill
+                        sizes="(max-width: 768px) 100vw, 40vw"
+                        className="object-cover"
+                        loading="lazy"
+                      />
+                    </div>
+                  </div>
+                )}
+                {/* Content side */}
+                <div className={localImages[0] ? "md:w-[60%]" : "md:w-full"}>
+                  <h3 className="text-2xl sm:text-3xl font-medium text-white leading-tight mb-6">Your Local {serviceName} Partner<span className="text-[#ff4500]">.</span></h3>
+                  <div className="space-y-5">
+                    {enrichment?.localContent ? (
+                      enrichment.localContent.map((p, i) => (
+                        <p key={i} className="text-sm md:text-[15px] text-white/80 leading-[1.9]">{p}</p>
+                      ))
+                    ) : (
+                      <>
+                        <p className="text-sm md:text-[15px] text-white/80 leading-[1.9]">
+                          As a leading {serviceName.toLowerCase()} agency serving {cityName}, TML has helped businesses across
+                          {" "}{location.region} achieve their digital marketing goals. Whether you&apos;re a startup or an established
+                          enterprise — our {serviceName.toLowerCase()} expertise delivers measurable results.
+                        </p>
+                        <p className="text-sm md:text-[15px] text-white/80 leading-[1.9]">
+                          From businesses near {location.landmarks[0]} to companies across {location.landmarks.slice(1, 3).join(" and ")} —
+                          we&apos;ve delivered {serviceName.toLowerCase()} solutions that drive growth. Our local knowledge combined
+                          with national-level expertise makes TML the ideal partner for {cityName} businesses.
+                        </p>
+                      </>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* Block 2: Market Overview */}
+            {/* Block 2: Market Overview — image + content flipped */}
             <div>
               <div className="flex items-center gap-4 mb-6">
                 <span className="text-xs font-mono text-[#ff4500]/50 font-bold">02</span>
                 <div className="flex-1 h-[1px] bg-gradient-to-r from-[#ff4500]/20 to-transparent" />
               </div>
               <div className="flex flex-col md:flex-row-reverse gap-8 md:gap-12 items-start">
-                <div className="md:w-2/5">
-                  <h3 className="text-2xl sm:text-3xl font-medium text-white leading-tight">{cityName} Market Overview<span className="text-[#ff4500]">.</span></h3>
-                </div>
-                <div className="md:w-3/5 space-y-5 pl-5 border-l border-white/[0.06]">
-                  <p className="text-sm md:text-[15px] text-white/45 leading-[1.8]">
-                    {cityName} is home to thriving {location.industries.slice(0, 3).join(", ")} industries, and each requires
-                    a unique {serviceName.toLowerCase()} approach. With a diverse economy driven by {location.industries.slice(0, 4).join(", ")}, businesses are
-                    increasingly turning to digital solutions to stay competitive.
-                  </p>
-                  <p className="text-sm md:text-[15px] text-white/45 leading-[1.8]">
-                    The competitive landscape in {cityName} is evolving rapidly. At TML, we help you navigate this by identifying
-                    gaps in your competitors&apos; strategies and positioning your brand where it matters most — in front of your
-                    {" "}{cityName} audience at the right time, on the right platform.
-                  </p>
+                {/* Image side */}
+                {localImages[1] && (
+                  <div className="md:w-[40%] flex-shrink-0">
+                    <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-white/[0.06]">
+                      <Image
+                        src={localImages[1].src}
+                        alt={localImages[1].alt}
+                        fill
+                        sizes="(max-width: 768px) 100vw, 40vw"
+                        className="object-cover"
+                        loading="lazy"
+                      />
+                    </div>
+                  </div>
+                )}
+                {/* Content side */}
+                <div className={localImages[1] ? "md:w-[60%]" : "md:w-full"}>
+                  <h3 className="text-2xl sm:text-3xl font-medium text-white leading-tight mb-4">{cityName} Market Overview<span className="text-[#ff4500]">.</span></h3>
+                  {/* Inline industry tags */}
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    {location.industries.slice(0, 6).map((industry, i) => (
+                      <span key={i} className="text-[11px] px-3 py-1.5 rounded-full border border-white/[0.08] text-white/70">{industry}</span>
+                    ))}
+                  </div>
+                  <div className="space-y-5">
+                    <p className="text-sm md:text-[15px] text-white/80 leading-[1.9]">
+                      {cityName} is home to thriving {location.industries.slice(0, 3).join(", ")} industries, and each requires
+                      a unique {serviceName.toLowerCase()} approach. With a diverse economy driven by {location.industries.slice(0, 4).join(", ")}, businesses are
+                      increasingly turning to digital solutions to stay competitive.
+                    </p>
+                    <p className="text-sm md:text-[15px] text-white/80 leading-[1.9]">
+                      The competitive landscape in {cityName} is evolving rapidly. At TML, we help you navigate this by identifying
+                      gaps in your competitors&apos; strategies and positioning your brand where it matters most — in front of your
+                      {" "}{cityName} audience at the right time, on the right platform.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -458,23 +528,25 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                   <span className="text-xs font-mono text-[#ff4500]/50 font-bold">03</span>
                   <div className="flex-1 h-[1px] bg-gradient-to-r from-[#ff4500]/20 to-transparent" />
                 </div>
-                <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-start">
-                  <div className="md:w-2/5">
-                    <h3 className="text-2xl sm:text-3xl font-medium text-white leading-tight">What Makes {cityName} Unique<span className="text-[#ff4500]">.</span></h3>
-                  </div>
-                  <div className="md:w-3/5 space-y-5 pl-5 border-l border-white/[0.06]">
-                    {location.uniqueContent.map((paragraph, i) => (
-                      <p key={i}
-                        className="text-sm md:text-[15px] text-white/45 leading-[1.8]"
-                      >
-                        {paragraph}
-                      </p>
+                <h3 className="text-2xl sm:text-3xl font-medium text-white leading-tight mb-8">What Makes {cityName} Unique<span className="text-[#ff4500]">.</span></h3>
+
+                {/* Pull quote from first paragraph */}
+                <div className="mb-8 pl-6 border-l-2 border-[#ff4500]/40">
+                  <p className="text-lg text-white/90 leading-relaxed italic font-light">{location.uniqueContent[0]}</p>
+                </div>
+
+                {location.uniqueContent.length > 1 && (
+                  <div className="space-y-5">
+                    {location.uniqueContent.slice(1).map((paragraph, i) => (
+                      <p key={i} className="text-sm md:text-[15px] text-white/80 leading-[1.9]">{paragraph}</p>
                     ))}
                   </div>
-                </div>
+                )}
               </div>
             )}
           </div>
+            );
+          })()}
         </div>
       </section>
 
@@ -489,9 +561,9 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                 <div className="p-6 md:p-8 rounded-2xl border border-[#ff4500]/10 bg-[#ff4500]/[0.03]">
                   <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-4">
                     <div className="text-3xl md:text-4xl font-bold text-[#ff4500]">{enrichment.marketInsight.stat}</div>
-                    <p className="text-sm text-white/90 leading-relaxed">{enrichment.marketInsight.headline}</p>
+                    <p className="text-sm text-white leading-relaxed">{enrichment.marketInsight.headline}</p>
                   </div>
-                  <p className="text-sm text-white/90 leading-relaxed">{enrichment.marketInsight.body}</p>
+                  <p className="text-sm text-white leading-relaxed">{enrichment.marketInsight.body}</p>
                 </div>
               </div>
             </div>
@@ -519,7 +591,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                     <div className="flex-1">
                       <p className="text-[10px] text-[#ff4500]/60 tracking-[0.2em] uppercase font-semibold mb-2">Transparent Pricing</p>
                       <h2 className="text-xl md:text-2xl font-semibold text-white mb-4">{serviceName} Investment in {cityName}</h2>
-                      <p className="text-sm md:text-[15px] text-white/45 leading-[1.8] mb-6">{serviceData.pricingNote}</p>
+                      <p className="text-sm md:text-[15px] text-white leading-[1.8] mb-6">{serviceData.pricingNote}</p>
                       <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_20px_rgba(255,69,0,0.25)]">
                         Get a Custom Quote
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
@@ -556,7 +628,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                       className="flex items-center gap-3 p-4 rounded-xl border border-white/[0.06] bg-white/[0.02] hover:border-[#ff4500]/20 transition-colors"
                     >
                       <div className="w-2 h-2 rounded-full bg-[#ff4500]/50 flex-shrink-0" />
-                      <span className="text-sm text-white/90 capitalize">{ind}</span>
+                      <span className="text-sm text-white capitalize">{ind}</span>
                     </div>
                   ))}
                 </div>
@@ -589,22 +661,55 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                 </svg>
               ))}
             </div>
-            <p className="text-lg md:text-xl text-white/90 font-medium mb-2">Trusted by 500+ businesses</p>
-            <p className="text-white/30 text-sm mb-6">across {location.region}</p>
+            <p className="text-lg md:text-xl text-white font-medium mb-2">Trusted by 500+ businesses</p>
+            <p className="text-white text-sm mb-6">across {location.region}</p>
             <div className="h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent mb-6" />
-            <p className="text-sm md:text-base text-white/90 italic leading-relaxed max-w-2xl mx-auto">
+            <p className="text-sm md:text-base text-white italic leading-relaxed max-w-2xl mx-auto">
               &ldquo;TML transformed our digital presence in {cityName}. Their {serviceName.toLowerCase()} expertise
               delivered results that exceeded our expectations. Highly recommended for any {cityName} business
               looking to grow.&rdquo;
             </p>
-            <p className="text-xs text-white/30 mt-4">&mdash; A satisfied {cityName} business owner</p>
+            <p className="text-xs text-white mt-4">&mdash; A satisfied {cityName} business owner</p>
           </div>
         </div>
       </section>
 
+      {/* Portfolio Showcase — visual work samples */}
+      {(() => {
+        const images = getImagesForService(serviceSlug, 4);
+        if (images.length === 0) return null;
+        return (
+          <>
+            <SectionDivider />
+            <section className="relative w-full px-6 py-16 md:py-20 lg:px-12 overflow-hidden">
+              <div className="relative mx-auto max-w-5xl">
+                <h3 className="text-xl sm:text-2xl font-medium text-white mb-8">
+                  Our {serviceName} Work<span className="text-[#ff4500]">.</span>
+                </h3>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                  {images.map((img) => (
+                    <div key={img.src} className="relative aspect-square overflow-hidden rounded-xl border border-white/[0.06] group">
+                      <Image
+                        src={img.src}
+                        alt={img.alt}
+                        fill
+                        sizes="(max-width: 768px) 50vw, 25vw"
+                        className="object-cover transition-transform duration-700 group-hover:scale-105"
+                        loading="lazy"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </section>
+          </>
+        );
+      })()}
+
       <SectionDivider />
 
-      {/* Rich SEO Content Section — JustDial-style long-form */}
+      {/* Rich SEO Content Section — engaging varied layouts */}
       {(() => {
         const seoData = serviceSeoContent[serviceSlug];
         if (!seoData) return null;
@@ -617,174 +722,169 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                 Unlock Your Business Potential with Comprehensive {serviceName} Services in {cityName}<span className="text-[#ff4500]">.</span>
               </h2>
 
-              <div className="space-y-12">
-                {/* Group 1: Intro + Offerings + Pricing */}
-                <div className="space-y-12">
-                  {/* Intro */}
-                  <div>
-                    <p className="text-sm md:text-base text-white/90 leading-[1.9] mb-4">
-                      {seoData.intro}
-                    </p>
-                    <p className="text-sm md:text-base text-white/90 leading-[1.9]">
-                      Additionally, businesses in {cityName} across {location.industries.slice(0, 3).join(", ")} sectors are increasingly turning to professional {serviceName.toLowerCase()} services to stay competitive. Whether you&apos;re based near {location.landmarks[0]}, operating in {location.landmarks[1]}, or serving customers across {location.region} — TML Agency delivers tailored {serviceName.toLowerCase()} solutions that drive measurable results for {cityName} businesses.
-                    </p>
-                  </div>
+              <div className="space-y-14">
+                {/* Intro */}
+                <div>
+                  <p className="text-sm md:text-base text-white/80 leading-[1.9] mb-5">
+                    {seoData.intro}
+                  </p>
+                  <p className="text-sm md:text-base text-white/80 leading-[1.9]">
+                    Additionally, businesses in {cityName} across {location.industries.slice(0, 3).join(", ")} sectors are increasingly turning to professional {serviceName.toLowerCase()} services to stay competitive. Whether you&apos;re based near {location.landmarks[0]}, operating in {location.landmarks[1]}, or serving customers across {location.region} — TML Agency delivers tailored {serviceName.toLowerCase()} solutions that drive measurable results for {cityName} businesses.
+                  </p>
+                </div>
 
-                  {/* Products & Services Offered */}
-                  <div>
-                    <h3 className="text-xl md:text-2xl font-semibold text-white mb-6">
-                      Products and Services Offered by a {serviceName} Agency in {cityName}
-                    </h3>
-                    <div className="space-y-4">
-                      {seoData.offerings.map((offering, i) => (
-                        <div key={i}
-                          className="flex items-start gap-4"
-                        >
-                          <span className="mt-2 w-2 h-2 rounded-full bg-[#ff4500]/60 flex-shrink-0" />
-                          <div>
-                            <h4 className="text-base font-semibold text-white/90 mb-1">{offering.title}</h4>
-                            <p className="text-sm text-white/90 leading-relaxed">{offering.desc}</p>
-                          </div>
+                {/* Products & Services Offered */}
+                <div>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-6">
+                    Products and Services Offered by a {serviceName} Agency in {cityName}
+                  </h3>
+                  <div className="space-y-5">
+                    {seoData.offerings.map((offering, i) => (
+                      <div key={i} className="flex gap-5 items-start">
+                        <span className="text-3xl font-light text-[#ff4500]/20 leading-none select-none flex-shrink-0 -mt-0.5">
+                          {String(i + 1).padStart(2, "0")}
+                        </span>
+                        <div>
+                          <h4 className="text-base font-semibold text-white mb-1">{offering.title}</h4>
+                          <p className="text-sm text-white/70 leading-relaxed">{offering.desc}</p>
                         </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Pricing Section */}
-                  <div>
-                    <h3 className="text-xl md:text-2xl font-semibold text-white mb-4">
-                      Charges for {serviceName} Services in {cityName}
-                    </h3>
-                    <p className="text-sm text-white/90 leading-relaxed mb-6">
-                      Approximate pricing varies depending on services, scope, and business requirements. Contact us for a customised quote.
-                    </p>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                      {seoData.pricingTiers.map((tier, i) => (
-                        <div key={i}
-                          className="p-5 rounded-xl border border-white/[0.08] bg-white/[0.02] hover:border-[#ff4500]/20 transition-colors"
-                        >
-                          <p className="text-[10px] text-[#ff4500]/60 uppercase tracking-wider font-semibold mb-2">{tier.tier}</p>
-                          <p className="text-lg font-bold text-white mb-3">{convertPriceRange(tier.range, location.country)}</p>
-                          <p className="text-xs text-white/35 leading-relaxed">{tier.includes}</p>
-                        </div>
-                      ))}
-                    </div>
+                      </div>
+                    ))}
                   </div>
                 </div>
 
-                {/* Group 2: Benefits + How to Choose + Why Needed */}
-                <div className="space-y-12">
-                  {/* Benefits */}
-                  <div>
-                    <h3 className="text-xl md:text-2xl font-semibold text-white mb-6">
-                      Benefits of Availing {serviceName} Services for Your {cityName} Business
-                    </h3>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                      {seoData.benefits.map((benefit, i) => (
-                        <div key={i}
-                          className="flex items-start gap-3 p-3 rounded-lg"
-                        >
-                          <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[#ff4500]/60 flex-shrink-0" />
-                          <p className="text-sm text-white/45 leading-relaxed">{benefit}</p>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* How to Choose */}
-                  <div>
-                    <h3 className="text-xl md:text-2xl font-semibold text-white mb-4">
-                      How to Decide Which {serviceName} Service is Suitable for Your Business in {cityName}
-                    </h3>
-                    <p className="text-sm text-white/90 leading-relaxed mb-5">
-                      Choosing the right {serviceName.toLowerCase()} partner in {cityName} is a critical decision. Here are key factors to consider when evaluating {serviceName.toLowerCase()} agencies in {location.state}:
-                    </p>
-                    <ul className="space-y-3">
-                      {seoData.howToChoose.map((item, i) => (
-                        <li key={i}
-                          className="flex items-start gap-3 text-sm text-white/45 leading-relaxed"
-                        >
-                          <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[#ff4500]/60 flex-shrink-0" />
-                          {item}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  {/* Why You Need This */}
-                  <div>
-                    <h3 className="text-xl md:text-2xl font-semibold text-white mb-4">
-                      Why Do You Need {serviceName} Services in {cityName}?
-                    </h3>
-                    <p className="text-sm text-white/90 leading-relaxed mb-5">
-                      {cityName}, known as {location.description.toLowerCase()}, has a rapidly growing digital economy. Here&apos;s why investing in professional {serviceName.toLowerCase()} services is essential for businesses in {cityName}:
-                    </p>
-                    <ul className="space-y-3">
-                      {seoData.whyNeeded.map((reason, i) => (
-                        <li key={i}
-                          className="flex items-start gap-3 text-sm text-white/45 leading-relaxed"
-                        >
-                          <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[#ff4500]/60 flex-shrink-0" />
-                          {reason}
-                        </li>
-                      ))}
-                    </ul>
+                {/* Pricing Section */}
+                <div>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-4">
+                    Charges for {serviceName} Services in {cityName}
+                  </h3>
+                  <p className="text-sm text-white/60 leading-relaxed mb-6">
+                    Approximate pricing varies depending on services, scope, and business requirements. Contact us for a customised quote.
+                  </p>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    {seoData.pricingTiers.map((tier, i) => (
+                      <div key={i}
+                        className="p-5 rounded-xl border border-white/[0.08] bg-white/[0.02] hover:border-[#ff4500]/20 transition-colors"
+                      >
+                        <p className="text-[10px] text-[#ff4500]/60 uppercase tracking-wider font-semibold mb-2">{tier.tier}</p>
+                        <p className="text-lg font-bold text-white mb-3">{convertPriceRange(tier.range, location.country)}</p>
+                        <p className="text-xs text-white/70 leading-relaxed">{tier.includes}</p>
+                      </div>
+                    ))}
                   </div>
                 </div>
 
-                {/* Group 3: Types + Industry Focus + CTA */}
-                <div className="space-y-12">
-                  {/* Types */}
-                  <div>
-                    <h3 className="text-xl md:text-2xl font-semibold text-white mb-6">
-                      Types of {serviceName} Services Available in {cityName}
-                    </h3>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      {seoData.types.map((type, i) => (
-                        <div key={i}
-                          className="p-5 rounded-xl border border-white/[0.06] bg-white/[0.02] hover:border-[#ff4500]/20 transition-colors"
-                        >
-                          <h4 className="text-base font-semibold text-white/90 mb-2">{type.title}</h4>
-                          <p className="text-xs text-white/35 leading-relaxed">{type.desc}</p>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+                {/* Section divider */}
+                <div className="h-px bg-gradient-to-r from-transparent via-[#ff4500]/15 to-transparent" />
 
-                  {/* Industry Focus for City */}
-                  <div>
-                    <h3 className="text-xl md:text-2xl font-semibold text-white mb-4">
-                      {serviceName} for {cityName}&apos;s Key Industries
-                    </h3>
-                    <p className="text-sm text-white/90 leading-relaxed mb-5">
-                      {cityName} has a diverse economy driven by {location.industries.join(", ")}. Each industry requires a specialised {serviceName.toLowerCase()} approach. Here&apos;s how TML serves {cityName}&apos;s key sectors:
-                    </p>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                      {location.industries.map((ind) => (
-                        <div key={ind}
-                          className="p-4 rounded-xl border border-white/[0.06] bg-white/[0.02]"
-                        >
-                          <h5 className="text-sm font-semibold text-white/90 capitalize mb-1">{serviceName} for {ind}</h5>
-                          <p className="text-xs text-white/35 leading-relaxed">
-                            Tailored {serviceName.toLowerCase()} strategies for {cityName}&apos;s {ind} sector — from audience targeting and content creation to performance tracking and ROI optimisation.
-                          </p>
-                        </div>
-                      ))}
-                    </div>
+                {/* Benefits */}
+                <div>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-6">
+                    Benefits of Availing {serviceName} Services for Your {cityName} Business
+                  </h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
+                    {seoData.benefits.map((benefit, i) => (
+                      <div key={i} className="flex items-start gap-3">
+                        <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[#ff4500]/60 flex-shrink-0" />
+                        <p className="text-sm text-white/80 leading-relaxed">{benefit}</p>
+                      </div>
+                    ))}
                   </div>
+                </div>
 
-                  {/* CTA paragraph */}
-                  <div>
-                    <h3 className="text-xl md:text-2xl font-semibold text-white mb-4">
-                      Get Started with {serviceName} in {cityName} Today
-                    </h3>
-                    <p className="text-sm md:text-base text-white/90 leading-[1.9] mb-4">
-                      Ready to take your {cityName} business to the next level? TML Agency offers a free, no-obligation consultation where we&apos;ll analyse your current {serviceName.toLowerCase()} presence, identify opportunities for growth, and present a customised strategy designed for your business goals. Whether you&apos;re looking to dominate local search in {cityName}, build brand awareness across {location.state}, or generate high-quality leads from {location.region} — we have the expertise to make it happen.
-                    </p>
-                    <p className="text-sm md:text-base text-white/90 leading-[1.9]">
-                      Join 500+ businesses across {location.country} who have trusted TML with their {serviceName.toLowerCase()} needs. Our clients in {cityName} consistently report improved visibility, higher engagement, and measurable business growth. Contact us today and discover why TML is the preferred {serviceName.toLowerCase()} agency for businesses in {cityName}, {location.state}.
-                    </p>
+                {/* How to Choose */}
+                <div>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-4">
+                    How to Decide Which {serviceName} Service is Suitable for Your Business in {cityName}
+                  </h3>
+                  <p className="text-sm text-white/60 leading-relaxed mb-5">
+                    Choosing the right {serviceName.toLowerCase()} partner in {cityName} is a critical decision. Here are key factors to consider when evaluating {serviceName.toLowerCase()} agencies in {location.state}:
+                  </p>
+                  <ul className="space-y-3">
+                    {seoData.howToChoose.map((item, i) => (
+                      <li key={i} className="flex items-start gap-3 text-sm text-white/80 leading-relaxed">
+                        <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[#ff4500]/60 flex-shrink-0" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* Why You Need This */}
+                <div>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-4">
+                    Why Do You Need {serviceName} Services in {cityName}?
+                  </h3>
+                  <p className="text-sm text-white/60 leading-relaxed mb-5">
+                    {cityName}, known as {location.description.toLowerCase()}, has a rapidly growing digital economy. Here&apos;s why investing in professional {serviceName.toLowerCase()} services is essential for businesses in {cityName}:
+                  </p>
+                  <ul className="space-y-3">
+                    {seoData.whyNeeded.map((reason, i) => (
+                      <li key={i} className="flex items-start gap-3 text-sm text-white/80 leading-relaxed">
+                        <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[#ff4500]/60 flex-shrink-0" />
+                        {reason}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* Section divider */}
+                <div className="h-px bg-gradient-to-r from-transparent via-[#ff4500]/15 to-transparent" />
+
+                {/* Types */}
+                <div>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-6">
+                    Types of {serviceName} Services Available in {cityName}
+                  </h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    {seoData.types.map((type, i) => (
+                      <div key={i}
+                        className="p-5 rounded-xl border border-white/[0.06] bg-white/[0.02] hover:border-[#ff4500]/20 transition-colors"
+                      >
+                        <h4 className="text-base font-semibold text-white mb-2">{type.title}</h4>
+                        <p className="text-xs text-white/70 leading-relaxed">{type.desc}</p>
+                      </div>
+                    ))}
                   </div>
+                </div>
+
+                {/* Industry Focus for City */}
+                <div>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-4">
+                    {serviceName} for {cityName}&apos;s Key Industries
+                  </h3>
+                  <p className="text-sm text-white/60 leading-relaxed mb-5">
+                    {cityName} has a diverse economy driven by {location.industries.join(", ")}. Each industry requires a specialised {serviceName.toLowerCase()} approach. Here&apos;s how TML serves {cityName}&apos;s key sectors:
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {location.industries.map((ind) => (
+                      <div key={ind}
+                        className="p-4 rounded-xl border border-white/[0.06] bg-white/[0.02]"
+                      >
+                        <h5 className="text-sm font-semibold text-white capitalize mb-1">{serviceName} for {ind}</h5>
+                        <p className="text-xs text-white/70 leading-relaxed">
+                          Tailored {serviceName.toLowerCase()} strategies for {cityName}&apos;s {ind} sector — from audience targeting and content creation to performance tracking and ROI optimisation.
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* CTA */}
+                <div>
+                  <h3 className="text-xl md:text-2xl font-semibold text-white mb-4">
+                    Get Started with {serviceName} in {cityName} Today
+                  </h3>
+                  <p className="text-sm md:text-base text-white/80 leading-[1.9] mb-4">
+                    Ready to take your {cityName} business to the next level? TML Agency offers a free, no-obligation consultation where we&apos;ll analyse your current {serviceName.toLowerCase()} presence, identify opportunities for growth, and present a customised strategy designed for your business goals. Whether you&apos;re looking to dominate local search in {cityName}, build brand awareness across {location.state}, or generate high-quality leads from {location.region} — we have the expertise to make it happen.
+                  </p>
+                  <p className="text-sm text-white/60 leading-[1.9] mb-6">
+                    Join 500+ businesses across {location.country} who have trusted TML with their {serviceName.toLowerCase()} needs. Our clients in {cityName} consistently report improved visibility, higher engagement, and measurable business growth.
+                  </p>
+                  <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_20px_rgba(255,69,0,0.25)]">
+                    Get a Free Consultation
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                  </Link>
                 </div>
 
               </div>
@@ -818,7 +918,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                 <Link
                   key={loc.slug}
                   href={`/services/${getLocationServiceSlug(serviceSlug, loc.slug)}`}
-                  className="px-4 py-2 rounded-full border border-white/[0.08] bg-white/[0.02] text-sm text-white/90 hover:text-[#ff4500] hover:border-[#ff4500]/30 hover:bg-[#ff4500]/5 transition-all duration-300"
+                  className="px-4 py-2 rounded-full border border-white/[0.08] bg-white/[0.02] text-sm text-white hover:text-[#ff4500] hover:border-[#ff4500]/30 hover:bg-[#ff4500]/5 transition-all duration-300"
                 >
                   {serviceName} in {loc.name}
                 </Link>
@@ -830,7 +930,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
       {/* Other Services in this City */}
       <section className="relative w-full px-6 py-12 lg:px-12">
         <div className="relative mx-auto max-w-4xl text-center">
-          <h3 className="text-lg sm:text-xl font-medium text-white/90 mb-6">
+          <h3 className="text-lg sm:text-xl font-medium text-white mb-6">
             Other Services in {cityName}
           </h3>
           <div className="flex flex-wrap items-center justify-center gap-3">
@@ -844,7 +944,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                   <Link
                     key={s}
                     href={`/services/${getLocationServiceSlug(s, location.slug)}`}
-                    className="px-4 py-2 rounded-full border border-white/[0.08] bg-white/[0.02] text-sm text-white/90 hover:text-[#ff4500] hover:border-[#ff4500]/30 hover:bg-[#ff4500]/5 transition-all duration-300"
+                    className="px-4 py-2 rounded-full border border-white/[0.08] bg-white/[0.02] text-sm text-white hover:text-[#ff4500] hover:border-[#ff4500]/30 hover:bg-[#ff4500]/5 transition-all duration-300"
                   >
                     {sData.title} in {cityName}
                   </Link>
@@ -853,6 +953,37 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
           </div>
         </div>
       </section>
+
+      {/* Visual Showcase — pre-footer gallery */}
+      {(() => {
+        const galleryImages = getImagesForService(serviceSlug, 8);
+        const bottomImages = galleryImages.slice(4, 8);
+        if (bottomImages.length < 4) return null;
+        return (
+          <>
+            <SectionDivider />
+            <section className="relative w-full px-6 py-16 md:py-20 lg:px-12 overflow-hidden">
+              <div className="relative mx-auto max-w-5xl">
+                <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-8">Creative Excellence</p>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+                  <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-white/[0.06] group md:col-span-2 md:row-span-2">
+                    <Image src={bottomImages[0].src} alt={bottomImages[0].alt} fill sizes="(max-width: 768px) 50vw, 50vw" className="object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+                  </div>
+                  <div className="relative aspect-square overflow-hidden rounded-xl border border-white/[0.06] group">
+                    <Image src={bottomImages[1].src} alt={bottomImages[1].alt} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+                  </div>
+                  <div className="relative aspect-square overflow-hidden rounded-xl border border-white/[0.06] group">
+                    <Image src={bottomImages[2].src} alt={bottomImages[2].alt} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+                  </div>
+                  <div className="relative aspect-[3/2] overflow-hidden rounded-xl border border-white/[0.06] group md:col-span-2">
+                    <Image src={bottomImages[3].src} alt={bottomImages[3].alt} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+                  </div>
+                </div>
+              </div>
+            </section>
+          </>
+        );
+      })()}
 
       <SectionDivider />
 
@@ -877,9 +1008,9 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                     >
                       <summary className="flex items-center justify-between p-5 md:p-6 cursor-pointer list-none text-white font-medium text-sm md:text-base">
                         <span className="pr-4">{faq.q}</span>
-                        <span className="text-white/30 text-xl transition-transform duration-300 group-open:rotate-45 flex-shrink-0">+</span>
+                        <span className="text-white text-xl transition-transform duration-300 group-open:rotate-45 flex-shrink-0">+</span>
                       </summary>
-                      <div className="px-5 pb-5 md:px-6 md:pb-6 text-sm text-white/90 leading-relaxed border-t border-white/[0.04] pt-4">
+                      <div className="px-5 pb-5 md:px-6 md:pb-6 text-sm text-white leading-relaxed border-t border-white/[0.04] pt-4">
                         {faq.a}
                       </div>
                     </details>
@@ -902,7 +1033,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
           <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 bg-[#080808] overflow-hidden">
             <div className="relative mx-auto max-w-7xl">
               <p
-                className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4"
+                className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
               >
                 Read More
               </p>
@@ -927,7 +1058,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                       <h3 className="text-base font-semibold text-white mb-3 group-hover:text-[#ff4500] transition-colors leading-snug">
                         {article.title}
                       </h3>
-                      <p className="text-sm text-white/35 leading-relaxed mb-4 line-clamp-2">
+                      <p className="text-sm text-white leading-relaxed mb-4 line-clamp-2">
                         {article.metaDescription}
                       </p>
                       <span className="text-xs text-[#ff4500] font-medium tracking-wide group-hover:underline">
@@ -959,7 +1090,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
           <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
             <div className="relative mx-auto max-w-7xl">
               <p
-                className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4"
+                className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
               >
                 Industries We Serve
               </p>
@@ -981,7 +1112,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                       <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-[#ff4500] transition-colors">
                         {ind.name}
                       </h3>
-                      <p className="text-sm text-white/90 leading-relaxed mb-4 line-clamp-3">
+                      <p className="text-sm text-white leading-relaxed mb-4 line-clamp-3">
                         {ind.description}
                       </p>
                       <span className="text-xs text-[#ff4500] font-medium tracking-wide group-hover:underline">
@@ -1007,14 +1138,14 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-6">
             Ready to grow in {cityName}<span className="text-[#ff4500]">?</span>
           </h2>
-          <p className="text-sm md:text-base text-white/90 mb-10 max-w-xl mx-auto">
+          <p className="text-sm md:text-base text-white mb-10 max-w-xl mx-auto">
             Get a free consultation for your {serviceName.toLowerCase()} needs. No obligations — just expert advice for your {cityName} business.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/contact" className="px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]">
               Get Your Free Consultation
             </Link>
-            <a href="tel:+919872648209" className="px-8 py-4 rounded-full border border-white/10 text-white/90 font-semibold text-sm hover:bg-white/5 transition-colors">
+            <a href="tel:+919872648209" className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors">
               Call Us Now
             </a>
           </div>

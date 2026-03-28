@@ -50,13 +50,13 @@ function CityServiceCard({ loc, services, index }: { loc: LocationInfo; services
         <MapPinIcon />
         <h3 className="text-lg font-semibold text-white">{loc.name}</h3>
       </div>
-      <p className="text-xs text-white/30 leading-relaxed mb-1">{loc.state}</p>
-      <p className="text-sm text-white/90 leading-relaxed mb-5 line-clamp-2">
+      <p className="text-xs text-white leading-relaxed mb-1">{loc.state}</p>
+      <p className="text-sm text-white leading-relaxed mb-5 line-clamp-2">
         {loc.description}
       </p>
 
       <div className="space-y-1.5">
-        <p className="text-[10px] text-white/20 tracking-[0.15em] uppercase font-medium mb-2">
+        <p className="text-[10px] text-white tracking-[0.15em] uppercase font-medium mb-2">
           Available Services
         </p>
         <div className="flex flex-wrap gap-2">
@@ -64,7 +64,7 @@ function CityServiceCard({ loc, services, index }: { loc: LocationInfo; services
             <Link
               key={svc.slug}
               href={getServiceHref(svc.slug, loc.slug)}
-              className="text-[11px] px-3 py-1.5 rounded-lg border border-white/[0.06] text-white/90 hover:text-[#ff4500] hover:border-[#ff4500]/30 hover:bg-[#ff4500]/5 transition-all duration-300"
+              className="text-[11px] px-3 py-1.5 rounded-lg border border-white/[0.06] text-white hover:text-[#ff4500] hover:border-[#ff4500]/30 hover:bg-[#ff4500]/5 transition-all duration-300"
             >
               {svc.name}
             </Link>
@@ -108,7 +108,7 @@ export default function CountryPageClient({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, ease }}
-            className="text-[11px] text-white/90 tracking-[0.25em] uppercase mb-6"
+            className="text-[11px] text-white tracking-[0.25em] uppercase mb-6"
           >
             {countryName}
           </motion.p>
@@ -130,7 +130,7 @@ export default function CountryPageClient({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease }}
-            className="text-sm md:text-base text-white/30 leading-relaxed max-w-2xl mx-auto mb-10"
+            className="text-sm md:text-base text-white leading-relaxed max-w-2xl mx-auto mb-10"
           >
             We deliver tailored digital marketing strategies across {cityCount} cities
             in {countryName}. From SEO and Google Ads to branding and social media,
@@ -146,17 +146,17 @@ export default function CountryPageClient({
           >
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-semibold text-[#ff4500]">{cityCount}</div>
-              <div className="text-[10px] text-white/30 tracking-wider uppercase mt-1">Cities</div>
+              <div className="text-[10px] text-white tracking-wider uppercase mt-1">Cities</div>
             </div>
             <div className="w-[1px] h-10 bg-white/[0.08]" />
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-semibold text-[#ff4500]">{stateCount}</div>
-              <div className="text-[10px] text-white/30 tracking-wider uppercase mt-1">Regions</div>
+              <div className="text-[10px] text-white tracking-wider uppercase mt-1">Regions</div>
             </div>
             <div className="w-[1px] h-10 bg-white/[0.08]" />
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-semibold text-[#ff4500]">{services.length}</div>
-              <div className="text-[10px] text-white/30 tracking-wider uppercase mt-1">Services</div>
+              <div className="text-[10px] text-white tracking-wider uppercase mt-1">Services</div>
             </div>
           </motion.div>
 
@@ -193,7 +193,7 @@ export default function CountryPageClient({
                 {state}
               </h2>
               <div className="flex-1 h-[1px] bg-white/[0.06]" />
-              <span className="text-xs text-white/20 font-mono">
+              <span className="text-xs text-white font-mono">
                 {String(cities.length).padStart(2, "0")}{" "}
                 {cities.length === 1 ? "city" : "cities"}
               </span>
@@ -230,7 +230,7 @@ export default function CountryPageClient({
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1, ease }}
-            className="text-sm md:text-base text-white/90 leading-relaxed mb-10 max-w-xl mx-auto"
+            className="text-sm md:text-base text-white leading-relaxed mb-10 max-w-xl mx-auto"
           >
             Our team builds digital marketing strategies that are tailored to your local
             market. From search engine optimization to paid advertising, we know what
@@ -251,7 +251,7 @@ export default function CountryPageClient({
             </Link>
             <a
               href="mailto:info@townmedialabs.com"
-              className="px-8 py-4 rounded-full border border-white/10 text-white/90 font-semibold text-sm hover:bg-white/5 transition-colors"
+              className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
               info@townmedialabs.com
             </a>

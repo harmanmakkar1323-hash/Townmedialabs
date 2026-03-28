@@ -133,7 +133,7 @@ export function ClientLogos() {
 
       {/* Section label */}
       <div className="text-center mb-12 md:mb-14">
-        <p className="text-[10px] md:text-xs text-white/30 tracking-[0.25em] uppercase font-semibold mb-4">
+        <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase font-semibold mb-4">
           Trusted by ambitious brands
         </p>
 
@@ -142,7 +142,7 @@ export function ClientLogos() {
           <span className="text-2xl md:text-3xl font-bold text-[#ff4500]/70">
             <AnimatedCounter target={clientLogos.length} suffix="+" />
           </span>
-          <span className="text-[11px] text-white/25 tracking-wide uppercase">
+          <span className="text-[11px] text-white tracking-wide uppercase">
             brands
           </span>
         </div>

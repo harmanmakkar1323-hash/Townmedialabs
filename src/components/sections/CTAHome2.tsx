@@ -88,7 +88,7 @@ export function CTAHome2() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.6, ease }}
-            className="text-[10px] md:text-xs text-white/90 tracking-[0.2em] uppercase font-semibold mb-4"
+            className="text-[10px] md:text-xs text-white tracking-[0.2em] uppercase font-semibold mb-4"
           >
             Since 2010
           </motion.p>
@@ -108,7 +108,7 @@ export function CTAHome2() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.7, delay: 0.2, ease }}
-            className="text-xl sm:text-2xl md:text-3xl font-medium text-white/90 italic tracking-tight mb-12"
+            className="text-xl sm:text-2xl md:text-3xl font-medium text-white italic tracking-tight mb-12"
           >
             Industry Titans
           </motion.p>
@@ -254,7 +254,7 @@ export function CTAHome2() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 0.7, delay: 0.25, ease }}
-                className="text-sm md:text-base text-white/90 max-w-lg leading-relaxed mb-10"
+                className="text-sm md:text-base text-white max-w-lg leading-relaxed mb-10"
               >
                 Book a free strategy call. We&apos;ll break down what&apos;s
                 working, what&apos;s not, and exactly how we&apos;d grow your
@@ -311,7 +311,7 @@ export function CTAHome2() {
                       )}
                       <span>{stat.suffix}</span>
                     </p>
-                    <p className="text-[10px] md:text-xs text-white/90 tracking-[0.15em] uppercase mt-1">
+                    <p className="text-[10px] md:text-xs text-white tracking-[0.15em] uppercase mt-1">
                       {stat.label}
                     </p>
                   </motion.div>
@@ -361,7 +361,7 @@ export function CTAHome2() {
                   }}
                   whileTap={{ scale: 0.97 }}
                   transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                  className="inline-block rounded-xl border border-white/[0.08] bg-white/[0.03] px-10 py-4 text-sm font-semibold text-white/90 text-center backdrop-blur-sm hover:text-white"
+                  className="inline-block rounded-xl border border-white/[0.08] bg-white/[0.03] px-10 py-4 text-sm font-semibold text-white text-center backdrop-blur-sm hover:text-white"
                 >
                   View Our Work
                 </motion.a>
@@ -394,8 +394,8 @@ export function CTAHome2() {
                     </motion.div>
                   ))}
                 </div>
-                <p className="text-xs text-white/90">
-                  <span className="text-white/90 font-semibold">500+</span> brands trust us
+                <p className="text-xs text-white">
+                  <span className="text-white font-semibold">500+</span> brands trust us
                 </p>
               </motion.div>
 
@@ -405,11 +405,11 @@ export function CTAHome2() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 1, delay: 1.1, ease }}
-                className="text-sm text-white/30 italic leading-relaxed border-l-2 border-[#ff4500]/30 pl-4"
+                className="text-sm text-white italic leading-relaxed border-l-2 border-[#ff4500]/30 pl-4"
               >
                 &ldquo;TML transformed our entire digital presence in 60
                 days.&rdquo;{" "}
-                <span className="not-italic text-white/20">
+                <span className="not-italic text-white">
                   — CB Builders
                 </span>
               </motion.p>

@@ -8,6 +8,8 @@ import { servicePages } from "@/data/servicePages";
 import { blogArticles } from "@/data/blogArticles";
 import { industryRelatedBlogs } from "@/lib/internalLinks";
 import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
+import { getImagesForService } from "@/data/portfolioImages";
+import Image from "next/image";
 import InnerNavbar from "@/components/layout/InnerNavbar";
 import { FooterHome2 } from "@/components/sections/FooterHome2";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
@@ -23,7 +25,7 @@ function PainPointCard({ point, index }: { point: string; index: number }) {
       transition={{ duration: 0.6, delay: index * 0.1, ease }}
       className="group relative p-6 md:p-8 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] hover:border-red-500/20 transition-all duration-500"
     >
-      <div className="absolute top-6 right-6 text-[10px] text-white/20 font-mono">
+      <div className="absolute top-6 right-6 text-[10px] text-white font-mono">
         {String(index + 1).padStart(2, "0")}
       </div>
       <div className="w-10 h-10 rounded-xl bg-red-500/10 flex items-center justify-center mb-5 group-hover:bg-red-500/20 transition-colors">
@@ -33,7 +35,7 @@ function PainPointCard({ point, index }: { point: string; index: number }) {
           <line x1="12" y1="16" x2="12.01" y2="16" />
         </svg>
       </div>
-      <p className="text-sm text-white/90 leading-relaxed">{point}</p>
+      <p className="text-sm text-white leading-relaxed">{point}</p>
     </motion.div>
   );
 }
@@ -47,7 +49,7 @@ function BenefitCard({ benefit, index }: { benefit: string; index: number }) {
       transition={{ duration: 0.6, delay: index * 0.1, ease }}
       className="group relative p-6 md:p-8 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] hover:border-[#ff4500]/20 transition-all duration-500"
     >
-      <div className="absolute top-6 right-6 text-[10px] text-white/20 font-mono">
+      <div className="absolute top-6 right-6 text-[10px] text-white font-mono">
         {String(index + 1).padStart(2, "0")}
       </div>
       <div className="w-10 h-10 rounded-xl bg-[#ff4500]/10 flex items-center justify-center mb-5 group-hover:bg-[#ff4500]/20 transition-colors">
@@ -55,7 +57,7 @@ function BenefitCard({ benefit, index }: { benefit: string; index: number }) {
           <polyline points="20 6 9 17 4 12" />
         </svg>
       </div>
-      <p className="text-sm text-white/90 leading-relaxed">{benefit}</p>
+      <p className="text-sm text-white leading-relaxed">{benefit}</p>
     </motion.div>
   );
 }
@@ -71,9 +73,9 @@ function FAQItem({ faq, index }: { faq: { question: string; answer: string }; in
     >
       <summary className="flex items-center justify-between p-5 md:p-6 cursor-pointer list-none text-white font-medium text-sm md:text-base">
         <span className="pr-4">{faq.question}</span>
-        <span className="text-white/30 text-xl transition-transform duration-300 group-open:rotate-45 flex-shrink-0">+</span>
+        <span className="text-white text-xl transition-transform duration-300 group-open:rotate-45 flex-shrink-0">+</span>
       </summary>
-      <div className="px-5 pb-5 md:px-6 md:pb-6 text-sm text-white/90 leading-relaxed border-t border-white/[0.04] pt-4">
+      <div className="px-5 pb-5 md:px-6 md:pb-6 text-sm text-white leading-relaxed border-t border-white/[0.04] pt-4">
         {faq.answer}
       </div>
     </motion.details>
@@ -98,7 +100,7 @@ function ServiceLink({ serviceSlug, index }: { serviceSlug: string; index: numbe
         <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-[#ff4500] transition-colors">
           {service.title}
         </h3>
-        <p className="text-sm text-white/90 leading-relaxed mb-4 line-clamp-2">{service.description}</p>
+        <p className="text-sm text-white leading-relaxed mb-4 line-clamp-2">{service.description}</p>
         <span className="text-xs text-[#ff4500] font-medium tracking-wide group-hover:underline">
           Learn More &rarr;
         </span>
@@ -137,7 +139,7 @@ export default function IndustryPageClient({ industry }: { industry: IndustryInf
           >
             <Link
               href="/industries"
-              className="inline-flex items-center gap-2 text-[11px] text-white/90 tracking-[0.2em] uppercase hover:text-white/90 transition-colors mb-8"
+              className="inline-flex items-center gap-2 text-[11px] text-white tracking-[0.2em] uppercase hover:text-white transition-colors mb-8"
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M19 12H5M12 19l-7-7 7-7" />
@@ -169,7 +171,7 @@ export default function IndustryPageClient({ industry }: { industry: IndustryInf
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease }}
-            className="text-sm md:text-base text-white/30 leading-relaxed max-w-2xl mx-auto mb-10"
+            className="text-sm md:text-base text-white leading-relaxed max-w-2xl mx-auto mb-10"
           >
             {industry.description}
           </motion.p>
@@ -188,7 +190,7 @@ export default function IndustryPageClient({ industry }: { industry: IndustryInf
             </Link>
             <a
               href="mailto:info@townmedialabs.com"
-              className="px-8 py-4 rounded-full border border-white/10 text-white/90 font-semibold text-sm hover:bg-white/5 transition-colors"
+              className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
               Talk to an Expert
             </a>
@@ -221,10 +223,10 @@ export default function IndustryPageClient({ industry }: { industry: IndustryInf
                       <span className="text-[#ff4500]">{stat.value}</span>
                     )
                   ) : (
-                    <span className="text-white/20">&mdash;</span>
+                    <span className="text-white">&mdash;</span>
                   )}
                 </div>
-                <p className="text-xs text-white/90 tracking-wide">{stat.label}</p>
+                <p className="text-xs text-white tracking-wide">{stat.label}</p>
               </motion.div>
             ))}
           </div>
@@ -241,7 +243,7 @@ export default function IndustryPageClient({ industry }: { industry: IndustryInf
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, ease }}
-            className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4"
+            className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
           >
             The Challenge
           </motion.p>
@@ -274,7 +276,7 @@ export default function IndustryPageClient({ industry }: { industry: IndustryInf
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, ease }}
-            className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4"
+            className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
           >
             The Solution
           </motion.p>
@@ -297,6 +299,36 @@ export default function IndustryPageClient({ industry }: { industry: IndustryInf
         </div>
       </section>
 
+      {/* Portfolio Showcase */}
+      <section className="relative w-full px-6 py-16 md:py-20 lg:px-12 overflow-hidden">
+        <div className="relative mx-auto max-w-7xl">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, ease }}
+            className="text-2xl sm:text-3xl font-medium text-white mb-10"
+          >
+            Our Work in {industry.name}<span className="text-[#ff4500]">.</span>
+          </motion.h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {getImagesForService("branding", 4).map((img) => (
+              <div key={img.src} className="relative aspect-square overflow-hidden rounded-xl border border-white/[0.06] group">
+                <Image
+                  src={img.src}
+                  alt={img.alt}
+                  fill
+                  sizes="(max-width: 768px) 50vw, 25vw"
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Content Section */}
       <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
         <div className="relative mx-auto max-w-4xl">
@@ -306,11 +338,22 @@ export default function IndustryPageClient({ industry }: { industry: IndustryInf
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, ease }}
-              className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase font-semibold"
+              className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase font-semibold"
             >
               Industry Insights
             </motion.p>
             <motion.div initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} viewport={{ once: true }} transition={{ duration: 0.8, ease }} className="flex-1 h-[1px] bg-white/[0.06] origin-left" />
+          </div>
+
+          <div className="relative w-full aspect-[21/9] overflow-hidden rounded-2xl border border-white/[0.06] mb-8">
+            <Image
+              src="/work/web-design-finance-hero.webp"
+              alt={`Digital marketing solutions for ${industry.name} industry`}
+              fill
+              sizes="100vw"
+              className="object-cover"
+              loading="lazy"
+            />
           </div>
 
           <motion.div
@@ -332,7 +375,7 @@ export default function IndustryPageClient({ industry }: { industry: IndustryInf
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, ease }}
-            className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4"
+            className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
           >
             Our Services
           </motion.p>
@@ -363,7 +406,7 @@ export default function IndustryPageClient({ industry }: { industry: IndustryInf
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, ease }}
-            className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4 text-center"
+            className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4 text-center"
           >
             FAQ
           </motion.p>
@@ -408,7 +451,7 @@ export default function IndustryPageClient({ industry }: { industry: IndustryInf
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1, ease }}
-            className="text-sm md:text-base text-white/90 leading-relaxed mb-10 max-w-xl mx-auto"
+            className="text-sm md:text-base text-white leading-relaxed mb-10 max-w-xl mx-auto"
           >
             Let&apos;s discuss how our digital marketing expertise can help your {industry.name.toLowerCase()} business attract more clients, increase revenue, and dominate your local market. Get a free consultation today.
           </motion.p>
@@ -427,7 +470,7 @@ export default function IndustryPageClient({ industry }: { industry: IndustryInf
             </Link>
             <a
               href="mailto:info@townmedialabs.com"
-              className="px-8 py-4 rounded-full border border-white/10 text-white/90 font-semibold text-sm hover:bg-white/5 transition-colors"
+              className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
               info@townmedialabs.com
             </a>
@@ -450,7 +493,7 @@ export default function IndustryPageClient({ industry }: { industry: IndustryInf
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, ease }}
-                className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4"
+                className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
               >
                 From Our Blog
               </motion.p>
@@ -483,7 +526,7 @@ export default function IndustryPageClient({ industry }: { industry: IndustryInf
                       <h3 className="text-base font-semibold text-white mb-3 group-hover:text-[#ff4500] transition-colors leading-snug">
                         {article.title}
                       </h3>
-                      <p className="text-sm text-white/35 leading-relaxed mb-4 line-clamp-2">
+                      <p className="text-sm text-white leading-relaxed mb-4 line-clamp-2">
                         {article.metaDescription}
                       </p>
                       <span className="text-xs text-[#ff4500] font-medium tracking-wide group-hover:underline">

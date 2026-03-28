@@ -102,7 +102,7 @@ function Tier1IndustryCard({ slug, index }: { slug: string; index: number }) {
           </div>
           <div className="flex items-center gap-2">
             <span className="text-[10px] text-[#ff4500]/60 font-mono tracking-wider uppercase">Tier 1</span>
-            <div className="text-[10px] text-white/20 font-mono">
+            <div className="text-[10px] text-white font-mono">
               {String(index + 1).padStart(2, "0")}
             </div>
           </div>
@@ -110,14 +110,14 @@ function Tier1IndustryCard({ slug, index }: { slug: string; index: number }) {
         <h2 className="text-xl font-semibold text-white mb-3 group-hover:text-[#ff4500] transition-colors">
           {industry.name}
         </h2>
-        <p className="text-sm text-white/90 leading-relaxed mb-5 line-clamp-3">
+        <p className="text-sm text-white leading-relaxed mb-5 line-clamp-3">
           {industry.heroSubtitle}
         </p>
         <div className="flex flex-wrap gap-2 mb-5">
           {industry.services.slice(0, 3).map((s) => (
             <span
               key={s.name}
-              className="text-[10px] px-2.5 py-1 rounded-full border border-white/[0.08] text-white/30"
+              className="text-[10px] px-2.5 py-1 rounded-full border border-white/[0.08] text-white"
             >
               {s.name}
             </span>
@@ -148,21 +148,21 @@ function IndustryCard({ slug, index }: { slug: string; index: number }) {
       >
         <div className="flex items-start justify-between mb-5">
           <div className="text-4xl">{industry.icon}</div>
-          <div className="text-[10px] text-white/20 font-mono">
+          <div className="text-[10px] text-white font-mono">
             {String(index + 1).padStart(2, "0")}
           </div>
         </div>
         <h2 className="text-xl font-semibold text-white mb-3 group-hover:text-[#ff4500] transition-colors">
           {industry.name}
         </h2>
-        <p className="text-sm text-white/90 leading-relaxed mb-5 line-clamp-3">
+        <p className="text-sm text-white leading-relaxed mb-5 line-clamp-3">
           {industry.description}
         </p>
         <div className="flex flex-wrap gap-2 mb-5">
           {industry.services.slice(0, 3).map((s) => (
             <span
               key={s}
-              className="text-[10px] px-2.5 py-1 rounded-full border border-white/[0.08] text-white/30 capitalize"
+              className="text-[10px] px-2.5 py-1 rounded-full border border-white/[0.08] text-white capitalize"
             >
               {s.replace(/-/g, " ")}
             </span>
@@ -199,7 +199,7 @@ export default function IndustriesIndexClient() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, ease }}
-            className="text-[11px] text-white/90 tracking-[0.25em] uppercase mb-6"
+            className="text-[11px] text-white tracking-[0.25em] uppercase mb-6"
           >
             Industry Expertise
           </motion.p>
@@ -221,7 +221,7 @@ export default function IndustriesIndexClient() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease }}
-            className="text-sm md:text-base text-white/30 leading-relaxed max-w-2xl mx-auto mb-10"
+            className="text-sm md:text-base text-white leading-relaxed max-w-2xl mx-auto mb-10"
           >
             Every industry has unique marketing challenges. We build tailored digital
             strategies that address the specific needs, audiences, and competitive
@@ -257,7 +257,7 @@ export default function IndustriesIndexClient() {
               Major Industries
             </h2>
             <div className="flex-1 h-[1px] bg-white/[0.06]" />
-            <span className="text-xs text-white/20 font-mono">
+            <span className="text-xs text-white font-mono">
               {String(allIndustryPageSlugs.length).padStart(2, "0")} industries
             </span>
           </motion.div>
@@ -284,7 +284,7 @@ export default function IndustriesIndexClient() {
               More Industries
             </h2>
             <div className="flex-1 h-[1px] bg-white/[0.06]" />
-            <span className="text-xs text-white/20 font-mono">
+            <span className="text-xs text-white font-mono">
               {String(allIndustrySlugs.length).padStart(2, "0")} industries
             </span>
           </motion.div>
@@ -319,7 +319,7 @@ export default function IndustriesIndexClient() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1, ease }}
-            className="text-sm md:text-base text-white/90 leading-relaxed mb-10 max-w-xl mx-auto"
+            className="text-sm md:text-base text-white leading-relaxed mb-10 max-w-xl mx-auto"
           >
             We work with businesses across 25+ industries. Whether you are in healthcare,
             real estate, legal, fitness, or any other sector — we have the expertise to
@@ -340,7 +340,7 @@ export default function IndustriesIndexClient() {
             </Link>
             <a
               href="mailto:info@townmedialabs.com"
-              className="px-8 py-4 rounded-full border border-white/10 text-white/90 font-semibold text-sm hover:bg-white/5 transition-colors"
+              className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
               info@townmedialabs.com
             </a>

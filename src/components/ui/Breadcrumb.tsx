@@ -143,7 +143,7 @@ export default function Breadcrumb({
             return (
               <li key={item.url} className="flex items-center">
                 {index > 0 && (
-                  <ChevronRightIcon className="mx-1 h-4 w-4 text-white/30 flex-shrink-0" />
+                  <ChevronRightIcon className="mx-1 h-4 w-4 text-white flex-shrink-0" />
                 )}
                 
                 {isLast ? (
@@ -159,7 +159,7 @@ export default function Breadcrumb({
                   // Link to previous pages
                   <Link
                     href={item.url}
-                    className="text-white/90 hover:text-white/90 transition-colors duration-200 flex items-center"
+                    className="text-white hover:text-white transition-colors duration-200 flex items-center"
                   >
                     {isHome && <HomeIcon className="inline h-4 w-4 mr-1 -mt-0.5" />}
                     <span className="truncate max-w-[150px] sm:max-w-[200px]">

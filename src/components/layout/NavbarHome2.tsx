@@ -123,7 +123,7 @@ export default function NavbarHome2() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav aria-label="Main navigation" className="hidden md:flex flex-1 items-center justify-center gap-6 text-[13px] font-medium text-white/70">
+        <nav aria-label="Main navigation" className="hidden md:flex flex-1 items-center justify-center gap-6 text-[13px] font-medium text-white">
           {navLinks.map((link) =>
             link.megaKey ? (
               <div
@@ -211,7 +211,7 @@ export default function NavbarHome2() {
             <>
               {/* Header */}
               <div className="flex items-center justify-between mb-5">
-                <p className="text-[10px] text-white/30 tracking-[0.2em] uppercase font-medium">{currentMega.title}</p>
+                <p className="text-[10px] text-white tracking-[0.2em] uppercase font-medium">{currentMega.title}</p>
                 <Link
                   href={currentMega.viewAllHref}
                   onClick={() => setActiveMega(null)}
@@ -228,7 +228,7 @@ export default function NavbarHome2() {
               <div className="grid grid-cols-4 gap-5">
                 {currentMega.data.map((cat) => (
                   <div key={cat.category}>
-                    <p className="text-[10px] text-white/40 tracking-[0.1em] uppercase font-semibold mb-3">
+                    <p className="text-[10px] text-white tracking-[0.1em] uppercase font-semibold mb-3">
                       {cat.category}
                     </p>
                     <div className="space-y-1">
@@ -241,11 +241,11 @@ export default function NavbarHome2() {
                         >
                           <div className="flex items-center gap-2 mb-0.5">
                             <div className="w-1.5 h-1.5 rounded-full bg-[#ff4500]/40 group-hover:bg-[#ff4500] transition-colors flex-shrink-0" />
-                            <span className="text-[12px] font-medium text-white/70 group-hover:text-white transition-colors">
+                            <span className="text-[12px] font-medium text-white group-hover:text-white transition-colors">
                               {item.label}
                             </span>
                           </div>
-                          <p className="text-[10px] text-white/25 group-hover:text-white/40 transition-colors ml-3.5">
+                          <p className="text-[10px] text-white group-hover:text-white transition-colors ml-3.5">
                             {item.desc}
                           </p>
                         </Link>
@@ -257,7 +257,7 @@ export default function NavbarHome2() {
 
               {/* Bottom CTA bar */}
               <div className="mt-5 pt-4 border-t border-white/[0.06] flex items-center justify-between">
-                <p className="text-[11px] text-white/30">
+                <p className="text-[11px] text-white">
                   Not sure what you need? Let us help.
                 </p>
                 <Link
@@ -281,7 +281,7 @@ export default function NavbarHome2() {
               <div key={link.label}>
                 <button
                   onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
-                  className="flex items-center justify-between w-full py-3 text-sm text-white/70 hover:text-white transition-colors"
+                  className="flex items-center justify-between w-full py-3 text-sm text-white hover:text-white transition-colors"
                   aria-label={mobileServicesOpen ? "Collapse services submenu" : "Expand services submenu"}
                   aria-expanded={mobileServicesOpen}
                 >
@@ -297,13 +297,13 @@ export default function NavbarHome2() {
                   <div className="ml-3 mb-2 pl-3 border-l border-white/[0.08] space-y-1">
                     {megaMenuServices.map((cat) => (
                       <div key={cat.category} className="mb-2">
-                        <p className="text-[9px] text-white/25 tracking-[0.15em] uppercase mb-1.5">{cat.category}</p>
+                        <p className="text-[9px] text-white tracking-[0.15em] uppercase mb-1.5">{cat.category}</p>
                         {cat.items.map((item) => (
                           <Link
                             key={item.label}
                             href={item.href}
                             onClick={() => { setMenuOpen(false); setMobileServicesOpen(false); }}
-                            className="block py-1.5 text-xs text-white/50 hover:text-white transition-colors"
+                            className="block py-1.5 text-xs text-white hover:text-white transition-colors"
                           >
                             {item.label}
                           </Link>
@@ -324,7 +324,7 @@ export default function NavbarHome2() {
               <div key={link.label}>
                 <button
                   onClick={() => setMobileIndustriesOpen(!mobileIndustriesOpen)}
-                  className="flex items-center justify-between w-full py-3 text-sm text-white/70 hover:text-white transition-colors"
+                  className="flex items-center justify-between w-full py-3 text-sm text-white hover:text-white transition-colors"
                   aria-label={mobileIndustriesOpen ? "Collapse industries submenu" : "Expand industries submenu"}
                   aria-expanded={mobileIndustriesOpen}
                 >
@@ -340,13 +340,13 @@ export default function NavbarHome2() {
                   <div className="ml-3 mb-2 pl-3 border-l border-white/[0.08] space-y-1">
                     {megaMenuIndustries.map((cat) => (
                       <div key={cat.category} className="mb-2">
-                        <p className="text-[9px] text-white/25 tracking-[0.15em] uppercase mb-1.5">{cat.category}</p>
+                        <p className="text-[9px] text-white tracking-[0.15em] uppercase mb-1.5">{cat.category}</p>
                         {cat.items.map((item) => (
                           <Link
                             key={item.label}
                             href={item.href}
                             onClick={() => { setMenuOpen(false); setMobileIndustriesOpen(false); }}
-                            className="block py-1.5 text-xs text-white/50 hover:text-white transition-colors"
+                            className="block py-1.5 text-xs text-white hover:text-white transition-colors"
                           >
                             {item.label}
                           </Link>
@@ -368,7 +368,7 @@ export default function NavbarHome2() {
                 key={link.label}
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
-                className="block py-3 text-sm text-white/70 hover:text-white transition-colors"
+                className="block py-3 text-sm text-white hover:text-white transition-colors"
               >
                 {link.label}
               </Link>

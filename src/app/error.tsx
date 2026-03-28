@@ -18,7 +18,7 @@ export default function Error({
   return (
     <main className="min-h-screen bg-[#050505] flex items-center justify-center px-6">
       <div className="text-center max-w-lg">
-        <p className="text-[10px] text-white/30 tracking-[0.25em] uppercase mb-6">
+        <p className="text-[10px] text-white tracking-[0.25em] uppercase mb-6">
           Something went wrong
         </p>
 
@@ -26,7 +26,7 @@ export default function Error({
           Oops<span className="text-[#ff4500]">.</span>
         </h1>
 
-        <p className="text-sm text-white/30 mb-10 max-w-sm mx-auto">
+        <p className="text-sm text-white mb-10 max-w-sm mx-auto">
           An unexpected error occurred. Please try again or head back to the
           homepage.
         </p>
@@ -40,7 +40,7 @@ export default function Error({
           </button>
           <a
             href="/"
-            className="px-8 py-4 rounded-full border border-white/10 text-white/90 font-semibold text-sm hover:bg-white/5 transition-colors"
+            className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
           >
             Back to Home
           </a>

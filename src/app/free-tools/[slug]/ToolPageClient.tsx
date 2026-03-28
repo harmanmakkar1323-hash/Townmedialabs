@@ -42,7 +42,7 @@ function ToolShell({
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-[family-name:var(--font-syne)] mt-2 leading-tight">
             {tool.name}
           </h1>
-          <p className="text-white/90 text-lg mt-4 max-w-2xl">
+          <p className="text-white text-lg mt-4 max-w-2xl">
             {tool.description}
           </p>
         </motion.div>
@@ -65,7 +65,7 @@ function ToolShell({
           <h2 className="text-2xl md:text-3xl font-bold font-[family-name:var(--font-syne)]">
             Want Professional Help?
           </h2>
-          <p className="text-white/90 mt-3 max-w-lg mx-auto">
+          <p className="text-white mt-3 max-w-lg mx-auto">
             Our team of experts can help you get even better results. Let TML handle the heavy lifting while you focus on growing your business.
           </p>
           <Link
@@ -169,7 +169,7 @@ function SEOAuditChecklist() {
       {/* Score bar */}
       <div className="p-6 rounded-2xl border border-white/10 bg-white/[0.02] mb-8">
         <div className="flex items-center justify-between mb-3">
-          <span className="text-sm text-white/90">
+          <span className="text-sm text-white">
             {checkedCount} of {totalItems} items checked
           </span>
           <span className="text-2xl font-bold font-[family-name:var(--font-syne)]" style={{ color: grade.color }}>
@@ -215,7 +215,7 @@ function SEOAuditChecklist() {
                       </svg>
                     )}
                   </div>
-                  <span className={`text-sm ${checked[key] ? "text-white/90 line-through" : "text-white/90"}`}>
+                  <span className={`text-sm ${checked[key] ? "text-white line-through" : "text-white"}`}>
                     {item}
                   </span>
                 </button>
@@ -257,7 +257,7 @@ function WebsiteSpeedCalculator() {
     <div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Current Load Time (seconds)</span>
+          <span className="text-sm text-white mb-1 block">Current Load Time (seconds)</span>
           <input
             type="number"
             min="0"
@@ -268,7 +268,7 @@ function WebsiteSpeedCalculator() {
           />
         </label>
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Current Bounce Rate (%)</span>
+          <span className="text-sm text-white mb-1 block">Current Bounce Rate (%)</span>
           <input
             type="number"
             min="0"
@@ -279,7 +279,7 @@ function WebsiteSpeedCalculator() {
           />
         </label>
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Monthly Visitors</span>
+          <span className="text-sm text-white mb-1 block">Monthly Visitors</span>
           <input
             type="number"
             min="0"
@@ -289,7 +289,7 @@ function WebsiteSpeedCalculator() {
           />
         </label>
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Average Order Value ($)</span>
+          <span className="text-sm text-white mb-1 block">Average Order Value ($)</span>
           <input
             type="number"
             min="0"
@@ -310,27 +310,27 @@ function WebsiteSpeedCalculator() {
       {calculated && (
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="p-5 rounded-2xl border border-white/10 bg-white/[0.02]">
-            <p className="text-sm text-white/90">Adjusted Bounce Rate</p>
+            <p className="text-sm text-white">Adjusted Bounce Rate</p>
             <p className="text-2xl font-bold text-[#ff4500] font-[family-name:var(--font-syne)] mt-1">
               {adjustedBounce.toFixed(1)}%
             </p>
-            <p className="text-xs text-white/90 mt-1">+{extraBounce.toFixed(1)}% from slow speed</p>
+            <p className="text-xs text-white mt-1">+{extraBounce.toFixed(1)}% from slow speed</p>
           </div>
           <div className="p-5 rounded-2xl border border-white/10 bg-white/[0.02]">
-            <p className="text-sm text-white/90">Estimated Visitors Lost / Month</p>
+            <p className="text-sm text-white">Estimated Visitors Lost / Month</p>
             <p className="text-2xl font-bold text-[#ff4500] font-[family-name:var(--font-syne)] mt-1">
               {lostVisitors.toLocaleString()}
             </p>
           </div>
           <div className="p-5 rounded-2xl border border-white/10 bg-white/[0.02]">
-            <p className="text-sm text-white/90">Lost Conversions / Month</p>
+            <p className="text-sm text-white">Lost Conversions / Month</p>
             <p className="text-2xl font-bold text-[#ff4500] font-[family-name:var(--font-syne)] mt-1">
               {lostConversions.toLocaleString()}
             </p>
-            <p className="text-xs text-white/90 mt-1">Based on 2.5% avg conversion rate</p>
+            <p className="text-xs text-white mt-1">Based on 2.5% avg conversion rate</p>
           </div>
           <div className="p-5 rounded-2xl border border-white/10 bg-white/[0.02]">
-            <p className="text-sm text-white/90">Estimated Revenue Lost / Month</p>
+            <p className="text-sm text-white">Estimated Revenue Lost / Month</p>
             <p className="text-2xl font-bold text-[#ef4444] font-[family-name:var(--font-syne)] mt-1">
               ${revenueLost.toLocaleString()}
             </p>
@@ -338,7 +338,7 @@ function WebsiteSpeedCalculator() {
 
           <div className="md:col-span-2 p-5 rounded-2xl border border-[#ff4500]/20 bg-[#ff4500]/5">
             <h3 className="font-bold font-[family-name:var(--font-syne)] text-lg mb-3">Recommendations</h3>
-            <ul className="space-y-2 text-sm text-white/90">
+            <ul className="space-y-2 text-sm text-white">
               {lt > 3 && <li>-- Optimize images: compress and convert to WebP format</li>}
               {lt > 3 && <li>-- Enable browser caching and GZIP compression</li>}
               {lt > 4 && <li>-- Minimize render-blocking CSS and JavaScript</li>}
@@ -462,7 +462,7 @@ function SocialMediaPostGenerator() {
     <div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Platform</span>
+          <span className="text-sm text-white mb-1 block">Platform</span>
           <select
             value={platform}
             onChange={(e) => setPlatform(e.target.value)}
@@ -474,7 +474,7 @@ function SocialMediaPostGenerator() {
           </select>
         </label>
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Tone</span>
+          <span className="text-sm text-white mb-1 block">Tone</span>
           <select
             value={tone}
             onChange={(e) => setTone(e.target.value)}
@@ -486,7 +486,7 @@ function SocialMediaPostGenerator() {
           </select>
         </label>
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Topic</span>
+          <span className="text-sm text-white mb-1 block">Topic</span>
           <select
             value={topic}
             onChange={(e) => setTopic(e.target.value)}
@@ -506,17 +506,17 @@ function SocialMediaPostGenerator() {
           </span>
           <button
             onClick={copy}
-            className="text-xs px-3 py-1 rounded-lg border border-white/10 hover:border-[#ff4500]/40 text-white/90 hover:text-white transition-colors"
+            className="text-xs px-3 py-1 rounded-lg border border-white/10 hover:border-[#ff4500]/40 text-white hover:text-white transition-colors"
           >
             {copied ? "Copied!" : "Copy"}
           </button>
         </div>
-        <pre className="whitespace-pre-wrap text-sm text-white/90 font-sans leading-relaxed">
+        <pre className="whitespace-pre-wrap text-sm text-white font-sans leading-relaxed">
           {post}
         </pre>
       </div>
 
-      <p className="text-xs text-white/30 mt-3">
+      <p className="text-xs text-white mt-3">
         Replace the [bracketed] placeholders with your own details. These are templates to get you started.
       </p>
     </div>
@@ -561,7 +561,7 @@ function GoogleAdsBudgetCalculator() {
     <div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Industry</span>
+          <span className="text-sm text-white mb-1 block">Industry</span>
           <select
             value={industry}
             onChange={(e) => setIndustry(e.target.value)}
@@ -575,7 +575,7 @@ function GoogleAdsBudgetCalculator() {
           </select>
         </label>
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Target Leads / Month</span>
+          <span className="text-sm text-white mb-1 block">Target Leads / Month</span>
           <input
             type="number"
             min="1"
@@ -585,7 +585,7 @@ function GoogleAdsBudgetCalculator() {
           />
         </label>
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Custom CPC ($) — leave blank for industry avg</span>
+          <span className="text-sm text-white mb-1 block">Custom CPC ($) — leave blank for industry avg</span>
           <input
             type="number"
             min="0"
@@ -593,11 +593,11 @@ function GoogleAdsBudgetCalculator() {
             value={customCPC}
             onChange={(e) => setCustomCPC(e.target.value)}
             placeholder={`$${industryCPC[industry]?.toFixed(2) || "2.50"}`}
-            className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/10 text-white placeholder:text-white/20 focus:border-[#ff4500]/50 focus:outline-none transition-colors"
+            className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/10 text-white placeholder:text-white focus:border-[#ff4500]/50 focus:outline-none transition-colors"
           />
         </label>
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Expected Conversion Rate (%)</span>
+          <span className="text-sm text-white mb-1 block">Expected Conversion Rate (%)</span>
           <input
             type="number"
             min="0.1"
@@ -619,31 +619,31 @@ function GoogleAdsBudgetCalculator() {
       {calculated && (
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="p-5 rounded-2xl border border-white/10 bg-white/[0.02]">
-            <p className="text-sm text-white/90">Recommended Monthly Budget</p>
+            <p className="text-sm text-white">Recommended Monthly Budget</p>
             <p className="text-3xl font-bold text-[#ff4500] font-[family-name:var(--font-syne)] mt-1">
               ${monthlyBudget.toLocaleString()}
             </p>
-            <p className="text-xs text-white/90 mt-1">~${dailyBudget}/day</p>
+            <p className="text-xs text-white mt-1">~${dailyBudget}/day</p>
           </div>
           <div className="p-5 rounded-2xl border border-white/10 bg-white/[0.02]">
-            <p className="text-sm text-white/90">Expected Clicks / Month</p>
+            <p className="text-sm text-white">Expected Clicks / Month</p>
             <p className="text-3xl font-bold text-white font-[family-name:var(--font-syne)] mt-1">
               {clicksNeeded.toLocaleString()}
             </p>
-            <p className="text-xs text-white/90 mt-1">at ${cpc.toFixed(2)} per click</p>
+            <p className="text-xs text-white mt-1">at ${cpc.toFixed(2)} per click</p>
           </div>
           <div className="p-5 rounded-2xl border border-white/10 bg-white/[0.02]">
-            <p className="text-sm text-white/90">Estimated Cost Per Lead</p>
+            <p className="text-sm text-white">Estimated Cost Per Lead</p>
             <p className="text-3xl font-bold text-white font-[family-name:var(--font-syne)] mt-1">
               ${costPerLead}
             </p>
           </div>
           <div className="p-5 rounded-2xl border border-white/10 bg-white/[0.02]">
-            <p className="text-sm text-white/90">Target Leads</p>
+            <p className="text-sm text-white">Target Leads</p>
             <p className="text-3xl font-bold text-[#22c55e] font-[family-name:var(--font-syne)] mt-1">
               {leads} leads/mo
             </p>
-            <p className="text-xs text-white/90 mt-1">at {convRate}% conversion rate</p>
+            <p className="text-xs text-white mt-1">at {convRate}% conversion rate</p>
           </div>
         </div>
       )}
@@ -675,7 +675,7 @@ function ROICalculator() {
     <div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Monthly Marketing Spend ($)</span>
+          <span className="text-sm text-white mb-1 block">Monthly Marketing Spend ($)</span>
           <input
             type="number"
             min="0"
@@ -685,7 +685,7 @@ function ROICalculator() {
           />
         </label>
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Leads Generated / Month</span>
+          <span className="text-sm text-white mb-1 block">Leads Generated / Month</span>
           <input
             type="number"
             min="0"
@@ -695,7 +695,7 @@ function ROICalculator() {
           />
         </label>
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Lead-to-Customer Conversion Rate (%)</span>
+          <span className="text-sm text-white mb-1 block">Lead-to-Customer Conversion Rate (%)</span>
           <input
             type="number"
             min="0"
@@ -706,7 +706,7 @@ function ROICalculator() {
           />
         </label>
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Average Deal Value ($)</span>
+          <span className="text-sm text-white mb-1 block">Average Deal Value ($)</span>
           <input
             type="number"
             min="0"
@@ -727,7 +727,7 @@ function ROICalculator() {
       {calculated && (
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="p-5 rounded-2xl border border-white/10 bg-white/[0.02]">
-            <p className="text-sm text-white/90">ROI</p>
+            <p className="text-sm text-white">ROI</p>
             <p
               className={`text-3xl font-bold font-[family-name:var(--font-syne)] mt-1 ${
                 parseFloat(roi) >= 0 ? "text-[#22c55e]" : "text-[#ef4444]"
@@ -737,31 +737,31 @@ function ROICalculator() {
             </p>
           </div>
           <div className="p-5 rounded-2xl border border-white/10 bg-white/[0.02]">
-            <p className="text-sm text-white/90">Cost Per Lead</p>
+            <p className="text-sm text-white">Cost Per Lead</p>
             <p className="text-3xl font-bold text-white font-[family-name:var(--font-syne)] mt-1">
               ${cpl}
             </p>
           </div>
           <div className="p-5 rounded-2xl border border-white/10 bg-white/[0.02]">
-            <p className="text-sm text-white/90">Cost Per Acquisition</p>
+            <p className="text-sm text-white">Cost Per Acquisition</p>
             <p className="text-3xl font-bold text-white font-[family-name:var(--font-syne)] mt-1">
               ${cpa}
             </p>
           </div>
           <div className="p-5 rounded-2xl border border-white/10 bg-white/[0.02]">
-            <p className="text-sm text-white/90">New Customers / Month</p>
+            <p className="text-sm text-white">New Customers / Month</p>
             <p className="text-3xl font-bold text-[#ff4500] font-[family-name:var(--font-syne)] mt-1">
               {customers}
             </p>
           </div>
           <div className="p-5 rounded-2xl border border-white/10 bg-white/[0.02]">
-            <p className="text-sm text-white/90">Revenue Generated</p>
+            <p className="text-sm text-white">Revenue Generated</p>
             <p className="text-3xl font-bold text-[#22c55e] font-[family-name:var(--font-syne)] mt-1">
               ${revenue.toLocaleString()}
             </p>
           </div>
           <div className="p-5 rounded-2xl border border-white/10 bg-white/[0.02]">
-            <p className="text-sm text-white/90">Net Profit</p>
+            <p className="text-sm text-white">Net Profit</p>
             <p
               className={`text-3xl font-bold font-[family-name:var(--font-syne)] mt-1 ${
                 profit >= 0 ? "text-[#22c55e]" : "text-[#ef4444]"
@@ -809,9 +809,9 @@ function MetaTagGenerator() {
     <div>
       <div className="space-y-4 mb-8">
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 flex items-center justify-between">
+          <span className="text-sm text-white mb-1 flex items-center justify-between">
             Page Title
-            <span className={`text-xs ${title.length > 60 ? "text-[#ef4444]" : "text-white/30"}`}>
+            <span className={`text-xs ${title.length > 60 ? "text-[#ef4444]" : "text-white"}`}>
               {title.length}/60
             </span>
           </span>
@@ -821,13 +821,13 @@ function MetaTagGenerator() {
             value={title}
             onChange={(e) => setTitle(e.target.value)}
             placeholder="e.g. Best Digital Marketing Agency in Chandigarh"
-            className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/10 text-white placeholder:text-white/20 focus:border-[#ff4500]/50 focus:outline-none transition-colors"
+            className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/10 text-white placeholder:text-white focus:border-[#ff4500]/50 focus:outline-none transition-colors"
           />
         </label>
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 flex items-center justify-between">
+          <span className="text-sm text-white mb-1 flex items-center justify-between">
             Meta Description
-            <span className={`text-xs ${description.length > 160 ? "text-[#ef4444]" : "text-white/30"}`}>
+            <span className={`text-xs ${description.length > 160 ? "text-[#ef4444]" : "text-white"}`}>
               {description.length}/160
             </span>
           </span>
@@ -837,27 +837,27 @@ function MetaTagGenerator() {
             value={description}
             onChange={(e) => setDescription(e.target.value)}
             placeholder="e.g. TML Agency offers SEO, Google Ads, social media marketing and web development. 500+ brands scaled with 98% client retention."
-            className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/10 text-white placeholder:text-white/20 focus:border-[#ff4500]/50 focus:outline-none transition-colors resize-none"
+            className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/10 text-white placeholder:text-white focus:border-[#ff4500]/50 focus:outline-none transition-colors resize-none"
           />
         </label>
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Keywords (comma-separated)</span>
+          <span className="text-sm text-white mb-1 block">Keywords (comma-separated)</span>
           <input
             type="text"
             value={keywords}
             onChange={(e) => setKeywords(e.target.value)}
             placeholder="e.g. digital marketing, SEO, web development"
-            className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/10 text-white placeholder:text-white/20 focus:border-[#ff4500]/50 focus:outline-none transition-colors"
+            className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/10 text-white placeholder:text-white focus:border-[#ff4500]/50 focus:outline-none transition-colors"
           />
         </label>
         <label className="block">
-          <span className="text-sm text-white/90 mb-1 block">Page URL</span>
+          <span className="text-sm text-white mb-1 block">Page URL</span>
           <input
             type="url"
             value={url}
             onChange={(e) => setUrl(e.target.value)}
             placeholder="https://example.com"
-            className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/10 text-white placeholder:text-white/20 focus:border-[#ff4500]/50 focus:outline-none transition-colors"
+            className="w-full px-4 py-3 rounded-xl bg-white/[0.05] border border-white/10 text-white placeholder:text-white focus:border-[#ff4500]/50 focus:outline-none transition-colors"
           />
         </label>
       </div>
@@ -894,12 +894,12 @@ function MetaTagGenerator() {
           </h3>
           <button
             onClick={copy}
-            className="text-xs px-3 py-1 rounded-lg border border-white/10 hover:border-[#ff4500]/40 text-white/90 hover:text-white transition-colors"
+            className="text-xs px-3 py-1 rounded-lg border border-white/10 hover:border-[#ff4500]/40 text-white hover:text-white transition-colors"
           >
             {copied ? "Copied!" : "Copy HTML"}
           </button>
         </div>
-        <pre className="p-5 rounded-2xl border border-white/10 bg-white/[0.02] overflow-x-auto text-sm text-white/90 leading-relaxed">
+        <pre className="p-5 rounded-2xl border border-white/10 bg-white/[0.02] overflow-x-auto text-sm text-white leading-relaxed">
           {metaHTML}
         </pre>
       </div>
@@ -923,7 +923,7 @@ export default function ToolPageClient({ tool }: { tool: FreeTool }) {
   if (!ToolComponent) {
     return (
       <ToolShell tool={tool}>
-        <p className="text-white/90">This tool is coming soon.</p>
+        <p className="text-white">This tool is coming soon.</p>
       </ToolShell>
     );
   }

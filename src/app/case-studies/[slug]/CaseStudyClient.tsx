@@ -44,7 +44,7 @@ function ResultCard({
         )}
       </div>
       <div className="text-sm font-semibold text-white mb-2">{result.metric}</div>
-      <p className="text-xs text-white/90 leading-relaxed">{result.description}</p>
+      <p className="text-xs text-white leading-relaxed">{result.description}</p>
     </motion.div>
   );
 }
@@ -82,7 +82,7 @@ export default function CaseStudyClient({ study }: { study: CaseStudy }) {
               {study.industry}
             </span>
             <span className="w-1 h-1 rounded-full bg-white/20" />
-            <span className="text-[11px] text-white/90 tracking-[0.25em] uppercase">
+            <span className="text-[11px] text-white tracking-[0.25em] uppercase">
               {study.timeline}
             </span>
           </motion.div>
@@ -101,9 +101,9 @@ export default function CaseStudyClient({ study }: { study: CaseStudy }) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease }}
-            className="text-xs text-white/30 mb-8"
+            className="text-xs text-white mb-8"
           >
-            Client: <span className="text-white/90">{study.client}</span>
+            Client: <span className="text-white">{study.client}</span>
           </motion.p>
 
           <motion.div
@@ -115,7 +115,7 @@ export default function CaseStudyClient({ study }: { study: CaseStudy }) {
             {study.services.map((s) => (
               <span
                 key={s}
-                className="text-[10px] px-3 py-1.5 rounded-full border border-white/[0.08] text-white/90"
+                className="text-[10px] px-3 py-1.5 rounded-full border border-white/[0.08] text-white"
               >
                 {s}
               </span>
@@ -179,7 +179,7 @@ export default function CaseStudyClient({ study }: { study: CaseStudy }) {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-white mb-4">The Challenge</h3>
-            <p className="text-sm text-white/90 leading-relaxed">{study.challenge}</p>
+            <p className="text-sm text-white leading-relaxed">{study.challenge}</p>
           </motion.div>
 
           <motion.div
@@ -196,7 +196,7 @@ export default function CaseStudyClient({ study }: { study: CaseStudy }) {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-white mb-4">Our Solution</h3>
-            <p className="text-sm text-white/90 leading-relaxed">{study.solution}</p>
+            <p className="text-sm text-white leading-relaxed">{study.solution}</p>
           </motion.div>
         </div>
       </section>
@@ -211,11 +211,11 @@ export default function CaseStudyClient({ study }: { study: CaseStudy }) {
             transition={{ duration: 0.7, ease }}
           >
             <div className="text-5xl text-[#ff4500]/20 mb-6">&ldquo;</div>
-            <blockquote className="text-lg md:text-xl text-white/90 leading-relaxed mb-8 italic max-w-3xl mx-auto">
+            <blockquote className="text-lg md:text-xl text-white leading-relaxed mb-8 italic max-w-3xl mx-auto">
               {study.testimonial.quote}
             </blockquote>
             <div className="text-sm font-semibold text-white">{study.testimonial.name}</div>
-            <div className="text-xs text-white/90 mt-1">{study.testimonial.role}</div>
+            <div className="text-xs text-white mt-1">{study.testimonial.role}</div>
           </motion.div>
         </div>
       </section>
@@ -245,9 +245,9 @@ export default function CaseStudyClient({ study }: { study: CaseStudy }) {
               prose-headings:text-white prose-headings:font-semibold
               prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4
               prose-h3:text-lg prose-h3:mt-8 prose-h3:mb-3
-              prose-p:text-white/90 prose-p:leading-relaxed
-              prose-li:text-white/90 prose-li:leading-relaxed
-              prose-strong:text-white/90
+              prose-p:text-white prose-p:leading-relaxed
+              prose-li:text-white prose-li:leading-relaxed
+              prose-strong:text-white
               prose-ul:my-4 prose-ul:space-y-2
               prose-a:text-[#ff4500] prose-a:no-underline hover:prose-a:underline"
             dangerouslySetInnerHTML={{ __html: study.content }}
@@ -277,7 +277,7 @@ export default function CaseStudyClient({ study }: { study: CaseStudy }) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1, ease }}
-            className="text-sm md:text-base text-white/90 leading-relaxed mb-10 max-w-xl mx-auto"
+            className="text-sm md:text-base text-white leading-relaxed mb-10 max-w-xl mx-auto"
           >
             Every success story starts with a conversation. Let&apos;s discuss your business
             goals and build a strategy that delivers measurable results.
@@ -297,7 +297,7 @@ export default function CaseStudyClient({ study }: { study: CaseStudy }) {
             </Link>
             <Link
               href="/case-studies"
-              className="px-8 py-4 rounded-full border border-white/10 text-white/90 font-semibold text-sm hover:bg-white/5 transition-colors"
+              className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
               View All Case Studies
             </Link>

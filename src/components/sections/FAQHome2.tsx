@@ -60,7 +60,7 @@ export function FAQHome2() {
           initial={{ opacity: 0, y: 14 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, ease }}
-          className="text-[10px] md:text-xs text-white/90 tracking-[0.2em] uppercase font-semibold mb-8"
+          className="text-[10px] md:text-xs text-white tracking-[0.2em] uppercase font-semibold mb-8"
         >
           FAQ
         </motion.p>
@@ -72,7 +72,7 @@ export function FAQHome2() {
           transition={{ duration: 0.8, delay: 0.1, ease }}
           className="text-3xl sm:text-4xl md:text-5xl font-medium leading-[1.08] tracking-tight text-white mb-16"
         >
-          Questions <span className="text-white/90">& answers.</span>
+          Questions <span className="text-white">& answers.</span>
         </motion.h2>
 
         {/* FAQ items */}
@@ -149,12 +149,12 @@ export function FAQHome2() {
                     aria-expanded={isOpen}
                   >
                     {/* Number */}
-                    <span className="text-xs md:text-sm font-mono text-white/15 shrink-0 tabular-nums select-none">
+                    <span className="text-xs md:text-sm font-mono text-white shrink-0 tabular-nums select-none">
                       {num}
                     </span>
 
                     {/* Question text */}
-                    <span className="flex-1 pr-4 text-sm md:text-base font-medium text-white/90 transition-colors duration-300 group-hover:text-white">
+                    <span className="flex-1 pr-4 text-sm md:text-base font-medium text-white transition-colors duration-300 group-hover:text-white">
                       {faq.q}
                     </span>
 
@@ -203,7 +203,7 @@ export function FAQHome2() {
                             duration: 0.45,
                             ease,
                           }}
-                          className="px-5 md:px-7 pb-6 pl-[3.25rem] md:pl-[4.75rem] text-sm text-white/45 leading-relaxed max-w-2xl"
+                          className="px-5 md:px-7 pb-6 pl-[3.25rem] md:pl-[4.75rem] text-sm text-white leading-relaxed max-w-2xl"
                         >
                           {faq.a}
                         </motion.p>
@@ -228,10 +228,10 @@ export function FAQHome2() {
         >
           <div className="inline-flex items-center gap-3 rounded-xl border border-white/[0.06] bg-white/[0.02] px-8 py-6 backdrop-blur-sm">
             <div>
-              <p className="text-sm md:text-base font-medium text-white/90 mb-1">
+              <p className="text-sm md:text-base font-medium text-white mb-1">
                 Still have questions?
               </p>
-              <p className="text-xs md:text-sm text-white/35">
+              <p className="text-xs md:text-sm text-white">
                 We&apos;d love to hear from you.{" "}
                 <a
                   href="/contact"

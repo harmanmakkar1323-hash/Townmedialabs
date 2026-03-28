@@ -56,7 +56,7 @@ export function Navbar() {
             <a
               key={link.label}
               href={link.href}
-              className="animated-underline text-xs font-medium tracking-wide text-white/90 uppercase transition-colors hover:text-white"
+              className="animated-underline text-xs font-medium tracking-wide text-white uppercase transition-colors hover:text-white"
             >
               {link.label}
             </a>
@@ -115,7 +115,7 @@ export function Navbar() {
                   initial={{ opacity: 0, x: -30 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: i * 0.06, ease: [0.23, 1, 0.32, 1] }}
-                  className="block py-3 text-sm text-white/90 transition-colors hover:text-white"
+                  className="block py-3 text-sm text-white transition-colors hover:text-white"
                 >
                   {link.label}
                 </motion.a>

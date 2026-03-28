@@ -171,7 +171,7 @@ export function LifeAtTML() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.6, ease }}
-          className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase font-semibold mb-6"
+          className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase font-semibold mb-6"
         >
           Life at TML
         </motion.p>
@@ -200,7 +200,7 @@ export function LifeAtTML() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.7, delay: 0.25, ease }}
-              className="text-sm md:text-base text-white/45 max-w-md leading-relaxed"
+              className="text-sm md:text-base text-white max-w-md leading-relaxed"
             >
               Be a part of an{" "}
               <span className="font-semibold text-[#ff4500] italic">
@@ -219,10 +219,10 @@ export function LifeAtTML() {
             >
               {cultureStats.map((stat) => (
                 <div key={stat.label} className="text-center">
-                  <p className="text-2xl md:text-3xl font-bold text-white/90 tracking-tight">
+                  <p className="text-2xl md:text-3xl font-bold text-white tracking-tight">
                     {stat.value}
                   </p>
-                  <p className="text-[10px] text-white/30 tracking-[0.1em] uppercase mt-1">
+                  <p className="text-[10px] text-white tracking-[0.1em] uppercase mt-1">
                     {stat.label}
                   </p>
                 </div>
@@ -315,8 +315,8 @@ export function LifeAtTML() {
                   ))}
                 </div>
                 <div>
-                  <p className="text-xs font-semibold text-white/90">50+ Creatives</p>
-                  <p className="text-[9px] text-white/90">Building brands daily</p>
+                  <p className="text-xs font-semibold text-white">50+ Creatives</p>
+                  <p className="text-[9px] text-white">Building brands daily</p>
                 </div>
               </motion.div>
             </motion.div>
@@ -330,7 +330,7 @@ export function LifeAtTML() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.6, delay: 0.2, ease }}
-              className="text-[10px] md:text-xs text-white/30 tracking-[0.15em] uppercase mb-6"
+              className="text-[10px] md:text-xs text-white tracking-[0.15em] uppercase mb-6"
             >
               Why people love working here
             </motion.p>
@@ -355,14 +355,14 @@ export function LifeAtTML() {
                   }}
                   className="group flex flex-col gap-2.5 rounded-xl bg-white/[0.02] border border-white/[0.06] p-4 cursor-default transition-all duration-300"
                 >
-                  <span className="text-white/90 group-hover:text-[#ff4500]/70 transition-colors duration-300">
+                  <span className="text-white group-hover:text-[#ff4500]/70 transition-colors duration-300">
                     {perk.icon}
                   </span>
                   <div>
-                    <span className="text-xs text-white/90 font-semibold tracking-wide block">
+                    <span className="text-xs text-white font-semibold tracking-wide block">
                       {perk.label}
                     </span>
-                    <span className="text-[10px] text-white/25 leading-snug block mt-0.5">
+                    <span className="text-[10px] text-white leading-snug block mt-0.5">
                       {perk.description}
                     </span>
                   </div>
@@ -389,7 +389,7 @@ export function LifeAtTML() {
             >
               {ratings.map((r, i) => (
                 <div key={r.platform} className="flex items-center gap-1.5">
-                  <span className="text-xs text-white/90">{r.platform}</span>
+                  <span className="text-xs text-white">{r.platform}</span>
                   <div className="flex gap-0.5">
                     {[...Array(5)].map((_, si) => (
                       <span key={si} className="text-[#ffcc00] text-[10px]">
@@ -397,7 +397,7 @@ export function LifeAtTML() {
                       </span>
                     ))}
                   </div>
-                  <span className="text-xs text-white/90 font-semibold">
+                  <span className="text-xs text-white font-semibold">
                     {r.score}
                   </span>
                   {i < ratings.length - 1 && (
@@ -422,7 +422,7 @@ export function LifeAtTML() {
                 }}
                 whileTap={{ scale: 0.97 }}
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                className="relative inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-[#ff4500]/10 to-[#ff4500]/5 border border-[#ff4500]/20 px-8 py-4 text-sm font-semibold text-white/90 backdrop-blur-sm hover:text-white hover:border-[#ff4500]/40 transition-colors duration-300"
+                className="relative inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-[#ff4500]/10 to-[#ff4500]/5 border border-[#ff4500]/20 px-8 py-4 text-sm font-semibold text-white backdrop-blur-sm hover:text-white hover:border-[#ff4500]/40 transition-colors duration-300"
               >
                 Join the Team
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="ml-1">

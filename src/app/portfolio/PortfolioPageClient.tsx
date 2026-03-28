@@ -131,7 +131,7 @@ function ProjectCard({
           </span>
         </div>
         <h3 className="text-lg font-semibold text-white mb-2">{project.title}</h3>
-        <p className="text-sm text-white/90 leading-relaxed">{project.description}</p>
+        <p className="text-sm text-white leading-relaxed">{project.description}</p>
       </div>
     </motion.div>
   );
@@ -168,13 +168,13 @@ export default function PortfolioPageClient() {
           >
             Projects That Speak
             <br />
-            <span className="text-white/90">for Themselves</span>
+            <span className="text-white">for Themselves</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2, ease }}
-            className="text-white/90 text-lg max-w-2xl mx-auto"
+            className="text-white text-lg max-w-2xl mx-auto"
           >
             From startups to established brands, we craft digital experiences that
             drive real business results. Here&apos;s a look at what we&apos;ve built.
@@ -192,7 +192,7 @@ export default function PortfolioPageClient() {
               className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 border ${
                 activeCategory === cat
                   ? "bg-[#ff4500] border-[#ff4500] text-white"
-                  : "bg-white/5 border-white/10 text-white/90 hover:text-white hover:border-white/20"
+                  : "bg-white/5 border-white/10 text-white hover:text-white hover:border-white/20"
               }`}
             >
               {cat}
@@ -211,7 +211,7 @@ export default function PortfolioPageClient() {
           </div>
 
           {filtered.length === 0 && (
-            <p className="text-center text-white/90 py-20 text-lg">
+            <p className="text-center text-white py-20 text-lg">
               No projects in this category yet.
             </p>
           )}
@@ -243,7 +243,7 @@ export default function PortfolioPageClient() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Have a Project in Mind?
           </h2>
-          <p className="text-white/90 mb-8 max-w-xl mx-auto">
+          <p className="text-white mb-8 max-w-xl mx-auto">
             We&apos;d love to hear about it. Whether it&apos;s a brand refresh, a new website,
             or a full-scale digital campaign, let&apos;s make it happen.
           </p>

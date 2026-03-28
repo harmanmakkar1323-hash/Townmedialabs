@@ -83,7 +83,7 @@ function CaseStudyCard({ slug, index }: { slug: string; index: number }) {
             <span className="text-[10px] text-[#ff4500]/60 font-mono tracking-wider uppercase">
               {study.timeline}
             </span>
-            <div className="text-[10px] text-white/20 font-mono">
+            <div className="text-[10px] text-white font-mono">
               {String(index + 1).padStart(2, "0")}
             </div>
           </div>
@@ -93,15 +93,15 @@ function CaseStudyCard({ slug, index }: { slug: string; index: number }) {
         {topResult && (
           <div className="mb-5 px-4 py-3 rounded-xl bg-[#ff4500]/[0.06] border border-[#ff4500]/10">
             <span className="text-2xl font-bold text-[#ff4500]">{topResult.value}</span>
-            <span className="text-xs text-white/90 ml-2">{topResult.metric}</span>
+            <span className="text-xs text-white ml-2">{topResult.metric}</span>
           </div>
         )}
 
         <h2 className="text-lg font-semibold text-white mb-2 group-hover:text-[#ff4500] transition-colors leading-snug">
           {study.title}
         </h2>
-        <p className="text-xs text-white/30 mb-4">{study.client} &middot; {study.industry}</p>
-        <p className="text-sm text-white/90 leading-relaxed mb-5 line-clamp-3">
+        <p className="text-xs text-white mb-4">{study.client} &middot; {study.industry}</p>
+        <p className="text-sm text-white leading-relaxed mb-5 line-clamp-3">
           {study.challenge}
         </p>
 
@@ -109,7 +109,7 @@ function CaseStudyCard({ slug, index }: { slug: string; index: number }) {
           {study.services.slice(0, 3).map((s) => (
             <span
               key={s}
-              className="text-[10px] px-2.5 py-1 rounded-full border border-white/[0.08] text-white/30"
+              className="text-[10px] px-2.5 py-1 rounded-full border border-white/[0.08] text-white"
             >
               {s}
             </span>
@@ -147,7 +147,7 @@ export default function CaseStudiesIndexClient() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, ease }}
-            className="text-[11px] text-white/90 tracking-[0.25em] uppercase mb-6"
+            className="text-[11px] text-white tracking-[0.25em] uppercase mb-6"
           >
             Proven Results
           </motion.p>
@@ -169,7 +169,7 @@ export default function CaseStudiesIndexClient() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease }}
-            className="text-sm md:text-base text-white/30 leading-relaxed max-w-2xl mx-auto mb-10"
+            className="text-sm md:text-base text-white leading-relaxed max-w-2xl mx-auto mb-10"
           >
             Real strategies. Real businesses. Real results. Explore how we&apos;ve helped
             companies across industries grow their revenue, dominate search rankings, and
@@ -210,7 +210,7 @@ export default function CaseStudiesIndexClient() {
               <div className="text-3xl md:text-4xl font-bold text-[#ff4500] mb-1">
                 {stat.value}
               </div>
-              <div className="text-xs text-white/30 tracking-wider uppercase">{stat.label}</div>
+              <div className="text-xs text-white tracking-wider uppercase">{stat.label}</div>
             </motion.div>
           ))}
         </div>
@@ -230,7 +230,7 @@ export default function CaseStudiesIndexClient() {
               Our Work
             </h2>
             <div className="flex-1 h-[1px] bg-white/[0.06]" />
-            <span className="text-xs text-white/20 font-mono">
+            <span className="text-xs text-white font-mono">
               {String(allCaseStudySlugs.length).padStart(2, "0")} studies
             </span>
           </motion.div>
@@ -265,7 +265,7 @@ export default function CaseStudiesIndexClient() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1, ease }}
-            className="text-sm md:text-base text-white/90 leading-relaxed mb-10 max-w-xl mx-auto"
+            className="text-sm md:text-base text-white leading-relaxed mb-10 max-w-xl mx-auto"
           >
             Every case study above started with a single conversation. Tell us about your
             business, your goals, and your challenges — and we&apos;ll show you exactly how
@@ -286,7 +286,7 @@ export default function CaseStudiesIndexClient() {
             </Link>
             <a
               href="mailto:info@townmedialabs.com"
-              className="px-8 py-4 rounded-full border border-white/10 text-white/90 font-semibold text-sm hover:bg-white/5 transition-colors"
+              className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
               info@townmedialabs.com
             </a>

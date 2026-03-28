@@ -66,7 +66,7 @@ export function FAQSection() {
                       }}
                       className="overflow-hidden"
                     >
-                      <p className="pb-6 text-sm leading-relaxed text-white/90">
+                      <p className="pb-6 text-sm leading-relaxed text-white">
                         {faq.a}
                       </p>
                     </motion.div>

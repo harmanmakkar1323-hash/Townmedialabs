@@ -187,7 +187,7 @@ export default function ServicesPageClient() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, ease }}
-            className="text-[11px] text-white/90 tracking-[0.25em] uppercase mb-8"
+            className="text-[11px] text-white tracking-[0.25em] uppercase mb-8"
           >
             Our Services
           </motion.p>
@@ -210,7 +210,7 @@ export default function ServicesPageClient() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3, ease }}
-            className="text-sm md:text-base text-white/90 max-w-2xl mx-auto mb-10"
+            className="text-sm md:text-base text-white max-w-2xl mx-auto mb-10"
           >
             From brand strategy to AI-powered marketing — we offer a complete suite of services to help you stand out, attract customers, and scale your business.
           </motion.p>
@@ -227,7 +227,7 @@ export default function ServicesPageClient() {
                 {i > 0 && <div className="hidden sm:block w-[1px] h-6 bg-white/[0.08] -ml-4 mr-1" />}
                 <div className="text-center">
                   <p className="text-xl md:text-2xl font-bold text-white">{stat.value}</p>
-                  <p className="text-[10px] text-white/30 tracking-wide uppercase">{stat.label}</p>
+                  <p className="text-[10px] text-white tracking-wide uppercase">{stat.label}</p>
                 </div>
               </div>
             ))}
@@ -255,7 +255,7 @@ export default function ServicesPageClient() {
                 {cat.category}
               </h2>
               <div className="flex-1 h-[1px] bg-white/[0.06]" />
-              <span className="text-xs text-white/20 font-mono">
+              <span className="text-xs text-white font-mono">
                 {String(catIndex + 1).padStart(2, "0")}
               </span>
             </motion.div>
@@ -289,7 +289,7 @@ export default function ServicesPageClient() {
                           strokeWidth="1.5"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          className="text-white/20 group-hover:text-[#ff4500] group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300"
+                          className="text-white group-hover:text-[#ff4500] group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300"
                         >
                           <path d="M7 17L17 7M17 7H7M17 7v10" />
                         </svg>
@@ -298,7 +298,7 @@ export default function ServicesPageClient() {
                       <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-[#ff4500] transition-colors">
                         {service.title}
                       </h3>
-                      <p className="text-sm text-white/90 leading-relaxed mb-5">
+                      <p className="text-sm text-white leading-relaxed mb-5">
                         {service.description}
                       </p>
 
@@ -307,7 +307,7 @@ export default function ServicesPageClient() {
                         {service.features.slice(0, 3).map((f) => (
                           <span
                             key={f.title}
-                            className="text-[10px] px-3 py-1.5 rounded-full border border-white/[0.06] text-white/30 bg-white/[0.02]"
+                            className="text-[10px] px-3 py-1.5 rounded-full border border-white/[0.06] text-white bg-white/[0.02]"
                           >
                             {f.title}
                           </span>
@@ -350,7 +350,7 @@ export default function ServicesPageClient() {
                   className="group flex items-center justify-between py-5 border-b border-white/[0.06] hover:border-[#ff4500]/20 transition-colors"
                 >
                   <div className="flex items-center gap-5">
-                    <span className="text-xs text-white/20 font-mono w-6">
+                    <span className="text-xs text-white font-mono w-6">
                       {String(i + 1).padStart(2, "0")}
                     </span>
                     <h3 className="text-lg md:text-xl font-medium text-white group-hover:text-[#ff4500] transition-colors">
@@ -366,7 +366,7 @@ export default function ServicesPageClient() {
                     strokeWidth="1.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="text-white/20 group-hover:text-[#ff4500] group-hover:translate-x-1 transition-all duration-300"
+                    className="text-white group-hover:text-[#ff4500] group-hover:translate-x-1 transition-all duration-300"
                   >
                     <path d="M5 12h14M12 5l7 7-7 7" />
                   </svg>
@@ -398,7 +398,7 @@ export default function ServicesPageClient() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1, ease }}
-            className="text-sm md:text-base text-white/90 mb-10 max-w-xl mx-auto"
+            className="text-sm md:text-base text-white mb-10 max-w-xl mx-auto"
           >
             Book a free strategy call and we&apos;ll audit your current digital presence and recommend the services that&apos;ll have the biggest impact.
           </motion.p>
@@ -417,7 +417,7 @@ export default function ServicesPageClient() {
             </Link>
             <a
               href="mailto:info@townmedialabs.com"
-              className="px-8 py-4 rounded-full border border-white/10 text-white/90 font-semibold text-sm hover:bg-white/5 transition-colors"
+              className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
               info@townmedialabs.com
             </a>

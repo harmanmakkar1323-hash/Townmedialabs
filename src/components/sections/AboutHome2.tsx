@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform, useInView } from "motion/react";
 import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
+import Image from "next/image";
 
 const ease = [0.23, 1, 0.32, 1] as const;
 
@@ -61,7 +62,7 @@ export function AboutHome2() {
           whileInView={{ scale: 1, filter: "blur(0px)" }}
           viewport={{ once: true }}
           transition={{ duration: 1.5, ease }}
-          className="text-[6rem] sm:text-[10rem] md:text-[18rem] lg:text-[24rem] font-bold tracking-tighter text-white leading-none block"
+          className="text-[6rem] sm:text-[10rem] md:text-[18rem] lg:text-[24rem] font-bold tracking-tighter text-white/[0.02] leading-none block"
         >
           15+
         </motion.span>
@@ -74,7 +75,7 @@ export function AboutHome2() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.6, ease }}
-          className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase font-semibold mb-8"
+          className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase font-semibold mb-8"
         >
           About TML
         </motion.p>
@@ -89,7 +90,7 @@ export function AboutHome2() {
             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-medium leading-[1.06] tracking-tight text-white max-w-5xl text-balance"
           >
             We&apos;re not just another agency.{" "}
-            <span className="text-white/90">
+            <span className="text-white">
               We&apos;re the people behind the brands you remember.
             </span>
           </motion.h2>
@@ -120,7 +121,7 @@ export function AboutHome2() {
               transition={{ duration: 0.8, delay: 0.2, ease }}
               className="absolute left-0 top-0 bottom-0 w-[2px] origin-top bg-gradient-to-b from-[#ff4500] via-[#ff4500]/30 to-transparent"
             />
-            <p className="text-sm md:text-base lg:text-lg text-white/90 leading-relaxed">
+            <p className="text-sm md:text-base lg:text-lg text-white leading-relaxed">
               TML is a full-service branding and digital marketing agency built
               for businesses that want to move fast and look good doing it. From
               day one, we embed with your team — learning your market, your
@@ -142,7 +143,7 @@ export function AboutHome2() {
               transition={{ duration: 0.8, delay: 0.3, ease }}
               className="absolute left-0 top-0 bottom-0 w-[2px] origin-top bg-gradient-to-b from-[#ff4500] via-[#ff4500]/30 to-transparent"
             />
-            <p className="text-sm md:text-base lg:text-lg text-white/90 leading-relaxed">
+            <p className="text-sm md:text-base lg:text-lg text-white leading-relaxed">
               We combine strategy, design, and performance marketing into one
               tight operation.{" "}
               <span className="text-white font-semibold">
@@ -153,6 +154,25 @@ export function AboutHome2() {
             </p>
           </motion.div>
         </div>
+
+        {/* Work showcase strip */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, delay: 0.3, ease }}
+          className="mt-16 grid grid-cols-3 gap-3"
+        >
+          <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-white/[0.06]">
+            <Image src="/work/graphic-design-coca-cola-marvel.webp" alt="Creative campaign design by TML Agency" fill sizes="33vw" className="object-cover" loading="lazy" />
+          </div>
+          <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-white/[0.06]">
+            <Image src="/work/product-photography-luxury-skincare.png" alt="Product photography by TML Agency" fill sizes="33vw" className="object-cover" loading="lazy" />
+          </div>
+          <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-white/[0.06]">
+            <Image src="/work/web-design-creative-agency-dark.jpg" alt="Website design by TML Agency" fill sizes="33vw" className="object-cover" loading="lazy" />
+          </div>
+        </motion.div>
 
         {/* Stats grid */}
         <div className="mt-24 md:mt-28 grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-8">
@@ -192,7 +212,7 @@ export function AboutHome2() {
                 />
 
                 {/* Label */}
-                <p className="text-[11px] md:text-xs text-white/90 tracking-[0.15em] uppercase font-medium">
+                <p className="text-[11px] md:text-xs text-white tracking-[0.15em] uppercase font-medium">
                   {stat.label}
                 </p>
               </div>

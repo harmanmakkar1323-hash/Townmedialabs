@@ -189,7 +189,7 @@ export default function CareersPageClient() {
             initial={{ opacity: 0, y: 14 }}
             animate={heroInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, ease }}
-            className="text-[10px] md:text-xs text-white/90 tracking-[0.2em] uppercase font-semibold mb-6 mt-8"
+            className="text-[10px] md:text-xs text-white tracking-[0.2em] uppercase font-semibold mb-6 mt-8"
           >
             We&apos;re hiring
           </motion.p>
@@ -210,7 +210,7 @@ export default function CareersPageClient() {
             initial={{ opacity: 0, y: 20 }}
             animate={heroInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.15, ease }}
-            className="text-base sm:text-lg md:text-xl text-white/90 max-w-2xl leading-relaxed mb-10"
+            className="text-base sm:text-lg md:text-xl text-white max-w-2xl leading-relaxed mb-10"
           >
             Join a team of 70+ creatives, strategists, and engineers shaping how
             brands grow. If you love fast-paced work and bold ideas — you&apos;ll
@@ -240,7 +240,7 @@ export default function CareersPageClient() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, ease }}
-            className="text-[10px] md:text-xs text-white/90 tracking-[0.2em] uppercase font-semibold mb-4"
+            className="text-[10px] md:text-xs text-white tracking-[0.2em] uppercase font-semibold mb-4"
           >
             Why TML Agency
           </motion.p>
@@ -269,7 +269,7 @@ export default function CareersPageClient() {
                 <h3 className="text-sm md:text-base font-semibold text-white mb-1">
                   {perk.label}
                 </h3>
-                <p className="text-xs md:text-sm text-white/90 leading-relaxed">
+                <p className="text-xs md:text-sm text-white leading-relaxed">
                   {perk.description}
                 </p>
               </motion.div>
@@ -289,7 +289,7 @@ export default function CareersPageClient() {
             initial={{ opacity: 0, y: 14 }}
             animate={positionsInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, ease }}
-            className="text-[10px] md:text-xs text-white/90 tracking-[0.2em] uppercase font-semibold mb-4"
+            className="text-[10px] md:text-xs text-white tracking-[0.2em] uppercase font-semibold mb-4"
           >
             Open Positions
           </motion.p>
@@ -326,7 +326,7 @@ export default function CareersPageClient() {
                         {pos.title}
                       </h3>
                       <div className="flex items-center gap-2">
-                        <span className="text-[10px] tracking-wider uppercase bg-white/[0.05] border border-white/[0.08] rounded-full px-3 py-1 text-white/90 font-medium">
+                        <span className="text-[10px] tracking-wider uppercase bg-white/[0.05] border border-white/[0.08] rounded-full px-3 py-1 text-white font-medium">
                           {pos.department}
                         </span>
                         <span className="text-[10px] tracking-wider uppercase bg-[#ff4500]/10 border border-[#ff4500]/20 rounded-full px-3 py-1 text-[#ff4500]/80 font-medium">
@@ -334,10 +334,10 @@ export default function CareersPageClient() {
                         </span>
                       </div>
                     </div>
-                    <p className="text-xs md:text-sm text-white/30 mb-3">
+                    <p className="text-xs md:text-sm text-white mb-3">
                       {pos.location}
                     </p>
-                    <p className="text-sm text-white/90 leading-relaxed">
+                    <p className="text-sm text-white leading-relaxed">
                       {pos.description}
                     </p>
                   </div>
@@ -345,7 +345,7 @@ export default function CareersPageClient() {
                   {/* Apply CTA */}
                   <a
                     href={`mailto:info@townmedialabs.com?subject=Application for ${encodeURIComponent(pos.title)}&body=Hi TML Agency,%0D%0A%0D%0AI am interested in the ${encodeURIComponent(pos.title)} position.%0D%0A%0D%0APlease find my resume attached.%0D%0A%0D%0ARegards`}
-                    className="shrink-0 inline-flex items-center gap-2 bg-white/[0.04] border border-white/[0.08] rounded-xl px-6 py-3 text-sm font-semibold text-white/90 hover:bg-[#ff4500] hover:text-white hover:border-[#ff4500] transition-all duration-300 self-start md:self-center"
+                    className="shrink-0 inline-flex items-center gap-2 bg-white/[0.04] border border-white/[0.08] rounded-xl px-6 py-3 text-sm font-semibold text-white hover:bg-[#ff4500] hover:text-white hover:border-[#ff4500] transition-all duration-300 self-start md:self-center"
                   >
                     Apply
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -373,7 +373,7 @@ export default function CareersPageClient() {
             <h2 className="relative text-2xl sm:text-3xl md:text-4xl font-medium tracking-tight text-white mb-4">
               Don&apos;t see your role?
             </h2>
-            <p className="relative text-sm md:text-base text-white/90 max-w-lg mx-auto mb-8 leading-relaxed">
+            <p className="relative text-sm md:text-base text-white max-w-lg mx-auto mb-8 leading-relaxed">
               We&apos;re always looking for talented people. Drop us your resume
               and we&apos;ll reach out when the right opportunity comes up.
             </p>

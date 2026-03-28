@@ -16,17 +16,17 @@ export default function PrivacyPolicyPage() {
 
       <article className="relative w-full px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:px-12">
         <div className="mx-auto max-w-3xl prose-invert">
-          <p className="text-[10px] text-white/30 tracking-[0.25em] uppercase mb-6">
+          <p className="text-[10px] text-white tracking-[0.25em] uppercase mb-6">
             Legal
           </p>
           <h1 className="text-4xl sm:text-5xl font-medium tracking-tight mb-4">
             Privacy Policy<span className="text-[#ff4500]">.</span>
           </h1>
-          <p className="text-sm text-white/90 mb-12">
+          <p className="text-sm text-white mb-12">
             Last updated: March 2026
           </p>
 
-          <div className="space-y-8 text-sm text-white/90 leading-relaxed">
+          <div className="space-y-8 text-sm text-white leading-relaxed">
             <section>
               <h2 className="text-lg font-semibold text-white mb-3">
                 1. Information We Collect

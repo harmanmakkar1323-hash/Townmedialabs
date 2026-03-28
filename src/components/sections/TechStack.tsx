@@ -41,7 +41,7 @@ function ToolPill({ name }: { name: string }) {
         backgroundColor: "rgba(255,69,0,0.08)",
       }}
       transition={{ duration: 0.3 }}
-      className="inline-flex items-center gap-2 bg-white/[0.03] border border-white/[0.06] rounded-full px-5 py-2.5 text-sm text-white/90 whitespace-nowrap cursor-default mx-2"
+      className="inline-flex items-center gap-2 bg-white/[0.03] border border-white/[0.06] rounded-full px-5 py-2.5 text-sm text-white whitespace-nowrap cursor-default mx-2"
     >
       <motion.span
         className="w-1.5 h-1.5 rounded-full bg-[#ff4500]/40"
@@ -84,7 +84,7 @@ export function TechStack() {
             initial={{ opacity: 0, y: 14 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, ease }}
-            className="text-[10px] md:text-xs text-white/90 tracking-[0.2em] uppercase font-semibold mb-8"
+            className="text-[10px] md:text-xs text-white tracking-[0.2em] uppercase font-semibold mb-8"
           >
             Our toolkit
           </motion.p>
@@ -97,7 +97,7 @@ export function TechStack() {
             className="text-3xl sm:text-4xl md:text-5xl font-medium leading-[1.08] tracking-tight text-white max-w-3xl"
           >
             The tools behind{" "}
-            <span className="text-white/90 italic">the results.</span>
+            <span className="text-white italic">the results.</span>
           </motion.h2>
 
           {/* Tech counter */}
@@ -110,7 +110,7 @@ export function TechStack() {
             <span className="text-4xl md:text-5xl font-bold text-[#ff4500]/80">
               <AnimatedCounter target={totalTools} suffix="+" duration={1.8} />
             </span>
-            <span className="text-sm text-white/30 leading-tight">
+            <span className="text-sm text-white leading-tight">
               tools &<br />
               platforms
             </span>
@@ -136,7 +136,7 @@ export function TechStack() {
             initial={{ opacity: 0, x: -20 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.35, ease }}
-            className="text-[9px] text-white/20 tracking-[0.2em] uppercase font-medium mb-2 pl-[8%]"
+            className="text-[9px] text-white tracking-[0.2em] uppercase font-medium mb-2 pl-[8%]"
           >
             {rowLabels[0]}
           </motion.p>
@@ -155,7 +155,7 @@ export function TechStack() {
             initial={{ opacity: 0, x: 20 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.45, ease }}
-            className="text-[9px] text-white/20 tracking-[0.2em] uppercase font-medium mb-2 text-right pr-[8%]"
+            className="text-[9px] text-white tracking-[0.2em] uppercase font-medium mb-2 text-right pr-[8%]"
           >
             {rowLabels[1]}
           </motion.p>
@@ -179,7 +179,7 @@ export function TechStack() {
             initial={{ opacity: 0, x: -20 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.55, ease }}
-            className="text-[9px] text-white/20 tracking-[0.2em] uppercase font-medium mb-2 pl-[8%]"
+            className="text-[9px] text-white tracking-[0.2em] uppercase font-medium mb-2 pl-[8%]"
           >
             {rowLabels[2]}
           </motion.p>

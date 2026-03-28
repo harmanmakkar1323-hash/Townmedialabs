@@ -163,7 +163,7 @@ function ProjectCard({
 
       {/* Number */}
       <div className="absolute top-4 left-4 z-20">
-        <span className="text-[10px] text-white/15 font-mono tracking-wider">
+        <span className="text-[10px] text-white font-mono tracking-wider">
           {String(idx + 1).padStart(2, "0")}
         </span>
       </div>
@@ -269,7 +269,7 @@ export function WorkHome2() {
               initial={{ opacity: 0, y: 14 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, ease }}
-              className="text-[10px] md:text-xs text-white/90 tracking-[0.2em] uppercase font-semibold mb-8"
+              className="text-[10px] md:text-xs text-white tracking-[0.2em] uppercase font-semibold mb-8"
             >
               Selected work
             </motion.p>
@@ -282,7 +282,7 @@ export function WorkHome2() {
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium leading-[1.08] tracking-tight text-white max-w-3xl"
             >
               Work that speaks{" "}
-              <span className="text-white/90">for itself.</span>
+              <span className="text-white">for itself.</span>
             </motion.h2>
           </div>
 
@@ -476,7 +476,7 @@ export function WorkHome2() {
                 <AnimatedCounter target={stat.target} suffix={stat.suffix} />
               </p>
               <div className="w-6 h-[1px] bg-gradient-to-r from-[#ff4500]/40 to-transparent mx-auto my-2" />
-              <p className="text-[10px] text-white/30 tracking-[0.12em] uppercase">
+              <p className="text-[10px] text-white tracking-[0.12em] uppercase">
                 {stat.label}
               </p>
             </motion.div>
@@ -495,7 +495,7 @@ export function WorkHome2() {
             href="#portfolio"
             whileHover={{ scale: 1.04, boxShadow: "0 0 30px rgba(255,69,0,0.12)" }}
             whileTap={{ scale: 0.97 }}
-            className="inline-flex items-center gap-2 rounded-xl border border-[#ff4500]/20 bg-[#ff4500]/5 px-8 py-3.5 text-sm font-semibold text-white/90 hover:text-white hover:border-[#ff4500]/40 transition-colors duration-300"
+            className="inline-flex items-center gap-2 rounded-xl border border-[#ff4500]/20 bg-[#ff4500]/5 px-8 py-3.5 text-sm font-semibold text-white hover:text-white hover:border-[#ff4500]/40 transition-colors duration-300"
           >
             View All Projects
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">

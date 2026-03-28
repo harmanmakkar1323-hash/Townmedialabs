@@ -8,6 +8,8 @@ import { servicePages } from "@/data/servicePages";
 import { blogArticles } from "@/data/blogArticles";
 import { industries, industryPages } from "@/data/industries";
 import { locations, getLocationServiceSlug } from "@/data/locations";
+import { getImagesForService } from "@/data/portfolioImages";
+import Image from "next/image";
 import { serviceRelatedBlogs, serviceRelatedIndustries } from "@/lib/internalLinks";
 import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
 import InnerNavbar from "@/components/layout/InnerNavbar";
@@ -26,14 +28,14 @@ function FeatureCard({ feature, index }: { feature: { title: string; description
       transition={{ duration: 0.6, delay: index * 0.1, ease }}
       className="group relative p-6 md:p-8 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] hover:border-[#ff4500]/20 transition-all duration-500"
     >
-      <div className="absolute top-6 right-6 text-[10px] text-white/20 font-mono">
+      <div className="absolute top-6 right-6 text-[10px] text-white font-mono">
         {String(index + 1).padStart(2, "0")}
       </div>
       <div className="w-10 h-10 rounded-xl bg-[#ff4500]/10 flex items-center justify-center mb-5 group-hover:bg-[#ff4500]/20 transition-colors">
         <div className="w-2 h-2 rounded-full bg-[#ff4500]" />
       </div>
       <h3 className="text-lg font-semibold text-white mb-3">{feature.title}</h3>
-      <p className="text-sm text-white/90 leading-relaxed">{feature.description}</p>
+      <p className="text-sm text-white leading-relaxed">{feature.description}</p>
     </motion.div>
   );
 }
@@ -59,9 +61,181 @@ function ProcessStep({ step, index, total }: { step: { step: string; title: stri
           <div className="lg:hidden flex-1 h-[1px] bg-white/[0.06]" />
         </div>
         <h3 className="text-xl font-semibold text-white mb-2">{step.title}</h3>
-        <p className="text-sm text-white/90 leading-relaxed">{step.description}</p>
+        <p className="text-sm text-white leading-relaxed">{step.description}</p>
       </div>
     </motion.div>
+  );
+}
+
+/** Highlight stat numbers within text (e.g. "23%", "20–30%", "$1.2M") */
+function highlightStats(text: string): React.ReactNode {
+  // Use a simple, deterministic regex to find stats like "23%", "500+", "$1.2M"
+  const statPattern = /(\$?\₹?[\d,]+(?:\.[\d]+)?(?:–[\d,]+(?:\.[\d]+)?)?(?:%|x|\+|M|K|B))/g;
+  const parts: React.ReactNode[] = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  while ((match = statPattern.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    parts.push(<span key={match.index} className="text-[#ff4500] font-semibold">{match[1]}</span>);
+    lastIndex = statPattern.lastIndex;
+  }
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+  return parts.length > 0 ? parts : text;
+}
+
+/* ─── Deep Content — editorial layout with image + content side-by-side ─── */
+function DeepContentRenderer({ section, sectionIndex, image }: { section: { heading: string; paragraphs: string[] }; sectionIndex: number; image?: { src: string; alt: string } }) {
+  const variant = sectionIndex % 3;
+  const flipSide = sectionIndex % 2 === 1;
+
+  return (
+    <div className="relative">
+      {/* Section number + divider */}
+      <div className="flex items-center gap-4 mb-6">
+        <span className="text-xs font-mono text-[#ff4500]/50 font-bold">
+          {String(sectionIndex + 1).padStart(2, "0")}
+        </span>
+        <div className="flex-1 h-[1px] bg-gradient-to-r from-[#ff4500]/20 to-transparent" />
+      </div>
+
+      {/* Variant 0: Image left/right + content — magazine-style split */}
+      {variant === 0 && (
+        <div className={`flex flex-col ${flipSide ? "md:flex-row-reverse" : "md:flex-row"} gap-8 md:gap-12 items-start`}>
+          {/* Image side */}
+          {image && (
+            <div className="md:w-[42%] flex-shrink-0 md:sticky md:top-32">
+              <div className="relative aspect-[3/4] min-h-[350px] overflow-hidden rounded-2xl border border-white/[0.06]">
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 42vw"
+                  className="object-cover"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          )}
+          {/* Content side */}
+          <div className={image ? "md:w-[58%]" : ""}>
+            <h2 className="text-2xl sm:text-3xl md:text-[2rem] font-medium text-white leading-tight mb-8">
+              {section.heading}<span className="text-[#ff4500]">.</span>
+            </h2>
+            {/* First paragraph */}
+            {section.paragraphs[0] && (
+              <p className="text-sm md:text-[15px] text-white/80 leading-[1.9] max-w-[60ch] mb-6">
+                {highlightStats(section.paragraphs[0])}
+              </p>
+            )}
+            {/* Divider between paragraph groups */}
+            {section.paragraphs.length > 1 && (
+              <div className="h-px bg-gradient-to-r from-[#ff4500]/15 to-transparent mb-6" />
+            )}
+            {/* Remaining paragraphs */}
+            {section.paragraphs.length > 1 && (
+              <div className="space-y-6">
+                {section.paragraphs.slice(1).map((p, pi) => (
+                  <p key={pi} className="text-sm md:text-[15px] text-white/80 leading-[1.9] max-w-[60ch]">
+                    {highlightStats(p)}
+                  </p>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Variant 1: Full-width heading + pull quote + paragraphs, image as inline break */}
+      {variant === 1 && (
+        <div>
+          <h2 className="text-2xl sm:text-3xl md:text-[2.5rem] font-medium text-white leading-tight mb-10">
+            {section.heading}<span className="text-[#ff4500]">.</span>
+          </h2>
+
+          {/* Pull quote from first paragraph */}
+          {section.paragraphs[0] && (
+            <div className="mb-10 pl-6 border-l-2 border-[#ff4500]/40">
+              <p className="text-lg md:text-xl text-white/90 leading-relaxed italic font-light">
+                {section.paragraphs[0].match(/^[^.!?]+[.!?]/)?.[0] || section.paragraphs[0].slice(0, 140)}
+              </p>
+            </div>
+          )}
+
+          {/* First paragraph */}
+          {section.paragraphs[0] && (
+            <p className="text-sm md:text-[15px] text-white/80 leading-[1.9] max-w-3xl mb-6">
+              {highlightStats(section.paragraphs[0])}
+            </p>
+          )}
+
+          {/* Inline image break between paragraphs */}
+          {image && (
+            <div className="relative w-full aspect-[21/9] overflow-hidden rounded-2xl border border-white/[0.06] my-8">
+              <Image
+                src={image.src}
+                alt={image.alt}
+                fill
+                sizes="(max-width: 768px) 100vw, 80vw"
+                className="object-cover"
+                loading="lazy"
+              />
+            </div>
+          )}
+
+          {/* Remaining paragraphs */}
+          <div className="space-y-6">
+            {section.paragraphs.slice(1).map((p, pi) => (
+              <p key={pi} className="text-sm md:text-[15px] text-white/80 leading-[1.9] max-w-3xl">
+                {highlightStats(p)}
+              </p>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Variant 2: Image right/left + numbered content blocks */}
+      {variant === 2 && (
+        <div className={`flex flex-col ${flipSide ? "md:flex-row" : "md:flex-row-reverse"} gap-8 md:gap-12 items-start`}>
+          {/* Image side */}
+          {image && (
+            <div className="md:w-[40%] flex-shrink-0 md:sticky md:top-32">
+              <div className="relative aspect-[3/4] min-h-[400px] overflow-hidden rounded-2xl border border-white/[0.06]">
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 40vw"
+                  className="object-cover"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          )}
+          {/* Content side */}
+          <div className={image ? "md:w-[60%]" : ""}>
+            <h2 className="text-2xl sm:text-3xl md:text-[2rem] font-medium text-white leading-tight mb-10">
+              {section.heading}<span className="text-[#ff4500]">.</span>
+            </h2>
+            <div className="space-y-8">
+              {section.paragraphs.map((p, pi) => (
+                <div key={pi} className="flex gap-6 items-start">
+                  <span className="text-4xl md:text-5xl font-light text-[#ff4500]/20 leading-none select-none flex-shrink-0 -mt-1">
+                    {String(pi + 1).padStart(2, "0")}
+                  </span>
+                  <p className="text-sm md:text-[15px] text-white/80 leading-[1.9] pt-1 max-w-[60ch]">
+                    {highlightStats(p)}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -79,9 +253,9 @@ function FAQItem({ faq, index }: { faq: { q: string; a: string }; index: number 
     >
       <summary className="flex items-center justify-between p-5 md:p-6 cursor-pointer list-none text-white font-medium text-sm md:text-base">
         <span className="pr-4">{faq.q}</span>
-        <span className="text-white/30 text-xl transition-transform duration-300 group-open:rotate-45 flex-shrink-0">+</span>
+        <span className="text-white text-xl transition-transform duration-300 group-open:rotate-45 flex-shrink-0">+</span>
       </summary>
-      <div className="px-5 pb-5 md:px-6 md:pb-6 text-sm text-white/90 leading-relaxed border-t border-white/[0.04] pt-4">
+      <div className="px-5 pb-5 md:px-6 md:pb-6 text-sm text-white leading-relaxed border-t border-white/[0.04] pt-4">
         {faq.a}
       </div>
     </motion.details>
@@ -153,7 +327,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
           >
             <Link
               href="/services"
-              className="inline-flex items-center gap-2 text-[11px] text-white/90 tracking-[0.2em] uppercase hover:text-white/90 transition-colors mb-8"
+              className="inline-flex items-center gap-2 text-[11px] text-white tracking-[0.2em] uppercase hover:text-white transition-colors mb-8"
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M19 12H5M12 19l-7-7 7-7" />
@@ -176,7 +350,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease }}
-            className="text-lg md:text-xl text-white/90 font-medium mb-4"
+            className="text-lg md:text-xl text-white font-medium mb-4"
           >
             {data.tagline}
           </motion.p>
@@ -185,7 +359,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3, ease }}
-            className="text-sm md:text-base text-white/30 leading-relaxed max-w-2xl mx-auto mb-10"
+            className="text-sm md:text-base text-white leading-relaxed max-w-2xl mx-auto mb-10"
           >
             {data.heroDescription}
           </motion.p>
@@ -204,7 +378,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
             </Link>
             <a
               href="mailto:info@townmedialabs.com"
-              className="px-8 py-4 rounded-full border border-white/10 text-white/90 font-semibold text-sm hover:bg-white/5 transition-colors"
+              className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
               Talk to an Expert
             </a>
@@ -239,10 +413,10 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
                       <span className="text-[#ff4500]">{stat.value}</span>
                     )
                   ) : (
-                    <span className="text-white/20">—</span>
+                    <span className="text-white">—</span>
                   )}
                 </div>
-                <p className="text-xs text-white/90 tracking-wide">{stat.label}</p>
+                <p className="text-xs text-white tracking-wide">{stat.label}</p>
               </motion.div>
             ))}
           </div>
@@ -259,7 +433,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, ease }}
-            className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4"
+            className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
           >
             What We Offer
           </motion.p>
@@ -307,7 +481,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, ease }}
-                className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase font-semibold"
+                className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase font-semibold"
               >
                 Why {data.title}
               </motion.p>
@@ -339,7 +513,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
                     {String(i + 1).padStart(2, "0")}
                   </div>
                   <div className="w-8 h-[2px] bg-[#ff4500]/40 rounded-full mb-5 group-hover:w-12 transition-all duration-500" />
-                  <p className="text-sm text-white/90 leading-relaxed">{paragraph}</p>
+                  <p className="text-sm text-white leading-relaxed">{paragraph}</p>
                 </motion.div>
               ))}
             </div>
@@ -347,61 +521,83 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
         </section>
       )}
 
-      {/* Deep Content Sections — alternating layouts with visual accents */}
-      {data.deepContent && data.deepContent.length > 0 && (
-        <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
-          <div className="relative mx-auto max-w-5xl">
-            <div className="space-y-16 md:space-y-24">
-              {data.deepContent.map((section, sectionIndex) => (
-                <motion.div
-                  key={section.heading}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, amount: 0.15 }}
-                  transition={{ duration: 0.7, ease }}
-                  className="relative"
-                >
-                  {/* Section number + divider */}
-                  <div className="flex items-center gap-4 mb-6">
-                    <span className="text-xs font-mono text-[#ff4500]/50 font-bold">
-                      {String(sectionIndex + 1).padStart(2, "0")}
-                    </span>
-                    <div className="flex-1 h-[1px] bg-gradient-to-r from-[#ff4500]/20 to-transparent" />
-                  </div>
-
-                  <div className={`flex flex-col ${sectionIndex % 2 === 1 ? "md:flex-row-reverse" : "md:flex-row"} gap-8 md:gap-12 items-start`}>
-                    {/* Heading side */}
-                    <div className="md:w-2/5 md:sticky md:top-32">
-                      <h2 className="text-2xl sm:text-3xl md:text-[2rem] font-medium text-white leading-tight">
-                        {section.heading}
-                        <span className="text-[#ff4500]">.</span>
-                      </h2>
-                    </div>
-
-                    {/* Content side */}
-                    <div className="md:w-3/5">
-                      <div className="space-y-5 pl-5 border-l border-white/[0.06]">
-                        {section.paragraphs.map((p, pi) => (
-                          <motion.p
-                            key={pi}
-                            initial={{ opacity: 0, x: -10 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.5, delay: pi * 0.1, ease }}
-                            className="text-sm md:text-[15px] text-white/45 leading-[1.8]"
-                          >
-                            {p}
-                          </motion.p>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                </motion.div>
-              ))}
+      {/* Deep Content Sections — image + content editorial layouts */}
+      {data.deepContent && data.deepContent.length > 0 && (() => {
+        const sectionImages = getImagesForService(data.slug, data.deepContent.length);
+        return (
+          <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
+            <div className="relative mx-auto max-w-5xl">
+              <div className="space-y-16 md:space-y-24">
+                {data.deepContent.map((section, sectionIndex) => (
+                  <DeepContentRenderer
+                    key={section.heading}
+                    section={section}
+                    sectionIndex={sectionIndex}
+                    image={sectionImages[sectionIndex]}
+                  />
+                ))}
+              </div>
             </div>
-          </div>
-        </section>
-      )}
+          </section>
+        );
+      })()}
+
+      {/* Portfolio Showcase — visual work samples */}
+      {(() => {
+        const images = getImagesForService(data.slug, 6);
+        if (images.length === 0) return null;
+        return (
+          <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
+            <div className="relative mx-auto max-w-7xl">
+              <motion.p
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, ease }}
+                className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
+              >
+                Our Work
+              </motion.p>
+              <motion.h2
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.7, ease }}
+                className="text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16"
+              >
+                {data.title} Work We&apos;re Proud Of
+                <span className="text-[#ff4500]">.</span>
+              </motion.h2>
+
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+                {images.map((img, i) => (
+                  <motion.div
+                    key={img.src}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.1 }}
+                    transition={{ duration: 0.5, delay: i * 0.08, ease }}
+                    className={`relative overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.02] group ${i === 0 ? "col-span-2 row-span-2 aspect-[4/3]" : "aspect-square"}`}
+                  >
+                    <Image
+                      src={img.src}
+                      alt={img.alt}
+                      fill
+                      sizes={i === 0 ? "(max-width: 768px) 100vw, 66vw" : "(max-width: 768px) 50vw, 33vw"}
+                      className="object-cover transition-transform duration-700 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                    <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                      <p className="text-xs text-white/90 leading-relaxed">{img.alt}</p>
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })()}
 
       {/* Pricing Note — prominent CTA-style card */}
       {data.pricingNote && (
@@ -428,7 +624,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
                   <div className="flex-1">
                     <p className="text-[10px] text-[#ff4500]/60 tracking-[0.2em] uppercase font-semibold mb-2">Transparent Pricing</p>
                     <h2 className="text-xl md:text-2xl font-semibold text-white mb-4">{data.title} Pricing &amp; Investment</h2>
-                    <p className="text-sm md:text-[15px] text-white/45 leading-[1.8] mb-6">{data.pricingNote}</p>
+                    <p className="text-sm md:text-[15px] text-white leading-[1.8] mb-6">{data.pricingNote}</p>
                     <Link
                       href="/contact"
                       className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_20px_rgba(255,69,0,0.25)]"
@@ -454,7 +650,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, ease }}
-            className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4"
+            className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
           >
             Our Process
           </motion.p>
@@ -490,7 +686,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, ease }}
-            className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4 text-center"
+            className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4 text-center"
           >
             FAQ
           </motion.p>
@@ -524,6 +720,36 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
         </div>
       </section>
 
+      {/* Cinematic closing image */}
+      {(() => {
+        const closingImages = getImagesForService(data.slug, 8);
+        const closingImg = closingImages[closingImages.length - 1];
+        if (!closingImg) return null;
+        return (
+          <section className="relative w-full px-6 py-8 lg:px-12">
+            <div className="relative mx-auto max-w-6xl">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.98 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, ease }}
+                className="relative aspect-[21/9] overflow-hidden rounded-2xl border border-white/[0.06]"
+              >
+                <Image
+                  src={closingImg.src}
+                  alt={closingImg.alt}
+                  fill
+                  sizes="100vw"
+                  className="object-cover"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent" />
+              </motion.div>
+            </div>
+          </section>
+        );
+      })()}
+
       {/* CTA Section */}
       <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 bg-[#080808] overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
@@ -546,7 +772,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1, ease }}
-            className="text-sm md:text-base text-white/90 leading-relaxed mb-10 max-w-xl mx-auto"
+            className="text-sm md:text-base text-white leading-relaxed mb-10 max-w-xl mx-auto"
           >
             Let&apos;s discuss how our {data.title.toLowerCase()} services can help grow your business. Get a free consultation today.
           </motion.p>
@@ -565,7 +791,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
             </Link>
             <a
               href="mailto:info@townmedialabs.com"
-              className="px-8 py-4 rounded-full border border-white/10 text-white/90 font-semibold text-sm hover:bg-white/5 transition-colors"
+              className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
               info@townmedialabs.com
             </a>
@@ -602,7 +828,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
                     <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-[#ff4500] transition-colors">
                       {related.title}
                     </h3>
-                    <p className="text-sm text-white/90 leading-relaxed mb-4">{related.description}</p>
+                    <p className="text-sm text-white leading-relaxed mb-4">{related.description}</p>
                     <span className="text-xs text-[#ff4500] font-medium tracking-wide group-hover:underline">
                       Learn More &rarr;
                     </span>
@@ -629,7 +855,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, ease }}
-                className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4"
+                className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
               >
                 From Our Blog
               </motion.p>
@@ -662,7 +888,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
                       <h3 className="text-base font-semibold text-white mb-3 group-hover:text-[#ff4500] transition-colors leading-snug">
                         {article.title}
                       </h3>
-                      <p className="text-sm text-white/35 leading-relaxed mb-4 line-clamp-2">
+                      <p className="text-sm text-white leading-relaxed mb-4 line-clamp-2">
                         {article.metaDescription}
                       </p>
                       <span className="text-xs text-[#ff4500] font-medium tracking-wide group-hover:underline">
@@ -698,7 +924,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, ease }}
-                className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4"
+                className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
               >
                 Industries We Serve
               </motion.p>
@@ -728,7 +954,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
                       <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-[#ff4500] transition-colors">
                         {ind.name}
                       </h3>
-                      <p className="text-sm text-white/90 leading-relaxed mb-4 line-clamp-3">
+                      <p className="text-sm text-white leading-relaxed mb-4 line-clamp-3">
                         {ind.description}
                       </p>
                       <span className="text-xs text-[#ff4500] font-medium tracking-wide group-hover:underline">
@@ -762,7 +988,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, ease }}
-                className="text-[10px] md:text-xs text-white/90 tracking-[0.25em] uppercase mb-4"
+                className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
               >
                 Available In
               </motion.p>
@@ -787,7 +1013,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
                   <Link
                     key={city.slug}
                     href={city.href}
-                    className="px-5 py-2.5 rounded-full border border-white/[0.08] bg-white/[0.02] text-sm text-white/90 hover:text-[#ff4500] hover:border-[#ff4500]/30 hover:bg-[#ff4500]/5 transition-all duration-300"
+                    className="px-5 py-2.5 rounded-full border border-white/[0.08] bg-white/[0.02] text-sm text-white hover:text-[#ff4500] hover:border-[#ff4500]/30 hover:bg-[#ff4500]/5 transition-all duration-300"
                   >
                     {data.title} in {city.name}
                   </Link>

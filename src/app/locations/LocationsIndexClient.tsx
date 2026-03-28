@@ -137,19 +137,19 @@ function CityCard({ loc, index }: { loc: LocationInfo; index: number }) {
             {loc.name}
           </h3>
         </div>
-        <p className="text-[11px] text-white/30 leading-relaxed line-clamp-2 mb-3">
+        <p className="text-[11px] text-white leading-relaxed line-clamp-2 mb-3">
           {loc.description}
         </p>
         <div className="flex flex-wrap gap-1.5">
           {serviceList.slice(0, 3).map((s) => (
             <span
               key={s.slug}
-              className="text-[9px] px-2 py-0.5 rounded-full border border-white/[0.06] text-white/25"
+              className="text-[9px] px-2 py-0.5 rounded-full border border-white/[0.06] text-white"
             >
               {s.name}
             </span>
           ))}
-          <span className="text-[9px] px-2 py-0.5 text-white/20">
+          <span className="text-[9px] px-2 py-0.5 text-white">
             +{serviceList.length - 3} more
           </span>
         </div>
@@ -178,13 +178,13 @@ function CountrySection({ group, defaultOpen }: { group: CountryGroup; defaultOp
             <h2 className="text-xl md:text-2xl font-medium text-white">
               {countryDisplayMap[group.country] ?? group.country}
             </h2>
-            <p className="text-xs text-white/30 mt-1">
+            <p className="text-xs text-white mt-1">
               {group.cityCount} {group.cityCount === 1 ? "city" : "cities"} &middot;{" "}
               {stateEntries.length} {stateEntries.length === 1 ? "region" : "regions"}
             </p>
           </div>
         </div>
-        <div className="text-white/30">
+        <div className="text-white">
           <ChevronIcon open={open} />
         </div>
       </button>
@@ -209,7 +209,7 @@ function CountrySection({ group, defaultOpen }: { group: CountryGroup; defaultOp
 
               {stateEntries.map(([state, cities]) => (
                 <div key={state} className="mb-6 last:mb-0">
-                  <h3 className="text-xs text-white/90 tracking-[0.15em] uppercase mb-3 font-medium">
+                  <h3 className="text-xs text-white tracking-[0.15em] uppercase mb-3 font-medium">
                     {state}
                   </h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
@@ -256,7 +256,7 @@ export default function LocationsIndexClient() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, ease }}
-            className="text-[11px] text-white/90 tracking-[0.25em] uppercase mb-6"
+            className="text-[11px] text-white tracking-[0.25em] uppercase mb-6"
           >
             Global Reach
           </motion.p>
@@ -278,7 +278,7 @@ export default function LocationsIndexClient() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease }}
-            className="text-sm md:text-base text-white/30 leading-relaxed max-w-2xl mx-auto mb-10"
+            className="text-sm md:text-base text-white leading-relaxed max-w-2xl mx-auto mb-10"
           >
             From Chandigarh to Calgary, London to Los Angeles — we deliver tailored
             digital marketing strategies in {totalCities}+ cities across {totalCountries} countries.
@@ -294,17 +294,17 @@ export default function LocationsIndexClient() {
           >
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-semibold text-[#ff4500]">{totalCities}+</div>
-              <div className="text-[10px] text-white/30 tracking-wider uppercase mt-1">Cities</div>
+              <div className="text-[10px] text-white tracking-wider uppercase mt-1">Cities</div>
             </div>
             <div className="w-[1px] h-10 bg-white/[0.08]" />
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-semibold text-[#ff4500]">{totalCountries}</div>
-              <div className="text-[10px] text-white/30 tracking-wider uppercase mt-1">Countries</div>
+              <div className="text-[10px] text-white tracking-wider uppercase mt-1">Countries</div>
             </div>
             <div className="w-[1px] h-10 bg-white/[0.08]" />
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-semibold text-[#ff4500]">{serviceList.length}</div>
-              <div className="text-[10px] text-white/30 tracking-wider uppercase mt-1">Services</div>
+              <div className="text-[10px] text-white tracking-wider uppercase mt-1">Services</div>
             </div>
           </motion.div>
 
@@ -337,7 +337,7 @@ export default function LocationsIndexClient() {
               Explore by Country
             </h2>
             <div className="flex-1 h-[1px] bg-white/[0.06]" />
-            <span className="text-xs text-white/20 font-mono">
+            <span className="text-xs text-white font-mono">
               {String(totalCountries).padStart(2, "0")} countries
             </span>
           </motion.div>
@@ -372,7 +372,7 @@ export default function LocationsIndexClient() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1, ease }}
-            className="text-sm md:text-base text-white/90 leading-relaxed mb-10 max-w-xl mx-auto"
+            className="text-sm md:text-base text-white leading-relaxed mb-10 max-w-xl mx-auto"
           >
             We work with businesses everywhere. Whether you are in a major metro or a
             growing town, our team delivers digital marketing strategies tailored to
@@ -393,7 +393,7 @@ export default function LocationsIndexClient() {
             </Link>
             <a
               href="mailto:info@townmedialabs.com"
-              className="px-8 py-4 rounded-full border border-white/10 text-white/90 font-semibold text-sm hover:bg-white/5 transition-colors"
+              className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
               info@townmedialabs.com
             </a>

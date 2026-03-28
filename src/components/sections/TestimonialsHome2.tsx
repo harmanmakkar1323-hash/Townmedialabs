@@ -295,7 +295,7 @@ export function TestimonialsHome2() {
           initial={{ opacity: 0, y: 14 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, ease }}
-          className="text-[10px] md:text-xs text-white/90 tracking-[0.2em] uppercase font-semibold mb-8"
+          className="text-[10px] md:text-xs text-white tracking-[0.2em] uppercase font-semibold mb-8"
         >
           Client stories
         </motion.p>
@@ -308,14 +308,14 @@ export function TestimonialsHome2() {
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium leading-[1.08] tracking-tight text-white max-w-4xl mb-6"
         >
           Don&apos;t take our word for it.{" "}
-          <span className="text-white/90 italic">Take theirs.</span>
+          <span className="text-white italic">Take theirs.</span>
         </motion.h2>
 
         <motion.p
           initial={{ opacity: 0, y: 14 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.2, ease }}
-          className="text-sm md:text-base text-white/90 max-w-lg leading-relaxed mb-16"
+          className="text-sm md:text-base text-white max-w-lg leading-relaxed mb-16"
         >
           Real results from real businesses. Here&apos;s what our clients have
           to say about working with TML.
@@ -365,7 +365,7 @@ export function TestimonialsHome2() {
               </div>
 
               {/* Quote with word-by-word reveal */}
-              <p className="text-sm md:text-base text-white/90 leading-relaxed flex-1 mb-8">
+              <p className="text-sm md:text-base text-white leading-relaxed flex-1 mb-8">
                 <WordReveal
                   text={t.quote}
                   inView={inView}
@@ -386,7 +386,7 @@ export function TestimonialsHome2() {
                     <p className="text-sm font-semibold text-white">
                       {t.name}
                     </p>
-                    <p className="text-xs text-white/30 mt-0.5">{t.company}</p>
+                    <p className="text-xs text-white mt-0.5">{t.company}</p>
                   </div>
                 </motion.div>
               </div>
@@ -424,7 +424,7 @@ export function TestimonialsHome2() {
           <div className="flex items-center gap-3">
             <span className="text-3xl font-semibold text-white tracking-tight">
               <AnimatedCounter target={4} suffix="" duration={1} className="" />
-              <span className="text-white/90">.</span>
+              <span className="text-white">.</span>
               <AnimatedCounter target={9} suffix="" duration={1.5} className="" />
             </span>
             <div className="flex gap-0.5">
@@ -439,7 +439,7 @@ export function TestimonialsHome2() {
             </div>
           </div>
           <div className="h-4 w-[1px] bg-white/10 hidden sm:block" />
-          <p className="text-xs text-white/30">
+          <p className="text-xs text-white">
             Rated 4.9/5 across 500+ projects &middot; 98% client retention rate
           </p>
         </motion.div>
