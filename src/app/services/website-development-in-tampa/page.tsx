@@ -6,14 +6,14 @@ const location = locations["tampa"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Tampa | TML Agency",
-  description: "TML offers expert website development services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development tampa", "website development agency tampa", "website development company tampa"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-tampa",
   },
   openGraph: {
     title: "Website Development Agency in Tampa | TML Agency",
-    description: "TML offers expert website development services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-tampa",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Tampa | TML Agency",
-    description: "TML offers expert website development services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

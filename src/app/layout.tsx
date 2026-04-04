@@ -131,6 +131,11 @@ const organizationJsonLd = {
   telephone: "+91-98726-48209",
   description:
     "Full-service digital marketing and branding agency based in Chandigarh, India. Specialising in branding, web development, SEO, Google Ads, social media marketing, and performance marketing. 500+ brands scaled, 15+ years of experience.",
+  founder: {
+    "@type": "Person",
+    name: "Arvinder Singh",
+    jobTitle: "Owner & Founder",
+  },
   foundingDate: "2010",
   numberOfEmployees: {
     "@type": "QuantitativeValue",

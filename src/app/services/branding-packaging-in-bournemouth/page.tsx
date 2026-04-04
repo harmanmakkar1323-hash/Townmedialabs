@@ -6,14 +6,14 @@ const location = locations["bournemouth"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Bournemouth | TML Agency",
-  description: "TML offers expert packaging design services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design bournemouth", "packaging design agency bournemouth", "packaging design company bournemouth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-bournemouth",
   },
   openGraph: {
     title: "Packaging Design Agency in Bournemouth | TML Agency",
-    description: "TML offers expert packaging design services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-bournemouth",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Bournemouth | TML Agency",
-    description: "TML offers expert packaging design services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

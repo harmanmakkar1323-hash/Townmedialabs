@@ -6,14 +6,14 @@ const location = locations["bathinda"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Bathinda | TML Agency",
-  description: "TML offers expert lead generation services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation bathinda", "lead generation agency bathinda", "lead generation company bathinda"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-bathinda",
   },
   openGraph: {
     title: "Lead Generation Agency in Bathinda | TML Agency",
-    description: "TML offers expert lead generation services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-bathinda",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Bathinda | TML Agency",
-    description: "TML offers expert lead generation services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

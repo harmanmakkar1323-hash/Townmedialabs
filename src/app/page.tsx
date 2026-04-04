@@ -5,15 +5,15 @@ import { ClientLogos } from "@/components/sections/ClientLogos";
 import BelowFoldSections from "@/components/sections/BelowFoldSections";
 
 export const metadata: Metadata = {
-  title: "TML Agency | Digital Marketing & Branding Agency Chandigarh | SEO, Branding & Ads",
+  title: "TML Agency | Digital Marketing & Branding Agency Edmonton | SEO, Branding & Ads",
   description:
-    "TML Agency is Chandigarh's top digital marketing agency. SEO, Google Ads, branding, web development & social media marketing. 500+ brands scaled. Get a free audit.",
+    "TML Agency is Edmonton's top digital marketing agency. SEO, Google Ads, branding, web development & social media marketing. 500+ brands scaled. Get a free audit.",
   keywords: [
-    "digital marketing agency Chandigarh",
-    "SEO agency Chandigarh",
+    "digital marketing agency Edmonton",
+    "SEO agency Edmonton",
     "Google Ads agency",
-    "branding agency Chandigarh",
-    "web development Chandigarh",
+    "branding agency Edmonton",
+    "web development Edmonton",
     "social media marketing",
     "performance marketing agency",
     "lead generation agency",
@@ -22,15 +22,15 @@ export const metadata: Metadata = {
     "link building services",
     "technical SEO",
     "GMB listing optimization",
-    "best digital marketing company Chandigarh",
+    "best digital marketing company Edmonton",
   ],
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "TML Agency | Digital Marketing & Branding Agency Chandigarh",
+    title: "TML Agency | Digital Marketing & Branding Agency Edmonton",
     description:
-      "Chandigarh's top digital marketing agency. SEO, Google Ads, branding, web development & social media marketing. 500+ brands scaled.",
+      "Edmonton's top digital marketing agency. SEO, Google Ads, branding, web development & social media marketing. 500+ brands scaled.",
     url: "https://townmedialabs.ca",
     siteName: "TML Agency",
     type: "website",
@@ -40,16 +40,16 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "TML Agency - Digital Marketing & Branding Agency Chandigarh",
+        alt: "TML Agency - Digital Marketing & Branding Agency Edmonton",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "TML Agency | Digital Marketing & Branding Agency Chandigarh",
+    title: "TML Agency | Digital Marketing & Branding Agency Edmonton",
     description:
-      "Chandigarh's top digital marketing agency. SEO, Google Ads, branding, web development & social media marketing. 500+ brands scaled.",
+      "Edmonton's top digital marketing agency. SEO, Google Ads, branding, web development & social media marketing. 500+ brands scaled.",
     images: ["/og-image.png"],
   },
 };

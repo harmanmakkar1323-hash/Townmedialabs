@@ -6,14 +6,14 @@ const location = locations["ballarat"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Ballarat | TML Agency",
-  description: "TML offers expert website development services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development ballarat", "website development agency ballarat", "website development company ballarat"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-ballarat",
   },
   openGraph: {
     title: "Website Development Agency in Ballarat | TML Agency",
-    description: "TML offers expert website development services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-ballarat",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Ballarat | TML Agency",
-    description: "TML offers expert website development services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

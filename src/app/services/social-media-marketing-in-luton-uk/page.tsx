@@ -6,14 +6,14 @@ const location = locations["luton_uk"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Luton | TML Agency",
-  description: "TML offers expert social media marketing services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing luton", "social media marketing agency luton", "social media marketing company luton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-luton-uk",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Luton | TML Agency",
-    description: "TML offers expert social media marketing services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-luton-uk",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Luton | TML Agency",
-    description: "TML offers expert social media marketing services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

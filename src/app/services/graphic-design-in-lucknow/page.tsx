@@ -6,14 +6,14 @@ const location = locations["lucknow"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Lucknow | TML Agency",
-  description: "TML offers expert graphic design services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design lucknow", "graphic design agency lucknow", "graphic design company lucknow"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-lucknow",
   },
   openGraph: {
     title: "Graphic Design Agency in Lucknow | TML Agency",
-    description: "TML offers expert graphic design services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-lucknow",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Lucknow | TML Agency",
-    description: "TML offers expert graphic design services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

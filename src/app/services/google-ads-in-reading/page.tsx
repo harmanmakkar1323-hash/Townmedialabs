@@ -6,14 +6,14 @@ const location = locations["reading"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Reading | TML Agency",
-  description: "TML offers expert google ads services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads reading", "google ads agency reading", "google ads company reading"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-reading",
   },
   openGraph: {
     title: "Google Ads Agency in Reading | TML Agency",
-    description: "TML offers expert google ads services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-reading",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Reading | TML Agency",
-    description: "TML offers expert google ads services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

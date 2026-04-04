@@ -6,14 +6,14 @@ const location = locations["dundee"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Dundee | TML Agency",
-  description: "TML offers expert google ads services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads dundee", "google ads agency dundee", "google ads company dundee"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-dundee",
   },
   openGraph: {
     title: "Google Ads Agency in Dundee | TML Agency",
-    description: "TML offers expert google ads services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-dundee",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Dundee | TML Agency",
-    description: "TML offers expert google ads services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

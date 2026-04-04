@@ -6,14 +6,14 @@ const location = locations["visakhapatnam"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Visakhapatnam | TML Agency",
-  description: "TML offers expert website development services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development visakhapatnam", "website development agency visakhapatnam", "website development company visakhapatnam"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-visakhapatnam",
   },
   openGraph: {
     title: "Website Development Agency in Visakhapatnam | TML Agency",
-    description: "TML offers expert website development services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-visakhapatnam",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Visakhapatnam | TML Agency",
-    description: "TML offers expert website development services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

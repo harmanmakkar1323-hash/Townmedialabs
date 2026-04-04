@@ -6,14 +6,14 @@ const location = locations["san_francisco"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in San Francisco | TML Agency",
-  description: "TML offers expert google ads services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads san francisco", "google ads agency san francisco", "google ads company san francisco"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-san-francisco",
   },
   openGraph: {
     title: "Google Ads Agency in San Francisco | TML Agency",
-    description: "TML offers expert google ads services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-san-francisco",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in San Francisco | TML Agency",
-    description: "TML offers expert google ads services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

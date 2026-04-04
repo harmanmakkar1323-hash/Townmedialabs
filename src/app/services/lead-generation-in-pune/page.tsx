@@ -6,14 +6,14 @@ const location = locations["pune"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Pune | TML Agency",
-  description: "TML offers expert lead generation services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation pune", "lead generation agency pune", "lead generation company pune"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-pune",
   },
   openGraph: {
     title: "Lead Generation Agency in Pune | TML Agency",
-    description: "TML offers expert lead generation services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-pune",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Pune | TML Agency",
-    description: "TML offers expert lead generation services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

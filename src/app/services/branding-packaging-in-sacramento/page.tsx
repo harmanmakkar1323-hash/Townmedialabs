@@ -6,14 +6,14 @@ const location = locations["sacramento"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Sacramento | TML Agency",
-  description: "TML offers expert packaging design services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design sacramento", "packaging design agency sacramento", "packaging design company sacramento"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-sacramento",
   },
   openGraph: {
     title: "Packaging Design Agency in Sacramento | TML Agency",
-    description: "TML offers expert packaging design services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-sacramento",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Sacramento | TML Agency",
-    description: "TML offers expert packaging design services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

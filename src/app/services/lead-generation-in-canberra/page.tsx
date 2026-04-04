@@ -6,14 +6,14 @@ const location = locations["canberra"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Canberra | TML Agency",
-  description: "TML offers expert lead generation services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation canberra", "lead generation agency canberra", "lead generation company canberra"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-canberra",
   },
   openGraph: {
     title: "Lead Generation Agency in Canberra | TML Agency",
-    description: "TML offers expert lead generation services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-canberra",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Canberra | TML Agency",
-    description: "TML offers expert lead generation services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

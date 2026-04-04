@@ -6,14 +6,14 @@ const location = locations["hamilton"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Hamilton | TML Agency",
-  description: "TML offers expert seo services in Hamilton, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-  keywords: ["seo hamilton", "seo agency hamilton", "seo hamilton nz"],
+  description: "TML offers expert SEO services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+  keywords: ["seo hamilton", "seo agency hamilton", "seo hamilton ontario"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-hamilton",
   },
   openGraph: {
     title: "SEO Agency in Hamilton | TML Agency",
-    description: "TML offers expert seo services in Hamilton, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert SEO services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-hamilton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Hamilton | TML Agency",
-    description: "TML offers expert seo services in Hamilton, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert SEO services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

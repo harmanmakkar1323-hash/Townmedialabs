@@ -6,14 +6,14 @@ const location = locations["adelaide"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Adelaide | TML Agency",
-  description: "TML offers expert video editing services in Adelaide. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Adelaide. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing adelaide", "video editing agency adelaide", "video editing company adelaide"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-adelaide",
   },
   openGraph: {
     title: "Video Editing Agency in Adelaide | TML Agency",
-    description: "TML offers expert video editing services in Adelaide. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Adelaide. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-adelaide",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Adelaide | TML Agency",
-    description: "TML offers expert video editing services in Adelaide. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Adelaide. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

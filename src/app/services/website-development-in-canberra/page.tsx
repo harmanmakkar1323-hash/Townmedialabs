@@ -6,14 +6,14 @@ const location = locations["canberra"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Canberra | TML Agency",
-  description: "TML offers expert website development services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development canberra", "website development agency canberra", "website development company canberra"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-canberra",
   },
   openGraph: {
     title: "Website Development Agency in Canberra | TML Agency",
-    description: "TML offers expert website development services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-canberra",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Canberra | TML Agency",
-    description: "TML offers expert website development services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

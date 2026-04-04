@@ -6,14 +6,14 @@ const location = locations["sacramento"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Sacramento | TML Agency",
-  description: "TML offers expert website development services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development sacramento", "website development agency sacramento", "website development company sacramento"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-sacramento",
   },
   openGraph: {
     title: "Website Development Agency in Sacramento | TML Agency",
-    description: "TML offers expert website development services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-sacramento",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Sacramento | TML Agency",
-    description: "TML offers expert website development services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

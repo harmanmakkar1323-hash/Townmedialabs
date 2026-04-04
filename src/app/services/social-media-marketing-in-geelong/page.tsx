@@ -6,14 +6,14 @@ const location = locations["geelong"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Geelong | TML Agency",
-  description: "TML offers expert social media marketing services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing geelong", "social media marketing agency geelong", "social media marketing company geelong"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-geelong",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Geelong | TML Agency",
-    description: "TML offers expert social media marketing services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-geelong",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Geelong | TML Agency",
-    description: "TML offers expert social media marketing services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["bendigo"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Bendigo | TML Agency",
-  description: "TML offers expert ai influencer management services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management bendigo", "ai influencer management agency bendigo", "ai influencer management company bendigo"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-bendigo",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Bendigo | TML Agency",
-    description: "TML offers expert ai influencer management services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-bendigo",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Bendigo | TML Agency",
-    description: "TML offers expert ai influencer management services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

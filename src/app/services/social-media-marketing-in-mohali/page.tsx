@@ -6,14 +6,14 @@ const location = locations["mohali"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Mohali | TML Agency",
-  description: "TML offers expert social media marketing services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing mohali", "social media marketing agency mohali", "social media marketing company mohali"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-mohali",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Mohali | TML Agency",
-    description: "TML offers expert social media marketing services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-mohali",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Mohali | TML Agency",
-    description: "TML offers expert social media marketing services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["mohali"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Mohali | TML Agency",
-  description: "TML offers expert AI influencer management services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management mohali", "AI influencer management agency mohali", "AI influencer management company mohali"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-mohali",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Mohali | TML Agency",
-    description: "TML offers expert AI influencer management services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-mohali",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Mohali | TML Agency",
-    description: "TML offers expert AI influencer management services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

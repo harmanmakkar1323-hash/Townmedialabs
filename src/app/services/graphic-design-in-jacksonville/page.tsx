@@ -6,14 +6,14 @@ const location = locations["jacksonville"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Jacksonville | TML Agency",
-  description: "TML offers expert graphic design services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design jacksonville", "graphic design agency jacksonville", "graphic design company jacksonville"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-jacksonville",
   },
   openGraph: {
     title: "Graphic Design Agency in Jacksonville | TML Agency",
-    description: "TML offers expert graphic design services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-jacksonville",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Jacksonville | TML Agency",
-    description: "TML offers expert graphic design services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

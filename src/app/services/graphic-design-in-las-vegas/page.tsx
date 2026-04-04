@@ -6,14 +6,14 @@ const location = locations["las_vegas"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Las Vegas | TML Agency",
-  description: "TML offers expert graphic design services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design las vegas", "graphic design agency las vegas", "graphic design company las vegas"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-las-vegas",
   },
   openGraph: {
     title: "Graphic Design Agency in Las Vegas | TML Agency",
-    description: "TML offers expert graphic design services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-las-vegas",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Las Vegas | TML Agency",
-    description: "TML offers expert graphic design services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

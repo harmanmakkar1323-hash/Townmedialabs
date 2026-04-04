@@ -7,14 +7,14 @@ const location = locations["milton_keynes"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "Packaging Design Agency in Milton Keynes | TML Agency",
-  description: "TML offers expert packaging design services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design milton keynes", "packaging design agency milton keynes", "packaging design company milton keynes"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-milton-keynes",
   },
   openGraph: {
     title: "Packaging Design Agency in Milton Keynes | TML Agency",
-    description: "TML offers expert packaging design services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-milton-keynes",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Milton Keynes | TML Agency",
-    description: "TML offers expert packaging design services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

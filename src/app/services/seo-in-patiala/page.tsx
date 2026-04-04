@@ -6,14 +6,14 @@ const location = locations["patiala"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Patiala | TML Agency",
-  description: "TML offers expert search engine optimization services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Search Engine Optimization services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization patiala", "search engine optimization agency patiala", "search engine optimization company patiala"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-patiala",
   },
   openGraph: {
     title: "SEO Agency in Patiala | TML Agency",
-    description: "TML offers expert search engine optimization services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-patiala",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Patiala | TML Agency",
-    description: "TML offers expert search engine optimization services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

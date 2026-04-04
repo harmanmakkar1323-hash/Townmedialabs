@@ -6,14 +6,14 @@ const location = locations["pune"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Pune | TML Agency",
-  description: "TML offers expert video editing services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing pune", "video editing agency pune", "video editing company pune"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-pune",
   },
   openGraph: {
     title: "Video Editing Agency in Pune | TML Agency",
-    description: "TML offers expert video editing services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-pune",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Pune | TML Agency",
-    description: "TML offers expert video editing services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

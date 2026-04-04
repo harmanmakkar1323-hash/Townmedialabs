@@ -6,14 +6,14 @@ const location = locations["hamilton"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Hamilton | TML Agency",
-  description: "TML offers expert graphic design services in Hamilton, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-  keywords: ["graphic design hamilton", "graphic design agency hamilton", "graphic design hamilton nz"],
+  description: "TML offers expert Graphic Design services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+  keywords: ["graphic design hamilton", "graphic design agency hamilton", "graphic design hamilton ontario"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-hamilton",
   },
   openGraph: {
     title: "Graphic Design Agency in Hamilton | TML Agency",
-    description: "TML offers expert graphic design services in Hamilton, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-hamilton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Hamilton | TML Agency",
-    description: "TML offers expert graphic design services in Hamilton, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["wellington"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Wellington | TML Agency",
-  description: "TML offers expert packaging design services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["packaging design wellington", "packaging design agency wellington", "packaging design wellington nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-wellington",
   },
   openGraph: {
     title: "Packaging Design Agency in Wellington | TML Agency",
-    description: "TML offers expert packaging design services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-wellington",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Wellington | TML Agency",
-    description: "TML offers expert packaging design services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

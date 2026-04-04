@@ -6,14 +6,14 @@ const location = locations["launceston"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Launceston | TML Agency",
-  description: "TML offers expert google ads services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads launceston", "google ads agency launceston", "google ads company launceston"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-launceston",
   },
   openGraph: {
     title: "Google Ads Agency in Launceston | TML Agency",
-    description: "TML offers expert google ads services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-launceston",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Launceston | TML Agency",
-    description: "TML offers expert google ads services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

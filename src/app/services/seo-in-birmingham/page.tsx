@@ -6,14 +6,14 @@ const location = locations["birmingham"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Birmingham | TML Agency",
-  description: "TML offers expert seo services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo birmingham", "seo agency birmingham", "seo company birmingham"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-birmingham",
   },
   openGraph: {
     title: "SEO Agency in Birmingham | TML Agency",
-    description: "TML offers expert seo services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-birmingham",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Birmingham | TML Agency",
-    description: "TML offers expert seo services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["salt_lake_city"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Salt Lake City | TML Agency",
-  description: "TML offers expert website development services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development salt lake city", "website development agency salt lake city", "website development company salt lake city"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-salt-lake-city",
   },
   openGraph: {
     title: "Website Development Agency in Salt Lake City | TML Agency",
-    description: "TML offers expert website development services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-salt-lake-city",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Salt Lake City | TML Agency",
-    description: "TML offers expert website development services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["milwaukee"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Milwaukee | TML Agency",
-  description: "TML offers expert graphic design services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design milwaukee", "graphic design agency milwaukee", "graphic design company milwaukee"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-milwaukee",
   },
   openGraph: {
     title: "Graphic Design Agency in Milwaukee | TML Agency",
-    description: "TML offers expert graphic design services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-milwaukee",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Milwaukee | TML Agency",
-    description: "TML offers expert graphic design services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

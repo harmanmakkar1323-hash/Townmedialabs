@@ -6,14 +6,14 @@ const location = locations["bangalore"];
 
 export const metadata: Metadata = {
   title: "Branding & Packaging Agency in Bangalore | TML Agency",
-  description: "TML offers expert branding and packaging services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding and Packaging services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging bangalore", "branding and packaging agency bangalore", "branding and packaging company bangalore"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-bangalore",
   },
   openGraph: {
     title: "Branding & Packaging Agency in Bangalore | TML Agency",
-    description: "TML offers expert branding and packaging services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding and Packaging services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-bangalore",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding & Packaging Agency in Bangalore | TML Agency",
-    description: "TML offers expert branding and packaging services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding and Packaging services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["bath"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Bath | TML Agency",
-  description: "TML offers expert graphic design services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design bath", "graphic design agency bath", "graphic design company bath"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-bath",
   },
   openGraph: {
     title: "Graphic Design Agency in Bath | TML Agency",
-    description: "TML offers expert graphic design services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-bath",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Bath | TML Agency",
-    description: "TML offers expert graphic design services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

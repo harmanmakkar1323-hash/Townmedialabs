@@ -6,14 +6,14 @@ const location = locations["baltimore"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Baltimore | TML Agency",
-  description: "TML offers expert website development services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development baltimore", "website development agency baltimore", "website development company baltimore"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-baltimore",
   },
   openGraph: {
     title: "Website Development Agency in Baltimore | TML Agency",
-    description: "TML offers expert website development services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-baltimore",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Baltimore | TML Agency",
-    description: "TML offers expert website development services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

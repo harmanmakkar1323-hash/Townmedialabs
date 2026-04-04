@@ -6,14 +6,14 @@ const location = locations["ahmedabad"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Ahmedabad | TML Agency",
-  description: "TML offers expert AI influencer management services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management ahmedabad", "AI influencer management agency ahmedabad", "AI influencer management company ahmedabad"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-ahmedabad",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Ahmedabad | TML Agency",
-    description: "TML offers expert AI influencer management services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-ahmedabad",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Ahmedabad | TML Agency",
-    description: "TML offers expert AI influencer management services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

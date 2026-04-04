@@ -6,14 +6,14 @@ const location = locations["milwaukee"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Milwaukee | TML Agency",
-  description: "TML offers expert music release services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release milwaukee", "music release agency milwaukee", "music release company milwaukee"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-milwaukee",
   },
   openGraph: {
     title: "Music Release Agency in Milwaukee | TML Agency",
-    description: "TML offers expert music release services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-milwaukee",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Milwaukee | TML Agency",
-    description: "TML offers expert music release services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

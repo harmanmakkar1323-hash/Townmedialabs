@@ -6,14 +6,14 @@ const location = locations["fort_worth"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Fort Worth | TML Agency",
-  description: "TML offers expert graphic design services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design fort worth", "graphic design agency fort worth", "graphic design company fort worth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-fort-worth",
   },
   openGraph: {
     title: "Graphic Design Agency in Fort Worth | TML Agency",
-    description: "TML offers expert graphic design services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-fort-worth",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Fort Worth | TML Agency",
-    description: "TML offers expert graphic design services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["hyderabad"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Hyderabad | TML Agency",
-  description: "TML offers expert video editing services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing hyderabad", "video editing agency hyderabad", "video editing company hyderabad"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-hyderabad",
   },
   openGraph: {
     title: "Video Editing Agency in Hyderabad | TML Agency",
-    description: "TML offers expert video editing services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-hyderabad",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Hyderabad | TML Agency",
-    description: "TML offers expert video editing services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["brisbane"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Brisbane | TML Agency",
-  description: "TML offers expert website development services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development brisbane", "website development agency brisbane", "website development company brisbane"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-brisbane",
   },
   openGraph: {
     title: "Website Development Agency in Brisbane | TML Agency",
-    description: "TML offers expert website development services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-brisbane",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Brisbane | TML Agency",
-    description: "TML offers expert website development services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

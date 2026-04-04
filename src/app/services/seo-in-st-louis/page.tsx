@@ -6,14 +6,14 @@ const location = locations["st_louis"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in St. Louis | TML Agency",
-  description: "TML offers expert seo services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo st. louis", "seo agency st. louis", "seo company st. louis"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-st-louis",
   },
   openGraph: {
     title: "SEO Agency in St. Louis | TML Agency",
-    description: "TML offers expert seo services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-st-louis",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in St. Louis | TML Agency",
-    description: "TML offers expert seo services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["launceston"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Launceston | TML Agency",
-  description: "TML offers expert seo services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo launceston", "seo agency launceston", "seo company launceston"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-launceston",
   },
   openGraph: {
     title: "SEO Agency in Launceston | TML Agency",
-    description: "TML offers expert seo services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-launceston",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Launceston | TML Agency",
-    description: "TML offers expert seo services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

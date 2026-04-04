@@ -6,14 +6,14 @@ const location = locations["dubai"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Dubai | TML Agency",
-  description: "TML offers expert packaging design services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design dubai", "packaging design agency dubai", "packaging design company dubai"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-dubai",
   },
   openGraph: {
     title: "Packaging Design Agency in Dubai | TML Agency",
-    description: "TML offers expert packaging design services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-dubai",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Dubai | TML Agency",
-    description: "TML offers expert packaging design services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

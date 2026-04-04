@@ -6,14 +6,14 @@ const location = locations["leeds"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Leeds | TML Agency",
-  description: "TML offers expert packaging design services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design leeds", "packaging design agency leeds", "packaging design company leeds"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-leeds",
   },
   openGraph: {
     title: "Packaging Design Agency in Leeds | TML Agency",
-    description: "TML offers expert packaging design services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-leeds",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Leeds | TML Agency",
-    description: "TML offers expert packaging design services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

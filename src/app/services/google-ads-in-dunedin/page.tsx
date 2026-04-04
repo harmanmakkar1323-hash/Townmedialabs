@@ -6,14 +6,14 @@ const location = locations["dunedin"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Dunedin | TML Agency",
-  description: "TML offers expert google ads services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["google ads dunedin", "google ads agency dunedin", "google ads dunedin nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-dunedin",
   },
   openGraph: {
     title: "Google Ads Agency in Dunedin | TML Agency",
-    description: "TML offers expert google ads services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-dunedin",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Dunedin | TML Agency",
-    description: "TML offers expert google ads services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

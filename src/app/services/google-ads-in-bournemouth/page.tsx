@@ -6,14 +6,14 @@ const location = locations["bournemouth"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Bournemouth | TML Agency",
-  description: "TML offers expert google ads services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads bournemouth", "google ads agency bournemouth", "google ads company bournemouth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-bournemouth",
   },
   openGraph: {
     title: "Google Ads Agency in Bournemouth | TML Agency",
-    description: "TML offers expert google ads services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-bournemouth",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Bournemouth | TML Agency",
-    description: "TML offers expert google ads services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

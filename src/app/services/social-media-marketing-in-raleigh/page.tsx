@@ -6,14 +6,14 @@ const location = locations["raleigh"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Raleigh | TML Agency",
-  description: "TML offers expert social media marketing services in Raleigh. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Raleigh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing raleigh", "social media marketing agency raleigh", "social media marketing company raleigh"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-raleigh",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Raleigh | TML Agency",
-    description: "TML offers expert social media marketing services in Raleigh. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Raleigh. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-raleigh",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Raleigh | TML Agency",
-    description: "TML offers expert social media marketing services in Raleigh. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Raleigh. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

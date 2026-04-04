@@ -6,14 +6,14 @@ const location = locations["cincinnati"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Cincinnati | TML Agency",
-  description: "TML offers expert music release services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release cincinnati", "music release agency cincinnati", "music release company cincinnati"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-cincinnati",
   },
   openGraph: {
     title: "Music Release Agency in Cincinnati | TML Agency",
-    description: "TML offers expert music release services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-cincinnati",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Cincinnati | TML Agency",
-    description: "TML offers expert music release services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

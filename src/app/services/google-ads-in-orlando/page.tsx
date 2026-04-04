@@ -6,14 +6,14 @@ const location = locations["orlando"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Orlando | TML Agency",
-  description: "TML offers expert google ads services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads orlando", "google ads agency orlando", "google ads company orlando"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-orlando",
   },
   openGraph: {
     title: "Google Ads Agency in Orlando | TML Agency",
-    description: "TML offers expert google ads services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-orlando",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Orlando | TML Agency",
-    description: "TML offers expert google ads services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

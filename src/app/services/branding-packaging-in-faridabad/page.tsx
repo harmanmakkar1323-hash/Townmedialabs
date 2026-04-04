@@ -6,14 +6,14 @@ const location = locations["faridabad"];
 
 export const metadata: Metadata = {
   title: "Branding & Packaging Agency in Faridabad | TML Agency",
-  description: "TML offers expert branding and packaging services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding and Packaging services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging faridabad", "branding and packaging agency faridabad", "branding and packaging company faridabad"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-faridabad",
   },
   openGraph: {
     title: "Branding & Packaging Agency in Faridabad | TML Agency",
-    description: "TML offers expert branding and packaging services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding and Packaging services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-faridabad",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding & Packaging Agency in Faridabad | TML Agency",
-    description: "TML offers expert branding and packaging services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding and Packaging services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

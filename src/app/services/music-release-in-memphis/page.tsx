@@ -6,14 +6,14 @@ const location = locations["memphis"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Memphis | TML Agency",
-  description: "TML offers expert music release services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release memphis", "music release agency memphis", "music release company memphis"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-memphis",
   },
   openGraph: {
     title: "Music Release Agency in Memphis | TML Agency",
-    description: "TML offers expert music release services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-memphis",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Memphis | TML Agency",
-    description: "TML offers expert music release services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

@@ -6,14 +6,14 @@ const location = locations["sheffield"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Sheffield | TML Agency",
-  description: "TML offers expert social media marketing services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing sheffield", "social media marketing agency sheffield", "social media marketing company sheffield"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-sheffield",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Sheffield | TML Agency",
-    description: "TML offers expert social media marketing services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-sheffield",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Sheffield | TML Agency",
-    description: "TML offers expert social media marketing services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

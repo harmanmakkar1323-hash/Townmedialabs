@@ -6,14 +6,14 @@ const location = locations["amritsar"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Amritsar | TML Agency",
-  description: "TML offers expert website development services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development amritsar", "website development agency amritsar", "website development company amritsar"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-amritsar",
   },
   openGraph: {
     title: "Website Development Agency in Amritsar | TML Agency",
-    description: "TML offers expert website development services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-amritsar",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Amritsar | TML Agency",
-    description: "TML offers expert website development services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

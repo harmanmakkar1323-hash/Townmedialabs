@@ -6,14 +6,14 @@ const location = locations["rajkot"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Rajkot | TML Agency",
-  description: "TML offers expert AI influencer management services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management rajkot", "AI influencer management agency rajkot", "AI influencer management company rajkot"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-rajkot",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Rajkot | TML Agency",
-    description: "TML offers expert AI influencer management services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-rajkot",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Rajkot | TML Agency",
-    description: "TML offers expert AI influencer management services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

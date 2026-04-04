@@ -6,14 +6,14 @@ const location = locations["sheffield"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Sheffield | TML Agency",
-  description: "TML offers expert website development services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development sheffield", "website development agency sheffield", "website development company sheffield"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-sheffield",
   },
   openGraph: {
     title: "Website Development Agency in Sheffield | TML Agency",
-    description: "TML offers expert website development services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-sheffield",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Sheffield | TML Agency",
-    description: "TML offers expert website development services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

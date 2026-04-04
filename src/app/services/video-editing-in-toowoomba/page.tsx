@@ -6,14 +6,14 @@ const location = locations["toowoomba"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Toowoomba | TML Agency",
-  description: "TML offers expert video editing services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing toowoomba", "video editing agency toowoomba", "video editing company toowoomba"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-toowoomba",
   },
   openGraph: {
     title: "Video Editing Agency in Toowoomba | TML Agency",
-    description: "TML offers expert video editing services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-toowoomba",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Toowoomba | TML Agency",
-    description: "TML offers expert video editing services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

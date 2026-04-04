@@ -6,14 +6,14 @@ const location = locations["perth"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Perth | TML Agency",
-  description: "TML offers expert social media marketing services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing perth", "social media marketing agency perth", "social media marketing company perth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-perth",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Perth | TML Agency",
-    description: "TML offers expert social media marketing services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-perth",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Perth | TML Agency",
-    description: "TML offers expert social media marketing services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

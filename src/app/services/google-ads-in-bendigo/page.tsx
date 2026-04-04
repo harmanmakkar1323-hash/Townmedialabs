@@ -6,14 +6,14 @@ const location = locations["bendigo"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Bendigo | TML Agency",
-  description: "TML offers expert google ads services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads bendigo", "google ads agency bendigo", "google ads company bendigo"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-bendigo",
   },
   openGraph: {
     title: "Google Ads Agency in Bendigo | TML Agency",
-    description: "TML offers expert google ads services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-bendigo",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Bendigo | TML Agency",
-    description: "TML offers expert google ads services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["umm_al_quwain"];
 
 export const metadata: Metadata = {
   title: "Branding Agency in Umm Al Quwain | TML Agency",
-  description: "TML offers expert branding services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding umm al quwain", "branding agency umm al quwain", "branding company umm al quwain"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-in-umm-al-quwain",
   },
   openGraph: {
     title: "Branding Agency in Umm Al Quwain | TML Agency",
-    description: "TML offers expert branding services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-in-umm-al-quwain",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding Agency in Umm Al Quwain | TML Agency",
-    description: "TML offers expert branding services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

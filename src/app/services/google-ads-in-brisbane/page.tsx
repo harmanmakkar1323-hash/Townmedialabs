@@ -6,14 +6,14 @@ const location = locations["brisbane"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Brisbane | TML Agency",
-  description: "TML offers expert google ads services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads brisbane", "google ads agency brisbane", "google ads company brisbane"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-brisbane",
   },
   openGraph: {
     title: "Google Ads Agency in Brisbane | TML Agency",
-    description: "TML offers expert google ads services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-brisbane",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Brisbane | TML Agency",
-    description: "TML offers expert google ads services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

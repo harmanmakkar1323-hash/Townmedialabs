@@ -6,14 +6,14 @@ const location = locations["ballarat"];
 
 export const metadata: Metadata = {
   title: "Branding Agency in Ballarat | TML Agency",
-  description: "TML offers expert branding services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding ballarat", "branding agency ballarat", "branding company ballarat"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-in-ballarat",
   },
   openGraph: {
     title: "Branding Agency in Ballarat | TML Agency",
-    description: "TML offers expert branding services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-in-ballarat",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding Agency in Ballarat | TML Agency",
-    description: "TML offers expert branding services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

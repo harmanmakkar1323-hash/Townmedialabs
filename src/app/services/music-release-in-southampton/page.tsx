@@ -6,14 +6,14 @@ const location = locations["southampton"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Southampton | TML Agency",
-  description: "TML offers expert music release services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release southampton", "music release agency southampton", "music release company southampton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-southampton",
   },
   openGraph: {
     title: "Music Release Agency in Southampton | TML Agency",
-    description: "TML offers expert music release services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-southampton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Southampton | TML Agency",
-    description: "TML offers expert music release services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

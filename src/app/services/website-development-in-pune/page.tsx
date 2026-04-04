@@ -6,14 +6,14 @@ const location = locations["pune"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Pune | TML Agency",
-  description: "TML offers expert website development services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development pune", "website development agency pune", "website development company pune"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-pune",
   },
   openGraph: {
     title: "Website Development Agency in Pune | TML Agency",
-    description: "TML offers expert website development services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-pune",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Pune | TML Agency",
-    description: "TML offers expert website development services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

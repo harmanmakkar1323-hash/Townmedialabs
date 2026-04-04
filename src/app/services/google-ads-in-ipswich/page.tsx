@@ -6,14 +6,14 @@ const location = locations["ipswich"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Ipswich | TML Agency",
-  description: "TML offers expert google ads services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads ipswich", "google ads agency ipswich", "google ads company ipswich"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-ipswich",
   },
   openGraph: {
     title: "Google Ads Agency in Ipswich | TML Agency",
-    description: "TML offers expert google ads services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-ipswich",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Ipswich | TML Agency",
-    description: "TML offers expert google ads services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

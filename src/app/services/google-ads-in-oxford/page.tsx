@@ -6,14 +6,14 @@ const location = locations["oxford"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Oxford | TML Agency",
-  description: "TML offers expert google ads services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads oxford", "google ads agency oxford", "google ads company oxford"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-oxford",
   },
   openGraph: {
     title: "Google Ads Agency in Oxford | TML Agency",
-    description: "TML offers expert google ads services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-oxford",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Oxford | TML Agency",
-    description: "TML offers expert google ads services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

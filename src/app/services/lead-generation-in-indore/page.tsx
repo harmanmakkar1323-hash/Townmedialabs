@@ -6,14 +6,14 @@ const location = locations["indore"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Indore | TML Agency",
-  description: "TML offers expert lead generation services in Indore. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Indore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation indore", "lead generation agency indore", "lead generation company indore"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-indore",
   },
   openGraph: {
     title: "Lead Generation Agency in Indore | TML Agency",
-    description: "TML offers expert lead generation services in Indore. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Indore. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-indore",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Indore | TML Agency",
-    description: "TML offers expert lead generation services in Indore. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Indore. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

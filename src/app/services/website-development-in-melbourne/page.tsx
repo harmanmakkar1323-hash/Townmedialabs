@@ -6,14 +6,14 @@ const location = locations["melbourne"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Melbourne | TML Agency",
-  description: "TML offers expert website development services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development melbourne", "website development agency melbourne", "website development company melbourne"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-melbourne",
   },
   openGraph: {
     title: "Website Development Agency in Melbourne | TML Agency",
-    description: "TML offers expert website development services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-melbourne",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Melbourne | TML Agency",
-    description: "TML offers expert website development services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

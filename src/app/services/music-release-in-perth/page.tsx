@@ -6,14 +6,14 @@ const location = locations["perth"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Perth | TML Agency",
-  description: "TML offers expert music release services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release perth", "music release agency perth", "music release company perth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-perth",
   },
   openGraph: {
     title: "Music Release Agency in Perth | TML Agency",
-    description: "TML offers expert music release services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-perth",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Perth | TML Agency",
-    description: "TML offers expert music release services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

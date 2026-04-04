@@ -6,14 +6,14 @@ const location = locations["brisbane"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Brisbane | TML Agency",
-  description: "TML offers expert video editing services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing brisbane", "video editing agency brisbane", "video editing company brisbane"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-brisbane",
   },
   openGraph: {
     title: "Video Editing Agency in Brisbane | TML Agency",
-    description: "TML offers expert video editing services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-brisbane",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Brisbane | TML Agency",
-    description: "TML offers expert video editing services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

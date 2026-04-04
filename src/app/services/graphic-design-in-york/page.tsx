@@ -6,14 +6,14 @@ const location = locations["york"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in York | TML Agency",
-  description: "TML offers expert graphic design services in York. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in York. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design york", "graphic design agency york", "graphic design company york"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-york",
   },
   openGraph: {
     title: "Graphic Design Agency in York | TML Agency",
-    description: "TML offers expert graphic design services in York. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in York. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-york",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in York | TML Agency",
-    description: "TML offers expert graphic design services in York. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in York. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

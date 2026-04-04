@@ -6,14 +6,14 @@ const location = locations["manchester"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Manchester | TML Agency",
-  description: "TML offers expert music release services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release manchester", "music release agency manchester", "music release company manchester"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-manchester",
   },
   openGraph: {
     title: "Music Release Agency in Manchester | TML Agency",
-    description: "TML offers expert music release services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-manchester",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Manchester | TML Agency",
-    description: "TML offers expert music release services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

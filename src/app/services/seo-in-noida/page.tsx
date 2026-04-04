@@ -6,14 +6,14 @@ const location = locations["noida"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Noida | TML Agency",
-  description: "TML offers expert search engine optimization services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Search Engine Optimization services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization noida", "search engine optimization agency noida", "search engine optimization company noida"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-noida",
   },
   openGraph: {
     title: "SEO Agency in Noida | TML Agency",
-    description: "TML offers expert search engine optimization services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-noida",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Noida | TML Agency",
-    description: "TML offers expert search engine optimization services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

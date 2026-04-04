@@ -6,14 +6,14 @@ const location = locations["surat"];
 
 export const metadata: Metadata = {
   title: "Branding & Packaging Agency in Surat | TML Agency",
-  description: "TML offers expert branding and packaging services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding and Packaging services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging surat", "branding and packaging agency surat", "branding and packaging company surat"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-surat",
   },
   openGraph: {
     title: "Branding & Packaging Agency in Surat | TML Agency",
-    description: "TML offers expert branding and packaging services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding and Packaging services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-surat",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding & Packaging Agency in Surat | TML Agency",
-    description: "TML offers expert branding and packaging services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding and Packaging services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

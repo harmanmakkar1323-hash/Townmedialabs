@@ -6,14 +6,14 @@ const location = locations["chennai"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Chennai | TML Agency",
-  description: "TML offers expert video editing services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing chennai", "video editing agency chennai", "video editing company chennai"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-chennai",
   },
   openGraph: {
     title: "Video Editing Agency in Chennai | TML Agency",
-    description: "TML offers expert video editing services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-chennai",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Chennai | TML Agency",
-    description: "TML offers expert video editing services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

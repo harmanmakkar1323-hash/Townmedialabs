@@ -6,14 +6,14 @@ const location = locations["chicago"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Chicago | TML Agency",
-  description: "TML offers expert google ads services in Chicago. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Chicago. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads chicago", "google ads agency chicago", "google ads company chicago"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-chicago",
   },
   openGraph: {
     title: "Google Ads Agency in Chicago | TML Agency",
-    description: "TML offers expert google ads services in Chicago. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Chicago. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-chicago",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Chicago | TML Agency",
-    description: "TML offers expert google ads services in Chicago. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Chicago. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["fort_worth"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Fort Worth | TML Agency",
-  description: "TML offers expert lead generation services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation fort worth", "lead generation agency fort worth", "lead generation company fort worth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-fort-worth",
   },
   openGraph: {
     title: "Lead Generation Agency in Fort Worth | TML Agency",
-    description: "TML offers expert lead generation services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-fort-worth",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Fort Worth | TML Agency",
-    description: "TML offers expert lead generation services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

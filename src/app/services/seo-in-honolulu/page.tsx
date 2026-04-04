@@ -6,14 +6,14 @@ const location = locations["honolulu"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Honolulu | TML Agency",
-  description: "TML offers expert seo services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo honolulu", "seo agency honolulu", "seo company honolulu"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-honolulu",
   },
   openGraph: {
     title: "SEO Agency in Honolulu | TML Agency",
-    description: "TML offers expert seo services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-honolulu",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Honolulu | TML Agency",
-    description: "TML offers expert seo services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

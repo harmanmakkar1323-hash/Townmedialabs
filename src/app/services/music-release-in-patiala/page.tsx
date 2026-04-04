@@ -6,14 +6,14 @@ const location = locations["patiala"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Patiala | TML Agency",
-  description: "TML offers expert music release and distribution services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release and Distribution services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release and distribution patiala", "music release and distribution agency patiala", "music release and distribution company patiala"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-patiala",
   },
   openGraph: {
     title: "Music Release Agency in Patiala | TML Agency",
-    description: "TML offers expert music release and distribution services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release and Distribution services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-patiala",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Patiala | TML Agency",
-    description: "TML offers expert music release and distribution services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release and Distribution services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

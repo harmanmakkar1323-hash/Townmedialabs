@@ -6,14 +6,14 @@ const location = locations["dubai"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Dubai | TML Agency",
-  description: "TML offers expert video editing services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing dubai", "video editing agency dubai", "video editing company dubai"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-dubai",
   },
   openGraph: {
     title: "Video Editing Agency in Dubai | TML Agency",
-    description: "TML offers expert video editing services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-dubai",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Dubai | TML Agency",
-    description: "TML offers expert video editing services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

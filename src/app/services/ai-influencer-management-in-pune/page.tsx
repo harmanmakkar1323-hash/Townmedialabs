@@ -6,14 +6,14 @@ const location = locations["pune"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Pune | TML Agency",
-  description: "TML offers expert AI influencer management services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management pune", "AI influencer management agency pune", "AI influencer management company pune"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-pune",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Pune | TML Agency",
-    description: "TML offers expert AI influencer management services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-pune",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Pune | TML Agency",
-    description: "TML offers expert AI influencer management services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

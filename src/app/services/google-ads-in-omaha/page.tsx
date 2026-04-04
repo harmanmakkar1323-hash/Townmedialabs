@@ -6,14 +6,14 @@ const location = locations["omaha"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Omaha | TML Agency",
-  description: "TML offers expert google ads services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads omaha", "google ads agency omaha", "google ads company omaha"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-omaha",
   },
   openGraph: {
     title: "Google Ads Agency in Omaha | TML Agency",
-    description: "TML offers expert google ads services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-omaha",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Omaha | TML Agency",
-    description: "TML offers expert google ads services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

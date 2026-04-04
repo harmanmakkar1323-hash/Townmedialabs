@@ -6,14 +6,14 @@ const location = locations["sheffield"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Sheffield | TML Agency",
-  description: "TML offers expert lead generation services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation sheffield", "lead generation agency sheffield", "lead generation company sheffield"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-sheffield",
   },
   openGraph: {
     title: "Lead Generation Agency in Sheffield | TML Agency",
-    description: "TML offers expert lead generation services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-sheffield",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Sheffield | TML Agency",
-    description: "TML offers expert lead generation services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["karnal"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Karnal | TML Agency",
-  description: "TML offers expert social media marketing services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing karnal", "social media marketing agency karnal", "social media marketing company karnal"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-karnal",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Karnal | TML Agency",
-    description: "TML offers expert social media marketing services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-karnal",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Karnal | TML Agency",
-    description: "TML offers expert social media marketing services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

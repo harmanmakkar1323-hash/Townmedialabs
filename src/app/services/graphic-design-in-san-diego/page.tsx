@@ -6,14 +6,14 @@ const location = locations["san_diego"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in San Diego | TML Agency",
-  description: "TML offers expert graphic design services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design san diego", "graphic design agency san diego", "graphic design company san diego"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-san-diego",
   },
   openGraph: {
     title: "Graphic Design Agency in San Diego | TML Agency",
-    description: "TML offers expert graphic design services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-san-diego",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in San Diego | TML Agency",
-    description: "TML offers expert graphic design services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

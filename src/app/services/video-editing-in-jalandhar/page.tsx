@@ -6,14 +6,14 @@ const location = locations["jalandhar"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Jalandhar | TML Agency",
-  description: "TML offers expert video editing services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing jalandhar", "video editing agency jalandhar", "video editing company jalandhar"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-jalandhar",
   },
   openGraph: {
     title: "Video Editing Agency in Jalandhar | TML Agency",
-    description: "TML offers expert video editing services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-jalandhar",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Jalandhar | TML Agency",
-    description: "TML offers expert video editing services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

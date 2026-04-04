@@ -6,14 +6,14 @@ const location = locations["peterborough"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Peterborough | TML Agency",
-  description: "TML offers expert social media marketing services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing peterborough", "social media marketing agency peterborough", "social media marketing company peterborough"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-peterborough",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Peterborough | TML Agency",
-    description: "TML offers expert social media marketing services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-peterborough",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Peterborough | TML Agency",
-    description: "TML offers expert social media marketing services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

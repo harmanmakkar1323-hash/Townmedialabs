@@ -6,14 +6,14 @@ const location = locations["milton_keynes"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Milton Keynes | TML Agency",
-  description: "TML offers expert graphic design services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design milton keynes", "graphic design agency milton keynes", "graphic design company milton keynes"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-milton-keynes",
   },
   openGraph: {
     title: "Graphic Design Agency in Milton Keynes | TML Agency",
-    description: "TML offers expert graphic design services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-milton-keynes",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Milton Keynes | TML Agency",
-    description: "TML offers expert graphic design services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["geelong"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Geelong | TML Agency",
-  description: "TML offers expert website development services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development geelong", "website development agency geelong", "website development company geelong"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-geelong",
   },
   openGraph: {
     title: "Website Development Agency in Geelong | TML Agency",
-    description: "TML offers expert website development services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-geelong",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Geelong | TML Agency",
-    description: "TML offers expert website development services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

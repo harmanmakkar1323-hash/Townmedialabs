@@ -6,14 +6,14 @@ const location = locations["coventry"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Coventry | TML Agency",
-  description: "TML offers expert website development services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development coventry", "website development agency coventry", "website development company coventry"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-coventry",
   },
   openGraph: {
     title: "Website Development Agency in Coventry | TML Agency",
-    description: "TML offers expert website development services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-coventry",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Coventry | TML Agency",
-    description: "TML offers expert website development services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

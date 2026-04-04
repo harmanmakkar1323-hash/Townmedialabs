@@ -6,14 +6,14 @@ const location = locations["coimbatore"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Coimbatore | TML Agency",
-  description: "TML offers expert lead generation services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation coimbatore", "lead generation agency coimbatore", "lead generation company coimbatore"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-coimbatore",
   },
   openGraph: {
     title: "Lead Generation Agency in Coimbatore | TML Agency",
-    description: "TML offers expert lead generation services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-coimbatore",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Coimbatore | TML Agency",
-    description: "TML offers expert lead generation services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

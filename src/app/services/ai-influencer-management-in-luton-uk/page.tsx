@@ -7,14 +7,14 @@ const location = locations["luton_uk"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "AI Influencer Management Agency in Luton | TML Agency",
-  description: "TML offers expert ai influencer management services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management luton", "ai influencer management agency luton", "ai influencer management company luton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-luton-uk",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Luton | TML Agency",
-    description: "TML offers expert ai influencer management services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-luton-uk",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Luton | TML Agency",
-    description: "TML offers expert ai influencer management services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

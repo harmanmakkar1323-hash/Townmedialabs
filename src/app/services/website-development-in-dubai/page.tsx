@@ -6,14 +6,14 @@ const location = locations["dubai"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Dubai | TML Agency",
-  description: "TML offers expert website development services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development dubai", "website development agency dubai", "website development company dubai"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-dubai",
   },
   openGraph: {
     title: "Website Development Agency in Dubai | TML Agency",
-    description: "TML offers expert website development services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-dubai",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Dubai | TML Agency",
-    description: "TML offers expert website development services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

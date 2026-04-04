@@ -6,14 +6,14 @@ const location = locations["pittsburgh"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Pittsburgh | TML Agency",
-  description: "TML offers expert social media marketing services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing pittsburgh", "social media marketing agency pittsburgh", "social media marketing company pittsburgh"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-pittsburgh",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Pittsburgh | TML Agency",
-    description: "TML offers expert social media marketing services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-pittsburgh",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Pittsburgh | TML Agency",
-    description: "TML offers expert social media marketing services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

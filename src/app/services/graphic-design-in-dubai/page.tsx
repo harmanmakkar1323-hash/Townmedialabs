@@ -6,14 +6,14 @@ const location = locations["dubai"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Dubai | TML Agency",
-  description: "TML offers expert graphic design services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design dubai", "graphic design agency dubai", "graphic design company dubai"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-dubai",
   },
   openGraph: {
     title: "Graphic Design Agency in Dubai | TML Agency",
-    description: "TML offers expert graphic design services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-dubai",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Dubai | TML Agency",
-    description: "TML offers expert graphic design services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

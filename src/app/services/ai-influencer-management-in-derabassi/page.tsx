@@ -6,14 +6,14 @@ const location = locations["derabassi"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Derabassi | TML Agency",
-  description: "TML offers expert AI influencer management services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management derabassi", "AI influencer management agency derabassi", "AI influencer management company derabassi"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-derabassi",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Derabassi | TML Agency",
-    description: "TML offers expert AI influencer management services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-derabassi",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Derabassi | TML Agency",
-    description: "TML offers expert AI influencer management services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

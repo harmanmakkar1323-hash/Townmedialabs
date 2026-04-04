@@ -6,14 +6,14 @@ const location = locations["detroit"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Detroit | TML Agency",
-  description: "TML offers expert video editing services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing detroit", "video editing agency detroit", "video editing company detroit"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-detroit",
   },
   openGraph: {
     title: "Video Editing Agency in Detroit | TML Agency",
-    description: "TML offers expert video editing services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-detroit",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Detroit | TML Agency",
-    description: "TML offers expert video editing services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

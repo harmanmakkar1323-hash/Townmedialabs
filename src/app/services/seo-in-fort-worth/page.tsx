@@ -6,14 +6,14 @@ const location = locations["fort_worth"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Fort Worth | TML Agency",
-  description: "TML offers expert seo services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo fort worth", "seo agency fort worth", "seo company fort worth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-fort-worth",
   },
   openGraph: {
     title: "SEO Agency in Fort Worth | TML Agency",
-    description: "TML offers expert seo services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-fort-worth",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Fort Worth | TML Agency",
-    description: "TML offers expert seo services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

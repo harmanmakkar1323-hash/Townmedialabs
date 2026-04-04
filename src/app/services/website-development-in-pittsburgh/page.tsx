@@ -6,14 +6,14 @@ const location = locations["pittsburgh"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Pittsburgh | TML Agency",
-  description: "TML offers expert website development services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development pittsburgh", "website development agency pittsburgh", "website development company pittsburgh"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-pittsburgh",
   },
   openGraph: {
     title: "Website Development Agency in Pittsburgh | TML Agency",
-    description: "TML offers expert website development services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-pittsburgh",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Pittsburgh | TML Agency",
-    description: "TML offers expert website development services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["sharjah"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Sharjah | TML Agency",
-  description: "TML offers expert website development services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development sharjah", "website development agency sharjah", "website development company sharjah"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-sharjah",
   },
   openGraph: {
     title: "Website Development Agency in Sharjah | TML Agency",
-    description: "TML offers expert website development services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-sharjah",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Sharjah | TML Agency",
-    description: "TML offers expert website development services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

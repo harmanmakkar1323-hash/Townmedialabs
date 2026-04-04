@@ -6,14 +6,14 @@ const location = locations["hyderabad"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Hyderabad | TML Agency",
-  description: "TML offers expert social media marketing services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing hyderabad", "social media marketing agency hyderabad", "social media marketing company hyderabad"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-hyderabad",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Hyderabad | TML Agency",
-    description: "TML offers expert social media marketing services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-hyderabad",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Hyderabad | TML Agency",
-    description: "TML offers expert social media marketing services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

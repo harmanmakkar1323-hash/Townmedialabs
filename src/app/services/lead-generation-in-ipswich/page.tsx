@@ -6,14 +6,14 @@ const location = locations["ipswich"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Ipswich | TML Agency",
-  description: "TML offers expert lead generation services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation ipswich", "lead generation agency ipswich", "lead generation company ipswich"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-ipswich",
   },
   openGraph: {
     title: "Lead Generation Agency in Ipswich | TML Agency",
-    description: "TML offers expert lead generation services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-ipswich",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Ipswich | TML Agency",
-    description: "TML offers expert lead generation services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

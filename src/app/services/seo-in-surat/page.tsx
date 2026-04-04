@@ -6,14 +6,14 @@ const location = locations["surat"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Surat | TML Agency",
-  description: "TML offers expert search engine optimization services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Search Engine Optimization services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization surat", "search engine optimization agency surat", "search engine optimization company surat"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-surat",
   },
   openGraph: {
     title: "SEO Agency in Surat | TML Agency",
-    description: "TML offers expert search engine optimization services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-surat",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Surat | TML Agency",
-    description: "TML offers expert search engine optimization services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

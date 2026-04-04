@@ -6,14 +6,14 @@ const location = locations["atlanta"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Atlanta | TML Agency",
-  description: "TML offers expert packaging design services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design atlanta", "packaging design agency atlanta", "packaging design company atlanta"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-atlanta",
   },
   openGraph: {
     title: "Packaging Design Agency in Atlanta | TML Agency",
-    description: "TML offers expert packaging design services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-atlanta",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Atlanta | TML Agency",
-    description: "TML offers expert packaging design services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

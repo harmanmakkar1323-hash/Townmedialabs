@@ -6,14 +6,14 @@ const location = locations["gold_coast"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Gold Coast | TML Agency",
-  description: "TML offers expert social media marketing services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing gold coast", "social media marketing agency gold coast", "social media marketing company gold coast"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-gold-coast",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Gold Coast | TML Agency",
-    description: "TML offers expert social media marketing services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-gold-coast",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Gold Coast | TML Agency",
-    description: "TML offers expert social media marketing services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

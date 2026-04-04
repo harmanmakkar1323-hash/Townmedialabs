@@ -6,14 +6,14 @@ const location = locations["milton_keynes"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Milton Keynes | TML Agency",
-  description: "TML offers expert lead generation services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation milton keynes", "lead generation agency milton keynes", "lead generation company milton keynes"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-milton-keynes",
   },
   openGraph: {
     title: "Lead Generation Agency in Milton Keynes | TML Agency",
-    description: "TML offers expert lead generation services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-milton-keynes",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Milton Keynes | TML Agency",
-    description: "TML offers expert lead generation services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

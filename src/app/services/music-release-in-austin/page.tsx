@@ -6,14 +6,14 @@ const location = locations["austin"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Austin | TML Agency",
-  description: "TML offers expert music release services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release austin", "music release agency austin", "music release company austin"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-austin",
   },
   openGraph: {
     title: "Music Release Agency in Austin | TML Agency",
-    description: "TML offers expert music release services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-austin",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Austin | TML Agency",
-    description: "TML offers expert music release services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

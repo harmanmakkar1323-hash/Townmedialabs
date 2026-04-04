@@ -7,14 +7,14 @@ const location = locations["fort_worth"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "Packaging Design Agency in Fort Worth | TML Agency",
-  description: "TML offers expert packaging design services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design fort worth", "packaging design agency fort worth", "packaging design company fort worth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-fort-worth",
   },
   openGraph: {
     title: "Packaging Design Agency in Fort Worth | TML Agency",
-    description: "TML offers expert packaging design services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-fort-worth",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Fort Worth | TML Agency",
-    description: "TML offers expert packaging design services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

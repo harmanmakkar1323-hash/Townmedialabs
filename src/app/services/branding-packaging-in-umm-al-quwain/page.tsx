@@ -7,14 +7,14 @@ const location = locations["umm_al_quwain"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "Packaging Design Agency in Umm Al Quwain | TML Agency",
-  description: "TML offers expert packaging design services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design umm al quwain", "packaging design agency umm al quwain", "packaging design company umm al quwain"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-umm-al-quwain",
   },
   openGraph: {
     title: "Packaging Design Agency in Umm Al Quwain | TML Agency",
-    description: "TML offers expert packaging design services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-umm-al-quwain",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Umm Al Quwain | TML Agency",
-    description: "TML offers expert packaging design services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

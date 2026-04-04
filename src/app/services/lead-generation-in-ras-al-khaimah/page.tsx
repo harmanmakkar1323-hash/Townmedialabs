@@ -6,14 +6,14 @@ const location = locations["ras_al_khaimah"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Ras Al Khaimah | TML Agency",
-  description: "TML offers expert lead generation services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation ras al khaimah", "lead generation agency ras al khaimah", "lead generation company ras al khaimah"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-ras-al-khaimah",
   },
   openGraph: {
     title: "Lead Generation Agency in Ras Al Khaimah | TML Agency",
-    description: "TML offers expert lead generation services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-ras-al-khaimah",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Ras Al Khaimah | TML Agency",
-    description: "TML offers expert lead generation services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

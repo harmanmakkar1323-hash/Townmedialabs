@@ -6,14 +6,14 @@ const location = locations["visakhapatnam"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Visakhapatnam | TML Agency",
-  description: "TML offers expert AI influencer management services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management visakhapatnam", "AI influencer management agency visakhapatnam", "AI influencer management company visakhapatnam"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-visakhapatnam",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Visakhapatnam | TML Agency",
-    description: "TML offers expert AI influencer management services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-visakhapatnam",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Visakhapatnam | TML Agency",
-    description: "TML offers expert AI influencer management services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

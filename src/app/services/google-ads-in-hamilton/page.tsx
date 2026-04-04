@@ -6,14 +6,14 @@ const location = locations["hamilton"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Hamilton | TML Agency",
-  description: "TML offers expert google ads services in Hamilton, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-  keywords: ["google ads hamilton", "google ads agency hamilton", "google ads hamilton nz"],
+  description: "TML offers expert Google Ads services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+  keywords: ["google ads hamilton", "google ads agency hamilton", "google ads hamilton ontario"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-hamilton",
   },
   openGraph: {
     title: "Google Ads Agency in Hamilton | TML Agency",
-    description: "TML offers expert google ads services in Hamilton, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-hamilton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Hamilton | TML Agency",
-    description: "TML offers expert google ads services in Hamilton, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["ballarat"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Ballarat | TML Agency",
-  description: "TML offers expert music release services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release ballarat", "music release agency ballarat", "music release company ballarat"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-ballarat",
   },
   openGraph: {
     title: "Music Release Agency in Ballarat | TML Agency",
-    description: "TML offers expert music release services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-ballarat",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Ballarat | TML Agency",
-    description: "TML offers expert music release services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

@@ -6,14 +6,14 @@ const location = locations["palmerston_north"];
 
 export const metadata: Metadata = {
   title: "Branding Agency in Palmerston North | TML Agency",
-  description: "TML offers expert branding services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Branding services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["branding palmerston north", "branding agency palmerston north", "branding palmerston north nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-in-palmerston-north",
   },
   openGraph: {
     title: "Branding Agency in Palmerston North | TML Agency",
-    description: "TML offers expert branding services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Branding services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-in-palmerston-north",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding Agency in Palmerston North | TML Agency",
-    description: "TML offers expert branding services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Branding services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

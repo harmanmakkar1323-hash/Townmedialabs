@@ -6,14 +6,14 @@ const location = locations["salt_lake_city"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Salt Lake City | TML Agency",
-  description: "TML offers expert graphic design services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design salt lake city", "graphic design agency salt lake city", "graphic design company salt lake city"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-salt-lake-city",
   },
   openGraph: {
     title: "Graphic Design Agency in Salt Lake City | TML Agency",
-    description: "TML offers expert graphic design services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-salt-lake-city",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Salt Lake City | TML Agency",
-    description: "TML offers expert graphic design services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

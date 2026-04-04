@@ -6,14 +6,14 @@ const location = locations["columbus_oh"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Columbus | TML Agency",
-  description: "TML offers expert website development services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development columbus", "website development agency columbus", "website development company columbus"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-columbus-oh",
   },
   openGraph: {
     title: "Website Development Agency in Columbus | TML Agency",
-    description: "TML offers expert website development services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-columbus-oh",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Columbus | TML Agency",
-    description: "TML offers expert website development services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

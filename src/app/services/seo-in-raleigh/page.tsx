@@ -6,14 +6,14 @@ const location = locations["raleigh"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Raleigh | TML Agency",
-  description: "TML offers expert seo services in Raleigh. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Raleigh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo raleigh", "seo agency raleigh", "seo company raleigh"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-raleigh",
   },
   openGraph: {
     title: "SEO Agency in Raleigh | TML Agency",
-    description: "TML offers expert seo services in Raleigh. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Raleigh. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-raleigh",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Raleigh | TML Agency",
-    description: "TML offers expert seo services in Raleigh. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Raleigh. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

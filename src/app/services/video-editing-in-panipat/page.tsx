@@ -6,14 +6,14 @@ const location = locations["panipat"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Panipat | TML Agency",
-  description: "TML offers expert video editing services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing panipat", "video editing agency panipat", "video editing company panipat"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-panipat",
   },
   openGraph: {
     title: "Video Editing Agency in Panipat | TML Agency",
-    description: "TML offers expert video editing services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-panipat",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Panipat | TML Agency",
-    description: "TML offers expert video editing services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

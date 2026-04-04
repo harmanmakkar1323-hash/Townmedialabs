@@ -6,14 +6,14 @@ const location = locations["preston"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Preston | TML Agency",
-  description: "TML offers expert website development services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development preston", "website development agency preston", "website development company preston"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-preston",
   },
   openGraph: {
     title: "Website Development Agency in Preston | TML Agency",
-    description: "TML offers expert website development services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-preston",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Preston | TML Agency",
-    description: "TML offers expert website development services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

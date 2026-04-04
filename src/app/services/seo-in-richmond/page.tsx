@@ -6,14 +6,14 @@ const location = locations["richmond"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Richmond | TML Agency",
-  description: "TML offers expert seo services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo richmond", "seo agency richmond", "seo company richmond"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-richmond",
   },
   openGraph: {
     title: "SEO Agency in Richmond | TML Agency",
-    description: "TML offers expert seo services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-richmond",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Richmond | TML Agency",
-    description: "TML offers expert seo services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

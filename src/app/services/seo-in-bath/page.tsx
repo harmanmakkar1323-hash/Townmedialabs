@@ -6,14 +6,14 @@ const location = locations["bath"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Bath | TML Agency",
-  description: "TML offers expert seo services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo bath", "seo agency bath", "seo company bath"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-bath",
   },
   openGraph: {
     title: "SEO Agency in Bath | TML Agency",
-    description: "TML offers expert seo services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-bath",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Bath | TML Agency",
-    description: "TML offers expert seo services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

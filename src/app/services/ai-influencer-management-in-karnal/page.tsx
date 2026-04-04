@@ -6,14 +6,14 @@ const location = locations["karnal"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Karnal | TML Agency",
-  description: "TML offers expert AI influencer management services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management karnal", "AI influencer management agency karnal", "AI influencer management company karnal"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-karnal",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Karnal | TML Agency",
-    description: "TML offers expert AI influencer management services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-karnal",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Karnal | TML Agency",
-    description: "TML offers expert AI influencer management services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

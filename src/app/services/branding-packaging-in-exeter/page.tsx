@@ -6,14 +6,14 @@ const location = locations["exeter"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Exeter | TML Agency",
-  description: "TML offers expert packaging design services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design exeter", "packaging design agency exeter", "packaging design company exeter"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-exeter",
   },
   openGraph: {
     title: "Packaging Design Agency in Exeter | TML Agency",
-    description: "TML offers expert packaging design services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-exeter",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Exeter | TML Agency",
-    description: "TML offers expert packaging design services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

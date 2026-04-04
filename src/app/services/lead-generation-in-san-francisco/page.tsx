@@ -6,14 +6,14 @@ const location = locations["san_francisco"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in San Francisco | TML Agency",
-  description: "TML offers expert lead generation services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation san francisco", "lead generation agency san francisco", "lead generation company san francisco"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-san-francisco",
   },
   openGraph: {
     title: "Lead Generation Agency in San Francisco | TML Agency",
-    description: "TML offers expert lead generation services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-san-francisco",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in San Francisco | TML Agency",
-    description: "TML offers expert lead generation services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

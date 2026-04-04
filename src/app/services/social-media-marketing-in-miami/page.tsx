@@ -6,14 +6,14 @@ const location = locations["miami"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Miami | TML Agency",
-  description: "TML offers expert social media marketing services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing miami", "social media marketing agency miami", "social media marketing company miami"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-miami",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Miami | TML Agency",
-    description: "TML offers expert social media marketing services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-miami",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Miami | TML Agency",
-    description: "TML offers expert social media marketing services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

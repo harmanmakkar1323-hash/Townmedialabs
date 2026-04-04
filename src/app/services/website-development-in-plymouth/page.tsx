@@ -6,14 +6,14 @@ const location = locations["plymouth"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Plymouth | TML Agency",
-  description: "TML offers expert website development services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development plymouth", "website development agency plymouth", "website development company plymouth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-plymouth",
   },
   openGraph: {
     title: "Website Development Agency in Plymouth | TML Agency",
-    description: "TML offers expert website development services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-plymouth",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Plymouth | TML Agency",
-    description: "TML offers expert website development services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

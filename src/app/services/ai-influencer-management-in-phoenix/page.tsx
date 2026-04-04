@@ -6,14 +6,14 @@ const location = locations["phoenix"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Phoenix | TML Agency",
-  description: "TML offers expert ai influencer management services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management phoenix", "ai influencer management agency phoenix", "ai influencer management company phoenix"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-phoenix",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Phoenix | TML Agency",
-    description: "TML offers expert ai influencer management services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-phoenix",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Phoenix | TML Agency",
-    description: "TML offers expert ai influencer management services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

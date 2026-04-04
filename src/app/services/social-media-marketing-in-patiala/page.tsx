@@ -6,14 +6,14 @@ const location = locations["patiala"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Patiala | TML Agency",
-  description: "TML offers expert social media marketing services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing patiala", "social media marketing agency patiala", "social media marketing company patiala"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-patiala",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Patiala | TML Agency",
-    description: "TML offers expert social media marketing services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-patiala",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Patiala | TML Agency",
-    description: "TML offers expert social media marketing services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

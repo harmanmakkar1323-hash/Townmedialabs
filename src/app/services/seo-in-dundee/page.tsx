@@ -6,14 +6,14 @@ const location = locations["dundee"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Dundee | TML Agency",
-  description: "TML offers expert seo services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo dundee", "seo agency dundee", "seo company dundee"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-dundee",
   },
   openGraph: {
     title: "SEO Agency in Dundee | TML Agency",
-    description: "TML offers expert seo services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-dundee",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Dundee | TML Agency",
-    description: "TML offers expert seo services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

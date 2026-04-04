@@ -6,14 +6,14 @@ const location = locations["canberra"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Canberra | TML Agency",
-  description: "TML offers expert graphic design services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design canberra", "graphic design agency canberra", "graphic design company canberra"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-canberra",
   },
   openGraph: {
     title: "Graphic Design Agency in Canberra | TML Agency",
-    description: "TML offers expert graphic design services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-canberra",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Canberra | TML Agency",
-    description: "TML offers expert graphic design services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

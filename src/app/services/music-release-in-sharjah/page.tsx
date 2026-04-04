@@ -6,14 +6,14 @@ const location = locations["sharjah"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Sharjah | TML Agency",
-  description: "TML offers expert music release services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release sharjah", "music release agency sharjah", "music release company sharjah"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-sharjah",
   },
   openGraph: {
     title: "Music Release Agency in Sharjah | TML Agency",
-    description: "TML offers expert music release services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-sharjah",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Sharjah | TML Agency",
-    description: "TML offers expert music release services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

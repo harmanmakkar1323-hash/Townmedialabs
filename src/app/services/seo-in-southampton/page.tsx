@@ -6,14 +6,14 @@ const location = locations["southampton"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Southampton | TML Agency",
-  description: "TML offers expert seo services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo southampton", "seo agency southampton", "seo company southampton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-southampton",
   },
   openGraph: {
     title: "SEO Agency in Southampton | TML Agency",
-    description: "TML offers expert seo services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-southampton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Southampton | TML Agency",
-    description: "TML offers expert seo services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

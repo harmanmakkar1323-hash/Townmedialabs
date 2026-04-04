@@ -6,14 +6,14 @@ const location = locations["bangalore"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Bangalore | TML Agency",
-  description: "TML offers expert music release and distribution services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release and Distribution services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release and distribution bangalore", "music release and distribution agency bangalore", "music release and distribution company bangalore"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-bangalore",
   },
   openGraph: {
     title: "Music Release Agency in Bangalore | TML Agency",
-    description: "TML offers expert music release and distribution services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release and Distribution services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-bangalore",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Bangalore | TML Agency",
-    description: "TML offers expert music release and distribution services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release and Distribution services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

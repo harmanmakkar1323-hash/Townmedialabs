@@ -6,14 +6,14 @@ const location = locations["zirakpur"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Zirakpur | TML Agency",
-  description: "TML offers expert ai influencer management services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management zirakpur", "ai influencer management agency zirakpur", "ai influencer management company zirakpur"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-zirakpur",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Zirakpur | TML Agency",
-    description: "TML offers expert ai influencer management services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-zirakpur",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Zirakpur | TML Agency",
-    description: "TML offers expert ai influencer management services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

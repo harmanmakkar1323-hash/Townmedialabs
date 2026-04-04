@@ -6,14 +6,14 @@ const location = locations["cheltenham"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Cheltenham | TML Agency",
-  description: "TML offers expert packaging design services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design cheltenham", "packaging design agency cheltenham", "packaging design company cheltenham"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-cheltenham",
   },
   openGraph: {
     title: "Packaging Design Agency in Cheltenham | TML Agency",
-    description: "TML offers expert packaging design services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-cheltenham",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Cheltenham | TML Agency",
-    description: "TML offers expert packaging design services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

@@ -6,14 +6,14 @@ const location = locations["cheltenham"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Cheltenham | TML Agency",
-  description: "TML offers expert website development services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development cheltenham", "website development agency cheltenham", "website development company cheltenham"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-cheltenham",
   },
   openGraph: {
     title: "Website Development Agency in Cheltenham | TML Agency",
-    description: "TML offers expert website development services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-cheltenham",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Cheltenham | TML Agency",
-    description: "TML offers expert website development services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

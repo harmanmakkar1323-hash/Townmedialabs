@@ -6,14 +6,14 @@ const location = locations["ras_al_khaimah"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Ras Al Khaimah | TML Agency",
-  description: "TML offers expert seo services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo ras al khaimah", "seo agency ras al khaimah", "seo company ras al khaimah"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-ras-al-khaimah",
   },
   openGraph: {
     title: "SEO Agency in Ras Al Khaimah | TML Agency",
-    description: "TML offers expert seo services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-ras-al-khaimah",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Ras Al Khaimah | TML Agency",
-    description: "TML offers expert seo services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

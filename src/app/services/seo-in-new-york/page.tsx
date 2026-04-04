@@ -6,14 +6,14 @@ const location = locations["new_york"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in New York | TML Agency",
-  description: "TML offers expert seo services in New York. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in New York. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo new york", "seo agency new york", "seo company new york"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-new-york",
   },
   openGraph: {
     title: "SEO Agency in New York | TML Agency",
-    description: "TML offers expert seo services in New York. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in New York. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-new-york",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in New York | TML Agency",
-    description: "TML offers expert seo services in New York. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in New York. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

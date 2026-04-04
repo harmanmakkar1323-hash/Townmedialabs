@@ -6,14 +6,14 @@ const location = locations["sharjah"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Sharjah | TML Agency",
-  description: "TML offers expert google ads services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads sharjah", "google ads agency sharjah", "google ads company sharjah"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-sharjah",
   },
   openGraph: {
     title: "Google Ads Agency in Sharjah | TML Agency",
-    description: "TML offers expert google ads services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-sharjah",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Sharjah | TML Agency",
-    description: "TML offers expert google ads services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

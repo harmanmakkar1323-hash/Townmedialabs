@@ -6,14 +6,14 @@ const location = locations["denver"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Denver | TML Agency",
-  description: "TML offers expert music release services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release denver", "music release agency denver", "music release company denver"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-denver",
   },
   openGraph: {
     title: "Music Release Agency in Denver | TML Agency",
-    description: "TML offers expert music release services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-denver",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Denver | TML Agency",
-    description: "TML offers expert music release services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

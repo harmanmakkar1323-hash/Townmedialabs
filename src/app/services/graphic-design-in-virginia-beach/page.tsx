@@ -6,14 +6,14 @@ const location = locations["virginia_beach"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Virginia Beach | TML Agency",
-  description: "TML offers expert graphic design services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design virginia beach", "graphic design agency virginia beach", "graphic design company virginia beach"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-virginia-beach",
   },
   openGraph: {
     title: "Graphic Design Agency in Virginia Beach | TML Agency",
-    description: "TML offers expert graphic design services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-virginia-beach",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Virginia Beach | TML Agency",
-    description: "TML offers expert graphic design services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

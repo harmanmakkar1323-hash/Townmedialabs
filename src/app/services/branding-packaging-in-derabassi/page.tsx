@@ -6,14 +6,14 @@ const location = locations["derabassi"];
 
 export const metadata: Metadata = {
   title: "Branding & Packaging Agency in Derabassi | TML Agency",
-  description: "TML offers expert branding and packaging services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding and Packaging services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging derabassi", "branding and packaging agency derabassi", "branding and packaging company derabassi"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-derabassi",
   },
   openGraph: {
     title: "Branding & Packaging Agency in Derabassi | TML Agency",
-    description: "TML offers expert branding and packaging services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding and Packaging services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-derabassi",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding & Packaging Agency in Derabassi | TML Agency",
-    description: "TML offers expert branding and packaging services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding and Packaging services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

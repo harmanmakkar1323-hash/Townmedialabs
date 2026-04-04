@@ -6,14 +6,14 @@ const location = locations["delhi"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Delhi | TML Agency",
-  description: "TML offers expert video editing services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing delhi", "video editing agency delhi", "video editing company delhi"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-delhi",
   },
   openGraph: {
     title: "Video Editing Agency in Delhi | TML Agency",
-    description: "TML offers expert video editing services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-delhi",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Delhi | TML Agency",
-    description: "TML offers expert video editing services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

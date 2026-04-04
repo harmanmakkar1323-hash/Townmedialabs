@@ -6,14 +6,14 @@ const location = locations["perth"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Perth | TML Agency",
-  description: "TML offers expert google ads services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads perth", "google ads agency perth", "google ads company perth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-perth",
   },
   openGraph: {
     title: "Google Ads Agency in Perth | TML Agency",
-    description: "TML offers expert google ads services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-perth",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Perth | TML Agency",
-    description: "TML offers expert google ads services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["rockhampton"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Rockhampton | TML Agency",
-  description: "TML offers expert google ads services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads rockhampton", "google ads agency rockhampton", "google ads company rockhampton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-rockhampton",
   },
   openGraph: {
     title: "Google Ads Agency in Rockhampton | TML Agency",
-    description: "TML offers expert google ads services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-rockhampton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Rockhampton | TML Agency",
-    description: "TML offers expert google ads services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["derabassi"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Derabassi | TML Agency",
-  description: "TML offers expert social media marketing services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing derabassi", "social media marketing agency derabassi", "social media marketing company derabassi"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-derabassi",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Derabassi | TML Agency",
-    description: "TML offers expert social media marketing services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-derabassi",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Derabassi | TML Agency",
-    description: "TML offers expert social media marketing services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

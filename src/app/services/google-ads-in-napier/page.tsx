@@ -6,14 +6,14 @@ const location = locations["napier"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Napier | TML Agency",
-  description: "TML offers expert google ads services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["google ads napier", "google ads agency napier", "google ads napier nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-napier",
   },
   openGraph: {
     title: "Google Ads Agency in Napier | TML Agency",
-    description: "TML offers expert google ads services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-napier",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Napier | TML Agency",
-    description: "TML offers expert google ads services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

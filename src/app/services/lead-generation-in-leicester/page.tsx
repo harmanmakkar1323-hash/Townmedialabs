@@ -6,14 +6,14 @@ const location = locations["leicester"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Leicester | TML Agency",
-  description: "TML offers expert lead generation services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation leicester", "lead generation agency leicester", "lead generation company leicester"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-leicester",
   },
   openGraph: {
     title: "Lead Generation Agency in Leicester | TML Agency",
-    description: "TML offers expert lead generation services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-leicester",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Leicester | TML Agency",
-    description: "TML offers expert lead generation services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

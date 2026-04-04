@@ -6,14 +6,14 @@ const location = locations["fujairah"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Fujairah | TML Agency",
-  description: "TML offers expert video editing services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing fujairah", "video editing agency fujairah", "video editing company fujairah"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-fujairah",
   },
   openGraph: {
     title: "Video Editing Agency in Fujairah | TML Agency",
-    description: "TML offers expert video editing services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-fujairah",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Fujairah | TML Agency",
-    description: "TML offers expert video editing services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

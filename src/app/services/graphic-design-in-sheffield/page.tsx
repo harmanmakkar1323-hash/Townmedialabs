@@ -6,14 +6,14 @@ const location = locations["sheffield"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Sheffield | TML Agency",
-  description: "TML offers expert graphic design services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design sheffield", "graphic design agency sheffield", "graphic design company sheffield"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-sheffield",
   },
   openGraph: {
     title: "Graphic Design Agency in Sheffield | TML Agency",
-    description: "TML offers expert graphic design services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-sheffield",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Sheffield | TML Agency",
-    description: "TML offers expert graphic design services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

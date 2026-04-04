@@ -6,14 +6,14 @@ const location = locations["cambridge"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Cambridge | TML Agency",
-  description: "TML offers expert seo services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo cambridge", "seo agency cambridge", "seo company cambridge"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-cambridge",
   },
   openGraph: {
     title: "SEO Agency in Cambridge | TML Agency",
-    description: "TML offers expert seo services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-cambridge",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Cambridge | TML Agency",
-    description: "TML offers expert seo services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

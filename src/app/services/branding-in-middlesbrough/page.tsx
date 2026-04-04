@@ -6,14 +6,14 @@ const location = locations["middlesbrough"];
 
 export const metadata: Metadata = {
   title: "Branding Agency in Middlesbrough | TML Agency",
-  description: "TML offers expert branding services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding middlesbrough", "branding agency middlesbrough", "branding company middlesbrough"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-in-middlesbrough",
   },
   openGraph: {
     title: "Branding Agency in Middlesbrough | TML Agency",
-    description: "TML offers expert branding services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-in-middlesbrough",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding Agency in Middlesbrough | TML Agency",
-    description: "TML offers expert branding services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

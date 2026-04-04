@@ -6,14 +6,14 @@ const location = locations["dunedin"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Dunedin | TML Agency",
-  description: "TML offers expert music release services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["music release dunedin", "music release agency dunedin", "music release dunedin nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-dunedin",
   },
   openGraph: {
     title: "Music Release Agency in Dunedin | TML Agency",
-    description: "TML offers expert music release services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-dunedin",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Dunedin | TML Agency",
-    description: "TML offers expert music release services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

@@ -6,14 +6,14 @@ const location = locations["delhi"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Delhi | TML Agency",
-  description: "TML offers expert packaging design services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design delhi", "packaging design agency delhi", "packaging design company delhi"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-delhi",
   },
   openGraph: {
     title: "Packaging Design Agency in Delhi | TML Agency",
-    description: "TML offers expert packaging design services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-delhi",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Delhi | TML Agency",
-    description: "TML offers expert packaging design services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

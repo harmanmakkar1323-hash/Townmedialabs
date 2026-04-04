@@ -6,14 +6,14 @@ const location = locations["perth"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Perth | TML Agency",
-  description: "TML offers expert website development services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development perth", "website development agency perth", "website development company perth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-perth",
   },
   openGraph: {
     title: "Website Development Agency in Perth | TML Agency",
-    description: "TML offers expert website development services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-perth",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Perth | TML Agency",
-    description: "TML offers expert website development services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

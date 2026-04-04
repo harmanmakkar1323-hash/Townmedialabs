@@ -6,14 +6,14 @@ const location = locations["cardiff"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Cardiff | TML Agency",
-  description: "TML offers expert music release services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release cardiff", "music release agency cardiff", "music release company cardiff"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-cardiff",
   },
   openGraph: {
     title: "Music Release Agency in Cardiff | TML Agency",
-    description: "TML offers expert music release services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-cardiff",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Cardiff | TML Agency",
-    description: "TML offers expert music release services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

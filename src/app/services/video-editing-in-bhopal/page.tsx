@@ -6,14 +6,14 @@ const location = locations["bhopal"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Bhopal | TML Agency",
-  description: "TML offers expert video editing services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing bhopal", "video editing agency bhopal", "video editing company bhopal"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-bhopal",
   },
   openGraph: {
     title: "Video Editing Agency in Bhopal | TML Agency",
-    description: "TML offers expert video editing services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-bhopal",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Bhopal | TML Agency",
-    description: "TML offers expert video editing services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

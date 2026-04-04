@@ -6,14 +6,14 @@ const location = locations["zirakpur"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Zirakpur | TML Agency",
-  description: "TML offers expert social media marketing services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing zirakpur", "social media marketing agency zirakpur", "social media marketing company zirakpur"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-zirakpur",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Zirakpur | TML Agency",
-    description: "TML offers expert social media marketing services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-zirakpur",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Zirakpur | TML Agency",
-    description: "TML offers expert social media marketing services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["sunderland"];
 
 export const metadata: Metadata = {
   title: "Branding Agency in Sunderland | TML Agency",
-  description: "TML offers expert branding services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding sunderland", "branding agency sunderland", "branding company sunderland"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-in-sunderland",
   },
   openGraph: {
     title: "Branding Agency in Sunderland | TML Agency",
-    description: "TML offers expert branding services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-in-sunderland",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding Agency in Sunderland | TML Agency",
-    description: "TML offers expert branding services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

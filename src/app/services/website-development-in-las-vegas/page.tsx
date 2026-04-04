@@ -6,14 +6,14 @@ const location = locations["las_vegas"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Las Vegas | TML Agency",
-  description: "TML offers expert website development services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development las vegas", "website development agency las vegas", "website development company las vegas"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-las-vegas",
   },
   openGraph: {
     title: "Website Development Agency in Las Vegas | TML Agency",
-    description: "TML offers expert website development services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-las-vegas",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Las Vegas | TML Agency",
-    description: "TML offers expert website development services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["ipswich"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Ipswich | TML Agency",
-  description: "TML offers expert graphic design services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design ipswich", "graphic design agency ipswich", "graphic design company ipswich"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-ipswich",
   },
   openGraph: {
     title: "Graphic Design Agency in Ipswich | TML Agency",
-    description: "TML offers expert graphic design services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-ipswich",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Ipswich | TML Agency",
-    description: "TML offers expert graphic design services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

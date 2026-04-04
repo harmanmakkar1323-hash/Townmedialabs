@@ -6,14 +6,14 @@ const location = locations["faridabad"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Faridabad | TML Agency",
-  description: "TML offers expert AI influencer management services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management faridabad", "AI influencer management agency faridabad", "AI influencer management company faridabad"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-faridabad",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Faridabad | TML Agency",
-    description: "TML offers expert AI influencer management services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-faridabad",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Faridabad | TML Agency",
-    description: "TML offers expert AI influencer management services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

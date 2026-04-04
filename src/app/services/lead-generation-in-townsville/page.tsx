@@ -6,14 +6,14 @@ const location = locations["townsville"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Townsville | TML Agency",
-  description: "TML offers expert lead generation services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation townsville", "lead generation agency townsville", "lead generation company townsville"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-townsville",
   },
   openGraph: {
     title: "Lead Generation Agency in Townsville | TML Agency",
-    description: "TML offers expert lead generation services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-townsville",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Townsville | TML Agency",
-    description: "TML offers expert lead generation services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

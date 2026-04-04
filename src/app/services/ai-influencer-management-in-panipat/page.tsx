@@ -6,14 +6,14 @@ const location = locations["panipat"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Panipat | TML Agency",
-  description: "TML offers expert AI influencer management services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management panipat", "AI influencer management agency panipat", "AI influencer management company panipat"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-panipat",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Panipat | TML Agency",
-    description: "TML offers expert AI influencer management services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-panipat",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Panipat | TML Agency",
-    description: "TML offers expert AI influencer management services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

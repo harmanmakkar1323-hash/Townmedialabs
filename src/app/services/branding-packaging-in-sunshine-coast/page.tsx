@@ -7,14 +7,14 @@ const location = locations["sunshine_coast"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "Packaging Design Agency in Sunshine Coast | TML Agency",
-  description: "TML offers expert packaging design services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design sunshine coast", "packaging design agency sunshine coast", "packaging design company sunshine coast"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-sunshine-coast",
   },
   openGraph: {
     title: "Packaging Design Agency in Sunshine Coast | TML Agency",
-    description: "TML offers expert packaging design services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-sunshine-coast",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Sunshine Coast | TML Agency",
-    description: "TML offers expert packaging design services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

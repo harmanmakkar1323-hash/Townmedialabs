@@ -6,14 +6,14 @@ const location = locations["cardiff"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Cardiff | TML Agency",
-  description: "TML offers expert website development services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development cardiff", "website development agency cardiff", "website development company cardiff"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-cardiff",
   },
   openGraph: {
     title: "Website Development Agency in Cardiff | TML Agency",
-    description: "TML offers expert website development services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-cardiff",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Cardiff | TML Agency",
-    description: "TML offers expert website development services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

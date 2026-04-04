@@ -7,14 +7,14 @@ const location = locations["virginia_beach"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "Packaging Design Agency in Virginia Beach | TML Agency",
-  description: "TML offers expert packaging design services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design virginia beach", "packaging design agency virginia beach", "packaging design company virginia beach"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-virginia-beach",
   },
   openGraph: {
     title: "Packaging Design Agency in Virginia Beach | TML Agency",
-    description: "TML offers expert packaging design services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-virginia-beach",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Virginia Beach | TML Agency",
-    description: "TML offers expert packaging design services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

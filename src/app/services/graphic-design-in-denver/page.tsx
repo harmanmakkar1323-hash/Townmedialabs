@@ -6,14 +6,14 @@ const location = locations["denver"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Denver | TML Agency",
-  description: "TML offers expert graphic design services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design denver", "graphic design agency denver", "graphic design company denver"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-denver",
   },
   openGraph: {
     title: "Graphic Design Agency in Denver | TML Agency",
-    description: "TML offers expert graphic design services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-denver",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Denver | TML Agency",
-    description: "TML offers expert graphic design services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

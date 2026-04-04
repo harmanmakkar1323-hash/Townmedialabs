@@ -7,14 +7,14 @@ const location = locations["virginia_beach"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "Music Release Agency in Virginia Beach | TML Agency",
-  description: "TML offers expert music release services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release virginia beach", "music release agency virginia beach", "music release company virginia beach"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-virginia-beach",
   },
   openGraph: {
     title: "Music Release Agency in Virginia Beach | TML Agency",
-    description: "TML offers expert music release services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-virginia-beach",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Virginia Beach | TML Agency",
-    description: "TML offers expert music release services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

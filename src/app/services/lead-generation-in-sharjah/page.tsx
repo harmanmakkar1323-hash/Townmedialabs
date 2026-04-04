@@ -6,14 +6,14 @@ const location = locations["sharjah"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Sharjah | TML Agency",
-  description: "TML offers expert lead generation services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation sharjah", "lead generation agency sharjah", "lead generation company sharjah"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-sharjah",
   },
   openGraph: {
     title: "Lead Generation Agency in Sharjah | TML Agency",
-    description: "TML offers expert lead generation services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-sharjah",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Sharjah | TML Agency",
-    description: "TML offers expert lead generation services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

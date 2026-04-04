@@ -6,14 +6,14 @@ const location = locations["geelong"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Geelong | TML Agency",
-  description: "TML offers expert music release services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release geelong", "music release agency geelong", "music release company geelong"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-geelong",
   },
   openGraph: {
     title: "Music Release Agency in Geelong | TML Agency",
-    description: "TML offers expert music release services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-geelong",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Geelong | TML Agency",
-    description: "TML offers expert music release services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

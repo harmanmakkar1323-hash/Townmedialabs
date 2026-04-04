@@ -6,14 +6,14 @@ const location = locations["virginia_beach"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Virginia Beach | TML Agency",
-  description: "TML offers expert social media marketing services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing virginia beach", "social media marketing agency virginia beach", "social media marketing company virginia beach"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-virginia-beach",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Virginia Beach | TML Agency",
-    description: "TML offers expert social media marketing services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-virginia-beach",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Virginia Beach | TML Agency",
-    description: "TML offers expert social media marketing services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

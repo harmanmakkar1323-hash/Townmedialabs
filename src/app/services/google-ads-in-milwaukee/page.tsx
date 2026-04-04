@@ -6,14 +6,14 @@ const location = locations["milwaukee"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Milwaukee | TML Agency",
-  description: "TML offers expert google ads services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads milwaukee", "google ads agency milwaukee", "google ads company milwaukee"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-milwaukee",
   },
   openGraph: {
     title: "Google Ads Agency in Milwaukee | TML Agency",
-    description: "TML offers expert google ads services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-milwaukee",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Milwaukee | TML Agency",
-    description: "TML offers expert google ads services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

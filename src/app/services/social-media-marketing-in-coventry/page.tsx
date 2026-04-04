@@ -6,14 +6,14 @@ const location = locations["coventry"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Coventry | TML Agency",
-  description: "TML offers expert social media marketing services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing coventry", "social media marketing agency coventry", "social media marketing company coventry"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-coventry",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Coventry | TML Agency",
-    description: "TML offers expert social media marketing services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-coventry",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Coventry | TML Agency",
-    description: "TML offers expert social media marketing services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

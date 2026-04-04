@@ -6,14 +6,14 @@ const location = locations["bristol"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Bristol | TML Agency",
-  description: "TML offers expert google ads services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads bristol", "google ads agency bristol", "google ads company bristol"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-bristol",
   },
   openGraph: {
     title: "Google Ads Agency in Bristol | TML Agency",
-    description: "TML offers expert google ads services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-bristol",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Bristol | TML Agency",
-    description: "TML offers expert google ads services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

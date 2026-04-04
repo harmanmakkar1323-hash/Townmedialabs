@@ -6,14 +6,14 @@ const location = locations["atlanta"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Atlanta | TML Agency",
-  description: "TML offers expert lead generation services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation atlanta", "lead generation agency atlanta", "lead generation company atlanta"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-atlanta",
   },
   openGraph: {
     title: "Lead Generation Agency in Atlanta | TML Agency",
-    description: "TML offers expert lead generation services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-atlanta",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Atlanta | TML Agency",
-    description: "TML offers expert lead generation services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

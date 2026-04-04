@@ -6,14 +6,14 @@ const location = locations["swansea"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Swansea | TML Agency",
-  description: "TML offers expert social media marketing services in Swansea. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Swansea. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing swansea", "social media marketing agency swansea", "social media marketing company swansea"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-swansea",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Swansea | TML Agency",
-    description: "TML offers expert social media marketing services in Swansea. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Swansea. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-swansea",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Swansea | TML Agency",
-    description: "TML offers expert social media marketing services in Swansea. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Swansea. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

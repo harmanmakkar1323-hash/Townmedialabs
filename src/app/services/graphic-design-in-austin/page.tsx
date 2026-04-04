@@ -6,14 +6,14 @@ const location = locations["austin"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Austin | TML Agency",
-  description: "TML offers expert graphic design services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design austin", "graphic design agency austin", "graphic design company austin"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-austin",
   },
   openGraph: {
     title: "Graphic Design Agency in Austin | TML Agency",
-    description: "TML offers expert graphic design services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-austin",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Austin | TML Agency",
-    description: "TML offers expert graphic design services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

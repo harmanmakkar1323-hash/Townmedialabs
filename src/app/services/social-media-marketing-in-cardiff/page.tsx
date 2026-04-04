@@ -6,14 +6,14 @@ const location = locations["cardiff"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Cardiff | TML Agency",
-  description: "TML offers expert social media marketing services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing cardiff", "social media marketing agency cardiff", "social media marketing company cardiff"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-cardiff",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Cardiff | TML Agency",
-    description: "TML offers expert social media marketing services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-cardiff",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Cardiff | TML Agency",
-    description: "TML offers expert social media marketing services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["fort_worth"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Fort Worth | TML Agency",
-  description: "TML offers expert google ads services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads fort worth", "google ads agency fort worth", "google ads company fort worth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-fort-worth",
   },
   openGraph: {
     title: "Google Ads Agency in Fort Worth | TML Agency",
-    description: "TML offers expert google ads services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-fort-worth",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Fort Worth | TML Agency",
-    description: "TML offers expert google ads services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

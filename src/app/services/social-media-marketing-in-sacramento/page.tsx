@@ -6,14 +6,14 @@ const location = locations["sacramento"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Sacramento | TML Agency",
-  description: "TML offers expert social media marketing services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing sacramento", "social media marketing agency sacramento", "social media marketing company sacramento"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-sacramento",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Sacramento | TML Agency",
-    description: "TML offers expert social media marketing services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-sacramento",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Sacramento | TML Agency",
-    description: "TML offers expert social media marketing services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

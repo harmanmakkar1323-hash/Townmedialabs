@@ -6,14 +6,14 @@ const location = locations["plymouth"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Plymouth | TML Agency",
-  description: "TML offers expert seo services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo plymouth", "seo agency plymouth", "seo company plymouth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-plymouth",
   },
   openGraph: {
     title: "SEO Agency in Plymouth | TML Agency",
-    description: "TML offers expert seo services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-plymouth",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Plymouth | TML Agency",
-    description: "TML offers expert seo services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

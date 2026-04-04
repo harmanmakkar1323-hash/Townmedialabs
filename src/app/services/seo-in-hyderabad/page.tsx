@@ -6,14 +6,14 @@ const location = locations["hyderabad"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Hyderabad | TML Agency",
-  description: "TML offers expert search engine optimization services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Search Engine Optimization services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization hyderabad", "search engine optimization agency hyderabad", "search engine optimization company hyderabad"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-hyderabad",
   },
   openGraph: {
     title: "SEO Agency in Hyderabad | TML Agency",
-    description: "TML offers expert search engine optimization services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-hyderabad",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Hyderabad | TML Agency",
-    description: "TML offers expert search engine optimization services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

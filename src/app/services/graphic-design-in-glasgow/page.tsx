@@ -6,14 +6,14 @@ const location = locations["glasgow"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Glasgow | TML Agency",
-  description: "TML offers expert graphic design services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design glasgow", "graphic design agency glasgow", "graphic design company glasgow"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-glasgow",
   },
   openGraph: {
     title: "Graphic Design Agency in Glasgow | TML Agency",
-    description: "TML offers expert graphic design services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-glasgow",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Glasgow | TML Agency",
-    description: "TML offers expert graphic design services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

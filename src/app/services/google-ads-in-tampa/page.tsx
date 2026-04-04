@@ -6,14 +6,14 @@ const location = locations["tampa"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Tampa | TML Agency",
-  description: "TML offers expert google ads services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads tampa", "google ads agency tampa", "google ads company tampa"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-tampa",
   },
   openGraph: {
     title: "Google Ads Agency in Tampa | TML Agency",
-    description: "TML offers expert google ads services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-tampa",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Tampa | TML Agency",
-    description: "TML offers expert google ads services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

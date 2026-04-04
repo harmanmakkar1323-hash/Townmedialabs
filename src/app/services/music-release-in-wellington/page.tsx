@@ -6,14 +6,14 @@ const location = locations["wellington"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Wellington | TML Agency",
-  description: "TML offers expert music release services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["music release wellington", "music release agency wellington", "music release wellington nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-wellington",
   },
   openGraph: {
     title: "Music Release Agency in Wellington | TML Agency",
-    description: "TML offers expert music release services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-wellington",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Wellington | TML Agency",
-    description: "TML offers expert music release services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

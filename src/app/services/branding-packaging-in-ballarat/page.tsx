@@ -6,14 +6,14 @@ const location = locations["ballarat"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Ballarat | TML Agency",
-  description: "TML offers expert packaging design services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design ballarat", "packaging design agency ballarat", "packaging design company ballarat"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-ballarat",
   },
   openGraph: {
     title: "Packaging Design Agency in Ballarat | TML Agency",
-    description: "TML offers expert packaging design services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-ballarat",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Ballarat | TML Agency",
-    description: "TML offers expert packaging design services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

@@ -6,14 +6,14 @@ const location = locations["bangalore"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Bangalore | TML Agency",
-  description: "TML offers expert search engine optimization services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Search Engine Optimization services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization bangalore", "search engine optimization agency bangalore", "search engine optimization company bangalore"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-bangalore",
   },
   openGraph: {
     title: "SEO Agency in Bangalore | TML Agency",
-    description: "TML offers expert search engine optimization services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-bangalore",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Bangalore | TML Agency",
-    description: "TML offers expert search engine optimization services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

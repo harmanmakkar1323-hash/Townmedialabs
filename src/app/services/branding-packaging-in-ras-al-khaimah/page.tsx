@@ -7,14 +7,14 @@ const location = locations["ras_al_khaimah"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "Packaging Design Agency in Ras Al Khaimah | TML Agency",
-  description: "TML offers expert packaging design services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design ras al khaimah", "packaging design agency ras al khaimah", "packaging design company ras al khaimah"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-ras-al-khaimah",
   },
   openGraph: {
     title: "Packaging Design Agency in Ras Al Khaimah | TML Agency",
-    description: "TML offers expert packaging design services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-ras-al-khaimah",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Ras Al Khaimah | TML Agency",
-    description: "TML offers expert packaging design services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

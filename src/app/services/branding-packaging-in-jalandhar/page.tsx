@@ -6,14 +6,14 @@ const location = locations["jalandhar"];
 
 export const metadata: Metadata = {
   title: "Branding & Packaging Agency in Jalandhar | TML Agency",
-  description: "TML offers expert branding and packaging services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding and Packaging services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging jalandhar", "branding and packaging agency jalandhar", "branding and packaging company jalandhar"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-jalandhar",
   },
   openGraph: {
     title: "Branding & Packaging Agency in Jalandhar | TML Agency",
-    description: "TML offers expert branding and packaging services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding and Packaging services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-jalandhar",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding & Packaging Agency in Jalandhar | TML Agency",
-    description: "TML offers expert branding and packaging services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding and Packaging services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

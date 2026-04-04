@@ -6,14 +6,14 @@ const location = locations["leicester"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Leicester | TML Agency",
-  description: "TML offers expert seo services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo leicester", "seo agency leicester", "seo company leicester"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-leicester",
   },
   openGraph: {
     title: "SEO Agency in Leicester | TML Agency",
-    description: "TML offers expert seo services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-leicester",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Leicester | TML Agency",
-    description: "TML offers expert seo services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

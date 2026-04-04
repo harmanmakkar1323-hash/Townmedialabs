@@ -6,14 +6,14 @@ const location = locations["noida"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Noida | TML Agency",
-  description: "TML offers expert graphic design services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design noida", "graphic design agency noida", "graphic design company noida"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-noida",
   },
   openGraph: {
     title: "Graphic Design Agency in Noida | TML Agency",
-    description: "TML offers expert graphic design services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-noida",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Noida | TML Agency",
-    description: "TML offers expert graphic design services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

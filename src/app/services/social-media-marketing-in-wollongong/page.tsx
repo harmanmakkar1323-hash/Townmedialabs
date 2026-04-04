@@ -6,14 +6,14 @@ const location = locations["wollongong"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Wollongong | TML Agency",
-  description: "TML offers expert social media marketing services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing wollongong", "social media marketing agency wollongong", "social media marketing company wollongong"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-wollongong",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Wollongong | TML Agency",
-    description: "TML offers expert social media marketing services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-wollongong",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Wollongong | TML Agency",
-    description: "TML offers expert social media marketing services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

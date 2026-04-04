@@ -6,14 +6,14 @@ const location = locations["kharar"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Kharar | TML Agency",
-  description: "TML offers expert graphic design services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design kharar", "graphic design agency kharar", "graphic design company kharar"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-kharar",
   },
   openGraph: {
     title: "Graphic Design Agency in Kharar | TML Agency",
-    description: "TML offers expert graphic design services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-kharar",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Kharar | TML Agency",
-    description: "TML offers expert graphic design services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

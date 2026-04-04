@@ -6,14 +6,14 @@ const location = locations["rockhampton"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Rockhampton | TML Agency",
-  description: "TML offers expert packaging design services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design rockhampton", "packaging design agency rockhampton", "packaging design company rockhampton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-rockhampton",
   },
   openGraph: {
     title: "Packaging Design Agency in Rockhampton | TML Agency",
-    description: "TML offers expert packaging design services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-rockhampton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Rockhampton | TML Agency",
-    description: "TML offers expert packaging design services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

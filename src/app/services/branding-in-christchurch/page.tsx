@@ -6,14 +6,14 @@ const location = locations["christchurch"];
 
 export const metadata: Metadata = {
   title: "Branding Agency in Christchurch | TML Agency",
-  description: "TML offers expert branding services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Branding services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["branding christchurch", "branding agency christchurch", "branding christchurch nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-in-christchurch",
   },
   openGraph: {
     title: "Branding Agency in Christchurch | TML Agency",
-    description: "TML offers expert branding services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Branding services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-in-christchurch",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding Agency in Christchurch | TML Agency",
-    description: "TML offers expert branding services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Branding services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

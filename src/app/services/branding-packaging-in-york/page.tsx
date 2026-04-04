@@ -6,14 +6,14 @@ const location = locations["york"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in York | TML Agency",
-  description: "TML offers expert packaging design services in York. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in York. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design york", "packaging design agency york", "packaging design company york"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-york",
   },
   openGraph: {
     title: "Packaging Design Agency in York | TML Agency",
-    description: "TML offers expert packaging design services in York. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in York. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-york",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in York | TML Agency",
-    description: "TML offers expert packaging design services in York. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in York. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

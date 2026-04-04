@@ -6,14 +6,14 @@ const location = locations["punjab"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Punjab | TML Agency",
-  description: "TML offers expert website development services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development punjab", "website development agency punjab", "website development company punjab"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-punjab",
   },
   openGraph: {
     title: "Website Development Agency in Punjab | TML Agency",
-    description: "TML offers expert website development services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-punjab",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Punjab | TML Agency",
-    description: "TML offers expert website development services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

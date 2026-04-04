@@ -6,14 +6,14 @@ const location = locations["san_diego"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in San Diego | TML Agency",
-  description: "TML offers expert lead generation services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation san diego", "lead generation agency san diego", "lead generation company san diego"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-san-diego",
   },
   openGraph: {
     title: "Lead Generation Agency in San Diego | TML Agency",
-    description: "TML offers expert lead generation services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-san-diego",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in San Diego | TML Agency",
-    description: "TML offers expert lead generation services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

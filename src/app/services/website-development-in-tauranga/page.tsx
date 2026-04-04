@@ -6,14 +6,14 @@ const location = locations["tauranga"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Tauranga | TML Agency",
-  description: "TML offers expert website development services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["website development tauranga", "website development agency tauranga", "website development tauranga nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-tauranga",
   },
   openGraph: {
     title: "Website Development Agency in Tauranga | TML Agency",
-    description: "TML offers expert website development services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-tauranga",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Tauranga | TML Agency",
-    description: "TML offers expert website development services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

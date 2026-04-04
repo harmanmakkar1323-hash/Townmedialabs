@@ -6,14 +6,14 @@ const location = locations["brighton"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Brighton | TML Agency",
-  description: "TML offers expert ai influencer management services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management brighton", "ai influencer management agency brighton", "ai influencer management company brighton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-brighton",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Brighton | TML Agency",
-    description: "TML offers expert ai influencer management services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-brighton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Brighton | TML Agency",
-    description: "TML offers expert ai influencer management services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

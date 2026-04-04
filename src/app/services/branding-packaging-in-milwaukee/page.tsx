@@ -6,14 +6,14 @@ const location = locations["milwaukee"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Milwaukee | TML Agency",
-  description: "TML offers expert packaging design services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design milwaukee", "packaging design agency milwaukee", "packaging design company milwaukee"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-milwaukee",
   },
   openGraph: {
     title: "Packaging Design Agency in Milwaukee | TML Agency",
-    description: "TML offers expert packaging design services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-milwaukee",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Milwaukee | TML Agency",
-    description: "TML offers expert packaging design services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

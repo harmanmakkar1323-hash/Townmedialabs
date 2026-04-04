@@ -6,14 +6,14 @@ const location = locations["bangalore"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Bangalore | TML Agency",
-  description: "TML offers expert lead generation services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation bangalore", "lead generation agency bangalore", "lead generation company bangalore"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-bangalore",
   },
   openGraph: {
     title: "Lead Generation Agency in Bangalore | TML Agency",
-    description: "TML offers expert lead generation services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-bangalore",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Bangalore | TML Agency",
-    description: "TML offers expert lead generation services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

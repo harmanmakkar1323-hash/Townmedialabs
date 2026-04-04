@@ -6,14 +6,14 @@ const location = locations["middlesbrough"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Middlesbrough | TML Agency",
-  description: "TML offers expert google ads services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads middlesbrough", "google ads agency middlesbrough", "google ads company middlesbrough"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-middlesbrough",
   },
   openGraph: {
     title: "Google Ads Agency in Middlesbrough | TML Agency",
-    description: "TML offers expert google ads services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-middlesbrough",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Middlesbrough | TML Agency",
-    description: "TML offers expert google ads services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

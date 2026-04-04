@@ -6,14 +6,14 @@ const location = locations["york"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in York | TML Agency",
-  description: "TML offers expert lead generation services in York. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in York. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation york", "lead generation agency york", "lead generation company york"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-york",
   },
   openGraph: {
     title: "Lead Generation Agency in York | TML Agency",
-    description: "TML offers expert lead generation services in York. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in York. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-york",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in York | TML Agency",
-    description: "TML offers expert lead generation services in York. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in York. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

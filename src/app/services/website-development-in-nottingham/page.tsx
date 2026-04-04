@@ -6,14 +6,14 @@ const location = locations["nottingham"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Nottingham | TML Agency",
-  description: "TML offers expert website development services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development nottingham", "website development agency nottingham", "website development company nottingham"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-nottingham",
   },
   openGraph: {
     title: "Website Development Agency in Nottingham | TML Agency",
-    description: "TML offers expert website development services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-nottingham",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Nottingham | TML Agency",
-    description: "TML offers expert website development services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

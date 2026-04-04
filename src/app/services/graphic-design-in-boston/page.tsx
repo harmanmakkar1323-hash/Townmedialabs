@@ -6,14 +6,14 @@ const location = locations["boston"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Boston | TML Agency",
-  description: "TML offers expert graphic design services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design boston", "graphic design agency boston", "graphic design company boston"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-boston",
   },
   openGraph: {
     title: "Graphic Design Agency in Boston | TML Agency",
-    description: "TML offers expert graphic design services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-boston",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Boston | TML Agency",
-    description: "TML offers expert graphic design services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

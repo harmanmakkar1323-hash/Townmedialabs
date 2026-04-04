@@ -6,14 +6,14 @@ const location = locations["bristol"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Bristol | TML Agency",
-  description: "TML offers expert lead generation services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation bristol", "lead generation agency bristol", "lead generation company bristol"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-bristol",
   },
   openGraph: {
     title: "Lead Generation Agency in Bristol | TML Agency",
-    description: "TML offers expert lead generation services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-bristol",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Bristol | TML Agency",
-    description: "TML offers expert lead generation services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

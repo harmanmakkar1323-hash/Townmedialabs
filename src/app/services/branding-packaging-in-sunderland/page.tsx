@@ -6,14 +6,14 @@ const location = locations["sunderland"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Sunderland | TML Agency",
-  description: "TML offers expert packaging design services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design sunderland", "packaging design agency sunderland", "packaging design company sunderland"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-sunderland",
   },
   openGraph: {
     title: "Packaging Design Agency in Sunderland | TML Agency",
-    description: "TML offers expert packaging design services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-sunderland",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Sunderland | TML Agency",
-    description: "TML offers expert packaging design services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

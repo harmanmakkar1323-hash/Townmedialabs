@@ -6,14 +6,14 @@ const location = locations["luton_uk"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Luton | TML Agency",
-  description: "TML offers expert website development services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development luton", "website development agency luton", "website development company luton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-luton-uk",
   },
   openGraph: {
     title: "Website Development Agency in Luton | TML Agency",
-    description: "TML offers expert website development services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-luton-uk",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Luton | TML Agency",
-    description: "TML offers expert website development services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

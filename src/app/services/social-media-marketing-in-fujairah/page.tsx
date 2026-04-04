@@ -6,14 +6,14 @@ const location = locations["fujairah"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Fujairah | TML Agency",
-  description: "TML offers expert social media marketing services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing fujairah", "social media marketing agency fujairah", "social media marketing company fujairah"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-fujairah",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Fujairah | TML Agency",
-    description: "TML offers expert social media marketing services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-fujairah",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Fujairah | TML Agency",
-    description: "TML offers expert social media marketing services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

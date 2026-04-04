@@ -6,14 +6,14 @@ const location = locations["milwaukee"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Milwaukee | TML Agency",
-  description: "TML offers expert lead generation services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation milwaukee", "lead generation agency milwaukee", "lead generation company milwaukee"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-milwaukee",
   },
   openGraph: {
     title: "Lead Generation Agency in Milwaukee | TML Agency",
-    description: "TML offers expert lead generation services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-milwaukee",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Milwaukee | TML Agency",
-    description: "TML offers expert lead generation services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

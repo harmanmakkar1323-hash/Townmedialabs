@@ -6,14 +6,14 @@ const location = locations["liverpool"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Liverpool | TML Agency",
-  description: "TML offers expert website development services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development liverpool", "website development agency liverpool", "website development company liverpool"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-liverpool",
   },
   openGraph: {
     title: "Website Development Agency in Liverpool | TML Agency",
-    description: "TML offers expert website development services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-liverpool",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Liverpool | TML Agency",
-    description: "TML offers expert website development services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

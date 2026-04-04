@@ -6,14 +6,14 @@ const location = locations["houston"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Houston | TML Agency",
-  description: "TML offers expert music release services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release houston", "music release agency houston", "music release company houston"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-houston",
   },
   openGraph: {
     title: "Music Release Agency in Houston | TML Agency",
-    description: "TML offers expert music release services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-houston",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Houston | TML Agency",
-    description: "TML offers expert music release services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

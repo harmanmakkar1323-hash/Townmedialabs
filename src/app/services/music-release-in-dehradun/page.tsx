@@ -6,14 +6,14 @@ const location = locations["dehradun"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Dehradun | TML Agency",
-  description: "TML offers expert music release and distribution services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release and Distribution services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release and distribution dehradun", "music release and distribution agency dehradun", "music release and distribution company dehradun"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-dehradun",
   },
   openGraph: {
     title: "Music Release Agency in Dehradun | TML Agency",
-    description: "TML offers expert music release and distribution services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release and Distribution services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-dehradun",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Dehradun | TML Agency",
-    description: "TML offers expert music release and distribution services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release and Distribution services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["edmonton"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Edmonton | TML Agency",
-  description: "TML offers expert packaging design services in Edmonton, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Edmonton, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design edmonton", "packaging design agency edmonton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-edmonton",
   },
   openGraph: {
     title: "Packaging Design Agency in Edmonton | TML Agency",
-    description: "TML offers expert packaging design services in Edmonton, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Edmonton, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-edmonton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Edmonton | TML Agency",
-    description: "TML offers expert packaging design services in Edmonton, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Edmonton, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

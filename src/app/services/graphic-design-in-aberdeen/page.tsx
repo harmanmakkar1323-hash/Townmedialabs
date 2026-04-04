@@ -6,14 +6,14 @@ const location = locations["aberdeen"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Aberdeen | TML Agency",
-  description: "TML offers expert graphic design services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design aberdeen", "graphic design agency aberdeen", "graphic design company aberdeen"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-aberdeen",
   },
   openGraph: {
     title: "Graphic Design Agency in Aberdeen | TML Agency",
-    description: "TML offers expert graphic design services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-aberdeen",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Aberdeen | TML Agency",
-    description: "TML offers expert graphic design services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

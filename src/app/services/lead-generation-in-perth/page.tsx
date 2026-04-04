@@ -6,14 +6,14 @@ const location = locations["perth"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Perth | TML Agency",
-  description: "TML offers expert lead generation services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation perth", "lead generation agency perth", "lead generation company perth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-perth",
   },
   openGraph: {
     title: "Lead Generation Agency in Perth | TML Agency",
-    description: "TML offers expert lead generation services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-perth",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Perth | TML Agency",
-    description: "TML offers expert lead generation services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["los_angeles"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Los Angeles | TML Agency",
-  description: "TML offers expert social media marketing services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing los angeles", "social media marketing agency los angeles", "social media marketing company los angeles"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-los-angeles",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Los Angeles | TML Agency",
-    description: "TML offers expert social media marketing services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-los-angeles",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Los Angeles | TML Agency",
-    description: "TML offers expert social media marketing services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

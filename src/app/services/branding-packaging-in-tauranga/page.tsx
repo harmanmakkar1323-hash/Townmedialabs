@@ -6,14 +6,14 @@ const location = locations["tauranga"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Tauranga | TML Agency",
-  description: "TML offers expert packaging design services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["packaging design tauranga", "packaging design agency tauranga", "packaging design tauranga nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-tauranga",
   },
   openGraph: {
     title: "Packaging Design Agency in Tauranga | TML Agency",
-    description: "TML offers expert packaging design services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-tauranga",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Tauranga | TML Agency",
-    description: "TML offers expert packaging design services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

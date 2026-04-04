@@ -6,14 +6,14 @@ const location = locations["ipswich"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Ipswich | TML Agency",
-  description: "TML offers expert packaging design services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design ipswich", "packaging design agency ipswich", "packaging design company ipswich"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-ipswich",
   },
   openGraph: {
     title: "Packaging Design Agency in Ipswich | TML Agency",
-    description: "TML offers expert packaging design services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-ipswich",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Ipswich | TML Agency",
-    description: "TML offers expert packaging design services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

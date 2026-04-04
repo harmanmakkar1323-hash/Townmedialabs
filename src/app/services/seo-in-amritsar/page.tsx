@@ -6,14 +6,14 @@ const location = locations["amritsar"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Amritsar | TML Agency",
-  description: "TML offers expert search engine optimization services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Search Engine Optimization services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization amritsar", "search engine optimization agency amritsar", "search engine optimization company amritsar"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-amritsar",
   },
   openGraph: {
     title: "SEO Agency in Amritsar | TML Agency",
-    description: "TML offers expert search engine optimization services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-amritsar",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Amritsar | TML Agency",
-    description: "TML offers expert search engine optimization services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

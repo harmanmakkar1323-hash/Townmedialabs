@@ -6,14 +6,14 @@ const location = locations["oxford"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Oxford | TML Agency",
-  description: "TML offers expert lead generation services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation oxford", "lead generation agency oxford", "lead generation company oxford"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-oxford",
   },
   openGraph: {
     title: "Lead Generation Agency in Oxford | TML Agency",
-    description: "TML offers expert lead generation services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-oxford",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Oxford | TML Agency",
-    description: "TML offers expert lead generation services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

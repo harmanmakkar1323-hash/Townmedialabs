@@ -6,14 +6,14 @@ const location = locations["jalandhar"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Jalandhar | TML Agency",
-  description: "TML offers expert social media marketing services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing jalandhar", "social media marketing agency jalandhar", "social media marketing company jalandhar"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-jalandhar",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Jalandhar | TML Agency",
-    description: "TML offers expert social media marketing services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-jalandhar",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Jalandhar | TML Agency",
-    description: "TML offers expert social media marketing services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

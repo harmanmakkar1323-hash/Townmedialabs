@@ -14,8 +14,8 @@ export const authors: Record<string, Author> = {
   "raman-makkar": {
     id: "raman-makkar",
     name: "Raman Makkar",
-    title: "Founder & SEO Strategist",
-    bio: "Raman is the founder of TML Agency, a full-service digital marketing agency serving 500+ brands across India. With 10+ years of experience in SEO, brand strategy, and digital marketing, Raman specializes in helping businesses achieve sustainable growth through data-driven strategies and human-centered brand building.",
+    title: "SEO & Growth Lead",
+    bio: "Raman leads SEO and growth at TML Agency, a full-service digital marketing agency serving 500+ brands across India. With 10+ years of experience in SEO, brand strategy, and digital marketing, Raman specializes in helping businesses achieve sustainable growth through data-driven strategies and human-centered brand building.",
     expertise: ["SEO", "Branding", "Digital Marketing Strategy", "Growth Strategy"],
     yearsOfExperience: 10,
     linkedin: "https://linkedin.com/in/ramanmakkar",

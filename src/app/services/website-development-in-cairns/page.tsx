@@ -6,14 +6,14 @@ const location = locations["cairns"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Cairns | TML Agency",
-  description: "TML offers expert website development services in Cairns. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Cairns. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development cairns", "website development agency cairns", "website development company cairns"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-cairns",
   },
   openGraph: {
     title: "Website Development Agency in Cairns | TML Agency",
-    description: "TML offers expert website development services in Cairns. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Cairns. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-cairns",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Cairns | TML Agency",
-    description: "TML offers expert website development services in Cairns. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Cairns. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["hamilton"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Hamilton | TML Agency",
-  description: "TML offers expert packaging design services in Hamilton, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-  keywords: ["packaging design hamilton", "packaging design agency hamilton", "packaging design hamilton nz"],
+  description: "TML offers expert Packaging Design services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+  keywords: ["packaging design hamilton", "packaging design agency hamilton", "packaging design hamilton ontario"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-hamilton",
   },
   openGraph: {
     title: "Packaging Design Agency in Hamilton | TML Agency",
-    description: "TML offers expert packaging design services in Hamilton, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-hamilton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Hamilton | TML Agency",
-    description: "TML offers expert packaging design services in Hamilton, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

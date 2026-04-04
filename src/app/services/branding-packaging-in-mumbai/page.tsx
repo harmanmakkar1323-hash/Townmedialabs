@@ -6,14 +6,14 @@ const location = locations["mumbai"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Mumbai | TML Agency",
-  description: "TML offers expert packaging design services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design mumbai", "packaging design agency mumbai", "packaging design company mumbai"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-mumbai",
   },
   openGraph: {
     title: "Packaging Design Agency in Mumbai | TML Agency",
-    description: "TML offers expert packaging design services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-mumbai",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Mumbai | TML Agency",
-    description: "TML offers expert packaging design services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

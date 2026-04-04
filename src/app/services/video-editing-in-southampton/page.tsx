@@ -6,14 +6,14 @@ const location = locations["southampton"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Southampton | TML Agency",
-  description: "TML offers expert video editing services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing southampton", "video editing agency southampton", "video editing company southampton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-southampton",
   },
   openGraph: {
     title: "Video Editing Agency in Southampton | TML Agency",
-    description: "TML offers expert video editing services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-southampton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Southampton | TML Agency",
-    description: "TML offers expert video editing services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

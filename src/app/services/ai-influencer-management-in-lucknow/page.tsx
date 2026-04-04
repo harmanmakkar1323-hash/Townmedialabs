@@ -6,14 +6,14 @@ const location = locations["lucknow"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Lucknow | TML Agency",
-  description: "TML offers expert AI influencer management services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management lucknow", "AI influencer management agency lucknow", "AI influencer management company lucknow"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-lucknow",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Lucknow | TML Agency",
-    description: "TML offers expert AI influencer management services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-lucknow",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Lucknow | TML Agency",
-    description: "TML offers expert AI influencer management services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

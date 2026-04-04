@@ -6,14 +6,14 @@ const location = locations["richmond"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Richmond | TML Agency",
-  description: "TML offers expert social media marketing services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing richmond", "social media marketing agency richmond", "social media marketing company richmond"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-richmond",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Richmond | TML Agency",
-    description: "TML offers expert social media marketing services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-richmond",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Richmond | TML Agency",
-    description: "TML offers expert social media marketing services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

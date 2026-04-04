@@ -6,14 +6,14 @@ const location = locations["mumbai"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Mumbai | TML Agency",
-  description: "TML offers expert graphic design services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design mumbai", "graphic design agency mumbai", "graphic design company mumbai"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-mumbai",
   },
   openGraph: {
     title: "Graphic Design Agency in Mumbai | TML Agency",
-    description: "TML offers expert graphic design services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-mumbai",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Mumbai | TML Agency",
-    description: "TML offers expert graphic design services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

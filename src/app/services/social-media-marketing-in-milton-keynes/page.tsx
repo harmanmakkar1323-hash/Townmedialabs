@@ -6,14 +6,14 @@ const location = locations["milton_keynes"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Milton Keynes | TML Agency",
-  description: "TML offers expert social media marketing services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing milton keynes", "social media marketing agency milton keynes", "social media marketing company milton keynes"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-milton-keynes",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Milton Keynes | TML Agency",
-    description: "TML offers expert social media marketing services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-milton-keynes",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Milton Keynes | TML Agency",
-    description: "TML offers expert social media marketing services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

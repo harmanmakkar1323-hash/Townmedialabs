@@ -6,14 +6,14 @@ const location = locations["brighton"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Brighton | TML Agency",
-  description: "TML offers expert lead generation services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation brighton", "lead generation agency brighton", "lead generation company brighton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-brighton",
   },
   openGraph: {
     title: "Lead Generation Agency in Brighton | TML Agency",
-    description: "TML offers expert lead generation services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-brighton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Brighton | TML Agency",
-    description: "TML offers expert lead generation services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

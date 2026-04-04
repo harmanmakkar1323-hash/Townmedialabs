@@ -6,14 +6,14 @@ const location = locations["austin"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Austin | TML Agency",
-  description: "TML offers expert website development services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development austin", "website development agency austin", "website development company austin"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-austin",
   },
   openGraph: {
     title: "Website Development Agency in Austin | TML Agency",
-    description: "TML offers expert website development services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-austin",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Austin | TML Agency",
-    description: "TML offers expert website development services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["oxford"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Oxford | TML Agency",
-  description: "TML offers expert graphic design services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design oxford", "graphic design agency oxford", "graphic design company oxford"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-oxford",
   },
   openGraph: {
     title: "Graphic Design Agency in Oxford | TML Agency",
-    description: "TML offers expert graphic design services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-oxford",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Oxford | TML Agency",
-    description: "TML offers expert graphic design services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

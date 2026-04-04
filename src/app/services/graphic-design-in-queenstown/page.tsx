@@ -6,14 +6,14 @@ const location = locations["queenstown"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Queenstown | TML Agency",
-  description: "TML offers expert graphic design services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["graphic design queenstown", "graphic design agency queenstown", "graphic design queenstown nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-queenstown",
   },
   openGraph: {
     title: "Graphic Design Agency in Queenstown | TML Agency",
-    description: "TML offers expert graphic design services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-queenstown",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Queenstown | TML Agency",
-    description: "TML offers expert graphic design services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

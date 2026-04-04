@@ -6,14 +6,14 @@ const location = locations["cambridge"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Cambridge | TML Agency",
-  description: "TML offers expert social media marketing services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing cambridge", "social media marketing agency cambridge", "social media marketing company cambridge"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-cambridge",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Cambridge | TML Agency",
-    description: "TML offers expert social media marketing services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-cambridge",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Cambridge | TML Agency",
-    description: "TML offers expert social media marketing services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["amritsar"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Amritsar | TML Agency",
-  description: "TML offers expert social media marketing services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing amritsar", "social media marketing agency amritsar", "social media marketing company amritsar"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-amritsar",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Amritsar | TML Agency",
-    description: "TML offers expert social media marketing services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-amritsar",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Amritsar | TML Agency",
-    description: "TML offers expert social media marketing services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

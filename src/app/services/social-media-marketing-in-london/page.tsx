@@ -6,14 +6,14 @@ const location = locations["london"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in London | TML Agency",
-  description: "TML offers expert social media marketing services in London. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in London. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing london", "social media marketing agency london", "social media marketing company london"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-london",
   },
   openGraph: {
     title: "Social Media Marketing Agency in London | TML Agency",
-    description: "TML offers expert social media marketing services in London. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in London. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-london",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in London | TML Agency",
-    description: "TML offers expert social media marketing services in London. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in London. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

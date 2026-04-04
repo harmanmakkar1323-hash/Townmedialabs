@@ -6,14 +6,14 @@ const location = locations["ahmedabad"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Ahmedabad | TML Agency",
-  description: "TML offers expert music release and distribution services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release and Distribution services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release and distribution ahmedabad", "music release and distribution agency ahmedabad", "music release and distribution company ahmedabad"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-ahmedabad",
   },
   openGraph: {
     title: "Music Release Agency in Ahmedabad | TML Agency",
-    description: "TML offers expert music release and distribution services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release and Distribution services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-ahmedabad",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Ahmedabad | TML Agency",
-    description: "TML offers expert music release and distribution services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release and Distribution services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["chennai"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Chennai | TML Agency",
-  description: "TML offers expert lead generation services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation chennai", "lead generation agency chennai", "lead generation company chennai"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-chennai",
   },
   openGraph: {
     title: "Lead Generation Agency in Chennai | TML Agency",
-    description: "TML offers expert lead generation services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-chennai",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Chennai | TML Agency",
-    description: "TML offers expert lead generation services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

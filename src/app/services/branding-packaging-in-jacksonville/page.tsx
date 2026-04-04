@@ -6,14 +6,14 @@ const location = locations["jacksonville"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Jacksonville | TML Agency",
-  description: "TML offers expert packaging design services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design jacksonville", "packaging design agency jacksonville", "packaging design company jacksonville"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-jacksonville",
   },
   openGraph: {
     title: "Packaging Design Agency in Jacksonville | TML Agency",
-    description: "TML offers expert packaging design services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-jacksonville",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Jacksonville | TML Agency",
-    description: "TML offers expert packaging design services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

@@ -6,14 +6,14 @@ const location = locations["tauranga"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Tauranga | TML Agency",
-  description: "TML offers expert ai influencer management services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["ai influencer management tauranga", "ai influencer management agency tauranga", "ai influencer management tauranga nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-tauranga",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Tauranga | TML Agency",
-    description: "TML offers expert ai influencer management services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-tauranga",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Tauranga | TML Agency",
-    description: "TML offers expert ai influencer management services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

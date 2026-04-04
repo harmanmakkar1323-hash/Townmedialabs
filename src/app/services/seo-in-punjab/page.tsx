@@ -6,14 +6,14 @@ const location = locations["punjab"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Punjab | TML Agency",
-  description: "TML offers expert seo services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo punjab", "seo agency punjab", "seo company punjab"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-punjab",
   },
   openGraph: {
     title: "SEO Agency in Punjab | TML Agency",
-    description: "TML offers expert seo services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-punjab",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Punjab | TML Agency",
-    description: "TML offers expert seo services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

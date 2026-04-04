@@ -6,14 +6,14 @@ const location = locations["ras_al_khaimah"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Ras Al Khaimah | TML Agency",
-  description: "TML offers expert google ads services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads ras al khaimah", "google ads agency ras al khaimah", "google ads company ras al khaimah"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-ras-al-khaimah",
   },
   openGraph: {
     title: "Google Ads Agency in Ras Al Khaimah | TML Agency",
-    description: "TML offers expert google ads services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-ras-al-khaimah",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Ras Al Khaimah | TML Agency",
-    description: "TML offers expert google ads services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["san_jose"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in San Jose | TML Agency",
-  description: "TML offers expert social media marketing services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing san jose", "social media marketing agency san jose", "social media marketing company san jose"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-san-jose",
   },
   openGraph: {
     title: "Social Media Marketing Agency in San Jose | TML Agency",
-    description: "TML offers expert social media marketing services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-san-jose",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in San Jose | TML Agency",
-    description: "TML offers expert social media marketing services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

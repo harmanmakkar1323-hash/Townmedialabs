@@ -6,14 +6,14 @@ const location = locations["wollongong"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Wollongong | TML Agency",
-  description: "TML offers expert ai influencer management services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management wollongong", "ai influencer management agency wollongong", "ai influencer management company wollongong"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-wollongong",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Wollongong | TML Agency",
-    description: "TML offers expert ai influencer management services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-wollongong",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Wollongong | TML Agency",
-    description: "TML offers expert ai influencer management services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

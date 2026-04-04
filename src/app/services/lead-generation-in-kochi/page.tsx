@@ -6,14 +6,14 @@ const location = locations["kochi"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Kochi | TML Agency",
-  description: "TML offers expert lead generation services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation kochi", "lead generation agency kochi", "lead generation company kochi"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-kochi",
   },
   openGraph: {
     title: "Lead Generation Agency in Kochi | TML Agency",
-    description: "TML offers expert lead generation services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-kochi",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Kochi | TML Agency",
-    description: "TML offers expert lead generation services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

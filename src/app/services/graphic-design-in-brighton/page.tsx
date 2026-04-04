@@ -6,14 +6,14 @@ const location = locations["brighton"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Brighton | TML Agency",
-  description: "TML offers expert graphic design services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design brighton", "graphic design agency brighton", "graphic design company brighton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-brighton",
   },
   openGraph: {
     title: "Graphic Design Agency in Brighton | TML Agency",
-    description: "TML offers expert graphic design services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-brighton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Brighton | TML Agency",
-    description: "TML offers expert graphic design services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

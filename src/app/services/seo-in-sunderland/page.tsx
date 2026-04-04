@@ -6,14 +6,14 @@ const location = locations["sunderland"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Sunderland | TML Agency",
-  description: "TML offers expert seo services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo sunderland", "seo agency sunderland", "seo company sunderland"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-sunderland",
   },
   openGraph: {
     title: "SEO Agency in Sunderland | TML Agency",
-    description: "TML offers expert seo services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-sunderland",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Sunderland | TML Agency",
-    description: "TML offers expert seo services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

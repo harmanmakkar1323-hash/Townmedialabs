@@ -6,14 +6,14 @@ const location = locations["seattle"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Seattle | TML Agency",
-  description: "TML offers expert music release services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release seattle", "music release agency seattle", "music release company seattle"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-seattle",
   },
   openGraph: {
     title: "Music Release Agency in Seattle | TML Agency",
-    description: "TML offers expert music release services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-seattle",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Seattle | TML Agency",
-    description: "TML offers expert music release services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

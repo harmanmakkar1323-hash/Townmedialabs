@@ -6,14 +6,14 @@ const location = locations["oxford"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Oxford | TML Agency",
-  description: "TML offers expert social media marketing services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing oxford", "social media marketing agency oxford", "social media marketing company oxford"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-oxford",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Oxford | TML Agency",
-    description: "TML offers expert social media marketing services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-oxford",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Oxford | TML Agency",
-    description: "TML offers expert social media marketing services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

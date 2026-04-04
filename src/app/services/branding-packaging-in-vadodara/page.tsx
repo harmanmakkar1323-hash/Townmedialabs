@@ -6,14 +6,14 @@ const location = locations["vadodara"];
 
 export const metadata: Metadata = {
   title: "Branding & Packaging Agency in Vadodara | TML Agency",
-  description: "TML offers expert branding and packaging services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding and Packaging services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging vadodara", "branding and packaging agency vadodara", "branding and packaging company vadodara"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-vadodara",
   },
   openGraph: {
     title: "Branding & Packaging Agency in Vadodara | TML Agency",
-    description: "TML offers expert branding and packaging services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding and Packaging services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-vadodara",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding & Packaging Agency in Vadodara | TML Agency",
-    description: "TML offers expert branding and packaging services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding and Packaging services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

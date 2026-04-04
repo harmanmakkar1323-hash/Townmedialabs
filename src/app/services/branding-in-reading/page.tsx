@@ -6,14 +6,14 @@ const location = locations["reading"];
 
 export const metadata: Metadata = {
   title: "Branding Agency in Reading | TML Agency",
-  description: "TML offers expert branding services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding reading", "branding agency reading", "branding company reading"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-in-reading",
   },
   openGraph: {
     title: "Branding Agency in Reading | TML Agency",
-    description: "TML offers expert branding services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-in-reading",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding Agency in Reading | TML Agency",
-    description: "TML offers expert branding services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["charlotte"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Charlotte | TML Agency",
-  description: "TML offers expert website development services in Charlotte. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Charlotte. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development charlotte", "website development agency charlotte", "website development company charlotte"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-charlotte",
   },
   openGraph: {
     title: "Website Development Agency in Charlotte | TML Agency",
-    description: "TML offers expert website development services in Charlotte. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Charlotte. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-charlotte",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Charlotte | TML Agency",
-    description: "TML offers expert website development services in Charlotte. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Charlotte. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["dunedin"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Dunedin | TML Agency",
-  description: "TML offers expert packaging design services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["packaging design dunedin", "packaging design agency dunedin", "packaging design dunedin nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-dunedin",
   },
   openGraph: {
     title: "Packaging Design Agency in Dunedin | TML Agency",
-    description: "TML offers expert packaging design services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-dunedin",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Dunedin | TML Agency",
-    description: "TML offers expert packaging design services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

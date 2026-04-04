@@ -6,14 +6,14 @@ const location = locations["hamilton"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Hamilton | TML Agency",
-  description: "TML offers expert social media marketing services in Hamilton, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-  keywords: ["social media marketing hamilton", "social media marketing agency hamilton", "social media marketing hamilton nz"],
+  description: "TML offers expert Social Media Marketing services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+  keywords: ["social media marketing hamilton", "social media marketing agency hamilton", "social media marketing hamilton ontario"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-hamilton",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Hamilton | TML Agency",
-    description: "TML offers expert social media marketing services in Hamilton, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-hamilton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Hamilton | TML Agency",
-    description: "TML offers expert social media marketing services in Hamilton, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

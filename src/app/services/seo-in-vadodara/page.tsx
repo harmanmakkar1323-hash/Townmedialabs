@@ -6,14 +6,14 @@ const location = locations["vadodara"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Vadodara | TML Agency",
-  description: "TML offers expert search engine optimization services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Search Engine Optimization services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization vadodara", "search engine optimization agency vadodara", "search engine optimization company vadodara"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-vadodara",
   },
   openGraph: {
     title: "SEO Agency in Vadodara | TML Agency",
-    description: "TML offers expert search engine optimization services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-vadodara",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Vadodara | TML Agency",
-    description: "TML offers expert search engine optimization services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

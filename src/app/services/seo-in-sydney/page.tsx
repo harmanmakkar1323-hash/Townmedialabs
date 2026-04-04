@@ -6,14 +6,14 @@ const location = locations["sydney"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Sydney | TML Agency",
-  description: "TML offers expert seo services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo sydney", "seo agency sydney", "seo company sydney"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-sydney",
   },
   openGraph: {
     title: "SEO Agency in Sydney | TML Agency",
-    description: "TML offers expert seo services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-sydney",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Sydney | TML Agency",
-    description: "TML offers expert seo services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

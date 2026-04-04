@@ -6,14 +6,14 @@ const location = locations["lucknow"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Lucknow | TML Agency",
-  description: "TML offers expert video editing services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing lucknow", "video editing agency lucknow", "video editing company lucknow"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-lucknow",
   },
   openGraph: {
     title: "Video Editing Agency in Lucknow | TML Agency",
-    description: "TML offers expert video editing services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-lucknow",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Lucknow | TML Agency",
-    description: "TML offers expert video editing services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

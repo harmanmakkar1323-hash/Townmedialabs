@@ -7,14 +7,14 @@ const location = locations["san_francisco"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "Video Editing Agency in San Francisco | TML Agency",
-  description: "TML offers expert video editing services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing san francisco", "video editing agency san francisco", "video editing company san francisco"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-san-francisco",
   },
   openGraph: {
     title: "Video Editing Agency in San Francisco | TML Agency",
-    description: "TML offers expert video editing services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-san-francisco",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in San Francisco | TML Agency",
-    description: "TML offers expert video editing services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["coimbatore"];
 
 export const metadata: Metadata = {
   title: "Branding & Packaging Agency in Coimbatore | TML Agency",
-  description: "TML offers expert branding and packaging services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding and Packaging services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging coimbatore", "branding and packaging agency coimbatore", "branding and packaging company coimbatore"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-coimbatore",
   },
   openGraph: {
     title: "Branding & Packaging Agency in Coimbatore | TML Agency",
-    description: "TML offers expert branding and packaging services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding and Packaging services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-coimbatore",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding & Packaging Agency in Coimbatore | TML Agency",
-    description: "TML offers expert branding and packaging services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding and Packaging services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

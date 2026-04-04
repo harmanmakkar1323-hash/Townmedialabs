@@ -6,14 +6,14 @@ const location = locations["auckland"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Auckland | TML Agency",
-  description: "TML offers expert google ads services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads auckland", "google ads agency auckland", "google ads company auckland"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-auckland",
   },
   openGraph: {
     title: "Google Ads Agency in Auckland | TML Agency",
-    description: "TML offers expert google ads services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-auckland",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Auckland | TML Agency",
-    description: "TML offers expert google ads services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["nottingham"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Nottingham | TML Agency",
-  description: "TML offers expert social media marketing services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing nottingham", "social media marketing agency nottingham", "social media marketing company nottingham"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-nottingham",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Nottingham | TML Agency",
-    description: "TML offers expert social media marketing services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-nottingham",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Nottingham | TML Agency",
-    description: "TML offers expert social media marketing services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

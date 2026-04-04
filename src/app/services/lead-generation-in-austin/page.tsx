@@ -6,14 +6,14 @@ const location = locations["austin"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Austin | TML Agency",
-  description: "TML offers expert lead generation services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation austin", "lead generation agency austin", "lead generation company austin"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-austin",
   },
   openGraph: {
     title: "Lead Generation Agency in Austin | TML Agency",
-    description: "TML offers expert lead generation services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-austin",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Austin | TML Agency",
-    description: "TML offers expert lead generation services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["newcastle_au"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Newcastle | TML Agency",
-  description: "TML offers expert graphic design services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design newcastle", "graphic design agency newcastle", "graphic design company newcastle"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-newcastle-au",
   },
   openGraph: {
     title: "Graphic Design Agency in Newcastle | TML Agency",
-    description: "TML offers expert graphic design services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-newcastle-au",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Newcastle | TML Agency",
-    description: "TML offers expert graphic design services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

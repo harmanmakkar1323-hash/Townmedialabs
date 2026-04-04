@@ -6,14 +6,14 @@ const location = locations["ludhiana"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Ludhiana | TML Agency",
-  description: "TML offers expert video editing services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing ludhiana", "video editing agency ludhiana", "video editing company ludhiana"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-ludhiana",
   },
   openGraph: {
     title: "Video Editing Agency in Ludhiana | TML Agency",
-    description: "TML offers expert video editing services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-ludhiana",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Ludhiana | TML Agency",
-    description: "TML offers expert video editing services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

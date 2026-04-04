@@ -6,14 +6,14 @@ const location = locations["austin"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Austin | TML Agency",
-  description: "TML offers expert ai influencer management services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management austin", "ai influencer management agency austin", "ai influencer management company austin"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-austin",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Austin | TML Agency",
-    description: "TML offers expert ai influencer management services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-austin",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Austin | TML Agency",
-    description: "TML offers expert ai influencer management services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

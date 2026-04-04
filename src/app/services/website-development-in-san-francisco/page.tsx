@@ -6,14 +6,14 @@ const location = locations["san_francisco"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in San Francisco | TML Agency",
-  description: "TML offers expert website development services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development san francisco", "website development agency san francisco", "website development company san francisco"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-san-francisco",
   },
   openGraph: {
     title: "Website Development Agency in San Francisco | TML Agency",
-    description: "TML offers expert website development services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-san-francisco",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in San Francisco | TML Agency",
-    description: "TML offers expert website development services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

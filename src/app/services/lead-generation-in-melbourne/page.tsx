@@ -6,14 +6,14 @@ const location = locations["melbourne"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Melbourne | TML Agency",
-  description: "TML offers expert lead generation services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation melbourne", "lead generation agency melbourne", "lead generation company melbourne"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-melbourne",
   },
   openGraph: {
     title: "Lead Generation Agency in Melbourne | TML Agency",
-    description: "TML offers expert lead generation services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-melbourne",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Melbourne | TML Agency",
-    description: "TML offers expert lead generation services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

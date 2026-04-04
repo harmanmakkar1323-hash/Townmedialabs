@@ -6,14 +6,14 @@ const location = locations["dundee"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Dundee | TML Agency",
-  description: "TML offers expert social media marketing services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing dundee", "social media marketing agency dundee", "social media marketing company dundee"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-dundee",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Dundee | TML Agency",
-    description: "TML offers expert social media marketing services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-dundee",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Dundee | TML Agency",
-    description: "TML offers expert social media marketing services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

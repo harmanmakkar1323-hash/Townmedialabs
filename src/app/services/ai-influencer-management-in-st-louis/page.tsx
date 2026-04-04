@@ -7,14 +7,14 @@ const location = locations["st_louis"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "AI Influencer Management Agency in St. Louis | TML Agency",
-  description: "TML offers expert ai influencer management services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management st. louis", "ai influencer management agency st. louis", "ai influencer management company st. louis"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-st-louis",
   },
   openGraph: {
     title: "AI Influencer Management Agency in St. Louis | TML Agency",
-    description: "TML offers expert ai influencer management services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-st-louis",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in St. Louis | TML Agency",
-    description: "TML offers expert ai influencer management services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

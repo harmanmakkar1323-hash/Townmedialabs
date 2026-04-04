@@ -6,14 +6,14 @@ const location = locations["atlanta"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Atlanta | TML Agency",
-  description: "TML offers expert ai influencer management services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management atlanta", "ai influencer management agency atlanta", "ai influencer management company atlanta"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-atlanta",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Atlanta | TML Agency",
-    description: "TML offers expert ai influencer management services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-atlanta",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Atlanta | TML Agency",
-    description: "TML offers expert ai influencer management services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

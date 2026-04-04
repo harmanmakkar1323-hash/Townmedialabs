@@ -6,14 +6,14 @@ const location = locations["st_louis"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in St. Louis | TML Agency",
-  description: "TML offers expert social media marketing services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing st. louis", "social media marketing agency st. louis", "social media marketing company st. louis"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-st-louis",
   },
   openGraph: {
     title: "Social Media Marketing Agency in St. Louis | TML Agency",
-    description: "TML offers expert social media marketing services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-st-louis",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in St. Louis | TML Agency",
-    description: "TML offers expert social media marketing services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

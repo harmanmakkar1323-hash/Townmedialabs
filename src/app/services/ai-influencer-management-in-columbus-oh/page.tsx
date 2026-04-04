@@ -7,14 +7,14 @@ const location = locations["columbus_oh"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "AI Influencer Management Agency in Columbus | TML Agency",
-  description: "TML offers expert ai influencer management services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management columbus", "ai influencer management agency columbus", "ai influencer management company columbus"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-columbus-oh",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Columbus | TML Agency",
-    description: "TML offers expert ai influencer management services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-columbus-oh",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Columbus | TML Agency",
-    description: "TML offers expert ai influencer management services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

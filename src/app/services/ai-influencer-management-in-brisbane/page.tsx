@@ -6,14 +6,14 @@ const location = locations["brisbane"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Brisbane | TML Agency",
-  description: "TML offers expert ai influencer management services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management brisbane", "ai influencer management agency brisbane", "ai influencer management company brisbane"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-brisbane",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Brisbane | TML Agency",
-    description: "TML offers expert ai influencer management services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-brisbane",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Brisbane | TML Agency",
-    description: "TML offers expert ai influencer management services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

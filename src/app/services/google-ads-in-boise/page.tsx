@@ -6,14 +6,14 @@ const location = locations["boise"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Boise | TML Agency",
-  description: "TML offers expert google ads services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads boise", "google ads agency boise", "google ads company boise"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-boise",
   },
   openGraph: {
     title: "Google Ads Agency in Boise | TML Agency",
-    description: "TML offers expert google ads services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-boise",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Boise | TML Agency",
-    description: "TML offers expert google ads services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

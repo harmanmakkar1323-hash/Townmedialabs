@@ -6,14 +6,14 @@ const location = locations["tauranga"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Tauranga | TML Agency",
-  description: "TML offers expert social media marketing services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["social media marketing tauranga", "social media marketing agency tauranga", "social media marketing tauranga nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-tauranga",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Tauranga | TML Agency",
-    description: "TML offers expert social media marketing services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-tauranga",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Tauranga | TML Agency",
-    description: "TML offers expert social media marketing services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

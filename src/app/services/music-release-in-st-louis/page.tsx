@@ -7,14 +7,14 @@ const location = locations["st_louis"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "Music Release Agency in St. Louis | TML Agency",
-  description: "TML offers expert music release services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release st. louis", "music release agency st. louis", "music release company st. louis"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-st-louis",
   },
   openGraph: {
     title: "Music Release Agency in St. Louis | TML Agency",
-    description: "TML offers expert music release services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-st-louis",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in St. Louis | TML Agency",
-    description: "TML offers expert music release services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["cardiff"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Cardiff | TML Agency",
-  description: "TML offers expert seo services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo cardiff", "seo agency cardiff", "seo company cardiff"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-cardiff",
   },
   openGraph: {
     title: "SEO Agency in Cardiff | TML Agency",
-    description: "TML offers expert seo services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-cardiff",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Cardiff | TML Agency",
-    description: "TML offers expert seo services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

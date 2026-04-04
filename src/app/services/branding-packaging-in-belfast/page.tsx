@@ -6,14 +6,14 @@ const location = locations["belfast"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Belfast | TML Agency",
-  description: "TML offers expert packaging design services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design belfast", "packaging design agency belfast", "packaging design company belfast"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-belfast",
   },
   openGraph: {
     title: "Packaging Design Agency in Belfast | TML Agency",
-    description: "TML offers expert packaging design services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-belfast",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Belfast | TML Agency",
-    description: "TML offers expert packaging design services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

@@ -6,14 +6,14 @@ const location = locations["perth"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Perth | TML Agency",
-  description: "TML offers expert seo services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo perth", "seo agency perth", "seo company perth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-perth",
   },
   openGraph: {
     title: "SEO Agency in Perth | TML Agency",
-    description: "TML offers expert seo services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-perth",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Perth | TML Agency",
-    description: "TML offers expert seo services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

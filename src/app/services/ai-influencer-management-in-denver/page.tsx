@@ -6,14 +6,14 @@ const location = locations["denver"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Denver | TML Agency",
-  description: "TML offers expert ai influencer management services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management denver", "ai influencer management agency denver", "ai influencer management company denver"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-denver",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Denver | TML Agency",
-    description: "TML offers expert ai influencer management services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-denver",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Denver | TML Agency",
-    description: "TML offers expert ai influencer management services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

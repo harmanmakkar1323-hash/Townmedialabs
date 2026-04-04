@@ -6,14 +6,14 @@ const location = locations["toowoomba"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Toowoomba | TML Agency",
-  description: "TML offers expert graphic design services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design toowoomba", "graphic design agency toowoomba", "graphic design company toowoomba"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-toowoomba",
   },
   openGraph: {
     title: "Graphic Design Agency in Toowoomba | TML Agency",
-    description: "TML offers expert graphic design services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-toowoomba",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Toowoomba | TML Agency",
-    description: "TML offers expert graphic design services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

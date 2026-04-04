@@ -7,14 +7,14 @@ const location = locations["stoke_on_trent"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "Music Release Agency in Stoke-on-Trent | TML Agency",
-  description: "TML offers expert music release services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release stoke-on-trent", "music release agency stoke-on-trent", "music release company stoke-on-trent"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-stoke-on-trent",
   },
   openGraph: {
     title: "Music Release Agency in Stoke-on-Trent | TML Agency",
-    description: "TML offers expert music release services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-stoke-on-trent",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Stoke-on-Trent | TML Agency",
-    description: "TML offers expert music release services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

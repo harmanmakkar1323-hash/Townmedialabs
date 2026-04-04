@@ -6,14 +6,14 @@ const location = locations["minneapolis"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Minneapolis | TML Agency",
-  description: "TML offers expert website development services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development minneapolis", "website development agency minneapolis", "website development company minneapolis"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-minneapolis",
   },
   openGraph: {
     title: "Website Development Agency in Minneapolis | TML Agency",
-    description: "TML offers expert website development services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-minneapolis",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Minneapolis | TML Agency",
-    description: "TML offers expert website development services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["exeter"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Exeter | TML Agency",
-  description: "TML offers expert website development services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development exeter", "website development agency exeter", "website development company exeter"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-exeter",
   },
   openGraph: {
     title: "Website Development Agency in Exeter | TML Agency",
-    description: "TML offers expert website development services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-exeter",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Exeter | TML Agency",
-    description: "TML offers expert website development services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

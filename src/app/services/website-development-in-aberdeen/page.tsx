@@ -6,14 +6,14 @@ const location = locations["aberdeen"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Aberdeen | TML Agency",
-  description: "TML offers expert website development services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development aberdeen", "website development agency aberdeen", "website development company aberdeen"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-aberdeen",
   },
   openGraph: {
     title: "Website Development Agency in Aberdeen | TML Agency",
-    description: "TML offers expert website development services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-aberdeen",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Aberdeen | TML Agency",
-    description: "TML offers expert website development services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

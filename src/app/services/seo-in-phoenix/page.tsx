@@ -6,14 +6,14 @@ const location = locations["phoenix"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Phoenix | TML Agency",
-  description: "TML offers expert seo services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo phoenix", "seo agency phoenix", "seo company phoenix"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-phoenix",
   },
   openGraph: {
     title: "SEO Agency in Phoenix | TML Agency",
-    description: "TML offers expert seo services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-phoenix",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Phoenix | TML Agency",
-    description: "TML offers expert seo services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

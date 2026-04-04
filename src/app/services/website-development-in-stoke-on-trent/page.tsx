@@ -6,14 +6,14 @@ const location = locations["stoke_on_trent"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Stoke-on-Trent | TML Agency",
-  description: "TML offers expert website development services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development stoke-on-trent", "website development agency stoke-on-trent", "website development company stoke-on-trent"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-stoke-on-trent",
   },
   openGraph: {
     title: "Website Development Agency in Stoke-on-Trent | TML Agency",
-    description: "TML offers expert website development services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-stoke-on-trent",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Stoke-on-Trent | TML Agency",
-    description: "TML offers expert website development services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

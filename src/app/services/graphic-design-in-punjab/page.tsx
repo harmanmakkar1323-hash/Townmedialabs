@@ -6,14 +6,14 @@ const location = locations["punjab"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Punjab | TML Agency",
-  description: "TML offers expert graphic design services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design punjab", "graphic design agency punjab", "graphic design company punjab"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-punjab",
   },
   openGraph: {
     title: "Graphic Design Agency in Punjab | TML Agency",
-    description: "TML offers expert graphic design services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-punjab",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Punjab | TML Agency",
-    description: "TML offers expert graphic design services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

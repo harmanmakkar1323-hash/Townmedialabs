@@ -6,14 +6,14 @@ const location = locations["cambridge"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Cambridge | TML Agency",
-  description: "TML offers expert google ads services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads cambridge", "google ads agency cambridge", "google ads company cambridge"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-cambridge",
   },
   openGraph: {
     title: "Google Ads Agency in Cambridge | TML Agency",
-    description: "TML offers expert google ads services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-cambridge",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Cambridge | TML Agency",
-    description: "TML offers expert google ads services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

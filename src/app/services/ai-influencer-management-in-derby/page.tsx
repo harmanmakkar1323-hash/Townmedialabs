@@ -6,14 +6,14 @@ const location = locations["derby"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Derby | TML Agency",
-  description: "TML offers expert ai influencer management services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management derby", "ai influencer management agency derby", "ai influencer management company derby"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-derby",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Derby | TML Agency",
-    description: "TML offers expert ai influencer management services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-derby",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Derby | TML Agency",
-    description: "TML offers expert ai influencer management services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

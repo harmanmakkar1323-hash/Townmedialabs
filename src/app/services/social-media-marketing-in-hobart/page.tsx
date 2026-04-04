@@ -6,14 +6,14 @@ const location = locations["hobart"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Hobart | TML Agency",
-  description: "TML offers expert social media marketing services in Hobart. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Hobart. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing hobart", "social media marketing agency hobart", "social media marketing company hobart"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-hobart",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Hobart | TML Agency",
-    description: "TML offers expert social media marketing services in Hobart. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Hobart. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-hobart",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Hobart | TML Agency",
-    description: "TML offers expert social media marketing services in Hobart. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Hobart. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

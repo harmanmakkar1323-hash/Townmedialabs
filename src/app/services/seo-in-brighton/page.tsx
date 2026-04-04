@@ -6,14 +6,14 @@ const location = locations["brighton"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Brighton | TML Agency",
-  description: "TML offers expert seo services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo brighton", "seo agency brighton", "seo company brighton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-brighton",
   },
   openGraph: {
     title: "SEO Agency in Brighton | TML Agency",
-    description: "TML offers expert seo services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-brighton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Brighton | TML Agency",
-    description: "TML offers expert seo services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

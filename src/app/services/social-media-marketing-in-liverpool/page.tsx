@@ -6,14 +6,14 @@ const location = locations["liverpool"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Liverpool | TML Agency",
-  description: "TML offers expert social media marketing services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing liverpool", "social media marketing agency liverpool", "social media marketing company liverpool"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-liverpool",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Liverpool | TML Agency",
-    description: "TML offers expert social media marketing services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-liverpool",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Liverpool | TML Agency",
-    description: "TML offers expert social media marketing services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

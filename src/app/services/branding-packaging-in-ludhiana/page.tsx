@@ -6,14 +6,14 @@ const location = locations["ludhiana"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Ludhiana | TML Agency",
-  description: "TML offers expert packaging design services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design ludhiana", "packaging design agency ludhiana", "packaging design company ludhiana"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-ludhiana",
   },
   openGraph: {
     title: "Packaging Design Agency in Ludhiana | TML Agency",
-    description: "TML offers expert packaging design services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-ludhiana",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Ludhiana | TML Agency",
-    description: "TML offers expert packaging design services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

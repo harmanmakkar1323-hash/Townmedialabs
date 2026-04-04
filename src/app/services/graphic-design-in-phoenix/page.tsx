@@ -6,14 +6,14 @@ const location = locations["phoenix"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Phoenix | TML Agency",
-  description: "TML offers expert graphic design services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design phoenix", "graphic design agency phoenix", "graphic design company phoenix"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-phoenix",
   },
   openGraph: {
     title: "Graphic Design Agency in Phoenix | TML Agency",
-    description: "TML offers expert graphic design services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-phoenix",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Phoenix | TML Agency",
-    description: "TML offers expert graphic design services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

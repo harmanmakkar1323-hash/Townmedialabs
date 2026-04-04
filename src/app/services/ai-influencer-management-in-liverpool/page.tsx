@@ -6,14 +6,14 @@ const location = locations["liverpool"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Liverpool | TML Agency",
-  description: "TML offers expert ai influencer management services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management liverpool", "ai influencer management agency liverpool", "ai influencer management company liverpool"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-liverpool",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Liverpool | TML Agency",
-    description: "TML offers expert ai influencer management services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-liverpool",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Liverpool | TML Agency",
-    description: "TML offers expert ai influencer management services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

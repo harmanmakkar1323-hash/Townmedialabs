@@ -6,14 +6,14 @@ const location = locations["liverpool"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Liverpool | TML Agency",
-  description: "TML offers expert seo services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo liverpool", "seo agency liverpool", "seo company liverpool"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-liverpool",
   },
   openGraph: {
     title: "SEO Agency in Liverpool | TML Agency",
-    description: "TML offers expert seo services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-liverpool",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Liverpool | TML Agency",
-    description: "TML offers expert seo services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

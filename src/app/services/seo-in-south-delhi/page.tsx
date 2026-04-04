@@ -6,14 +6,14 @@ const location = locations["south_delhi"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in South Delhi | TML Agency",
-  description: "TML offers expert search engine optimization services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Search Engine Optimization services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization south delhi", "search engine optimization agency south delhi", "search engine optimization company south delhi"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-south-delhi",
   },
   openGraph: {
     title: "SEO Agency in South Delhi | TML Agency",
-    description: "TML offers expert search engine optimization services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-south-delhi",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in South Delhi | TML Agency",
-    description: "TML offers expert search engine optimization services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

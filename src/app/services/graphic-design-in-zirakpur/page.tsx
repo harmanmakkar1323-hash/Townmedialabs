@@ -6,14 +6,14 @@ const location = locations["zirakpur"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Zirakpur | TML Agency",
-  description: "TML offers expert graphic design services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design zirakpur", "graphic design agency zirakpur", "graphic design company zirakpur"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-zirakpur",
   },
   openGraph: {
     title: "Graphic Design Agency in Zirakpur | TML Agency",
-    description: "TML offers expert graphic design services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-zirakpur",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Zirakpur | TML Agency",
-    description: "TML offers expert graphic design services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

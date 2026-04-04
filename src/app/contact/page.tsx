@@ -144,7 +144,7 @@ const faqSchema = {
       name: "Does TML Agency work with clients outside Chandigarh?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Absolutely! While our office is based in Chandigarh, we work with clients across India and internationally. We use video calls, project management tools, and regular updates to ensure seamless collaboration regardless of location.",
+        text: "Absolutely! We have offices in Edmonton, Canada and Chandigarh, India, and work with clients across North America, India, and internationally. We use video calls, project management tools, and regular updates to ensure seamless collaboration regardless of location.",
       },
     },
   ],

@@ -6,14 +6,14 @@ const location = locations["melbourne"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Melbourne | TML Agency",
-  description: "TML offers expert graphic design services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design melbourne", "graphic design agency melbourne", "graphic design company melbourne"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-melbourne",
   },
   openGraph: {
     title: "Graphic Design Agency in Melbourne | TML Agency",
-    description: "TML offers expert graphic design services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-melbourne",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Melbourne | TML Agency",
-    description: "TML offers expert graphic design services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

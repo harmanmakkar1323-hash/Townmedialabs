@@ -6,14 +6,14 @@ const location = locations["southampton"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Southampton | TML Agency",
-  description: "TML offers expert website development services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development southampton", "website development agency southampton", "website development company southampton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-southampton",
   },
   openGraph: {
     title: "Website Development Agency in Southampton | TML Agency",
-    description: "TML offers expert website development services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-southampton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Southampton | TML Agency",
-    description: "TML offers expert website development services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

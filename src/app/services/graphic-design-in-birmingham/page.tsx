@@ -6,14 +6,14 @@ const location = locations["birmingham"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Birmingham | TML Agency",
-  description: "TML offers expert graphic design services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design birmingham", "graphic design agency birmingham", "graphic design company birmingham"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-birmingham",
   },
   openGraph: {
     title: "Graphic Design Agency in Birmingham | TML Agency",
-    description: "TML offers expert graphic design services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-birmingham",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Birmingham | TML Agency",
-    description: "TML offers expert graphic design services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

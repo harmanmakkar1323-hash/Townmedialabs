@@ -6,14 +6,14 @@ const location = locations["wellington"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Wellington | TML Agency",
-  description: "TML offers expert website development services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["website development wellington", "website development agency wellington", "website development wellington nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-wellington",
   },
   openGraph: {
     title: "Website Development Agency in Wellington | TML Agency",
-    description: "TML offers expert website development services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-wellington",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Wellington | TML Agency",
-    description: "TML offers expert website development services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

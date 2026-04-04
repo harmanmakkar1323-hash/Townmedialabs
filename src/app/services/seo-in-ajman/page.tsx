@@ -6,14 +6,14 @@ const location = locations["ajman"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Ajman | TML Agency",
-  description: "TML offers expert seo services in Ajman. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Ajman. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo ajman", "seo agency ajman", "seo company ajman"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-ajman",
   },
   openGraph: {
     title: "SEO Agency in Ajman | TML Agency",
-    description: "TML offers expert seo services in Ajman. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Ajman. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-ajman",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Ajman | TML Agency",
-    description: "TML offers expert seo services in Ajman. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Ajman. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

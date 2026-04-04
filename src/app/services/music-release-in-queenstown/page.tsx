@@ -6,14 +6,14 @@ const location = locations["queenstown"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Queenstown | TML Agency",
-  description: "TML offers expert music release services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["music release queenstown", "music release agency queenstown", "music release queenstown nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-queenstown",
   },
   openGraph: {
     title: "Music Release Agency in Queenstown | TML Agency",
-    description: "TML offers expert music release services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-queenstown",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Queenstown | TML Agency",
-    description: "TML offers expert music release services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

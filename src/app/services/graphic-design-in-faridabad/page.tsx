@@ -6,14 +6,14 @@ const location = locations["faridabad"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Faridabad | TML Agency",
-  description: "TML offers expert graphic design services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design faridabad", "graphic design agency faridabad", "graphic design company faridabad"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-faridabad",
   },
   openGraph: {
     title: "Graphic Design Agency in Faridabad | TML Agency",
-    description: "TML offers expert graphic design services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-faridabad",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Faridabad | TML Agency",
-    description: "TML offers expert graphic design services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

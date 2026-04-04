@@ -6,14 +6,14 @@ const location = locations["rockhampton"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Rockhampton | TML Agency",
-  description: "TML offers expert seo services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo rockhampton", "seo agency rockhampton", "seo company rockhampton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-rockhampton",
   },
   openGraph: {
     title: "SEO Agency in Rockhampton | TML Agency",
-    description: "TML offers expert seo services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-rockhampton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Rockhampton | TML Agency",
-    description: "TML offers expert seo services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

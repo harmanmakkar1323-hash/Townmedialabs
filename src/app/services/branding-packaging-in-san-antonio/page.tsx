@@ -7,14 +7,14 @@ const location = locations["san_antonio"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "Packaging Design Agency in San Antonio | TML Agency",
-  description: "TML offers expert packaging design services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design san antonio", "packaging design agency san antonio", "packaging design company san antonio"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-san-antonio",
   },
   openGraph: {
     title: "Packaging Design Agency in San Antonio | TML Agency",
-    description: "TML offers expert packaging design services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-san-antonio",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in San Antonio | TML Agency",
-    description: "TML offers expert packaging design services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

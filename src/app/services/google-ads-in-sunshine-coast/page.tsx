@@ -6,14 +6,14 @@ const location = locations["sunshine_coast"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Sunshine Coast | TML Agency",
-  description: "TML offers expert google ads services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads sunshine coast", "google ads agency sunshine coast", "google ads company sunshine coast"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-sunshine-coast",
   },
   openGraph: {
     title: "Google Ads Agency in Sunshine Coast | TML Agency",
-    description: "TML offers expert google ads services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-sunshine-coast",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Sunshine Coast | TML Agency",
-    description: "TML offers expert google ads services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

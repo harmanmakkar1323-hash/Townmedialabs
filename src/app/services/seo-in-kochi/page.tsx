@@ -6,14 +6,14 @@ const location = locations["kochi"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Kochi | TML Agency",
-  description: "TML offers expert search engine optimization services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Search Engine Optimization services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization kochi", "search engine optimization agency kochi", "search engine optimization company kochi"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-kochi",
   },
   openGraph: {
     title: "SEO Agency in Kochi | TML Agency",
-    description: "TML offers expert search engine optimization services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-kochi",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Kochi | TML Agency",
-    description: "TML offers expert search engine optimization services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

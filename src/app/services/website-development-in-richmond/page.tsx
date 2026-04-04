@@ -6,14 +6,14 @@ const location = locations["richmond"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Richmond | TML Agency",
-  description: "TML offers expert website development services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development richmond", "website development agency richmond", "website development company richmond"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-richmond",
   },
   openGraph: {
     title: "Website Development Agency in Richmond | TML Agency",
-    description: "TML offers expert website development services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-richmond",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Richmond | TML Agency",
-    description: "TML offers expert website development services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["boise"];
 
 export const metadata: Metadata = {
   title: "Branding Agency in Boise | TML Agency",
-  description: "TML offers expert branding services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding boise", "branding agency boise", "branding company boise"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-in-boise",
   },
   openGraph: {
     title: "Branding Agency in Boise | TML Agency",
-    description: "TML offers expert branding services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-in-boise",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding Agency in Boise | TML Agency",
-    description: "TML offers expert branding services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

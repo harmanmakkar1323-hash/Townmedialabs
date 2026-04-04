@@ -6,14 +6,14 @@ const location = locations["umm_al_quwain"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Umm Al Quwain | TML Agency",
-  description: "TML offers expert social media marketing services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing umm al quwain", "social media marketing agency umm al quwain", "social media marketing company umm al quwain"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-umm-al-quwain",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Umm Al Quwain | TML Agency",
-    description: "TML offers expert social media marketing services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-umm-al-quwain",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Umm Al Quwain | TML Agency",
-    description: "TML offers expert social media marketing services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

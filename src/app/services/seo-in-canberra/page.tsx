@@ -6,14 +6,14 @@ const location = locations["canberra"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Canberra | TML Agency",
-  description: "TML offers expert seo services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo canberra", "seo agency canberra", "seo company canberra"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-canberra",
   },
   openGraph: {
     title: "SEO Agency in Canberra | TML Agency",
-    description: "TML offers expert seo services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-canberra",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Canberra | TML Agency",
-    description: "TML offers expert seo services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

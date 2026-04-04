@@ -6,14 +6,14 @@ const location = locations["sunderland"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Sunderland | TML Agency",
-  description: "TML offers expert google ads services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads sunderland", "google ads agency sunderland", "google ads company sunderland"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-sunderland",
   },
   openGraph: {
     title: "Google Ads Agency in Sunderland | TML Agency",
-    description: "TML offers expert google ads services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-sunderland",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Sunderland | TML Agency",
-    description: "TML offers expert google ads services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

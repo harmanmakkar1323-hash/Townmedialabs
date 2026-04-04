@@ -6,14 +6,14 @@ const location = locations["darwin"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Darwin | TML Agency",
-  description: "TML offers expert google ads services in Darwin. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Darwin. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads darwin", "google ads agency darwin", "google ads company darwin"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-darwin",
   },
   openGraph: {
     title: "Google Ads Agency in Darwin | TML Agency",
-    description: "TML offers expert google ads services in Darwin. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Darwin. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-darwin",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Darwin | TML Agency",
-    description: "TML offers expert google ads services in Darwin. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Darwin. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

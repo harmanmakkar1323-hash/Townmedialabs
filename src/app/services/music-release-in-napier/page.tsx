@@ -6,14 +6,14 @@ const location = locations["napier"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Napier | TML Agency",
-  description: "TML offers expert music release services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["music release napier", "music release agency napier", "music release napier nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-napier",
   },
   openGraph: {
     title: "Music Release Agency in Napier | TML Agency",
-    description: "TML offers expert music release services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-napier",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Napier | TML Agency",
-    description: "TML offers expert music release services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

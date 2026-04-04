@@ -6,14 +6,14 @@ const location = locations["peterborough"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Peterborough | TML Agency",
-  description: "TML offers expert website development services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development peterborough", "website development agency peterborough", "website development company peterborough"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-peterborough",
   },
   openGraph: {
     title: "Website Development Agency in Peterborough | TML Agency",
-    description: "TML offers expert website development services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-peterborough",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Peterborough | TML Agency",
-    description: "TML offers expert website development services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

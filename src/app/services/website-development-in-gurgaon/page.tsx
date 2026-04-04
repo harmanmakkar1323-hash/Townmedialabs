@@ -6,14 +6,14 @@ const location = locations["gurgaon"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Gurgaon | TML Agency",
-  description: "TML offers expert website development services in Gurgaon. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Gurgaon. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development gurgaon", "website development agency gurgaon", "website development company gurgaon"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-gurgaon",
   },
   openGraph: {
     title: "Website Development Agency in Gurgaon | TML Agency",
-    description: "TML offers expert website development services in Gurgaon. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Gurgaon. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-gurgaon",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Gurgaon | TML Agency",
-    description: "TML offers expert website development services in Gurgaon. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Gurgaon. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

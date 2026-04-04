@@ -6,14 +6,14 @@ const location = locations["dunedin"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Dunedin | TML Agency",
-  description: "TML offers expert website development services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["website development dunedin", "website development agency dunedin", "website development dunedin nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-dunedin",
   },
   openGraph: {
     title: "Website Development Agency in Dunedin | TML Agency",
-    description: "TML offers expert website development services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-dunedin",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Dunedin | TML Agency",
-    description: "TML offers expert website development services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

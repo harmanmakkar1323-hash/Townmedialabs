@@ -6,14 +6,14 @@ const location = locations["bathinda"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Bathinda | TML Agency",
-  description: "TML offers expert seo services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo bathinda", "seo agency bathinda", "seo company bathinda"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-bathinda",
   },
   openGraph: {
     title: "SEO Agency in Bathinda | TML Agency",
-    description: "TML offers expert seo services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-bathinda",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Bathinda | TML Agency",
-    description: "TML offers expert seo services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

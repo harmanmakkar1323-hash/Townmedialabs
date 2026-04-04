@@ -6,14 +6,14 @@ const location = locations["hyderabad"];
 
 export const metadata: Metadata = {
   title: "Branding Agency in Hyderabad | TML Agency",
-  description: "TML offers expert branding services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding hyderabad", "branding agency hyderabad", "branding company hyderabad"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-in-hyderabad",
   },
   openGraph: {
     title: "Branding Agency in Hyderabad | TML Agency",
-    description: "TML offers expert branding services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-in-hyderabad",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding Agency in Hyderabad | TML Agency",
-    description: "TML offers expert branding services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

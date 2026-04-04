@@ -6,14 +6,14 @@ const location = locations["belfast"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Belfast | TML Agency",
-  description: "TML offers expert social media marketing services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing belfast", "social media marketing agency belfast", "social media marketing company belfast"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-belfast",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Belfast | TML Agency",
-    description: "TML offers expert social media marketing services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-belfast",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Belfast | TML Agency",
-    description: "TML offers expert social media marketing services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

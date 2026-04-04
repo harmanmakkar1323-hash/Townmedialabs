@@ -7,14 +7,14 @@ const location = locations["las_vegas"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "Video Editing Agency in Las Vegas | TML Agency",
-  description: "TML offers expert video editing services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing las vegas", "video editing agency las vegas", "video editing company las vegas"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-las-vegas",
   },
   openGraph: {
     title: "Video Editing Agency in Las Vegas | TML Agency",
-    description: "TML offers expert video editing services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-las-vegas",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Las Vegas | TML Agency",
-    description: "TML offers expert video editing services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

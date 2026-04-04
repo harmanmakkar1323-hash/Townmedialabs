@@ -6,14 +6,14 @@ const location = locations["salt_lake_city"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Salt Lake City | TML Agency",
-  description: "TML offers expert lead generation services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation salt lake city", "lead generation agency salt lake city", "lead generation company salt lake city"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-salt-lake-city",
   },
   openGraph: {
     title: "Lead Generation Agency in Salt Lake City | TML Agency",
-    description: "TML offers expert lead generation services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-salt-lake-city",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Salt Lake City | TML Agency",
-    description: "TML offers expert lead generation services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["bournemouth"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Bournemouth | TML Agency",
-  description: "TML offers expert graphic design services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design bournemouth", "graphic design agency bournemouth", "graphic design company bournemouth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-bournemouth",
   },
   openGraph: {
     title: "Graphic Design Agency in Bournemouth | TML Agency",
-    description: "TML offers expert graphic design services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-bournemouth",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Bournemouth | TML Agency",
-    description: "TML offers expert graphic design services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

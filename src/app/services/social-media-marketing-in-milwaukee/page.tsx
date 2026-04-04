@@ -6,14 +6,14 @@ const location = locations["milwaukee"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Milwaukee | TML Agency",
-  description: "TML offers expert social media marketing services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing milwaukee", "social media marketing agency milwaukee", "social media marketing company milwaukee"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-milwaukee",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Milwaukee | TML Agency",
-    description: "TML offers expert social media marketing services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-milwaukee",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Milwaukee | TML Agency",
-    description: "TML offers expert social media marketing services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["dundee"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Dundee | TML Agency",
-  description: "TML offers expert website development services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development dundee", "website development agency dundee", "website development company dundee"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-dundee",
   },
   openGraph: {
     title: "Website Development Agency in Dundee | TML Agency",
-    description: "TML offers expert website development services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-dundee",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Dundee | TML Agency",
-    description: "TML offers expert website development services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

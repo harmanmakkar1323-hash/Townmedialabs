@@ -6,14 +6,14 @@ const location = locations["queenstown"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Queenstown | TML Agency",
-  description: "TML offers expert social media marketing services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["social media marketing queenstown", "social media marketing agency queenstown", "social media marketing queenstown nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-queenstown",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Queenstown | TML Agency",
-    description: "TML offers expert social media marketing services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-queenstown",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Queenstown | TML Agency",
-    description: "TML offers expert social media marketing services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

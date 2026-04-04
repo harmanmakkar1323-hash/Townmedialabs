@@ -6,14 +6,14 @@ const location = locations["kharar"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Kharar | TML Agency",
-  description: "TML offers expert video editing services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing kharar", "video editing agency kharar", "video editing company kharar"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-kharar",
   },
   openGraph: {
     title: "Video Editing Agency in Kharar | TML Agency",
-    description: "TML offers expert video editing services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-kharar",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Kharar | TML Agency",
-    description: "TML offers expert video editing services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

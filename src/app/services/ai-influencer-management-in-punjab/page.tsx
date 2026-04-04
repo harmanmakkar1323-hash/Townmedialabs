@@ -6,14 +6,14 @@ const location = locations["punjab"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Punjab | TML Agency",
-  description: "TML offers expert ai influencer management services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management punjab", "ai influencer management agency punjab", "ai influencer management company punjab"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-punjab",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Punjab | TML Agency",
-    description: "TML offers expert ai influencer management services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-punjab",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Punjab | TML Agency",
-    description: "TML offers expert ai influencer management services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

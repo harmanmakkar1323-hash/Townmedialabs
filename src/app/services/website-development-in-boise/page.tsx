@@ -6,14 +6,14 @@ const location = locations["boise"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Boise | TML Agency",
-  description: "TML offers expert website development services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development boise", "website development agency boise", "website development company boise"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-boise",
   },
   openGraph: {
     title: "Website Development Agency in Boise | TML Agency",
-    description: "TML offers expert website development services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-boise",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Boise | TML Agency",
-    description: "TML offers expert website development services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

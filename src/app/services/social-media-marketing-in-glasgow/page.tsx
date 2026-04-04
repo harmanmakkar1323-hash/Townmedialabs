@@ -6,14 +6,14 @@ const location = locations["glasgow"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Glasgow | TML Agency",
-  description: "TML offers expert social media marketing services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing glasgow", "social media marketing agency glasgow", "social media marketing company glasgow"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-glasgow",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Glasgow | TML Agency",
-    description: "TML offers expert social media marketing services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-glasgow",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Glasgow | TML Agency",
-    description: "TML offers expert social media marketing services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

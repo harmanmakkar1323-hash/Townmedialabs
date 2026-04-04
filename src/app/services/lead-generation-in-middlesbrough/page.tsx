@@ -6,14 +6,14 @@ const location = locations["middlesbrough"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Middlesbrough | TML Agency",
-  description: "TML offers expert lead generation services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation middlesbrough", "lead generation agency middlesbrough", "lead generation company middlesbrough"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-middlesbrough",
   },
   openGraph: {
     title: "Lead Generation Agency in Middlesbrough | TML Agency",
-    description: "TML offers expert lead generation services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-middlesbrough",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Middlesbrough | TML Agency",
-    description: "TML offers expert lead generation services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

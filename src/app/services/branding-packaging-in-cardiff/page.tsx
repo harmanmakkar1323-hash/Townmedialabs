@@ -6,14 +6,14 @@ const location = locations["cardiff"];
 
 export const metadata: Metadata = {
   title: "Packaging Design Agency in Cardiff | TML Agency",
-  description: "TML offers expert packaging design services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Packaging Design services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design cardiff", "packaging design agency cardiff", "packaging design company cardiff"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-cardiff",
   },
   openGraph: {
     title: "Packaging Design Agency in Cardiff | TML Agency",
-    description: "TML offers expert packaging design services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-cardiff",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Packaging Design Agency in Cardiff | TML Agency",
-    description: "TML offers expert packaging design services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Packaging Design services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

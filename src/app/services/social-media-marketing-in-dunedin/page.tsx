@@ -6,14 +6,14 @@ const location = locations["dunedin"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Dunedin | TML Agency",
-  description: "TML offers expert social media marketing services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["social media marketing dunedin", "social media marketing agency dunedin", "social media marketing dunedin nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-dunedin",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Dunedin | TML Agency",
-    description: "TML offers expert social media marketing services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-dunedin",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Dunedin | TML Agency",
-    description: "TML offers expert social media marketing services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

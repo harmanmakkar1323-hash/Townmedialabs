@@ -6,14 +6,14 @@ const location = locations["san_antonio"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in San Antonio | TML Agency",
-  description: "TML offers expert seo services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo san antonio", "seo agency san antonio", "seo company san antonio"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-san-antonio",
   },
   openGraph: {
     title: "SEO Agency in San Antonio | TML Agency",
-    description: "TML offers expert seo services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-san-antonio",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in San Antonio | TML Agency",
-    description: "TML offers expert seo services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

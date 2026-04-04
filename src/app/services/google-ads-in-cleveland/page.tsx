@@ -6,14 +6,14 @@ const location = locations["cleveland"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Cleveland | TML Agency",
-  description: "TML offers expert google ads services in Cleveland. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Cleveland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads cleveland", "google ads agency cleveland", "google ads company cleveland"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-cleveland",
   },
   openGraph: {
     title: "Google Ads Agency in Cleveland | TML Agency",
-    description: "TML offers expert google ads services in Cleveland. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Cleveland. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-cleveland",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Cleveland | TML Agency",
-    description: "TML offers expert google ads services in Cleveland. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Cleveland. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

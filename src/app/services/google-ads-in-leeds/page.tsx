@@ -6,14 +6,14 @@ const location = locations["leeds"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Leeds | TML Agency",
-  description: "TML offers expert google ads services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads leeds", "google ads agency leeds", "google ads company leeds"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-leeds",
   },
   openGraph: {
     title: "Google Ads Agency in Leeds | TML Agency",
-    description: "TML offers expert google ads services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-leeds",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Leeds | TML Agency",
-    description: "TML offers expert google ads services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

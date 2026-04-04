@@ -6,14 +6,14 @@ const location = locations["townsville"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Townsville | TML Agency",
-  description: "TML offers expert google ads services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads townsville", "google ads agency townsville", "google ads company townsville"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-townsville",
   },
   openGraph: {
     title: "Google Ads Agency in Townsville | TML Agency",
-    description: "TML offers expert google ads services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-townsville",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Townsville | TML Agency",
-    description: "TML offers expert google ads services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

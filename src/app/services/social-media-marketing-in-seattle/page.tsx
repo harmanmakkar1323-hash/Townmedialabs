@@ -6,14 +6,14 @@ const location = locations["seattle"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Seattle | TML Agency",
-  description: "TML offers expert social media marketing services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing seattle", "social media marketing agency seattle", "social media marketing company seattle"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-seattle",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Seattle | TML Agency",
-    description: "TML offers expert social media marketing services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-seattle",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Seattle | TML Agency",
-    description: "TML offers expert social media marketing services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["gold_coast"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Gold Coast | TML Agency",
-  description: "TML offers expert graphic design services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design gold coast", "graphic design agency gold coast", "graphic design company gold coast"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-gold-coast",
   },
   openGraph: {
     title: "Graphic Design Agency in Gold Coast | TML Agency",
-    description: "TML offers expert graphic design services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-gold-coast",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Gold Coast | TML Agency",
-    description: "TML offers expert graphic design services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

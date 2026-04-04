@@ -7,14 +7,14 @@ const location = locations["los_angeles"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "Video Editing Agency in Los Angeles | TML Agency",
-  description: "TML offers expert video editing services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing los angeles", "video editing agency los angeles", "video editing company los angeles"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-los-angeles",
   },
   openGraph: {
     title: "Video Editing Agency in Los Angeles | TML Agency",
-    description: "TML offers expert video editing services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-los-angeles",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Los Angeles | TML Agency",
-    description: "TML offers expert video editing services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

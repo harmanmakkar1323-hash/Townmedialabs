@@ -6,14 +6,14 @@ const location = locations["jalandhar"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Jalandhar | TML Agency",
-  description: "TML offers expert search engine optimization services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Search Engine Optimization services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization jalandhar", "search engine optimization agency jalandhar", "search engine optimization company jalandhar"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-jalandhar",
   },
   openGraph: {
     title: "SEO Agency in Jalandhar | TML Agency",
-    description: "TML offers expert search engine optimization services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-jalandhar",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Jalandhar | TML Agency",
-    description: "TML offers expert search engine optimization services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Search Engine Optimization services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

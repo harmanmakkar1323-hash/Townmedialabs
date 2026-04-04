@@ -6,14 +6,14 @@ const location = locations["cincinnati"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Cincinnati | TML Agency",
-  description: "TML offers expert seo services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo cincinnati", "seo agency cincinnati", "seo company cincinnati"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-cincinnati",
   },
   openGraph: {
     title: "SEO Agency in Cincinnati | TML Agency",
-    description: "TML offers expert seo services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-cincinnati",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Cincinnati | TML Agency",
-    description: "TML offers expert seo services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

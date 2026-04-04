@@ -6,14 +6,14 @@ const location = locations["derby"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Derby | TML Agency",
-  description: "TML offers expert social media marketing services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing derby", "social media marketing agency derby", "social media marketing company derby"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-derby",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Derby | TML Agency",
-    description: "TML offers expert social media marketing services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-derby",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Derby | TML Agency",
-    description: "TML offers expert social media marketing services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["kharar"];
 
 export const metadata: Metadata = {
   title: "Branding Agency in Kharar | TML Agency",
-  description: "TML offers expert branding services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding kharar", "branding agency kharar", "branding company kharar"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-in-kharar",
   },
   openGraph: {
     title: "Branding Agency in Kharar | TML Agency",
-    description: "TML offers expert branding services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-in-kharar",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding Agency in Kharar | TML Agency",
-    description: "TML offers expert branding services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

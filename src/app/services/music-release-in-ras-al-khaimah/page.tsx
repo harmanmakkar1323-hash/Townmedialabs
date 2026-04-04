@@ -7,14 +7,14 @@ const location = locations["ras_al_khaimah"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "Music Release Agency in Ras Al Khaimah | TML Agency",
-  description: "TML offers expert music release services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release ras al khaimah", "music release agency ras al khaimah", "music release company ras al khaimah"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-ras-al-khaimah",
   },
   openGraph: {
     title: "Music Release Agency in Ras Al Khaimah | TML Agency",
-    description: "TML offers expert music release services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-ras-al-khaimah",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Ras Al Khaimah | TML Agency",
-    description: "TML offers expert music release services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["austin"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Austin | TML Agency",
-  description: "TML offers expert seo services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo austin", "seo agency austin", "seo company austin"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-austin",
   },
   openGraph: {
     title: "SEO Agency in Austin | TML Agency",
-    description: "TML offers expert seo services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-austin",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Austin | TML Agency",
-    description: "TML offers expert seo services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["ras_al_khaimah"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Ras Al Khaimah | TML Agency",
-  description: "TML offers expert social media marketing services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing ras al khaimah", "social media marketing agency ras al khaimah", "social media marketing company ras al khaimah"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-ras-al-khaimah",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Ras Al Khaimah | TML Agency",
-    description: "TML offers expert social media marketing services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-ras-al-khaimah",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Ras Al Khaimah | TML Agency",
-    description: "TML offers expert social media marketing services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

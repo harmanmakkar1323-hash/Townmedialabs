@@ -6,14 +6,14 @@ const location = locations["leicester"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Leicester | TML Agency",
-  description: "TML offers expert social media marketing services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing leicester", "social media marketing agency leicester", "social media marketing company leicester"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-leicester",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Leicester | TML Agency",
-    description: "TML offers expert social media marketing services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-leicester",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Leicester | TML Agency",
-    description: "TML offers expert social media marketing services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

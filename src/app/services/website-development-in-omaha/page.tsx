@@ -6,14 +6,14 @@ const location = locations["omaha"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Omaha | TML Agency",
-  description: "TML offers expert website development services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development omaha", "website development agency omaha", "website development company omaha"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-omaha",
   },
   openGraph: {
     title: "Website Development Agency in Omaha | TML Agency",
-    description: "TML offers expert website development services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-omaha",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Omaha | TML Agency",
-    description: "TML offers expert website development services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

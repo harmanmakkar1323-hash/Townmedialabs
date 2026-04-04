@@ -6,14 +6,14 @@ const location = locations["denver"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Denver | TML Agency",
-  description: "TML offers expert lead generation services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation denver", "lead generation agency denver", "lead generation company denver"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-denver",
   },
   openGraph: {
     title: "Lead Generation Agency in Denver | TML Agency",
-    description: "TML offers expert lead generation services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-denver",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Denver | TML Agency",
-    description: "TML offers expert lead generation services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

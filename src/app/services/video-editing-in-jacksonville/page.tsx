@@ -6,14 +6,14 @@ const location = locations["jacksonville"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Jacksonville | TML Agency",
-  description: "TML offers expert video editing services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing jacksonville", "video editing agency jacksonville", "video editing company jacksonville"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-jacksonville",
   },
   openGraph: {
     title: "Video Editing Agency in Jacksonville | TML Agency",
-    description: "TML offers expert video editing services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-jacksonville",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Jacksonville | TML Agency",
-    description: "TML offers expert video editing services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

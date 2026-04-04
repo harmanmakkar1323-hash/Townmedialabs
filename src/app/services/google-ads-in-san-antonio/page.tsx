@@ -6,14 +6,14 @@ const location = locations["san_antonio"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in San Antonio | TML Agency",
-  description: "TML offers expert google ads services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads san antonio", "google ads agency san antonio", "google ads company san antonio"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-san-antonio",
   },
   openGraph: {
     title: "Google Ads Agency in San Antonio | TML Agency",
-    description: "TML offers expert google ads services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-san-antonio",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in San Antonio | TML Agency",
-    description: "TML offers expert google ads services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["patiala"];
 
 export const metadata: Metadata = {
   title: "Branding & Packaging Agency in Patiala | TML Agency",
-  description: "TML offers expert branding and packaging services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding and Packaging services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging patiala", "branding and packaging agency patiala", "branding and packaging company patiala"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-patiala",
   },
   openGraph: {
     title: "Branding & Packaging Agency in Patiala | TML Agency",
-    description: "TML offers expert branding and packaging services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding and Packaging services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-patiala",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding & Packaging Agency in Patiala | TML Agency",
-    description: "TML offers expert branding and packaging services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding and Packaging services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

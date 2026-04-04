@@ -6,14 +6,14 @@ const location = locations["manchester"];
 
 export const metadata: Metadata = {
   title: "Google Ads Agency in Manchester | TML Agency",
-  description: "TML offers expert google ads services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Google Ads services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads manchester", "google ads agency manchester", "google ads company manchester"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/google-ads-in-manchester",
   },
   openGraph: {
     title: "Google Ads Agency in Manchester | TML Agency",
-    description: "TML offers expert google ads services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/google-ads-in-manchester",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Google Ads Agency in Manchester | TML Agency",
-    description: "TML offers expert google ads services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Google Ads services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

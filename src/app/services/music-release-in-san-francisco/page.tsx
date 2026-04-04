@@ -7,14 +7,14 @@ const location = locations["san_francisco"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "Music Release Agency in San Francisco | TML Agency",
-  description: "TML offers expert music release services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release san francisco", "music release agency san francisco", "music release company san francisco"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-san-francisco",
   },
   openGraph: {
     title: "Music Release Agency in San Francisco | TML Agency",
-    description: "TML offers expert music release services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-san-francisco",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in San Francisco | TML Agency",
-    description: "TML offers expert music release services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["jalandhar"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Jalandhar | TML Agency",
-  description: "TML offers expert AI influencer management services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management jalandhar", "AI influencer management agency jalandhar", "AI influencer management company jalandhar"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-jalandhar",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Jalandhar | TML Agency",
-    description: "TML offers expert AI influencer management services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-jalandhar",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Jalandhar | TML Agency",
-    description: "TML offers expert AI influencer management services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

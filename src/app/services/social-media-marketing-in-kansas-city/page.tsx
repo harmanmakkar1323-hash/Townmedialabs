@@ -6,14 +6,14 @@ const location = locations["kansas_city"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Kansas City | TML Agency",
-  description: "TML offers expert social media marketing services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing kansas city", "social media marketing agency kansas city", "social media marketing company kansas city"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-kansas-city",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Kansas City | TML Agency",
-    description: "TML offers expert social media marketing services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-kansas-city",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Kansas City | TML Agency",
-    description: "TML offers expert social media marketing services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

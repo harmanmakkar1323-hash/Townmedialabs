@@ -6,14 +6,14 @@ const location = locations["bathinda"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Bathinda | TML Agency",
-  description: "TML offers expert website development services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development bathinda", "website development agency bathinda", "website development company bathinda"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-bathinda",
   },
   openGraph: {
     title: "Website Development Agency in Bathinda | TML Agency",
-    description: "TML offers expert website development services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-bathinda",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Bathinda | TML Agency",
-    description: "TML offers expert website development services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

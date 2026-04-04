@@ -6,14 +6,14 @@ const location = locations["tampa"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Tampa | TML Agency",
-  description: "TML offers expert seo services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo tampa", "seo agency tampa", "seo company tampa"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-tampa",
   },
   openGraph: {
     title: "SEO Agency in Tampa | TML Agency",
-    description: "TML offers expert seo services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-tampa",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Tampa | TML Agency",
-    description: "TML offers expert seo services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Tampa. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

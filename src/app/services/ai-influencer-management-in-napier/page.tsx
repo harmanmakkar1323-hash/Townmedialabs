@@ -6,14 +6,14 @@ const location = locations["napier"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Napier | TML Agency",
-  description: "TML offers expert ai influencer management services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["ai influencer management napier", "ai influencer management agency napier", "ai influencer management napier nz"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-napier",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Napier | TML Agency",
-    description: "TML offers expert ai influencer management services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-napier",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Napier | TML Agency",
-    description: "TML offers expert ai influencer management services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

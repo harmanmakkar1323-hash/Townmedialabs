@@ -6,14 +6,14 @@ const location = locations["ahmedabad"];
 
 export const metadata: Metadata = {
   title: "Social Media Marketing Agency in Ahmedabad | TML Agency",
-  description: "TML offers expert social media marketing services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Social Media Marketing services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing ahmedabad", "social media marketing agency ahmedabad", "social media marketing company ahmedabad"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-ahmedabad",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Ahmedabad | TML Agency",
-    description: "TML offers expert social media marketing services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-ahmedabad",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Social Media Marketing Agency in Ahmedabad | TML Agency",
-    description: "TML offers expert social media marketing services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Social Media Marketing services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

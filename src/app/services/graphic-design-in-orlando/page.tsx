@@ -6,14 +6,14 @@ const location = locations["orlando"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Orlando | TML Agency",
-  description: "TML offers expert graphic design services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design orlando", "graphic design agency orlando", "graphic design company orlando"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-orlando",
   },
   openGraph: {
     title: "Graphic Design Agency in Orlando | TML Agency",
-    description: "TML offers expert graphic design services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-orlando",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Orlando | TML Agency",
-    description: "TML offers expert graphic design services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

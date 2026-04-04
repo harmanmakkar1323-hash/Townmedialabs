@@ -6,14 +6,14 @@ const location = locations["milton_keynes"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Milton Keynes | TML Agency",
-  description: "TML offers expert website development services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development milton keynes", "website development agency milton keynes", "website development company milton keynes"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-milton-keynes",
   },
   openGraph: {
     title: "Website Development Agency in Milton Keynes | TML Agency",
-    description: "TML offers expert website development services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-milton-keynes",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Milton Keynes | TML Agency",
-    description: "TML offers expert website development services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

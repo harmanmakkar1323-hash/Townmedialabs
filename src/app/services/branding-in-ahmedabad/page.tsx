@@ -6,14 +6,14 @@ const location = locations["ahmedabad"];
 
 export const metadata: Metadata = {
   title: "Branding Agency in Ahmedabad | TML Agency",
-  description: "TML offers expert branding services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Branding services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding ahmedabad", "branding agency ahmedabad", "branding company ahmedabad"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-in-ahmedabad",
   },
   openGraph: {
     title: "Branding Agency in Ahmedabad | TML Agency",
-    description: "TML offers expert branding services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-in-ahmedabad",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Branding Agency in Ahmedabad | TML Agency",
-    description: "TML offers expert branding services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Branding services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

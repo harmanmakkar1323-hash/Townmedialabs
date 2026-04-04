@@ -6,14 +6,14 @@ const location = locations["mumbai"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in Mumbai | TML Agency",
-  description: "TML offers expert ai influencer management services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management mumbai", "ai influencer management agency mumbai", "ai influencer management company mumbai"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-mumbai",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Mumbai | TML Agency",
-    description: "TML offers expert ai influencer management services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-mumbai",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in Mumbai | TML Agency",
-    description: "TML offers expert ai influencer management services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

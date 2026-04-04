@@ -6,14 +6,14 @@ const location = locations["zirakpur"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Zirakpur | TML Agency",
-  description: "TML offers expert video editing services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing zirakpur", "video editing agency zirakpur", "video editing company zirakpur"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-zirakpur",
   },
   openGraph: {
     title: "Video Editing Agency in Zirakpur | TML Agency",
-    description: "TML offers expert video editing services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-zirakpur",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Zirakpur | TML Agency",
-    description: "TML offers expert video editing services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["london"];
 
 export const metadata: Metadata = {
   title: "AI Influencer Management Agency in London | TML Agency",
-  description: "TML offers expert ai influencer management services in London. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert AI Influencer Management services in London. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management london", "ai influencer management agency london", "ai influencer management company london"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-london",
   },
   openGraph: {
     title: "AI Influencer Management Agency in London | TML Agency",
-    description: "TML offers expert ai influencer management services in London. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in London. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-london",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "AI Influencer Management Agency in London | TML Agency",
-    description: "TML offers expert ai influencer management services in London. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert AI Influencer Management services in London. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

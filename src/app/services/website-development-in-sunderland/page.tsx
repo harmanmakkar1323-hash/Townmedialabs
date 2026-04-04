@@ -6,14 +6,14 @@ const location = locations["sunderland"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in Sunderland | TML Agency",
-  description: "TML offers expert website development services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development sunderland", "website development agency sunderland", "website development company sunderland"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-sunderland",
   },
   openGraph: {
     title: "Website Development Agency in Sunderland | TML Agency",
-    description: "TML offers expert website development services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-sunderland",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in Sunderland | TML Agency",
-    description: "TML offers expert website development services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

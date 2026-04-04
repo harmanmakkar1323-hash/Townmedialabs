@@ -6,14 +6,14 @@ const location = locations["brighton"];
 
 export const metadata: Metadata = {
   title: "Music Release Agency in Brighton | TML Agency",
-  description: "TML offers expert music release services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Music Release services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release brighton", "music release agency brighton", "music release company brighton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-brighton",
   },
   openGraph: {
     title: "Music Release Agency in Brighton | TML Agency",
-    description: "TML offers expert music release services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-brighton",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Music Release Agency in Brighton | TML Agency",
-    description: "TML offers expert music release services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Music Release services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
   robots: { index: false, follow: true },

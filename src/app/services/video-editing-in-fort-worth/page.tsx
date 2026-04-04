@@ -7,14 +7,14 @@ const location = locations["fort_worth"];
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "Video Editing Agency in Fort Worth | TML Agency",
-  description: "TML offers expert video editing services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing fort worth", "video editing agency fort worth", "video editing company fort worth"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-fort-worth",
   },
   openGraph: {
     title: "Video Editing Agency in Fort Worth | TML Agency",
-    description: "TML offers expert video editing services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-fort-worth",
     siteName: "TML Agency",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Fort Worth | TML Agency",
-    description: "TML offers expert video editing services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

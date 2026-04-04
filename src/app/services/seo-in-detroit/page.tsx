@@ -6,14 +6,14 @@ const location = locations["detroit"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in Detroit | TML Agency",
-  description: "TML offers expert seo services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo detroit", "seo agency detroit", "seo company detroit"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-detroit",
   },
   openGraph: {
     title: "SEO Agency in Detroit | TML Agency",
-    description: "TML offers expert seo services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-detroit",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in Detroit | TML Agency",
-    description: "TML offers expert seo services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

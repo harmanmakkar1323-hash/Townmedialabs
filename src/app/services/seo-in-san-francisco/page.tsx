@@ -6,14 +6,14 @@ const location = locations["san_francisco"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in San Francisco | TML Agency",
-  description: "TML offers expert seo services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo san francisco", "seo agency san francisco", "seo company san francisco"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-san-francisco",
   },
   openGraph: {
     title: "SEO Agency in San Francisco | TML Agency",
-    description: "TML offers expert seo services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-san-francisco",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in San Francisco | TML Agency",
-    description: "TML offers expert seo services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

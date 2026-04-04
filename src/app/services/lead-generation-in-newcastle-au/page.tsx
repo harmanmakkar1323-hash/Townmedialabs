@@ -6,14 +6,14 @@ const location = locations["newcastle_au"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Newcastle | TML Agency",
-  description: "TML offers expert lead generation services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation newcastle", "lead generation agency newcastle", "lead generation company newcastle"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-newcastle-au",
   },
   openGraph: {
     title: "Lead Generation Agency in Newcastle | TML Agency",
-    description: "TML offers expert lead generation services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-newcastle-au",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Newcastle | TML Agency",
-    description: "TML offers expert lead generation services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

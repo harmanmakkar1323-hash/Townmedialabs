@@ -6,14 +6,14 @@ const location = locations["kolkata"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Kolkata | TML Agency",
-  description: "TML offers expert video editing services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing kolkata", "video editing agency kolkata", "video editing company kolkata"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-kolkata",
   },
   openGraph: {
     title: "Video Editing Agency in Kolkata | TML Agency",
-    description: "TML offers expert video editing services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-kolkata",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Kolkata | TML Agency",
-    description: "TML offers expert video editing services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

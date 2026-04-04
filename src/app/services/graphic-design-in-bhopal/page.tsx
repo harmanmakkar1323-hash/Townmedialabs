@@ -6,14 +6,14 @@ const location = locations["bhopal"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Bhopal | TML Agency",
-  description: "TML offers expert graphic design services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design bhopal", "graphic design agency bhopal", "graphic design company bhopal"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-bhopal",
   },
   openGraph: {
     title: "Graphic Design Agency in Bhopal | TML Agency",
-    description: "TML offers expert graphic design services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-bhopal",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Bhopal | TML Agency",
-    description: "TML offers expert graphic design services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

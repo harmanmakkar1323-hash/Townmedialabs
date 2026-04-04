@@ -6,14 +6,14 @@ const location = locations["san_antonio"];
 
 export const metadata: Metadata = {
   title: "Website Development Agency in San Antonio | TML Agency",
-  description: "TML offers expert website development services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Website Development services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development san antonio", "website development agency san antonio", "website development company san antonio"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-san-antonio",
   },
   openGraph: {
     title: "Website Development Agency in San Antonio | TML Agency",
-    description: "TML offers expert website development services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-san-antonio",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Website Development Agency in San Antonio | TML Agency",
-    description: "TML offers expert website development services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Website Development services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

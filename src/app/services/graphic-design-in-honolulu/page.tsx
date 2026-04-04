@@ -6,14 +6,14 @@ const location = locations["honolulu"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Honolulu | TML Agency",
-  description: "TML offers expert graphic design services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design honolulu", "graphic design agency honolulu", "graphic design company honolulu"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-honolulu",
   },
   openGraph: {
     title: "Graphic Design Agency in Honolulu | TML Agency",
-    description: "TML offers expert graphic design services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-honolulu",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Honolulu | TML Agency",
-    description: "TML offers expert graphic design services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["bathinda"];
 
 export const metadata: Metadata = {
   title: "Video Editing Agency in Bathinda | TML Agency",
-  description: "TML offers expert video editing services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Video Editing services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing bathinda", "video editing agency bathinda", "video editing company bathinda"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/video-editing-in-bathinda",
   },
   openGraph: {
     title: "Video Editing Agency in Bathinda | TML Agency",
-    description: "TML offers expert video editing services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/video-editing-in-bathinda",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Video Editing Agency in Bathinda | TML Agency",
-    description: "TML offers expert video editing services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Video Editing services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

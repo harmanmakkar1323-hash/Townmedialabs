@@ -6,14 +6,14 @@ const location = locations["kansas_city"];
 
 export const metadata: Metadata = {
   title: "Graphic Design Agency in Kansas City | TML Agency",
-  description: "TML offers expert graphic design services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Graphic Design services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design kansas city", "graphic design agency kansas city", "graphic design company kansas city"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-kansas-city",
   },
   openGraph: {
     title: "Graphic Design Agency in Kansas City | TML Agency",
-    description: "TML offers expert graphic design services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-kansas-city",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Graphic Design Agency in Kansas City | TML Agency",
-    description: "TML offers expert graphic design services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Graphic Design services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -6,14 +6,14 @@ const location = locations["york"];
 
 export const metadata: Metadata = {
   title: "SEO Agency in York | TML Agency",
-  description: "TML offers expert seo services in York. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert SEO services in York. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo york", "seo agency york", "seo company york"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-york",
   },
   openGraph: {
     title: "SEO Agency in York | TML Agency",
-    description: "TML offers expert seo services in York. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in York. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-york",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "SEO Agency in York | TML Agency",
-    description: "TML offers expert seo services in York. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert SEO services in York. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };

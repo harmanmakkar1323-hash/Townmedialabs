@@ -6,14 +6,14 @@ const location = locations["ballarat"];
 
 export const metadata: Metadata = {
   title: "Lead Generation Agency in Ballarat | TML Agency",
-  description: "TML offers expert lead generation services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
+  description: "TML offers expert Lead Generation services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation ballarat", "lead generation agency ballarat", "lead generation company ballarat"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-ballarat",
   },
   openGraph: {
     title: "Lead Generation Agency in Ballarat | TML Agency",
-    description: "TML offers expert lead generation services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-ballarat",
     siteName: "TML Agency",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tmlagency",
     title: "Lead Generation Agency in Ballarat | TML Agency",
-    description: "TML offers expert lead generation services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
+    description: "TML offers expert Lead Generation services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
 };
