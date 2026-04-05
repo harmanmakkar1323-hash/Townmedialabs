@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
   keywords: ["branding hamilton", "branding agency hamilton", "branding hamilton ontario"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-hamilton",
+    canonical: "https://townmedialabs.com/services/branding-in-hamilton",
   },
   openGraph: {
     title: "Branding Agency in Hamilton",
     description: "TML offers expert Branding services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-hamilton",
+    url: "https://townmedialabs.com/services/branding-in-hamilton",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Hamilton" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release and Distribution services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release and distribution pune", "music release and distribution agency pune", "music release and distribution company pune"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-pune",
+    canonical: "https://townmedialabs.com/services/music-release-in-pune",
   },
   openGraph: {
     title: "Music Release Agency in Pune",
     description: "TML offers expert Music Release and Distribution services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-pune",
+    url: "https://townmedialabs.com/services/music-release-in-pune",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Pune" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management townsville", "ai influencer management agency townsville", "ai influencer management company townsville"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-townsville",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-townsville",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Townsville",
     description: "TML offers expert AI Influencer Management services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-townsville",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-townsville",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Townsville" }],
   },
   twitter: {

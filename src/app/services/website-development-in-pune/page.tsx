@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Website Development services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development pune", "website development agency pune", "website development company pune"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/website-development-in-pune",
+    canonical: "https://townmedialabs.com/services/website-development-in-pune",
   },
   openGraph: {
     title: "Website Development Agency in Pune",
     description: "TML offers expert Website Development services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/website-development-in-pune",
+    url: "https://townmedialabs.com/services/website-development-in-pune",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Pune" }],
   },
   twitter: {

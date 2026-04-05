@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo leicester", "seo agency leicester", "seo company leicester"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-leicester",
+    canonical: "https://townmedialabs.com/services/seo-in-leicester",
   },
   openGraph: {
     title: "SEO Agency in Leicester",
     description: "TML offers expert SEO services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-leicester",
+    url: "https://townmedialabs.com/services/seo-in-leicester",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Leicester" }],
   },
   twitter: {

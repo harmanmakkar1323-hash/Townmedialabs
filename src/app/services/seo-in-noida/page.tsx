@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Search Engine Optimization services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization noida", "search engine optimization agency noida", "search engine optimization company noida"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-noida",
+    canonical: "https://townmedialabs.com/services/seo-in-noida",
   },
   openGraph: {
     title: "SEO Agency in Noida",
     description: "TML offers expert Search Engine Optimization services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-noida",
+    url: "https://townmedialabs.com/services/seo-in-noida",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Noida" }],
   },
   twitter: {

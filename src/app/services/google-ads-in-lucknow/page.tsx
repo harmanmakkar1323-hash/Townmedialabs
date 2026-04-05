@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Google Ads management services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["Google Ads management lucknow", "Google Ads management agency lucknow", "Google Ads management company lucknow"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/google-ads-in-lucknow",
+    canonical: "https://townmedialabs.com/services/google-ads-in-lucknow",
   },
   openGraph: {
     title: "Google Ads Agency in Lucknow",
     description: "TML offers expert Google Ads management services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/google-ads-in-lucknow",
+    url: "https://townmedialabs.com/services/google-ads-in-lucknow",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Google Ads Agency in Lucknow" }],
   },
   twitter: {

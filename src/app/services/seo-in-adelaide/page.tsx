@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Adelaide. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo adelaide", "seo agency adelaide", "seo company adelaide"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-adelaide",
+    canonical: "https://townmedialabs.com/services/seo-in-adelaide",
   },
   openGraph: {
     title: "SEO Agency in Adelaide",
     description: "TML offers expert SEO services in Adelaide. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-adelaide",
+    url: "https://townmedialabs.com/services/seo-in-adelaide",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Adelaide" }],
   },
   twitter: {

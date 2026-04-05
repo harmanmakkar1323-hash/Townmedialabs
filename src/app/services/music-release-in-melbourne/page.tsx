@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release melbourne", "music release agency melbourne", "music release company melbourne"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-melbourne",
+    canonical: "https://townmedialabs.com/services/music-release-in-melbourne",
   },
   openGraph: {
     title: "Music Release Agency in Melbourne",
     description: "TML offers expert Music Release services in Melbourne. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-melbourne",
+    url: "https://townmedialabs.com/services/music-release-in-melbourne",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Melbourne" }],
   },
   twitter: {

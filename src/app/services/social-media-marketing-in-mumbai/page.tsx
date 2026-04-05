@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing mumbai", "social media marketing agency mumbai", "social media marketing company mumbai"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-mumbai",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-mumbai",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Mumbai",
     description: "TML offers expert Social Media Marketing services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-mumbai",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-mumbai",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Mumbai" }],
   },
   twitter: {

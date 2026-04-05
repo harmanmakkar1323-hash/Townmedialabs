@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Graphic Design services in Edinburgh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design edinburgh", "graphic design agency edinburgh", "graphic design company edinburgh"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/graphic-design-in-edinburgh",
+    canonical: "https://townmedialabs.com/services/graphic-design-in-edinburgh",
   },
   openGraph: {
     title: "Graphic Design Agency in Edinburgh",
     description: "TML offers expert Graphic Design services in Edinburgh. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/graphic-design-in-edinburgh",
+    url: "https://townmedialabs.com/services/graphic-design-in-edinburgh",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Edinburgh" }],
   },
   twitter: {

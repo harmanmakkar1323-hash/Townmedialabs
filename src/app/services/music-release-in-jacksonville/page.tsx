@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release jacksonville", "music release agency jacksonville", "music release company jacksonville"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-jacksonville",
+    canonical: "https://townmedialabs.com/services/music-release-in-jacksonville",
   },
   openGraph: {
     title: "Music Release Agency in Jacksonville",
     description: "TML offers expert Music Release services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-jacksonville",
+    url: "https://townmedialabs.com/services/music-release-in-jacksonville",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Jacksonville" }],
   },
   twitter: {

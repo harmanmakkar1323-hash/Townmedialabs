@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Graphic Design services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design middlesbrough", "graphic design agency middlesbrough", "graphic design company middlesbrough"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/graphic-design-in-middlesbrough",
+    canonical: "https://townmedialabs.com/services/graphic-design-in-middlesbrough",
   },
   openGraph: {
     title: "Graphic Design Agency in Middlesbrough",
     description: "TML offers expert Graphic Design services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/graphic-design-in-middlesbrough",
+    url: "https://townmedialabs.com/services/graphic-design-in-middlesbrough",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Middlesbrough" }],
   },
   twitter: {

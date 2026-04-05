@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo san diego", "seo agency san diego", "seo company san diego"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-san-diego",
+    canonical: "https://townmedialabs.com/services/seo-in-san-diego",
   },
   openGraph: {
     title: "SEO Agency in San Diego",
     description: "TML offers expert SEO services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-san-diego",
+    url: "https://townmedialabs.com/services/seo-in-san-diego",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in San Diego" }],
   },
   twitter: {

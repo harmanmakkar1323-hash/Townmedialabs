@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Graphic Design services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design baltimore", "graphic design agency baltimore", "graphic design company baltimore"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/graphic-design-in-baltimore",
+    canonical: "https://townmedialabs.com/services/graphic-design-in-baltimore",
   },
   openGraph: {
     title: "Graphic Design Agency in Baltimore",
     description: "TML offers expert Graphic Design services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/graphic-design-in-baltimore",
+    url: "https://townmedialabs.com/services/graphic-design-in-baltimore",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Baltimore" }],
   },
   twitter: {

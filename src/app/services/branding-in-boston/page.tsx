@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding boston", "branding agency boston", "branding company boston"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-boston",
+    canonical: "https://townmedialabs.com/services/branding-in-boston",
   },
   openGraph: {
     title: "Branding Agency in Boston",
     description: "TML offers expert Branding services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-boston",
+    url: "https://townmedialabs.com/services/branding-in-boston",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Boston" }],
   },
   twitter: {

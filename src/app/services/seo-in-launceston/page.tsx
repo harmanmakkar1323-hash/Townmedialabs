@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo launceston", "seo agency launceston", "seo company launceston"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-launceston",
+    canonical: "https://townmedialabs.com/services/seo-in-launceston",
   },
   openGraph: {
     title: "SEO Agency in Launceston",
     description: "TML offers expert SEO services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-launceston",
+    url: "https://townmedialabs.com/services/seo-in-launceston",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Launceston" }],
   },
   twitter: {

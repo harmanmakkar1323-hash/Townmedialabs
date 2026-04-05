@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing cheltenham", "social media marketing agency cheltenham", "social media marketing company cheltenham"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-cheltenham",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-cheltenham",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Cheltenham",
     description: "TML offers expert Social Media Marketing services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-cheltenham",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-cheltenham",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Cheltenham" }],
   },
   twitter: {

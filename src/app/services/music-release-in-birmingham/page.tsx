@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release birmingham", "music release agency birmingham", "music release company birmingham"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-birmingham",
+    canonical: "https://townmedialabs.com/services/music-release-in-birmingham",
   },
   openGraph: {
     title: "Music Release Agency in Birmingham",
     description: "TML offers expert Music Release services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-birmingham",
+    url: "https://townmedialabs.com/services/music-release-in-birmingham",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Birmingham" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Google Ads services in Hobart. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads hobart", "google ads agency hobart", "google ads company hobart"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/google-ads-in-hobart",
+    canonical: "https://townmedialabs.com/services/google-ads-in-hobart",
   },
   openGraph: {
     title: "Google Ads Agency in Hobart",
     description: "TML offers expert Google Ads services in Hobart. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/google-ads-in-hobart",
+    url: "https://townmedialabs.com/services/google-ads-in-hobart",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Google Ads Agency in Hobart" }],
   },
   twitter: {

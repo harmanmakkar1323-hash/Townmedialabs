@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Google Ads services in Edmonton, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads edmonton", "google ads agency edmonton"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/google-ads-in-edmonton",
+    canonical: "https://townmedialabs.com/services/google-ads-in-edmonton",
   },
   openGraph: {
     title: "Google Ads Agency in Edmonton",
     description: "TML offers expert Google Ads services in Edmonton, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/google-ads-in-edmonton",
+    url: "https://townmedialabs.com/services/google-ads-in-edmonton",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Google Ads Agency in Edmonton" }],
   },
   twitter: {

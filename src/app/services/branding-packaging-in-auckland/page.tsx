@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Packaging Design services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design auckland", "packaging design agency auckland", "packaging design company auckland"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-auckland",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-auckland",
   },
   openGraph: {
     title: "Packaging Design Agency in Auckland",
     description: "TML offers expert Packaging Design services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-auckland",
+    url: "https://townmedialabs.com/services/branding-packaging-in-auckland",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Auckland" }],
   },
   twitter: {

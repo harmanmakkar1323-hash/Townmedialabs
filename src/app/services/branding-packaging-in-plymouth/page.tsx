@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Packaging Design services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design plymouth", "packaging design agency plymouth", "packaging design company plymouth"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-plymouth",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-plymouth",
   },
   openGraph: {
     title: "Packaging Design Agency in Plymouth",
     description: "TML offers expert Packaging Design services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-plymouth",
+    url: "https://townmedialabs.com/services/branding-packaging-in-plymouth",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Plymouth" }],
   },
   twitter: {

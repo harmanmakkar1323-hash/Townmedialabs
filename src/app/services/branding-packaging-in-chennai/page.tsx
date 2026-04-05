@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding and Packaging services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging chennai", "branding and packaging agency chennai", "branding and packaging company chennai"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-chennai",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-chennai",
   },
   openGraph: {
     title: "Branding & Packaging Agency in Chennai",
     description: "TML offers expert Branding and Packaging services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-chennai",
+    url: "https://townmedialabs.com/services/branding-packaging-in-chennai",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding & Packaging Agency in Chennai" }],
   },
   twitter: {

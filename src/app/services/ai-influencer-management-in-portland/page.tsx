@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Portland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management portland", "ai influencer management agency portland", "ai influencer management company portland"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-portland",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-portland",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Portland",
     description: "TML offers expert AI Influencer Management services in Portland. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-portland",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-portland",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Portland" }],
   },
   twitter: {

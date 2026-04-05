@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Search Engine Optimization services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization hyderabad", "search engine optimization agency hyderabad", "search engine optimization company hyderabad"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-hyderabad",
+    canonical: "https://townmedialabs.com/services/seo-in-hyderabad",
   },
   openGraph: {
     title: "SEO Agency in Hyderabad",
     description: "TML offers expert Search Engine Optimization services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-hyderabad",
+    url: "https://townmedialabs.com/services/seo-in-hyderabad",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Hyderabad" }],
   },
   twitter: {

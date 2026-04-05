@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Lead Generation services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation cincinnati", "lead generation agency cincinnati", "lead generation company cincinnati"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/lead-generation-in-cincinnati",
+    canonical: "https://townmedialabs.com/services/lead-generation-in-cincinnati",
   },
   openGraph: {
     title: "Lead Generation Agency in Cincinnati",
     description: "TML offers expert Lead Generation services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/lead-generation-in-cincinnati",
+    url: "https://townmedialabs.com/services/lead-generation-in-cincinnati",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Lead Generation Agency in Cincinnati" }],
   },
   twitter: {

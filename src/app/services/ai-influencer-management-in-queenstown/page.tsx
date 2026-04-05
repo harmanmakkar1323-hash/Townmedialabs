@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["ai influencer management queenstown", "ai influencer management agency queenstown", "ai influencer management queenstown nz"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-queenstown",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-queenstown",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Queenstown",
     description: "TML offers expert AI Influencer Management services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-queenstown",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-queenstown",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Queenstown" }],
   },
   twitter: {

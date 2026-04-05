@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Google Ads services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads jacksonville", "google ads agency jacksonville", "google ads company jacksonville"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/google-ads-in-jacksonville",
+    canonical: "https://townmedialabs.com/services/google-ads-in-jacksonville",
   },
   openGraph: {
     title: "Google Ads Agency in Jacksonville",
     description: "TML offers expert Google Ads services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/google-ads-in-jacksonville",
+    url: "https://townmedialabs.com/services/google-ads-in-jacksonville",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Google Ads Agency in Jacksonville" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release and Distribution services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release and distribution mohali", "music release and distribution agency mohali", "music release and distribution company mohali"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-mohali",
+    canonical: "https://townmedialabs.com/services/music-release-in-mohali",
   },
   openGraph: {
     title: "Music Release Agency in Mohali",
     description: "TML offers expert Music Release and Distribution services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-mohali",
+    url: "https://townmedialabs.com/services/music-release-in-mohali",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Mohali" }],
   },
   twitter: {

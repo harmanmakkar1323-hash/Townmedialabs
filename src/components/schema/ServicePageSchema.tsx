@@ -9,14 +9,14 @@ export function ServicePageSchema({ data }: ServicePageSchemaProps) {
   const serviceSchema = generateServiceSchema({
     name: data.title,
     description: data.description,
-    url: `https://townmedialabs.ca/services/${data.slug}`,
+    url: `https://townmedialabs.com/services/${data.slug}`,
     category: data.title,
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://townmedialabs.ca" },
-    { name: "Services", url: "https://townmedialabs.ca/services" },
-    { name: data.title, url: `https://townmedialabs.ca/services/${data.slug}` },
+    { name: "Home", url: "https://townmedialabs.com" },
+    { name: "Services", url: "https://townmedialabs.com/services" },
+    { name: data.title, url: `https://townmedialabs.com/services/${data.slug}` },
   ]);
 
   const faqSchema = generateFAQSchema(

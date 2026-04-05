@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release fujairah", "music release agency fujairah", "music release company fujairah"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-fujairah",
+    canonical: "https://townmedialabs.com/services/music-release-in-fujairah",
   },
   openGraph: {
     title: "Music Release Agency in Fujairah",
     description: "TML offers expert Music Release services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-fujairah",
+    url: "https://townmedialabs.com/services/music-release-in-fujairah",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Fujairah" }],
   },
   twitter: {

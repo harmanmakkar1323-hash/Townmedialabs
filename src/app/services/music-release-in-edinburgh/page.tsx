@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Edinburgh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release edinburgh", "music release agency edinburgh", "music release company edinburgh"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-edinburgh",
+    canonical: "https://townmedialabs.com/services/music-release-in-edinburgh",
   },
   openGraph: {
     title: "Music Release Agency in Edinburgh",
     description: "TML offers expert Music Release services in Edinburgh. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-edinburgh",
+    url: "https://townmedialabs.com/services/music-release-in-edinburgh",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Edinburgh" }],
   },
   twitter: {

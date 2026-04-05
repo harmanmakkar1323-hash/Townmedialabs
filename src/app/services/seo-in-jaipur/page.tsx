@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Search Engine Optimization services in Jaipur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization jaipur", "search engine optimization agency jaipur", "search engine optimization company jaipur"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-jaipur",
+    canonical: "https://townmedialabs.com/services/seo-in-jaipur",
   },
   openGraph: {
     title: "SEO Agency in Jaipur",
     description: "TML offers expert Search Engine Optimization services in Jaipur. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-jaipur",
+    url: "https://townmedialabs.com/services/seo-in-jaipur",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Jaipur" }],
   },
   twitter: {

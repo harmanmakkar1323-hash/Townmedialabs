@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding brisbane", "branding agency brisbane", "branding company brisbane"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-brisbane",
+    canonical: "https://townmedialabs.com/services/branding-in-brisbane",
   },
   openGraph: {
     title: "Branding Agency in Brisbane",
     description: "TML offers expert Branding services in Brisbane. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-brisbane",
+    url: "https://townmedialabs.com/services/branding-in-brisbane",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Brisbane" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["ai influencer management wellington", "ai influencer management agency wellington", "ai influencer management wellington nz"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-wellington",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-wellington",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Wellington",
     description: "TML offers expert AI Influencer Management services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-wellington",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-wellington",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Wellington" }],
   },
   twitter: {

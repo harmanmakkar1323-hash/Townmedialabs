@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management phoenix", "ai influencer management agency phoenix", "ai influencer management company phoenix"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-phoenix",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-phoenix",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Phoenix",
     description: "TML offers expert AI Influencer Management services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-phoenix",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-phoenix",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Phoenix" }],
   },
   twitter: {

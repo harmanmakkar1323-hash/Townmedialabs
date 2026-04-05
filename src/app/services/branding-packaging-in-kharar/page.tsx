@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding and Packaging services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging kharar", "branding and packaging agency kharar", "branding and packaging company kharar"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-kharar",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-kharar",
   },
   openGraph: {
     title: "Branding & Packaging Agency in Kharar",
     description: "TML offers expert Branding and Packaging services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-kharar",
+    url: "https://townmedialabs.com/services/branding-packaging-in-kharar",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding & Packaging Agency in Kharar" }],
   },
   twitter: {

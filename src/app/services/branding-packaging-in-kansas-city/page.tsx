@@ -10,15 +10,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Packaging Design services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design kansas city", "packaging design agency kansas city", "packaging design company kansas city"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-kansas-city",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-kansas-city",
   },
   openGraph: {
     title: "Packaging Design Agency in Kansas City",
     description: "TML offers expert Packaging Design services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-kansas-city",
+    url: "https://townmedialabs.com/services/branding-packaging-in-kansas-city",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Kansas City" }],
   },
   twitter: {

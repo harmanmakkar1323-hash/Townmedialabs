@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Packaging Design services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["packaging design dunedin", "packaging design agency dunedin", "packaging design dunedin nz"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-dunedin",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-dunedin",
   },
   openGraph: {
     title: "Packaging Design Agency in Dunedin",
     description: "TML offers expert Packaging Design services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-dunedin",
+    url: "https://townmedialabs.com/services/branding-packaging-in-dunedin",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Dunedin" }],
   },
   twitter: {

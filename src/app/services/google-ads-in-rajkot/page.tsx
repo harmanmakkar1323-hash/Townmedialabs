@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Google Ads management services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["Google Ads management rajkot", "Google Ads management agency rajkot", "Google Ads management company rajkot"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/google-ads-in-rajkot",
+    canonical: "https://townmedialabs.com/services/google-ads-in-rajkot",
   },
   openGraph: {
     title: "Google Ads Agency in Rajkot",
     description: "TML offers expert Google Ads management services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/google-ads-in-rajkot",
+    url: "https://townmedialabs.com/services/google-ads-in-rajkot",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Google Ads Agency in Rajkot" }],
   },
   twitter: {

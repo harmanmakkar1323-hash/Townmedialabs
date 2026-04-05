@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in Adelaide. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding adelaide", "branding agency adelaide", "branding company adelaide"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-adelaide",
+    canonical: "https://townmedialabs.com/services/branding-in-adelaide",
   },
   openGraph: {
     title: "Branding Agency in Adelaide",
     description: "TML offers expert Branding services in Adelaide. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-adelaide",
+    url: "https://townmedialabs.com/services/branding-in-adelaide",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Adelaide" }],
   },
   twitter: {

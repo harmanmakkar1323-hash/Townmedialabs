@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Website Development services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development visakhapatnam", "website development agency visakhapatnam", "website development company visakhapatnam"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/website-development-in-visakhapatnam",
+    canonical: "https://townmedialabs.com/services/website-development-in-visakhapatnam",
   },
   openGraph: {
     title: "Website Development Agency in Visakhapatnam",
     description: "TML offers expert Website Development services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/website-development-in-visakhapatnam",
+    url: "https://townmedialabs.com/services/website-development-in-visakhapatnam",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Visakhapatnam" }],
   },
   twitter: {

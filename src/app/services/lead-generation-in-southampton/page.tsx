@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Lead Generation services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation southampton", "lead generation agency southampton", "lead generation company southampton"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/lead-generation-in-southampton",
+    canonical: "https://townmedialabs.com/services/lead-generation-in-southampton",
   },
   openGraph: {
     title: "Lead Generation Agency in Southampton",
     description: "TML offers expert Lead Generation services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/lead-generation-in-southampton",
+    url: "https://townmedialabs.com/services/lead-generation-in-southampton",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Lead Generation Agency in Southampton" }],
   },
   twitter: {

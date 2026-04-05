@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Search Engine Optimization services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization south delhi", "search engine optimization agency south delhi", "search engine optimization company south delhi"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-south-delhi",
+    canonical: "https://townmedialabs.com/services/seo-in-south-delhi",
   },
   openGraph: {
     title: "SEO Agency in South Delhi",
     description: "TML offers expert Search Engine Optimization services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-south-delhi",
+    url: "https://townmedialabs.com/services/seo-in-south-delhi",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in South Delhi" }],
   },
   twitter: {

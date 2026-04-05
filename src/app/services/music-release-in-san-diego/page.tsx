@@ -10,15 +10,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release san diego", "music release agency san diego", "music release company san diego"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-san-diego",
+    canonical: "https://townmedialabs.com/services/music-release-in-san-diego",
   },
   openGraph: {
     title: "Music Release Agency in San Diego",
     description: "TML offers expert Music Release services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-san-diego",
+    url: "https://townmedialabs.com/services/music-release-in-san-diego",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in San Diego" }],
   },
   twitter: {

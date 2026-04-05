@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Graphic Design services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design oxford", "graphic design agency oxford", "graphic design company oxford"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/graphic-design-in-oxford",
+    canonical: "https://townmedialabs.com/services/graphic-design-in-oxford",
   },
   openGraph: {
     title: "Graphic Design Agency in Oxford",
     description: "TML offers expert Graphic Design services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/graphic-design-in-oxford",
+    url: "https://townmedialabs.com/services/graphic-design-in-oxford",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Oxford" }],
   },
   twitter: {

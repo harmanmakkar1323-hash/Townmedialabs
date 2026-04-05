@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Packaging Design services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design nashville", "packaging design agency nashville", "packaging design company nashville"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-nashville",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-nashville",
   },
   openGraph: {
     title: "Packaging Design Agency in Nashville",
     description: "TML offers expert Packaging Design services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-nashville",
+    url: "https://townmedialabs.com/services/branding-packaging-in-nashville",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Nashville" }],
   },
   twitter: {

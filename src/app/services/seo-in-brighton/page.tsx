@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo brighton", "seo agency brighton", "seo company brighton"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-brighton",
+    canonical: "https://townmedialabs.com/services/seo-in-brighton",
   },
   openGraph: {
     title: "SEO Agency in Brighton",
     description: "TML offers expert SEO services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-brighton",
+    url: "https://townmedialabs.com/services/seo-in-brighton",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Brighton" }],
   },
   twitter: {

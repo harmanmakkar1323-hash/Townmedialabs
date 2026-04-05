@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Graphic Design services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design visakhapatnam", "graphic design agency visakhapatnam", "graphic design company visakhapatnam"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/graphic-design-in-visakhapatnam",
+    canonical: "https://townmedialabs.com/services/graphic-design-in-visakhapatnam",
   },
   openGraph: {
     title: "Graphic Design Agency in Visakhapatnam",
     description: "TML offers expert Graphic Design services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/graphic-design-in-visakhapatnam",
+    url: "https://townmedialabs.com/services/graphic-design-in-visakhapatnam",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Visakhapatnam" }],
   },
   twitter: {

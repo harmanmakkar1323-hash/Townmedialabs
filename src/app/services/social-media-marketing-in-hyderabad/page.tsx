@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing hyderabad", "social media marketing agency hyderabad", "social media marketing company hyderabad"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-hyderabad",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-hyderabad",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Hyderabad",
     description: "TML offers expert Social Media Marketing services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-hyderabad",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-hyderabad",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Hyderabad" }],
   },
   twitter: {

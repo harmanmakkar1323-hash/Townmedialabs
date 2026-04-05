@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing derby", "social media marketing agency derby", "social media marketing company derby"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-derby",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-derby",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Derby",
     description: "TML offers expert Social Media Marketing services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-derby",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-derby",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Derby" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Google Ads services in Charlotte. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads charlotte", "google ads agency charlotte", "google ads company charlotte"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/google-ads-in-charlotte",
+    canonical: "https://townmedialabs.com/services/google-ads-in-charlotte",
   },
   openGraph: {
     title: "Google Ads Agency in Charlotte",
     description: "TML offers expert Google Ads services in Charlotte. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/google-ads-in-charlotte",
+    url: "https://townmedialabs.com/services/google-ads-in-charlotte",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Google Ads Agency in Charlotte" }],
   },
   twitter: {

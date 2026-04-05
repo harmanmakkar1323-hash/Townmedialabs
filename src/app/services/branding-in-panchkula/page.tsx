@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding panchkula", "branding agency panchkula", "branding company panchkula"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-panchkula",
+    canonical: "https://townmedialabs.com/services/branding-in-panchkula",
   },
   openGraph: {
     title: "Branding Agency in Panchkula",
     description: "TML offers expert Branding services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-panchkula",
+    url: "https://townmedialabs.com/services/branding-in-panchkula",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Panchkula" }],
   },
   twitter: {

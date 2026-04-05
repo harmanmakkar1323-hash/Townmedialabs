@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Video Editing services in Chicago. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing chicago", "video editing agency chicago", "video editing company chicago"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/video-editing-in-chicago",
+    canonical: "https://townmedialabs.com/services/video-editing-in-chicago",
   },
   openGraph: {
     title: "Video Editing Agency in Chicago",
     description: "TML offers expert Video Editing services in Chicago. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/video-editing-in-chicago",
+    url: "https://townmedialabs.com/services/video-editing-in-chicago",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Video Editing Agency in Chicago" }],
   },
   twitter: {

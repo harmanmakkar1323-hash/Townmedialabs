@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding san diego", "branding agency san diego", "branding company san diego"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-san-diego",
+    canonical: "https://townmedialabs.com/services/branding-in-san-diego",
   },
   openGraph: {
     title: "Branding Agency in San Diego",
     description: "TML offers expert Branding services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-san-diego",
+    url: "https://townmedialabs.com/services/branding-in-san-diego",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in San Diego" }],
   },
   twitter: {

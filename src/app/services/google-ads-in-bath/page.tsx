@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Google Ads services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads bath", "google ads agency bath", "google ads company bath"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/google-ads-in-bath",
+    canonical: "https://townmedialabs.com/services/google-ads-in-bath",
   },
   openGraph: {
     title: "Google Ads Agency in Bath",
     description: "TML offers expert Google Ads services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/google-ads-in-bath",
+    url: "https://townmedialabs.com/services/google-ads-in-bath",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Google Ads Agency in Bath" }],
   },
   twitter: {

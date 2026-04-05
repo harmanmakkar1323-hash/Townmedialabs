@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Lead Generation services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation patiala", "lead generation agency patiala", "lead generation company patiala"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/lead-generation-in-patiala",
+    canonical: "https://townmedialabs.com/services/lead-generation-in-patiala",
   },
   openGraph: {
     title: "Lead Generation Agency in Patiala",
     description: "TML offers expert Lead Generation services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/lead-generation-in-patiala",
+    url: "https://townmedialabs.com/services/lead-generation-in-patiala",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Lead Generation Agency in Patiala" }],
   },
   twitter: {

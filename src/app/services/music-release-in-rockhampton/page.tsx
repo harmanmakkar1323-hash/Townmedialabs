@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release rockhampton", "music release agency rockhampton", "music release company rockhampton"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-rockhampton",
+    canonical: "https://townmedialabs.com/services/music-release-in-rockhampton",
   },
   openGraph: {
     title: "Music Release Agency in Rockhampton",
     description: "TML offers expert Music Release services in Rockhampton. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-rockhampton",
+    url: "https://townmedialabs.com/services/music-release-in-rockhampton",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Rockhampton" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release sheffield", "music release agency sheffield", "music release company sheffield"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-sheffield",
+    canonical: "https://townmedialabs.com/services/music-release-in-sheffield",
   },
   openGraph: {
     title: "Music Release Agency in Sheffield",
     description: "TML offers expert Music Release services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-sheffield",
+    url: "https://townmedialabs.com/services/music-release-in-sheffield",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Sheffield" }],
   },
   twitter: {

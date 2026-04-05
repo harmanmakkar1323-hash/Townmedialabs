@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Edinburgh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo edinburgh", "seo agency edinburgh", "seo company edinburgh"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-edinburgh",
+    canonical: "https://townmedialabs.com/services/seo-in-edinburgh",
   },
   openGraph: {
     title: "SEO Agency in Edinburgh",
     description: "TML offers expert SEO services in Edinburgh. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-edinburgh",
+    url: "https://townmedialabs.com/services/seo-in-edinburgh",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Edinburgh" }],
   },
   twitter: {

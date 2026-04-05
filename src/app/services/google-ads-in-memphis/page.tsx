@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Google Ads services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads memphis", "google ads agency memphis", "google ads company memphis"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/google-ads-in-memphis",
+    canonical: "https://townmedialabs.com/services/google-ads-in-memphis",
   },
   openGraph: {
     title: "Google Ads Agency in Memphis",
     description: "TML offers expert Google Ads services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/google-ads-in-memphis",
+    url: "https://townmedialabs.com/services/google-ads-in-memphis",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Google Ads Agency in Memphis" }],
   },
   twitter: {

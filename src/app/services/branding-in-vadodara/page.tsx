@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding vadodara", "branding agency vadodara", "branding company vadodara"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-vadodara",
+    canonical: "https://townmedialabs.com/services/branding-in-vadodara",
   },
   openGraph: {
     title: "Branding Agency in Vadodara",
     description: "TML offers expert Branding services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-vadodara",
+    url: "https://townmedialabs.com/services/branding-in-vadodara",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Vadodara" }],
   },
   twitter: {

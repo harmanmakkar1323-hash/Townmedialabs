@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management bendigo", "ai influencer management agency bendigo", "ai influencer management company bendigo"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-bendigo",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-bendigo",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Bendigo",
     description: "TML offers expert AI Influencer Management services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-bendigo",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-bendigo",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Bendigo" }],
   },
   twitter: {

@@ -10,15 +10,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Video Editing services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing st. louis", "video editing agency st. louis", "video editing company st. louis"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/video-editing-in-st-louis",
+    canonical: "https://townmedialabs.com/services/video-editing-in-st-louis",
   },
   openGraph: {
     title: "Video Editing Agency in St. Louis",
     description: "TML offers expert Video Editing services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/video-editing-in-st-louis",
+    url: "https://townmedialabs.com/services/video-editing-in-st-louis",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Video Editing Agency in St. Louis" }],
   },
   twitter: {

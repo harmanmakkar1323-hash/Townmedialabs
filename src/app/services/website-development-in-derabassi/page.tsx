@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Website Development services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development derabassi", "website development agency derabassi", "website development company derabassi"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/website-development-in-derabassi",
+    canonical: "https://townmedialabs.com/services/website-development-in-derabassi",
   },
   openGraph: {
     title: "Website Development Agency in Derabassi",
     description: "TML offers expert Website Development services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/website-development-in-derabassi",
+    url: "https://townmedialabs.com/services/website-development-in-derabassi",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Derabassi" }],
   },
   twitter: {

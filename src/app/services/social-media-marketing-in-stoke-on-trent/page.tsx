@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing stoke-on-trent", "social media marketing agency stoke-on-trent", "social media marketing company stoke-on-trent"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-stoke-on-trent",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-stoke-on-trent",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Stoke-on-Trent",
     description: "TML offers expert Social Media Marketing services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-stoke-on-trent",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-stoke-on-trent",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Stoke-on-Trent" }],
   },
   twitter: {

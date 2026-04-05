@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo honolulu", "seo agency honolulu", "seo company honolulu"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-honolulu",
+    canonical: "https://townmedialabs.com/services/seo-in-honolulu",
   },
   openGraph: {
     title: "SEO Agency in Honolulu",
     description: "TML offers expert SEO services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-honolulu",
+    url: "https://townmedialabs.com/services/seo-in-honolulu",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Honolulu" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Packaging Design services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design brighton", "packaging design agency brighton", "packaging design company brighton"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-brighton",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-brighton",
   },
   openGraph: {
     title: "Packaging Design Agency in Brighton",
     description: "TML offers expert Packaging Design services in Brighton. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-brighton",
+    url: "https://townmedialabs.com/services/branding-packaging-in-brighton",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Brighton" }],
   },
   twitter: {

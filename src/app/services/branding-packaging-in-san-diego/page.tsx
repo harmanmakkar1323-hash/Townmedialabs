@@ -10,15 +10,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Packaging Design services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design san diego", "packaging design agency san diego", "packaging design company san diego"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-san-diego",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-san-diego",
   },
   openGraph: {
     title: "Packaging Design Agency in San Diego",
     description: "TML offers expert Packaging Design services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-san-diego",
+    url: "https://townmedialabs.com/services/branding-packaging-in-san-diego",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in San Diego" }],
   },
   twitter: {

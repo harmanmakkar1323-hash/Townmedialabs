@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Packaging Design services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design austin", "packaging design agency austin", "packaging design company austin"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-austin",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-austin",
   },
   openGraph: {
     title: "Packaging Design Agency in Austin",
     description: "TML offers expert Packaging Design services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-austin",
+    url: "https://townmedialabs.com/services/branding-packaging-in-austin",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Austin" }],
   },
   twitter: {

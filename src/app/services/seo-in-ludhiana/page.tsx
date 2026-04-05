@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo ludhiana", "seo agency ludhiana", "seo company ludhiana"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-ludhiana",
+    canonical: "https://townmedialabs.com/services/seo-in-ludhiana",
   },
   openGraph: {
     title: "SEO Agency in Ludhiana",
     description: "TML offers expert SEO services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-ludhiana",
+    url: "https://townmedialabs.com/services/seo-in-ludhiana",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Ludhiana" }],
   },
   twitter: {

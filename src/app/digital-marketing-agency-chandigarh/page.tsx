@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "Digital Marketing Agency in Chandigarh",
     description:
       "TML is the leading digital marketing agency in Chandigarh offering branding, SEO, Google Ads, social media marketing, web development, and more. 500+ brands served.",
-    url: "https://townmedialabs.ca/digital-marketing-agency-chandigarh",
+    url: "https://townmedialabs.com/digital-marketing-agency-chandigarh",
     siteName: "TML Agency",
     type: "website",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Digital Marketing Agency in Chandigarh - TML Agency" }],

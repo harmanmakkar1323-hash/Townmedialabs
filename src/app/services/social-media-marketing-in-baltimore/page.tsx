@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing baltimore", "social media marketing agency baltimore", "social media marketing company baltimore"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-baltimore",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-baltimore",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Baltimore",
     description: "TML offers expert Social Media Marketing services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-baltimore",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-baltimore",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Baltimore" }],
   },
   twitter: {

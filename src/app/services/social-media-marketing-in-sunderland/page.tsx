@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing sunderland", "social media marketing agency sunderland", "social media marketing company sunderland"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-sunderland",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-sunderland",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Sunderland",
     description: "TML offers expert Social Media Marketing services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-sunderland",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-sunderland",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Sunderland" }],
   },
   twitter: {

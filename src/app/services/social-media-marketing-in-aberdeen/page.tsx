@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing aberdeen", "social media marketing agency aberdeen", "social media marketing company aberdeen"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-aberdeen",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-aberdeen",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Aberdeen",
     description: "TML offers expert Social Media Marketing services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-aberdeen",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-aberdeen",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Aberdeen" }],
   },
   twitter: {

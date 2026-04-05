@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
   keywords: ["seo hamilton", "seo agency hamilton", "seo hamilton ontario"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-hamilton",
+    canonical: "https://townmedialabs.com/services/seo-in-hamilton",
   },
   openGraph: {
     title: "SEO Agency in Hamilton",
     description: "TML offers expert SEO services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-hamilton",
+    url: "https://townmedialabs.com/services/seo-in-hamilton",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Hamilton" }],
   },
   twitter: {

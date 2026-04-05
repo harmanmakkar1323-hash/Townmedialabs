@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Wolverhampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing wolverhampton", "social media marketing agency wolverhampton", "social media marketing company wolverhampton"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-wolverhampton",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-wolverhampton",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Wolverhampton",
     description: "TML offers expert Social Media Marketing services in Wolverhampton. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-wolverhampton",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-wolverhampton",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Wolverhampton" }],
   },
   twitter: {

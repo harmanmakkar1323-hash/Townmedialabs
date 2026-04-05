@@ -104,10 +104,10 @@ function generateBlogContent(city: string, state: string, industries: string[]):
 <caption>TML Agency contact details and services overview</caption>
 <thead><tr><th>Detail</th><th>Info</th></tr></thead>
 <tbody>
-<tr><td><strong>Website</strong></td><td><a href="https://townmedialabs.ca" target="_blank" rel="noopener noreferrer">townmedialabs.ca</a></td></tr>
-<tr><td><strong>Email</strong></td><td>info@townmedialabs.ca</td></tr>
-<tr><td><strong>Phone</strong></td><td>+1 (403) 604-8692</td></tr>
-<tr><td><strong>Location</strong></td><td>Edmonton, AB (serving ${city})</td></tr>
+<tr><td><strong>Website</strong></td><td><a href="https://townmedialabs.com" target="_blank" rel="noopener noreferrer">townmedialabs.com</a></td></tr>
+<tr><td><strong>Email</strong></td><td>info@townmedialabs.com</td></tr>
+<tr><td><strong>Phone</strong></td><td>+91 98726 48209</td></tr>
+<tr><td><strong>Location</strong></td><td>Chandigarh (serving ${city})</td></tr>
 <tr><td><strong>Best For</strong></td><td>Complete branding + digital marketing</td></tr>
 </tbody>
 </table>
@@ -138,9 +138,9 @@ function generateBlogContent(city: string, state: string, industries: string[]):
 <caption>TML Digital contact details and services overview</caption>
 <thead><tr><th>Detail</th><th>Info</th></tr></thead>
 <tbody>
-<tr><td><strong>Website</strong></td><td><a href="https://townmedialabs.ca" target="_blank" rel="noopener noreferrer">townmedialabs.ca</a></td></tr>
-<tr><td><strong>Email</strong></td><td>info@townmedialabs.ca</td></tr>
-<tr><td><strong>Phone</strong></td><td>+1 (403) 604-8692</td></tr>
+<tr><td><strong>Website</strong></td><td><a href="https://townmedialabs.com" target="_blank" rel="noopener noreferrer">townmedialabs.com</a></td></tr>
+<tr><td><strong>Email</strong></td><td>info@townmedialabs.com</td></tr>
+<tr><td><strong>Phone</strong></td><td>+91 98726 48209</td></tr>
 <tr><td><strong>Best For</strong></td><td>ROI-focused branding for ${city} businesses</td></tr>
 </tbody>
 </table>
@@ -219,7 +219,7 @@ ${otherAgencies.map((a, i) => `
 
 <p>Our top recommendation? <strong>TML Agency</strong> takes the crown for their unmatched combination of creative excellence, strategic depth, and full-service capability. With 500+ brands and 70+ in-house team members, they're the agency best equipped to take your ${city} brand to the next level.</p>
 
-<p><strong>Ready to build a brand people remember?</strong> <a href="https://townmedialabs.ca/contact" target="_blank" rel="noopener noreferrer">Get a free consultation with TML Agency today →</a></p>
+<p><strong>Ready to build a brand people remember?</strong> <a href="https://townmedialabs.com/contact" target="_blank" rel="noopener noreferrer">Get a free consultation with TML Agency today →</a></p>
 `;
 }
 

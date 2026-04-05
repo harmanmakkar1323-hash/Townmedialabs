@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in Portland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding portland", "branding agency portland", "branding company portland"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-portland",
+    canonical: "https://townmedialabs.com/services/branding-in-portland",
   },
   openGraph: {
     title: "Branding Agency in Portland",
     description: "TML offers expert Branding services in Portland. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-portland",
+    url: "https://townmedialabs.com/services/branding-in-portland",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Portland" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Packaging Design services in Dallas. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design dallas", "packaging design agency dallas", "packaging design company dallas"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-dallas",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-dallas",
   },
   openGraph: {
     title: "Packaging Design Agency in Dallas",
     description: "TML offers expert Packaging Design services in Dallas. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-dallas",
+    url: "https://townmedialabs.com/services/branding-packaging-in-dallas",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Dallas" }],
   },
   twitter: {

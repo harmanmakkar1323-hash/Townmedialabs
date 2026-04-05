@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["social media marketing christchurch", "social media marketing agency christchurch", "social media marketing christchurch nz"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-christchurch",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-christchurch",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Christchurch",
     description: "TML offers expert Social Media Marketing services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-christchurch",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-christchurch",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Christchurch" }],
   },
   twitter: {

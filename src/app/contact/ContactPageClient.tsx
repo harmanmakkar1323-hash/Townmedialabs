@@ -10,9 +10,9 @@ const ease = [0.23, 1, 0.32, 1] as const;
 
 const contactCards = [
   {
-    label: "Edmonton Office",
-    value: "11930 104 St NW, Edmonton, AB T5G 2K1",
-    href: "https://maps.google.com/?q=11930+104+St+NW,+Edmonton,+AB+T5G+2K1,+Canada",
+    label: "Chandigarh Office",
+    value: "CO 112, Basement, Sector 34A, Chandigarh 160022",
+    href: "https://maps.google.com/?q=CO+112,+Sector+34A,+Chandigarh+160022,+India",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
@@ -33,8 +33,8 @@ const contactCards = [
   },
   {
     label: "Phone",
-    value: "+1 (403) 604-8692",
-    href: "tel:+14036048692",
+    value: "+91 98726 48209",
+    href: "tel:+91-98726-48209",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
@@ -43,8 +43,8 @@ const contactCards = [
   },
   {
     label: "International",
-    value: "+1 (403) 604-8692",
-    href: "tel:+14036048692",
+    value: "+91 98726 48209",
+    href: "tel:+91-98726-48209",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="10" />
@@ -55,8 +55,8 @@ const contactCards = [
   },
   {
     label: "Email",
-    value: "info@townmedialabs.ca",
-    href: "mailto:info@townmedialabs.ca",
+    value: "info@townmedialabs.com",
+    href: "mailto:info@townmedialabs.com",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <rect x="2" y="4" width="20" height="16" rx="2" />
@@ -93,7 +93,7 @@ const faqs = [
   {
     question: "How do I get started with TML Agency?",
     answer:
-      "Simply fill out our contact form or call us at +1 (403) 604-8692. We offer a free 30-minute consultation where we discuss your goals, challenges, and how our services can help your brand grow.",
+      "Simply fill out our contact form or call us at +91 98726 48209. We offer a free 30-minute consultation where we discuss your goals, challenges, and how our services can help your brand grow.",
   },
   {
     question: "What is TML Agency\u2019s typical response time?",
@@ -108,7 +108,7 @@ const faqs = [
   {
     question: "Does TML Agency work with clients outside Chandigarh?",
     answer:
-      "Absolutely! We have offices in Edmonton, Canada and Chandigarh, India, and work with clients across North America, India, and internationally. We use video calls, project management tools, and regular updates to ensure seamless collaboration regardless of location.",
+      "Absolutely! We have office in Chandigarh, India, and work with clients across North America, India, and internationally. We use video calls, project management tools, and regular updates to ensure seamless collaboration regardless of location.",
   },
 ];
 
@@ -373,7 +373,7 @@ export default function ContactPageClient() {
                         onChange={handleChange}
                         onFocus={() => setFocusedField("phone")}
                         onBlur={() => setFocusedField(null)}
-                        placeholder="+1 (403) 604-8692"
+                        placeholder="+91 98726 48209"
                         className={inputClasses("phone")}
                       />
                     </div>
@@ -706,7 +706,7 @@ export default function ContactPageClient() {
               />
             </motion.div>
 
-            {/* Edmonton Office */}
+            {/* Chandigarh Office */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -715,18 +715,18 @@ export default function ContactPageClient() {
               className="rounded-2xl border border-white/[0.06] overflow-hidden"
             >
               <div className="p-5 border-b border-white/[0.06] bg-white/[0.02]">
-                <h3 className="text-lg font-semibold text-white">Edmonton Office</h3>
-                <p className="text-sm text-white/60 mt-1">11930 104 St NW, Edmonton, AB T5G 2K1, Canada</p>
+                <h3 className="text-lg font-semibold text-white">Chandigarh Office</h3>
+                <p className="text-sm text-white/60 mt-1">CO 112, Basement, Sector 34A, Chandigarh 160022, Canada</p>
               </div>
               <iframe
-                src="https://maps.google.com/maps?q=11930+104+St+NW,+Edmonton,+AB+T5G+2K1,+Canada&output=embed"
+                src="https://maps.google.com/maps?q=CO+112,+Sector+34A,+Chandigarh+160022,+India&output=embed"
                 width="100%"
                 height="300"
                 style={{ border: 0, filter: "invert(90%) hue-rotate(180deg) brightness(0.95) contrast(1.1)" }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="TML Agency Edmonton Office Location"
+                title="TML Agency Chandigarh Office Location"
                 className="rounded-b-xl"
               />
             </motion.div>
@@ -757,7 +757,7 @@ export default function ContactPageClient() {
               through Saturday during business hours.
             </p>
             <motion.a
-              href="tel:+14036048692"
+              href="tel:+91-98726-48209"
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.97 }}
               className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-base hover:bg-[#ff5500] transition-colors shadow-[0_0_40px_rgba(255,69,0,0.3)]"
@@ -774,7 +774,7 @@ export default function ContactPageClient() {
               >
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
               </svg>
-              +1 (403) 604-8692
+              +91 98726 48209
             </motion.a>
           </motion.div>
         </div>

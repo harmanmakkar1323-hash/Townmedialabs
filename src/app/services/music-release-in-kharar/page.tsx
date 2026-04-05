@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release and Distribution services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release and distribution kharar", "music release and distribution agency kharar", "music release and distribution company kharar"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-kharar",
+    canonical: "https://townmedialabs.com/services/music-release-in-kharar",
   },
   openGraph: {
     title: "Music Release Agency in Kharar",
     description: "TML offers expert Music Release and Distribution services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-kharar",
+    url: "https://townmedialabs.com/services/music-release-in-kharar",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Kharar" }],
   },
   twitter: {

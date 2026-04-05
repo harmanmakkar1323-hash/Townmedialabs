@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Google Ads services in New York. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads new york", "google ads agency new york", "google ads company new york"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/google-ads-in-new-york",
+    canonical: "https://townmedialabs.com/services/google-ads-in-new-york",
   },
   openGraph: {
     title: "Google Ads Agency in New York",
     description: "TML offers expert Google Ads services in New York. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/google-ads-in-new-york",
+    url: "https://townmedialabs.com/services/google-ads-in-new-york",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Google Ads Agency in New York" }],
   },
   twitter: {

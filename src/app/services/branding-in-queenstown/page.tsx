@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["branding queenstown", "branding agency queenstown", "branding queenstown nz"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-queenstown",
+    canonical: "https://townmedialabs.com/services/branding-in-queenstown",
   },
   openGraph: {
     title: "Branding Agency in Queenstown",
     description: "TML offers expert Branding services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-queenstown",
+    url: "https://townmedialabs.com/services/branding-in-queenstown",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Queenstown" }],
   },
   twitter: {

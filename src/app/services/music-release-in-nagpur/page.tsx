@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release and Distribution services in Nagpur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release and distribution nagpur", "music release and distribution agency nagpur", "music release and distribution company nagpur"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-nagpur",
+    canonical: "https://townmedialabs.com/services/music-release-in-nagpur",
   },
   openGraph: {
     title: "Music Release Agency in Nagpur",
     description: "TML offers expert Music Release and Distribution services in Nagpur. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-nagpur",
+    url: "https://townmedialabs.com/services/music-release-in-nagpur",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Nagpur" }],
   },
   twitter: {

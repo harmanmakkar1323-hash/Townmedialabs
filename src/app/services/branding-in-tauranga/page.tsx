@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["branding tauranga", "branding agency tauranga", "branding tauranga nz"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-tauranga",
+    canonical: "https://townmedialabs.com/services/branding-in-tauranga",
   },
   openGraph: {
     title: "Branding Agency in Tauranga",
     description: "TML offers expert Branding services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-tauranga",
+    url: "https://townmedialabs.com/services/branding-in-tauranga",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Tauranga" }],
   },
   twitter: {

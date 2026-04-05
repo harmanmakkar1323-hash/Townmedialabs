@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing sunshine coast", "social media marketing agency sunshine coast", "social media marketing company sunshine coast"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-sunshine-coast",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-sunshine-coast",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Sunshine Coast",
     description: "TML offers expert Social Media Marketing services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-sunshine-coast",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-sunshine-coast",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Sunshine Coast" }],
   },
   twitter: {

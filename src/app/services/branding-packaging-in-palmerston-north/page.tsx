@@ -10,15 +10,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Packaging Design services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["packaging design palmerston north", "packaging design agency palmerston north", "packaging design palmerston north nz"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-palmerston-north",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-palmerston-north",
   },
   openGraph: {
     title: "Packaging Design Agency in Palmerston North",
     description: "TML offers expert Packaging Design services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-palmerston-north",
+    url: "https://townmedialabs.com/services/branding-packaging-in-palmerston-north",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Palmerston North" }],
   },
   twitter: {

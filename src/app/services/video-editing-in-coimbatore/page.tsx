@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Video Editing services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing coimbatore", "video editing agency coimbatore", "video editing company coimbatore"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/video-editing-in-coimbatore",
+    canonical: "https://townmedialabs.com/services/video-editing-in-coimbatore",
   },
   openGraph: {
     title: "Video Editing Agency in Coimbatore",
     description: "TML offers expert Video Editing services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/video-editing-in-coimbatore",
+    url: "https://townmedialabs.com/services/video-editing-in-coimbatore",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Video Editing Agency in Coimbatore" }],
   },
   twitter: {

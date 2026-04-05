@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing glasgow", "social media marketing agency glasgow", "social media marketing company glasgow"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-glasgow",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-glasgow",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Glasgow",
     description: "TML offers expert Social Media Marketing services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-glasgow",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-glasgow",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Glasgow" }],
   },
   twitter: {

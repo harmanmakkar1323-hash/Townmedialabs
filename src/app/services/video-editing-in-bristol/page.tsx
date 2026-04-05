@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Video Editing services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing bristol", "video editing agency bristol", "video editing company bristol"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/video-editing-in-bristol",
+    canonical: "https://townmedialabs.com/services/video-editing-in-bristol",
   },
   openGraph: {
     title: "Video Editing Agency in Bristol",
     description: "TML offers expert Video Editing services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/video-editing-in-bristol",
+    url: "https://townmedialabs.com/services/video-editing-in-bristol",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Video Editing Agency in Bristol" }],
   },
   twitter: {

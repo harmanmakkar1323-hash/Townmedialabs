@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const author = getAuthorById(id);
   if (!author) return {};
 
-  const siteUrl = "https://townmedialabs.ca";
+  const siteUrl = "https://townmedialabs.com";
 
   return {
     title: `${author.name} | Author`,
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: `${siteUrl}/authors/${id}`,
       siteName: "TML Agency",
       type: "profile",
-      locale: "en_CA",
+      locale: "en_IN",
     },
   };
 }

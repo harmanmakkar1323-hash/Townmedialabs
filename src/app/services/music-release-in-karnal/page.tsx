@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release and Distribution services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release and distribution karnal", "music release and distribution agency karnal", "music release and distribution company karnal"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-karnal",
+    canonical: "https://townmedialabs.com/services/music-release-in-karnal",
   },
   openGraph: {
     title: "Music Release Agency in Karnal",
     description: "TML offers expert Music Release and Distribution services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-karnal",
+    url: "https://townmedialabs.com/services/music-release-in-karnal",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Karnal" }],
   },
   twitter: {

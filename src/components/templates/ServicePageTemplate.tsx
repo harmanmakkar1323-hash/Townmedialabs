@@ -357,7 +357,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
               Get a Free Quote
             </Link>
             <a
-              href="mailto:info@townmedialabs.ca"
+              href="mailto:info@townmedialabs.com"
               className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
               Talk to an Expert
@@ -769,10 +769,10 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
               Book a Free Strategy Call
             </Link>
             <a
-              href="mailto:info@townmedialabs.ca"
+              href="mailto:info@townmedialabs.com"
               className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
-              info@townmedialabs.ca
+              info@townmedialabs.com
             </a>
           </motion.div>
         </div>

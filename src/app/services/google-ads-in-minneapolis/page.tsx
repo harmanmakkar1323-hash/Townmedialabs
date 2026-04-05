@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Google Ads services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads minneapolis", "google ads agency minneapolis", "google ads company minneapolis"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/google-ads-in-minneapolis",
+    canonical: "https://townmedialabs.com/services/google-ads-in-minneapolis",
   },
   openGraph: {
     title: "Google Ads Agency in Minneapolis",
     description: "TML offers expert Google Ads services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/google-ads-in-minneapolis",
+    url: "https://townmedialabs.com/services/google-ads-in-minneapolis",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Google Ads Agency in Minneapolis" }],
   },
   twitter: {

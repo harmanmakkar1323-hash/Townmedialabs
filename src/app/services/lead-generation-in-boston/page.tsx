@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Lead Generation services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation boston", "lead generation agency boston", "lead generation company boston"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/lead-generation-in-boston",
+    canonical: "https://townmedialabs.com/services/lead-generation-in-boston",
   },
   openGraph: {
     title: "Lead Generation Agency in Boston",
     description: "TML offers expert Lead Generation services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/lead-generation-in-boston",
+    url: "https://townmedialabs.com/services/lead-generation-in-boston",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Lead Generation Agency in Boston" }],
   },
   twitter: {

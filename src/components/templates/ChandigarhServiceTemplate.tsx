@@ -118,7 +118,7 @@ export default function ChandigarhServiceTemplate({ data }: { data: ChandigarhSe
   const serviceSchema = generateServiceSchema({
     name: data.title,
     description: data.metaDescription,
-    url: `https://townmedialabs.ca/services/${data.slug}`,
+    url: `https://townmedialabs.com/services/${data.slug}`,
     areaServed: "Chandigarh",
     category: serviceData?.title,
   });
@@ -126,17 +126,17 @@ export default function ChandigarhServiceTemplate({ data }: { data: ChandigarhSe
   const localBusinessSchema = generateLocalBusinessSchema({
     name: "TML Agency - Chandigarh",
     description: data.metaDescription,
-    url: `https://townmedialabs.ca/services/${data.slug}`,
+    url: `https://townmedialabs.com/services/${data.slug}`,
     city: "Chandigarh",
     state: "Punjab",
     services: serviceData ? serviceData.features.map((f) => f.title) : [],
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://townmedialabs.ca" },
-    { name: "Services", url: "https://townmedialabs.ca/services" },
-    { name: serviceData?.title || data.title, url: `https://townmedialabs.ca/services/${data.serviceSlug}` },
-    { name: "Chandigarh", url: `https://townmedialabs.ca/services/${data.slug}` },
+    { name: "Home", url: "https://townmedialabs.com" },
+    { name: "Services", url: "https://townmedialabs.com/services" },
+    { name: serviceData?.title || data.title, url: `https://townmedialabs.com/services/${data.serviceSlug}` },
+    { name: "Chandigarh", url: `https://townmedialabs.com/services/${data.slug}` },
   ]);
 
   const faqSchema = generateFAQSchema(
@@ -471,7 +471,7 @@ export default function ChandigarhServiceTemplate({ data }: { data: ChandigarhSe
             <Link href="/contact" className="px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]">
               Get Your Free Consultation
             </Link>
-            <a href="tel:+14036048692" className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors">
+            <a href="tel:+91-98726-48209" className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors">
               Call Us Now
             </a>
           </div>

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in Gurgaon. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding gurgaon", "branding agency gurgaon", "branding company gurgaon"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-gurgaon",
+    canonical: "https://townmedialabs.com/services/branding-in-gurgaon",
   },
   openGraph: {
     title: "Branding Agency in Gurgaon",
     description: "TML offers expert Branding services in Gurgaon. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-gurgaon",
+    url: "https://townmedialabs.com/services/branding-in-gurgaon",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Gurgaon" }],
   },
   twitter: {

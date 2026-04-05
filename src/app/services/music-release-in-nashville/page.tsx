@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release nashville", "music release agency nashville", "music release company nashville"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-nashville",
+    canonical: "https://townmedialabs.com/services/music-release-in-nashville",
   },
   openGraph: {
     title: "Music Release Agency in Nashville",
     description: "TML offers expert Music Release services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-nashville",
+    url: "https://townmedialabs.com/services/music-release-in-nashville",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Nashville" }],
   },
   twitter: {

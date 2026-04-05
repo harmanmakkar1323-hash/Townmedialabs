@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Google Ads services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["google ads tauranga", "google ads agency tauranga", "google ads tauranga nz"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/google-ads-in-tauranga",
+    canonical: "https://townmedialabs.com/services/google-ads-in-tauranga",
   },
   openGraph: {
     title: "Google Ads Agency in Tauranga",
     description: "TML offers expert Google Ads services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/google-ads-in-tauranga",
+    url: "https://townmedialabs.com/services/google-ads-in-tauranga",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Google Ads Agency in Tauranga" }],
   },
   twitter: {

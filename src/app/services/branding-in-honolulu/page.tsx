@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding honolulu", "branding agency honolulu", "branding company honolulu"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-honolulu",
+    canonical: "https://townmedialabs.com/services/branding-in-honolulu",
   },
   openGraph: {
     title: "Branding Agency in Honolulu",
     description: "TML offers expert Branding services in Honolulu. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-honolulu",
+    url: "https://townmedialabs.com/services/branding-in-honolulu",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Honolulu" }],
   },
   twitter: {

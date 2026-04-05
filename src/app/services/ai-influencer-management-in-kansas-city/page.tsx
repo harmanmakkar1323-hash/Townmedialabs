@@ -10,15 +10,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management kansas city", "ai influencer management agency kansas city", "ai influencer management company kansas city"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-kansas-city",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-kansas-city",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Kansas City",
     description: "TML offers expert AI Influencer Management services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-kansas-city",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-kansas-city",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Kansas City" }],
   },
   twitter: {

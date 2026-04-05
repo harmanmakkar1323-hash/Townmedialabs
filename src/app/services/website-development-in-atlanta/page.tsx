@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Website Development services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development atlanta", "website development agency atlanta", "website development company atlanta"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/website-development-in-atlanta",
+    canonical: "https://townmedialabs.com/services/website-development-in-atlanta",
   },
   openGraph: {
     title: "Website Development Agency in Atlanta",
     description: "TML offers expert Website Development services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/website-development-in-atlanta",
+    url: "https://townmedialabs.com/services/website-development-in-atlanta",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Atlanta" }],
   },
   twitter: {

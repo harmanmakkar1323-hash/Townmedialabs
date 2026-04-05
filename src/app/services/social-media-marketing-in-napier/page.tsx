@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["social media marketing napier", "social media marketing agency napier", "social media marketing napier nz"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-napier",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-napier",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Napier",
     description: "TML offers expert Social Media Marketing services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-napier",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-napier",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Napier" }],
   },
   twitter: {

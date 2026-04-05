@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding nottingham", "branding agency nottingham", "branding company nottingham"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-nottingham",
+    canonical: "https://townmedialabs.com/services/branding-in-nottingham",
   },
   openGraph: {
     title: "Branding Agency in Nottingham",
     description: "TML offers expert Branding services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-nottingham",
+    url: "https://townmedialabs.com/services/branding-in-nottingham",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Nottingham" }],
   },
   twitter: {

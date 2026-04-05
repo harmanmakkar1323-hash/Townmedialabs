@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo san antonio", "seo agency san antonio", "seo company san antonio"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-san-antonio",
+    canonical: "https://townmedialabs.com/services/seo-in-san-antonio",
   },
   openGraph: {
     title: "SEO Agency in San Antonio",
     description: "TML offers expert SEO services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-san-antonio",
+    url: "https://townmedialabs.com/services/seo-in-san-antonio",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in San Antonio" }],
   },
   twitter: {

@@ -10,15 +10,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release los angeles", "music release agency los angeles", "music release company los angeles"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-los-angeles",
+    canonical: "https://townmedialabs.com/services/music-release-in-los-angeles",
   },
   openGraph: {
     title: "Music Release Agency in Los Angeles",
     description: "TML offers expert Music Release services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-los-angeles",
+    url: "https://townmedialabs.com/services/music-release-in-los-angeles",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Los Angeles" }],
   },
   twitter: {

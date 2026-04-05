@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Packaging Design services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design houston", "packaging design agency houston", "packaging design company houston"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-houston",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-houston",
   },
   openGraph: {
     title: "Packaging Design Agency in Houston",
     description: "TML offers expert Packaging Design services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-houston",
+    url: "https://townmedialabs.com/services/branding-packaging-in-houston",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Houston" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Google Ads services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["google ads boise", "google ads agency boise", "google ads company boise"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/google-ads-in-boise",
+    canonical: "https://townmedialabs.com/services/google-ads-in-boise",
   },
   openGraph: {
     title: "Google Ads Agency in Boise",
     description: "TML offers expert Google Ads services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/google-ads-in-boise",
+    url: "https://townmedialabs.com/services/google-ads-in-boise",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Google Ads Agency in Boise" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing delhi", "social media marketing agency delhi", "social media marketing company delhi"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-delhi",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-delhi",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Delhi",
     description: "TML offers expert Social Media Marketing services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-delhi",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-delhi",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Delhi" }],
   },
   twitter: {

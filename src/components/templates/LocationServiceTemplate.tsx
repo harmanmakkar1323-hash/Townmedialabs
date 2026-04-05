@@ -197,7 +197,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
   const serviceSchema = generateServiceSchema({
     name: `${serviceName} in ${cityName}`,
     description: `TML is a leading ${serviceName.toLowerCase()} agency serving businesses across ${location.region}.`,
-    url: `https://townmedialabs.ca/services/${getLocationServiceSlug(serviceSlug, location.slug)}`,
+    url: `https://townmedialabs.com/services/${getLocationServiceSlug(serviceSlug, location.slug)}`,
     areaServed: cityName,
     category: serviceName,
   });
@@ -207,7 +207,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
   const localBusinessSchema = isHeadquartersCity ? generateLocalBusinessSchema({
     name: `TML Agency - ${cityName}`,
     description: `Leading ${serviceName.toLowerCase()} agency in ${cityName}, ${location.state}.`,
-    url: `https://townmedialabs.ca/services/${getLocationServiceSlug(serviceSlug, location.slug)}`,
+    url: `https://townmedialabs.com/services/${getLocationServiceSlug(serviceSlug, location.slug)}`,
     city: cityName,
     state: location.state,
     services: serviceData ? serviceData.features.map((f) => f.title) : [serviceName],
@@ -215,10 +215,10 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
   }) : null;
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://townmedialabs.ca" },
-    { name: "Services", url: "https://townmedialabs.ca/services" },
-    { name: serviceName, url: `https://townmedialabs.ca/services/${serviceSlug}` },
-    { name: cityName, url: `https://townmedialabs.ca/services/${getLocationServiceSlug(serviceSlug, location.slug)}` },
+    { name: "Home", url: "https://townmedialabs.com" },
+    { name: "Services", url: "https://townmedialabs.com/services" },
+    { name: serviceName, url: `https://townmedialabs.com/services/${serviceSlug}` },
+    { name: cityName, url: `https://townmedialabs.com/services/${getLocationServiceSlug(serviceSlug, location.slug)}` },
   ]);
 
   const faqSchema = generateFAQSchema(
@@ -1258,7 +1258,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
             <Link href="/contact" className="px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]">
               Get Your Free Consultation
             </Link>
-            <a href="tel:+14036048692" className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors">
+            <a href="tel:+91-98726-48209" className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors">
               Call Us Now
             </a>
           </div>

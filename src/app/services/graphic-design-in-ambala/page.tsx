@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Graphic Design services in Ambala. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design ambala", "graphic design agency ambala", "graphic design company ambala"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/graphic-design-in-ambala",
+    canonical: "https://townmedialabs.com/services/graphic-design-in-ambala",
   },
   openGraph: {
     title: "Graphic Design Agency in Ambala",
     description: "TML offers expert Graphic Design services in Ambala. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/graphic-design-in-ambala",
+    url: "https://townmedialabs.com/services/graphic-design-in-ambala",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Ambala" }],
   },
   twitter: {

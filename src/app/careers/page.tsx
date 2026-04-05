@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import CareersPageClient from "./CareersPageClient";
 
-const siteUrl = "https://townmedialabs.ca";
+const siteUrl = "https://townmedialabs.com";
 
 export const metadata: Metadata = {
   title: "Careers",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/careers`,
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [
       {
         url: "/og-image.png",

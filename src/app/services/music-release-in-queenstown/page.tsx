@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["music release queenstown", "music release agency queenstown", "music release queenstown nz"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-queenstown",
+    canonical: "https://townmedialabs.com/services/music-release-in-queenstown",
   },
   openGraph: {
     title: "Music Release Agency in Queenstown",
     description: "TML offers expert Music Release services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-queenstown",
+    url: "https://townmedialabs.com/services/music-release-in-queenstown",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Queenstown" }],
   },
   twitter: {

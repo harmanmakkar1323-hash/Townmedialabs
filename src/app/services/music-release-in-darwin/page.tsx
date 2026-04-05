@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Darwin. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release darwin", "music release agency darwin", "music release company darwin"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-darwin",
+    canonical: "https://townmedialabs.com/services/music-release-in-darwin",
   },
   openGraph: {
     title: "Music Release Agency in Darwin",
     description: "TML offers expert Music Release services in Darwin. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-darwin",
+    url: "https://townmedialabs.com/services/music-release-in-darwin",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Darwin" }],
   },
   twitter: {

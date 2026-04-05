@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Darwin. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo darwin", "seo agency darwin", "seo company darwin"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-darwin",
+    canonical: "https://townmedialabs.com/services/seo-in-darwin",
   },
   openGraph: {
     title: "SEO Agency in Darwin",
     description: "TML offers expert SEO services in Darwin. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-darwin",
+    url: "https://townmedialabs.com/services/seo-in-darwin",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Darwin" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release phoenix", "music release agency phoenix", "music release company phoenix"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-phoenix",
+    canonical: "https://townmedialabs.com/services/music-release-in-phoenix",
   },
   openGraph: {
     title: "Music Release Agency in Phoenix",
     description: "TML offers expert Music Release services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-phoenix",
+    url: "https://townmedialabs.com/services/music-release-in-phoenix",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Phoenix" }],
   },
   twitter: {

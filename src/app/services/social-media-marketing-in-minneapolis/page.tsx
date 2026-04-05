@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing minneapolis", "social media marketing agency minneapolis", "social media marketing company minneapolis"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-minneapolis",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-minneapolis",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Minneapolis",
     description: "TML offers expert Social Media Marketing services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-minneapolis",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-minneapolis",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Minneapolis" }],
   },
   twitter: {

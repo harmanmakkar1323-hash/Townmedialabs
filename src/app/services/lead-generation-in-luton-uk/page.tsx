@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Lead Generation services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation luton", "lead generation agency luton", "lead generation company luton"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/lead-generation-in-luton-uk",
+    canonical: "https://townmedialabs.com/services/lead-generation-in-luton-uk",
   },
   openGraph: {
     title: "Lead Generation Agency in Luton",
     description: "TML offers expert Lead Generation services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/lead-generation-in-luton-uk",
+    url: "https://townmedialabs.com/services/lead-generation-in-luton-uk",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Lead Generation Agency in Luton" }],
   },
   twitter: {

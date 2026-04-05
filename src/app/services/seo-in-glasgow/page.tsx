@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo glasgow", "seo agency glasgow", "seo company glasgow"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-glasgow",
+    canonical: "https://townmedialabs.com/services/seo-in-glasgow",
   },
   openGraph: {
     title: "SEO Agency in Glasgow",
     description: "TML offers expert SEO services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-glasgow",
+    url: "https://townmedialabs.com/services/seo-in-glasgow",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Glasgow" }],
   },
   twitter: {

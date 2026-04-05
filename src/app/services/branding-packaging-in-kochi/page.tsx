@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding and Packaging services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging kochi", "branding and packaging agency kochi", "branding and packaging company kochi"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-kochi",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-kochi",
   },
   openGraph: {
     title: "Branding & Packaging Agency in Kochi",
     description: "TML offers expert Branding and Packaging services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-kochi",
+    url: "https://townmedialabs.com/services/branding-packaging-in-kochi",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding & Packaging Agency in Kochi" }],
   },
   twitter: {

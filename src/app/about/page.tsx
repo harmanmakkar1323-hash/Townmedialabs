@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import AboutPageClient from "./AboutPageClient";
 
-const siteUrl = "https://townmedialabs.ca";
+const siteUrl = "https://townmedialabs.com";
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "social media marketing chandigarh",
     "web development agency",
     "tml agency about",
-    "best digital marketing agency edmonton",
+    "best digital marketing agency chandigarh",
     "performance marketing agency",
   ],
   alternates: {
@@ -25,17 +25,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About Us",
     description:
-      "Edmonton's leading digital marketing agency — 500+ clients, 70+ team members, 15+ years of branding, SEO, web development & social media marketing excellence.",
+      "Chandigarh's leading digital marketing agency — 500+ clients, 70+ team members, 15+ years of branding, SEO, web development & social media marketing excellence.",
     url: `${siteUrl}/about`,
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "About TML Agency - Digital Marketing Agency in Edmonton",
+        alt: "About TML Agency - Digital Marketing Agency in Chandigarh",
       },
     ],
   },
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     site: "@tmlagency",
     title: "About Us",
     description:
-      "Edmonton's leading digital marketing agency — 500+ clients, 70+ team members, 15+ years of branding, SEO & web development excellence.",
+      "Chandigarh's leading digital marketing agency — 500+ clients, 70+ team members, 15+ years of branding, SEO & web development excellence.",
     images: ["/og-image.png"],
   },
 };
@@ -96,7 +96,7 @@ const aboutPageJsonLd = {
       addressRegion: "Chandigarh",
       addressCountry: "IN",
     },
-    email: "info@townmedialabs.ca",
+    email: "info@townmedialabs.com",
     sameAs: [
       "https://www.instagram.com/tmlagency/",
       "https://www.facebook.com/tmlagency/",

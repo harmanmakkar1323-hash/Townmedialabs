@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Lead Generation services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation columbus", "lead generation agency columbus", "lead generation company columbus"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/lead-generation-in-columbus-oh",
+    canonical: "https://townmedialabs.com/services/lead-generation-in-columbus-oh",
   },
   openGraph: {
     title: "Lead Generation Agency in Columbus",
     description: "TML offers expert Lead Generation services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/lead-generation-in-columbus-oh",
+    url: "https://townmedialabs.com/services/lead-generation-in-columbus-oh",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Lead Generation Agency in Columbus" }],
   },
   twitter: {

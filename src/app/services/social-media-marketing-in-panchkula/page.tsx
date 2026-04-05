@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing panchkula", "social media marketing agency panchkula", "social media marketing company panchkula"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-panchkula",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-panchkula",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Panchkula",
     description: "TML offers expert Social Media Marketing services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-panchkula",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-panchkula",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Panchkula" }],
   },
   twitter: {

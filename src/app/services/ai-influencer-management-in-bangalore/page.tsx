@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management bangalore", "AI influencer management agency bangalore", "AI influencer management company bangalore"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-bangalore",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-bangalore",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Bangalore",
     description: "TML offers expert AI Influencer Management services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-bangalore",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-bangalore",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Bangalore" }],
   },
   twitter: {

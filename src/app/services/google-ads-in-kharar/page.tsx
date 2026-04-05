@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Google Ads management services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["Google Ads management kharar", "Google Ads management agency kharar", "Google Ads management company kharar"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/google-ads-in-kharar",
+    canonical: "https://townmedialabs.com/services/google-ads-in-kharar",
   },
   openGraph: {
     title: "Google Ads Agency in Kharar",
     description: "TML offers expert Google Ads management services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/google-ads-in-kharar",
+    url: "https://townmedialabs.com/services/google-ads-in-kharar",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Google Ads Agency in Kharar" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Search Engine Optimization services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization karnal", "search engine optimization agency karnal", "search engine optimization company karnal"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-karnal",
+    canonical: "https://townmedialabs.com/services/seo-in-karnal",
   },
   openGraph: {
     title: "SEO Agency in Karnal",
     description: "TML offers expert Search Engine Optimization services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-karnal",
+    url: "https://townmedialabs.com/services/seo-in-karnal",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Karnal" }],
   },
   twitter: {

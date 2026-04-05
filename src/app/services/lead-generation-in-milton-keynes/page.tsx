@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Lead Generation services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation milton keynes", "lead generation agency milton keynes", "lead generation company milton keynes"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/lead-generation-in-milton-keynes",
+    canonical: "https://townmedialabs.com/services/lead-generation-in-milton-keynes",
   },
   openGraph: {
     title: "Lead Generation Agency in Milton Keynes",
     description: "TML offers expert Lead Generation services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/lead-generation-in-milton-keynes",
+    url: "https://townmedialabs.com/services/lead-generation-in-milton-keynes",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Lead Generation Agency in Milton Keynes" }],
   },
   twitter: {

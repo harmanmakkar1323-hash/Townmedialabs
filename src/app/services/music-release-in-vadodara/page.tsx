@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release and Distribution services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release and distribution vadodara", "music release and distribution agency vadodara", "music release and distribution company vadodara"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-vadodara",
+    canonical: "https://townmedialabs.com/services/music-release-in-vadodara",
   },
   openGraph: {
     title: "Music Release Agency in Vadodara",
     description: "TML offers expert Music Release and Distribution services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-vadodara",
+    url: "https://townmedialabs.com/services/music-release-in-vadodara",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Vadodara" }],
   },
   twitter: {

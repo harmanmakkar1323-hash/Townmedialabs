@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Portland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release portland", "music release agency portland", "music release company portland"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-portland",
+    canonical: "https://townmedialabs.com/services/music-release-in-portland",
   },
   openGraph: {
     title: "Music Release Agency in Portland",
     description: "TML offers expert Music Release services in Portland. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-portland",
+    url: "https://townmedialabs.com/services/music-release-in-portland",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Portland" }],
   },
   twitter: {

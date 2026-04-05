@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Video Editing services in Edinburgh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing edinburgh", "video editing agency edinburgh", "video editing company edinburgh"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/video-editing-in-edinburgh",
+    canonical: "https://townmedialabs.com/services/video-editing-in-edinburgh",
   },
   openGraph: {
     title: "Video Editing Agency in Edinburgh",
     description: "TML offers expert Video Editing services in Edinburgh. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/video-editing-in-edinburgh",
+    url: "https://townmedialabs.com/services/video-editing-in-edinburgh",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Video Editing Agency in Edinburgh" }],
   },
   twitter: {

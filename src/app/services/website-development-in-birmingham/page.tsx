@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Website Development services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development birmingham", "website development agency birmingham", "website development company birmingham"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/website-development-in-birmingham",
+    canonical: "https://townmedialabs.com/services/website-development-in-birmingham",
   },
   openGraph: {
     title: "Website Development Agency in Birmingham",
     description: "TML offers expert Website Development services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/website-development-in-birmingham",
+    url: "https://townmedialabs.com/services/website-development-in-birmingham",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Birmingham" }],
   },
   twitter: {

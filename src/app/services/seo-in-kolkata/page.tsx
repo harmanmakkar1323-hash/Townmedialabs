@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Search Engine Optimization services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization kolkata", "search engine optimization agency kolkata", "search engine optimization company kolkata"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-kolkata",
+    canonical: "https://townmedialabs.com/services/seo-in-kolkata",
   },
   openGraph: {
     title: "SEO Agency in Kolkata",
     description: "TML offers expert Search Engine Optimization services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-kolkata",
+    url: "https://townmedialabs.com/services/seo-in-kolkata",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Kolkata" }],
   },
   twitter: {

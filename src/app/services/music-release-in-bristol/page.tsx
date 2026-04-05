@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release bristol", "music release agency bristol", "music release company bristol"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-bristol",
+    canonical: "https://townmedialabs.com/services/music-release-in-bristol",
   },
   openGraph: {
     title: "Music Release Agency in Bristol",
     description: "TML offers expert Music Release services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-bristol",
+    url: "https://townmedialabs.com/services/music-release-in-bristol",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Bristol" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding preston", "branding agency preston", "branding company preston"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-preston",
+    canonical: "https://townmedialabs.com/services/branding-in-preston",
   },
   openGraph: {
     title: "Branding Agency in Preston",
     description: "TML offers expert Branding services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-preston",
+    url: "https://townmedialabs.com/services/branding-in-preston",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Preston" }],
   },
   twitter: {

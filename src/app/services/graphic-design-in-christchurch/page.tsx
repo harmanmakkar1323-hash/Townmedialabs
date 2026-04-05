@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Graphic Design services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["graphic design christchurch", "graphic design agency christchurch", "graphic design christchurch nz"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/graphic-design-in-christchurch",
+    canonical: "https://townmedialabs.com/services/graphic-design-in-christchurch",
   },
   openGraph: {
     title: "Graphic Design Agency in Christchurch",
     description: "TML offers expert Graphic Design services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/graphic-design-in-christchurch",
+    url: "https://townmedialabs.com/services/graphic-design-in-christchurch",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Christchurch" }],
   },
   twitter: {

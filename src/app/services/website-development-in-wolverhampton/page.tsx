@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Website Development services in Wolverhampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development wolverhampton", "website development agency wolverhampton", "website development company wolverhampton"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/website-development-in-wolverhampton",
+    canonical: "https://townmedialabs.com/services/website-development-in-wolverhampton",
   },
   openGraph: {
     title: "Website Development Agency in Wolverhampton",
     description: "TML offers expert Website Development services in Wolverhampton. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/website-development-in-wolverhampton",
+    url: "https://townmedialabs.com/services/website-development-in-wolverhampton",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Wolverhampton" }],
   },
   twitter: {

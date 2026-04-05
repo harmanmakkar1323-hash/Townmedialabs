@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["branding dunedin", "branding agency dunedin", "branding dunedin nz"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-dunedin",
+    canonical: "https://townmedialabs.com/services/branding-in-dunedin",
   },
   openGraph: {
     title: "Branding Agency in Dunedin",
     description: "TML offers expert Branding services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-dunedin",
+    url: "https://townmedialabs.com/services/branding-in-dunedin",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Dunedin" }],
   },
   twitter: {

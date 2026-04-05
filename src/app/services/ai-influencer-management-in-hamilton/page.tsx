@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
   keywords: ["ai influencer management hamilton", "ai influencer management agency hamilton", "ai influencer management hamilton ontario"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-hamilton",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-hamilton",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Hamilton",
     description: "TML offers expert AI Influencer Management services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-hamilton",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-hamilton",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Hamilton" }],
   },
   twitter: {

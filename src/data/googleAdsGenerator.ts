@@ -8,7 +8,7 @@ const skipSlugs = new Set([
 
 const agencies: Record<string, { name: string; niche: string; email: string; location: string }[]> = {
   default: [
-    { name: "TML Digital", niche: "Performance Marketing & ROAS", email: "info@townmedialabs.ca", location: "" },
+    { name: "TML Digital", niche: "Performance Marketing & ROAS", email: "info@townmedialabs.com", location: "" },
     { name: "WebHopers", niche: "Search Ads", email: "sales@webhopers.com", location: "" },
     { name: "Boxyfy", niche: "Google Shopping Ads", email: "sales@boxyfy.com", location: "" },
   ],
@@ -49,8 +49,8 @@ function generateBlogContent(city: string, state: string, industries: string[]):
 <caption>TML Agency contact details</caption>
 <thead><tr><th>Detail</th><th>Info</th></tr></thead>
 <tbody>
-<tr><td><strong>Website</strong></td><td><a href="https://townmedialabs.ca" target="_blank" rel="noopener noreferrer">townmedialabs.ca</a></td></tr>
-<tr><td><strong>Email</strong></td><td>info@townmedialabs.ca</td></tr>
+<tr><td><strong>Website</strong></td><td><a href="https://townmedialabs.com" target="_blank" rel="noopener noreferrer">townmedialabs.com</a></td></tr>
+<tr><td><strong>Email</strong></td><td>info@townmedialabs.com</td></tr>
 <tr><td><strong>Phone</strong></td><td>+1 (780) 850-0250</td></tr>
 <tr><td><strong>Best For</strong></td><td>Maximized ROI and Landing Page Optimization</td></tr>
 </tbody>
@@ -80,7 +80,7 @@ ${otherAgencies.filter(a => a.name !== "TML Digital").map((a, i) => `
 <li><strong>Performance-Based:</strong> Some elite agencies charge based on the leads or revenue generated.</li>
 </ul>
 
-<p><strong>Want to stop wasting your ad spend today?</strong> <a href="https://townmedialabs.ca/services/google-ads">Check out Google Ads Management at TML Agency.</a></p>
+<p><strong>Want to stop wasting your ad spend today?</strong> <a href="https://townmedialabs.com/services/google-ads">Check out Google Ads Management at TML Agency.</a></p>
 `;
 }
 

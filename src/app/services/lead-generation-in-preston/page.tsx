@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Lead Generation services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation preston", "lead generation agency preston", "lead generation company preston"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/lead-generation-in-preston",
+    canonical: "https://townmedialabs.com/services/lead-generation-in-preston",
   },
   openGraph: {
     title: "Lead Generation Agency in Preston",
     description: "TML offers expert Lead Generation services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/lead-generation-in-preston",
+    url: "https://townmedialabs.com/services/lead-generation-in-preston",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Lead Generation Agency in Preston" }],
   },
   twitter: {

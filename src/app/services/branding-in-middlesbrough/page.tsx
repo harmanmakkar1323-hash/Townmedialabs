@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding middlesbrough", "branding agency middlesbrough", "branding company middlesbrough"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-middlesbrough",
+    canonical: "https://townmedialabs.com/services/branding-in-middlesbrough",
   },
   openGraph: {
     title: "Branding Agency in Middlesbrough",
     description: "TML offers expert Branding services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-middlesbrough",
+    url: "https://townmedialabs.com/services/branding-in-middlesbrough",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Middlesbrough" }],
   },
   twitter: {

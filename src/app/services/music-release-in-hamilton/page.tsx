@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
   keywords: ["music release hamilton", "music release agency hamilton", "music release hamilton ontario"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-hamilton",
+    canonical: "https://townmedialabs.com/services/music-release-in-hamilton",
   },
   openGraph: {
     title: "Music Release Agency in Hamilton",
     description: "TML offers expert Music Release services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-hamilton",
+    url: "https://townmedialabs.com/services/music-release-in-hamilton",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Hamilton" }],
   },
   twitter: {

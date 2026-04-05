@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Website Development services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development detroit", "website development agency detroit", "website development company detroit"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/website-development-in-detroit",
+    canonical: "https://townmedialabs.com/services/website-development-in-detroit",
   },
   openGraph: {
     title: "Website Development Agency in Detroit",
     description: "TML offers expert Website Development services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/website-development-in-detroit",
+    url: "https://townmedialabs.com/services/website-development-in-detroit",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Detroit" }],
   },
   twitter: {

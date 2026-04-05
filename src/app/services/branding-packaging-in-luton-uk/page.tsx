@@ -10,15 +10,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Packaging Design services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design luton", "packaging design agency luton", "packaging design company luton"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-luton-uk",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-luton-uk",
   },
   openGraph: {
     title: "Packaging Design Agency in Luton",
     description: "TML offers expert Packaging Design services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-luton-uk",
+    url: "https://townmedialabs.com/services/branding-packaging-in-luton-uk",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Luton" }],
   },
   twitter: {

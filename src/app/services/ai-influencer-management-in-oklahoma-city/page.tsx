@@ -10,15 +10,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Oklahoma City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management oklahoma city", "ai influencer management agency oklahoma city", "ai influencer management company oklahoma city"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-oklahoma-city",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-oklahoma-city",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Oklahoma City",
     description: "TML offers expert AI Influencer Management services in Oklahoma City. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-oklahoma-city",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-oklahoma-city",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Oklahoma City" }],
   },
   twitter: {

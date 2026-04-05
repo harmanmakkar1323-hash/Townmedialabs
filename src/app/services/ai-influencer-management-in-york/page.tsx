@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in York. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management york", "ai influencer management agency york", "ai influencer management company york"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-york",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-york",
   },
   openGraph: {
     title: "AI Influencer Management Agency in York",
     description: "TML offers expert AI Influencer Management services in York. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-york",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-york",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in York" }],
   },
   twitter: {

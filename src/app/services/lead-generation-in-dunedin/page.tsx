@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Lead Generation services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["lead generation dunedin", "lead generation agency dunedin", "lead generation dunedin nz"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/lead-generation-in-dunedin",
+    canonical: "https://townmedialabs.com/services/lead-generation-in-dunedin",
   },
   openGraph: {
     title: "Lead Generation Agency in Dunedin",
     description: "TML offers expert Lead Generation services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/lead-generation-in-dunedin",
+    url: "https://townmedialabs.com/services/lead-generation-in-dunedin",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Lead Generation Agency in Dunedin" }],
   },
   twitter: {

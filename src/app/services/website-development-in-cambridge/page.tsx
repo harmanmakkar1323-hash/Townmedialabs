@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Website Development services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development cambridge", "website development agency cambridge", "website development company cambridge"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/website-development-in-cambridge",
+    canonical: "https://townmedialabs.com/services/website-development-in-cambridge",
   },
   openGraph: {
     title: "Website Development Agency in Cambridge",
     description: "TML offers expert Website Development services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/website-development-in-cambridge",
+    url: "https://townmedialabs.com/services/website-development-in-cambridge",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Cambridge" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing mohali", "social media marketing agency mohali", "social media marketing company mohali"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-mohali",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-mohali",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Mohali",
     description: "TML offers expert Social Media Marketing services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-mohali",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-mohali",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Mohali" }],
   },
   twitter: {

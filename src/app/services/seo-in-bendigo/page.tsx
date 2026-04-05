@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo bendigo", "seo agency bendigo", "seo company bendigo"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-bendigo",
+    canonical: "https://townmedialabs.com/services/seo-in-bendigo",
   },
   openGraph: {
     title: "SEO Agency in Bendigo",
     description: "TML offers expert SEO services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-bendigo",
+    url: "https://townmedialabs.com/services/seo-in-bendigo",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Bendigo" }],
   },
   twitter: {

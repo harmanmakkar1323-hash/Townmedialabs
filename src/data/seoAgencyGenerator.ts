@@ -50,8 +50,8 @@ function generateBlogContent(city: string, state: string, industries: string[]):
 <caption>TML Agency contact details</caption>
 <thead><tr><th>Detail</th><th>Info</th></tr></thead>
 <tbody>
-<tr><td><strong>Website</strong></td><td><a href="https://townmedialabs.ca" target="_blank" rel="noopener noreferrer">townmedialabs.ca</a></td></tr>
-<tr><td><strong>Email</strong></td><td>info@townmedialabs.ca</td></tr>
+<tr><td><strong>Website</strong></td><td><a href="https://townmedialabs.com" target="_blank" rel="noopener noreferrer">townmedialabs.com</a></td></tr>
+<tr><td><strong>Email</strong></td><td>info@townmedialabs.com</td></tr>
 <tr><td><strong>Phone</strong></td><td>+1 (780) 850-0250</td></tr>
 <tr><td><strong>Best For</strong></td><td>ROI-driven SEO & comprehensive digital marketing</td></tr>
 </tbody>
@@ -76,7 +76,7 @@ ${otherAgencies.map((a, i) => `
 <h2>How Much Should SEO Cost in ${city}?</h2>
 <p>In 2026, quality SEO requires a serious investment. A reputable agency serving ${city} will typically charge between $750 to $3,000+ per month depending on the market competitiveness and your goals. Beware of agencies offering "Guaranteed #1 Rankings for $200"—this often leads to toxic backlinks and Google penalties.</p>
 
-<p><strong>Ready to dominate Google search results in ${city}?</strong> <a href="https://townmedialabs.ca/services/seo">Learn more about our SEO services at TML Agency.</a></p>
+<p><strong>Ready to dominate Google search results in ${city}?</strong> <a href="https://townmedialabs.com/services/seo">Learn more about our SEO services at TML Agency.</a></p>
 `;
 }
 

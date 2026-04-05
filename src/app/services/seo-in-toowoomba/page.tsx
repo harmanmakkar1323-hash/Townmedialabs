@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo toowoomba", "seo agency toowoomba", "seo company toowoomba"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-toowoomba",
+    canonical: "https://townmedialabs.com/services/seo-in-toowoomba",
   },
   openGraph: {
     title: "SEO Agency in Toowoomba",
     description: "TML offers expert SEO services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-toowoomba",
+    url: "https://townmedialabs.com/services/seo-in-toowoomba",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Toowoomba" }],
   },
   twitter: {

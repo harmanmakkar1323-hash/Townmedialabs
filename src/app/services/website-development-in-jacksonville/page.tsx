@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Website Development services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development jacksonville", "website development agency jacksonville", "website development company jacksonville"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/website-development-in-jacksonville",
+    canonical: "https://townmedialabs.com/services/website-development-in-jacksonville",
   },
   openGraph: {
     title: "Website Development Agency in Jacksonville",
     description: "TML offers expert Website Development services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/website-development-in-jacksonville",
+    url: "https://townmedialabs.com/services/website-development-in-jacksonville",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Jacksonville" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management kharar", "AI influencer management agency kharar", "AI influencer management company kharar"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-kharar",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-kharar",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Kharar",
     description: "TML offers expert AI Influencer Management services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-kharar",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-kharar",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Kharar" }],
   },
   twitter: {

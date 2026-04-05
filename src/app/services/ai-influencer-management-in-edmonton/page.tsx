@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Edmonton, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management edmonton", "ai influencer management agency edmonton"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-edmonton",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-edmonton",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Edmonton",
     description: "TML offers expert AI Influencer Management services in Edmonton, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-edmonton",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-edmonton",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Edmonton" }],
   },
   twitter: {

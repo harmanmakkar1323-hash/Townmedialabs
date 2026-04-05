@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Branding services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding toowoomba", "branding agency toowoomba", "branding company toowoomba"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-in-toowoomba",
+    canonical: "https://townmedialabs.com/services/branding-in-toowoomba",
   },
   openGraph: {
     title: "Branding Agency in Toowoomba",
     description: "TML offers expert Branding services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-in-toowoomba",
+    url: "https://townmedialabs.com/services/branding-in-toowoomba",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Toowoomba" }],
   },
   twitter: {

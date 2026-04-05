@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Google Ads management services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["Google Ads management patiala", "Google Ads management agency patiala", "Google Ads management company patiala"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/google-ads-in-patiala",
+    canonical: "https://townmedialabs.com/services/google-ads-in-patiala",
   },
   openGraph: {
     title: "Google Ads Agency in Patiala",
     description: "TML offers expert Google Ads management services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/google-ads-in-patiala",
+    url: "https://townmedialabs.com/services/google-ads-in-patiala",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Google Ads Agency in Patiala" }],
   },
   twitter: {

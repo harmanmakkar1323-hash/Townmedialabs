@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Google Ads management services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["Google Ads management panipat", "Google Ads management agency panipat", "Google Ads management company panipat"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/google-ads-in-panipat",
+    canonical: "https://townmedialabs.com/services/google-ads-in-panipat",
   },
   openGraph: {
     title: "Google Ads Agency in Panipat",
     description: "TML offers expert Google Ads management services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/google-ads-in-panipat",
+    url: "https://townmedialabs.com/services/google-ads-in-panipat",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Google Ads Agency in Panipat" }],
   },
   twitter: {

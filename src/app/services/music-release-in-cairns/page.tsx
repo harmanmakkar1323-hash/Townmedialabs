@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Cairns. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release cairns", "music release agency cairns", "music release company cairns"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-cairns",
+    canonical: "https://townmedialabs.com/services/music-release-in-cairns",
   },
   openGraph: {
     title: "Music Release Agency in Cairns",
     description: "TML offers expert Music Release services in Cairns. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-cairns",
+    url: "https://townmedialabs.com/services/music-release-in-cairns",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Cairns" }],
   },
   twitter: {

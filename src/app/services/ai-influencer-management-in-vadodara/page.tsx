@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["AI influencer management vadodara", "AI influencer management agency vadodara", "AI influencer management company vadodara"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-vadodara",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-vadodara",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Vadodara",
     description: "TML offers expert AI Influencer Management services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-vadodara",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-vadodara",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Vadodara" }],
   },
   twitter: {

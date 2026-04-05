@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Indore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing indore", "social media marketing agency indore", "social media marketing company indore"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-indore",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-indore",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Indore",
     description: "TML offers expert Social Media Marketing services in Indore. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-indore",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-indore",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Indore" }],
   },
   twitter: {

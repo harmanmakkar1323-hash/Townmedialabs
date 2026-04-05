@@ -32,7 +32,7 @@ export default function TermsOfServicePage() {
                 1. Acceptance of Terms
               </h2>
               <p>
-                By accessing and using the TML Agency website (townmedialabs.ca), you
+                By accessing and using the TML Agency website (townmedialabs.com), you
                 accept and agree to be bound by these Terms of Service. If you
                 do not agree with any part of these terms, please do not use our
                 website.
@@ -138,10 +138,10 @@ export default function TermsOfServicePage() {
               <p>
                 For questions about these terms, contact us at{" "}
                 <a
-                  href="mailto:info@townmedialabs.ca"
+                  href="mailto:info@townmedialabs.com"
                   className="text-[#ff4500] hover:underline"
                 >
-                  info@townmedialabs.ca
+                  info@townmedialabs.com
                 </a>
                 .
               </p>

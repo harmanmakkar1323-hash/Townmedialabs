@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Calgary, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management calgary", "ai influencer management agency calgary"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-calgary",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-calgary",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Calgary",
     description: "TML offers expert AI Influencer Management services in Calgary, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-calgary",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-calgary",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Calgary" }],
   },
   twitter: {

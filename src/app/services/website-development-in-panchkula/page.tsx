@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Website Development services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development panchkula", "website development agency panchkula", "website development company panchkula"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/website-development-in-panchkula",
+    canonical: "https://townmedialabs.com/services/website-development-in-panchkula",
   },
   openGraph: {
     title: "Website Development Agency in Panchkula",
     description: "TML offers expert Website Development services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/website-development-in-panchkula",
+    url: "https://townmedialabs.com/services/website-development-in-panchkula",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Panchkula" }],
   },
   twitter: {

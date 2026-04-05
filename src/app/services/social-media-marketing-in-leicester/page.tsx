@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing leicester", "social media marketing agency leicester", "social media marketing company leicester"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-leicester",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-leicester",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Leicester",
     description: "TML offers expert Social Media Marketing services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-leicester",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-leicester",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Leicester" }],
   },
   twitter: {

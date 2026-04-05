@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management fujairah", "ai influencer management agency fujairah", "ai influencer management company fujairah"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-fujairah",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-fujairah",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Fujairah",
     description: "TML offers expert AI Influencer Management services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-fujairah",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-fujairah",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Fujairah" }],
   },
   twitter: {

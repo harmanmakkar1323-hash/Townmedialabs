@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Website Development services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development geelong", "website development agency geelong", "website development company geelong"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/website-development-in-geelong",
+    canonical: "https://townmedialabs.com/services/website-development-in-geelong",
   },
   openGraph: {
     title: "Website Development Agency in Geelong",
     description: "TML offers expert Website Development services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/website-development-in-geelong",
+    url: "https://townmedialabs.com/services/website-development-in-geelong",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Geelong" }],
   },
   twitter: {

@@ -484,8 +484,8 @@ export default function ChandigarhPageClient() {
             />
           </motion.div>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-6 text-sm text-white">
-            <span>11930 104 St NW, Edmonton, AB T5G 2K1</span>
-            <a href="tel:+14036048692" className="text-[#ff4500] hover:underline">+1 (403) 604-8692</a>
+            <span>CO 112, Basement, Sector 34A, Chandigarh 160022</span>
+            <a href="tel:+91-98726-48209" className="text-[#ff4500] hover:underline">+91 98726 48209</a>
           </div>
         </div>
       </section>

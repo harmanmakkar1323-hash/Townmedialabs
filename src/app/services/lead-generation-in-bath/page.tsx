@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Lead Generation services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation bath", "lead generation agency bath", "lead generation company bath"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/lead-generation-in-bath",
+    canonical: "https://townmedialabs.com/services/lead-generation-in-bath",
   },
   openGraph: {
     title: "Lead Generation Agency in Bath",
     description: "TML offers expert Lead Generation services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/lead-generation-in-bath",
+    url: "https://townmedialabs.com/services/lead-generation-in-bath",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Lead Generation Agency in Bath" }],
   },
   twitter: {

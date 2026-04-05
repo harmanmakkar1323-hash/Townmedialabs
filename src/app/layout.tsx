@@ -24,7 +24,7 @@ const syne = Syne({
   adjustFontFallback: true,
 });
 
-const siteUrl = "https://townmedialabs.ca";
+const siteUrl = "https://townmedialabs.com";
 
 export const metadata: Metadata = {
   title: {
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     "TML Agency",
     "full-service marketing agency",
     "graphic design services",
-    "digital marketing agency Edmonton",
+    "digital marketing agency Chandigarh",
     "web design agency",
     "performance marketing",
     "content marketing agency",
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     url: siteUrl,
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [
       {
         url: "/og-image.png",
@@ -127,10 +127,10 @@ const organizationJsonLd = {
     width: 512,
     height: 512,
   },
-  email: "info@townmedialabs.ca",
-  telephone: "+14036048692",
+  email: "info@townmedialabs.com",
+  telephone: "+91-98726-48209",
   description:
-    "Full-service digital marketing and branding agency based in Edmonton, Alberta, Canada. Specializing in branding, web development, SEO, Google Ads, social media marketing, and performance marketing. 500+ brands scaled, 15+ years of experience.",
+    "Full-service digital marketing and branding agency based in Chandigarh, India. Specializing in branding, web development, SEO, Google Ads, social media marketing, and performance marketing. 500+ brands scaled, 15+ years of experience.",
   founder: {
     "@type": "Person",
     name: "Raman Makkar",
@@ -145,25 +145,25 @@ const organizationJsonLd = {
   },
   address: {
     "@type": "PostalAddress",
-    streetAddress: "11930 104 St NW",
-    addressLocality: "Edmonton",
-    addressRegion: "Alberta",
-    postalCode: "T5G 2K1",
-    addressCountry: "CA",
+    streetAddress: "CO 112, Basement, Sector 34A",
+    addressLocality: "Chandigarh",
+    addressRegion: "Chandigarh",
+    postalCode: "160022",
+    addressCountry: "IN",
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: "53.5461",
-    longitude: "-113.4937",
+    latitude: "30.7281",
+    longitude: "76.7726",
   },
   contactPoint: [
     {
       "@type": "ContactPoint",
-      telephone: "+14036048692",
+      telephone: "+91-98726-48209",
       contactType: "customer service",
-      email: "info@townmedialabs.ca",
-      availableLanguage: ["English", "French"],
-      areaServed: ["CA", "US", "GB", "IN", "AU", "NZ", "AE"],
+      email: "info@townmedialabs.com",
+      availableLanguage: ["English", "Hindi"],
+      areaServed: ["IN", "US", "GB", "CA", "AU", "NZ", "AE"],
     },
   ],
   sameAs: [
@@ -193,25 +193,25 @@ const localBusinessJsonLd = {
   "@id": `${siteUrl}/#localbusiness`,
   name: "TML Agency",
   url: siteUrl,
-  telephone: "+14036048692",
-  email: "info@townmedialabs.ca",
+  telephone: "+91-98726-48209",
+  email: "info@townmedialabs.com",
   image: `${siteUrl}/logo.png`,
   description:
-    "Full-service branding and digital marketing agency based in Edmonton, Alberta, Canada. 500+ brands scaled, 15+ years of experience.",
+    "Full-service branding and digital marketing agency based in Chandigarh, India. 500+ brands scaled, 15+ years of experience.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "11930 104 St NW",
-    addressLocality: "Edmonton",
-    addressRegion: "Alberta",
-    postalCode: "T5G 2K1",
-    addressCountry: "CA",
+    streetAddress: "CO 112, Basement, Sector 34A",
+    addressLocality: "Chandigarh",
+    addressRegion: "Chandigarh",
+    postalCode: "160022",
+    addressCountry: "IN",
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: "53.5461",
-    longitude: "-113.4937",
+    latitude: "30.7281",
+    longitude: "76.7726",
   },
-  hasMap: "https://maps.google.com/?cid=TML+Agency+Edmonton",
+  hasMap: "https://maps.google.com/?cid=TML+Agency+Chandigarh",
   areaServed: [
     { "@type": "Country", name: "Canada" },
     { "@type": "Country", name: "United States" },
@@ -339,7 +339,7 @@ const websiteJsonLd = {
     },
     "query-input": "required name=search_term_string",
   },
-  inLanguage: "en-CA",
+  inLanguage: "en-IN",
 };
 
 export default function RootLayout({

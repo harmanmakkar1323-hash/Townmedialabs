@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo derby", "seo agency derby", "seo company derby"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-derby",
+    canonical: "https://townmedialabs.com/services/seo-in-derby",
   },
   openGraph: {
     title: "SEO Agency in Derby",
     description: "TML offers expert SEO services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-derby",
+    url: "https://townmedialabs.com/services/seo-in-derby",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Derby" }],
   },
   twitter: {

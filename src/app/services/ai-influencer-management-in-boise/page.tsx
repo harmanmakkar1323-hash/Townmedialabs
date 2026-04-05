@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management boise", "ai influencer management agency boise", "ai influencer management company boise"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-boise",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-boise",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Boise",
     description: "TML offers expert AI Influencer Management services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-boise",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-boise",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Boise" }],
   },
   twitter: {

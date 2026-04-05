@@ -1,15 +1,15 @@
 const DEFAULT_PROVIDER = {
   "@type": "Organization" as const,
   name: "TML Agency",
-  url: "https://townmedialabs.ca",
-  telephone: "+14036048692",
+  url: "https://townmedialabs.com",
+  telephone: "+91-98726-48209",
   address: {
     "@type": "PostalAddress" as const,
-    streetAddress: "11930 104 St NW",
-    addressLocality: "Edmonton",
-    addressRegion: "Alberta",
-    addressCountry: "CA",
-    postalCode: "T5G 2K1",
+    streetAddress: "CO 112, Basement, Sector 34A",
+    addressLocality: "Chandigarh",
+    addressRegion: "Chandigarh",
+    addressCountry: "IN",
+    postalCode: "160022",
   },
   sameAs: [
     "https://www.instagram.com/tmlagency/",
@@ -55,7 +55,7 @@ export function generateLocalBusinessSchema(params: {
   areaServed?: { type: "City" | "Country" | "State"; name: string }[];
   coordinates?: { latitude: number; longitude: number };
 }) {
-  // Default to Edmonton HQ if no coordinates provided
+  // Default to Chandigarh HQ if no coordinates provided
   const coords = params.coordinates || {
     latitude: 53.5461,
     longitude: -113.4937,
@@ -128,7 +128,7 @@ export function generateArticleSchema(params: {
   authorName?: string;
   authorId?: string;
 }) {
-  const siteUrl = "https://townmedialabs.ca";
+  const siteUrl = "https://townmedialabs.com";
 
   // Create author object - use Person if authorName/ID provided, otherwise Organization
   const author = params.authorName && params.authorId
@@ -166,7 +166,7 @@ export function generateArticleSchema(params: {
     },
     ...(params.keywords && { keywords: params.keywords.join(", ") }),
     ...(params.category && { articleSection: params.category }),
-    inLanguage: "en-CA",
+    inLanguage: "en-IN",
   };
 }
 

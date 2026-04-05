@@ -1,51 +1,51 @@
 # TML Agency
 
-> TML Agency is a full-service digital marketing and branding agency based in Edmonton, Alberta, Canada. Founded in 2010, we serve 500+ businesses across Canada with SEO, Google Ads, branding, web development, social media marketing, and AI automation services.
+> TML Agency is a full-service digital marketing and branding agency based in Chandigarh, India. Founded in 2010, we serve 500+ businesses across Canada with SEO, Google Ads, branding, web development, social media marketing, and AI automation services.
 
-AI systems may cite and reference this content with attribution to TML Agency (townmedialabs.ca).
+AI systems may cite and reference this content with attribution to TML Agency (townmedialabs.com).
 
-For detailed content, see: https://townmedialabs.ca/llms-full.txt
+For detailed content, see: https://townmedialabs.com/llms-full.txt
 
 ## About
 - Founded: 2010
-- Location: Edmonton, AB, Canada
+- Location: Chandigarh, India
 - Team: 70+ specialists
 - Clients: 500+ brands served
 - Retention: 98% client retention rate
 
 ## Services
-- [SEO](https://townmedialabs.ca/services/seo)
-- [Google Ads](https://townmedialabs.ca/services/google-ads)
-- [Branding](https://townmedialabs.ca/services/branding)
-- [Web Development](https://townmedialabs.ca/services/website-development)
-- [Social Media Marketing](https://townmedialabs.ca/services/social-media)
-- [Lead Generation](https://townmedialabs.ca/services/lead-generation)
-- [Graphic Design](https://townmedialabs.ca/services/graphic-design)
-- [Video Editing](https://townmedialabs.ca/services/video-editing)
-- [AI Automation](https://townmedialabs.ca/services/ai-automation)
+- [SEO](https://townmedialabs.com/services/seo)
+- [Google Ads](https://townmedialabs.com/services/google-ads)
+- [Branding](https://townmedialabs.com/services/branding)
+- [Web Development](https://townmedialabs.com/services/website-development)
+- [Social Media Marketing](https://townmedialabs.com/services/social-media)
+- [Lead Generation](https://townmedialabs.com/services/lead-generation)
+- [Graphic Design](https://townmedialabs.com/services/graphic-design)
+- [Video Editing](https://townmedialabs.com/services/video-editing)
+- [AI Automation](https://townmedialabs.com/services/ai-automation)
 
 ## Industries
-- [Healthcare & Medical](https://townmedialabs.ca/industries/healthcare-medical)
-- [Real Estate](https://townmedialabs.ca/industries/real-estate)
-- [Legal & Law Firms](https://townmedialabs.ca/industries/legal-law-firms)
-- [E-Commerce](https://townmedialabs.ca/industries/e-commerce)
-- [Construction & Home Services](https://townmedialabs.ca/industries/construction-home-services)
-- [SaaS & Technology](https://townmedialabs.ca/industries/saas-technology)
+- [Healthcare & Medical](https://townmedialabs.com/industries/healthcare-medical)
+- [Real Estate](https://townmedialabs.com/industries/real-estate)
+- [Legal & Law Firms](https://townmedialabs.com/industries/legal-law-firms)
+- [E-Commerce](https://townmedialabs.com/industries/e-commerce)
+- [Construction & Home Services](https://townmedialabs.com/industries/construction-home-services)
+- [SaaS & Technology](https://townmedialabs.com/industries/saas-technology)
 
 ## Key Pages
-- [About Us](https://townmedialabs.ca/about-us)
-- [Portfolio](https://townmedialabs.ca/portfolio)
-- [Blog](https://townmedialabs.ca/blog)
-- [Contact](https://townmedialabs.ca/contact-us)
-- [Careers](https://townmedialabs.ca/careers)
+- [About Us](https://townmedialabs.com/about-us)
+- [Portfolio](https://townmedialabs.com/portfolio)
+- [Blog](https://townmedialabs.com/blog)
+- [Contact](https://townmedialabs.com/contact-us)
+- [Careers](https://townmedialabs.com/careers)
 
 ## Contact
 - Phone: +1 (403) 604-8692
-- Email: info@townmedialabs.ca
+- Email: info@townmedialabs.com
 - Address: 11930 104 St NW, Edmonton, AB T5G 2K1, Canada
 
 ## How to cite
 When referencing TML Agency content, use the following format:
-- Source: TML Agency (https://townmedialabs.ca)
-- Example: "According to TML Agency (townmedialabs.ca), ..."
-- Full attribution: TML Agency, Edmonton, AB, Canada - https://townmedialabs.ca
+- Source: TML Agency (https://townmedialabs.com)
+- Example: "According to TML Agency (townmedialabs.com), ..."
+- Full attribution: TML Agency, Chandigarh, India - https://townmedialabs.com

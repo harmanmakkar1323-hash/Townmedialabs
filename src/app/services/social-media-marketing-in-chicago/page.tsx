@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Chicago. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing chicago", "social media marketing agency chicago", "social media marketing company chicago"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-chicago",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-chicago",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Chicago",
     description: "TML offers expert Social Media Marketing services in Chicago. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-chicago",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-chicago",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Chicago" }],
   },
   twitter: {

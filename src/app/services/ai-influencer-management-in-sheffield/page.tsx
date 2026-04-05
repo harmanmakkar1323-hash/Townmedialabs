@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management sheffield", "ai influencer management agency sheffield", "ai influencer management company sheffield"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-sheffield",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-sheffield",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Sheffield",
     description: "TML offers expert AI Influencer Management services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-sheffield",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-sheffield",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Sheffield" }],
   },
   twitter: {

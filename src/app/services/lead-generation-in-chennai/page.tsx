@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Lead Generation services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation chennai", "lead generation agency chennai", "lead generation company chennai"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/lead-generation-in-chennai",
+    canonical: "https://townmedialabs.com/services/lead-generation-in-chennai",
   },
   openGraph: {
     title: "Lead Generation Agency in Chennai",
     description: "TML offers expert Lead Generation services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/lead-generation-in-chennai",
+    url: "https://townmedialabs.com/services/lead-generation-in-chennai",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Lead Generation Agency in Chennai" }],
   },
   twitter: {

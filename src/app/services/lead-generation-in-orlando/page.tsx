@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Lead Generation services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation orlando", "lead generation agency orlando", "lead generation company orlando"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/lead-generation-in-orlando",
+    canonical: "https://townmedialabs.com/services/lead-generation-in-orlando",
   },
   openGraph: {
     title: "Lead Generation Agency in Orlando",
     description: "TML offers expert Lead Generation services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/lead-generation-in-orlando",
+    url: "https://townmedialabs.com/services/lead-generation-in-orlando",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Lead Generation Agency in Orlando" }],
   },
   twitter: {

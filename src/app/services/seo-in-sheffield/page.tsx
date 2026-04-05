@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo sheffield", "seo agency sheffield", "seo company sheffield"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-sheffield",
+    canonical: "https://townmedialabs.com/services/seo-in-sheffield",
   },
   openGraph: {
     title: "SEO Agency in Sheffield",
     description: "TML offers expert SEO services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-sheffield",
+    url: "https://townmedialabs.com/services/seo-in-sheffield",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Sheffield" }],
   },
   twitter: {

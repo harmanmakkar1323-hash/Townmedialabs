@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing karnal", "social media marketing agency karnal", "social media marketing company karnal"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-karnal",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-karnal",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Karnal",
     description: "TML offers expert Social Media Marketing services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-karnal",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-karnal",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Karnal" }],
   },
   twitter: {

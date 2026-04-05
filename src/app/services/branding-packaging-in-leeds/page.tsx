@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Packaging Design services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design leeds", "packaging design agency leeds", "packaging design company leeds"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-leeds",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-leeds",
   },
   openGraph: {
     title: "Packaging Design Agency in Leeds",
     description: "TML offers expert Packaging Design services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-leeds",
+    url: "https://townmedialabs.com/services/branding-packaging-in-leeds",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Leeds" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo richmond", "seo agency richmond", "seo company richmond"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-richmond",
+    canonical: "https://townmedialabs.com/services/seo-in-richmond",
   },
   openGraph: {
     title: "SEO Agency in Richmond",
     description: "TML offers expert SEO services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-richmond",
+    url: "https://townmedialabs.com/services/seo-in-richmond",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Richmond" }],
   },
   twitter: {

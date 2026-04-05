@@ -10,15 +10,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Video Editing services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing salt lake city", "video editing agency salt lake city", "video editing company salt lake city"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/video-editing-in-salt-lake-city",
+    canonical: "https://townmedialabs.com/services/video-editing-in-salt-lake-city",
   },
   openGraph: {
     title: "Video Editing Agency in Salt Lake City",
     description: "TML offers expert Video Editing services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/video-editing-in-salt-lake-city",
+    url: "https://townmedialabs.com/services/video-editing-in-salt-lake-city",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Video Editing Agency in Salt Lake City" }],
   },
   twitter: {

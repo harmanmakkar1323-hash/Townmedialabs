@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Video Editing services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing reading", "video editing agency reading", "video editing company reading"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/video-editing-in-reading",
+    canonical: "https://townmedialabs.com/services/video-editing-in-reading",
   },
   openGraph: {
     title: "Video Editing Agency in Reading",
     description: "TML offers expert Video Editing services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/video-editing-in-reading",
+    url: "https://townmedialabs.com/services/video-editing-in-reading",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Video Editing Agency in Reading" }],
   },
   twitter: {

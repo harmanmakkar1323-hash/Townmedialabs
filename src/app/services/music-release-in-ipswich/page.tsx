@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release ipswich", "music release agency ipswich", "music release company ipswich"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-ipswich",
+    canonical: "https://townmedialabs.com/services/music-release-in-ipswich",
   },
   openGraph: {
     title: "Music Release Agency in Ipswich",
     description: "TML offers expert Music Release services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-ipswich",
+    url: "https://townmedialabs.com/services/music-release-in-ipswich",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Ipswich" }],
   },
   twitter: {

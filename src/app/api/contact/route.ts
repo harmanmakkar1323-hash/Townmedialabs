@@ -60,8 +60,8 @@ export async function POST(request: NextRequest) {
     // TODO: Integrate email service (Resend, SendGrid, etc.) before production
     // Example with Resend:
     // await resend.emails.send({
-    //   from: 'noreply@townmedialabs.ca',
-    //   to: 'info@townmedialabs.ca',
+    //   from: 'noreply@townmedialabs.com',
+    //   to: 'info@townmedialabs.com',
     //   subject: `New Lead: ${name} - ${service}`,
     //   html: `<p><strong>Name:</strong> ${name}</p>
     //          <p><strong>Email:</strong> ${email}</p>

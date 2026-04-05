@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Graphic Design services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design rajkot", "graphic design agency rajkot", "graphic design company rajkot"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/graphic-design-in-rajkot",
+    canonical: "https://townmedialabs.com/services/graphic-design-in-rajkot",
   },
   openGraph: {
     title: "Graphic Design Agency in Rajkot",
     description: "TML offers expert Graphic Design services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/graphic-design-in-rajkot",
+    url: "https://townmedialabs.com/services/graphic-design-in-rajkot",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Rajkot" }],
   },
   twitter: {

@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Graphic Design services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design bathinda", "graphic design agency bathinda", "graphic design company bathinda"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/graphic-design-in-bathinda",
+    canonical: "https://townmedialabs.com/services/graphic-design-in-bathinda",
   },
   openGraph: {
     title: "Graphic Design Agency in Bathinda",
     description: "TML offers expert Graphic Design services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/graphic-design-in-bathinda",
+    url: "https://townmedialabs.com/services/graphic-design-in-bathinda",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Bathinda" }],
   },
   twitter: {

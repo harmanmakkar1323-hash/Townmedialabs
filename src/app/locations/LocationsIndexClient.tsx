@@ -392,10 +392,10 @@ export default function LocationsIndexClient() {
               Let&apos;s Talk About Your Business
             </Link>
             <a
-              href="mailto:info@townmedialabs.ca"
+              href="mailto:info@townmedialabs.com"
               className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
-              info@townmedialabs.ca
+              info@townmedialabs.com
             </a>
           </motion.div>
         </div>

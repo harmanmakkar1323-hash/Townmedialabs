@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo bath", "seo agency bath", "seo company bath"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-bath",
+    canonical: "https://townmedialabs.com/services/seo-in-bath",
   },
   openGraph: {
     title: "SEO Agency in Bath",
     description: "TML offers expert SEO services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-bath",
+    url: "https://townmedialabs.com/services/seo-in-bath",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Bath" }],
   },
   twitter: {

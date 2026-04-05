@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Search Engine Optimization services in Ghaziabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization ghaziabad", "search engine optimization agency ghaziabad", "search engine optimization company ghaziabad"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-ghaziabad",
+    canonical: "https://townmedialabs.com/services/seo-in-ghaziabad",
   },
   openGraph: {
     title: "SEO Agency in Ghaziabad",
     description: "TML offers expert Search Engine Optimization services in Ghaziabad. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-ghaziabad",
+    url: "https://townmedialabs.com/services/seo-in-ghaziabad",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Ghaziabad" }],
   },
   twitter: {

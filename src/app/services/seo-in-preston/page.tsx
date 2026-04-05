@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo preston", "seo agency preston", "seo company preston"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-preston",
+    canonical: "https://townmedialabs.com/services/seo-in-preston",
   },
   openGraph: {
     title: "SEO Agency in Preston",
     description: "TML offers expert SEO services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-preston",
+    url: "https://townmedialabs.com/services/seo-in-preston",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Preston" }],
   },
   twitter: {

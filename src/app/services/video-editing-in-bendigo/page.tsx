@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Video Editing services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing bendigo", "video editing agency bendigo", "video editing company bendigo"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/video-editing-in-bendigo",
+    canonical: "https://townmedialabs.com/services/video-editing-in-bendigo",
   },
   openGraph: {
     title: "Video Editing Agency in Bendigo",
     description: "TML offers expert Video Editing services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/video-editing-in-bendigo",
+    url: "https://townmedialabs.com/services/video-editing-in-bendigo",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Video Editing Agency in Bendigo" }],
   },
   twitter: {

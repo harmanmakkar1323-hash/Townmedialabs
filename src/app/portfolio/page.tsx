@@ -9,9 +9,9 @@ export const metadata: Metadata = {
     title: "Our Portfolio | TML Agency",
     description:
       "Explore the work we've done for brands across web design, branding, UI/UX, video production, and digital marketing.",
-    url: "https://townmedialabs.ca/portfolio",
+    url: "https://townmedialabs.com/portfolio",
     type: "website",
-    images: [{ url: "https://townmedialabs.ca/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "https://townmedialabs.com/og-image.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "Real projects, real results. See what we've built for brands worldwide.",
     images: ["/og-image.png"],
   },
-  alternates: { canonical: "https://townmedialabs.ca/portfolio" },
+  alternates: { canonical: "https://townmedialabs.com/portfolio" },
 };
 
 export default function PortfolioPage() {

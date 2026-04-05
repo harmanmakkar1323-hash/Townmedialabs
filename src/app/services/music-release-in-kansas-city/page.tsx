@@ -10,15 +10,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release kansas city", "music release agency kansas city", "music release company kansas city"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-kansas-city",
+    canonical: "https://townmedialabs.com/services/music-release-in-kansas-city",
   },
   openGraph: {
     title: "Music Release Agency in Kansas City",
     description: "TML offers expert Music Release services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-kansas-city",
+    url: "https://townmedialabs.com/services/music-release-in-kansas-city",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Kansas City" }],
   },
   twitter: {

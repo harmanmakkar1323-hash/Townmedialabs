@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Search Engine Optimization services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization derabassi", "search engine optimization agency derabassi", "search engine optimization company derabassi"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-derabassi",
+    canonical: "https://townmedialabs.com/services/seo-in-derabassi",
   },
   openGraph: {
     title: "SEO Agency in Derabassi",
     description: "TML offers expert Search Engine Optimization services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-derabassi",
+    url: "https://townmedialabs.com/services/seo-in-derabassi",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Derabassi" }],
   },
   twitter: {

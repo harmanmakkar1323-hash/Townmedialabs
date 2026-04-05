@@ -30,7 +30,7 @@ export async function generateSitemaps() {
   return [...SITEMAP_IDS];
 }
 
-const baseUrl = "https://townmedialabs.ca";
+const baseUrl = "https://townmedialabs.com";
 
 /* ------------------------------------------------------------------ */
 /*  Builders for each content type                                    */

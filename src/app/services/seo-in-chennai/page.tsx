@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Search Engine Optimization services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["search engine optimization chennai", "search engine optimization agency chennai", "search engine optimization company chennai"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-chennai",
+    canonical: "https://townmedialabs.com/services/seo-in-chennai",
   },
   openGraph: {
     title: "SEO Agency in Chennai",
     description: "TML offers expert Search Engine Optimization services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-chennai",
+    url: "https://townmedialabs.com/services/seo-in-chennai",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Chennai" }],
   },
   twitter: {

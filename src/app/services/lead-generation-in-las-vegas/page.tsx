@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Lead Generation services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation las vegas", "lead generation agency las vegas", "lead generation company las vegas"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/lead-generation-in-las-vegas",
+    canonical: "https://townmedialabs.com/services/lead-generation-in-las-vegas",
   },
   openGraph: {
     title: "Lead Generation Agency in Las Vegas",
     description: "TML offers expert Lead Generation services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/lead-generation-in-las-vegas",
+    url: "https://townmedialabs.com/services/lead-generation-in-las-vegas",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Lead Generation Agency in Las Vegas" }],
   },
   twitter: {

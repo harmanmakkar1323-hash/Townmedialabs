@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert SEO services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo sharjah", "seo agency sharjah", "seo company sharjah"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/seo-in-sharjah",
+    canonical: "https://townmedialabs.com/services/seo-in-sharjah",
   },
   openGraph: {
     title: "SEO Agency in Sharjah",
     description: "TML offers expert SEO services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/seo-in-sharjah",
+    url: "https://townmedialabs.com/services/seo-in-sharjah",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Sharjah" }],
   },
   twitter: {

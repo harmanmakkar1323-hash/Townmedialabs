@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management sydney", "ai influencer management agency sydney", "ai influencer management company sydney"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-sydney",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-sydney",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Sydney",
     description: "TML offers expert AI Influencer Management services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-sydney",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-sydney",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Sydney" }],
   },
   twitter: {

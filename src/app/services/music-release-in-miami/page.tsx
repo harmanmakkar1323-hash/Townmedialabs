@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Music Release services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release miami", "music release agency miami", "music release company miami"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/music-release-in-miami",
+    canonical: "https://townmedialabs.com/services/music-release-in-miami",
   },
   openGraph: {
     title: "Music Release Agency in Miami",
     description: "TML offers expert Music Release services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/music-release-in-miami",
+    url: "https://townmedialabs.com/services/music-release-in-miami",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Miami" }],
   },
   twitter: {

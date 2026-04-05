@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
   keywords: ["social media marketing hamilton", "social media marketing agency hamilton", "social media marketing hamilton ontario"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-hamilton",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-hamilton",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Hamilton",
     description: "TML offers expert Social Media Marketing services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-hamilton",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-hamilton",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Hamilton" }],
   },
   twitter: {

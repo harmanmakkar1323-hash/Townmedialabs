@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Lead Generation services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
   keywords: ["lead generation hamilton", "lead generation agency hamilton", "lead generation hamilton ontario"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/lead-generation-in-hamilton",
+    canonical: "https://townmedialabs.com/services/lead-generation-in-hamilton",
   },
   openGraph: {
     title: "Lead Generation Agency in Hamilton",
     description: "TML offers expert Lead Generation services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/lead-generation-in-hamilton",
+    url: "https://townmedialabs.com/services/lead-generation-in-hamilton",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Lead Generation Agency in Hamilton" }],
   },
   twitter: {

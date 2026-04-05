@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Social Media Marketing services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing ahmedabad", "social media marketing agency ahmedabad", "social media marketing company ahmedabad"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/social-media-marketing-in-ahmedabad",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-ahmedabad",
   },
   openGraph: {
     title: "Social Media Marketing Agency in Ahmedabad",
     description: "TML offers expert Social Media Marketing services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/social-media-marketing-in-ahmedabad",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-ahmedabad",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Ahmedabad" }],
   },
   twitter: {

@@ -10,15 +10,15 @@ export const metadata: Metadata = {
   description: "TML offers expert AI Influencer Management services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management ras al khaimah", "ai influencer management agency ras al khaimah", "ai influencer management company ras al khaimah"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-ras-al-khaimah",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-ras-al-khaimah",
   },
   openGraph: {
     title: "AI Influencer Management Agency in Ras Al Khaimah",
     description: "TML offers expert AI Influencer Management services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/ai-influencer-management-in-ras-al-khaimah",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-ras-al-khaimah",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Ras Al Khaimah" }],
   },
   twitter: {

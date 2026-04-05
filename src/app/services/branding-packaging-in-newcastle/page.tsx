@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Packaging Design services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design newcastle", "packaging design agency newcastle", "packaging design company newcastle"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-newcastle",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-newcastle",
   },
   openGraph: {
     title: "Packaging Design Agency in Newcastle",
     description: "TML offers expert Packaging Design services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-newcastle",
+    url: "https://townmedialabs.com/services/branding-packaging-in-newcastle",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Newcastle" }],
   },
   twitter: {

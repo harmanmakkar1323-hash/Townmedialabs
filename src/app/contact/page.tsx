@@ -4,22 +4,22 @@ import ContactPageClient from "./ContactPageClient";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with TML Agency, Edmonton's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
+    "Get in touch with TML Agency, Chandigarh's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
   keywords: [
     "contact tml",
     "digital marketing consultation",
-    "edmonton agency contact",
+    "chandigarh agency contact",
     "free marketing consultation",
     "digital marketing agency contact",
   ],
   openGraph: {
     title: "Contact Us",
     description:
-      "Get in touch with TML Agency, Edmonton's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
+      "Get in touch with TML Agency, Chandigarh's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
     type: "website",
-    url: "https://townmedialabs.ca/contact",
+    url: "https://townmedialabs.com/contact",
     siteName: "TML Agency",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [
       {
         url: "/og-image.png",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     site: "@tmlagency",
     title: "Contact Us",
     description:
-      "Get in touch with TML Agency, Edmonton's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
+      "Get in touch with TML Agency, Chandigarh's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
     images: ["/og-image.png"],
   },
   alternates: {
@@ -47,18 +47,18 @@ const contactPageSchema = {
   "@type": "ContactPage",
   name: "Contact TML Agency",
   description:
-    "Get in touch with TML Agency, Edmonton's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
-  url: "https://townmedialabs.ca/contact",
+    "Get in touch with TML Agency, Chandigarh's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
+  url: "https://townmedialabs.com/contact",
   mainEntity: {
     "@type": "Organization",
     name: "TML Agency",
-    url: "https://townmedialabs.ca",
+    url: "https://townmedialabs.com",
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+14036048692",
-      email: "info@townmedialabs.ca",
+      telephone: "+91-98726-48209",
+      email: "info@townmedialabs.com",
       contactType: "customer service",
-      availableLanguage: ["English", "French"],
+      availableLanguage: ["English", "Hindi"],
     },
   },
 };
@@ -66,17 +66,17 @@ const contactPageSchema = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://townmedialabs.ca/#business",
+  "@id": "https://townmedialabs.com/#business",
   name: "TML Agency",
   description:
-    "Edmonton's leading digital marketing agency specializing in branding, SEO, Google Ads, social media marketing & web development.",
-  url: "https://townmedialabs.ca",
-  telephone: "+14036048692",
-  email: "info@townmedialabs.ca",
-  image: "https://townmedialabs.ca/og-image.png",
+    "Chandigarh's leading digital marketing agency specializing in branding, SEO, Google Ads, social media marketing & web development.",
+  url: "https://townmedialabs.com",
+  telephone: "+91-98726-48209",
+  email: "info@townmedialabs.com",
+  image: "https://townmedialabs.com/og-image.png",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "11930 104 St NW",
+    streetAddress: "CO 112, Basement, Sector 34A",
     addressLocality: "Chandigarh",
     addressRegion: "Chandigarh",
     postalCode: "160022",
@@ -120,7 +120,7 @@ const faqSchema = {
       name: "How do I get started with TML Agency?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Simply fill out our contact form or call us at +1 (403) 604-8692. We offer a free 30-minute consultation where we discuss your goals, challenges, and how our services can help your brand grow.",
+        text: "Simply fill out our contact form or call us at +91 98726 48209. We offer a free 30-minute consultation where we discuss your goals, challenges, and how our services can help your brand grow.",
       },
     },
     {
@@ -144,7 +144,7 @@ const faqSchema = {
       name: "Does TML Agency work with clients outside Chandigarh?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Absolutely! We have offices in Edmonton, Canada and Chandigarh, India, and work with clients across North America, India, and internationally. We use video calls, project management tools, and regular updates to ensure seamless collaboration regardless of location.",
+        text: "Absolutely! We have office in Chandigarh, India, and work with clients across North America, India, and internationally. We use video calls, project management tools, and regular updates to ensure seamless collaboration regardless of location.",
       },
     },
   ],

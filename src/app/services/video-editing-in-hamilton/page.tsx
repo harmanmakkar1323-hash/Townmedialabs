@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Video Editing services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
   keywords: ["video editing hamilton", "video editing agency hamilton", "video editing hamilton ontario"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/video-editing-in-hamilton",
+    canonical: "https://townmedialabs.com/services/video-editing-in-hamilton",
   },
   openGraph: {
     title: "Video Editing Agency in Hamilton",
     description: "TML offers expert Video Editing services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/video-editing-in-hamilton",
+    url: "https://townmedialabs.com/services/video-editing-in-hamilton",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Video Editing Agency in Hamilton" }],
   },
   twitter: {

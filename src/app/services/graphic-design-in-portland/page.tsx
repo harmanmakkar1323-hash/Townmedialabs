@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Graphic Design services in Portland. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design portland", "graphic design agency portland", "graphic design company portland"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/graphic-design-in-portland",
+    canonical: "https://townmedialabs.com/services/graphic-design-in-portland",
   },
   openGraph: {
     title: "Graphic Design Agency in Portland",
     description: "TML offers expert Graphic Design services in Portland. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/graphic-design-in-portland",
+    url: "https://townmedialabs.com/services/graphic-design-in-portland",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Portland" }],
   },
   twitter: {

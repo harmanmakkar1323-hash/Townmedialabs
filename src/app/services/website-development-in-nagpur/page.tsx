@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Website Development services in Nagpur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development nagpur", "website development agency nagpur", "website development company nagpur"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/website-development-in-nagpur",
+    canonical: "https://townmedialabs.com/services/website-development-in-nagpur",
   },
   openGraph: {
     title: "Website Development Agency in Nagpur",
     description: "TML offers expert Website Development services in Nagpur. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/website-development-in-nagpur",
+    url: "https://townmedialabs.com/services/website-development-in-nagpur",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Nagpur" }],
   },
   twitter: {

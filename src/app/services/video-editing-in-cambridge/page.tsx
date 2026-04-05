@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Video Editing services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing cambridge", "video editing agency cambridge", "video editing company cambridge"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/video-editing-in-cambridge",
+    canonical: "https://townmedialabs.com/services/video-editing-in-cambridge",
   },
   openGraph: {
     title: "Video Editing Agency in Cambridge",
     description: "TML offers expert Video Editing services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/video-editing-in-cambridge",
+    url: "https://townmedialabs.com/services/video-editing-in-cambridge",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Video Editing Agency in Cambridge" }],
   },
   twitter: {

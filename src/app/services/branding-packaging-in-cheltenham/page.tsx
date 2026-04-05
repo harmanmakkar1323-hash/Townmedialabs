@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   description: "TML offers expert Packaging Design services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design cheltenham", "packaging design agency cheltenham", "packaging design company cheltenham"],
   alternates: {
-    canonical: "https://townmedialabs.ca/services/branding-packaging-in-cheltenham",
+    canonical: "https://townmedialabs.com/services/branding-packaging-in-cheltenham",
   },
   openGraph: {
     title: "Packaging Design Agency in Cheltenham",
     description: "TML offers expert Packaging Design services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
-    url: "https://townmedialabs.ca/services/branding-packaging-in-cheltenham",
+    url: "https://townmedialabs.com/services/branding-packaging-in-cheltenham",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_CA",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Cheltenham" }],
   },
   twitter: {
