@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["pittsburgh"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Pittsburgh | TML Agency",
+  title: "Graphic Design Agency in Pittsburgh",
   description: "TML offers expert Graphic Design services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design pittsburgh", "graphic design agency pittsburgh", "graphic design company pittsburgh"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-pittsburgh",
   },
   openGraph: {
-    title: "Graphic Design Agency in Pittsburgh | TML Agency",
+    title: "Graphic Design Agency in Pittsburgh",
     description: "TML offers expert Graphic Design services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-pittsburgh",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Pittsburgh | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Pittsburgh" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Pittsburgh | TML Agency",
+    title: "Graphic Design Agency in Pittsburgh",
     description: "TML offers expert Graphic Design services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

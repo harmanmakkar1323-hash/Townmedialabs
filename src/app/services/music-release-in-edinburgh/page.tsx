@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["edinburgh"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Edinburgh | TML Agency",
+  title: "Music Release Agency in Edinburgh",
   description: "TML offers expert Music Release services in Edinburgh. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release edinburgh", "music release agency edinburgh", "music release company edinburgh"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-edinburgh",
   },
   openGraph: {
-    title: "Music Release Agency in Edinburgh | TML Agency",
+    title: "Music Release Agency in Edinburgh",
     description: "TML offers expert Music Release services in Edinburgh. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-edinburgh",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Edinburgh | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Edinburgh" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Edinburgh | TML Agency",
+    title: "Music Release Agency in Edinburgh",
     description: "TML offers expert Music Release services in Edinburgh. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

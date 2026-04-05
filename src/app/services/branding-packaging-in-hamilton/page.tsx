@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["hamilton"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Hamilton | TML Agency",
+  title: "Packaging Design Agency in Hamilton",
   description: "TML offers expert Packaging Design services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
   keywords: ["packaging design hamilton", "packaging design agency hamilton", "packaging design hamilton ontario"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-hamilton",
   },
   openGraph: {
-    title: "Packaging Design Agency in Hamilton | TML Agency",
+    title: "Packaging Design Agency in Hamilton",
     description: "TML offers expert Packaging Design services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-hamilton",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Hamilton | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Hamilton" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Hamilton | TML Agency",
+    title: "Packaging Design Agency in Hamilton",
     description: "TML offers expert Packaging Design services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
     images: ["/og-image.png"],
   },

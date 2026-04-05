@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["umm_al_quwain"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Umm Al Quwain | TML Agency",
+  title: "Graphic Design Agency in Umm Al Quwain",
   description: "TML offers expert Graphic Design services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design umm al quwain", "graphic design agency umm al quwain", "graphic design company umm al quwain"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-umm-al-quwain",
   },
   openGraph: {
-    title: "Graphic Design Agency in Umm Al Quwain | TML Agency",
+    title: "Graphic Design Agency in Umm Al Quwain",
     description: "TML offers expert Graphic Design services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-umm-al-quwain",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Umm Al Quwain | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Umm Al Quwain" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Umm Al Quwain | TML Agency",
+    title: "Graphic Design Agency in Umm Al Quwain",
     description: "TML offers expert Graphic Design services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

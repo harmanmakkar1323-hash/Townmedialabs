@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["dallas"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Dallas | TML Agency",
+  title: "Website Development Agency in Dallas",
   description: "TML offers expert Website Development services in Dallas. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development dallas", "website development agency dallas", "website development company dallas"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-dallas",
   },
   openGraph: {
-    title: "Website Development Agency in Dallas | TML Agency",
+    title: "Website Development Agency in Dallas",
     description: "TML offers expert Website Development services in Dallas. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-dallas",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Dallas | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Dallas" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Dallas | TML Agency",
+    title: "Website Development Agency in Dallas",
     description: "TML offers expert Website Development services in Dallas. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

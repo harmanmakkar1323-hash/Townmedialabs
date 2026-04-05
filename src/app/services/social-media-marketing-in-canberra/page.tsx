@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["canberra"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Canberra | TML Agency",
+  title: "Social Media Marketing Agency in Canberra",
   description: "TML offers expert Social Media Marketing services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing canberra", "social media marketing agency canberra", "social media marketing company canberra"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-canberra",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Canberra | TML Agency",
+    title: "Social Media Marketing Agency in Canberra",
     description: "TML offers expert Social Media Marketing services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-canberra",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Canberra | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Canberra" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Canberra | TML Agency",
+    title: "Social Media Marketing Agency in Canberra",
     description: "TML offers expert Social Media Marketing services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["ipswich"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Ipswich | TML Agency",
+  title: "AI Influencer Management Agency in Ipswich",
   description: "TML offers expert AI Influencer Management services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management ipswich", "ai influencer management agency ipswich", "ai influencer management company ipswich"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-ipswich",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Ipswich | TML Agency",
+    title: "AI Influencer Management Agency in Ipswich",
     description: "TML offers expert AI Influencer Management services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-ipswich",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Ipswich | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Ipswich" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Ipswich | TML Agency",
+    title: "AI Influencer Management Agency in Ipswich",
     description: "TML offers expert AI Influencer Management services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

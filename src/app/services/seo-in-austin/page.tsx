@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["austin"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Austin | TML Agency",
+  title: "SEO Agency in Austin",
   description: "TML offers expert SEO services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo austin", "seo agency austin", "seo company austin"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-austin",
   },
   openGraph: {
-    title: "SEO Agency in Austin | TML Agency",
+    title: "SEO Agency in Austin",
     description: "TML offers expert SEO services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-austin",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Austin | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Austin" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Austin | TML Agency",
+    title: "SEO Agency in Austin",
     description: "TML offers expert SEO services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

@@ -5,7 +5,7 @@ import { ClientLogos } from "@/components/sections/ClientLogos";
 import BelowFoldSections from "@/components/sections/BelowFoldSections";
 
 export const metadata: Metadata = {
-  title: "TML Agency | Digital Marketing & Branding Agency Edmonton | SEO, Branding & Ads",
+  title: "Digital Marketing & Branding Agency Edmonton",
   description:
     "TML Agency is Edmonton's top digital marketing agency. SEO, Google Ads, branding, web development & social media marketing. 500+ brands scaled. Get a free audit.",
   keywords: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "TML Agency | Digital Marketing & Branding Agency Edmonton",
+    title: "Digital Marketing & Branding Agency Edmonton",
     description:
       "Edmonton's top digital marketing agency. SEO, Google Ads, branding, web development & social media marketing. 500+ brands scaled.",
     url: "https://townmedialabs.ca",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "TML Agency | Digital Marketing & Branding Agency Edmonton",
+    title: "Digital Marketing & Branding Agency Edmonton",
     description:
       "Edmonton's top digital marketing agency. SEO, Google Ads, branding, web development & social media marketing. 500+ brands scaled.",
     images: ["/og-image.png"],

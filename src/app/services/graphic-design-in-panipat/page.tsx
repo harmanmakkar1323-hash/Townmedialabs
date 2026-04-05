@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["panipat"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Panipat | TML Agency",
+  title: "Graphic Design Agency in Panipat",
   description: "TML offers expert Graphic Design services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design panipat", "graphic design agency panipat", "graphic design company panipat"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-panipat",
   },
   openGraph: {
-    title: "Graphic Design Agency in Panipat | TML Agency",
+    title: "Graphic Design Agency in Panipat",
     description: "TML offers expert Graphic Design services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-panipat",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Panipat | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Panipat" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Panipat | TML Agency",
+    title: "Graphic Design Agency in Panipat",
     description: "TML offers expert Graphic Design services in Panipat. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

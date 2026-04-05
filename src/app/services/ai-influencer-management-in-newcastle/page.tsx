@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["newcastle"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Newcastle | TML Agency",
+  title: "AI Influencer Management Agency in Newcastle",
   description: "TML offers expert AI Influencer Management services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management newcastle", "ai influencer management agency newcastle", "ai influencer management company newcastle"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-newcastle",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Newcastle | TML Agency",
+    title: "AI Influencer Management Agency in Newcastle",
     description: "TML offers expert AI Influencer Management services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-newcastle",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Newcastle | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Newcastle" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Newcastle | TML Agency",
+    title: "AI Influencer Management Agency in Newcastle",
     description: "TML offers expert AI Influencer Management services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

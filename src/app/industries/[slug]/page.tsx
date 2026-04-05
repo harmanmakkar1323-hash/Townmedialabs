@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // Fall back to legacy (IndustryInfo)
   const industry = industries[slug];
   if (!industry) {
-    return { title: "Industry Not Found | TML Agency" };
+    return { title: "Industry Not Found" };
   }
 
   return {

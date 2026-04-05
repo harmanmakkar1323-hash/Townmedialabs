@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const tool = freeTools[slug];
 
   if (!tool) {
-    return { title: "Tool Not Found | TML Agency" };
+    return { title: "Tool Not Found" };
   }
 
   return {

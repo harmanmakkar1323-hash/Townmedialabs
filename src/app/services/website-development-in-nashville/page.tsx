@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["nashville"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Nashville | TML Agency",
+  title: "Website Development Agency in Nashville",
   description: "TML offers expert Website Development services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development nashville", "website development agency nashville", "website development company nashville"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-nashville",
   },
   openGraph: {
-    title: "Website Development Agency in Nashville | TML Agency",
+    title: "Website Development Agency in Nashville",
     description: "TML offers expert Website Development services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-nashville",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Nashville | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Nashville" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Nashville | TML Agency",
+    title: "Website Development Agency in Nashville",
     description: "TML offers expert Website Development services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

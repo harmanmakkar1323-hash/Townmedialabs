@@ -6,7 +6,7 @@ import { ServicePageSchema } from "@/components/schema/ServicePageSchema";
 const data = servicePages["content-writing"];
 
 export const metadata: Metadata = {
-  title: `${data.title} Services | TML Agency`,
+  title: `${data.title} Services`,
   description: data.description,
 };
 

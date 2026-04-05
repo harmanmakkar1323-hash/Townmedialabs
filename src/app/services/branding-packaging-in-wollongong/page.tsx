@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["wollongong"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Wollongong | TML Agency",
+  title: "Packaging Design Agency in Wollongong",
   description: "TML offers expert Packaging Design services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design wollongong", "packaging design agency wollongong", "packaging design company wollongong"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-wollongong",
   },
   openGraph: {
-    title: "Packaging Design Agency in Wollongong | TML Agency",
+    title: "Packaging Design Agency in Wollongong",
     description: "TML offers expert Packaging Design services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-wollongong",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Wollongong | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Wollongong" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Wollongong | TML Agency",
+    title: "Packaging Design Agency in Wollongong",
     description: "TML offers expert Packaging Design services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

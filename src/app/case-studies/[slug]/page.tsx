@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const study = caseStudies[slug];
 
   if (!study) {
-    return { title: "Case Study Not Found | TML Agency" };
+    return { title: "Case Study Not Found" };
   }
 
   return {

@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["mohali"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Mohali | TML Agency",
+  title: "Website Development Agency in Mohali",
   description: "TML offers expert Website Development services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development mohali", "website development agency mohali", "website development company mohali"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-mohali",
   },
   openGraph: {
-    title: "Website Development Agency in Mohali | TML Agency",
+    title: "Website Development Agency in Mohali",
     description: "TML offers expert Website Development services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-mohali",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Mohali | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Mohali" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Mohali | TML Agency",
+    title: "Website Development Agency in Mohali",
     description: "TML offers expert Website Development services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

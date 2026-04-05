@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["kansas_city"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Kansas City | TML Agency",
+  title: "Website Development Agency in Kansas City",
   description: "TML offers expert Website Development services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development kansas city", "website development agency kansas city", "website development company kansas city"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-kansas-city",
   },
   openGraph: {
-    title: "Website Development Agency in Kansas City | TML Agency",
+    title: "Website Development Agency in Kansas City",
     description: "TML offers expert Website Development services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-kansas-city",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Kansas City | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Kansas City" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Kansas City | TML Agency",
+    title: "Website Development Agency in Kansas City",
     description: "TML offers expert Website Development services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

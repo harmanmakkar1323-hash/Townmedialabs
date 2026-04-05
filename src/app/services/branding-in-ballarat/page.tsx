@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["ballarat"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Ballarat | TML Agency",
+  title: "Branding Agency in Ballarat",
   description: "TML offers expert Branding services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding ballarat", "branding agency ballarat", "branding company ballarat"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-in-ballarat",
   },
   openGraph: {
-    title: "Branding Agency in Ballarat | TML Agency",
+    title: "Branding Agency in Ballarat",
     description: "TML offers expert Branding services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-in-ballarat",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Ballarat | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Ballarat" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Ballarat | TML Agency",
+    title: "Branding Agency in Ballarat",
     description: "TML offers expert Branding services in Ballarat. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

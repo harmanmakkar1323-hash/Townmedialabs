@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["minneapolis"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Minneapolis | TML Agency",
+  title: "Packaging Design Agency in Minneapolis",
   description: "TML offers expert Packaging Design services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design minneapolis", "packaging design agency minneapolis", "packaging design company minneapolis"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-minneapolis",
   },
   openGraph: {
-    title: "Packaging Design Agency in Minneapolis | TML Agency",
+    title: "Packaging Design Agency in Minneapolis",
     description: "TML offers expert Packaging Design services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-minneapolis",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Minneapolis | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Minneapolis" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Minneapolis | TML Agency",
+    title: "Packaging Design Agency in Minneapolis",
     description: "TML offers expert Packaging Design services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

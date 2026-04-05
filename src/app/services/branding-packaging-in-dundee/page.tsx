@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["dundee"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Dundee | TML Agency",
+  title: "Packaging Design Agency in Dundee",
   description: "TML offers expert Packaging Design services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design dundee", "packaging design agency dundee", "packaging design company dundee"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-dundee",
   },
   openGraph: {
-    title: "Packaging Design Agency in Dundee | TML Agency",
+    title: "Packaging Design Agency in Dundee",
     description: "TML offers expert Packaging Design services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-dundee",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Dundee | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Dundee" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Dundee | TML Agency",
+    title: "Packaging Design Agency in Dundee",
     description: "TML offers expert Packaging Design services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

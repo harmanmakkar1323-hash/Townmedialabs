@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PortfolioPageClient from "./PortfolioPageClient";
 
 export const metadata: Metadata = {
-  title: "Our Portfolio | TML Agency - Digital Marketing Agency",
+  title: { absolute: "Our Portfolio" },
   description:
     "Explore the work we've done for brands across web design, branding, UI/UX, video production, and digital marketing. Real projects, real results.",
   openGraph: {

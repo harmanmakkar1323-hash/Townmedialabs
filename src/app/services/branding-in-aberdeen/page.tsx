@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["aberdeen"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Aberdeen | TML Agency",
+  title: "Branding Agency in Aberdeen",
   description: "TML offers expert Branding services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding aberdeen", "branding agency aberdeen", "branding company aberdeen"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-in-aberdeen",
   },
   openGraph: {
-    title: "Branding Agency in Aberdeen | TML Agency",
+    title: "Branding Agency in Aberdeen",
     description: "TML offers expert Branding services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-in-aberdeen",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Aberdeen | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Aberdeen" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Aberdeen | TML Agency",
+    title: "Branding Agency in Aberdeen",
     description: "TML offers expert Branding services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["surat"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Surat | TML Agency",
+  title: "Social Media Marketing Agency in Surat",
   description: "TML offers expert Social Media Marketing services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["social media marketing surat", "social media marketing agency surat", "social media marketing company surat"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/social-media-marketing-in-surat",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Surat | TML Agency",
+    title: "Social Media Marketing Agency in Surat",
     description: "TML offers expert Social Media Marketing services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/social-media-marketing-in-surat",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Surat | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Social Media Marketing Agency in Surat" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Surat | TML Agency",
+    title: "Social Media Marketing Agency in Surat",
     description: "TML offers expert Social Media Marketing services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

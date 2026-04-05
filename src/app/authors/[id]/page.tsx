@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const siteUrl = "https://townmedialabs.ca";
 
   return {
-    title: `${author.name} | Author at TML Agency`,
+    title: `${author.name} | Author`,
     description: author.bio,
     alternates: { canonical: `/authors/${id}` },
     openGraph: {

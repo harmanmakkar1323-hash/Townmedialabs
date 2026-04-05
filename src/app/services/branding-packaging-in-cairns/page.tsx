@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["cairns"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Cairns | TML Agency",
+  title: "Packaging Design Agency in Cairns",
   description: "TML offers expert Packaging Design services in Cairns. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design cairns", "packaging design agency cairns", "packaging design company cairns"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-cairns",
   },
   openGraph: {
-    title: "Packaging Design Agency in Cairns | TML Agency",
+    title: "Packaging Design Agency in Cairns",
     description: "TML offers expert Packaging Design services in Cairns. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-cairns",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Cairns | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Cairns" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Cairns | TML Agency",
+    title: "Packaging Design Agency in Cairns",
     description: "TML offers expert Packaging Design services in Cairns. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

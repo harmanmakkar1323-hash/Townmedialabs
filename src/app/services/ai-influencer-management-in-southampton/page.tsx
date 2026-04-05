@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["southampton"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Southampton | TML Agency",
+  title: "AI Influencer Management Agency in Southampton",
   description: "TML offers expert AI Influencer Management services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management southampton", "ai influencer management agency southampton", "ai influencer management company southampton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-southampton",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Southampton | TML Agency",
+    title: "AI Influencer Management Agency in Southampton",
     description: "TML offers expert AI Influencer Management services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-southampton",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Southampton | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Southampton" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Southampton | TML Agency",
+    title: "AI Influencer Management Agency in Southampton",
     description: "TML offers expert AI Influencer Management services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

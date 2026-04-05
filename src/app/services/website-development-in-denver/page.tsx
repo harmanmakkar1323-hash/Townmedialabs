@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["denver"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Denver | TML Agency",
+  title: "Website Development Agency in Denver",
   description: "TML offers expert Website Development services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development denver", "website development agency denver", "website development company denver"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-denver",
   },
   openGraph: {
-    title: "Website Development Agency in Denver | TML Agency",
+    title: "Website Development Agency in Denver",
     description: "TML offers expert Website Development services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-denver",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Denver | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Denver" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Denver | TML Agency",
+    title: "Website Development Agency in Denver",
     description: "TML offers expert Website Development services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

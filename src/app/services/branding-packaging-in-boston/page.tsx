@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["boston"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Boston | TML Agency",
+  title: "Packaging Design Agency in Boston",
   description: "TML offers expert Packaging Design services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design boston", "packaging design agency boston", "packaging design company boston"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-boston",
   },
   openGraph: {
-    title: "Packaging Design Agency in Boston | TML Agency",
+    title: "Packaging Design Agency in Boston",
     description: "TML offers expert Packaging Design services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-boston",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Boston | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Boston" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Boston | TML Agency",
+    title: "Packaging Design Agency in Boston",
     description: "TML offers expert Packaging Design services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

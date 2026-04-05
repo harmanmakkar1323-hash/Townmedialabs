@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["townsville"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Townsville | TML Agency",
+  title: "Packaging Design Agency in Townsville",
   description: "TML offers expert Packaging Design services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design townsville", "packaging design agency townsville", "packaging design company townsville"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-townsville",
   },
   openGraph: {
-    title: "Packaging Design Agency in Townsville | TML Agency",
+    title: "Packaging Design Agency in Townsville",
     description: "TML offers expert Packaging Design services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-townsville",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Townsville | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Townsville" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Townsville | TML Agency",
+    title: "Packaging Design Agency in Townsville",
     description: "TML offers expert Packaging Design services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

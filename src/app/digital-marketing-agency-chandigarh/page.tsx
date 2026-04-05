@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ChandigarhPageClient from "./ChandigarhPageClient";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing Agency in Chandigarh | TML Agency",
+  title: "Digital Marketing Agency in Chandigarh",
   description:
     "TML is the leading digital marketing agency in Chandigarh offering branding, SEO, Google Ads, social media marketing, web development, and more. 500+ brands served, 15+ years of experience.",
   keywords: [
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "web development chandigarh",
   ],
   openGraph: {
-    title: "Digital Marketing Agency in Chandigarh | TML Agency",
+    title: "Digital Marketing Agency in Chandigarh",
     description:
       "TML is the leading digital marketing agency in Chandigarh offering branding, SEO, Google Ads, social media marketing, web development, and more. 500+ brands served.",
     url: "https://townmedialabs.ca/digital-marketing-agency-chandigarh",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Digital Marketing Agency in Chandigarh | TML Agency",
+    title: "Digital Marketing Agency in Chandigarh",
     description:
       "TML is the leading digital marketing agency in Chandigarh offering branding, SEO, Google Ads, social media marketing, web development, and more. 500+ brands served.",
     images: ["/og-image.png"],

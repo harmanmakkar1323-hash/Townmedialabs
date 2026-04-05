@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import LocationsIndexClient from "./LocationsIndexClient";
 
 export const metadata: Metadata = {
-  title: "Our Locations | TML Agency",
+  title: "Our Locations",
   description:
     "TML Agency serves businesses globally across 250+ cities in 7 countries. Explore our digital marketing services in India, Canada, USA, UK, Australia, New Zealand, and UAE.",
   keywords: [
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "TML Agency cities",
   ],
   openGraph: {
-    title: "Our Locations | TML Agency",
+    title: "Our Locations",
     description:
       "Serving businesses globally across 250+ cities in 7 countries with tailored digital marketing strategies.",
     url: "https://townmedialabs.ca/locations",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Our Locations | TML Agency",
+    title: "Our Locations",
     description:
       "Serving businesses globally across 250+ cities in 7 countries with tailored digital marketing strategies.",
     images: ["/og-image.png"],

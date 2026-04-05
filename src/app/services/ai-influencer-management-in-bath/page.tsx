@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["bath"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Bath | TML Agency",
+  title: "AI Influencer Management Agency in Bath",
   description: "TML offers expert AI Influencer Management services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management bath", "ai influencer management agency bath", "ai influencer management company bath"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/ai-influencer-management-in-bath",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Bath | TML Agency",
+    title: "AI Influencer Management Agency in Bath",
     description: "TML offers expert AI Influencer Management services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/ai-influencer-management-in-bath",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Bath | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Bath" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Bath | TML Agency",
+    title: "AI Influencer Management Agency in Bath",
     description: "TML offers expert AI Influencer Management services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

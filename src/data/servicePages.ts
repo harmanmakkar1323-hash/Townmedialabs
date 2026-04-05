@@ -681,7 +681,7 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Stories that move people.",
     description: "Professional video editing and production services that bring your vision to life with cinematic quality. Our post-production team in Edmonton delivers everything from social media reels and corporate videos to commercial productions, combining expert editing, motion graphics, and colour grading to create content that captivates audiences across Canada.",
     heroDescription: "From raw footage to polished masterpieces — our video editing team transforms your content into compelling visual stories. We handle everything from social media reels to corporate films, documentaries, and commercial productions.",
-    metaTitle: "Video Editing & Production — 48-Hour Turnaround",
+    metaTitle: "Video Editing & Production Services",
     metaDescription: "Reels, corporate videos, motion graphics, and colour grading delivered fast. Scroll-stopping content with a 48-hour turnaround. Get a free quote on your next project.",
     metaKeywords: ["video editing services Edmonton", "post-production Canada", "social media reels editing", "corporate video production", "motion graphics", "colour grading", "video production agency"],
     seoContent: [

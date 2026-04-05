@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["baltimore"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Baltimore | TML Agency",
+  title: "Graphic Design Agency in Baltimore",
   description: "TML offers expert Graphic Design services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design baltimore", "graphic design agency baltimore", "graphic design company baltimore"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-baltimore",
   },
   openGraph: {
-    title: "Graphic Design Agency in Baltimore | TML Agency",
+    title: "Graphic Design Agency in Baltimore",
     description: "TML offers expert Graphic Design services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-baltimore",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Baltimore | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Baltimore" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Baltimore | TML Agency",
+    title: "Graphic Design Agency in Baltimore",
     description: "TML offers expert Graphic Design services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

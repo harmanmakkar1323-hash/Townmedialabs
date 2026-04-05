@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import FreeToolsIndexClient from "./FreeToolsIndexClient";
 
 export const metadata: Metadata = {
-  title: "Free Marketing Tools & Calculators | TML Agency",
+  title: "Free Marketing Tools & Calculators",
   description:
     "Use our free digital marketing tools and calculators. SEO audit checklist, website speed calculator, social media post generator, Google Ads budget planner, ROI calculator, and meta tag generator.",
   keywords: [
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "digital marketing calculators",
   ],
   openGraph: {
-    title: "Free Marketing Tools & Calculators | TML Agency",
+    title: "Free Marketing Tools & Calculators",
     description:
       "Free interactive tools to audit your SEO, calculate ad budgets, measure ROI, generate meta tags, and more. No signup required.",
     url: "https://townmedialabs.ca/free-tools",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Free Marketing Tools & Calculators | TML Agency",
+    title: "Free Marketing Tools & Calculators",
     description:
       "Free interactive tools to audit your SEO, calculate ad budgets, measure ROI, generate meta tags, and more. No signup required.",
     images: ["/og-image.png"],

@@ -12,7 +12,7 @@ export const freeTools: Record<string, FreeTool> = {
   "seo-audit-checklist": {
     slug: "seo-audit-checklist",
     name: "SEO Audit Checklist",
-    metaTitle: "Free SEO Audit Checklist Tool — Score Your Website | TML Agency",
+    metaTitle: "Free SEO Audit Checklist Tool — Score Your Website",
     metaDescription:
       "Use our free interactive SEO audit checklist to score your website across 30 critical factors. Check technical SEO, on-page, content, links, and local SEO items.",
     description:
@@ -30,7 +30,7 @@ export const freeTools: Record<string, FreeTool> = {
   "website-speed-calculator": {
     slug: "website-speed-calculator",
     name: "Website Speed Impact Calculator",
-    metaTitle: "Free Website Speed Impact Calculator — See Revenue Lost | TML Agency",
+    metaTitle: "Free Website Speed Impact Calculator — See Revenue Lost",
     metaDescription:
       "Calculate how much revenue and visitors you lose due to slow website speed. Enter your load time, bounce rate, and traffic to see the real cost of a slow site.",
     description:
@@ -48,7 +48,7 @@ export const freeTools: Record<string, FreeTool> = {
   "social-media-post-generator": {
     slug: "social-media-post-generator",
     name: "Social Media Post Generator",
-    metaTitle: "Free Social Media Post Generator — Create Posts Instantly | TML Agency",
+    metaTitle: "Free Social Media Post Generator — Create Posts Instantly",
     metaDescription:
       "Generate engaging social media posts for Instagram, LinkedIn, Twitter, and Facebook. Select your platform, tone, and topic to get ready-to-use post templates.",
     description:
@@ -66,7 +66,7 @@ export const freeTools: Record<string, FreeTool> = {
   "google-ads-budget-calculator": {
     slug: "google-ads-budget-calculator",
     name: "Google Ads Budget Calculator",
-    metaTitle: "Free Google Ads Budget Calculator — Estimate Your Ad Spend | TML Agency",
+    metaTitle: "Free Google Ads Budget Calculator — Estimate Your Ad Spend",
     metaDescription:
       "Calculate your ideal Google Ads budget based on your industry, target leads, and average CPC. Get estimated clicks, cost per lead, and monthly budget recommendations.",
     description:
@@ -84,7 +84,7 @@ export const freeTools: Record<string, FreeTool> = {
   "roi-calculator": {
     slug: "roi-calculator",
     name: "Marketing ROI Calculator",
-    metaTitle: "Free Marketing ROI Calculator — Measure Your Returns | TML Agency",
+    metaTitle: "Free Marketing ROI Calculator — Measure Your Returns",
     metaDescription:
       "Calculate your marketing return on investment instantly. Enter your spend, leads, conversion rate, and deal value to see ROI percentage, cost per lead, and cost per acquisition.",
     description:
@@ -102,7 +102,7 @@ export const freeTools: Record<string, FreeTool> = {
   "meta-tag-generator": {
     slug: "meta-tag-generator",
     name: "Meta Tag Generator",
-    metaTitle: "Free Meta Tag Generator — Preview Google Results | TML Agency",
+    metaTitle: "Free Meta Tag Generator — Preview Google Results",
     metaDescription:
       "Generate perfect HTML meta tags for your web pages. Preview how your page will look in Google search results and copy optimized title, description, and keyword tags.",
     description:

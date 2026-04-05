@@ -19,7 +19,7 @@ export const caseStudies: Record<string, CaseStudy> = {
   "brightsmile-dental-seo-google-ads": {
     slug: "brightsmile-dental-seo-google-ads",
     title: "How BrightSmile Dental Achieved 300% More Patient Bookings",
-    metaTitle: "BrightSmile Dental Case Study — 300% More Bookings | TML Agency",
+    metaTitle: "BrightSmile Dental Case Study — 300% More Bookings",
     metaDescription:
       "See how TML Agency helped BrightSmile Dental Clinic increase patient bookings by 300% through a combined SEO and Google Ads strategy. Real results, proven methods.",
     client: "BrightSmile Dental Clinic",
@@ -91,7 +91,7 @@ export const caseStudies: Record<string, CaseStudy> = {
   "luxethread-ecommerce-seo-social-media": {
     slug: "luxethread-ecommerce-seo-social-media",
     title: "How LuxeThread Achieved 200% Organic Traffic Growth",
-    metaTitle: "LuxeThread E-Commerce Case Study — 200% Organic Traffic | TML Agency",
+    metaTitle: "LuxeThread E-Commerce Case Study — 200% Organic Traffic",
     metaDescription:
       "Discover how TML Agency helped LuxeThread, an online fashion store, achieve 200% organic traffic growth with SEO and social media marketing strategies.",
     client: "LuxeThread Fashion",
@@ -160,7 +160,7 @@ export const caseStudies: Record<string, CaseStudy> = {
   "primeview-realty-website-google-ads": {
     slug: "primeview-realty-website-google-ads",
     title: "How PrimeView Realty Generates 150 Leads Every Month",
-    metaTitle: "PrimeView Realty Case Study — 150 Leads/Month | TML Agency",
+    metaTitle: "PrimeView Realty Case Study — 150 Leads/Month",
     metaDescription:
       "Learn how TML Agency helped PrimeView Realty generate 150+ qualified leads per month through a custom website and targeted Google Ads campaigns.",
     client: "PrimeView Realty Group",
@@ -226,7 +226,7 @@ export const caseStudies: Record<string, CaseStudy> = {
   "spicecraft-restaurant-social-local-seo": {
     slug: "spicecraft-restaurant-social-local-seo",
     title: "How SpiceCraft Restaurants Achieved 4.8 Stars and 50% More Walk-ins",
-    metaTitle: "SpiceCraft Restaurant Case Study — 4.8 Stars, 50% More Walk-ins | TML Agency",
+    metaTitle: "SpiceCraft Restaurant Case Study — 4.8 Stars, 50% More Walk-ins",
     metaDescription:
       "See how TML Agency helped SpiceCraft restaurant chain achieve a 4.8 Google rating and 50% increase in walk-in traffic through social media and local SEO.",
     client: "SpiceCraft Restaurants",
@@ -294,7 +294,7 @@ export const caseStudies: Record<string, CaseStudy> = {
   "cloudpulse-saas-content-seo": {
     slug: "cloudpulse-saas-content-seo",
     title: "How CloudPulse Achieved 10x Organic Traffic in 12 Months",
-    metaTitle: "CloudPulse SaaS Case Study — 10x Organic Traffic | TML Agency",
+    metaTitle: "CloudPulse SaaS Case Study — 10x Organic Traffic",
     metaDescription:
       "See how TML Agency helped CloudPulse, a B2B SaaS startup, grow organic traffic by 10x in 12 months through content marketing and technical SEO.",
     client: "CloudPulse Technologies",
@@ -362,7 +362,7 @@ export const caseStudies: Record<string, CaseStudy> = {
   "sterling-law-google-ads-seo": {
     slug: "sterling-law-google-ads-seo",
     title: "How Sterling & Associates Cut Cost Per Lead by 75%",
-    metaTitle: "Sterling Law Firm Case Study — 75% Lower Cost Per Lead | TML Agency",
+    metaTitle: "Sterling Law Firm Case Study — 75% Lower Cost Per Lead",
     metaDescription:
       "Discover how TML Agency helped Sterling & Associates law firm reduce cost per lead by 75% while increasing qualified case inquiries through Google Ads and SEO.",
     client: "Sterling & Associates",
@@ -429,7 +429,7 @@ export const caseStudies: Record<string, CaseStudy> = {
   "ironcore-fitness-social-branding": {
     slug: "ironcore-fitness-social-branding",
     title: "How IronCore Fitness Achieved 3x Membership Growth",
-    metaTitle: "IronCore Fitness Case Study — 3x Membership Growth | TML Agency",
+    metaTitle: "IronCore Fitness Case Study — 3x Membership Growth",
     metaDescription:
       "Learn how TML Agency helped IronCore Fitness chain achieve 3x membership growth through social media marketing and brand transformation.",
     client: "IronCore Fitness Studios",
@@ -500,7 +500,7 @@ export const caseStudies: Record<string, CaseStudy> = {
   "homeright-services-local-seo-ads": {
     slug: "homeright-services-local-seo-ads",
     title: "How HomeRight Services Doubled Their Revenue",
-    metaTitle: "HomeRight Services Case Study — 2x Revenue Growth | TML Agency",
+    metaTitle: "HomeRight Services Case Study — 2x Revenue Growth",
     metaDescription:
       "See how TML Agency helped HomeRight Services, a home services company, double their revenue through local SEO and Google Ads in just 8 months.",
     client: "HomeRight Services",

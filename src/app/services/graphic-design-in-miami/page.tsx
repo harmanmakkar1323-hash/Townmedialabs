@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["miami"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Miami | TML Agency",
+  title: "Graphic Design Agency in Miami",
   description: "TML offers expert Graphic Design services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design miami", "graphic design agency miami", "graphic design company miami"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-miami",
   },
   openGraph: {
-    title: "Graphic Design Agency in Miami | TML Agency",
+    title: "Graphic Design Agency in Miami",
     description: "TML offers expert Graphic Design services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-miami",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Miami | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Miami" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Miami | TML Agency",
+    title: "Graphic Design Agency in Miami",
     description: "TML offers expert Graphic Design services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

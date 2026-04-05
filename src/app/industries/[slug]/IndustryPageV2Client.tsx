@@ -210,10 +210,33 @@ export default function IndustryPageV2Client({ industry }: { industry: IndustryP
             transition={{ duration: 0.8, delay: 0.1, ease }}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium tracking-tight mb-6"
           >
-            {industry.heroTitle.split(industry.name)[0]}
-            <span className="bg-gradient-to-r from-[#ff4500] via-[#ff6b35] to-[#ff4500]/60 bg-clip-text text-transparent">
-              {industry.name}
-            </span>
+            {(() => {
+              const idx = industry.heroTitle.indexOf(industry.name);
+              if (idx !== -1) {
+                return (
+                  <>
+                    {industry.heroTitle.slice(0, idx)}
+                    <span className="bg-gradient-to-r from-[#ff4500] via-[#ff6b35] to-[#ff4500]/60 bg-clip-text text-transparent">
+                      {industry.name}
+                    </span>
+                    {industry.heroTitle.slice(idx + industry.name.length)}
+                  </>
+                );
+              }
+              // Fallback: show heroTitle with name styled at end
+              const prefix = industry.heroTitle.replace(/\s*\S+(\s+\S+)*$/, (match) => {
+                // Try to find where the name-like portion starts
+                return match;
+              });
+              return (
+                <>
+                  {"Digital Marketing for "}
+                  <span className="bg-gradient-to-r from-[#ff4500] via-[#ff6b35] to-[#ff4500]/60 bg-clip-text text-transparent">
+                    {industry.name}
+                  </span>
+                </>
+              );
+            })()}
             <span className="text-[#ff4500]">.</span>
           </motion.h1>
 

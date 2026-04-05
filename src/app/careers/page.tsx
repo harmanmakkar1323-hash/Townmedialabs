@@ -4,7 +4,7 @@ import CareersPageClient from "./CareersPageClient";
 const siteUrl = "https://townmedialabs.ca";
 
 export const metadata: Metadata = {
-  title: "Careers at TML Agency | Join Our Creative Team",
+  title: "Careers",
   description:
     "Join TML Agency — Chandigarh's leading digital marketing & branding agency. We're hiring AI developers, video editors, graphic designers, social media managers & more. Apply now!",
   keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     canonical: "/careers",
   },
   openGraph: {
-    title: "Careers at TML Agency | Join Our Creative Team",
+    title: "Careers",
     description:
       "We're hiring! Join Chandigarh's top digital marketing agency. Open roles in AI, video, design, social media & more.",
     url: `${siteUrl}/careers`,
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Careers at TML Agency | Join Our Creative Team",
+    title: "Careers",
     description:
       "We're hiring! Join Chandigarh's top digital marketing agency. Open roles in AI, video, design, social media & more.",
     images: ["/og-image.png"],

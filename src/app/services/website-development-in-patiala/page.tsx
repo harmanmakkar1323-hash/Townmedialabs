@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["patiala"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Patiala | TML Agency",
+  title: "Website Development Agency in Patiala",
   description: "TML offers expert Website Development services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development patiala", "website development agency patiala", "website development company patiala"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-patiala",
   },
   openGraph: {
-    title: "Website Development Agency in Patiala | TML Agency",
+    title: "Website Development Agency in Patiala",
     description: "TML offers expert Website Development services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-patiala",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Patiala | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Patiala" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Patiala | TML Agency",
+    title: "Website Development Agency in Patiala",
     description: "TML offers expert Website Development services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

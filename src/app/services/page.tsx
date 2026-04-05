@@ -4,7 +4,7 @@ import ServicesPageClient from "./ServicesPageClient";
 const siteUrl = "https://townmedialabs.ca";
 
 export const metadata: Metadata = {
-  title: "Our Services | TML Agency — Full-Service Digital Marketing",
+  title: "Our Services — Full-Service Digital Marketing",
   description:
     "Explore TML Agency's full range of digital marketing services — Branding, SEO, Google Ads, Social Media, Web Development, AI Influencer Management, Lead Generation, and more.",
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     canonical: "/services",
   },
   openGraph: {
-    title: "Our Services | TML Agency — Full-Service Digital Marketing",
+    title: "Our Services — Full-Service Digital Marketing",
     description:
       "Explore TML Agency's full range of digital marketing services — Branding, SEO, Google Ads, Social Media, Web Development & more.",
     url: `${siteUrl}/services`,
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Our Services | TML Agency — Full-Service Digital Marketing",
+    title: "Our Services — Full-Service Digital Marketing",
     description:
       "Explore TML Agency's full range of digital marketing services — Branding, SEO, Google Ads, Social Media, Web Development & more.",
     images: ["/og-image.png"],
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
 const servicesCollectionJsonLd = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  name: "Digital Marketing Services | TML Agency",
+  name: "Digital Marketing Services",
   description:
     "Explore TML Agency's complete range of digital marketing services including branding, SEO, Google Ads, social media marketing, web development, graphic design, lead generation, and more.",
   url: `${siteUrl}/services`,

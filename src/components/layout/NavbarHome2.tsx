@@ -7,6 +7,7 @@ const navLinks = [
   { label: "About", href: "/about" },
   { label: "Services", href: "/services", megaKey: "services" as const },
   { label: "Industries", href: "/industries", megaKey: "industries" as const },
+  { label: "Free Tools", href: "/free-tools" },
   { label: "Portfolio", href: "/portfolio" },
   { label: "Blog", href: "/blog" },
 ];

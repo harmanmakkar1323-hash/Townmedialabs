@@ -55,14 +55,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const config = configBySlug[country];
 
   if (!config) {
-    return { title: "Location Not Found | TML Agency" };
+    return { title: "Location Not Found" };
   }
 
   const cities = getCitiesForCountry(config.dataKey);
   const cityCount = Object.values(cities).reduce((sum, arr) => sum + arr.length, 0);
 
   return {
-    title: `Digital Marketing in ${config.name} | ${cityCount}+ Cities | TML Agency`,
+    title: `Digital Marketing in ${config.name} | ${cityCount}+ Cities`,
     description: config.description,
     keywords: [
       `digital marketing ${config.name.toLowerCase()}`,
@@ -71,7 +71,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       `TML Agency ${config.name.toLowerCase()}`,
     ],
     openGraph: {
-      title: `Digital Marketing in ${config.name} | TML Agency`,
+      title: `Digital Marketing in ${config.name}`,
       description: config.description,
       url: `https://townmedialabs.ca/locations/${config.slug}`,
       siteName: "TML Agency",
@@ -81,7 +81,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     twitter: {
       card: "summary_large_image",
       site: "@tmlagency",
-      title: `Digital Marketing in ${config.name} | TML Agency`,
+      title: `Digital Marketing in ${config.name}`,
       description: config.description,
       images: ["/og-image.png"],
     },

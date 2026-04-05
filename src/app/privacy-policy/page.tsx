@@ -102,10 +102,10 @@ export default function PrivacyPolicyPage() {
                 data. You may also withdraw consent for marketing communications
                 at any time. To exercise these rights, contact us at{" "}
                 <a
-                  href="mailto:info@townmedialabs.com"
+                  href="mailto:info@townmedialabs.ca"
                   className="text-[#ff4500] hover:underline"
                 >
-                  info@townmedialabs.com
+                  info@townmedialabs.ca
                 </a>
                 .
               </p>
@@ -129,10 +129,10 @@ export default function PrivacyPolicyPage() {
                 If you have any questions about this privacy policy, please
                 contact us at{" "}
                 <a
-                  href="mailto:info@townmedialabs.com"
+                  href="mailto:info@townmedialabs.ca"
                   className="text-[#ff4500] hover:underline"
                 >
-                  info@townmedialabs.com
+                  info@townmedialabs.ca
                 </a>
                 .
               </p>

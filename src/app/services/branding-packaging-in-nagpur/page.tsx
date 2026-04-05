@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["nagpur"];
 
 export const metadata: Metadata = {
-  title: "Branding & Packaging Agency in Nagpur | TML Agency",
+  title: "Branding & Packaging Agency in Nagpur",
   description: "TML offers expert Branding and Packaging services in Nagpur. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["branding and packaging nagpur", "branding and packaging agency nagpur", "branding and packaging company nagpur"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-nagpur",
   },
   openGraph: {
-    title: "Branding & Packaging Agency in Nagpur | TML Agency",
+    title: "Branding & Packaging Agency in Nagpur",
     description: "TML offers expert Branding and Packaging services in Nagpur. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-nagpur",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding & Packaging Agency in Nagpur | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding & Packaging Agency in Nagpur" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding & Packaging Agency in Nagpur | TML Agency",
+    title: "Branding & Packaging Agency in Nagpur",
     description: "TML offers expert Branding and Packaging services in Nagpur. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

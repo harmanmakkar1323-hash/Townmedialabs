@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["atlanta"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Atlanta | TML Agency",
+  title: "Website Development Agency in Atlanta",
   description: "TML offers expert Website Development services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development atlanta", "website development agency atlanta", "website development company atlanta"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-atlanta",
   },
   openGraph: {
-    title: "Website Development Agency in Atlanta | TML Agency",
+    title: "Website Development Agency in Atlanta",
     description: "TML offers expert Website Development services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-atlanta",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Atlanta | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Atlanta" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Atlanta | TML Agency",
+    title: "Website Development Agency in Atlanta",
     description: "TML offers expert Website Development services in Atlanta. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

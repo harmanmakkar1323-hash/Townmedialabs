@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["wolverhampton"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Wolverhampton | TML Agency",
+  title: "SEO Agency in Wolverhampton",
   description: "TML offers expert SEO services in Wolverhampton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["seo wolverhampton", "seo agency wolverhampton", "seo company wolverhampton"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/seo-in-wolverhampton",
   },
   openGraph: {
-    title: "SEO Agency in Wolverhampton | TML Agency",
+    title: "SEO Agency in Wolverhampton",
     description: "TML offers expert SEO services in Wolverhampton. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/seo-in-wolverhampton",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Wolverhampton | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Wolverhampton" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Wolverhampton | TML Agency",
+    title: "SEO Agency in Wolverhampton",
     description: "TML offers expert SEO services in Wolverhampton. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["punjab"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Punjab | TML Agency",
+  title: "Packaging Design Agency in Punjab",
   description: "TML offers expert Packaging Design services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design punjab", "packaging design agency punjab", "packaging design company punjab"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-punjab",
   },
   openGraph: {
-    title: "Packaging Design Agency in Punjab | TML Agency",
+    title: "Packaging Design Agency in Punjab",
     description: "TML offers expert Packaging Design services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-punjab",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Punjab | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Punjab" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Punjab | TML Agency",
+    title: "Packaging Design Agency in Punjab",
     description: "TML offers expert Packaging Design services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

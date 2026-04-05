@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["fujairah"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Fujairah | TML Agency",
+  title: "Lead Generation Agency in Fujairah",
   description: "TML offers expert Lead Generation services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["lead generation fujairah", "lead generation agency fujairah", "lead generation company fujairah"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/lead-generation-in-fujairah",
   },
   openGraph: {
-    title: "Lead Generation Agency in Fujairah | TML Agency",
+    title: "Lead Generation Agency in Fujairah",
     description: "TML offers expert Lead Generation services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/lead-generation-in-fujairah",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Lead Generation Agency in Fujairah | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Lead Generation Agency in Fujairah" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Fujairah | TML Agency",
+    title: "Lead Generation Agency in Fujairah",
     description: "TML offers expert Lead Generation services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

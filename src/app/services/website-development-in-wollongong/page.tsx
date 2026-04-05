@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["wollongong"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Wollongong | TML Agency",
+  title: "Website Development Agency in Wollongong",
   description: "TML offers expert Website Development services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["website development wollongong", "website development agency wollongong", "website development company wollongong"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/website-development-in-wollongong",
   },
   openGraph: {
-    title: "Website Development Agency in Wollongong | TML Agency",
+    title: "Website Development Agency in Wollongong",
     description: "TML offers expert Website Development services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/website-development-in-wollongong",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Wollongong | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Wollongong" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Wollongong | TML Agency",
+    title: "Website Development Agency in Wollongong",
     description: "TML offers expert Website Development services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

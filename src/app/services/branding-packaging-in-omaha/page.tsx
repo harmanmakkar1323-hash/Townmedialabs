@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["omaha"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Omaha | TML Agency",
+  title: "Packaging Design Agency in Omaha",
   description: "TML offers expert Packaging Design services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design omaha", "packaging design agency omaha", "packaging design company omaha"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/branding-packaging-in-omaha",
   },
   openGraph: {
-    title: "Packaging Design Agency in Omaha | TML Agency",
+    title: "Packaging Design Agency in Omaha",
     description: "TML offers expert Packaging Design services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/branding-packaging-in-omaha",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Omaha | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Omaha" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Omaha | TML Agency",
+    title: "Packaging Design Agency in Omaha",
     description: "TML offers expert Packaging Design services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

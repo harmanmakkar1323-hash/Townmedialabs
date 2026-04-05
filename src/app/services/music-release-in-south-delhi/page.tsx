@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["south_delhi"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in South Delhi | TML Agency",
+  title: "Music Release Agency in South Delhi",
   description: "TML offers expert Music Release and Distribution services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release and distribution south delhi", "music release and distribution agency south delhi", "music release and distribution company south delhi"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/music-release-in-south-delhi",
   },
   openGraph: {
-    title: "Music Release Agency in South Delhi | TML Agency",
+    title: "Music Release Agency in South Delhi",
     description: "TML offers expert Music Release and Distribution services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/music-release-in-south-delhi",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in South Delhi | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in South Delhi" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in South Delhi | TML Agency",
+    title: "Music Release Agency in South Delhi",
     description: "TML offers expert Music Release and Distribution services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },

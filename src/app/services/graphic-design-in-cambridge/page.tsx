@@ -5,25 +5,25 @@ import LocationServiceTemplate from "@/components/templates/LocationServiceTempl
 const location = locations["cambridge"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Cambridge | TML Agency",
+  title: "Graphic Design Agency in Cambridge",
   description: "TML offers expert Graphic Design services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["graphic design cambridge", "graphic design agency cambridge", "graphic design company cambridge"],
   alternates: {
     canonical: "https://townmedialabs.ca/services/graphic-design-in-cambridge",
   },
   openGraph: {
-    title: "Graphic Design Agency in Cambridge | TML Agency",
+    title: "Graphic Design Agency in Cambridge",
     description: "TML offers expert Graphic Design services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
     url: "https://townmedialabs.ca/services/graphic-design-in-cambridge",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Cambridge | TML Agency" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Graphic Design Agency in Cambridge" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Cambridge | TML Agency",
+    title: "Graphic Design Agency in Cambridge",
     description: "TML offers expert Graphic Design services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
