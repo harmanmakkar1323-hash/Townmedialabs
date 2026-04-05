@@ -6,6 +6,8 @@ export interface ServiceSeoData {
   howToChoose: string[];
   whyNeeded: string[];
   types: { title: string; desc: string }[];
+  introByCountry?: Record<string, string>;
+  pricingByCountry?: Record<string, { tier: string; range: string; includes: string }[]>;
 }
 
 export const serviceSeoContent: Record<string, ServiceSeoData> = {
@@ -61,6 +63,52 @@ export const serviceSeoContent: Record<string, ServiceSeoData> = {
       { title: "Content SEO", desc: "Focuses on creating and optimising high-quality content to rank for informational and transactional queries." },
       { title: "Enterprise SEO", desc: "Large-scale SEO strategies for businesses with thousands of pages and complex website architectures." },
     ],
+    introByCountry: {
+      India: "India's digital market is growing at 25% annually, making SEO essential for businesses competing in cities from Mumbai to Chandigarh. With over 900 million internet users and rapidly increasing online commerce, ranking on Google India is the difference between thriving and being invisible. Indian consumers research extensively before purchasing, and businesses that invest in SEO capture the lion's share of organic traffic in one of the world's most competitive digital landscapes.",
+      USA: "With over 8.5 billion Google searches daily in the US market, organic search remains the highest-ROI channel for American businesses. The US search landscape is fiercely competitive, with established brands and startups alike investing heavily in SEO. Whether you are targeting local customers in a single metro area or building a national e-commerce presence, a data-driven SEO strategy is the foundation for sustainable growth in the American market.",
+      UK: "UK businesses face unique SEO challenges including GDPR compliance, local search competition in dense urban markets, and a consumer base that trusts organic results far more than paid ads. With 90% of UK consumers using search engines before making a purchase, ranking well on Google.co.uk directly impacts revenue. The British market rewards brands that build genuine authority through high-quality content and technical excellence.",
+      Australia: "Australia's geographic spread and digitally savvy population make SEO critical for businesses across Sydney, Melbourne, Brisbane, Perth, and beyond. Australian consumers are among the most connected in the world, with 96% internet penetration and high expectations for online experiences. Local SEO is particularly valuable in Australia, where consumers frequently search for services near their location.",
+      UAE: "The UAE's rapidly expanding digital economy, with internet penetration exceeding 99%, makes SEO a strategic priority for businesses in Dubai, Abu Dhabi, and across the Emirates. The multilingual search landscape, with queries in both English and Arabic, demands a nuanced SEO approach. UAE businesses that rank well on Google capture high-value customers in one of the world's wealthiest consumer markets.",
+      Canada: "Canadian businesses operate in a bilingual digital landscape, with English and French search queries demanding tailored SEO strategies. With 94% of Canadians online and a strong preference for local businesses, SEO is essential for companies from Vancouver to Montreal. Canada's competitive market rewards businesses that invest in authoritative content and strong technical foundations.",
+      "New Zealand": "New Zealand's compact but highly digital market makes SEO a powerful growth lever for Kiwi businesses. With 95% internet penetration and consumers who increasingly shop and research online, ranking well on Google.co.nz drives meaningful business results. Local SEO is especially impactful in New Zealand, where community trust and proximity play a major role in purchase decisions.",
+    },
+    pricingByCountry: {
+      India: [
+        { tier: "Starter", range: "₹15,000 – ₹25,000/month", includes: "Basic on-page SEO, keyword research, Google Business Profile optimisation, monthly reporting" },
+        { tier: "Growth", range: "₹25,000 – ₹50,000/month", includes: "Advanced on-page & off-page SEO, link building, content creation, technical audits, bi-weekly reporting" },
+        { tier: "Enterprise", range: "₹50,000 – ₹1,50,000/month", includes: "Full-scale SEO including local, national & e-commerce SEO, dedicated SEO manager, weekly reporting, competitor analysis" },
+      ],
+      USA: [
+        { tier: "Starter", range: "$2,000 – $3,500/month", includes: "On-page optimisation, keyword research, Google Business Profile setup, monthly analytics report" },
+        { tier: "Growth", range: "$3,500 – $6,000/month", includes: "Comprehensive on-page & off-page SEO, link acquisition, content strategy, technical audits, bi-weekly reporting" },
+        { tier: "Enterprise", range: "$6,000 – $10,000+/month", includes: "Full-service SEO covering local, national & e-commerce, dedicated strategist, weekly reporting, competitor intelligence" },
+      ],
+      UK: [
+        { tier: "Starter", range: "£1,500 – £2,500/month", includes: "On-page SEO, keyword research, Google Business Profile optimisation, GDPR-compliant tracking, monthly reporting" },
+        { tier: "Growth", range: "£2,500 – £5,000/month", includes: "Advanced on-page & off-page SEO, link building, content creation, technical audits, bi-weekly reporting" },
+        { tier: "Enterprise", range: "£5,000 – £8,000+/month", includes: "Full-scale SEO across local and national, dedicated account manager, weekly reporting, competitor analysis" },
+      ],
+      Australia: [
+        { tier: "Starter", range: "A$2,000 – A$3,500/month", includes: "On-page SEO, keyword research, Google Business Profile setup, monthly analytics" },
+        { tier: "Growth", range: "A$3,500 – A$6,000/month", includes: "Comprehensive on-page & off-page SEO, link building, content strategy, technical audits, bi-weekly reporting" },
+        { tier: "Enterprise", range: "A$6,000 – A$10,000+/month", includes: "Full-service SEO including local, national & e-commerce, dedicated SEO strategist, weekly reporting" },
+      ],
+      UAE: [
+        { tier: "Starter", range: "AED 5,000 – AED 10,000/month", includes: "On-page SEO, bilingual keyword research (English & Arabic), Google Business Profile optimisation, monthly reporting" },
+        { tier: "Growth", range: "AED 10,000 – AED 25,000/month", includes: "Advanced on-page & off-page SEO, link building, content creation in English & Arabic, technical audits" },
+        { tier: "Enterprise", range: "AED 25,000 – AED 50,000+/month", includes: "Full-scale multilingual SEO, dedicated account manager, weekly reporting, competitor intelligence" },
+      ],
+      Canada: [
+        { tier: "Starter", range: "C$1,800 – C$3,000/month", includes: "On-page SEO, keyword research, Google Business Profile optimisation, monthly reporting" },
+        { tier: "Growth", range: "C$3,000 – C$5,500/month", includes: "Advanced on-page & off-page SEO, link building, bilingual content strategy, technical audits, bi-weekly reporting" },
+        { tier: "Enterprise", range: "C$5,500 – C$10,000+/month", includes: "Full-scale SEO across English & French markets, dedicated strategist, weekly reporting, competitor analysis" },
+      ],
+      "New Zealand": [
+        { tier: "Starter", range: "NZ$1,500 – NZ$2,500/month", includes: "On-page SEO, keyword research, Google Business Profile optimisation, monthly reporting" },
+        { tier: "Growth", range: "NZ$2,500 – NZ$4,500/month", includes: "Advanced on-page & off-page SEO, link building, content creation, technical audits, bi-weekly reporting" },
+        { tier: "Enterprise", range: "NZ$4,500 – NZ$8,000+/month", includes: "Full-scale SEO including local and national, dedicated account manager, weekly reporting, competitor analysis" },
+      ],
+    },
   },
   "social-media": {
     intro: "Social media marketing services help businesses build a strong presence on platforms like Instagram, Facebook, LinkedIn, Twitter, and YouTube. A strategic social media approach increases brand awareness, drives engagement, generates leads, and builds a loyal community around your brand. With billions of active users on social media, businesses that fail to maintain a consistent and engaging social presence risk being invisible to their target audience.",
@@ -114,6 +162,52 @@ export const serviceSeoContent: Record<string, ServiceSeoData> = {
       { title: "Social Commerce", desc: "Selling products directly through social platforms with shoppable posts and integrated stores." },
       { title: "Social Media Analytics & Reporting", desc: "Tracking and analysing social performance to continuously improve strategy." },
     ],
+    introByCountry: {
+      India: "India leads the world in social media adoption with over 500 million active users across Instagram, Facebook, YouTube, and LinkedIn. Indian consumers spend an average of 2.5 hours daily on social platforms, making it the most cost-effective channel for brand building and lead generation. From Tier-1 metros to Tier-3 cities, social media marketing connects businesses with audiences who are actively discovering and engaging with brands every day.",
+      USA: "The American social media landscape is the most mature and competitive in the world, with 302 million active users and average daily usage exceeding 2 hours. US consumers expect brands to have a polished, consistent social presence across platforms. Standing out requires more than posting regularly — it demands strategic content creation, community management, and data-driven paid social campaigns.",
+      UK: "UK social media users are among the most engaged in Europe, with 57 million active accounts and a strong preference for authentic, value-driven content. British consumers use social platforms for product research, brand discovery, and customer service. Navigating the UK social landscape also requires GDPR-compliant data handling and advertising practices.",
+      Australia: "Australian consumers are passionate social media users, with 21 million active accounts and the highest per-capita social media engagement in the Asia-Pacific region. Instagram and LinkedIn are particularly strong channels for Australian businesses, while TikTok adoption is growing rapidly among younger demographics.",
+      UAE: "The UAE has one of the highest social media penetration rates globally at 99%, with residents spending over 3 hours daily on platforms. Dubai and Abu Dhabi are hubs for influencer culture and luxury brand marketing. A bilingual social strategy covering both English and Arabic content is essential for maximum reach in the Emirates market.",
+      Canada: "Canadian social media users are highly engaged, with 33 million active accounts across a bilingual population. Canadian consumers value authentic brand interactions and community-driven content. Successful social media marketing in Canada requires understanding regional preferences and creating content that resonates across both English and French-speaking audiences.",
+      "New Zealand": "New Zealand's tight-knit digital community of 4.2 million social media users values authenticity and local relevance. Kiwi consumers are highly responsive to brands that participate in local conversations and support community causes. Social media marketing in New Zealand rewards genuine engagement over polished corporate messaging.",
+    },
+    pricingByCountry: {
+      India: [
+        { tier: "Starter", range: "₹15,000 – ₹25,000/month", includes: "2-3 platforms, 12-15 posts/month, basic content creation, monthly analytics" },
+        { tier: "Growth", range: "₹25,000 – ₹50,000/month", includes: "3-4 platforms, 20-25 posts/month, reels & stories, community management, paid ad management" },
+        { tier: "Enterprise", range: "₹50,000 – ₹1,00,000+/month", includes: "All platforms, 30+ posts/month, video production, influencer outreach, dedicated social media manager" },
+      ],
+      USA: [
+        { tier: "Starter", range: "$1,500 – $3,000/month", includes: "2-3 platforms, 12-15 posts/month, content creation, monthly analytics report" },
+        { tier: "Growth", range: "$3,000 – $5,500/month", includes: "3-4 platforms, 20-25 posts/month, reels & stories, community management, paid social campaigns" },
+        { tier: "Enterprise", range: "$5,500 – $8,000+/month", includes: "All platforms, 30+ posts/month, video production, influencer partnerships, dedicated account manager" },
+      ],
+      UK: [
+        { tier: "Starter", range: "£1,000 – £2,000/month", includes: "2-3 platforms, 12-15 posts/month, content creation, GDPR-compliant analytics" },
+        { tier: "Growth", range: "£2,000 – £4,000/month", includes: "3-4 platforms, 20-25 posts/month, reels & stories, community management, paid ad management" },
+        { tier: "Enterprise", range: "£4,000 – £7,000+/month", includes: "All platforms, 30+ posts/month, video production, influencer outreach, dedicated social media manager" },
+      ],
+      Australia: [
+        { tier: "Starter", range: "A$1,500 – A$3,000/month", includes: "2-3 platforms, 12-15 posts/month, content creation, monthly analytics" },
+        { tier: "Growth", range: "A$3,000 – A$5,500/month", includes: "3-4 platforms, 20-25 posts/month, reels & stories, community management, paid social campaigns" },
+        { tier: "Enterprise", range: "A$5,500 – A$8,000+/month", includes: "All platforms, 30+ posts/month, video production, influencer partnerships, dedicated account manager" },
+      ],
+      UAE: [
+        { tier: "Starter", range: "AED 5,000 – AED 10,000/month", includes: "2-3 platforms, bilingual content (English & Arabic), 12-15 posts/month, monthly analytics" },
+        { tier: "Growth", range: "AED 10,000 – AED 20,000/month", includes: "3-4 platforms, 20-25 posts/month, reels & stories, community management, paid social campaigns" },
+        { tier: "Enterprise", range: "AED 20,000 – AED 40,000+/month", includes: "All platforms, 30+ posts/month, video production, influencer outreach, dedicated social media manager" },
+      ],
+      Canada: [
+        { tier: "Starter", range: "C$1,200 – C$2,500/month", includes: "2-3 platforms, 12-15 posts/month, content creation, monthly analytics" },
+        { tier: "Growth", range: "C$2,500 – C$5,000/month", includes: "3-4 platforms, 20-25 posts/month, reels & stories, community management, bilingual content options" },
+        { tier: "Enterprise", range: "C$5,000 – C$8,000+/month", includes: "All platforms, 30+ posts/month, video production, influencer outreach, English & French content, dedicated manager" },
+      ],
+      "New Zealand": [
+        { tier: "Starter", range: "NZ$1,000 – NZ$2,000/month", includes: "2-3 platforms, 12-15 posts/month, content creation, monthly analytics" },
+        { tier: "Growth", range: "NZ$2,000 – NZ$4,000/month", includes: "3-4 platforms, 20-25 posts/month, reels & stories, community management, paid ad management" },
+        { tier: "Enterprise", range: "NZ$4,000 – NZ$7,000+/month", includes: "All platforms, 30+ posts/month, video production, influencer outreach, dedicated social media manager" },
+      ],
+    },
   },
   "google-ads": {
     intro: "Google Ads (formerly Google AdWords) is the most powerful pay-per-click advertising platform, enabling businesses to appear at the top of search results instantly. A well-managed Google Ads campaign drives targeted traffic, generates qualified leads, and delivers measurable ROI. Whether you are looking to dominate local search, reach customers across the country, or sell products online — Google Ads provides the fastest path to visibility and conversions.",
@@ -167,6 +261,52 @@ export const serviceSeoContent: Record<string, ServiceSeoData> = {
       { title: "App Promotion Ads", desc: "Campaigns designed to drive app installs and engagement." },
       { title: "Performance Max", desc: "AI-driven campaigns that optimise across all Google channels automatically." },
     ],
+    introByCountry: {
+      India: "Google Ads is the fastest-growing digital advertising channel in India, with businesses across Mumbai, Delhi, Bangalore, and Chandigarh investing heavily in pay-per-click campaigns. India's average cost-per-click remains significantly lower than Western markets, making Google Ads one of the most cost-effective channels for Indian businesses to generate leads and sales. With 600 million internet users actively searching on Google India, the opportunity for targeted PPC advertising is enormous.",
+      USA: "The US Google Ads market is the largest and most competitive in the world, with businesses spending over $80 billion annually on search advertising. American consumers rely heavily on Google for purchase decisions, and top ad positions can deliver immediate, measurable results. However, rising CPCs demand expert campaign management to maintain profitability and outperform competitors bidding on the same keywords.",
+      UK: "UK businesses invest over £15 billion annually in Google Ads, making it one of the most competitive PPC markets globally. British consumers have high purchase intent when searching on Google, and well-managed campaigns deliver exceptional ROI. Navigating the UK market requires expertise in GDPR-compliant tracking, local search nuances, and the competitive auction landscape across major metros like London, Manchester, and Birmingham.",
+      Australia: "Google Ads is the dominant paid search platform in Australia, with businesses from Sydney to Perth competing for visibility across high-intent search queries. Australian CPCs are competitive but manageable with expert campaign management. The combination of high internet penetration and strong consumer purchasing power makes Google Ads one of the most profitable advertising channels for Australian businesses.",
+      UAE: "Google Ads in the UAE delivers access to one of the world's highest-spending consumer markets. With CPCs varying significantly between English and Arabic campaigns, expert management is essential for maximising ROI. Dubai and Abu Dhabi businesses particularly benefit from Google Ads, where high-income consumers actively search for premium products and services.",
+      Canada: "Canadian businesses leverage Google Ads to reach 34 million internet users across a vast geographic landscape. The bilingual market — English and French — creates unique opportunities for targeted campaigns. Canadian CPCs are competitive but offer strong ROI when campaigns are managed with precise geo-targeting and audience segmentation.",
+      "New Zealand": "Google Ads provides New Zealand businesses with the fastest path to visibility in a compact but competitive digital market. With 4.7 million internet users and strong consumer purchasing power, well-managed PPC campaigns deliver excellent returns for Kiwi businesses across Auckland, Wellington, Christchurch, and beyond.",
+    },
+    pricingByCountry: {
+      India: [
+        { tier: "Starter", range: "₹10,000 – ₹25,000/month (+ ad spend)", includes: "1-2 campaigns, keyword research, ad copy creation, basic landing page, monthly reporting" },
+        { tier: "Growth", range: "₹25,000 – ₹60,000/month (+ ad spend)", includes: "Multiple campaign types, A/B testing, remarketing, conversion tracking, bi-weekly optimisation" },
+        { tier: "Enterprise", range: "₹60,000 – ₹1,00,000+/month (+ ad spend)", includes: "Full-funnel strategy, all ad formats, custom landing pages, dedicated PPC manager, weekly reporting" },
+      ],
+      USA: [
+        { tier: "Starter", range: "$1,500 – $3,000/month (+ ad spend)", includes: "1-2 campaigns, keyword research, ad copy creation, landing page, monthly reporting" },
+        { tier: "Growth", range: "$3,000 – $5,500/month (+ ad spend)", includes: "Multiple campaign types, A/B testing, remarketing, conversion tracking, bi-weekly optimisation" },
+        { tier: "Enterprise", range: "$5,500 – $8,000+/month (+ ad spend)", includes: "Full-funnel strategy, all ad formats, custom landing pages, dedicated PPC manager, weekly reporting" },
+      ],
+      UK: [
+        { tier: "Starter", range: "£1,000 – £2,000/month (+ ad spend)", includes: "1-2 campaigns, keyword research, ad copy creation, GDPR-compliant tracking, monthly reporting" },
+        { tier: "Growth", range: "£2,000 – £4,000/month (+ ad spend)", includes: "Multiple campaign types, A/B testing, remarketing, conversion tracking, bi-weekly optimisation" },
+        { tier: "Enterprise", range: "£4,000 – £6,000+/month (+ ad spend)", includes: "Full-funnel strategy, all ad formats, custom landing pages, dedicated PPC manager, weekly reporting" },
+      ],
+      Australia: [
+        { tier: "Starter", range: "A$1,500 – A$3,000/month (+ ad spend)", includes: "1-2 campaigns, keyword research, ad copy creation, landing page, monthly reporting" },
+        { tier: "Growth", range: "A$3,000 – A$5,500/month (+ ad spend)", includes: "Multiple campaign types, A/B testing, remarketing, conversion tracking, bi-weekly optimisation" },
+        { tier: "Enterprise", range: "A$5,500 – A$8,000+/month (+ ad spend)", includes: "Full-funnel strategy, all ad formats, custom landing pages, dedicated PPC manager, weekly reporting" },
+      ],
+      UAE: [
+        { tier: "Starter", range: "AED 5,000 – AED 12,000/month (+ ad spend)", includes: "1-2 campaigns, bilingual keyword research, ad copy in English & Arabic, monthly reporting" },
+        { tier: "Growth", range: "AED 12,000 – AED 25,000/month (+ ad spend)", includes: "Multiple campaign types, A/B testing, remarketing, conversion tracking, bi-weekly optimisation" },
+        { tier: "Enterprise", range: "AED 25,000 – AED 45,000+/month (+ ad spend)", includes: "Full-funnel strategy, all ad formats, multilingual landing pages, dedicated PPC manager, weekly reporting" },
+      ],
+      Canada: [
+        { tier: "Starter", range: "C$1,200 – C$2,500/month (+ ad spend)", includes: "1-2 campaigns, keyword research, ad copy creation, landing page, monthly reporting" },
+        { tier: "Growth", range: "C$2,500 – C$5,000/month (+ ad spend)", includes: "Multiple campaign types, A/B testing, remarketing, conversion tracking, bi-weekly optimisation" },
+        { tier: "Enterprise", range: "C$5,000 – C$8,000+/month (+ ad spend)", includes: "Full-funnel strategy, all ad formats, bilingual landing pages, dedicated PPC manager, weekly reporting" },
+      ],
+      "New Zealand": [
+        { tier: "Starter", range: "NZ$1,000 – NZ$2,000/month (+ ad spend)", includes: "1-2 campaigns, keyword research, ad copy creation, landing page, monthly reporting" },
+        { tier: "Growth", range: "NZ$2,000 – NZ$4,000/month (+ ad spend)", includes: "Multiple campaign types, A/B testing, remarketing, conversion tracking, bi-weekly optimisation" },
+        { tier: "Enterprise", range: "NZ$4,000 – NZ$6,500+/month (+ ad spend)", includes: "Full-funnel strategy, all ad formats, custom landing pages, dedicated PPC manager, weekly reporting" },
+      ],
+    },
   },
   "website-development": {
     intro: "Website development services encompass everything from designing a visually stunning website to building a high-performing, SEO-friendly, and mobile-responsive web application. Your website is the digital storefront of your business — it's often the first impression a potential customer has of your brand. A professionally developed website not only looks great but also loads fast, ranks well on search engines, and converts visitors into customers through strategic UX/UI design.",
@@ -220,6 +360,52 @@ export const serviceSeoContent: Record<string, ServiceSeoData> = {
       { title: "Portfolio Websites", desc: "Showcase websites for creatives, photographers, and agencies to display their work." },
       { title: "Blog & Content Websites", desc: "Content-driven websites with CMS integration for publishing articles and resources." },
     ],
+    introByCountry: {
+      India: "India's booming startup ecosystem and digital transformation are driving unprecedented demand for professional website development. With over 900 million internet users and growing e-commerce adoption, Indian businesses need websites that are fast, mobile-first, and conversion-optimised. India also offers a unique cost advantage — world-class web development at a fraction of Western prices, making it an ideal time to invest in a professional online presence.",
+      USA: "In the US market, your website is your most important sales asset. American consumers have high expectations for website performance, design quality, and user experience. With 95% of first impressions being design-related and mobile traffic exceeding desktop, US businesses need websites built with modern frameworks, optimised load times, and ADA-compliant accessibility standards.",
+      UK: "UK businesses require websites that meet stringent standards for performance, accessibility, and data privacy. GDPR compliance, cookie consent management, and WCAG accessibility are non-negotiable for British websites. The UK market rewards businesses with fast-loading, beautifully designed websites that build trust and convert visitors into customers.",
+      Australia: "Australian businesses operate in a digitally advanced market where consumers expect seamless online experiences. With 96% internet penetration and growing e-commerce adoption, a professionally developed website is essential for Australian businesses to compete. Mobile-first design is critical, as over 60% of Australian web traffic comes from mobile devices.",
+      UAE: "The UAE's position as a global business hub demands websites that reflect sophistication and innovation. Dubai and Abu Dhabi businesses need multilingual websites (English and Arabic with RTL support) that load quickly, look stunning, and comply with UAE data regulations. The Emirates' high-income consumer base expects premium digital experiences.",
+      Canada: "Canadian businesses need websites that serve a bilingual audience across vast geographic distances. Bilingual content management, fast load times for remote communities, and compliance with Canadian accessibility standards (AODA) are key considerations. The Canadian market values clean, trustworthy design that reflects local business values.",
+      "New Zealand": "New Zealand businesses benefit from websites that balance global design standards with local authenticity. Kiwi consumers value straightforward, well-crafted digital experiences. With growing e-commerce adoption and a strong preference for local businesses, a professionally developed website is your most powerful tool for building trust and driving conversions in the NZ market.",
+    },
+    pricingByCountry: {
+      India: [
+        { tier: "Basic Website", range: "₹50,000 – ₹1,00,000", includes: "5-7 page business website, responsive design, contact form, basic SEO, 1 month support" },
+        { tier: "Professional", range: "₹1,00,000 – ₹2,50,000", includes: "Custom design, 10-20 pages, CMS integration, advanced SEO, speed optimisation, 3 months support" },
+        { tier: "Enterprise / E-Commerce", range: "₹2,50,000 – ₹5,00,000+", includes: "Custom web app or e-commerce store, payment integration, admin dashboard, API integration, 6+ months support" },
+      ],
+      USA: [
+        { tier: "Basic Website", range: "$5,000 – $10,000", includes: "5-7 page business website, responsive design, contact form, basic SEO, ADA compliance, 1 month support" },
+        { tier: "Professional", range: "$10,000 – $25,000", includes: "Custom design, 10-20 pages, CMS integration, advanced SEO, performance optimisation, 3 months support" },
+        { tier: "Enterprise / E-Commerce", range: "$25,000 – $50,000+", includes: "Custom web app or e-commerce store, payment integration, admin dashboard, API integration, 6+ months support" },
+      ],
+      UK: [
+        { tier: "Basic Website", range: "£4,000 – £8,000", includes: "5-7 page business website, responsive design, GDPR cookie consent, basic SEO, 1 month support" },
+        { tier: "Professional", range: "£8,000 – £20,000", includes: "Custom design, 10-20 pages, CMS integration, WCAG accessibility, advanced SEO, 3 months support" },
+        { tier: "Enterprise / E-Commerce", range: "£20,000 – £40,000+", includes: "Custom web app or e-commerce store, payment integration, admin dashboard, GDPR compliance, 6+ months support" },
+      ],
+      Australia: [
+        { tier: "Basic Website", range: "A$5,000 – A$10,000", includes: "5-7 page business website, responsive design, contact form, basic SEO, 1 month support" },
+        { tier: "Professional", range: "A$10,000 – A$25,000", includes: "Custom design, 10-20 pages, CMS integration, advanced SEO, performance optimisation, 3 months support" },
+        { tier: "Enterprise / E-Commerce", range: "A$25,000 – A$50,000+", includes: "Custom web app or e-commerce store, payment integration, admin dashboard, API integration, 6+ months support" },
+      ],
+      UAE: [
+        { tier: "Basic Website", range: "AED 15,000 – AED 35,000", includes: "5-7 page bilingual website (English & Arabic with RTL), responsive design, basic SEO, 1 month support" },
+        { tier: "Professional", range: "AED 35,000 – AED 80,000", includes: "Custom design, 10-20 pages, CMS with multilingual support, advanced SEO, 3 months support" },
+        { tier: "Enterprise / E-Commerce", range: "AED 80,000 – AED 1,80,000+", includes: "Custom web app or e-commerce store, payment gateway integration, multilingual admin dashboard, 6+ months support" },
+      ],
+      Canada: [
+        { tier: "Basic Website", range: "C$4,500 – C$9,000", includes: "5-7 page business website, responsive design, bilingual options, basic SEO, AODA compliance, 1 month support" },
+        { tier: "Professional", range: "C$9,000 – C$22,000", includes: "Custom design, 10-20 pages, CMS integration, bilingual content management, advanced SEO, 3 months support" },
+        { tier: "Enterprise / E-Commerce", range: "C$22,000 – C$45,000+", includes: "Custom web app or e-commerce store, payment integration, bilingual admin dashboard, API integration, 6+ months support" },
+      ],
+      "New Zealand": [
+        { tier: "Basic Website", range: "NZ$4,000 – NZ$8,000", includes: "5-7 page business website, responsive design, contact form, basic SEO, 1 month support" },
+        { tier: "Professional", range: "NZ$8,000 – NZ$18,000", includes: "Custom design, 10-20 pages, CMS integration, advanced SEO, performance optimisation, 3 months support" },
+        { tier: "Enterprise / E-Commerce", range: "NZ$18,000 – NZ$40,000+", includes: "Custom web app or e-commerce store, payment integration, admin dashboard, API integration, 6+ months support" },
+      ],
+    },
   },
   "graphic-design": {
     intro: "Graphic design services transform your brand vision into compelling visual assets that communicate your message, attract attention, and drive engagement. From social media graphics and marketing collateral to brand identity systems and packaging design, professional graphic design is the foundation of effective visual communication. In a world where consumers are bombarded with content, standout design is what separates brands that get noticed from those that get ignored.",
@@ -273,6 +459,52 @@ export const serviceSeoContent: Record<string, ServiceSeoData> = {
       { title: "UI/UX Design", desc: "Website and app interface design focused on user experience." },
       { title: "Motion & Animation", desc: "Animated logos, social media animations, and motion graphics." },
     ],
+    introByCountry: {
+      India: "India's creative economy is booming, with graphic design becoming essential for businesses across every sector. From startups in Bangalore to established enterprises in Mumbai, Indian companies invest in professional design to stand out in one of the world's most crowded consumer markets. Competitive pricing makes India a global hub for design talent, and local businesses that invest in quality design gain a significant edge over competitors relying on amateur visuals.",
+      USA: "In the American market, design quality directly impacts brand perception and customer trust. US consumers are exposed to thousands of branded messages daily, making professional graphic design essential for cutting through the noise. From Silicon Valley startups to New York agencies, American businesses invest heavily in cohesive visual identities that communicate professionalism and build lasting brand equity.",
+      UK: "British businesses have a rich design heritage, and UK consumers expect visual communication that is both sophisticated and purposeful. From London's creative agencies to Manchester's growing design scene, the UK market demands graphic design that balances creativity with strategic intent. Investing in professional design is a hallmark of serious British brands.",
+      Australia: "Australian businesses value clean, modern design that reflects the country's creative culture. With a strong startup ecosystem and design-conscious consumer base, Australian companies invest in graphic design to differentiate themselves in competitive markets from Sydney to Perth. The Australian design aesthetic tends toward bold simplicity that communicates clearly and confidently.",
+      UAE: "The UAE's luxury-driven market demands graphic design that exudes sophistication and premium quality. Bilingual design requirements (English and Arabic) add complexity but also opportunity for brands to stand out. Dubai's position as a global business hub means local companies compete with international brands, making world-class design a non-negotiable investment.",
+      Canada: "Canadian businesses value design that is inclusive, bilingual, and culturally sensitive. The country's diverse population requires visual communication that resonates across cultures and languages. From Toronto's vibrant creative scene to Vancouver's tech community, Canadian graphic design blends global trends with local sensibility.",
+      "New Zealand": "New Zealand's creative community punches well above its weight globally, and Kiwi businesses benefit from design that reflects local values of authenticity and craftsmanship. The NZ market rewards brands that invest in distinctive visual identities rather than generic template-based design. Professional graphic design helps New Zealand businesses compete on the global stage while maintaining their unique local character.",
+    },
+    pricingByCountry: {
+      India: [
+        { tier: "Basic", range: "₹5,000 – ₹15,000/project", includes: "Logo design, business card, basic social media templates" },
+        { tier: "Professional", range: "₹15,000 – ₹40,000/project", includes: "Complete brand identity, social media kit, marketing collateral, style guide" },
+        { tier: "Premium", range: "₹40,000 – ₹1,00,000+/project", includes: "Full brand system, packaging, UI/UX design, motion graphics, ongoing retainer" },
+      ],
+      USA: [
+        { tier: "Basic", range: "$500 – $2,000/project", includes: "Logo design, business card, basic social media templates" },
+        { tier: "Professional", range: "$2,000 – $5,000/project", includes: "Complete brand identity, social media kit, marketing collateral, style guide" },
+        { tier: "Premium", range: "$5,000 – $12,000+/project", includes: "Full brand system, packaging, UI/UX design, motion graphics, ongoing retainer" },
+      ],
+      UK: [
+        { tier: "Basic", range: "£400 – £1,500/project", includes: "Logo design, business card, basic social media templates" },
+        { tier: "Professional", range: "£1,500 – £4,000/project", includes: "Complete brand identity, social media kit, marketing collateral, style guide" },
+        { tier: "Premium", range: "£4,000 – £10,000+/project", includes: "Full brand system, packaging, UI/UX design, motion graphics, ongoing retainer" },
+      ],
+      Australia: [
+        { tier: "Basic", range: "A$500 – $2,000/project", includes: "Logo design, business card, basic social media templates" },
+        { tier: "Professional", range: "A$2,000 – A$5,000/project", includes: "Complete brand identity, social media kit, marketing collateral, style guide" },
+        { tier: "Premium", range: "A$5,000 – A$12,000+/project", includes: "Full brand system, packaging, UI/UX design, motion graphics, ongoing retainer" },
+      ],
+      UAE: [
+        { tier: "Basic", range: "AED 2,000 – AED 6,000/project", includes: "Logo design, business card, bilingual social media templates" },
+        { tier: "Professional", range: "AED 6,000 – AED 18,000/project", includes: "Complete brand identity, bilingual social media kit, marketing collateral, style guide" },
+        { tier: "Premium", range: "AED 18,000 – AED 40,000+/project", includes: "Full brand system, packaging, UI/UX design, Arabic & English motion graphics, ongoing retainer" },
+      ],
+      Canada: [
+        { tier: "Basic", range: "C$500 – C$1,800/project", includes: "Logo design, business card, basic social media templates" },
+        { tier: "Professional", range: "C$1,800 – C$4,500/project", includes: "Complete brand identity, social media kit, marketing collateral, style guide" },
+        { tier: "Premium", range: "C$4,500 – C$10,000+/project", includes: "Full brand system, packaging, UI/UX design, bilingual assets, ongoing retainer" },
+      ],
+      "New Zealand": [
+        { tier: "Basic", range: "NZ$400 – NZ$1,500/project", includes: "Logo design, business card, basic social media templates" },
+        { tier: "Professional", range: "NZ$1,500 – NZ$3,500/project", includes: "Complete brand identity, social media kit, marketing collateral, style guide" },
+        { tier: "Premium", range: "NZ$3,500 – NZ$8,000+/project", includes: "Full brand system, packaging, UI/UX design, motion graphics, ongoing retainer" },
+      ],
+    },
   },
   "video-editing": {
     intro: "Video editing services transform raw footage into polished, professional content that captivates audiences and drives engagement. In the age of short-form content, reels, and video-first platforms, high-quality video editing is no longer optional — it's essential. From corporate videos and product demos to social media reels and YouTube content, professional video editing enhances your brand's storytelling and helps you stand out in a crowded digital landscape.",
@@ -326,6 +558,52 @@ export const serviceSeoContent: Record<string, ServiceSeoData> = {
       { title: "Event & Wedding Videos", desc: "Highlight reels, full ceremony edits, and cinematic event films." },
       { title: "Animation & Motion Graphics", desc: "Explainer videos, animated logos, and visual effects." },
     ],
+    introByCountry: {
+      India: "India's content creation ecosystem is exploding, with YouTube, Instagram Reels, and short-form video driving massive demand for professional video editing services. Indian businesses and creators benefit from access to world-class editing talent at competitive rates. From Bollywood-inspired corporate videos to fast-paced social media content, video editing in India combines creative storytelling with cost efficiency that few other markets can match.",
+      USA: "Video dominates the American digital landscape, with US consumers watching an average of 17 hours of online video per week. American businesses invest heavily in video content for social media, YouTube, advertising, and corporate communications. The US market demands polished, high-production-value editing that meets the elevated expectations of discerning American audiences.",
+      UK: "UK businesses increasingly rely on video content to engage audiences across social media, websites, and advertising channels. British consumers respond strongly to well-crafted video storytelling, and the UK market's creative heritage sets high expectations for editing quality. From London-based agencies to emerging creators in Manchester and Edinburgh, professional video editing is essential for standing out.",
+      Australia: "Australia's video content market is thriving, driven by high social media adoption and a culture that embraces visual storytelling. Australian businesses use video across YouTube, Instagram, TikTok, and LinkedIn to connect with audiences from Sydney to Perth. The Australian market values authentic, high-quality video content that balances professionalism with genuine personality.",
+      UAE: "The UAE's luxury and lifestyle-driven market demands video content that is visually stunning and production-grade. Dubai's position as a global media hub means businesses compete with international brands for attention. Bilingual video content in English and Arabic, combined with premium editing quality, is essential for brands operating in the Emirates.",
+      Canada: "Canadian businesses use video content to reach audiences across a vast, bilingual landscape. From corporate videos for Toronto businesses to outdoor lifestyle content for British Columbia brands, video editing in Canada requires versatility and cultural awareness. The Canadian market values authentic storytelling that resonates across diverse communities.",
+      "New Zealand": "New Zealand's creative community has a global reputation for excellence in visual storytelling, from film to digital content. Kiwi businesses benefit from video editing that captures the country's unique character while meeting international quality standards. Video content is particularly effective in New Zealand's close-knit market, where authentic visual narratives build strong brand connections.",
+    },
+    pricingByCountry: {
+      India: [
+        { tier: "Basic", range: "₹3,000 – ₹10,000/video", includes: "Basic cuts, transitions, background music, subtitles, 1-3 minute videos" },
+        { tier: "Professional", range: "₹10,000 – ₹30,000/video", includes: "Advanced editing, motion graphics, colour grading, sound design, 5-10 minute videos" },
+        { tier: "Premium", range: "₹30,000 – ₹1,00,000+/video", includes: "Cinematic editing, VFX, custom animations, multi-camera editing, 10+ minute videos" },
+      ],
+      USA: [
+        { tier: "Basic", range: "$300 – $1,000/video", includes: "Basic cuts, transitions, background music, subtitles, 1-3 minute videos" },
+        { tier: "Professional", range: "$1,000 – $3,500/video", includes: "Advanced editing, motion graphics, colour grading, sound design, 5-10 minute videos" },
+        { tier: "Premium", range: "$3,500 – $10,000+/video", includes: "Cinematic editing, VFX, custom animations, multi-camera editing, 10+ minute videos" },
+      ],
+      UK: [
+        { tier: "Basic", range: "£250 – £800/video", includes: "Basic cuts, transitions, background music, subtitles, 1-3 minute videos" },
+        { tier: "Professional", range: "£800 – £2,500/video", includes: "Advanced editing, motion graphics, colour grading, sound design, 5-10 minute videos" },
+        { tier: "Premium", range: "£2,500 – £8,000+/video", includes: "Cinematic editing, VFX, custom animations, multi-camera editing, 10+ minute videos" },
+      ],
+      Australia: [
+        { tier: "Basic", range: "A$350 – A$1,000/video", includes: "Basic cuts, transitions, background music, subtitles, 1-3 minute videos" },
+        { tier: "Professional", range: "A$1,000 – A$3,500/video", includes: "Advanced editing, motion graphics, colour grading, sound design, 5-10 minute videos" },
+        { tier: "Premium", range: "A$3,500 – A$10,000+/video", includes: "Cinematic editing, VFX, custom animations, multi-camera editing, 10+ minute videos" },
+      ],
+      UAE: [
+        { tier: "Basic", range: "AED 1,000 – AED 3,500/video", includes: "Basic cuts, transitions, background music, bilingual subtitles, 1-3 minute videos" },
+        { tier: "Professional", range: "AED 3,500 – AED 12,000/video", includes: "Advanced editing, motion graphics, colour grading, sound design, 5-10 minute videos" },
+        { tier: "Premium", range: "AED 12,000 – AED 35,000+/video", includes: "Cinematic editing, VFX, custom animations, multi-camera editing, 10+ minute videos" },
+      ],
+      Canada: [
+        { tier: "Basic", range: "C$300 – C$900/video", includes: "Basic cuts, transitions, background music, subtitles, 1-3 minute videos" },
+        { tier: "Professional", range: "C$900 – C$3,000/video", includes: "Advanced editing, motion graphics, colour grading, sound design, 5-10 minute videos" },
+        { tier: "Premium", range: "C$3,000 – C$8,000+/video", includes: "Cinematic editing, VFX, custom animations, multi-camera editing, 10+ minute videos" },
+      ],
+      "New Zealand": [
+        { tier: "Basic", range: "NZ$250 – NZ$800/video", includes: "Basic cuts, transitions, background music, subtitles, 1-3 minute videos" },
+        { tier: "Professional", range: "NZ$800 – NZ$2,500/video", includes: "Advanced editing, motion graphics, colour grading, sound design, 5-10 minute videos" },
+        { tier: "Premium", range: "NZ$2,500 – NZ$7,000+/video", includes: "Cinematic editing, VFX, custom animations, multi-camera editing, 10+ minute videos" },
+      ],
+    },
   },
   branding: {
     intro: "Branding services go far beyond logo design — they encompass the complete strategy, identity, and positioning that defines how your business is perceived in the market. A strong brand creates emotional connections with customers, differentiates you from competitors, and drives long-term loyalty and revenue growth. Professional branding involves strategic research, visual identity development, brand messaging, and consistent application across all customer touchpoints.",
@@ -379,6 +657,52 @@ export const serviceSeoContent: Record<string, ServiceSeoData> = {
       { title: "Rebranding", desc: "Refreshing or overhauling an existing brand for a new market position." },
       { title: "Employer Branding", desc: "Building a strong brand to attract and retain top talent." },
     ],
+    introByCountry: {
+      India: "India's rapidly growing business landscape, with millions of new companies launching annually, makes professional branding more important than ever. Indian consumers are increasingly brand-conscious, and businesses from Chandigarh to Chennai that invest in strategic branding gain a decisive competitive advantage. The Indian market offers exceptional value for branding services, with world-class creative talent delivering results that compete with global agencies at a fraction of the cost.",
+      USA: "The American market is saturated with brands competing for consumer attention, making strategic branding the ultimate differentiator. US consumers form brand opinions in seconds and remain fiercely loyal to brands that deliver consistent, authentic experiences. From Fortune 500 companies to emerging DTC startups, American businesses understand that branding is not a cost — it's the most valuable investment in long-term business growth.",
+      UK: "British consumers have a sophisticated understanding of brand quality and heritage, making the UK one of the most demanding branding markets in the world. UK businesses that invest in strategic brand development — not just visual identity, but positioning, messaging, and experience design — build the kind of deep customer loyalty that drives long-term profitability.",
+      Australia: "Australian businesses operate in a market that values authenticity, simplicity, and boldness in brand identity. The Australian consumer responds to brands that feel genuine rather than corporate. From Sydney's financial district to Melbourne's creative scene, Australian branding blends strategic thinking with creative execution that reflects the country's confident, straightforward culture.",
+      UAE: "The UAE's position as a global luxury and business hub demands branding that communicates premium quality, innovation, and cultural sophistication. Brands in Dubai and Abu Dhabi compete on an international stage, and bilingual brand systems (English and Arabic) require expert cultural navigation. The Emirates market rewards brands that invest in sophisticated, world-class brand identities.",
+      Canada: "Canadian branding reflects the country's multicultural identity, with successful brands communicating across languages, cultures, and regions. The Canadian market values inclusivity, authenticity, and social responsibility in brand positioning. From Toronto's corporate sector to Vancouver's creative community, Canadian branding blends professionalism with genuine warmth.",
+      "New Zealand": "New Zealand's brand landscape is defined by authenticity, craftsmanship, and a strong sense of place. Kiwi consumers trust brands that feel genuine and locally rooted while meeting global quality standards. Professional branding in New Zealand helps businesses punch above their weight on the international stage while maintaining the authentic character that resonates with local audiences.",
+    },
+    pricingByCountry: {
+      India: [
+        { tier: "Starter", range: "₹20,000 – ₹50,000", includes: "Logo design, basic brand guidelines, business card, colour palette" },
+        { tier: "Professional", range: "₹50,000 – ₹1,50,000", includes: "Brand strategy, logo, complete visual identity, brand guidelines, collateral design" },
+        { tier: "Enterprise", range: "₹1,50,000 – ₹5,00,000+", includes: "Full brand strategy, naming, visual identity, messaging framework, brand book, multi-touchpoint rollout" },
+      ],
+      USA: [
+        { tier: "Starter", range: "$2,500 – $5,000", includes: "Logo design, basic brand guidelines, business card, colour palette" },
+        { tier: "Professional", range: "$5,000 – $15,000", includes: "Brand strategy, logo, complete visual identity, brand guidelines, collateral design" },
+        { tier: "Enterprise", range: "$15,000 – $50,000+", includes: "Full brand strategy, naming, visual identity, messaging framework, brand book, multi-touchpoint rollout" },
+      ],
+      UK: [
+        { tier: "Starter", range: "£2,000 – £4,000", includes: "Logo design, basic brand guidelines, business card, colour palette" },
+        { tier: "Professional", range: "£4,000 – £12,000", includes: "Brand strategy, logo, complete visual identity, brand guidelines, collateral design" },
+        { tier: "Enterprise", range: "£12,000 – £40,000+", includes: "Full brand strategy, naming, visual identity, messaging framework, brand book, multi-touchpoint rollout" },
+      ],
+      Australia: [
+        { tier: "Starter", range: "A$2,500 – A$5,000", includes: "Logo design, basic brand guidelines, business card, colour palette" },
+        { tier: "Professional", range: "A$5,000 – A$15,000", includes: "Brand strategy, logo, complete visual identity, brand guidelines, collateral design" },
+        { tier: "Enterprise", range: "A$15,000 – A$45,000+", includes: "Full brand strategy, naming, visual identity, messaging framework, brand book, multi-touchpoint rollout" },
+      ],
+      UAE: [
+        { tier: "Starter", range: "AED 8,000 – AED 18,000", includes: "Logo design, bilingual brand guidelines, business card, colour palette" },
+        { tier: "Professional", range: "AED 18,000 – AED 50,000", includes: "Brand strategy, logo, bilingual visual identity, brand guidelines, collateral design" },
+        { tier: "Enterprise", range: "AED 50,000 – AED 1,50,000+", includes: "Full brand strategy, naming, bilingual visual identity, messaging framework, brand book, multi-touchpoint rollout" },
+      ],
+      Canada: [
+        { tier: "Starter", range: "C$2,000 – C$4,500", includes: "Logo design, basic brand guidelines, business card, colour palette" },
+        { tier: "Professional", range: "C$4,500 – C$12,000", includes: "Brand strategy, logo, complete visual identity, brand guidelines, collateral design" },
+        { tier: "Enterprise", range: "C$12,000 – C$40,000+", includes: "Full brand strategy, naming, bilingual visual identity, messaging framework, brand book, multi-touchpoint rollout" },
+      ],
+      "New Zealand": [
+        { tier: "Starter", range: "NZ$1,800 – NZ$4,000", includes: "Logo design, basic brand guidelines, business card, colour palette" },
+        { tier: "Professional", range: "NZ$4,000 – NZ$10,000", includes: "Brand strategy, logo, complete visual identity, brand guidelines, collateral design" },
+        { tier: "Enterprise", range: "NZ$10,000 – NZ$35,000+", includes: "Full brand strategy, naming, visual identity, messaging framework, brand book, multi-touchpoint rollout" },
+      ],
+    },
   },
   "branding-packaging": {
     intro: "Branding and packaging design services create the complete visual identity and product presentation that drives purchase decisions. Your packaging is often the first physical interaction a customer has with your brand — it must communicate quality, tell your story, and stand out on crowded shelves. Combined with strategic branding, effective packaging design transforms products into experiences and builds the kind of brand recognition that drives repeat purchases.",
@@ -432,6 +756,52 @@ export const serviceSeoContent: Record<string, ServiceSeoData> = {
       { title: "Luxury Packaging", desc: "Premium packaging with special finishes, embossing, and high-end materials." },
       { title: "Sustainable Packaging", desc: "Eco-friendly packaging using recycled and biodegradable materials." },
     ],
+    introByCountry: {
+      India: "India's booming FMCG and D2C market has created massive demand for professional branding and packaging design. With thousands of new products launching monthly on platforms like Amazon India, Flipkart, and direct-to-consumer channels, standout packaging is the difference between getting noticed and being ignored. Indian consumers are increasingly brand-conscious, and packaging that communicates quality, authenticity, and trust directly impacts purchase decisions in both offline retail and e-commerce.",
+      USA: "The American retail and e-commerce landscape demands packaging that captures attention instantly. US consumers make split-second purchase decisions, and packaging design plays a decisive role. From premium CPG brands to emerging DTC startups, American businesses invest significantly in packaging that tells a brand story, meets sustainability expectations, and delivers a memorable unboxing experience.",
+      UK: "UK consumers are among the most environmentally conscious in the world, making sustainable packaging design a critical business requirement. British brands that combine aesthetic excellence with eco-friendly materials gain a significant competitive advantage. The UK market rewards packaging that balances premium visual appeal with responsible material choices and recyclability.",
+      Australia: "Australia's growing emphasis on sustainable packaging, combined with strict regulatory requirements, makes professional packaging design essential for local businesses. Australian consumers increasingly choose products based on packaging sustainability and design quality. The market demands packaging that is functional, visually compelling, and environmentally responsible.",
+      UAE: "The UAE's luxury retail market demands packaging that communicates premium quality and sophistication. Dubai's position as a global shopping destination means products compete with international brands for shelf space. Bilingual packaging (English and Arabic) with premium finishes and materials is essential for brands targeting the Emirates' affluent consumer base.",
+      Canada: "Canadian packaging regulations, including bilingual labelling requirements (English and French), add complexity but also opportunity for thoughtful design. Canadian consumers value sustainable packaging and are willing to pay more for products that demonstrate environmental responsibility. The market rewards brands that combine regulatory compliance with creative, eye-catching design.",
+      "New Zealand": "New Zealand's small but discerning market values packaging that reflects authenticity and environmental responsibility. Kiwi consumers are highly responsive to brands that demonstrate sustainability through packaging choices. The NZ market rewards honest, well-crafted packaging design that tells a genuine brand story while meeting local environmental standards.",
+    },
+    pricingByCountry: {
+      India: [
+        { tier: "Basic", range: "₹15,000 – ₹35,000/product", includes: "Single product packaging design, label design, print-ready files, 2 revision rounds" },
+        { tier: "Professional", range: "₹35,000 – ₹80,000/product", includes: "Brand identity + packaging, 3D mockups, multiple SKU designs, vendor coordination" },
+        { tier: "Premium", range: "₹80,000 – ₹2,50,000+", includes: "Full brand + packaging system, structural design, sustainable options, product line rollout" },
+      ],
+      USA: [
+        { tier: "Basic", range: "$1,500 – $4,000/product", includes: "Single product packaging design, label design, print-ready files, 2 revision rounds" },
+        { tier: "Professional", range: "$4,000 – $10,000/product", includes: "Brand identity + packaging, 3D mockups, multiple SKU designs, vendor coordination" },
+        { tier: "Premium", range: "$10,000 – $30,000+", includes: "Full brand + packaging system, structural design, sustainable options, product line rollout" },
+      ],
+      UK: [
+        { tier: "Basic", range: "£1,200 – £3,000/product", includes: "Single product packaging design, label design, print-ready files, 2 revision rounds" },
+        { tier: "Professional", range: "£3,000 – £8,000/product", includes: "Brand identity + packaging, 3D mockups, multiple SKU designs, sustainable material guidance" },
+        { tier: "Premium", range: "£8,000 – £25,000+", includes: "Full brand + packaging system, structural design, sustainable materials, product line rollout" },
+      ],
+      Australia: [
+        { tier: "Basic", range: "A$1,500 – A$4,000/product", includes: "Single product packaging design, label design, print-ready files, 2 revision rounds" },
+        { tier: "Professional", range: "A$4,000 – A$10,000/product", includes: "Brand identity + packaging, 3D mockups, multiple SKU designs, vendor coordination" },
+        { tier: "Premium", range: "A$10,000 – A$28,000+", includes: "Full brand + packaging system, structural design, sustainable options, product line rollout" },
+      ],
+      UAE: [
+        { tier: "Basic", range: "AED 5,000 – AED 14,000/product", includes: "Single product packaging design, bilingual label design, print-ready files, 2 revision rounds" },
+        { tier: "Professional", range: "AED 14,000 – AED 35,000/product", includes: "Brand identity + packaging, 3D mockups, multiple SKU designs, premium material guidance" },
+        { tier: "Premium", range: "AED 35,000 – AED 90,000+", includes: "Full brand + luxury packaging system, structural design, premium finishes, product line rollout" },
+      ],
+      Canada: [
+        { tier: "Basic", range: "C$1,200 – C$3,500/product", includes: "Single product packaging design, bilingual label design, print-ready files, 2 revision rounds" },
+        { tier: "Professional", range: "C$3,500 – C$9,000/product", includes: "Brand identity + packaging, 3D mockups, multiple SKU designs, bilingual compliance" },
+        { tier: "Premium", range: "C$9,000 – C$25,000+", includes: "Full brand + packaging system, structural design, sustainable options, product line rollout" },
+      ],
+      "New Zealand": [
+        { tier: "Basic", range: "NZ$1,000 – NZ$3,000/product", includes: "Single product packaging design, label design, print-ready files, 2 revision rounds" },
+        { tier: "Professional", range: "NZ$3,000 – NZ$7,500/product", includes: "Brand identity + packaging, 3D mockups, multiple SKU designs, vendor coordination" },
+        { tier: "Premium", range: "NZ$7,500 – NZ$20,000+", includes: "Full brand + packaging system, structural design, sustainable options, product line rollout" },
+      ],
+    },
   },
   "lead-generation": {
     intro: "Lead generation services focus on attracting and converting potential customers into qualified business leads through targeted digital marketing campaigns. Whether you need B2B or B2C leads, a systematic lead generation strategy ensures a consistent pipeline of prospects who are genuinely interested in your products or services. From landing page optimisation and paid advertising to email marketing and CRM integration, lead generation is the engine that drives business growth.",
@@ -485,6 +855,52 @@ export const serviceSeoContent: Record<string, ServiceSeoData> = {
       { title: "Local Lead Generation", desc: "Geo-targeted campaigns for businesses serving specific geographic areas." },
       { title: "E-Commerce Lead Generation", desc: "Capturing email subscribers and potential buyers for online stores." },
     ],
+    introByCountry: {
+      India: "India's digital advertising costs are among the lowest globally, making lead generation exceptionally cost-effective for Indian businesses. With CPCs on Google and Facebook significantly lower than Western markets, businesses across Mumbai, Delhi, Bangalore, and Chandigarh can generate qualified leads at a fraction of international costs. India's rapidly growing digital economy means more consumers are searching, clicking, and converting online every day.",
+      USA: "The US lead generation market is the most sophisticated and competitive in the world. American businesses invest billions in lead generation across Google, LinkedIn, Facebook, and emerging platforms. While CPCs are higher than other markets, the purchasing power of US leads makes well-managed campaigns highly profitable. Data-driven lead generation with CRM integration and marketing automation is the standard for serious American businesses.",
+      UK: "UK businesses operate in a mature digital market where lead generation requires precision targeting and GDPR-compliant data handling. British consumers are privacy-conscious and respond best to value-driven marketing that respects their data. Successful lead generation in the UK combines targeted paid campaigns with trust-building content and transparent data practices.",
+      Australia: "Australian businesses benefit from a digitally engaged population with strong purchasing power, making lead generation campaigns highly effective. The Australian market's relatively smaller size compared to the US or UK means less competition and more affordable CPCs in many industries. Strategic lead generation with proper attribution and CRM integration drives predictable, scalable growth for Australian companies.",
+      UAE: "The UAE's high-income consumer market makes lead generation exceptionally valuable for local businesses. Leads from Dubai and Abu Dhabi convert at premium price points, making the higher CPCs worthwhile. Bilingual campaigns (English and Arabic) and platform diversity — including Google, social media, and WhatsApp marketing — are essential for comprehensive lead generation in the Emirates.",
+      Canada: "Canadian businesses leverage lead generation to reach a bilingual, digitally connected population of 34 million. The Canadian market offers strong ROI on lead generation campaigns, with competitive CPCs and high consumer purchasing power. Bilingual campaign management and compliance with Canadian privacy regulations (PIPEDA) are important considerations for effective lead generation.",
+      "New Zealand": "New Zealand's compact market makes lead generation particularly efficient, as businesses can reach a significant portion of their target audience without massive budgets. Kiwi consumers respond well to personalised, locally relevant campaigns. The NZ market rewards businesses that invest in quality lead generation with strong conversion rates and loyal customer relationships.",
+    },
+    pricingByCountry: {
+      India: [
+        { tier: "Starter", range: "₹20,000 – ₹40,000/month", includes: "1-2 ad platforms, landing page, basic lead tracking, monthly reporting" },
+        { tier: "Growth", range: "₹40,000 – ₹80,000/month", includes: "Multi-platform campaigns, CRM integration, email nurturing, A/B testing, bi-weekly reporting" },
+        { tier: "Enterprise", range: "₹80,000 – ₹2,00,000+/month", includes: "Full-funnel lead gen, ABM campaigns, advanced automation, dedicated lead gen manager, weekly reporting" },
+      ],
+      USA: [
+        { tier: "Starter", range: "$2,000 – $4,000/month", includes: "1-2 ad platforms, landing page, CRM setup, lead tracking, monthly reporting" },
+        { tier: "Growth", range: "$4,000 – $8,000/month", includes: "Multi-platform campaigns, CRM integration, email nurturing, A/B testing, bi-weekly reporting" },
+        { tier: "Enterprise", range: "$8,000 – $15,000+/month", includes: "Full-funnel lead gen, ABM campaigns, marketing automation, dedicated lead gen manager, weekly reporting" },
+      ],
+      UK: [
+        { tier: "Starter", range: "£1,500 – £3,000/month", includes: "1-2 ad platforms, GDPR-compliant landing page, lead tracking, monthly reporting" },
+        { tier: "Growth", range: "£3,000 – £6,000/month", includes: "Multi-platform campaigns, CRM integration, GDPR-compliant nurturing, A/B testing, bi-weekly reporting" },
+        { tier: "Enterprise", range: "£6,000 – £10,000+/month", includes: "Full-funnel lead gen, ABM campaigns, advanced automation, dedicated manager, weekly reporting" },
+      ],
+      Australia: [
+        { tier: "Starter", range: "A$2,000 – A$4,000/month", includes: "1-2 ad platforms, landing page, CRM setup, lead tracking, monthly reporting" },
+        { tier: "Growth", range: "A$4,000 – A$7,500/month", includes: "Multi-platform campaigns, CRM integration, email nurturing, A/B testing, bi-weekly reporting" },
+        { tier: "Enterprise", range: "A$7,500 – A$12,000+/month", includes: "Full-funnel lead gen, ABM campaigns, marketing automation, dedicated lead gen manager, weekly reporting" },
+      ],
+      UAE: [
+        { tier: "Starter", range: "AED 7,000 – AED 15,000/month", includes: "1-2 ad platforms, bilingual landing page, lead tracking, monthly reporting" },
+        { tier: "Growth", range: "AED 15,000 – AED 30,000/month", includes: "Multi-platform campaigns, CRM integration, bilingual email nurturing, A/B testing, bi-weekly reporting" },
+        { tier: "Enterprise", range: "AED 30,000 – AED 50,000+/month", includes: "Full-funnel lead gen, ABM campaigns, advanced automation, dedicated lead gen manager, weekly reporting" },
+      ],
+      Canada: [
+        { tier: "Starter", range: "C$1,800 – C$3,500/month", includes: "1-2 ad platforms, landing page, CRM setup, lead tracking, monthly reporting" },
+        { tier: "Growth", range: "C$3,500 – C$7,000/month", includes: "Multi-platform campaigns, CRM integration, bilingual email nurturing, A/B testing, bi-weekly reporting" },
+        { tier: "Enterprise", range: "C$7,000 – C$12,000+/month", includes: "Full-funnel lead gen, ABM campaigns, marketing automation, PIPEDA compliance, dedicated manager, weekly reporting" },
+      ],
+      "New Zealand": [
+        { tier: "Starter", range: "NZ$1,500 – NZ$3,000/month", includes: "1-2 ad platforms, landing page, CRM setup, lead tracking, monthly reporting" },
+        { tier: "Growth", range: "NZ$3,000 – NZ$5,500/month", includes: "Multi-platform campaigns, CRM integration, email nurturing, A/B testing, bi-weekly reporting" },
+        { tier: "Enterprise", range: "NZ$5,500 – NZ$8,000+/month", includes: "Full-funnel lead gen, ABM campaigns, marketing automation, dedicated lead gen manager, weekly reporting" },
+      ],
+    },
   },
   "music-release": {
     intro: "Music release and distribution services help artists, labels, and content creators get their music onto all major streaming platforms, build an audience, and monetise their creative work. From Spotify and Apple Music to YouTube Music and Amazon Music, professional music distribution ensures your tracks reach global listeners while retaining your rights and royalties. Combined with strategic marketing, a well-planned music release can transform independent artists into chart-topping successes.",
@@ -538,6 +954,52 @@ export const serviceSeoContent: Record<string, ServiceSeoData> = {
       { title: "Artist Development", desc: "Long-term branding, audience building, and career strategy for artists." },
       { title: "Remix & Collaboration Releases", desc: "Strategic release planning for collaborations and remix campaigns." },
     ],
+    introByCountry: {
+      India: "India is the world's fastest-growing music streaming market, with over 200 million monthly listeners on Spotify alone and rapidly growing audiences on JioSaavn, Gaana, and YouTube Music. Indian independent artists are gaining unprecedented visibility through digital distribution, and the country's diverse music landscape — from Bollywood to indie, Punjabi pop to classical fusion — creates massive opportunities for artists who invest in professional release strategies and marketing.",
+      USA: "The US music market is the largest in the world, generating over $17 billion annually in recorded music revenue. American streaming platforms including Spotify, Apple Music, and Amazon Music are the primary discovery channels for listeners. Breaking through in the US market requires strategic release planning, playlist pitching expertise, and data-driven marketing campaigns that build momentum from day one.",
+      UK: "The UK music industry is one of the most influential globally, with British artists and labels shaping global trends. The UK streaming market is mature and highly competitive, with platforms like Spotify, Apple Music, and Amazon Music driving discovery. Successful music releases in the UK demand strategic planning, strong playlist relationships, and marketing that resonates with discerning British music fans.",
+      Australia: "Australia's music streaming market has grown rapidly, with Spotify, Apple Music, and YouTube Music dominating discovery. Australian artists benefit from a supportive local music community and government grants that fund creative projects. Strategic release planning and playlist pitching can help Australian artists build audiences both domestically and in the broader Asia-Pacific region.",
+      UAE: "The UAE's cosmopolitan population creates a unique music market where Arabic, English, Hindi, and other languages coexist on streaming platforms. Dubai's vibrant entertainment scene and Abu Dhabi's cultural investments make the Emirates a growing hub for music production and distribution. Artists targeting the UAE market benefit from multilingual release strategies and cross-cultural marketing.",
+      Canada: "Canada's music industry punches above its weight globally, with Canadian artists consistently topping international charts. The bilingual market (English and French) creates opportunities for artists who can bridge language barriers. Canadian streaming adoption is high, and strategic release campaigns can leverage both domestic and cross-border US market access.",
+      "New Zealand": "New Zealand's music scene is vibrant and tightly connected, with a strong tradition of supporting local artists. Kiwi musicians benefit from community-driven discovery and a growing streaming audience. Strategic release planning helps NZ artists build momentum in the domestic market while creating pathways to Australian and international audiences.",
+    },
+    pricingByCountry: {
+      India: [
+        { tier: "Single Release", range: "₹5,000 – ₹15,000", includes: "Distribution to all platforms, basic artwork, release strategy, royalty collection" },
+        { tier: "EP/Album Release", range: "₹15,000 – ₹50,000", includes: "Multi-track distribution, professional artwork, playlist pitching, social media promotion" },
+        { tier: "Full Campaign", range: "₹50,000 – ₹2,00,000+", includes: "Distribution, music video, marketing campaign, PR outreach, playlist pitching, artist branding" },
+      ],
+      USA: [
+        { tier: "Single Release", range: "$500 – $2,000", includes: "Distribution to all platforms, artwork, release strategy, royalty collection" },
+        { tier: "EP/Album Release", range: "$2,000 – $6,000", includes: "Multi-track distribution, professional artwork, US playlist pitching, social media promotion" },
+        { tier: "Full Campaign", range: "$6,000 – $20,000+", includes: "Distribution, music video, marketing campaign, PR outreach, playlist pitching, artist branding" },
+      ],
+      UK: [
+        { tier: "Single Release", range: "£400 – £1,500", includes: "Distribution to all platforms, artwork, release strategy, royalty collection" },
+        { tier: "EP/Album Release", range: "£1,500 – £5,000", includes: "Multi-track distribution, professional artwork, UK playlist pitching, social media promotion" },
+        { tier: "Full Campaign", range: "£5,000 – £15,000+", includes: "Distribution, music video, marketing campaign, PR outreach, playlist pitching, artist branding" },
+      ],
+      Australia: [
+        { tier: "Single Release", range: "A$500 – A$1,800", includes: "Distribution to all platforms, artwork, release strategy, royalty collection" },
+        { tier: "EP/Album Release", range: "A$1,800 – A$5,500", includes: "Multi-track distribution, professional artwork, AU playlist pitching, social media promotion" },
+        { tier: "Full Campaign", range: "A$5,500 – A$18,000+", includes: "Distribution, music video, marketing campaign, PR outreach, playlist pitching, artist branding" },
+      ],
+      UAE: [
+        { tier: "Single Release", range: "AED 2,000 – AED 6,000", includes: "Distribution to all platforms, bilingual artwork, release strategy, royalty collection" },
+        { tier: "EP/Album Release", range: "AED 6,000 – AED 18,000", includes: "Multi-track distribution, professional artwork, playlist pitching, multilingual social promotion" },
+        { tier: "Full Campaign", range: "AED 18,000 – AED 60,000+", includes: "Distribution, music video, marketing campaign, PR outreach, playlist pitching, artist branding" },
+      ],
+      Canada: [
+        { tier: "Single Release", range: "C$450 – C$1,600", includes: "Distribution to all platforms, artwork, release strategy, royalty collection" },
+        { tier: "EP/Album Release", range: "C$1,600 – C$5,000", includes: "Multi-track distribution, professional artwork, CA playlist pitching, social media promotion" },
+        { tier: "Full Campaign", range: "C$5,000 – C$16,000+", includes: "Distribution, music video, marketing campaign, PR outreach, playlist pitching, artist branding" },
+      ],
+      "New Zealand": [
+        { tier: "Single Release", range: "NZ$400 – NZ$1,400", includes: "Distribution to all platforms, artwork, release strategy, royalty collection" },
+        { tier: "EP/Album Release", range: "NZ$1,400 – NZ$4,500", includes: "Multi-track distribution, professional artwork, NZ playlist pitching, social media promotion" },
+        { tier: "Full Campaign", range: "NZ$4,500 – NZ$14,000+", includes: "Distribution, music video, marketing campaign, PR outreach, playlist pitching, artist branding" },
+      ],
+    },
   },
   "ai-influencer-management": {
     intro: "AI influencer management services leverage artificial intelligence and data-driven strategies to identify, manage, and optimise influencer marketing campaigns at scale. AI-powered tools analyse millions of influencer profiles, predict campaign performance, detect fake followers, and automate outreach — making influencer marketing more efficient, transparent, and results-driven. This modern approach to influencer management ensures your brand partners with the right creators for maximum impact and ROI.",
@@ -591,5 +1053,61 @@ export const serviceSeoContent: Record<string, ServiceSeoData> = {
       { title: "UGC Campaigns", desc: "User-generated content campaigns where influencers create authentic content for brand use." },
       { title: "Ambassador Programs", desc: "Long-term influencer partnerships for ongoing brand advocacy." },
     ],
+    introByCountry: {
+      India: "India's influencer marketing industry is growing at over 25% annually, with millions of creators across Instagram, YouTube, and emerging platforms. The Indian influencer landscape is uniquely diverse, spanning regional languages, niche interests, and a massive micro-influencer ecosystem. AI-powered influencer management is becoming essential for Indian brands to navigate this complexity, identify authentic creators, and avoid the widespread problem of fake followers that plagues the market.",
+      USA: "The US influencer marketing industry is worth over $7 billion, making it the largest and most sophisticated in the world. American brands demand data-driven influencer selection, transparent performance metrics, and measurable ROI. AI-powered influencer management enables US businesses to cut through influencer fraud, predict campaign outcomes, and scale partnerships efficiently across a massive and diverse creator ecosystem.",
+      UK: "The UK influencer market is one of the most regulated in the world, with ASA guidelines requiring clear ad disclosure and authentic partnerships. British consumers are increasingly sceptical of inauthentic influencer content, making AI-powered fraud detection and audience analysis essential. UK brands that leverage AI for influencer management achieve better compliance, higher engagement, and stronger ROI.",
+      Australia: "Australia's influencer marketing market is growing rapidly, with Instagram and TikTok leading as the dominant platforms. Australian consumers value authenticity and are quick to disengage from inauthentic sponsored content. AI-powered influencer management helps Australian brands identify genuine creators with engaged local audiences, avoiding the inflated metrics that plague the industry.",
+      UAE: "The UAE is one of the world's most influential markets for influencer marketing, with Dubai serving as a global hub for lifestyle and luxury influencers. The multilingual influencer landscape (English, Arabic, Hindi, and more) demands sophisticated AI tools for discovery and audience analysis. UAE brands invest premium budgets in influencer campaigns and demand the data-driven precision that AI management provides.",
+      Canada: "Canadian influencer marketing is a growing industry, with brands increasingly investing in creator partnerships across Instagram, TikTok, and YouTube. The bilingual market creates opportunities for influencer campaigns that reach both English and French-speaking audiences. AI-powered management helps Canadian brands navigate a fragmented creator landscape and achieve measurable campaign results.",
+      "New Zealand": "New Zealand's tight-knit influencer community offers unique opportunities for brands willing to invest in authentic creator partnerships. Kiwi audiences are small but highly engaged, and they respond strongly to influencers who feel genuine and locally relevant. AI-powered influencer management helps NZ brands find the right creators, verify audience quality, and maximise the impact of influencer budgets in a smaller market.",
+    },
+    pricingByCountry: {
+      India: [
+        { tier: "Starter", range: "₹25,000 – ₹50,000/campaign", includes: "5-10 influencers, AI discovery, basic campaign management, performance report" },
+        { tier: "Growth", range: "₹50,000 – ₹1,50,000/campaign", includes: "15-30 influencers, full campaign management, content approval, detailed analytics" },
+        { tier: "Enterprise", range: "₹1,50,000 – ₹5,00,000+/campaign", includes: "50+ influencers, AI prediction, ambassador programs, multi-platform campaigns, dedicated manager" },
+      ],
+      USA: [
+        { tier: "Starter", range: "$3,000 – $6,000/campaign", includes: "5-10 influencers, AI discovery, campaign management, performance report" },
+        { tier: "Growth", range: "$6,000 – $15,000/campaign", includes: "15-30 influencers, full campaign management, content approval, detailed analytics, fraud detection" },
+        { tier: "Enterprise", range: "$15,000 – $50,000+/campaign", includes: "50+ influencers, AI prediction, ambassador programs, multi-platform campaigns, dedicated manager" },
+      ],
+      UK: [
+        { tier: "Starter", range: "£2,000 – £4,500/campaign", includes: "5-10 influencers, AI discovery, ASA-compliant campaign management, performance report" },
+        { tier: "Growth", range: "£4,500 – £12,000/campaign", includes: "15-30 influencers, full campaign management, content approval, compliance monitoring, detailed analytics" },
+        { tier: "Enterprise", range: "£12,000 – £40,000+/campaign", includes: "50+ influencers, AI prediction, ambassador programs, multi-platform campaigns, dedicated manager" },
+      ],
+      Australia: [
+        { tier: "Starter", range: "A$3,000 – A$6,000/campaign", includes: "5-10 influencers, AI discovery, campaign management, performance report" },
+        { tier: "Growth", range: "A$6,000 – A$15,000/campaign", includes: "15-30 influencers, full campaign management, content approval, detailed analytics" },
+        { tier: "Enterprise", range: "A$15,000 – A$45,000+/campaign", includes: "50+ influencers, AI prediction, ambassador programs, multi-platform campaigns, dedicated manager" },
+      ],
+      UAE: [
+        { tier: "Starter", range: "AED 10,000 – AED 20,000/campaign", includes: "5-10 influencers, AI discovery, multilingual campaign management, performance report" },
+        { tier: "Growth", range: "AED 20,000 – AED 50,000/campaign", includes: "15-30 influencers, full campaign management, content approval, bilingual analytics" },
+        { tier: "Enterprise", range: "AED 50,000 – AED 1,50,000+/campaign", includes: "50+ influencers, AI prediction, ambassador programs, multi-platform & multilingual campaigns, dedicated manager" },
+      ],
+      Canada: [
+        { tier: "Starter", range: "C$2,500 – C$5,500/campaign", includes: "5-10 influencers, AI discovery, campaign management, performance report" },
+        { tier: "Growth", range: "C$5,500 – C$13,000/campaign", includes: "15-30 influencers, full campaign management, content approval, bilingual options, detailed analytics" },
+        { tier: "Enterprise", range: "C$13,000 – C$40,000+/campaign", includes: "50+ influencers, AI prediction, ambassador programs, multi-platform campaigns, dedicated manager" },
+      ],
+      "New Zealand": [
+        { tier: "Starter", range: "NZ$2,000 – NZ$4,500/campaign", includes: "5-10 influencers, AI discovery, campaign management, performance report" },
+        { tier: "Growth", range: "NZ$4,500 – NZ$10,000/campaign", includes: "15-30 influencers, full campaign management, content approval, detailed analytics" },
+        { tier: "Enterprise", range: "NZ$10,000 – NZ$30,000+/campaign", includes: "50+ influencers, AI prediction, ambassador programs, multi-platform campaigns, dedicated manager" },
+      ],
+    },
   },
 };
+
+export function getServiceSeoContentForCountry(serviceSlug: string, country: string): ServiceSeoData {
+  const base = serviceSeoContent[serviceSlug];
+  if (!base) return base;
+  return {
+    ...base,
+    intro: base.introByCountry?.[country] || base.intro,
+    pricingTiers: base.pricingByCountry?.[country] || base.pricingTiers,
+  };
+}

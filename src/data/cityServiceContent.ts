@@ -38,6 +38,12 @@ export interface CityServiceContent {
 
   // Industries override
   industries?: string[];
+
+  // Case study snippet (anonymized, country + service specific)
+  caseStudySnippet?: string;
+
+  // Competitor landscape paragraph (tier-aware)
+  competitorLandscape?: string;
 }
 
 // Shared enrichment data for all Chandigarh entries

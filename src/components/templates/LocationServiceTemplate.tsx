@@ -16,6 +16,10 @@ import { serviceRelatedBlogs, serviceRelatedIndustries } from "@/lib/internalLin
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import { getCityServiceContent } from "@/data/cityServiceContent";
 import { getImagesForService } from "@/data/portfolioImages";
+import { getFeatureVariants, getProcessVariants } from "@/data/serviceFeatureVariants";
+import { getSectionHeading, getExpertiseStats, getTrustQuote } from "@/data/sectionVariants";
+import { serviceSeoOverlays } from "@/data/serviceSeoContentByCountry";
+import { getServiceSeoContentForCountry } from "@/data/serviceSeoContent";
 import Image from "next/image";
 
 
@@ -168,6 +172,15 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
   const serviceData = servicePages[serviceSlug];
   const cityName = location.name;
   const enrichment = getCityServiceContent(serviceSlug, location.slug);
+  const cityFeatures = getFeatureVariants(serviceSlug, location);
+  const cityProcess = getProcessVariants(serviceSlug, location);
+
+  // Unique data sources for 80%+ content uniqueness
+  const seed = cityName.length * 31 + serviceSlug.length * 17;
+  const countrySeoData = getServiceSeoContentForCountry(serviceSlug, location.country);
+  const countryOverlay = serviceSeoOverlays[serviceSlug]?.[location.country];
+  const cityExpertiseStats = getExpertiseStats(serviceSlug, location);
+  const cityTrustQuote = getTrustQuote(serviceName, cityName, seed);
   const enrichedFaqs = enrichment?.faqs;
   const generatedFaqs = [
     { q: `Why should I choose TML for ${serviceName.toLowerCase()} in ${cityName}?`, a: `TML combines deep ${serviceName.toLowerCase()} expertise with local market knowledge of ${cityName}. We've delivered proven results for 500+ businesses and understand what works in the ${location.state} market. Our team specializes in ${location.industries.slice(0, 3).join(", ")} sectors that drive ${cityName}'s economy.` },
@@ -385,7 +398,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
             Our {serviceName} Process in {cityName}<span className="text-[#ff4500]">.</span>
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {(enrichment?.processSteps ? enrichment.processSteps.map((s, i) => ({ step: i + 1, title: s.title, description: s.description })) : [
+            {(enrichment?.processSteps ? enrichment.processSteps.map((s, i) => ({ step: i + 1, title: s.title, description: s.description })) : cityProcess.length > 0 ? cityProcess.map((s) => ({ step: parseInt(s.step, 10), title: s.title, description: s.description })) : [
               { step: 1, title: "Consultation", description: `We start by understanding your ${cityName} business goals, target audience, and current ${serviceName.toLowerCase()} landscape to identify opportunities.` },
               { step: 2, title: "Planning", description: `Our team develops a tailored ${serviceName.toLowerCase()} strategy designed specifically for the ${cityName} market and your unique business needs.` },
               { step: 3, title: "Implementation", description: `We execute the plan with precision — deploying ${serviceName.toLowerCase()} campaigns and assets optimized for maximum impact in ${cityName}.` },
@@ -445,10 +458,11 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
               {(() => {
+                const features = cityFeatures.length > 0 ? cityFeatures : serviceData.features;
                 const chunkSize = 3;
-                const chunks: (typeof serviceData.features)[] = [];
-                for (let c = 0; c < serviceData.features.length; c += chunkSize) {
-                  chunks.push(serviceData.features.slice(c, c + chunkSize));
+                const chunks: (typeof features)[] = [];
+                for (let c = 0; c < features.length; c += chunkSize) {
+                  chunks.push(features.slice(c, c + chunkSize));
                 }
                 return chunks.map((chunk, ci) => (
                   <div key={ci} className="contents">
