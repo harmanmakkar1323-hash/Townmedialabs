@@ -15,7 +15,7 @@ const ease = [0.23, 1, 0.32, 1] as const;
 /* ── Data ── */
 
 const whyChooseStats = [
-  { value: 500, suffix: "+", label: "Clients Served", description: "Trusted by over 500 brands across India and internationally" },
+  { value: 500, suffix: "+", label: "Clients Served", description: "Trusted by over 500 brands across Canada and internationally" },
   { value: 70, suffix: "+", label: "Team Members", description: "Designers, developers, strategists & marketers under one roof" },
   { value: 15, suffix: "+", label: "Years Experience", description: "Delivering digital marketing excellence since 2010" },
   { value: 500, suffix: "+", label: "Projects Delivered", description: "From branding to full-scale digital campaigns" },
@@ -27,7 +27,7 @@ const coreValues = [
   {
     title: "Innovation First",
     description:
-      "We stay ahead of digital marketing trends — from AI-powered campaigns to cutting-edge ad tech — so your brand never falls behind the competition in Chandigarh or anywhere else.",
+      "We stay ahead of digital marketing trends — from AI-powered campaigns to cutting-edge ad tech — so your brand never falls behind the competition in Edmonton or anywhere else.",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
@@ -126,7 +126,7 @@ export default function AboutPageClient() {
             transition={{ duration: 0.8, delay: 0.3, ease }}
             className="text-base md:text-lg text-white leading-relaxed max-w-3xl mx-auto"
           >
-            Chandigarh&apos;s leading digital marketing agency, helping brands grow through
+            Edmonton&apos;s leading digital marketing agency, helping brands grow through
             strategic branding, performance marketing, web development, and creative excellence
             since 2010. We turn ambitious businesses into unforgettable brands.
           </motion.p>
@@ -155,7 +155,7 @@ export default function AboutPageClient() {
             transition={{ duration: 0.7, ease }}
             className="text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-10 md:mb-14"
           >
-            From a bold idea in Chandigarh
+            From a bold idea in Edmonton
             <br className="hidden md:block" />
             {" "}to a leading creative force
             <span className="text-[#ff4500]">.</span>
@@ -170,15 +170,15 @@ export default function AboutPageClient() {
               className="space-y-6 text-sm md:text-base text-white leading-relaxed"
             >
               <p>
-                TML Agency was founded in 2010 in the heart of Chandigarh with a clear mission:
+                TML Agency was founded in 2010 in Edmonton, Alberta with a clear mission:
                 to bridge the gap between creative excellence and measurable business results. What
                 began as a small, passionate team of digital marketing enthusiasts has evolved into
-                one of the most trusted creative agencies in North India, serving clients who demand
+                one of the most trusted creative agencies in Western Canada, serving clients who demand
                 nothing less than exceptional outcomes. Our 15+ years of proven track record reflects our commitment to excellence.
               </p>
               <p>
                 In our early years, we focused on building a strong foundation in branding and
-                graphic design for local Chandigarh businesses. As our reputation for quality work
+                graphic design for local Edmonton businesses. As our reputation for quality work
                 grew, so did our service offerings. We expanded into web development, search engine
                 optimization (SEO), social media marketing, Google Ads management, and performance
                 marketing — assembling a multidisciplinary team that could handle every aspect of a
@@ -210,7 +210,7 @@ export default function AboutPageClient() {
                 full-stack developers, SEO strategists, content creators, and performance marketers
                 — all united by a shared commitment to delivering work that moves the needle. We
                 have proudly served more than 500 clients, ranging from ambitious startups in
-                Chandigarh to established enterprises across India and internationally.
+                Edmonton to established enterprises across Canada and internationally.
               </p>
               <p>
                 Our growth has been fuelled not by aggressive sales pitches, but by the results we
@@ -290,7 +290,7 @@ export default function AboutPageClient() {
               <p className="text-sm md:text-base text-white leading-relaxed">
                 To deliver measurable, impactful results for every client through creative digital
                 marketing strategies that combine data-driven insights with bold creative execution.
-                We exist to help businesses of all sizes — from local Chandigarh startups to
+                We exist to help businesses of all sizes — from local Edmonton startups to
                 national brands — unlock their full growth potential through branding, SEO, social
                 media marketing, web development, and performance marketing that truly works.
               </p>
@@ -314,10 +314,10 @@ export default function AboutPageClient() {
                 <h3 className="text-xl md:text-2xl font-semibold text-white">Our Vision</h3>
               </div>
               <p className="text-sm md:text-base text-white leading-relaxed">
-                To become India&apos;s most trusted digital marketing partner — an agency known not
+                To become Canada&apos;s most trusted digital marketing partner — an agency known not
                 just for creative brilliance, but for the genuine, long-term business growth we
                 create for every brand we work with. We envision a future where every ambitious
-                business in Chandigarh and beyond has access to world-class digital marketing,
+                business in Edmonton and beyond has access to world-class digital marketing,
                 branding, and technology solutions that level the playing field.
               </p>
             </motion.div>
@@ -359,7 +359,7 @@ export default function AboutPageClient() {
             className="text-sm md:text-base text-white text-center max-w-2xl mx-auto mb-12 md:mb-16"
           >
             Numbers that reflect our commitment to delivering outstanding digital marketing
-            results for brands across Chandigarh and India.
+            results for brands across Edmonton and Canada.
           </motion.p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -521,7 +521,7 @@ export default function AboutPageClient() {
             className="text-sm md:text-base text-white mb-10 max-w-xl mx-auto"
           >
             Whether you need branding, web development, SEO, or a full digital marketing
-            strategy — our Chandigarh-based team is ready to help you achieve measurable results.
+            strategy — our Edmonton-based team is ready to help you achieve measurable results.
             Let&apos;s start a conversation.
           </motion.p>
 

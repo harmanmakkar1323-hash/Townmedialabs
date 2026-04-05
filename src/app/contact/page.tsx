@@ -2,20 +2,20 @@ import type { Metadata } from "next";
 import ContactPageClient from "./ContactPageClient";
 
 export const metadata: Metadata = {
-  title: "Contact TML Agency | Get a Free Consultation | Chandigarh",
+  title: "Contact Us",
   description:
-    "Get in touch with TML Agency, Chandigarh's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
+    "Get in touch with TML Agency, Edmonton's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
   keywords: [
     "contact tml",
     "digital marketing consultation",
-    "chandigarh agency contact",
+    "edmonton agency contact",
     "free marketing consultation",
     "digital marketing agency contact",
   ],
   openGraph: {
-    title: "Contact TML Agency | Get a Free Consultation | Chandigarh",
+    title: "Contact Us",
     description:
-      "Get in touch with TML Agency, Chandigarh's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
+      "Get in touch with TML Agency, Edmonton's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
     type: "website",
     url: "https://townmedialabs.ca/contact",
     siteName: "TML Agency",
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Contact TML Agency | Get a Free Consultation | Chandigarh",
+    title: "Contact Us",
     description:
-      "Get in touch with TML Agency, Chandigarh's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
+      "Get in touch with TML Agency, Edmonton's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
     images: ["/og-image.png"],
   },
   alternates: {
@@ -47,7 +47,7 @@ const contactPageSchema = {
   "@type": "ContactPage",
   name: "Contact TML Agency",
   description:
-    "Get in touch with TML Agency, Chandigarh's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
+    "Get in touch with TML Agency, Edmonton's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
   url: "https://townmedialabs.ca/contact",
   mainEntity: {
     "@type": "Organization",
@@ -69,7 +69,7 @@ const localBusinessSchema = {
   "@id": "https://townmedialabs.ca/#business",
   name: "TML Agency",
   description:
-    "Chandigarh's leading digital marketing agency specializing in branding, SEO, Google Ads, social media marketing & web development.",
+    "Edmonton's leading digital marketing agency specializing in branding, SEO, Google Ads, social media marketing & web development.",
   url: "https://townmedialabs.ca",
   telephone: "+91-98726-48209",
   email: "info@townmedialabs.ca",

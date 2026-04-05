@@ -4,7 +4,7 @@ import BlogPageClient from "./BlogPageClient";
 const siteUrl = "https://townmedialabs.ca";
 
 export const metadata: Metadata = {
-  title: "Blog | TML Agency — Marketing, Branding & AI Insights",
+  title: "Blog",
   description:
     "Expert insights on digital marketing, branding, SEO, AI, social media, and ad strategy from TML Agency — Chandigarh's leading creative agency.",
   keywords: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: "/blog",
   },
   openGraph: {
-    title: "Blog | TML Agency — Marketing, Branding & AI Insights",
+    title: "Blog",
     description:
       "Expert insights on digital marketing, branding, SEO, AI, and ad strategy from TML Agency.",
     url: `${siteUrl}/blog`,
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Blog | TML Agency — Marketing, Branding & AI Insights",
+    title: "Blog",
     description:
       "Expert insights on digital marketing, branding, SEO, AI, and ad strategy from TML Agency.",
     images: ["/og-image.png"],
@@ -62,7 +62,7 @@ const blogJsonLd = {
       url: `${siteUrl}/logo.png`,
     },
   },
-  inLanguage: "en-IN",
+  inLanguage: "en-CA",
 };
 
 const blogCollectionJsonLd = {

@@ -1021,7 +1021,7 @@ export const serviceSeoContent: Record<string, ServiceSeoData> = {
     benefits: [
       "Data-Driven Selection — AI identifies influencers with genuine, engaged audiences",
       "Fraud Detection — Eliminate influencers with fake followers before wasting budget",
-      "Predictive Analytics — Know expected outcomes before spending a single rupee",
+      "Predictive Analytics — Know expected outcomes before spending a single dollar",
       "Scalable Campaigns — Manage dozens of influencers efficiently with AI tools",
       "Higher ROI — Smarter influencer selection leads to better campaign returns",
       "Authentic Reach — Partner with creators whose audiences match your target demographic",
@@ -1105,9 +1105,11 @@ export const serviceSeoContent: Record<string, ServiceSeoData> = {
 export function getServiceSeoContentForCountry(serviceSlug: string, country: string): ServiceSeoData {
   const base = serviceSeoContent[serviceSlug];
   if (!base) return base;
+  // Default to Canada pricing/intro when no country match (since this is the .ca site)
+  const effectiveCountry = country || "Canada";
   return {
     ...base,
-    intro: base.introByCountry?.[country] || base.intro,
-    pricingTiers: base.pricingByCountry?.[country] || base.pricingTiers,
+    intro: base.introByCountry?.[effectiveCountry] || base.introByCountry?.["Canada"] || base.intro,
+    pricingTiers: base.pricingByCountry?.[effectiveCountry] || base.pricingByCountry?.["Canada"] || base.pricingTiers,
   };
 }

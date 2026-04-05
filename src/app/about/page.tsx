@@ -4,7 +4,7 @@ import AboutPageClient from "./AboutPageClient";
 const siteUrl = "https://townmedialabs.ca";
 
 export const metadata: Metadata = {
-  title: "About TML Agency | Leading Digital Marketing Agency in Chandigarh",
+  title: "About Us",
   description:
     "Discover TML Agency — Chandigarh's top digital marketing, branding & web development agency. 500+ clients, 70+ experts, 15+ years delivering SEO, social media & creative solutions.",
   keywords: [
@@ -16,16 +16,16 @@ export const metadata: Metadata = {
     "social media marketing chandigarh",
     "web development agency",
     "tml agency about",
-    "best digital marketing agency chandigarh",
+    "best digital marketing agency edmonton",
     "performance marketing agency",
   ],
   alternates: {
     canonical: "/about",
   },
   openGraph: {
-    title: "About TML Agency | Leading Digital Marketing Agency in Chandigarh",
+    title: "About Us",
     description:
-      "Chandigarh's leading digital marketing agency — 500+ clients, 70+ team members, 15+ years of branding, SEO, web development & social media marketing excellence.",
+      "Edmonton's leading digital marketing agency — 500+ clients, 70+ team members, 15+ years of branding, SEO, web development & social media marketing excellence.",
     url: `${siteUrl}/about`,
     siteName: "TML Agency",
     type: "website",
@@ -35,16 +35,16 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "About TML Agency - Digital Marketing Agency in Chandigarh",
+        alt: "About TML Agency - Digital Marketing Agency in Edmonton",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "About TML Agency | Leading Digital Marketing Agency in Chandigarh",
+    title: "About Us",
     description:
-      "Chandigarh's leading digital marketing agency — 500+ clients, 70+ team members, 15+ years of branding, SEO & web development excellence.",
+      "Edmonton's leading digital marketing agency — 500+ clients, 70+ team members, 15+ years of branding, SEO & web development excellence.",
     images: ["/og-image.png"],
   },
 };
