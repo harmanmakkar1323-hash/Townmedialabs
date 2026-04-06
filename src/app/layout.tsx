@@ -71,6 +71,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   alternates: {
     canonical: siteUrl,
+    languages: {
+      "en-IN": siteUrl,
+      "x-default": siteUrl,
+    },
   },
   verification: {
     google: process.env.NEXT_PUBLIC_GSC_VERIFICATION || "",
@@ -212,7 +216,7 @@ const localBusinessJsonLd = {
     latitude: "30.7281",
     longitude: "76.7726",
   },
-  hasMap: "https://maps.google.com/?cid=TML+Agency+Chandigarh",
+  hasMap: "https://www.google.com/maps/place/TML+Agency/@30.7281,76.7726,17z/",
   areaServed: [
     { "@type": "Country", name: "Canada" },
     { "@type": "Country", name: "United States" },
@@ -225,41 +229,18 @@ const localBusinessJsonLd = {
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
       opens: "10:00",
       closes: "19:00",
     },
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: "Saturday",
+      opens: "10:00",
+      closes: "17:00",
+    },
   ],
   priceRange: "$$",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "352",
-    bestRating: "5",
-  },
-  review: [
-    {
-      "@type": "Review",
-      author: { "@type": "Person", name: "Sarah Mitchell" },
-      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-      reviewBody: "TML completely transformed our digital presence. Within 90 days we saw a 3x return on our ad spend and our brand finally felt like us.",
-      publisher: { "@type": "Organization", name: "Luxe Interiors" },
-    },
-    {
-      "@type": "Review",
-      author: { "@type": "Person", name: "James Carter" },
-      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-      reviewBody: "Their team feels like an extension of ours. No hand-holding needed — they just get it and deliver, every single time.",
-      publisher: { "@type": "Organization", name: "CB Builders" },
-    },
-    {
-      "@type": "Review",
-      author: { "@type": "Person", name: "Priya Sharma" },
-      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-      reviewBody: "We went from zero online presence to ranking on page one for 12 keywords in under 6 months. The ROI speaks for itself.",
-      publisher: { "@type": "Organization", name: "TechVault" },
-    },
-  ],
   sameAs: [
     "https://www.instagram.com/tmlagency/",
     "https://www.facebook.com/tmlagency/",
@@ -351,10 +332,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="preconnect" href="https://www.clarity.ms" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://www.clarity.ms" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

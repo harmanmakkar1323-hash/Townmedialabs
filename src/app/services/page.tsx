@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical: "/services",
+    languages: {
+      "en-IN": "https://townmedialabs.com/services",
+      "x-default": "https://townmedialabs.com/services",
+    },
   },
   openGraph: {
     title: "Our Services — Full-Service Digital Marketing",

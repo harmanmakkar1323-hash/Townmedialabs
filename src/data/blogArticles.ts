@@ -10,6 +10,7 @@ export interface BlogArticle {
   keywords: string[];
   category: string;
   date: string;
+  dateModified?: string;
   readTime: string;
   author?: string;
   relatedServices?: string[];
@@ -44,6 +45,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Branding",
     date: "2025-03-20",
+    dateModified: "2026-01-08",
     readTime: "12 min read",
     author: "Raman Makkar",
     image: "/blog/images/top-branding-agencies-chandigarh.webp",
@@ -468,8 +470,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "AI & Technology",
     date: "2025-03-21",
+    dateModified: "2026-01-15",
     readTime: "15 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     image: "/blog/images/ai-influencers-guide.webp",
     content: `
 <h2>What Is an AI Influencer?</h2>
@@ -691,8 +694,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Music Marketing",
     date: "2025-03-21",
+    dateModified: "2026-01-22",
     readTime: "14 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     image: "/blog/images/promote-song-online-free.webp",
     content: `
 <h2>Why Promoting Your Song Online Matters More Than Ever</h2>
@@ -867,8 +871,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Music Marketing",
     date: "2025-03-21",
+    dateModified: "2026-01-29",
     readTime: "12 min read",
-    author: "Nikhil Patel",
+    author: "Cristi",
     image: "/blog/images/song-trending-on-spotify.webp",
     content: `
 <h2>How Does Spotify Decide What Trends?</h2>
@@ -1035,8 +1040,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Music Marketing",
     date: "2025-03-21",
+    dateModified: "2026-02-05",
     readTime: "11 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     image: "/blog/images/song-viral-on-instagram.webp",
     content: `
 <h2>Why Instagram Is the #1 Platform for Music Discovery in 2025</h2>
@@ -1206,8 +1212,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Music Marketing",
     date: "2025-03-21",
+    dateModified: "2026-02-12",
     readTime: "8 min read",
-    author: "Nikhil Patel",
+    author: "Cristi",
     image: "/blog/images/upload-song-on-instagram.webp",
     content: `
 <h2>Can You Upload Songs Directly to Instagram?</h2>
@@ -1377,8 +1384,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "SEO",
     date: "2025-03-20",
+    dateModified: "2026-02-19",
     readTime: "10 min read",
-    author: "Sarah Johnson",
+    author: "Arvinder Singh",
     image: "/blog/images/website-not-showing-on-google-fix.webp",
     content: `
 <h2>Why Your Website Is Not Showing on Google</h2>
@@ -1568,8 +1576,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "SEO",
     date: "2026-03-24",
+    dateModified: "2026-04-03",
     readTime: "14 min read",
-    author: "Sarah Johnson",
+    author: "Arvinder Singh",
     image: "/blog/images/website-not-showing-on-google.webp",
     content: `
 <p>You built a website. Maybe you spent weeks on it — perfecting the design, writing content, uploading product photos. You go to Google, type your business name, and... <strong>nothing.</strong> Your website is nowhere to be found. Not on page one, not on page five, not anywhere.</p>
@@ -1948,8 +1957,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Lead Generation",
     date: "2026-03-24",
+    dateModified: "2026-03-31",
     readTime: "16 min read",
-    author: "Arjun Verma",
+    author: "Taran",
     image: "/blog/images/not-getting-leads-from-website.webp",
     content: `
 <p>Your website gets traffic. Maybe a decent amount of it. People visit your pages, browse around, and then... leave. No form submissions. No phone calls. No emails. No leads. It's like having a store on a busy street where people walk in, look around, and walk out without buying anything.</p>
@@ -2257,8 +2267,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "SEO",
     date: "2025-03-20",
+    dateModified: "2026-03-11",
     readTime: "12 min read",
-    author: "Sarah Johnson",
+    author: "Arvinder Singh",
     image: "/blog/images/website-not-getting-traffic.webp",
     content: `
 <h2>Why Is Your Website Not Getting Traffic?</h2>
@@ -2468,8 +2479,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "SEO",
     date: "2025-03-20",
+    dateModified: "2026-03-18",
     readTime: "13 min read",
-    author: "Sarah Johnson",
+    author: "Arvinder Singh",
     content: `
 <h2>The Honest Answer: Why Most Websites Don't Rank on Google</h2>
 
@@ -2705,8 +2717,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Digital Marketing",
     date: "2025-03-22",
+    dateModified: "2026-03-25",
     readTime: "10 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     content: `
 <h2>Your Competitors Are Already Using AI. Are You?</h2>
 
@@ -2850,8 +2863,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Social Media",
     date: "2025-03-22",
+    dateModified: "2026-01-08",
     readTime: "11 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     content: `
 <h2>Why Your Current Social Media Strategy Isn't Working</h2>
 
@@ -3042,8 +3056,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "SEO",
     date: "2025-03-22",
+    dateModified: "2026-01-15",
     readTime: "13 min read",
-    author: "Sarah Johnson",
+    author: "Arvinder Singh",
     content: `
 <h2>Someone Near You Just Searched for What You Sell — Did They Find You?</h2>
 
@@ -3241,8 +3256,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Content Marketing",
     date: "2025-03-22",
+    dateModified: "2026-01-22",
     readTime: "10 min read",
-    author: "Nikhil Patel",
+    author: "Cristi",
     content: `
 <h2>The Honest Question Nobody Wants to Ask</h2>
 
@@ -3410,8 +3426,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Web Design",
     date: "2026-03-24",
+    dateModified: "2026-04-04",
     readTime: "10 min read",
-    author: "Arjun Verma",
+    author: "Taran",
     content: `
 <h2>Your Website Is Your First Impression &mdash; Is It Costing You Customers?</h2>
 
@@ -3742,8 +3759,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Digital Marketing",
     date: "2026-03-24",
+    dateModified: "2026-03-31",
     readTime: "11 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     content: `
 <h2>You Are Spending Money on Google Ads, But Where Are the Results?</h2>
 
@@ -4114,9 +4132,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "website performance issues fix"
     ],
     date: "2025-03-22",
+    dateModified: "2026-02-12",
     category: "Web Development",
     readTime: "12 min read",
-    author: "Sarah Johnson",
+    author: "Arvinder Singh",
     content: `<article>
 <p>Three seconds. That is all the patience most people have for your website to load. Miss that window, and they are gone &mdash; back to Google, clicking on your competitor's link instead. And here is the part that really stings: you are paying for those visitors through ads, SEO, and content marketing, only to lose them because your site takes forever to show up.</p>
 
@@ -4323,9 +4342,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "mobile first design tips"
     ],
     date: "2025-03-22",
+    dateModified: "2026-02-19",
     category: "Web Development",
     readTime: "11 min read",
-    author: "Sarah Johnson",
+    author: "Arvinder Singh",
     content: `<article>
 <p>Here is a number that should make you uncomfortable: <strong>over 60% of all web traffic now comes from mobile devices</strong>. If your website looks like a desktop site squeezed onto a 6-inch screen, you are actively turning away more than half your potential customers.</p>
 
@@ -4550,9 +4570,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "organic vs paid traffic comparison"
     ],
     date: "2025-03-21",
+    dateModified: "2026-02-26",
     category: "Digital Marketing",
     readTime: "11 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     content: `<article>
 <p>This is the question I get asked more than any other: "Should I spend my budget on Google Ads or SEO?" And honestly, most articles answering this question are written by either an SEO agency (surprise, they recommend SEO) or a PPC agency (surprise, they recommend ads).</p>
 
@@ -4677,9 +4698,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "how to build a strong brand"
     ],
     date: "2025-03-21",
+    dateModified: "2026-03-04",
     category: "Branding",
     readTime: "10 min read",
-    author: "Arjun Verma",
+    author: "Taran",
     content: `<article>
 <p>You know that feeling when you walk into a restaurant and something just feels off? The sign outside says fine dining, but the menu is on laminated paper, the lighting is harsh, and the staff are wearing cargo shorts. Nothing is technically wrong, but the whole experience screams "we did not think this through."</p>
 
@@ -4803,6 +4825,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "agency vs freelancer for marketing"
     ],
     date: "2025-03-21",
+    dateModified: "2026-03-11",
     category: "Digital Marketing",
     readTime: "12 min read",
     author: "Raman Makkar",
@@ -4937,9 +4960,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "ecommerce image seo tips"
     ],
     date: "2025-03-21",
+    dateModified: "2026-03-18",
     category: "SEO",
     readTime: "14 min read",
-    author: "Sarah Johnson",
+    author: "Arvinder Singh",
     content: `<article>
 <p>Running an online store without SEO is like opening a shop in a basement with no signage. Your products might be incredible, but if no one can find them, what is the point?</p>
 
@@ -5085,9 +5109,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "enterprise seo pricing"
     ],
     date: "2025-03-20",
+    dateModified: "2026-03-25",
     category: "SEO",
     readTime: "12 min read",
-    author: "Sarah Johnson",
+    author: "Arvinder Singh",
     content: `<article>
 <p>"How much does SEO cost?" is the most Googled question about SEO. And almost every article answering it gives you the same frustrating non-answer: "It depends."</p>
 
@@ -5232,9 +5257,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "how much to build a website"
     ],
     date: "2025-03-20",
+    dateModified: "2026-01-08",
     category: "Web Development",
     readTime: "13 min read",
-    author: "Arjun Verma",
+    author: "Taran",
     content: `<article>
 <p>The honest answer to "how much does a website cost?" ranges from $0 to $500,000+. That is not helpful, I know. So let me narrow it down based on what you actually need.</p>
 
@@ -5364,9 +5390,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "google ads cost india"
     ],
     date: "2025-03-20",
+    dateModified: "2026-01-15",
     category: "Digital Marketing",
     readTime: "11 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     content: `<article>
 <p>Let me save you 10 minutes of reading: <strong>most small businesses spend $1,000-$5,000/month on Google Ads</strong>, with an average cost per click of $1-$5. But those averages hide enormous variation depending on your industry, location, and how well your campaigns are set up.</p>
 
@@ -5497,9 +5524,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "social media marketing budget small business"
     ],
     date: "2025-03-20",
+    dateModified: "2026-01-22",
     category: "Social Media",
     readTime: "10 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     content: `<article>
 <p>Social media marketing costs are all over the place because "social media marketing" means wildly different things to different people. Posting three times a week on Instagram? Running $10,000/month in Facebook ads? Building a TikTok content engine with professional video production? All of these are "social media marketing" and they cost very different amounts.</p>
 
@@ -5635,9 +5663,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "brand design pricing guide"
     ],
     date: "2025-03-19",
+    dateModified: "2026-01-29",
     category: "Branding",
     readTime: "10 min read",
-    author: "Arjun Verma",
+    author: "Taran",
     content: `<article>
 <p>When most small business owners think about branding, they think about a logo. And when they think about a logo, they think about the $50 one on Fiverr. Let me tell you why that thinking will cost you much more than the $50 you saved.</p>
 
@@ -5795,6 +5824,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "digital marketing services pricing"
     ],
     date: "2025-03-19",
+    dateModified: "2026-02-05",
     category: "Digital Marketing",
     readTime: "13 min read",
     author: "Raman Makkar",
@@ -5922,9 +5952,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "email lead generation cost"
     ],
     date: "2025-03-19",
+    dateModified: "2026-02-12",
     category: "Lead Generation",
     readTime: "11 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     content: `<article>
 <p>Every business needs leads. But how much should you actually be paying for each one? If you do not know your target cost per lead, you are flying blind &mdash; spending money on marketing without knowing if it is working.</p>
 
@@ -6040,9 +6071,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "bulk video editing pricing"
     ],
     date: "2025-03-19",
+    dateModified: "2026-02-19",
     category: "Video Production",
     readTime: "10 min read",
-    author: "Arjun Verma",
+    author: "Taran",
     content: `<article>
 <p>Video is not optional anymore. It is the most consumed content format on every major platform. But finding clear pricing for video editing is a nightmare &mdash; quotes range from $10 to $10,000 for what seems like the same thing. Let me clear up the confusion.</p>
 
@@ -6182,9 +6214,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "best website platform for seo",
     ],
     date: "2025-03-18",
+    dateModified: "2026-02-26",
     category: "Web Development",
     readTime: "12 min read",
-    author: "Arjun Verma",
+    author: "Taran",
     content: `<article>
 
 <p>You need a website. Maybe you are starting from scratch, maybe your current site loads like it is running on a potato. Either way, someone has told you to use WordPress. Someone else swears by Next.js. And now you are confused.</p>
@@ -6377,6 +6410,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "digital marketing channels comparison 2026",
     ],
     date: "2025-03-18",
+    dateModified: "2026-03-04",
     category: "Digital Marketing",
     readTime: "10 min read",
     author: "Raman Makkar",
@@ -6555,9 +6589,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "facebook ads vs google ads conversion rate",
     ],
     date: "2025-03-18",
+    dateModified: "2026-03-11",
     category: "Digital Marketing",
     readTime: "11 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     content: `<article>
 
 <p>You have an advertising budget. You want leads, sales, or both. Two platforms dominate the paid advertising world: Google Ads and Facebook Ads (now officially Meta Ads, but everyone still calls them Facebook Ads). Each one wants your money. But which one will actually give you a return?</p>
@@ -6801,6 +6836,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "small business freelancer or agency",
     ],
     date: "2025-03-18",
+    dateModified: "2026-03-18",
     category: "Digital Marketing",
     readTime: "10 min read",
     author: "Raman Makkar",
@@ -7030,9 +7066,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "shopify vs woocommerce plugins and apps",
     ],
     date: "2025-03-18",
+    dateModified: "2026-03-25",
     category: "Web Development",
     readTime: "11 min read",
-    author: "Arjun Verma",
+    author: "Taran",
     content: `<article>
 
 <p>You want to sell products online. You have done some research and two names keep coming up: Shopify and WooCommerce. One is a hosted platform that handles everything for you. The other is an open-source plugin that gives you total control. Both power millions of online stores. Neither is universally better.</p>
@@ -7248,6 +7285,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "marketing budget allocation organic paid",
     ],
     date: "2025-03-18",
+    dateModified: "2026-01-08",
     category: "Digital Marketing",
     readTime: "10 min read",
     author: "Raman Makkar",
@@ -7434,8 +7472,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "SEO",
     date: "2025-03-17",
+    dateModified: "2026-01-15",
     readTime: "13 min read",
-    author: "Sarah Johnson",
+    author: "Arvinder Singh",
     content: `<article>
 <h2>Why Keyword Research Is the Foundation of Everything in SEO</h2>
 
@@ -7746,8 +7785,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Local SEO",
     date: "2025-03-17",
+    dateModified: "2026-01-22",
     readTime: "11 min read",
-    author: "Sarah Johnson",
+    author: "Arvinder Singh",
     content: `<article>
 <h2>Your Google Business Profile Is Your Most Valuable Free Marketing Asset</h2>
 
@@ -7989,8 +8029,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Content Marketing",
     date: "2025-03-17",
+    dateModified: "2026-01-29",
     readTime: "12 min read",
-    author: "Nikhil Patel",
+    author: "Cristi",
     content: `<article>
 <h2>Most Blog Posts Never Get a Single Visitor from Google</h2>
 
@@ -8236,8 +8277,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Digital Marketing",
     date: "2025-03-17",
+    dateModified: "2026-02-05",
     readTime: "14 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     content: `<article>
 <h2>Facebook Ads Are Still the Most Powerful Paid Advertising Platform for Most Businesses</h2>
 
@@ -8553,8 +8595,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Email Marketing",
     date: "2025-03-17",
+    dateModified: "2026-02-12",
     readTime: "10 min read",
-    author: "Nikhil Patel",
+    author: "Cristi",
     content: `<article>
 <h2>Your Email List Is the Only Marketing Asset You Truly Own</h2>
 
@@ -8813,8 +8856,9 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Local SEO",
     date: "2025-03-17",
+    dateModified: "2026-02-19",
     readTime: "10 min read",
-    author: "Sarah Johnson",
+    author: "Arvinder Singh",
     content: `<article>
 <h2>Google Reviews Are the Most Powerful Trust Signal for Local Businesses</h2>
 
@@ -9115,9 +9159,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "restaurant website optimization"
     ],
     date: "2025-03-16",
+    dateModified: "2026-02-26",
     category: "Industry Marketing",
     readTime: "12 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     content: `<article>
 <h2>Why Most Restaurants Fail at Digital Marketing (And How to Fix It)</h2>
 
@@ -9414,9 +9459,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "dentist local search optimization"
     ],
     date: "2025-03-16",
+    dateModified: "2026-03-04",
     category: "Industry Marketing",
     readTime: "11 min read",
-    author: "Sarah Johnson",
+    author: "Arvinder Singh",
     content: `<article>
 <h2>Why SEO Is the Best Investment a Dental Practice Can Make</h2>
 
@@ -9699,9 +9745,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "property listing digital marketing"
     ],
     date: "2025-03-16",
+    dateModified: "2026-03-11",
     category: "Industry Marketing",
     readTime: "12 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     content: `<article>
 <h2>The Real Estate Marketing Landscape Has Changed Forever</h2>
 
@@ -9917,9 +9964,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "law firm ppc advertising strategy"
     ],
     date: "2025-03-16",
+    dateModified: "2026-03-18",
     category: "Industry Marketing",
     readTime: "13 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     content: `<article>
 <h2>Why Law Firms Cannot Afford to Ignore Digital Marketing</h2>
 
@@ -10132,9 +10180,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "fitness business advertising tips"
     ],
     date: "2025-03-16",
+    dateModified: "2026-03-25",
     category: "Industry Marketing",
     readTime: "10 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     content: `<article>
 <h2>The Gym Membership Problem Nobody Talks About</h2>
 
@@ -10366,9 +10415,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "ecommerce customer retention tactics"
     ],
     date: "2025-03-16",
+    dateModified: "2026-01-08",
     category: "Industry Marketing",
     readTime: "14 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     content: `<article>
 <h2>The E-Commerce Marketing Playbook That Actually Works</h2>
 
@@ -10566,9 +10616,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "saas customer retention tactics"
     ],
     date: "2025-03-16",
+    dateModified: "2026-01-15",
     category: "Industry Marketing",
     readTime: "13 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     content: `<article>
 <h2>SaaS Marketing Is a Completely Different Game</h2>
 
@@ -10822,9 +10873,10 @@ const handWrittenArticles: Record<string, BlogArticle> = {
       "doctor marketing online strategies"
     ],
     date: "2025-03-16",
+    dateModified: "2026-01-22",
     category: "Industry Marketing",
     readTime: "11 min read",
-    author: "Priya Sharma",
+    author: "Harman",
     content: `<article>
 <h2>Healthcare Marketing in 2026: Trust Is Everything</h2>
 
@@ -11056,6 +11108,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Digital Marketing",
     date: "2025-03-27",
+    dateModified: "2026-01-29",
     readTime: "12 min read",
     author: "Raman Makkar",
     relatedServices: ["seo", "google-ads", "social-media", "lead-generation"],
@@ -11399,6 +11452,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Branding",
     date: "2025-03-27",
+    dateModified: "2026-02-05",
     readTime: "11 min read",
     author: "TML Agency",
     relatedServices: ["branding", "graphic-design"],
@@ -11709,6 +11763,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
     ],
     category: "Digital Marketing",
     date: "2025-03-27",
+    dateModified: "2026-02-12",
     readTime: "12 min read",
     author: "TML Agency",
     relatedServices: ["seo", "google-ads", "lead-generation"],
@@ -11977,6 +12032,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
     ],
     category: "Web Development",
     date: "2025-03-27",
+    dateModified: "2026-02-19",
     readTime: "14 min read",
     author: "TML Agency",
     relatedServices: ["website-development", "ecommerce-marketing"],
@@ -12151,6 +12207,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
     ],
     category: "Social Media",
     date: "2025-03-27",
+    dateModified: "2026-02-26",
     readTime: "13 min read",
     author: "TML Agency",
     relatedServices: ["social-media", "graphic-design"],
@@ -12328,6 +12385,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
     ],
     category: "Google Ads",
     date: "2025-03-27",
+    dateModified: "2026-03-04",
     readTime: "15 min read",
     author: "TML Agency",
     relatedServices: ["google-ads", "ppc-management"],
@@ -12574,6 +12632,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
     ],
     category: "Branding",
     date: "2025-03-27",
+    dateModified: "2026-03-11",
     readTime: "12 min read",
     author: "TML Agency",
     relatedServices: ["branding", "graphic-design"],
@@ -12728,6 +12787,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
     ],
     category: "SEO",
     date: "2025-03-27",
+    dateModified: "2026-03-18",
     readTime: "16 min read",
     author: "TML Agency",
     relatedServices: ["seo", "gmb-listing"],
@@ -12918,6 +12978,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
     ],
     category: "SEO",
     date: "2025-03-27",
+    dateModified: "2026-03-25",
     readTime: "15 min read",
     author: "TML Agency",
     relatedServices: ["seo", "technical-seo", "ecommerce-marketing"],
@@ -13126,6 +13187,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
     ],
     category: "Social Media",
     date: "2025-03-27",
+    dateModified: "2026-01-08",
     readTime: "13 min read",
     author: "TML Agency",
     relatedServices: ["social-media", "content-writing"],
@@ -13310,6 +13372,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
     ],
     category: "Lead Generation",
     date: "2025-03-27",
+    dateModified: "2026-01-15",
     readTime: "14 min read",
     author: "TML Agency",
     relatedServices: ["lead-generation", "google-ads"],
@@ -13517,6 +13580,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
     ],
     category: "Web Development",
     date: "2025-03-27",
+    dateModified: "2026-01-22",
     readTime: "15 min read",
     author: "TML Agency",
     relatedServices: ["website-development", "technical-seo"],
@@ -13712,6 +13776,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
     ],
     category: "Branding",
     date: "2025-03-27",
+    dateModified: "2026-01-29",
     readTime: "16 min read",
     author: "TML Agency",
     relatedServices: ["branding", "graphic-design", "website-development"],
@@ -13938,6 +14003,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
     ],
     category: "Marketing Strategy",
     date: "2026-03-31",
+    dateModified: "2026-04-03",
     readTime: "15 min read",
     author: "TML Agency",
     image: "/blog/images/ai-digital-marketing-trends.webp",

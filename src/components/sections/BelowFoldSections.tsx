@@ -44,27 +44,29 @@ export default function BelowFoldSections() {
   return (
     <>
       {/* Group: About, Team, Services, Tech */}
-      <div className="contents">
+      <div style={{ contentVisibility: 'auto', containIntrinsicSize: '0 2400px' }}>
         <AboutHome2 />
         <MeetTheTeam />
         <ServicesHome2 />
         <TechStack />
       </div>
       {/* Group: Awards, Work, Video, Process */}
-      <div className="contents">
+      <div style={{ contentVisibility: 'auto', containIntrinsicSize: '0 2400px' }}>
         <AwardsPartners />
         <WorkHome2 />
         <VideoShowcase />
         <ProcessHome2 />
       </div>
       {/* Group: Plans, Testimonials, FAQ, Life */}
-      <div className="contents">
+      <div style={{ contentVisibility: 'auto', containIntrinsicSize: '0 2000px' }}>
         <CampaignPlans />
         <TestimonialsHome2 />
         <FAQHome2 />
         <LifeAtTML />
       </div>
-      <CTAHome2 />
+      <div style={{ contentVisibility: 'auto', containIntrinsicSize: '0 400px' }}>
+        <CTAHome2 />
+      </div>
       <FooterHome2 />
     </>
   );

@@ -7,10 +7,23 @@ import InnerNavbar from "@/components/layout/InnerNavbar";
 import { FooterHome2 } from "@/components/sections/FooterHome2";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import type { BlogArticle } from "@/data/blogArticles";
-import { servicePages } from "@/data/servicePages";
-import { blogRelatedServices, blogRelatedArticles } from "@/lib/internalLinks";
-import { blogArticles } from "@/data/blogArticles";
 import { getAuthorBySlug } from "@/data/authors";
+
+interface RelatedArticle {
+  slug: string;
+  title: string;
+  category: string;
+  metaDescription: string;
+  date: string;
+  readTime: string;
+  image?: string;
+}
+
+interface RelatedService {
+  slug: string;
+  title: string;
+  tagline: string;
+}
 
 const ease = [0.23, 1, 0.32, 1] as const;
 
@@ -159,9 +172,13 @@ function FloatingTOC({ items }: { items: string[] }) {
 export default function BlogArticleClient({
   article,
   slug,
+  relatedArticles,
+  relatedServices,
 }: {
   article: BlogArticle;
   slug: string;
+  relatedArticles: RelatedArticle[];
+  relatedServices: RelatedService[];
 }) {
   const heroRef = useRef<HTMLElement>(null);
   const heroInView = useInView(heroRef, { once: true, amount: 0.2 });
@@ -204,15 +221,14 @@ export default function BlogArticleClient({
         {/* Background gradient */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0a] via-[#050505] to-[#0f0505]" />
 
-        {/* Big accent number */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 0.03 }}
-          transition={{ duration: 2 }}
+        {/* Big accent number — aria-hidden + content-visibility:hidden to prevent LCP candidacy */}
+        <div
+          aria-hidden="true"
           className="absolute top-10 -right-10 md:right-10 text-[20rem] md:text-[30rem] font-bold text-white/[0.02] leading-none select-none pointer-events-none"
+          style={{ contentVisibility: 'hidden' }}
         >
           10
-        </motion.div>
+        </div>
 
         {/* Ambient glows */}
         <div className="absolute top-20 left-1/4 w-[600px] h-[600px] bg-[#ff4500]/[0.06] rounded-full blur-[200px] pointer-events-none" />
@@ -452,136 +468,116 @@ export default function BlogArticleClient({
       </section>
 
       {/* Related Articles */}
-      {(() => {
-        const articleSlugs = blogRelatedArticles[slug]
-          || (slug.startsWith("top-10-branding-agencies-")
-            ? ["branding-cost-small-business", "how-to-choose-branding-agency-checklist", "why-professional-branding-matters"]
-            : []);
-        const relatedArticleData = articleSlugs
-          .map((s) => {
-            const art = blogArticles[s];
-            return art ? { slug: s, ...art } : null;
-          })
-          .filter(Boolean) as (BlogArticle & { slug: string })[];
-        if (relatedArticleData.length === 0) return null;
-        return (
-          <section className="px-6 lg:px-12 py-16 md:py-24">
-            <div className="max-w-5xl mx-auto">
-              <motion.p
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, ease }}
-                className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
-              >
-                Keep Reading
-              </motion.p>
-              <motion.h2
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.7, ease }}
-                className="text-2xl sm:text-3xl font-medium text-white mb-10"
-              >
-                Related Articles
-                <span className="text-[#ff4500]">.</span>
-              </motion.h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                {relatedArticleData.map((art, i) => (
-                  <motion.div
-                    key={art.slug}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: i * 0.1, ease }}
+      {relatedArticles.length > 0 && (
+        <section className="px-6 lg:px-12 py-16 md:py-24">
+          <div className="max-w-5xl mx-auto">
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, ease }}
+              className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
+            >
+              Keep Reading
+            </motion.p>
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7, ease }}
+              className="text-2xl sm:text-3xl font-medium text-white mb-10"
+            >
+              Related Articles
+              <span className="text-[#ff4500]">.</span>
+            </motion.h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {relatedArticles.map((art, i) => (
+                <motion.div
+                  key={art.slug}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: i * 0.1, ease }}
+                >
+                  <Link
+                    href={`/blog/${art.slug}`}
+                    className="group block p-6 md:p-8 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] hover:border-[#ff4500]/20 transition-all duration-500 h-full"
                   >
-                    <Link
-                      href={`/blog/${art.slug}`}
-                      className="group block p-6 md:p-8 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] hover:border-[#ff4500]/20 transition-all duration-500 h-full"
-                    >
-                      <span className="inline-block text-[10px] tracking-widest uppercase text-[#ff4500]/70 font-medium mb-3">
-                        {art.category}
+                    <span className="inline-block text-[10px] tracking-widest uppercase text-[#ff4500]/70 font-medium mb-3">
+                      {art.category}
+                    </span>
+                    <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-[#ff4500] transition-colors line-clamp-2">
+                      {art.title}
+                    </h3>
+                    <p className="text-sm text-white leading-relaxed mb-4 line-clamp-2">
+                      {art.metaDescription}
+                    </p>
+                    <div className="flex items-center justify-between">
+                      <span className="text-[11px] text-white">{art.readTime}</span>
+                      <span className="text-xs text-[#ff4500] font-medium tracking-wide group-hover:underline">
+                        Read &rarr;
                       </span>
-                      <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-[#ff4500] transition-colors line-clamp-2">
-                        {art.title}
-                      </h3>
-                      <p className="text-sm text-white leading-relaxed mb-4 line-clamp-2">
-                        {art.metaDescription}
-                      </p>
-                      <div className="flex items-center justify-between">
-                        <span className="text-[11px] text-white">{art.readTime}</span>
-                        <span className="text-xs text-[#ff4500] font-medium tracking-wide group-hover:underline">
-                          Read &rarr;
-                        </span>
-                      </div>
-                    </Link>
-                  </motion.div>
-                ))}
-              </div>
+                    </div>
+                  </Link>
+                </motion.div>
+              ))}
             </div>
-          </section>
-        );
-      })()}
+          </div>
+        </section>
+      )}
 
       {/* Related Services */}
-      {(() => {
-        const serviceSlugs = blogRelatedServices[slug] || [];
-        const relatedServiceData = serviceSlugs
-          .map((s) => servicePages[s])
-          .filter(Boolean);
-        if (relatedServiceData.length === 0) return null;
-        return (
-          <section className="px-6 lg:px-12 py-16 md:py-24">
-            <div className="max-w-5xl mx-auto">
-              <motion.p
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, ease }}
-                className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
-              >
-                Explore Our Services
-              </motion.p>
-              <motion.h2
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.7, ease }}
-                className="text-2xl sm:text-3xl font-medium text-white mb-10"
-              >
-                Related Services
-                <span className="text-[#ff4500]">.</span>
-              </motion.h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                {relatedServiceData.map((service, i) => (
-                  <motion.div
-                    key={service.slug}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: i * 0.1, ease }}
+      {relatedServices.length > 0 && (
+        <section className="px-6 lg:px-12 py-16 md:py-24">
+          <div className="max-w-5xl mx-auto">
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, ease }}
+              className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
+            >
+              Explore Our Services
+            </motion.p>
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7, ease }}
+              className="text-2xl sm:text-3xl font-medium text-white mb-10"
+            >
+              Related Services
+              <span className="text-[#ff4500]">.</span>
+            </motion.h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {relatedServices.map((service, i) => (
+                <motion.div
+                  key={service.slug}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: i * 0.1, ease }}
+                >
+                  <Link
+                    href={`/services/${service.slug}`}
+                    className="group block p-6 md:p-8 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] hover:border-[#ff4500]/20 transition-all duration-500 h-full"
                   >
-                    <Link
-                      href={`/services/${service.slug}`}
-                      className="group block p-6 md:p-8 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] hover:border-[#ff4500]/20 transition-all duration-500 h-full"
-                    >
-                      <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-[#ff4500] transition-colors">
-                        {service.title}
-                      </h3>
-                      <p className="text-sm text-white leading-relaxed mb-4 line-clamp-2">
-                        {service.tagline}
-                      </p>
-                      <span className="text-xs text-[#ff4500] font-medium tracking-wide group-hover:underline">
-                        Learn More &rarr;
-                      </span>
-                    </Link>
-                  </motion.div>
-                ))}
-              </div>
+                    <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-[#ff4500] transition-colors">
+                      {service.title}
+                    </h3>
+                    <p className="text-sm text-white leading-relaxed mb-4 line-clamp-2">
+                      {service.tagline}
+                    </p>
+                    <span className="text-xs text-[#ff4500] font-medium tracking-wide group-hover:underline">
+                      Learn More &rarr;
+                    </span>
+                  </Link>
+                </motion.div>
+              ))}
             </div>
-          </section>
-        );
-      })()}
+          </div>
+        </section>
+      )}
 
       {/* CTA — Premium card */}
       <section className="px-6 lg:px-12 py-20 md:py-28">

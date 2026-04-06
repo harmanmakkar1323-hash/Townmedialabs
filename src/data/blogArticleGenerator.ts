@@ -223,6 +223,18 @@ ${otherAgencies.map((a, i) => `
 `;
 }
 
+// Varied dateModified values so generated articles don't all share the same date
+const BRANDING_MODIFIED_DATES = [
+  "2026-04-04", "2026-04-03", "2026-04-02", "2026-04-01",
+  "2026-03-28", "2026-03-26", "2026-03-24", "2026-03-21",
+  "2026-03-19", "2026-03-17", "2026-03-14", "2026-03-12",
+  "2026-03-10", "2026-03-07", "2026-03-05", "2026-03-03",
+  "2026-02-28", "2026-02-25", "2026-02-21", "2026-02-18",
+  "2026-02-14", "2026-02-11", "2026-02-07", "2026-02-04",
+  "2026-01-30", "2026-01-27", "2026-01-23", "2026-01-20",
+  "2026-01-16", "2026-01-13",
+];
+
 // Cache so it only generates once per process
 let _cache: Record<string, BlogArticle> | null = null;
 
@@ -230,6 +242,7 @@ export function generateCityBlogArticles(): Record<string, BlogArticle> {
   if (_cache) return _cache;
 
   const articles: Record<string, BlogArticle> = {};
+  let idx = 0;
 
   for (const [slug, loc] of Object.entries(locations)) {
     if (skipSlugs.has(slug)) continue;
@@ -258,10 +271,12 @@ export function generateCityBlogArticles(): Record<string, BlogArticle> {
       ],
       category: "Branding",
       date: "2026-03-31",
+      dateModified: BRANDING_MODIFIED_DATES[idx % BRANDING_MODIFIED_DATES.length],
       readTime: "12 min read",
       author: "Raman Makkar",
       content: generateBlogContent(city, state, loc.industries),
     };
+    idx++;
   }
 
   _cache = articles;

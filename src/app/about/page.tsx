@@ -21,6 +21,10 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical: "/about",
+    languages: {
+      "en-IN": "https://townmedialabs.com/about",
+      "x-default": "https://townmedialabs.com/about",
+    },
   },
   openGraph: {
     title: "About Us",

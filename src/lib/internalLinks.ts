@@ -379,6 +379,18 @@ export const blogRelatedArticles: Record<string, string[]> = {
 
   // Top 10 branding agencies (hand-written)
   "top-10-branding-agencies-chandigarh": ["branding-cost-small-business", "how-to-choose-branding-agency-checklist", "why-professional-branding-matters"],
+
+  // New blog posts (2026)
+  "digital-marketing-cost-canada": ["digital-marketing-cost-india", "how-much-does-seo-cost", "how-much-do-google-ads-cost"],
+  "google-ads-for-small-business-guide": ["how-much-do-google-ads-cost", "google-ads-budget-mistakes", "google-ads-not-working"],
+  "how-to-create-digital-marketing-strategy": ["digital-marketing-guide-small-business-2025", "how-to-choose-digital-marketing-agency", "content-marketing-roi-guide"],
+  "best-social-media-platforms-for-business-2026": ["social-media-marketing-strategy-2025", "social-media-marketing-cost", "instagram-reels-marketing-strategy-guide"],
+  "social-media-marketing-cost-india": ["social-media-marketing-cost", "digital-marketing-cost-india", "social-media-marketing-strategy-2025"],
+  "is-hiring-digital-marketing-agency-worth-it": ["how-to-choose-digital-marketing-agency", "freelancer-vs-agency-digital-marketing", "digital-marketing-cost-india"],
+  "promote-business-on-instagram-free": ["instagram-reels-marketing-strategy-guide", "social-media-marketing-strategy-2025", "social-media-content-calendar-2025"],
+  "google-my-business-se-customer-kaise-laaye": ["how-to-create-google-business-profile", "how-to-get-more-google-reviews", "local-seo-complete-guide-2025"],
+  "why-business-needs-website-2026": ["how-much-does-website-cost", "signs-you-need-website-redesign", "not-getting-leads-from-website"],
+  "online-marketing-kaise-shuru-karein": ["digital-marketing-guide-small-business-2025", "digital-marketing-cost-india", "how-to-choose-digital-marketing-agency"],
 };
 
 // ── Industry → Related Blog Posts ───────────────────────────────────────────────

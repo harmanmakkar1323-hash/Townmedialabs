@@ -1105,11 +1105,11 @@ export const serviceSeoContent: Record<string, ServiceSeoData> = {
 export function getServiceSeoContentForCountry(serviceSlug: string, country: string): ServiceSeoData {
   const base = serviceSeoContent[serviceSlug];
   if (!base) return base;
-  // Default to Canada pricing/intro when no country match (since this is the .ca site)
-  const effectiveCountry = country || "Canada";
+  // Default to India pricing/intro when no country match (since this is the .com site)
+  const effectiveCountry = country || "India";
   return {
     ...base,
-    intro: base.introByCountry?.[effectiveCountry] || base.introByCountry?.["Canada"] || base.intro,
-    pricingTiers: base.pricingByCountry?.[effectiveCountry] || base.pricingByCountry?.["Canada"] || base.pricingTiers,
+    intro: base.introByCountry?.[effectiveCountry] || base.introByCountry?.["India"] || base.intro,
+    pricingTiers: base.pricingByCountry?.[effectiveCountry] || base.pricingByCountry?.["India"] || base.pricingTiers,
   };
 }

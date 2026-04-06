@@ -2,11 +2,9 @@
 
 import { useState, useRef, useMemo } from "react";
 import Link from "next/link";
-import { motion, useInView } from "motion/react";
-import InnerNavbar from "@/components/layout/InnerNavbar";
+import { motion } from "motion/react";
 import { FooterHome2 } from "@/components/sections/FooterHome2";
-import Breadcrumbs from "@/components/ui/Breadcrumbs";
-import { blogPosts, blogCategories } from "@/data/blogPosts";
+import type { BlogPost } from "@/data/blogPosts";
 
 const ease = [0.23, 1, 0.32, 1] as const;
 
@@ -22,24 +20,27 @@ function formatDate(dateStr: string) {
 
 const POSTS_PER_PAGE = 12;
 
-export default function BlogPageClient() {
+interface BlogPageClientProps {
+  posts: BlogPost[];
+  categories: string[];
+}
+
+export default function BlogPageClient({ posts, categories }: BlogPageClientProps) {
   const [activeCategory, setActiveCategory] = useState("All");
   const [sortBy, setSortBy] = useState<SortOption>("newest");
   const [searchQuery, setSearchQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const heroRef = useRef<HTMLElement>(null);
   const gridRef = useRef<HTMLDivElement>(null);
-  const heroInView = useInView(heroRef, { once: true, amount: 0.2 });
 
   const filteredPosts = useMemo(() => {
-    let posts = activeCategory === "All"
-      ? [...blogPosts]
-      : blogPosts.filter((p) => p.category === activeCategory);
+    let filtered = activeCategory === "All"
+      ? [...posts]
+      : posts.filter((p) => p.category === activeCategory);
 
     // Search filter
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase();
-      posts = posts.filter(
+      filtered = filtered.filter(
         (p) =>
           p.title.toLowerCase().includes(q) ||
           p.excerpt.toLowerCase().includes(q) ||
@@ -48,14 +49,14 @@ export default function BlogPageClient() {
     }
 
     // Sort
-    posts.sort((a, b) => {
+    filtered.sort((a, b) => {
       const da = new Date(a.date).getTime();
       const db = new Date(b.date).getTime();
       return sortBy === "newest" ? db - da : da - db;
     });
 
-    return posts;
-  }, [activeCategory, sortBy, searchQuery]);
+    return filtered;
+  }, [activeCategory, sortBy, searchQuery, posts]);
 
   // Reset to page 1 when filters change
   const handleCategoryChange = (cat: string) => {
@@ -94,60 +95,10 @@ export default function BlogPageClient() {
     return pages;
   };
 
-  const featuredPosts = blogPosts.filter((p) => p.featured);
+  const featuredPosts = posts.filter((p) => p.featured);
 
   return (
-    <main className="min-h-screen bg-[#050505] text-white">
-      <InnerNavbar />
-
-      {/* Hero */}
-      <section
-        ref={heroRef}
-        className="relative pt-32 pb-16 md:pt-40 md:pb-20 px-6 lg:px-12 overflow-hidden"
-      >
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-[#ff4500]/[0.03] rounded-full blur-[150px] pointer-events-none" />
-
-        <div className="relative z-10 max-w-7xl mx-auto">
-          <Breadcrumbs
-            items={[
-              { label: "Home", href: "/" },
-              { label: "Blog", href: "/blog" },
-            ]}
-          />
-
-          <motion.p
-            initial={{ opacity: 0, y: 14 }}
-            animate={heroInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.6, ease }}
-            className="text-[10px] md:text-xs text-white tracking-[0.2em] uppercase font-semibold mb-6 mt-8"
-          >
-            Insights & Ideas
-          </motion.p>
-
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={heroInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.9, ease }}
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-medium leading-[1.05] tracking-tight text-white mb-6"
-          >
-            The TML{" "}
-            <span className="italic bg-gradient-to-r from-[#ff4500] via-[#ff6b35] to-[#ff4500]/60 bg-clip-text text-transparent">
-              Blog.
-            </span>
-          </motion.h1>
-
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={heroInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.15, ease }}
-            className="text-base sm:text-lg md:text-xl text-white max-w-2xl leading-relaxed"
-          >
-            Marketing strategies, creative insights, and industry trends from
-            the team that builds brands people remember.
-          </motion.p>
-        </div>
-      </section>
-
+    <>
       {/* Featured Posts */}
       {featuredPosts.length > 0 && (
         <section className="px-6 lg:px-12 pb-16 md:pb-20">
@@ -282,7 +233,7 @@ export default function BlogPageClient() {
             <div className="flex flex-wrap items-center gap-3">
               {/* Category filters */}
               <div className="flex flex-wrap gap-2 flex-1">
-                {blogCategories.map((cat) => (
+                {categories.map((cat) => (
                   <button
                     key={cat}
                     onClick={() => handleCategoryChange(cat)}
@@ -488,8 +439,8 @@ export default function BlogPageClient() {
               Stay ahead of the curve.
             </h2>
             <p className="relative text-sm md:text-base text-white max-w-lg mx-auto mb-8 leading-relaxed">
-              Get the latest marketing insights, creative strategies, and agency
-              updates delivered straight to your inbox.
+              Get the latest marketing insights, creative strategies, and updates
+              from Town Media Labs delivered straight to your inbox.
             </p>
             <Link
               href="/contact"
@@ -514,6 +465,6 @@ export default function BlogPageClient() {
       </section>
 
       <FooterHome2 />
-    </main>
+    </>
   );
 }

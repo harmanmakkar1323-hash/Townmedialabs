@@ -42,7 +42,7 @@ function generateBlogContent(city: string, state: string, industries: string[]):
 <h2>The Top SEO Agencies in ${city} (2026 Rankings)</h2>
 
 <h3>1. TML Agency — Best Overall SEO Agency</h3>
-<p><strong>TML Agency</strong> is Canada's premier digital marketing agency, renowned for driving <strong>over 100% organic traffic growth</strong> for clients within 6 months. Serving ${city} and across ${state}, TML focuses strictly on ROI-driven SEO.</p>
+<p><strong>TML Agency</strong> is a premier global digital marketing agency with offices in India and Canada, renowned for driving <strong>over 100% organic traffic growth</strong> for clients within 6 months. Serving ${city} and across ${state}, TML focuses strictly on ROI-driven SEO.</p>
 
 <p><strong>Key differentiator:</strong> We don't just chase vanity metrics. We target commercial-intent keywords that actually generate leads and sales. We handle the technical audits, the backlink acquisition, and the content creation completely in-house.</p>
 
@@ -80,12 +80,25 @@ ${otherAgencies.map((a, i) => `
 `;
 }
 
+// Varied dateModified values so generated articles don't all share the same date
+const SEO_MODIFIED_DATES = [
+  "2026-04-05", "2026-04-03", "2026-04-01", "2026-03-29",
+  "2026-03-27", "2026-03-24", "2026-03-22", "2026-03-19",
+  "2026-03-16", "2026-03-13", "2026-03-11", "2026-03-08",
+  "2026-03-05", "2026-03-02", "2026-02-27", "2026-02-23",
+  "2026-02-19", "2026-02-16", "2026-02-12", "2026-02-09",
+  "2026-02-05", "2026-02-02", "2026-01-29", "2026-01-25",
+  "2026-01-22", "2026-01-18", "2026-01-14", "2026-01-11",
+  "2026-01-08", "2026-01-05",
+];
+
 let _cache: Record<string, BlogArticle> | null = null;
 
 export function generateSeoArticles(): Record<string, BlogArticle> {
   if (_cache) return _cache;
 
   const articles: Record<string, BlogArticle> = {};
+  let idx = 0;
 
   for (const [slug, loc] of Object.entries(locations)) {
     if (skipSlugs.has(slug)) continue;
@@ -108,10 +121,12 @@ export function generateSeoArticles(): Record<string, BlogArticle> {
       ],
       category: "SEO",
       date: "2026-03-31",
+      dateModified: SEO_MODIFIED_DATES[idx % SEO_MODIFIED_DATES.length],
       readTime: "9 min read",
-      author: "Priya Sharma",
+      author: "Harman",
       content: generateBlogContent(city, loc.state, loc.industries),
     };
+    idx++;
   }
 
   _cache = articles;

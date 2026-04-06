@@ -12,94 +12,99 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/carrer",
-        destination: "/careers",
+        destination: "/careers/",
+        permanent: true,
+      },
+      {
+        source: "/carrer/",
+        destination: "/careers/",
         permanent: true,
       },
       // Fix broken service URLs that may be indexed or linked externally
       {
         source: "/services/digital-marketing",
-        destination: "/services/seo",
+        destination: "/services/seo/",
         permanent: true,
       },
       {
         source: "/services/social-media-marketing",
-        destination: "/services/social-media",
+        destination: "/services/social-media/",
         permanent: true,
       },
       {
         source: "/services/web-development",
-        destination: "/services/website-development",
+        destination: "/services/website-development/",
         permanent: true,
       },
       {
         source: "/services/web-development-in-:city",
-        destination: "/services/website-development-in-:city",
+        destination: "/services/website-development-in-:city/",
         permanent: true,
       },
       {
         source: "/services/local-seo",
-        destination: "/services/seo",
+        destination: "/services/seo/",
         permanent: true,
       },
       // Old root-level Chandigarh pages that may still have Google rankings
       {
         source: "/instagram-marketing-agency-in-chandigarh",
-        destination: "/services/social-media-in-chandigarh",
+        destination: "/services/social-media-in-chandigarh/",
         permanent: true,
       },
       {
         source: "/seo-agency-in-chandigarh",
-        destination: "/services/seo-in-chandigarh",
+        destination: "/services/seo-in-chandigarh/",
         permanent: true,
       },
       {
         source: "/social-media-marketing-agency-in-chandigarh",
-        destination: "/services/social-media-marketing-in-chandigarh",
+        destination: "/services/social-media-marketing-in-chandigarh/",
         permanent: true,
       },
       {
         source: "/web-design-agency-in-chandigarh",
-        destination: "/services/website-development-in-chandigarh",
+        destination: "/services/website-development-in-chandigarh/",
         permanent: true,
       },
       {
         source: "/google-ads-agency-in-chandigarh",
-        destination: "/services/google-ads-in-chandigarh",
+        destination: "/services/google-ads-in-chandigarh/",
         permanent: true,
       },
       {
         source: "/branding-agency-in-chandigarh",
-        destination: "/services/branding-in-chandigarh",
+        destination: "/services/branding-in-chandigarh/",
         permanent: true,
       },
       {
         source: "/graphic-design-agency-in-chandigarh",
-        destination: "/services/graphic-design-in-chandigarh",
+        destination: "/services/graphic-design-in-chandigarh/",
         permanent: true,
       },
       {
         source: "/lead-generation-agency-in-chandigarh",
-        destination: "/services/lead-generation-in-chandigarh",
+        destination: "/services/lead-generation-in-chandigarh/",
         permanent: true,
       },
       {
         source: "/website-development-agency-in-chandigarh",
-        destination: "/services/website-development-in-chandigarh",
+        destination: "/services/website-development-in-chandigarh/",
         permanent: true,
       },
       {
         source: "/ppc-agency-in-chandigarh",
-        destination: "/services/google-ads-in-chandigarh",
+        destination: "/services/google-ads-in-chandigarh/",
         permanent: true,
       },
       {
         source: "/content-marketing-agency-in-chandigarh",
-        destination: "/services/content-marketing",
+        destination: "/services/content-marketing/",
         permanent: true,
       },
       {
         source: "/email-marketing-agency-in-chandigarh",
-        destination: "/services/email-marketing",
+        destination: "/services/email-marketing/",
         permanent: true,
       },
     ];
@@ -143,6 +148,11 @@ const nextConfig: NextConfig = {
             key: "Permissions-Policy",
             value:
               "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+          },
+          {
+            key: "Content-Security-Policy-Report-Only",
+            value:
+              "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://www.clarity.ms; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://www.clarity.ms https://region1.google-analytics.com https://vitals.vercel-insights.com; frame-src 'self' https://www.youtube.com https://www.google.com; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'",
           },
         ],
       },

@@ -126,9 +126,9 @@ export default function AboutPageClient() {
             transition={{ duration: 0.8, delay: 0.3, ease }}
             className="text-base md:text-lg text-white leading-relaxed max-w-3xl mx-auto"
           >
-            Edmonton&apos;s leading digital marketing agency, helping brands grow through
-            strategic branding, performance marketing, web development, and creative excellence
-            since 2010. We turn ambitious businesses into unforgettable brands.
+            Town Media Labs (TML Agency) is a global digital marketing agency with headquarters in
+            Chandigarh, India and Edmonton, Canada — helping brands grow through strategic branding,
+            performance marketing, web development, and creative excellence since 2010. We turn ambitious businesses into unforgettable brands.
           </motion.p>
         </div>
       </section>
@@ -170,7 +170,7 @@ export default function AboutPageClient() {
               className="space-y-6 text-sm md:text-base text-white leading-relaxed"
             >
               <p>
-                TML Agency was founded in 2010 in the heart of Chandigarh with a clear mission:
+                Town Media Labs — now widely known as TML Agency — was founded in 2010 in the heart of Chandigarh with a clear mission:
                 to bridge the gap between creative excellence and measurable business results. What
                 began as a small, passionate team of digital marketing enthusiasts has evolved into
                 one of the most trusted creative agencies in North India, serving clients who demand
@@ -314,7 +314,7 @@ export default function AboutPageClient() {
                 <h3 className="text-xl md:text-2xl font-semibold text-white">Our Vision</h3>
               </div>
               <p className="text-sm md:text-base text-white leading-relaxed">
-                To become Canada&apos;s most trusted digital marketing partner — an agency known not
+                To become one of the world&apos;s most trusted digital marketing partners — an agency known not
                 just for creative brilliance, but for the genuine, long-term business growth we
                 create for every brand we work with. We envision a future where every ambitious
                 business in Chandigarh and beyond has access to world-class digital marketing,

@@ -9,26 +9,8 @@ import { allCaseStudySlugs } from "@/data/caseStudies";
 import { shouldNoindex } from "@/utils/noindex";
 
 /* ------------------------------------------------------------------ */
-/*  Next.js App Router multiple-sitemap support via generateSitemaps  */
+/*  Single sitemap — all URLs fit well within the 50,000 URL limit    */
 /* ------------------------------------------------------------------ */
-
-const SITEMAP_IDS = [
-  { id: 0 }, // pages   – core static pages
-  { id: 1 }, // services – generic service pages + Chandigarh
-  { id: 2 }, // locations – all location-service pages
-  { id: 3 }, // blog
-  { id: 4 }, // industries
-  { id: 5 }, // tools-and-cases – free tools + case studies + location hubs
-] as const;
-
-/**
- * Tells Next.js how many sub-sitemaps to generate.
- * The framework creates /sitemap.xml (index) pointing to
- * /sitemap/0.xml … /sitemap/5.xml
- */
-export async function generateSitemaps() {
-  return [...SITEMAP_IDS];
-}
 
 const baseUrl = "https://townmedialabs.com";
 
@@ -52,14 +34,14 @@ function buildPages(): MetadataRoute.Sitemap {
 }
 
 function buildServices(): MetadataRoute.Sitemap {
-  const serviceEntries: MetadataRoute.Sitemap = allServiceSlugs.map((slug) => ({
+  const serviceEntries: MetadataRoute.Sitemap = (allServiceSlugs ?? []).map((slug) => ({
     url: `${baseUrl}/services/${slug}`,
     lastModified: new Date("2026-03-20"),
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
 
-  const chandigarhEntries: MetadataRoute.Sitemap = allChandigarhSlugs.map((slug) => ({
+  const chandigarhEntries: MetadataRoute.Sitemap = (allChandigarhSlugs ?? []).map((slug) => ({
     url: `${baseUrl}/services/${slug}`,
     lastModified: new Date("2026-03-15"),
     changeFrequency: "weekly" as const,
@@ -70,26 +52,34 @@ function buildServices(): MetadataRoute.Sitemap {
 }
 
 function buildLocations(): MetadataRoute.Sitemap {
-  const chandigarhSlugSet = new Set(allChandigarhSlugs);
+  const chandigarhSlugSet = new Set(allChandigarhSlugs ?? []);
 
-  return getAllLocationServiceDefs()
-    .filter((def) => !chandigarhSlugSet.has(def.urlSlug))
-    .filter((def) => !shouldNoindex(def.serviceSlug, def.locationSlug))
-    .map((def) => ({
-      url: `${baseUrl}/services/${def.urlSlug}`,
-      lastModified: new Date("2026-03-20"),
-      changeFrequency: "monthly" as const,
-      priority: 0.6,
-    }));
+  try {
+    return getAllLocationServiceDefs()
+      .filter((def) => !chandigarhSlugSet.has(def.urlSlug))
+      .filter((def) => !shouldNoindex(def.serviceSlug, def.locationSlug))
+      .map((def) => ({
+        url: `${baseUrl}/services/${def.urlSlug}`,
+        lastModified: new Date("2026-03-20"),
+        changeFrequency: "monthly" as const,
+        priority: 0.6,
+      }));
+  } catch {
+    return [];
+  }
 }
 
 function buildBlog(): MetadataRoute.Sitemap {
-  return Object.entries(blogArticles).map(([slug, article]) => ({
-    url: `${baseUrl}/blog/${slug}`,
-    lastModified: new Date(article.date || "2026-03-20"),
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
+  try {
+    return Object.entries(blogArticles ?? {}).map(([slug, article]) => ({
+      url: `${baseUrl}/blog/${slug}`,
+      lastModified: new Date(article.date || "2026-03-20"),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    }));
+  } catch {
+    return [];
+  }
 }
 
 function buildIndustries(): MetadataRoute.Sitemap {
@@ -102,14 +92,14 @@ function buildIndustries(): MetadataRoute.Sitemap {
     },
   ];
 
-  const industryEntries: MetadataRoute.Sitemap = allIndustrySlugs.map((slug) => ({
+  const industryEntries: MetadataRoute.Sitemap = (allIndustrySlugs ?? []).map((slug) => ({
     url: `${baseUrl}/industries/${slug}`,
     lastModified: new Date("2026-03-20"),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
 
-  const tier1Entries: MetadataRoute.Sitemap = allIndustryPageSlugs.map((slug) => ({
+  const tier1Entries: MetadataRoute.Sitemap = (allIndustryPageSlugs ?? []).map((slug) => ({
     url: `${baseUrl}/industries/${slug}`,
     lastModified: new Date("2026-03-20"),
     changeFrequency: "monthly" as const,
@@ -144,7 +134,7 @@ function buildToolsAndCases(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.5,
     },
-    ...allToolSlugs.map((slug) => ({
+    ...(allToolSlugs ?? []).map((slug) => ({
       url: `${baseUrl}/free-tools/${slug}`,
       lastModified: new Date("2026-03-15"),
       changeFrequency: "monthly" as const,
@@ -159,7 +149,7 @@ function buildToolsAndCases(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.6,
     },
-    ...allCaseStudySlugs.map((slug) => ({
+    ...(allCaseStudySlugs ?? []).map((slug) => ({
       url: `${baseUrl}/case-studies/${slug}`,
       lastModified: new Date("2026-03-15"),
       changeFrequency: "monthly" as const,
@@ -171,28 +161,17 @@ function buildToolsAndCases(): MetadataRoute.Sitemap {
 }
 
 /* ------------------------------------------------------------------ */
-/*  Main sitemap function — receives { id } from generateSitemaps     */
+/*  Main sitemap function — no generateSitemaps needed, serves at     */
+/*  /sitemap.xml directly which matches robots.txt reference          */
 /* ------------------------------------------------------------------ */
 
-export default async function sitemap({
-  id,
-}: {
-  id: number;
-}): Promise<MetadataRoute.Sitemap> {
-  switch (id) {
-    case 0:
-      return buildPages();
-    case 1:
-      return buildServices();
-    case 2:
-      return buildLocations();
-    case 3:
-      return buildBlog();
-    case 4:
-      return buildIndustries();
-    case 5:
-      return buildToolsAndCases();
-    default:
-      return [];
-  }
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  return [
+    ...buildPages(),
+    ...buildServices(),
+    ...buildLocations(),
+    ...buildBlog(),
+    ...buildIndustries(),
+    ...buildToolsAndCases(),
+  ];
 }

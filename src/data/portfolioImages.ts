@@ -1,8 +1,19 @@
 export interface PortfolioImage {
   src: string;
   alt: string;
-  category: "product-photography" | "graphic-design" | "web-design" | "social-media";
+  category: "product-photography" | "graphic-design" | "web-design" | "social-media" | "creative-ads" | "packaging-design" | "poster-design";
 }
+
+/** Human-readable category labels */
+export const categoryLabels: Record<PortfolioImage["category"], string> = {
+  "product-photography": "Product Photography",
+  "graphic-design": "Graphic Design",
+  "web-design": "Web Design",
+  "social-media": "Social Media",
+  "creative-ads": "Creative Ads",
+  "packaging-design": "Packaging Design",
+  "poster-design": "Poster Design",
+};
 
 export const portfolioImages: PortfolioImage[] = [
   // Product Photography
@@ -74,6 +85,53 @@ export const portfolioImages: PortfolioImage[] = [
   { src: "/work/social-media-turkish-agency.jpg", alt: "Branding agency social media grid — magenta and pink visual identity", category: "social-media" },
   { src: "/work/social-media-brand-feed.webp", alt: "Brand Instagram feed design — curated lifestyle product photography", category: "social-media" },
   { src: "/work/social-media-chupa-chups.webp", alt: "Social media marketing — Chupa Chups brand engagement campaign", category: "social-media" },
+  { src: "/work/social-media-real-estate-posts-grid.webp", alt: "Real estate social media posts grid — property marketing campaign", category: "social-media" },
+
+  // Creative Ads
+  { src: "/work/creative-ad-back-to-school-cairo.webp", alt: "Back to school creative ad campaign — Cairo education brand", category: "creative-ads" },
+  { src: "/work/creative-ad-dental-clinic-fly.webp", alt: "Dental clinic creative advertisement — fly concept design", category: "creative-ads" },
+  { src: "/work/creative-ad-durex-football.webp", alt: "Durex creative football-themed advertisement design", category: "creative-ads" },
+  { src: "/work/creative-ad-eyewear-fashion.webp", alt: "Eyewear fashion creative advertising — bold visual campaign", category: "creative-ads" },
+  { src: "/work/creative-ad-legal-education-red.webp", alt: "Legal education creative ad — bold red typography design", category: "creative-ads" },
+  { src: "/work/creative-ad-protein-fitness.webp", alt: "Protein fitness brand creative advertising — gym campaign", category: "creative-ads" },
+  { src: "/work/creative-ad-roofing-company.webp", alt: "Roofing company creative advertisement design", category: "creative-ads" },
+
+  // Additional Graphic Design (social stories, brand posts, etc.)
+  { src: "/work/graphic-design-brand-identity.webp", alt: "Brand identity design — comprehensive visual identity system", category: "graphic-design" },
+  { src: "/work/graphic-design-brand-showcase.webp", alt: "Brand showcase design — premium presentation layout", category: "graphic-design" },
+  { src: "/work/graphic-design-brand-story-creative.webp", alt: "Creative brand story design — social media visual narrative", category: "graphic-design" },
+  { src: "/work/graphic-design-brand-story-layout.webp", alt: "Brand story layout design — editorial social media format", category: "graphic-design" },
+  { src: "/work/graphic-design-brand-typography.webp", alt: "Brand typography design — typographic poster concept", category: "graphic-design" },
+  { src: "/work/graphic-design-clean-minimal-ad.webp", alt: "Clean minimal advertisement design — premium brand aesthetic", category: "graphic-design" },
+  { src: "/work/graphic-design-creative-brand.webp", alt: "Creative brand design — bold visual identity campaign", category: "graphic-design" },
+  { src: "/work/graphic-design-creative-photography.webp", alt: "Creative photography design — artistic brand composition", category: "graphic-design" },
+  { src: "/work/graphic-design-creative-story-ad.webp", alt: "Creative story ad design — social media format campaign", category: "graphic-design" },
+  { src: "/work/graphic-design-dark-story-ad.webp", alt: "Dark theme story ad design — moody brand campaign", category: "graphic-design" },
+  { src: "/work/graphic-design-minimal-brand-ad.webp", alt: "Minimal brand ad design — clean typographic layout", category: "graphic-design" },
+  { src: "/work/graphic-design-minimal-story.webp", alt: "Minimal story design — simple elegant social format", category: "graphic-design" },
+  { src: "/work/graphic-design-product-layout.webp", alt: "Product layout design — showcase with premium styling", category: "graphic-design" },
+  { src: "/work/graphic-design-product-showcase.webp", alt: "Product showcase design — multi-item brand presentation", category: "graphic-design" },
+  { src: "/work/graphic-design-social-media-story.webp", alt: "Social media story design — vertical brand content", category: "graphic-design" },
+  { src: "/work/graphic-design-social-story-1.webp", alt: "Social story design — lifestyle brand visual", category: "graphic-design" },
+  { src: "/work/graphic-design-social-story-3.webp", alt: "Social story design — fashion brand campaign visual", category: "graphic-design" },
+  { src: "/work/graphic-design-social-story-4.webp", alt: "Social story design — premium product visual", category: "graphic-design" },
+  { src: "/work/graphic-design-social-story-minimal.webp", alt: "Minimal social story design — clean brand aesthetic", category: "graphic-design" },
+  { src: "/work/graphic-design-story-brand-post.webp", alt: "Brand post story design — social media format", category: "graphic-design" },
+  { src: "/work/graphic-design-story-social-post.webp", alt: "Social post story design — engaging visual layout", category: "graphic-design" },
+
+  // Packaging Design
+  { src: "/work/packaging-design-candy-characters.webp", alt: "Candy packaging design — character-based branding for sweets", category: "packaging-design" },
+  { src: "/work/packaging-design-character-cups.webp", alt: "Character cup packaging design — illustrated beverage branding", category: "packaging-design" },
+  { src: "/work/packaging-design-eskimo-ice-cream.webp", alt: "Ice cream packaging design — Eskimo brand visual identity", category: "packaging-design" },
+  { src: "/work/packaging-design-goody-candy-sour-sweet.webp", alt: "Candy packaging design — Goody sour sweet colourful branding", category: "packaging-design" },
+  { src: "/work/packaging-design-kids-sandwich-box.webp", alt: "Kids sandwich box packaging design — fun illustrated branding", category: "packaging-design" },
+  { src: "/work/packaging-design-minimalist-cans.webp", alt: "Minimalist can packaging design — clean modern beverage branding", category: "packaging-design" },
+  { src: "/work/packaging-design-moody-snacks.webp", alt: "Moody snack packaging design — dark premium brand aesthetic", category: "packaging-design" },
+  { src: "/work/packaging-design-water-bottle-brand.webp", alt: "Water bottle packaging design — fresh clean brand identity", category: "packaging-design" },
+
+  // Poster Design
+  { src: "/work/poster-design-netflix-induction.webp", alt: "Netflix induction poster design — entertainment brand concept", category: "poster-design" },
+  { src: "/work/poster-design-weeknd-blinding-lights.webp", alt: "The Weeknd Blinding Lights poster design — music artwork concept", category: "poster-design" },
 ];
 
 /** Get images by category */

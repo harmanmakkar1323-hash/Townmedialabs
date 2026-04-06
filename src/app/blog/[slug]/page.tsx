@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { blogArticles } from "@/data/blogArticles";
-import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { generateArticleSchema, generateBreadcrumbSchema, generateFAQSchema, generateHowToSchema } from "@/lib/schema";
+import { extractFAQs, extractHowToSteps } from "@/lib/contentParser";
 import { getAuthorBySlug } from "@/data/authors";
+import { blogRelatedArticles, blogRelatedServices } from "@/lib/internalLinks";
+import { servicePages } from "@/data/servicePages";
 import BlogArticleClient from "./BlogArticleClient";
 
 interface Props {
@@ -33,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       locale: "en_IN",
       publishedTime: article.date,
-      modifiedTime: article.date,
+      modifiedTime: article.dateModified || article.date,
       authors: author ? [author.name] : ["TML Agency"],
       images: [{ url: ogImage, width: 1200, height: 630, alt: article.title }],
     },
@@ -64,7 +67,7 @@ export default async function BlogSlugPage({ params }: Props) {
     description: article.metaDescription,
     image: article.image,
     datePublished: article.date,
-    dateModified: article.date,
+    dateModified: article.dateModified || article.date,
     slug,
     keywords: article.keywords,
     category: article.category,
@@ -78,6 +81,20 @@ export default async function BlogSlugPage({ params }: Props) {
     { name: article.title, url: `${siteUrl}/blog/${slug}` },
   ]);
 
+  // Extract structured FAQ data from article content (if present)
+  const faqs = extractFAQs(article.content);
+  const faqJsonLd = faqs.length > 0 ? generateFAQSchema(faqs) : null;
+
+  // Extract structured HowTo steps from article content (if present)
+  const howToData = extractHowToSteps(article.content);
+  const howToJsonLd = howToData
+    ? generateHowToSchema({
+        name: howToData.name,
+        description: article.metaDescription,
+        steps: howToData.steps,
+      })
+    : null;
+
   return (
     <>
       <script
@@ -88,7 +105,48 @@ export default async function BlogSlugPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <BlogArticleClient article={article} slug={slug} />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
+      {howToJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
+        />
+      )}
+      <BlogArticleClient
+        article={article}
+        slug={slug}
+        relatedArticles={(() => {
+          let articleSlugs = blogRelatedArticles[slug] || [];
+          // Category-based fallback: if no explicit related articles, pick 3 from same category
+          if (articleSlugs.length === 0 && article.category) {
+            articleSlugs = Object.entries(blogArticles)
+              .filter(([s, a]) => s !== slug && a.category === article.category)
+              .sort((a, b) => new Date(b[1].date).getTime() - new Date(a[1].date).getTime())
+              .slice(0, 3)
+              .map(([s]) => s);
+          }
+          return articleSlugs
+            .map((s) => {
+              const art = blogArticles[s];
+              return art ? { slug: s, title: art.title, category: art.category, metaDescription: art.metaDescription, date: art.date, readTime: art.readTime, image: art.image } : null;
+            })
+            .filter((x): x is NonNullable<typeof x> => x !== null);
+        })()}
+        relatedServices={(() => {
+          const serviceSlugs = blogRelatedServices[slug] || [];
+          return serviceSlugs
+            .map((s) => {
+              const svc = servicePages[s];
+              return svc ? { slug: svc.slug, title: svc.title, tagline: svc.tagline } : null;
+            })
+            .filter((x): x is NonNullable<typeof x> => x !== null);
+        })()}
+      />
     </>
   );
 }

@@ -323,7 +323,7 @@ export function FooterHome2() {
         >
           {/* Left: Copyright */}
           <p className="text-xs text-white">
-            &copy; {new Date().getFullYear()} TML Agency. All rights reserved.
+            &copy; {new Date().getFullYear()} Town Media Labs (TML Agency). All rights reserved.
           </p>
 
           {/* Center: Policy links */}

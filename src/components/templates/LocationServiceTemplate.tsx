@@ -202,7 +202,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
     category: serviceName,
   });
 
-  const isHeadquartersCity = location.slug === "edmonton";
+  const isHeadquartersCity = location.slug === "chandigarh" || location.slug === "edmonton";
 
   const localBusinessSchema = isHeadquartersCity ? generateLocalBusinessSchema({
     name: `TML Agency - ${cityName}`,

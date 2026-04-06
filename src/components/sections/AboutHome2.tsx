@@ -122,10 +122,10 @@ export function AboutHome2() {
               className="absolute left-0 top-0 bottom-0 w-[2px] origin-top bg-gradient-to-b from-[#ff4500] via-[#ff4500]/30 to-transparent"
             />
             <p className="text-sm md:text-base lg:text-lg text-white leading-relaxed">
-              TML is a full-service branding and digital marketing agency built
-              for businesses that want to move fast and look good doing it. From
-              day one, we embed with your team — learning your market, your
-              audience, and what makes you different.
+              Town Media Labs — known as TML Agency — is a full-service branding
+              and digital marketing agency built for businesses that want to move
+              fast and look good doing it. From day one, we embed with your team
+              — learning your market, your audience, and what makes you different.
             </p>
           </motion.div>
 

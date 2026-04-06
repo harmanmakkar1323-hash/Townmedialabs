@@ -57,8 +57,8 @@ export function generateLocalBusinessSchema(params: {
 }) {
   // Default to Chandigarh HQ if no coordinates provided
   const coords = params.coordinates || {
-    latitude: 53.5461,
-    longitude: -113.4937,
+    latitude: 30.7281,
+    longitude: 76.7726,
   };
 
   return {
@@ -74,12 +74,20 @@ export function generateLocalBusinessSchema(params: {
       latitude: String(coords.latitude),
       longitude: String(coords.longitude),
     },
-    openingHoursSpecification: {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      opens: "10:00",
-      closes: "19:00",
-    },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "10:00",
+        closes: "19:00",
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: "Saturday",
+        opens: "10:00",
+        closes: "17:00",
+      },
+    ],
     areaServed: params.areaServed
       ? params.areaServed.map((area) => ({
           "@type": area.type,
@@ -130,17 +138,18 @@ export function generateArticleSchema(params: {
 }) {
   const siteUrl = "https://townmedialabs.com";
 
-  // Create author object - use Person if authorName/ID provided, otherwise Organization
-  const author = params.authorName && params.authorId
+  // Create author object - use Organization for TML Agency, Person for individuals
+  const isOrganizationAuthor = !params.authorName || params.authorId === "tml-agency";
+  const author = isOrganizationAuthor
     ? {
-        "@type": "Person",
-        name: params.authorName,
-        url: `${siteUrl}/authors/${params.authorId}`,
-      }
-    : {
-        "@type": "Organization",
+        "@type": "Organization" as const,
         name: "TML Agency",
         url: siteUrl,
+      }
+    : {
+        "@type": "Person" as const,
+        name: params.authorName,
+        url: `${siteUrl}/authors/${params.authorId}`,
       };
 
   return {
@@ -181,6 +190,25 @@ export function generateFAQSchema(faqs: { question: string; answer: string }[]) 
         "@type": "Answer",
         text: faq.answer,
       },
+    })),
+  };
+}
+
+export function generateHowToSchema(params: {
+  name: string;
+  description: string;
+  steps: Array<{ name: string; text: string }>;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: params.name,
+    description: params.description,
+    step: params.steps.map((step, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: step.name,
+      text: step.text,
     })),
   };
 }

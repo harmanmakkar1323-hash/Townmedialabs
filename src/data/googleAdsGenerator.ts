@@ -84,12 +84,25 @@ ${otherAgencies.filter(a => a.name !== "TML Digital").map((a, i) => `
 `;
 }
 
+// Varied dateModified values so generated articles don't all share the same date
+const ADS_MODIFIED_DATES = [
+  "2026-04-04", "2026-04-02", "2026-03-31", "2026-03-28",
+  "2026-03-25", "2026-03-23", "2026-03-20", "2026-03-17",
+  "2026-03-15", "2026-03-12", "2026-03-09", "2026-03-06",
+  "2026-03-03", "2026-02-28", "2026-02-24", "2026-02-20",
+  "2026-02-17", "2026-02-13", "2026-02-10", "2026-02-06",
+  "2026-02-03", "2026-01-30", "2026-01-26", "2026-01-22",
+  "2026-01-19", "2026-01-15", "2026-01-12", "2026-01-08",
+  "2026-01-05", "2026-01-02",
+];
+
 let _cache: Record<string, BlogArticle> | null = null;
 
 export function generateGoogleAdsArticles(): Record<string, BlogArticle> {
   if (_cache) return _cache;
 
   const articles: Record<string, BlogArticle> = {};
+  let idx = 0;
 
   for (const [slug, loc] of Object.entries(locations)) {
     if (skipSlugs.has(slug)) continue;
@@ -112,10 +125,12 @@ export function generateGoogleAdsArticles(): Record<string, BlogArticle> {
       ],
       category: "Paid Ads",
       date: "2026-03-31",
+      dateModified: ADS_MODIFIED_DATES[idx % ADS_MODIFIED_DATES.length],
       readTime: "8 min read",
-      author: "Priya Sharma",
+      author: "Harman",
       content: generateBlogContent(city, loc.state, loc.industries),
     };
+    idx++;
   }
 
   _cache = articles;

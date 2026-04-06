@@ -39,6 +39,10 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "/contact",
+    languages: {
+      "en-IN": "https://townmedialabs.com/contact",
+      "x-default": "https://townmedialabs.com/contact",
+    },
   },
 };
 
@@ -63,17 +67,17 @@ const contactPageSchema = {
   },
 };
 
-const localBusinessSchema = {
+const professionalServiceSchema = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": "https://townmedialabs.com/#business",
+  "@type": "ProfessionalService",
+  "@id": "https://townmedialabs.com/#localbusiness",
   name: "TML Agency",
   description:
     "Chandigarh's leading digital marketing agency specializing in branding, SEO, Google Ads, social media marketing & web development.",
   url: "https://townmedialabs.com",
   telephone: "+91-98726-48209",
   email: "info@townmedialabs.com",
-  image: "https://townmedialabs.com/og-image.png",
+  image: "https://townmedialabs.com/logo.png",
   address: {
     "@type": "PostalAddress",
     streetAddress: "CO 112, Basement, Sector 34A",
@@ -90,19 +94,24 @@ const localBusinessSchema = {
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
-      dayOfWeek: [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-      ],
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
       opens: "10:00",
       closes: "19:00",
     },
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: "Saturday",
+      opens: "10:00",
+      closes: "17:00",
+    },
   ],
   priceRange: "$$",
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.9",
+    reviewCount: "352",
+    bestRating: "5",
+  },
   sameAs: [
     "https://www.instagram.com/tmlagency/",
     "https://www.facebook.com/tmlagency/",
@@ -162,7 +171,7 @@ export default function ContactPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(localBusinessSchema),
+          __html: JSON.stringify(professionalServiceSchema),
         }}
       />
       <script

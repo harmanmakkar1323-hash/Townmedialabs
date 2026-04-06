@@ -6,79 +6,83 @@ import Image from "next/image";
 import Link from "next/link";
 import InnerNavbar from "@/components/layout/InnerNavbar";
 import { FooterHome2 } from "@/components/sections/FooterHome2";
+import { portfolioImages, categoryLabels, type PortfolioImage } from "@/data/portfolioImages";
 
 const ease = [0.23, 1, 0.32, 1] as const;
 
-const allProjects = [
+// Client work (web design projects with descriptions)
+const clientProjects = [
   {
     title: "CB Builders",
-    category: "Web Design",
+    category: "Web Design" as const,
     image: "/portfolio/cb-builders-web-design.webp",
     description: "A clean, responsive construction company website with lead generation forms and project galleries.",
   },
   {
     title: "Real Estate App",
-    category: "UI/UX Design",
+    category: "UI/UX Design" as const,
     image: "/portfolio/real-estate-app-uiux-design.webp",
     description: "Mobile-first real estate platform with property listings, virtual tours, and agent matching.",
   },
   {
     title: "BYT Trucking",
-    category: "Web Design",
+    category: "Web Design" as const,
     image: "/portfolio/byt-trucking-web-design.webp",
     description: "Full-service trucking company website with quote calculator, fleet showcase, and route tracking.",
   },
   {
     title: "NFT Marketplace",
-    category: "Web Design",
+    category: "Web Design" as const,
     image: "/portfolio/nft-marketplace-web-design.jpg",
     description: "A blockchain-powered marketplace for digital art collectors with wallet integration and auctions.",
   },
   {
     title: "Smart Home App",
-    category: "UI/UX Design",
+    category: "UI/UX Design" as const,
     image: "/portfolio/smart-home-app-uiux-design.webp",
     description: "IoT dashboard for controlling home devices, energy usage tracking, and automation scheduling.",
   },
   {
     title: "Win Asset Finance",
-    category: "Web Design",
+    category: "Web Design" as const,
     image: "/portfolio/win-asset-finance-web-design.png",
     description: "Financial services website with loan calculators, application forms, and compliance-ready design.",
   },
   {
     title: "Custom Trucking & Baling",
-    category: "Branding & Web",
+    category: "Branding & Web" as const,
     image: "/portfolio/custom-trucking-baling-branding.jpg",
     description: "Complete rebrand and website for an agricultural services company, from logo to launch.",
   },
   {
     title: "Zuri Beauty Academy",
-    category: "Web Design",
+    category: "Web Design" as const,
     image: "/portfolio/zuri-beauty-academy-web-design.png",
     description: "Beauty school website with course catalog, online enrollment, and student portal.",
   },
   {
     title: "Virtual Healthcare",
-    category: "Branding & Web",
+    category: "Branding & Web" as const,
     image: "/portfolio/virtual-healthcare-branding.webp",
     description: "Telemedicine platform brand identity and landing pages designed to build patient trust.",
   },
   {
     title: "Advertisement Marketing",
-    category: "Web Design",
+    category: "Web Design" as const,
     image: "/portfolio/advertisement-marketing-web-design.png",
     description: "Performance marketing agency site with case study showcases and campaign result dashboards.",
   },
 ];
 
-const categories = ["All", ...Array.from(new Set(allProjects.map((p) => p.category)))];
+// Build unique categories from work images
+const workCategories = ["All", ...Object.values(categoryLabels)];
+const clientCategories = ["All", ...Array.from(new Set(clientProjects.map((p) => p.category)))];
 
 function ProjectCard({
   project,
   delay,
 }: {
-  project: (typeof allProjects)[number];
+  project: (typeof clientProjects)[number];
   delay: number;
 }) {
   const cardRef = useRef<HTMLDivElement>(null);
@@ -137,13 +141,64 @@ function ProjectCard({
   );
 }
 
-export default function PortfolioPageClient() {
-  const [activeCategory, setActiveCategory] = useState("All");
+function WorkImageCard({
+  image,
+  delay,
+}: {
+  image: PortfolioImage;
+  delay: number;
+}) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.1 }}
+      transition={{ duration: 0.6, delay, ease }}
+      whileHover={{
+        scale: 1.03,
+        transition: { duration: 0.4, ease },
+      }}
+      className="group relative overflow-hidden rounded-xl bg-[#111] border border-white/[0.04] hover:border-[#ff4500]/20 transition-colors duration-500"
+    >
+      <div className="relative aspect-[4/5] overflow-hidden">
+        <Image
+          src={image.src}
+          alt={image.alt}
+          fill
+          className="object-cover transition-transform duration-700 group-hover:scale-105"
+          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+          loading="lazy"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+        <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+          <span className="inline-block text-[10px] uppercase tracking-[0.15em] bg-[#ff4500]/90 text-white rounded-full px-3 py-1 font-medium">
+            {categoryLabels[image.category]}
+          </span>
+        </div>
+      </div>
+    </motion.div>
+  );
+}
 
-  const filtered =
-    activeCategory === "All"
-      ? allProjects
-      : allProjects.filter((p) => p.category === activeCategory);
+export default function PortfolioPageClient() {
+  const [activeClientCategory, setActiveClientCategory] = useState("All");
+  const [activeWorkCategory, setActiveWorkCategory] = useState("All");
+  const [showAll, setShowAll] = useState(false);
+
+  const filteredClients =
+    activeClientCategory === "All"
+      ? clientProjects
+      : clientProjects.filter((p) => p.category === activeClientCategory);
+
+  const filteredWork =
+    activeWorkCategory === "All"
+      ? portfolioImages
+      : portfolioImages.filter(
+          (img) => categoryLabels[img.category] === activeWorkCategory
+        );
+
+  // Show 24 initially, all on "Load More"
+  const visibleWork = showAll ? filteredWork : filteredWork.slice(0, 24);
 
   return (
     <main className="min-h-screen bg-[#050505] text-white">
@@ -182,36 +237,34 @@ export default function PortfolioPageClient() {
         </div>
       </section>
 
-      {/* Filters */}
+      {/* Client Projects Section */}
       <section className="px-4 pb-8">
-        <div className="max-w-6xl mx-auto flex flex-wrap justify-center gap-3">
-          {categories.map((cat) => (
-            <button
-              key={cat}
-              onClick={() => setActiveCategory(cat)}
-              className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 border ${
-                activeCategory === cat
-                  ? "bg-[#ff4500] border-[#ff4500] text-white"
-                  : "bg-white/5 border-white/10 text-white hover:text-white hover:border-white/20"
-              }`}
-            >
-              {cat}
-            </button>
-          ))}
-        </div>
-      </section>
-
-      {/* Portfolio Grid */}
-      <section className="px-4 pb-24">
         <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
+            Client Projects<span className="text-[#ff4500]">.</span>
+          </h2>
+          <div className="flex flex-wrap justify-center gap-3 mb-10">
+            {clientCategories.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => setActiveClientCategory(cat)}
+                className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 border ${
+                  activeClientCategory === cat
+                    ? "bg-[#ff4500] border-[#ff4500] text-white"
+                    : "bg-white/5 border-white/10 text-white hover:text-white hover:border-white/20"
+                }`}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filtered.map((project, i) => (
+            {filteredClients.map((project, i) => (
               <ProjectCard key={project.title} project={project} delay={i * 0.08} />
             ))}
           </div>
-
-          {filtered.length === 0 && (
-            <p className="text-center text-white py-20 text-lg">
+          {filteredClients.length === 0 && (
+            <p className="text-center text-white py-12 text-lg">
               No projects in this category yet.
             </p>
           )}
@@ -219,7 +272,7 @@ export default function PortfolioPageClient() {
       </section>
 
       {/* Video Showreel */}
-      <section className="px-4 pb-24">
+      <section className="px-4 py-24">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-8">Our Showreel</h2>
           <div className="relative rounded-2xl overflow-hidden border border-white/10">
@@ -234,6 +287,73 @@ export default function PortfolioPageClient() {
               <source src="/tml-showreel.mp4" type="video/mp4" />
             </video>
           </div>
+        </div>
+      </section>
+
+      {/* Creative Work Gallery */}
+      <section className="px-4 pb-24">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-10">
+            <p className="text-[#ff4500] text-sm font-semibold tracking-[0.2em] uppercase mb-3">
+              Creative Portfolio
+            </p>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              Our Creative Work<span className="text-[#ff4500]">.</span>
+            </h2>
+            <p className="text-white max-w-2xl mx-auto">
+              Graphic design, product photography, packaging, social media campaigns, creative ads, and more — all crafted by our in-house team.
+            </p>
+          </div>
+
+          {/* Category Filters */}
+          <div className="flex flex-wrap justify-center gap-3 mb-10">
+            {workCategories.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => { setActiveWorkCategory(cat); setShowAll(false); }}
+                className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 border ${
+                  activeWorkCategory === cat
+                    ? "bg-[#ff4500] border-[#ff4500] text-white"
+                    : "bg-white/5 border-white/10 text-white hover:text-white hover:border-white/20"
+                }`}
+              >
+                {cat} {cat !== "All" && (
+                  <span className="ml-1 text-xs opacity-60">
+                    ({portfolioImages.filter((img) => categoryLabels[img.category] === cat).length})
+                  </span>
+                )}
+              </button>
+            ))}
+          </div>
+
+          {/* Masonry-style Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {visibleWork.map((image, i) => (
+              <WorkImageCard
+                key={image.src}
+                image={image}
+                delay={Math.min(i * 0.03, 0.3)}
+              />
+            ))}
+          </div>
+
+          {/* Load More */}
+          {!showAll && filteredWork.length > 24 && (
+            <div className="text-center mt-10">
+              <button
+                onClick={() => setShowAll(true)}
+                className="px-8 py-3 rounded-full border border-[#ff4500]/30 text-[#ff4500] font-medium hover:bg-[#ff4500]/10 transition-all duration-300"
+              >
+                Show All {filteredWork.length} Images
+              </button>
+            </div>
+          )}
+
+          {filteredWork.length === 0 && (
+            <p className="text-center text-white py-12 text-lg">
+              No work in this category yet.
+            </p>
+          )}
         </div>
       </section>
 
