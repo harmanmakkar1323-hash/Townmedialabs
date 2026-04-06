@@ -2,7 +2,7 @@
 // Or: node scripts/submit-indexnow.mjs --sitemap (submits all URLs from sitemap)
 
 const INDEXNOW_KEY = 'tml2026indexnow';
-const HOST = 'townmedialabs.ca';
+const HOST = 'townmedialabs.com';
 const KEY_LOCATION = `https://${HOST}/${INDEXNOW_KEY}.txt`;
 
 async function submitUrls(urls) {
@@ -36,5 +36,5 @@ if (args[0] === '--sitemap') {
   await submitUrls(args);
 } else {
   console.log('Usage: node scripts/submit-indexnow.mjs --sitemap');
-  console.log('   or: node scripts/submit-indexnow.mjs https://townmedialabs.ca/page1 https://townmedialabs.ca/page2');
+  console.log('   or: node scripts/submit-indexnow.mjs https://townmedialabs.com/page1 https://townmedialabs.com/page2');
 }

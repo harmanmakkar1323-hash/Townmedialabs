@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: process.env.NEXT_PUBLIC_GSC_VERIFICATION || "",
+    google: "Bad0-s5DVxp7QYHEJB6nTU_sBVSTHGvpy1CJ7om75Eo",
   },
   openGraph: {
     title: "TML Agency | Full-Service Branding & Digital Marketing",
