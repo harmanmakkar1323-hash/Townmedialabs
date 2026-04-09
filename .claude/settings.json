@@ -31,10 +31,14 @@
       "Bash(du -ch public/work/*.webp)",
       "Read(//Users/ramanmakkar/Desktop/tml-nextjs/{total += $5} END {printf \"New files total size: %.1f MB\\\\n\", total/1024/**)",
       "Bash(wc -l /Users/ramanmakkar/Desktop/tml-nextjs/src/app/blog/[slug]/BlogArticleClient.tsx /Users/ramanmakkar/Desktop/tml-nextjs/src/components/templates/LocationServiceTemplate.tsx)",
-      "Bash(node scripts/update-service-pages.mjs)"
+      "Bash(node scripts/update-service-pages.mjs)",
+      "Bash(node scripts/submit-indexnow.mjs --sitemap)",
+      "Bash(find /Users/ramanmakkar/Desktop/tml-nextjs/src/data -type f \\\\\\( -name \"*.js\" -o -name \"*.ts\" -o -name \"*.json\" \\\\\\) -exec wc -l {} \\\\;)",
+      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/2MEDIA/*.mp4)",
+      "Bash(node scripts/daily-google-indexer.mjs)"
     ],
     "additionalDirectories": [
-      "/Users/ramanmakkar/Desktop/tml-nextjs"
+      "/Users/ramanmakkar/Desktop/tml-nextjs/2MEDIA"
     ]
   },
   "hooks": {
