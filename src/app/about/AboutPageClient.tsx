@@ -76,6 +76,8 @@ const teamMembers = [
   { name: "Cristi", role: "Designer", initial: "CR" },
   { name: "Tammy", role: "Product Designer", initial: "TM" },
   { name: "Mr Hoop", role: "Branding Manager", initial: "MH" },
+  { name: "Karan", role: "WordPress Developer", initial: "KR" },
+  { name: "Bavneet", role: "UI/UX Designer", initial: "BV" },
 ];
 
 export default function AboutPageClient() {

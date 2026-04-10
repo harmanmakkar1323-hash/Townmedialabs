@@ -1,348 +1,273 @@
-# TML Agency Full SEO Audit Report
-**URL:** https://townmedialabs.ca/  
-**Date:** 2026-04-04  
-**Business Type:** Agency (Digital Marketing)  
-**Location:** Edmonton, AB, Canada  
+# Full SEO Audit Report: townmedialabs.com
+
+**Date**: April 9, 2026
+**Audited by**: Claude Opus 4.6 (6 specialist agents)
+**Site**: townmedialabs.com
+**Business Type**: Full-service digital marketing agency (hybrid local + global)
+**Tech Stack**: Next.js (App Router, SSR)
+**Total URLs in Sitemap**: 1,341
+**Total Estimated Pages**: ~2,000+
 
 ---
 
-## SEO Health Score: 38/100
+## SEO Health Score: 67 / 100
 
 | Category | Weight | Score | Weighted |
 |----------|--------|-------|----------|
-| Technical SEO | 22% | 30/100 | 6.6 |
-| Content Quality | 23% | 40/100 | 9.2 |
-| On-Page SEO | 20% | 25/100 | 5.0 |
-| Schema / Structured Data | 10% | 45/100 | 4.5 |
-| Performance (CWV) | 10% | 55/100 | 5.5 |
-| AI Search Readiness | 10% | 50/100 | 5.0 |
-| Images | 5% | 45/100 | 2.3 |
-| **Total** | **100%** | | **38.1** |
+| Technical SEO | 22% | 72/100 | 15.8 |
+| Content Quality | 23% | 62/100 | 14.3 |
+| On-Page SEO | 20% | 68/100 | 13.6 |
+| Schema / Structured Data | 10% | 75/100 | 7.5 |
+| Performance (CWV) | 10% | 50/100 | 5.0 |
+| AI Search Readiness | 10% | 71/100 | 7.1 |
+| Images | 5% | 80/100 | 4.0 |
+| **TOTAL** | **100%** | | **67.3** |
 
 ---
 
 ## Executive Summary
 
 ### Top 5 Critical Issues
-1. **Wrong domain in all canonical URLs & OG tags** — Code uses `townmedialabs.com` but site is `townmedialabs.ca`. Every page has incorrect canonicals.
-2. **All 1,107 location pages use Edmonton geo coordinates** — Schema shows lat 53.5461 / lng -113.4937 for Toronto, Vancouver, Calgary, etc.
-3. **Edmonton postal code (T5G 2K1) in ALL location schemas** — ProfessionalService schema for Toronto/Vancouver/etc. all have Edmonton's postal code.
-4. **Indian locale & references left in codebase** — OG locale set to `en_IN`, Chandigarh references in service data, ad spend shown in Indian Rupees on Canadian pages, locations.ts starts with Delhi/Mumbai/Punjab.
-5. **Toronto FAQ falsely claims "headquartered in Toronto"** — Misleading; actual HQ is Edmonton.
+
+1. **~1,628 programmatic geo pages are scaled content abuse risk** — 148 of 158 cities lack unique content, producing 80-95% identical pages via `cityServiceAutoContent.ts` hash-based template shuffling. Random industry rotation creates incoherent pages (retail + healthcare + hospitality on same page). Google's March 2024 policy explicitly targets this pattern. *(Content + Local + Technical)*
+
+2. **Client components import 2.75 MB of data, destroying geo page performance** — `LocationServiceTemplate.tsx` and `ServicePageTemplate.tsx` are `"use client"` components that re-import all data files (locations, servicePages, blogArticles, industries, serviceSeoContent, cityServiceContent) despite server wrappers already pre-computing minimal data slices. Geo page TBT: **29,900ms**. Lighthouse mobile: **37/100**. *(Performance)*
+
+3. **Sitemap trailing-slash mismatch causes 2,688 unnecessary redirects** — `next.config.ts` enforces `trailingSlash: true` but `sitemap.ts` generates URLs without trailing slashes. Every crawl request hits a 308 redirect, doubling effective crawl load. *(Technical)*
+
+4. **"Trusted by" logo carousel may show non-client brands** — Displaying Google, Microsoft, Amazon, Netflix logos without clarification ("Tools & Platforms" vs "Clients") violates Google's Quality Rater Guidelines for Trustworthiness. *(Content)*
+
+5. **Duplicate ProfessionalService schema blocks on homepage** — Two `<script>` tags with `@id: #localbusiness`. Second block (containing AggregateRating 4.9/352 reviews and 3 Review objects) may be completely ignored by Google. *(Schema)*
 
 ### Top 5 Quick Wins
-1. Fix `siteUrl` in layout.tsx from `.com` to `.ca` (fixes all canonical URLs)
-2. Fix OG locale from `en_IN` to `en_CA`
-3. Add correct geo coordinates per city in locations.ts
-4. Add meta descriptions to all location pages (currently missing from rendered HTML)
-5. Fix "Best X in Y" title pattern to professional titles
+
+1. **Fix sitemap trailing slashes** — 30 min in `src/app/sitemap.ts`, eliminates 2,688 redirects per crawl cycle
+2. **Remove data imports from client components** — 4-8 hrs, cuts JS from 1,300KB to ~200KB, fixes 29,900ms TBT
+3. **Add `noindex` to geo pages without `uniqueContent`** — 1 hr, removes ~1,628 thin pages from index
+4. **Merge duplicate ProfessionalService schema** — 30 min, fixes Review rich results eligibility
+5. **Add `<link rel="preload">` for hero image** — 5 min, saves 200-500ms on homepage LCP
 
 ---
 
-## 1. Technical SEO (Score: 30/100)
+## Detailed Findings by Category
 
-### CRITICAL Issues
+### 1. Technical SEO — 72/100
 
-#### 1.1 Wrong Canonical Domain
-- **File:** `src/app/layout.tsx:27` — `siteUrl` is `"https://townmedialabs.com"` but actual domain is `townmedialabs.ca`
-- **Impact:** Every page's canonical URL, OG URL, and sitemap reference points to wrong domain
-- **File:** `src/app/services/seo-in-calgary/page.tsx:13` — `canonical: "https://townmedialabs.com/services/seo-in-calgary"`
-- **Affects:** All 1,129+ pages. Google may treat .com and .ca as different sites, splitting authority.
+**Strengths:**
+- Security headers excellent (92/100) — HSTS with preload, all protective headers in place
+- Full SSR rendering (90/100) — every page returns pre-rendered HTML, no JS dependency for crawlers
+- IndexNow key file in place
+- AI crawler access properly configured in robots.txt (all major AI bots allowed)
+- Next.js Image component with responsive srcSet, AVIF/WebP, lazy loading
+- Canonical tags set correctly on all pages
+- hreflang tags present (en-IN + x-default)
 
-#### 1.2 Wrong OG Locale
-- **File:** `src/app/services/seo-in-calgary/page.tsx:20` — `locale: "en_IN"` (Indian English)
-- **Should be:** `"en_CA"` for a Canadian agency
-- **Affects:** All location pages with hardcoded metadata
+**Issues:**
 
-#### 1.3 Indian Market Data Leaking Into Canadian Site
-- **File:** `src/data/locations.ts` — Starts with Delhi, Mumbai, Punjab (Indian cities)
-- **File:** `src/data/servicePages.ts:46` — "Our branding experts in Chandigarh"
-- **File:** `src/data/servicePages.ts:49` — "TML Agency in Chandigarh helps businesses"
-- **Live page:** Google Ads Toronto page shows ad spend in "₹5Cr+" (Indian Rupees) instead of CAD
-- **Impact:** Destroys geographic trust signals for Canadian market targeting
-
-### HIGH Issues
-
-#### 1.4 Robots.txt — Adequate
-- Allows all crawlers, blocks /404 and *.json
-- References sitemap correctly
-- **Missing:** No crawl-delay (may want one with 1,100+ pages)
-
-#### 1.5 No llms.txt File
-- No `llms.txt` or `.well-known/llms.txt` found
-- Missing opportunity for AI search engines
-
-#### 1.6 Missing Security Headers
-- No CSP (Content-Security-Policy) detected
-- No X-Frame-Options detected
-- HSTS status unknown
-
-### MEDIUM Issues
-
-#### 1.7 No lang Attribute
-- HTML lang attribute not confirmed on pages
-- Should be `lang="en-CA"` or at minimum `lang="en"`
-
-#### 1.8 No IndexNow Support
-- No IndexNow API key or implementation detected
+| Priority | Issue | Impact |
+|----------|-------|--------|
+| Critical | Sitemap URLs missing trailing slashes → 2,688 308-redirects per crawl | Doubles crawl load |
+| High | Blog listing page is 231KB (295 articles loaded on one page) | Crawl budget waste, poor UX |
+| High | Homepage is 267KB HTML | Slow initial parse |
+| Medium | 2,295 geo pages at ~165KB each, ~5,500 words, near-identical sizes | Duplicate content signal |
+| Medium | Geo pages lack cross-service internal linking for same city | Missing link equity flow |
+| Low | No pagination on blog listing | UX + crawl issue |
 
 ---
 
-## 2. Content Quality (Score: 40/100)
+### 2. Content Quality — 62/100
 
-### CRITICAL Issues
+**Strengths:**
+- SEO service page genuinely deep (~4,000 words with current 2026 AI Overviews content)
+- 295 blog articles with active publishing schedule
+- Good founding story on About page with human voice
+- Strong social proof (500+ brands, 98% retention, 15+ years)
+- Chandigarh pages well-crafted with ~60% unique content
 
-#### 2.1 Location Page Content Uniqueness — Below Threshold
-**1,107 location pages** exceeds the 50-page quality gate (HARD STOP threshold).
+**Issues:**
 
-**Calgary vs Toronto SEO page comparison:**
+| Priority | Issue | Impact |
+|----------|-------|--------|
+| Critical | 1,826 programmatic geo pages with 85-95% content similarity | Scaled content abuse risk |
+| Critical | "Trusted by" logos may misrepresent client relationships (Google, Amazon, Netflix) | E-E-A-T violation |
+| High | Author attribution thin — ~150 word author page, no photo, `/authors/` returns 404 | Weak E-E-A-T signals |
+| High | Auto-content system mixes random industries on same page (retail + healthcare + hospitality) | Incoherent content |
+| Medium | Blog dates cluster in March-April 2026 | Suggests batch generation |
+| Medium | Statistics (67% of Chandigarh businesses, 1.2M internet users) lack source attribution | Reduces trustworthiness |
 
-| Element | Calgary | Toronto | Same? |
-|---------|---------|---------|-------|
-| H1 | "Best SEO Agency in Calgary" | "Best SEO in Toronto" | Template |
-| Section structure | Why/Process/Offer/Expertise/Local/Pricing/Industries/FAQ | Identical structure | Template |
-| Process steps | Audit/Research/Optimize/Create | Discovery/Strategy/Implementation/Growth | Different |
-| FAQ count | 4 questions | 5 questions | Different |
-| FAQ content | Calgary-specific | Toronto-specific | Different |
-| Local landmarks | Stephen Avenue, Kensington, Beltline | Bay Street, Kensington Market, MaRS | Different |
-| Industries focus | Oil & Gas, Finance, Tech | Finance, Tech, Media & Entertainment | Different |
-| Pricing | $300-$3,000/mo | $2,500-$15,000/mo | Different |
-| Testimonial | Generic (no attribution) | Generic (no attribution) | Same template |
-| Service list | 6 identical services | 6 identical services | Same template |
-| Stats section | Empty/blank values | Empty/blank values | Same template |
-
-**Estimated unique content: ~45-50%** (below 60% threshold)
-
-#### 2.2 Misleading Location Claims
-- Toronto FAQ states: *"We're headquartered in Toronto"* — FALSE. HQ is Edmonton.
-- Toronto FAQ: *"We also bring clients from across Ontario to our Toronto office for in-person strategy sessions"* — No evidence of Toronto office
-- **Risk:** Misleading claims that could trigger manual penalties
-
-#### 2.3 Pricing Inconsistency Across Pages
-| Page | Pricing Shown |
-|------|---------------|
-| /services/seo (body) | Starting at $20,000/month |
-| /services/seo (schema) | $999-$7,999 CAD |
-| /services/seo-in-calgary | $300-$3,000/mo |
-| /services/seo-in-toronto | $2,500-$15,000/mo |
-| Homepage | "Startup/Enterprise/Growing Business" tiers |
-
-This inconsistency destroys trust and confuses both users and AI crawlers.
-
-### HIGH Issues
-
-#### 2.4 Blog — No Author Attribution
-- 74 blog posts, zero author names shown
-- E-E-A-T requires clear authorship for expertise signals
-- No author pages or bios
-
-#### 2.5 Blog — All Posts on Single Page
-- 74 posts load on one page with no pagination
-- Dilutes page authority and creates unnecessarily large page
-
-#### 2.6 Industry Pages — Thin Content
-- Healthcare page: ~1,200-1,400 words
-- No case studies, data, or original research
-- Generic advice without industry-specific depth
-
-#### 2.7 Empty Stats Sections
-- Location pages show stats like "Projects Delivered" and "Client Retention Rate" with blank/zero values
-- Google Ads Toronto shows "0 Campaigns Running" as a stat — counterproductive
-
-### MEDIUM Issues
-
-#### 2.8 No Case Studies on Location Pages
-- Testimonials are generic with no client attribution
-- No city-specific case studies or results data
+**Auto-content system analysis** (`cityServiceAutoContent.ts`):
+- 8 H1 patterns with deterministic hash-based content selection
+- Random industry rotation per section
+- Only 10 of 158 locations have hand-written `uniqueContent` in `locations.ts`
+- Tier 1 cities (Chandigarh, Delhi, Mumbai, Dubai, London) have enrichment in `cityServiceContent.ts`
 
 ---
 
-## 3. On-Page SEO (Score: 25/100)
+### 3. On-Page SEO — 68/100
 
-### CRITICAL Issues
+**Strengths:**
+- H1 present on all pages with proper hierarchy
+- Canonical tags set correctly
+- Meta robots properly configured ("index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1")
+- Google Search Console verified
 
-#### 3.1 Meta Title Pattern — Unprofessional & Repetitive
-All 1,107+ location pages use: **"Best [Service] Agency in [City] | TML Agency"**
+**Issues:**
 
-**Current titles across the site:**
-
-| Page | Current Title |
-|------|--------------|
-| Homepage | TML Agency \| #1 Digital Marketing Agency Edmonton |
-| SEO Service | Best SEO Services in Canada \| TML Agency |
-| SEO Calgary | Best SEO Agency in Calgary \| TML Agency |
-| SEO Toronto | Best SEO in Toronto \| TML Agency |
-| Google Ads Toronto | Best Google Ads in Toronto \| TML Agency |
-| Branding Vancouver | Best Branding in Vancouver \| TML Agency |
-| Web Design Edmonton | Best Web Design in Edmonton \| TML Agency |
-| Portfolio | Best Portfolio \| TML Agency |
-| About | About TML Agency \| Best Marketing Agency Edmonton |
-| Contact | Contact TML Agency \| Get a Free Consultation \| Edmonton |
-| Blog | Blog \| TML Agency — Marketing, Branding & AI Insights |
-
-**Problems:**
-1. **"Best" is a subjective superlative** — Google discounts unsubstantiated claims
-2. **"Best Portfolio" is nonsensical** — A portfolio is not rankable as "best"
-3. **"#1" claim on homepage** — Unsubstantiated; could trigger manual review
-4. **Title template inconsistency** — some use `|`, others use `—`, contact page uses double `|`
-5. **All 1,107 location titles are the same pattern** — Google sees this as template spam
-6. **No value proposition in titles** — "Best SEO in Calgary" says nothing unique
-7. **Brand name "TML Agency" doesn't match domain** `townmedialabs.ca`
-
-#### 3.2 Missing Meta Descriptions
-- Location pages: Meta descriptions exist in code but many are generic
-- "seo" is lowercase in descriptions — should be "SEO"
-- Many pages have no meta description visible in rendered HTML
-
-#### 3.3 H1 Inconsistency
-- Toronto has TWO H1 tags: "Best SEO in Toronto" AND "Toronto's Trusted SEO Partner"
-- Multiple H1s dilute the primary heading signal
-
-### HIGH Issues
-
-#### 3.4 Keyword Cannibalization Risk
-- 1,107 location pages all targeting "[service] in [city]" pattern
-- Generic service pages also target these terms
-- No clear hierarchy between /services/seo and /services/seo-in-[city]
-
-#### 3.5 Internal Linking — Over-Templated
-- Every location page links to the same 10 city pages and same related services
-- No contextual, editorial internal links based on content relevance
-
-### MEDIUM Issues
-
-#### 3.6 Missing Open Graph Tags
-- Many pages lack OG tags in rendered HTML
-- All pages use same generic og-image.png
-
-#### 3.7 Alt Text — Generic Pattern
-- Location page images use: "SEO in Calgary — TML Agency" regardless of image content
-- Alt text should describe actual image content
+| Priority | Issue | Impact |
+|----------|-------|--------|
+| High | Geo page H1 patterns are repetitive (8 templates rotated across 1,800+ pages) | Title devaluation |
+| Medium | Marketing-slogan headings ("Every service you need under one roof") instead of question format | Poor AI extraction |
+| Medium | No datePublished/dateModified on service pages | Missing freshness signals |
+| Medium | FAQ answers mostly under 80 words — too short for AI citation | Low citability |
+| Low | Meta descriptions likely templated across geo pages | Lower CTR differentiation |
 
 ---
 
-## 4. Schema / Structured Data (Score: 45/100)
+### 4. Schema / Structured Data — 75/100
 
-### CRITICAL Issues
+**Strengths:**
+- All JSON-LD syntax valid (no parse errors anywhere)
+- `https://schema.org` used consistently as @context
+- All URLs absolute, all dates ISO 8601
+- Blog posts have proper Article schema with author, dates, publisher, breadcrumbs
+- `/services/seo/` has Service + BreadcrumbList + FAQPage (good replicable pattern)
+- WebSite with SearchAction present globally (Sitelinks search box eligible)
+- VideoObject on homepage complete with all required fields
+- Organization schema with founder, founding date, employee count
 
-#### 4.1 Wrong Geo Coordinates on ALL Location Pages
-Every location page uses Edmonton's coordinates:
-```json
-"geo": { "latitude": "53.5461", "longitude": "-113.4937" }
-```
-Toronto (43.6532, -79.3832), Vancouver (49.2827, -123.1207), Calgary (51.0447, -114.0719) — all show Edmonton.
+**Issues:**
 
-#### 4.2 Wrong Postal Code in ProfessionalService Schema
-All pages use `T5G 2K1` (Edmonton) regardless of city.
-
-#### 4.3 ProfessionalService Schema Claims Local Presence
-Implies physical office with opening hours in every city — misleading for an SAB with one office.
-
-### HIGH Issues
-
-#### 4.4 FAQPage Schema on Commercial Site
-- Present on homepage, location pages, service pages, about, contact
-- Since Aug 2023: Google only shows FAQ rich results for government/healthcare
-- Still useful for AI/LLM citation benefit
-- Priority: Info — keep for AI benefit
-
-#### 4.5 Missing Schema Types
-- No AggregateRating — despite "4.9/5 Rating" claim
-- No VideoObject — homepage has "Showreel 2025"
-- No Person schema — about page lists 7 team members
-- No Article schema on individual blog posts
-
-#### 4.6 Organization Schema Social Links Inconsistent
-- Homepage: Instagram, Facebook, LinkedIn
-- Location pages: LinkedIn, Twitter, Instagram
-- Twitter handle differs: `@tmlagency` vs `@tml_agency`
-
-### MEDIUM Issues
-
-#### 4.7 Service Schema Pricing Mismatch
-- Schema: $999-$7,999 but body text: $20,000+/month
-
-#### 4.8 BreadcrumbList — Good
-- Correctly implemented with proper hierarchy
+| Priority | Issue | Impact |
+|----------|-------|--------|
+| Critical | Duplicate ProfessionalService blocks on homepage (both use `@id: #localbusiness`) | Review rich results lost |
+| Critical | Zero page-specific schema on 139+ geo pages (no Service, BreadcrumbList, city-specific areaServed) | Massive missed opportunity |
+| High | Founder/jobTitle contradiction — homepage: "Owner & Founder" vs about page: "SEO & Growth" (Raman) and "Owner & Visionary" (Arvinder) | Conflicting entity signals |
+| Medium | No GBP Place ID in ProfessionalService schema | Missed local signal |
+| Medium | No HowTo schema for process sections | Lost rich result opportunity |
+| Low | Missing speakable property for voice-assistant optimization | Future-proofing |
 
 ---
 
-## 5. Performance / CWV (Score: 55/100)
+### 5. Performance (Core Web Vitals) — 50/100
 
-**Positive signals:**
-- Next.js with SSR/SSG — good for LCP
-- `font-display: swap` on both fonts
-- Preloaded fonts with fallbacks
-- WebP images used
+**Lighthouse Mobile Scores:**
 
-### MEDIUM Issues
+| Page | Score | LCP | TBT | CLS |
+|------|-------|-----|-----|-----|
+| Homepage | 83/100 | 3.6s (needs improvement) | 200ms | 0 |
+| /services/seo/ | 70/100 | 8.9s (poor) | 140ms | 0.001 |
+| /seo-in-chandigarh/ | **37/100** | **7.5s** (poor) | **29,900ms** (poor) | 0.001 |
 
-#### 5.1 Blog Loads All 74 Posts on Single Page
-- Estimated page weight: 2MB+ with images
-- Should implement pagination
+**Root Cause**: `LocationServiceTemplate.tsx` (lines 6-22) and `ServicePageTemplate.tsx` are `"use client"` components that directly import ~2.75 MB of data files. Server wrappers (`LocationServicePage.tsx` / `prepareLocationServiceData()`) already exist and correctly pre-compute minimal data slices — but the client templates re-import everything anyway, completely defeating the server-side optimization.
 
-#### 5.2 Dual Analytics Scripts
-- Microsoft Clarity + Google Analytics — both add to JS bundle
+| Priority | Issue | Impact |
+|----------|-------|--------|
+| Critical | Client components import 2.75 MB data despite server pre-computation | 29,900ms TBT, 37/100 Lighthouse |
+| High | LCP elements start with `opacity: 0`, wait for JS hydration + motion animation | 7.5-8.9s LCP on service/geo pages |
+| Medium | No `<link rel="preload">` for hero image | +200-500ms homepage LCP |
+| Medium | No font preloading strategy | Potential render-blocking |
 
----
-
-## 6. AI Search Readiness (Score: 50/100)
-
-### HIGH Issues
-- No llms.txt file
-- No AI bot directives in robots.txt
-- Brand name inconsistency (TML Agency vs Town Media Labs)
-
-### Positive Signals
-- FAQ sections with clear Q&A — good for AI citation
-- Specific statistics (500+ brands, 98% retention, 15+ years)
-- Google Partner, Shopify Partner certifications
-- Structured data present
+**CLS is excellent everywhere (0-0.001)** — no layout shift issues.
 
 ---
 
-## 7. Images (Score: 45/100)
+### 6. AI Search Readiness (GEO) — 71/100
 
-### HIGH Issues
-- Generic alt text pattern on location pages
-- No image sitemap
-- Blog images: no alt text
+**Strengths:**
+- AI crawler access is **best-in-class** — all 13 major AI bots explicitly allowed in robots.txt
+- **llms.txt present** with citation guidance (ahead of 95%+ of competitors)
+- Extended `/llms-full.txt` with detailed company knowledge base
+- Strong entity clarity consistently defined across homepage, schema, llms.txt
+- Extensive schema markup for entity understanding
+- Full SSR ensures AI crawlers see all content
 
-### MEDIUM Issues
-- Single OG image for all 1,129 pages
-- Logo missing alt text on multiple pages
+**Issues:**
 
----
+| Priority | Issue | Impact |
+|----------|-------|--------|
+| High | Passage-level citability only 58/100 — no "Answer Block" paragraphs of 134-167 words | Low AI citation rate |
+| High | No Wikipedia entity (strongest AI citation signal, ~0.737 correlation) | Missing authority signal |
+| High | No author bylines or dates on service pages | Weak E-E-A-T for AI |
+| Medium | Statistics lack source attribution ("According to [Source, Year]") | Unverifiable claims |
+| Medium | Marketing-slogan headings instead of question format matching AI queries | Poor extraction |
+| Low | llms.txt missing version/date, trailing slash inconsistency in URLs | Minor gaps |
 
-## 8. Sitemap
+**Platform-Specific Scores:**
 
-### HIGH Issues
-- All lastmod dates identical (2026-04-03) — reduces trust
-- Missing: industry pages, individual blog posts, portfolio projects
-- 1,107 location pages — quality gate warning
-
-### MEDIUM Issues
-- Single sitemap (should split by content type)
-- No image or video sitemaps
-
----
-
-## 9. Local SEO
-
-### CRITICAL Issues
-- False local presence claims via ProfessionalService schema in every city
-- NAP inconsistency: "TML Agency - Calgary", "TML Agency - Toronto" create fake variants
-- Wrong postal code for every non-Edmonton location
-
-### HIGH Issues
-- No Google Maps embed on contact page
-- Phone uses Calgary area code (403) but business is in Edmonton (780)
-- SAB model not properly defined in schema
+| Platform | Score | Key Gap |
+|---|---|---|
+| Google AI Overviews | 72/100 | Missing Article schema on blog, author E-E-A-T, passage length |
+| Perplexity | 74/100 | No outbound citations to authoritative sources |
+| Bing Copilot | 70/100 | No datePublished/dateModified on service pages |
+| ChatGPT Web Search | 68/100 | No Wikipedia entity, sales copy mixed with info content |
 
 ---
 
-## 10. Brand & Trust
+### 7. Images — 80/100
 
-### HIGH Issues
-- Founder listed inconsistently: "Arvinder Singh (Owner & Founder)" on about page vs "Raman Makkar (Chief SEO Strategist & Founder)" in schema
-- Brand fragmentation: townmedialabs.ca / TML Agency / Town Media Labs
+**Strengths:**
+- Next.js Image component with responsive srcSet
+- AVIF/WebP format optimization
+- Proper lazy loading implementation
+- Alt text present on homepage images with descriptive content
+
+**Issues:**
+
+| Priority | Issue | Impact |
+|----------|-------|--------|
+| Medium | No hero image preload hint in HTML head | Delayed LCP |
+| Low | Alt text quality on geo pages untested at scale | Potential gaps |
+
+---
+
+### 8. Local SEO — 68/100
+
+**Strengths:**
+- NAP consistency excellent across all pages (address, phone, email match everywhere)
+- Homepage schema comprehensive — ProfessionalService with aggregateRating, openingHours, geo, areaServed, founder, numberOfEmployees
+- Chandigarh pages genuinely well-crafted with ~60% unique content, local landmarks, custom FAQs
+- Smart noindex strategy for niche services outside India
+- Country-aware content system with currency, CPC data, and market stats per country
+
+**Issues:**
+
+| Priority | Issue | Impact |
+|----------|-------|--------|
+| Critical | 148 of 158 cities lack `uniqueContent` — ~1,628 pages are doorway territory | Penalty risk across entire domain |
+| High | No live GBP integration — no Maps iframe, no GBP Place ID, no review widget, no "Leave a Review" CTA | Missing 25% of local ranking weight |
+| Medium | Geo coordinates at 4 decimal places (~11m precision) vs recommended 5+ (~1m) | Minor accuracy gap |
+| Medium | No city-cluster hub pages linking services within same city | Missing internal link structure |
+
+---
+
+## Cross-Audit Theme: The Programmatic Geo Page Problem
+
+The single most critical finding, flagged by **ALL 6 audits**, is the programmatic geo page system:
+
+| Audit | Finding |
+|-------|---------|
+| **Content** | 85-95% similarity, incoherent industry mixing → "scaled content abuse" |
+| **Technical** | 2,295 pages × 165KB = massive crawl budget drain, all same size |
+| **Performance** | 37/100 Lighthouse, 29,900ms TBT on geo pages |
+| **Local** | 148/158 cities are doorway pages without unique content |
+| **Schema** | Zero page-specific structured data on geo pages |
+| **GEO** | Template content not citable by AI systems |
+
+**Why this matters site-wide**: Google's Helpful Content System evaluates domain-wide quality. Having ~1,600 thin/duplicate pages could **suppress rankings for ALL pages**, including the genuinely strong Chandigarh pages, service pages, and blog content.
+
+**Recommendation**: Immediately noindex all geo pages without `uniqueContent`. Reduce to ~30-50 cities with demonstrable client presence. Dramatically enrich those with real case studies, local data, and unique content. Remove or noindex the rest.
+
+---
+
+## What's Working Well (Don't Break These)
+
+1. **Security headers** — 92/100, HSTS with preload, all protective headers
+2. **SSR rendering** — Full pre-rendered HTML, no JS dependency for crawlers
+3. **Schema foundation** — Valid JSON-LD everywhere, good variety of types
+4. **AI crawler access** — Best-in-class robots.txt + llms.txt
+5. **Image optimization** — Next.js Image with AVIF/WebP, responsive srcSet, lazy loading
+6. **NAP consistency** — Same address, phone, email across all pages
+7. **Blog volume** — 295 articles providing topical depth
+8. **CLS scores** — 0-0.001 everywhere, zero layout shift issues
+9. **IndexNow** — Already configured for instant crawl notifications
+10. **Chandigarh content** — Genuinely well-crafted local pages with ~60% unique content
