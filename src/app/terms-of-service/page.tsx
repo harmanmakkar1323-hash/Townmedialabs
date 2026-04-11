@@ -3,10 +3,19 @@ import InnerNavbar from "@/components/layout/InnerNavbar";
 import { FooterHome2 } from "@/components/sections/FooterHome2";
 
 export const metadata: Metadata = {
-  title: "Terms of Service",
+  title: "Terms of Service | TML Agency",
   description:
-    "TML Agency terms of service. Read about the terms and conditions governing the use of our website and services.",
-  alternates: { canonical: "/terms-of-service" },
+    "Read the TML Agency terms of service. Understand the terms and conditions that govern your use of townmedialabs.com and our digital marketing services.",
+  alternates: { canonical: "/terms-of-service/" },
+  openGraph: {
+    title: "Terms of Service | TML Agency",
+    description:
+      "Read the TML Agency terms of service governing your use of townmedialabs.com and our digital marketing services.",
+    url: "https://townmedialabs.com/terms-of-service/",
+    siteName: "TML Agency",
+    type: "website",
+    locale: "en_IN",
+  },
 };
 
 export default function TermsOfServicePage() {
@@ -14,7 +23,7 @@ export default function TermsOfServicePage() {
     <main className="bg-[#050505] text-white min-h-screen">
       <InnerNavbar />
 
-      <article className="relative w-full px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:px-12">
+      <article className="hero-orange-gradient relative w-full px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:px-12 overflow-hidden">
         <div className="mx-auto max-w-3xl prose-invert">
           <p className="text-[10px] text-white tracking-[0.25em] uppercase mb-6">
             Legal

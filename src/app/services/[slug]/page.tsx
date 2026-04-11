@@ -2,20 +2,33 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { locations, getAllLocationServiceDefs } from "@/data/locations";
 import LocationServicePage from "@/components/templates/LocationServicePage";
+import { shouldNoindex } from "@/utils/noindex";
 
 // ── Service mapping ──
 // URL prefix → { serviceSlug, serviceName }
 const SERVICE_MAP: Record<string, { serviceSlug: string; serviceName: string }> = {
+  "online-reputation-management": { serviceSlug: "online-reputation-management", serviceName: "Online Reputation Management" },
+  "conversion-rate-optimization": { serviceSlug: "conversion-rate-optimization", serviceName: "Conversion Rate Optimization" },
   "social-media-marketing": { serviceSlug: "social-media", serviceName: "Social Media Marketing" },
   "ai-influencer-management": { serviceSlug: "ai-influencer-management", serviceName: "AI Influencer Management" },
+  "influencer-marketing": { serviceSlug: "influencer-marketing", serviceName: "Influencer Marketing" },
+  "ecommerce-marketing": { serviceSlug: "ecommerce-marketing", serviceName: "E-commerce Marketing" },
   "website-development": { serviceSlug: "website-development", serviceName: "Website Development" },
+  "content-marketing": { serviceSlug: "content-marketing", serviceName: "Content Marketing" },
   "branding-packaging": { serviceSlug: "branding-packaging", serviceName: "Packaging Design" },
+  "email-marketing": { serviceSlug: "email-marketing", serviceName: "Email Marketing" },
   "lead-generation": { serviceSlug: "lead-generation", serviceName: "Lead Generation" },
+  "content-writing": { serviceSlug: "content-writing", serviceName: "Content Writing" },
+  "ppc-management": { serviceSlug: "ppc-management", serviceName: "PPC Management" },
   "graphic-design": { serviceSlug: "graphic-design", serviceName: "Graphic Design" },
   "music-release": { serviceSlug: "music-release", serviceName: "Music Release" },
   "video-editing": { serviceSlug: "video-editing", serviceName: "Video Editing" },
+  "technical-seo": { serviceSlug: "technical-seo", serviceName: "Technical SEO" },
+  "link-building": { serviceSlug: "link-building", serviceName: "Link Building" },
+  "gmb-listing": { serviceSlug: "gmb-listing", serviceName: "GMB Listing" },
   "google-ads": { serviceSlug: "google-ads", serviceName: "Google Ads" },
   "branding": { serviceSlug: "branding", serviceName: "Branding" },
+  "meta-ads": { serviceSlug: "meta-ads", serviceName: "Meta Ads" },
   "seo": { serviceSlug: "seo", serviceName: "SEO" },
 };
 
@@ -55,6 +68,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const title = `${serviceName} Agency in ${cityName}`;
   const description = `TML offers expert ${serviceName} services in ${cityName}. Proven results for 500+ businesses. Get a free consultation today.`;
   const url = `https://townmedialabs.com/services/${slug}`;
+  const isNoindex = shouldNoindex(parsed.serviceSlug, parsed.locationSlug);
 
   return {
     title,
@@ -65,6 +79,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       `${serviceName.toLowerCase()} company ${cityName.toLowerCase()}`,
     ],
     alternates: { canonical: url },
+    robots: { index: !isNoindex, follow: true },
     openGraph: {
       title,
       description,

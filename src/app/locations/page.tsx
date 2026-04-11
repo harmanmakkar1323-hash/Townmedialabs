@@ -53,9 +53,9 @@ function buildGroups() {
 }
 
 export const metadata: Metadata = {
-  title: "Our Locations",
+  title: "Our Locations — 250+ Cities Worldwide | TML Agency",
   description:
-    "TML Agency serves businesses globally across 250+ cities in 7 countries. Explore our digital marketing services in India, Canada, USA, UK, Australia, New Zealand, and UAE.",
+    "TML Agency serves 250+ cities across India, Canada, USA, UK, Australia, New Zealand & UAE. Find digital marketing services in your city and start growing today.",
   keywords: [
     "digital marketing locations",
     "TML Agency locations",
@@ -64,24 +64,25 @@ export const metadata: Metadata = {
     "TML Agency cities",
   ],
   openGraph: {
-    title: "Our Locations",
+    title: "Our Locations — 250+ Cities Worldwide | TML Agency",
     description:
-      "Serving businesses globally across 250+ cities in 7 countries with tailored digital marketing strategies.",
-    url: "https://townmedialabs.com/locations",
+      "Serving 250+ cities across 7 countries with tailored digital marketing strategies. Find TML Agency services in your city.",
+    url: "https://townmedialabs.com/locations/",
     siteName: "TML Agency",
     type: "website",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "TML Agency Locations - Global Digital Marketing" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Our Locations",
+    title: "Our Locations — 250+ Cities Worldwide | TML Agency",
     description:
-      "Serving businesses globally across 250+ cities in 7 countries with tailored digital marketing strategies.",
+      "Serving 250+ cities across 7 countries with tailored digital marketing strategies. Find TML Agency services in your city.",
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://townmedialabs.com/locations",
+    canonical: "https://townmedialabs.com/locations/",
   },
 };
 

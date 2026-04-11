@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/seo-in-tauranga",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_NZ",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best SEO Agency in Tauranga" }],
   },
   twitter: {

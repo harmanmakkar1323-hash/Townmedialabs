@@ -1345,6 +1345,18 @@ const serviceList = [
   { slug: "video-editing", name: "Video Editing" },
   { slug: "branding-packaging", name: "Packaging Design" },
   { slug: "graphic-design", name: "Graphic Design" },
+  { slug: "content-writing", name: "Content Writing" },
+  { slug: "content-marketing", name: "Content Marketing" },
+  { slug: "email-marketing", name: "Email Marketing" },
+  { slug: "influencer-marketing", name: "Influencer Marketing" },
+  { slug: "ppc-management", name: "PPC Management" },
+  { slug: "online-reputation-management", name: "Online Reputation Management" },
+  { slug: "conversion-rate-optimization", name: "Conversion Rate Optimization" },
+  { slug: "ecommerce-marketing", name: "E-commerce Marketing" },
+  { slug: "gmb-listing", name: "GMB Listing" },
+  { slug: "technical-seo", name: "Technical SEO" },
+  { slug: "link-building", name: "Link Building" },
+  { slug: "meta-ads", name: "Meta Ads" },
 ];
 
 export function getLocationServiceSlug(serviceSlug: string, locationSlug: string): string {

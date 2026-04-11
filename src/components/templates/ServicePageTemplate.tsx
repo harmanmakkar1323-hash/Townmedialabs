@@ -4,17 +4,13 @@ import { useRef } from "react";
 import Link from "next/link";
 import { motion, useInView } from "motion/react";
 import type { ServicePageData } from "@/data/servicePages";
-import { servicePages } from "@/data/servicePages";
-import { blogArticles } from "@/data/blogArticles";
-import { industries, industryPages } from "@/data/industries";
-import { locations, getLocationServiceSlug } from "@/data/locations";
 import { getImagesForService } from "@/data/portfolioImages";
 import Image from "next/image";
-import { serviceRelatedBlogs, serviceRelatedIndustries } from "@/lib/internalLinks";
 import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
 import InnerNavbar from "@/components/layout/InnerNavbar";
 import { FooterHome2 } from "@/components/sections/FooterHome2";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
+import type { ServicePageExtras } from "@/lib/locationServiceData";
 
 const ease = [0.23, 1, 0.32, 1] as const;
 
@@ -274,20 +270,18 @@ function FAQItem({ faq, index }: { faq: { q: string; a: string }; index: number 
   );
 }
 
-export default function ServicePageTemplate({ data }: { data: ServicePageData }) {
+export default function ServicePageTemplate({ data, extras }: { data: ServicePageData; extras: ServicePageExtras }) {
   const statsRef = useRef(null);
   const statsInView = useInView(statsRef, { once: true, amount: 0.3 });
 
-  const relatedData = data.relatedServices
-    .map((slug) => servicePages[slug])
-    .filter(Boolean);
+  const relatedData = extras.relatedServices;
 
   return (
     <main className="bg-[#050505] text-white min-h-screen">
       <InnerNavbar />
 
       {/* Hero Section */}
-      <section className="relative w-full px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:px-12 overflow-hidden">
+      <section className="hero-orange-gradient relative w-full px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:px-12 overflow-hidden">
         <div className="relative z-10 max-w-5xl mx-auto mb-8">
           <Breadcrumbs items={[
             { label: "Home", href: "/" },
@@ -316,15 +310,10 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
             </Link>
           </motion.div>
 
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.1, ease }}
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium tracking-tight mb-6"
-          >
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium tracking-tight mb-6">
             {data.title}
             <span className="text-[#ff4500]">.</span>
-          </motion.h1>
+          </h1>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -821,10 +810,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
 
       {/* Related Articles */}
       {(() => {
-        const blogSlugs = serviceRelatedBlogs[data.slug] || [];
-        const relatedBlogs = blogSlugs
-          .map((slug) => ({ slug, article: blogArticles[slug] }))
-          .filter((b) => b.article);
+        const relatedBlogs = extras.relatedBlogs;
         if (relatedBlogs.length === 0) return null;
         return (
           <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 bg-[#080808] overflow-hidden">
@@ -849,26 +835,26 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
                 <span className="text-[#ff4500]">.</span>
               </motion.h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-                {relatedBlogs.map(({ slug, article }, i) => (
+                {relatedBlogs.map((blog, i) => (
                   <motion.div
-                    key={slug}
+                    key={blog.slug}
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: i * 0.1, ease }}
                   >
                     <Link
-                      href={`/blog/${slug}`}
+                      href={`/blog/${blog.slug}`}
                       className="group block p-6 md:p-8 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] hover:border-[#ff4500]/20 transition-all duration-500 h-full"
                     >
                       <span className="inline-block text-[10px] tracking-wider uppercase bg-[#ff4500]/10 text-[#ff4500] rounded-full px-3 py-1 font-semibold mb-4">
-                        {article.category}
+                        {blog.category}
                       </span>
                       <h3 className="text-base font-semibold text-white mb-3 group-hover:text-[#ff4500] transition-colors leading-snug">
-                        {article.title}
+                        {blog.title}
                       </h3>
                       <p className="text-sm text-white leading-relaxed mb-4 line-clamp-2">
-                        {article.metaDescription}
+                        {blog.metaDescription}
                       </p>
                       <span className="text-xs text-[#ff4500] font-medium tracking-wide group-hover:underline">
                         Read Article &rarr;
@@ -884,16 +870,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
 
       {/* Related Industries */}
       {(() => {
-        const industrySlugs = serviceRelatedIndustries[data.slug] || [];
-        const relatedIndustryData = industrySlugs
-          .map((slug) => {
-            const legacy = industries[slug];
-            const v2 = industryPages[slug];
-            if (v2) return { slug, name: v2.name, description: v2.metaDescription };
-            if (legacy) return { slug, name: legacy.name, description: legacy.description };
-            return null;
-          })
-          .filter(Boolean) as { slug: string; name: string; description: string }[];
+        const relatedIndustryData = extras.relatedIndustries;
         if (relatedIndustryData.length === 0) return null;
         return (
           <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
@@ -950,14 +927,7 @@ export default function ServicePageTemplate({ data }: { data: ServicePageData })
 
       {/* Available In — Top City Links */}
       {(() => {
-        const topCitySlugs = ["delhi", "mumbai", "bangalore", "london", "new_york", "dubai", "chandigarh", "pune"];
-        const cityLinks = topCitySlugs
-          .map((slug) => {
-            const loc = locations[slug];
-            if (!loc) return null;
-            return { slug: loc.slug, name: loc.name, href: `/services/${getLocationServiceSlug(data.slug, loc.slug)}` };
-          })
-          .filter(Boolean) as { slug: string; name: string; href: string }[];
+        const cityLinks = extras.cityLinks;
         if (cityLinks.length === 0) return null;
         return (
           <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">

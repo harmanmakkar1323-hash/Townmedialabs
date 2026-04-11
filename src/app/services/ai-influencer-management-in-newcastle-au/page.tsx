@@ -5,7 +5,6 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["newcastle_au"];
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "AI Influencer Management Agency in Newcastle",
   description: "TML offers expert AI Influencer Management services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management newcastle", "ai influencer management agency newcastle", "ai influencer management company newcastle"],
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/ai-influencer-management-in-newcastle-au",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_AU",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Newcastle" }],
   },
   twitter: {

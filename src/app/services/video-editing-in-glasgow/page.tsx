@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/video-editing-in-glasgow",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_GB",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Video Editing Agency in Glasgow" }],
   },
   twitter: {
@@ -27,7 +27,6 @@ export const metadata: Metadata = {
     description: "TML offers expert Video Editing services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
-  robots: { index: false, follow: true },
 };
 
 export default function VideoEditingInGlasgowPage() {

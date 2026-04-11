@@ -5,7 +5,6 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["columbus_oh"];
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "AI Influencer Management Agency in Columbus",
   description: "TML offers expert AI Influencer Management services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management columbus", "ai influencer management agency columbus", "ai influencer management company columbus"],
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/ai-influencer-management-in-columbus-oh",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Columbus" }],
   },
   twitter: {

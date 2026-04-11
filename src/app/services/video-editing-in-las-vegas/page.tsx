@@ -5,7 +5,6 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["las_vegas"];
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "Video Editing Agency in Las Vegas",
   description: "TML offers expert Video Editing services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing las vegas", "video editing agency las vegas", "video editing company las vegas"],
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/video-editing-in-las-vegas",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Video Editing Agency in Las Vegas" }],
   },
   twitter: {

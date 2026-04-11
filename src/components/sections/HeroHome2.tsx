@@ -45,7 +45,7 @@ export default function HeroHome2() {
         {/* Main Typography */}
         <div className="max-w-5xl mb-4">
           <h1
-            className="hero-fade-up text-[2rem] sm:text-4xl md:text-5xl lg:text-7xl font-medium leading-[1.05] tracking-tight text-white font-sans mb-3 text-balance"
+            className="text-[2rem] sm:text-4xl md:text-5xl lg:text-7xl font-medium leading-[1.05] tracking-tight text-white font-sans mb-3 text-balance"
           >
             Build <span className="text-[#ff4500]">brands</span>.{" "}
             Drive growth.

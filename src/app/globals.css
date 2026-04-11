@@ -297,6 +297,65 @@ h1, h2, h3 {
   opacity: 0;
   animation: heroFadeUp 0.8s cubic-bezier(0.23, 1, 0.32, 1) forwards;
 }
+
+/* ─── Shared subpage hero background ─── */
+/* Orange radial gradient + grid pattern + animated light sweep.          */
+/* Applied to the hero <section> of every subpage for a consistent look.  */
+.hero-orange-gradient {
+  background:
+    radial-gradient(ellipse 90% 60% at 50% 0%, rgba(255, 69, 0, 0.22) 0%, rgba(255, 69, 0, 0.08) 35%, rgba(255, 69, 0, 0) 70%),
+    radial-gradient(ellipse 60% 50% at 15% 20%, rgba(255, 107, 53, 0.08) 0%, rgba(255, 107, 53, 0) 60%),
+    radial-gradient(ellipse 60% 50% at 85% 25%, rgba(255, 140, 66, 0.06) 0%, rgba(255, 140, 66, 0) 60%),
+    linear-gradient(180deg, #050505 0%, #050505 100%);
+}
+
+/* Layer 1: Grid pattern — subtle 60px technical grid that fades at edges */
+.hero-orange-gradient::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 60px 60px;
+  background-position: center top;
+  -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 30%, #000 30%, transparent 80%);
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 30%, #000 30%, transparent 80%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Layer 2: Animated light sweep — diagonal orange highlight slowly moving */
+.hero-orange-gradient::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 70% 45% at 50% 0%, rgba(255, 69, 0, 0.18) 0%, transparent 55%),
+    linear-gradient(115deg, transparent 40%, rgba(255, 107, 53, 0.05) 50%, transparent 60%);
+  background-size: 100% 100%, 200% 100%;
+  background-repeat: no-repeat;
+  animation: heroSheen 14s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes heroSheen {
+  0%,
+  100% {
+    background-position: 0% 0%, -50% 0%;
+  }
+  50% {
+    background-position: 0% 0%, 150% 0%;
+  }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .hero-orange-gradient::after {
+    animation: none;
+  }
+}
 .hero-scale-x {
   transform: scaleX(0);
   animation: heroScaleX 1s cubic-bezier(0.23, 1, 0.32, 1) forwards;

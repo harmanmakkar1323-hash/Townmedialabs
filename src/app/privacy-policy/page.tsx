@@ -3,10 +3,19 @@ import InnerNavbar from "@/components/layout/InnerNavbar";
 import { FooterHome2 } from "@/components/sections/FooterHome2";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
+  title: "Privacy Policy | TML Agency",
   description:
-    "TML Agency privacy policy. Learn how we collect, use, and protect your personal information.",
-  alternates: { canonical: "/privacy-policy" },
+    "Read the TML Agency privacy policy. Learn how we collect, use, store and protect your personal information when you visit townmedialabs.com or contact us.",
+  alternates: { canonical: "/privacy-policy/" },
+  openGraph: {
+    title: "Privacy Policy | TML Agency",
+    description:
+      "Read the TML Agency privacy policy. Learn how we collect, use, store and protect your personal information.",
+    url: "https://townmedialabs.com/privacy-policy/",
+    siteName: "TML Agency",
+    type: "website",
+    locale: "en_IN",
+  },
 };
 
 export default function PrivacyPolicyPage() {
@@ -14,7 +23,7 @@ export default function PrivacyPolicyPage() {
     <main className="bg-[#050505] text-white min-h-screen">
       <InnerNavbar />
 
-      <article className="relative w-full px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:px-12">
+      <article className="hero-orange-gradient relative w-full px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:px-12 overflow-hidden">
         <div className="mx-auto max-w-3xl prose-invert">
           <p className="text-[10px] text-white tracking-[0.25em] uppercase mb-6">
             Legal

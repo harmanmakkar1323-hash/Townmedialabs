@@ -55,29 +55,33 @@ export default function FreeToolsIndexClient() {
     <main className="min-h-screen bg-[#050505] text-white">
       <InnerNavbar />
 
-      <section className="pt-32 pb-16 px-4 md:px-8 max-w-7xl mx-auto">
-        <Breadcrumbs
-          items={[
-            { label: "Home", href: "/" },
-            { label: "Free Tools", href: "/free-tools" },
-          ]}
-        />
+      <section className="hero-orange-gradient relative pt-32 pb-16 px-4 md:px-8 overflow-hidden">
+        <div className="relative z-10 max-w-7xl mx-auto">
+          <Breadcrumbs
+            items={[
+              { label: "Home", href: "/" },
+              { label: "Free Tools", href: "/free-tools" },
+            ]}
+          />
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease }}
-          className="text-center mt-8 mb-16"
-        >
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-[family-name:var(--font-syne)] leading-tight">
-            Free Marketing{" "}
-            <span className="text-[#ff4500]">Tools</span>
-          </h1>
-          <p className="text-white text-lg md:text-xl max-w-2xl mx-auto mt-6">
-            Powerful calculators and generators to help you make smarter marketing decisions. No signup required.
-          </p>
-        </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, ease }}
+            className="text-center mt-8 mb-16"
+          >
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-[family-name:var(--font-syne)] leading-tight">
+              Free Marketing{" "}
+              <span className="text-[#ff4500]">Tools</span>
+            </h1>
+            <p className="text-white text-lg md:text-xl max-w-2xl mx-auto mt-6">
+              Powerful calculators and generators to help you make smarter marketing decisions. No signup required.
+            </p>
+          </motion.div>
+        </div>
+      </section>
 
+      <section className="px-4 md:px-8 max-w-7xl mx-auto pb-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {tools.map((tool, i) => (
             <motion.div

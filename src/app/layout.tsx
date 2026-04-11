@@ -20,7 +20,7 @@ const syne = Syne({
   variable: "--font-syne",
   subsets: ["latin"],
   display: "swap",
-  preload: true,
+  preload: false,
   fallback: ["system-ui", "-apple-system", "Segoe UI", "sans-serif"],
   adjustFontFallback: true,
 });
@@ -138,7 +138,7 @@ const organizationJsonLd = {
     "Full-service digital marketing and branding agency based in Chandigarh, India. Specializing in branding, web development, SEO, Google Ads, social media marketing, and performance marketing. 500+ brands scaled, 15+ years of experience.",
   founder: {
     "@type": "Person",
-    name: "Raman Makkar",
+    name: "Arvinder Singh",
     jobTitle: "Owner & Founder",
   },
   foundingDate: "2010",
@@ -300,6 +300,41 @@ const localBusinessJsonLd = {
       },
     ],
   },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.9",
+    reviewCount: "352",
+    bestRating: "5",
+  },
+  review: [
+    {
+      "@type": "Review",
+      author: { "@type": "Person", name: "Sarah Mitchell" },
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewBody:
+        "TML completely transformed our digital presence. Within 90 days we saw a 3x return on our ad spend and our brand finally felt like us.",
+      datePublished: "2025-08-15",
+      publisher: { "@type": "Organization", name: "Luxe Interiors" },
+    },
+    {
+      "@type": "Review",
+      author: { "@type": "Person", name: "James Carter" },
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewBody:
+        "Their team feels like an extension of ours. No hand-holding needed — they just get it and deliver, every single time.",
+      datePublished: "2025-10-22",
+      publisher: { "@type": "Organization", name: "CB Builders" },
+    },
+    {
+      "@type": "Review",
+      author: { "@type": "Person", name: "Harman" },
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewBody:
+        "We went from zero online presence to ranking on page one for 12 keywords in under 6 months. The ROI speaks for itself.",
+      datePublished: "2025-12-05",
+      publisher: { "@type": "Organization", name: "TechVault" },
+    },
+  ],
 };
 
 const websiteJsonLd = {
@@ -332,6 +367,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link
+          rel="alternate"
+          type="text/plain"
+          href="/llms.txt"
+          title="LLM Information"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

@@ -5,7 +5,6 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["stoke_on_trent"];
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "Music Release Agency in Stoke-on-Trent",
   description: "TML offers expert Music Release services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release stoke-on-trent", "music release agency stoke-on-trent", "music release company stoke-on-trent"],
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/music-release-in-stoke-on-trent",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_GB",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Stoke-on-Trent" }],
   },
   twitter: {

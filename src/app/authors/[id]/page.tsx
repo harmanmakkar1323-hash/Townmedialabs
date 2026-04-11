@@ -20,11 +20,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${author.name} | Author`,
     description: author.bio,
-    alternates: { canonical: `/authors/${id}` },
+    alternates: { canonical: `${siteUrl}/authors/${id}/` },
     openGraph: {
       title: author.name,
       description: author.bio,
-      url: `${siteUrl}/authors/${id}`,
+      url: `${siteUrl}/authors/${id}/`,
       siteName: "TML Agency",
       type: "profile",
       locale: "en_IN",

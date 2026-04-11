@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/branding-packaging-in-queenstown",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_NZ",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Queenstown" }],
   },
   twitter: {
@@ -27,7 +27,6 @@ export const metadata: Metadata = {
     description: "TML offers expert Packaging Design services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
-  robots: { index: false, follow: true },
 };
 
 export default function BrandingPackagingInQueenstownPage() {

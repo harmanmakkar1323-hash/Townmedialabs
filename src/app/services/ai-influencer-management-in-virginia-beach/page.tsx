@@ -5,7 +5,6 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["virginia_beach"];
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "AI Influencer Management Agency in Virginia Beach",
   description: "TML offers expert AI Influencer Management services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management virginia beach", "ai influencer management agency virginia beach", "ai influencer management company virginia beach"],
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/ai-influencer-management-in-virginia-beach",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Virginia Beach" }],
   },
   twitter: {

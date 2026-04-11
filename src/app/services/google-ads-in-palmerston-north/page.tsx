@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/google-ads-in-palmerston-north",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_NZ",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Google Ads Agency in Palmerston North" }],
   },
   twitter: {

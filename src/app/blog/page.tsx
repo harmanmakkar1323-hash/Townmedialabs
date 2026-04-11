@@ -7,9 +7,9 @@ import { blogPosts, blogCategories } from "@/data/blogPosts";
 const siteUrl = "https://townmedialabs.com";
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "Marketing, Branding & SEO Blog | TML Agency",
   description:
-    "Expert insights on digital marketing, branding, SEO, AI, social media, and ad strategy from TML Agency — Chandigarh's leading creative agency.",
+    "Expert insights on digital marketing, branding, SEO, AI, social media and ad strategy from TML Agency. Practical guides to grow your brand online.",
   keywords: [
     "digital marketing blog",
     "branding insights",
@@ -20,17 +20,17 @@ export const metadata: Metadata = {
     "marketing agency blog chandigarh",
   ],
   alternates: {
-    canonical: "/blog",
+    canonical: "/blog/",
     languages: {
-      "en-IN": "https://townmedialabs.com/blog",
-      "x-default": "https://townmedialabs.com/blog",
+      "en-IN": "https://townmedialabs.com/blog/",
+      "x-default": "https://townmedialabs.com/blog/",
     },
   },
   openGraph: {
-    title: "Blog",
+    title: "Marketing, Branding & SEO Blog | TML Agency",
     description:
-      "Expert insights on digital marketing, branding, SEO, AI, and ad strategy from TML Agency.",
-    url: `${siteUrl}/blog`,
+      "Expert insights on digital marketing, branding, SEO, AI, and ad strategy from TML Agency. Practical guides to grow your brand online.",
+    url: `${siteUrl}/blog/`,
     siteName: "TML Agency",
     type: "website",
     locale: "en_IN",
@@ -46,9 +46,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Blog",
+    title: "Marketing, Branding & SEO Blog | TML Agency",
     description:
-      "Expert insights on digital marketing, branding, SEO, AI, and ad strategy from TML Agency.",
+      "Expert insights on digital marketing, branding, SEO, AI, and ad strategy from TML Agency. Practical guides to grow your brand online.",
     images: ["/og-image.png"],
   },
 };
@@ -121,7 +121,7 @@ export default function BlogPage() {
       <InnerNavbar />
 
       {/* Hero — rendered as RSC so the H1 paints without waiting for JS hydration */}
-      <section className="relative pt-32 pb-16 md:pt-40 md:pb-20 px-6 lg:px-12 overflow-hidden">
+      <section className="hero-orange-gradient relative pt-32 pb-16 md:pt-40 md:pb-20 px-6 lg:px-12 overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-[#ff4500]/[0.03] rounded-full blur-[150px] pointer-events-none" />
         <div className="relative z-10 max-w-7xl mx-auto">
           <Breadcrumbs

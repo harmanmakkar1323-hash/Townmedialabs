@@ -3,12 +3,12 @@ import ChandigarhPageClient from "./ChandigarhPageClient";
 import { servicePages } from "@/data/servicePages";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing Agency in Chandigarh",
+  title: "Digital Marketing Agency in Chandigarh | TML Agency",
   description:
-    "TML is the leading digital marketing agency in Chandigarh offering branding, SEO, Google Ads, social media marketing, web development, and more. 500+ brands served, 15+ years of experience.",
+    "TML Agency is a digital marketing agency in Chandigarh offering branding, SEO, Google Ads, social media & web development. 500+ brands served, 15+ years experience.",
   keywords: [
     "digital marketing agency chandigarh",
-    "best digital marketing company chandigarh",
+    "digital marketing company chandigarh",
     "seo company chandigarh",
     "branding agency chandigarh",
     "social media marketing chandigarh",
@@ -16,24 +16,25 @@ export const metadata: Metadata = {
     "web development chandigarh",
   ],
   openGraph: {
-    title: "Digital Marketing Agency in Chandigarh",
+    title: "Digital Marketing Agency in Chandigarh | TML Agency",
     description:
-      "TML is the leading digital marketing agency in Chandigarh offering branding, SEO, Google Ads, social media marketing, web development, and more. 500+ brands served.",
-    url: "https://townmedialabs.com/digital-marketing-agency-chandigarh",
+      "TML Agency offers branding, SEO, Google Ads, social media & web development in Chandigarh. 500+ brands served, 15+ years of experience.",
+    url: "https://townmedialabs.com/digital-marketing-agency-chandigarh/",
     siteName: "TML Agency",
     type: "website",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Digital Marketing Agency in Chandigarh - TML Agency" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Digital Marketing Agency in Chandigarh",
+    title: "Digital Marketing Agency in Chandigarh | TML Agency",
     description:
-      "TML is the leading digital marketing agency in Chandigarh offering branding, SEO, Google Ads, social media marketing, web development, and more. 500+ brands served.",
+      "TML Agency offers branding, SEO, Google Ads, social media & web development in Chandigarh. 500+ brands served, 15+ years of experience.",
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "/digital-marketing-agency-chandigarh",
+    canonical: "/digital-marketing-agency-chandigarh/",
   },
 };
 

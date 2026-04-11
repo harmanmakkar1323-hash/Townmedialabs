@@ -3,7 +3,6 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform, useInView } from "motion/react";
 import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
-import Image from "next/image";
 
 const ease = [0.23, 1, 0.32, 1] as const;
 
@@ -164,13 +163,40 @@ export function AboutHome2() {
           className="mt-16 grid grid-cols-3 gap-3"
         >
           <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-white/[0.06]">
-            <Image src="/work/graphic-design-coca-cola-marvel.webp" alt="Creative campaign design by TML Agency" fill sizes="33vw" className="object-cover" loading="lazy" />
+            <video
+              src="/videos/product-ad-cinematic-1.mp4"
+              muted
+              playsInline
+              loop
+              autoPlay
+              preload="none"
+              aria-label="Cinematic campaign film reel by TML Agency"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-white/[0.06]">
-            <Image src="/work/product-photography-luxury-skincare.png" alt="Product photography by TML Agency" fill sizes="33vw" className="object-cover" loading="lazy" />
+            <video
+              src="/videos/product-ad-cinematic-2.mp4"
+              muted
+              playsInline
+              loop
+              autoPlay
+              preload="none"
+              aria-label="Brand motion design showcase by TML Agency"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-white/[0.06]">
-            <Image src="/work/web-design-creative-agency-dark.jpg" alt="Website design by TML Agency" fill sizes="33vw" className="object-cover" loading="lazy" />
+            <video
+              src="/videos/product-ad-cinematic-3.mp4"
+              muted
+              playsInline
+              loop
+              autoPlay
+              preload="none"
+              aria-label="Product story film by TML Agency"
+              className="w-full h-full object-cover"
+            />
           </div>
         </motion.div>
 

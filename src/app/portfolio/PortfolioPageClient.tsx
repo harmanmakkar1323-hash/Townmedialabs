@@ -219,32 +219,27 @@ function VideoCard({
   const containerRef = useRef<HTMLDivElement>(null);
   const [isLoaded, setIsLoaded] = useState(false);
 
+  // Lazy-load + auto-play on scroll into view (pause when out of view).
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting && !isLoaded) {
-          setIsLoaded(true);
+        if (entry.isIntersecting) {
+          if (!isLoaded) setIsLoaded(true);
+          // Give it a tick so the <video> element mounts before play()
+          requestAnimationFrame(() => {
+            videoRef.current?.play().catch(() => {});
+          });
+        } else {
+          videoRef.current?.pause();
         }
       },
-      { rootMargin: "200px" }
+      { threshold: 0.25, rootMargin: "100px" }
     );
     observer.observe(el);
     return () => observer.disconnect();
   }, [isLoaded]);
-
-  const handleMouseEnter = () => {
-    videoRef.current?.play().catch(() => {});
-  };
-
-  const handleMouseLeave = () => {
-    const v = videoRef.current;
-    if (v) {
-      v.pause();
-      v.currentTime = 0;
-    }
-  };
 
   return (
     <motion.div
@@ -258,8 +253,6 @@ function VideoCard({
         boxShadow: "0 25px 60px -12px rgba(255, 69, 0, 0.15)",
         transition: { duration: 0.4, ease },
       }}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
       className="group relative overflow-hidden rounded-xl bg-[#111] cursor-pointer border border-white/[0.04] hover:border-[#ff4500]/20 transition-colors duration-500"
     >
       <div className="relative aspect-video overflow-hidden">
@@ -269,7 +262,8 @@ function VideoCard({
             muted
             playsInline
             loop
-            preload="metadata"
+            autoPlay
+            preload="auto"
             className="w-full h-full object-cover"
           >
             <source src={video.src} type="video/mp4" />
@@ -368,7 +362,7 @@ export default function PortfolioPageClient() {
       <InnerNavbar />
 
       {/* Hero */}
-      <section className="pt-40 pb-16 px-4">
+      <section className="hero-orange-gradient relative pt-40 pb-16 px-4 overflow-hidden">
         <div className="max-w-6xl mx-auto text-center">
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -397,6 +391,73 @@ export default function PortfolioPageClient() {
             From startups to established brands, we craft digital experiences that
             drive real business results. Here&apos;s a look at what we&apos;ve built.
           </motion.p>
+        </div>
+      </section>
+
+      {/* Creative Work Gallery — moved to top */}
+      <section className="px-4 pb-24">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-10">
+            <p className="text-[#ff4500] text-sm font-semibold tracking-[0.2em] uppercase mb-3">
+              Creative Portfolio
+            </p>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              Our Creative Work<span className="text-[#ff4500]">.</span>
+            </h2>
+            <p className="text-white max-w-2xl mx-auto">
+              Graphic design, product photography, packaging, social media campaigns, creative ads, and more — all crafted by our in-house team.
+            </p>
+          </div>
+
+          {/* Category Filters */}
+          <div className="flex flex-wrap justify-center gap-3 mb-10">
+            {workCategories.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => { setActiveWorkCategory(cat); setShowAll(false); }}
+                className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 border ${
+                  activeWorkCategory === cat
+                    ? "bg-[#ff4500] border-[#ff4500] text-white"
+                    : "bg-white/5 border-white/10 text-white hover:text-white hover:border-white/20"
+                }`}
+              >
+                {cat} {cat !== "All" && (
+                  <span className="ml-1 text-xs opacity-60">
+                    ({portfolioImages.filter((img) => categoryLabels[img.category] === cat).length})
+                  </span>
+                )}
+              </button>
+            ))}
+          </div>
+
+          {/* Masonry-style Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {visibleWork.map((image, i) => (
+              <WorkImageCard
+                key={image.src}
+                image={image}
+                delay={Math.min(i * 0.03, 0.3)}
+              />
+            ))}
+          </div>
+
+          {/* Load More */}
+          {!showAll && filteredWork.length > 24 && (
+            <div className="text-center mt-10">
+              <button
+                onClick={() => setShowAll(true)}
+                className="px-8 py-3 rounded-full border border-[#ff4500]/30 text-[#ff4500] font-medium hover:bg-[#ff4500]/10 transition-all duration-300"
+              >
+                Show All {filteredWork.length} Images
+              </button>
+            </div>
+          )}
+
+          {filteredWork.length === 0 && (
+            <p className="text-center text-white py-12 text-lg">
+              No work in this category yet.
+            </p>
+          )}
         </div>
       </section>
 
@@ -472,73 +533,6 @@ export default function PortfolioPageClient() {
               <VideoCard key={video.src} video={video} delay={i * 0.08} />
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Creative Work Gallery */}
-      <section className="px-4 pb-24">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-10">
-            <p className="text-[#ff4500] text-sm font-semibold tracking-[0.2em] uppercase mb-3">
-              Creative Portfolio
-            </p>
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              Our Creative Work<span className="text-[#ff4500]">.</span>
-            </h2>
-            <p className="text-white max-w-2xl mx-auto">
-              Graphic design, product photography, packaging, social media campaigns, creative ads, and more — all crafted by our in-house team.
-            </p>
-          </div>
-
-          {/* Category Filters */}
-          <div className="flex flex-wrap justify-center gap-3 mb-10">
-            {workCategories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => { setActiveWorkCategory(cat); setShowAll(false); }}
-                className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 border ${
-                  activeWorkCategory === cat
-                    ? "bg-[#ff4500] border-[#ff4500] text-white"
-                    : "bg-white/5 border-white/10 text-white hover:text-white hover:border-white/20"
-                }`}
-              >
-                {cat} {cat !== "All" && (
-                  <span className="ml-1 text-xs opacity-60">
-                    ({portfolioImages.filter((img) => categoryLabels[img.category] === cat).length})
-                  </span>
-                )}
-              </button>
-            ))}
-          </div>
-
-          {/* Masonry-style Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {visibleWork.map((image, i) => (
-              <WorkImageCard
-                key={image.src}
-                image={image}
-                delay={Math.min(i * 0.03, 0.3)}
-              />
-            ))}
-          </div>
-
-          {/* Load More */}
-          {!showAll && filteredWork.length > 24 && (
-            <div className="text-center mt-10">
-              <button
-                onClick={() => setShowAll(true)}
-                className="px-8 py-3 rounded-full border border-[#ff4500]/30 text-[#ff4500] font-medium hover:bg-[#ff4500]/10 transition-all duration-300"
-              >
-                Show All {filteredWork.length} Images
-              </button>
-            </div>
-          )}
-
-          {filteredWork.length === 0 && (
-            <p className="text-center text-white py-12 text-lg">
-              No work in this category yet.
-            </p>
-          )}
         </div>
       </section>
 

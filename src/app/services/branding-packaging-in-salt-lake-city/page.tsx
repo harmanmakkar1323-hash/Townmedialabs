@@ -5,7 +5,6 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["salt_lake_city"];
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "Packaging Design Agency in Salt Lake City",
   description: "TML offers expert Packaging Design services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design salt lake city", "packaging design agency salt lake city", "packaging design company salt lake city"],
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/branding-packaging-in-salt-lake-city",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in Salt Lake City" }],
   },
   twitter: {

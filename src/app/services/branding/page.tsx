@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { servicePages } from "@/data/servicePages";
 import ServicePageTemplate from "@/components/templates/ServicePageTemplate";
+import { prepareServicePageExtras } from "@/lib/locationServiceData";
 import { ServicePageSchema } from "@/components/schema/ServicePageSchema";
 
 const data = servicePages["branding"];
@@ -39,5 +40,5 @@ export const metadata: Metadata = {
 };
 
 export default function BrandingPage() {
-  return <ServicePageTemplate data={data} />;
+  return <ServicePageTemplate data={data} extras={prepareServicePageExtras(data)} />;
 }

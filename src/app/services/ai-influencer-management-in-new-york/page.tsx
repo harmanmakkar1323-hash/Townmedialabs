@@ -5,7 +5,6 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["new_york"];
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "AI Influencer Management Agency in New York",
   description: "TML offers expert AI Influencer Management services in New York. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management new york", "ai influencer management agency new york", "ai influencer management company new york"],
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/ai-influencer-management-in-new-york",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in New York" }],
   },
   twitter: {

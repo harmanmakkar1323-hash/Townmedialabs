@@ -180,7 +180,7 @@ export default function ContactPageClient() {
       </div>
 
       {/* ── Hero ── */}
-      <section className="relative w-full px-6 pt-12 pb-8 md:pt-16 md:pb-12 lg:px-12 overflow-hidden">
+      <section className="hero-orange-gradient relative w-full px-6 pt-12 pb-8 md:pt-16 md:pb-12 lg:px-12 overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] rounded-full bg-[#ff4500]/[0.04] blur-[150px] pointer-events-none" />
 
         <div className="relative mx-auto max-w-5xl text-center">

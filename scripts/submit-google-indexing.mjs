@@ -52,7 +52,7 @@ try {
     const args = process.argv.slice(2);
     if (args.length === 0) {
       console.warn("⚠️ provide URLs as arguments to submit to Google Indexing API.");
-      console.warn("Example: node scripts/submit-google-indexing.mjs https://townmedialabs.ca/about-us");
+      console.warn("Example: node scripts/submit-google-indexing.mjs https://townmedialabs.com/about/");
       process.exit(0);
     }
 

@@ -5,7 +5,6 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["stoke_on_trent"];
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "AI Influencer Management Agency in Stoke-on-Trent",
   description: "TML offers expert AI Influencer Management services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["ai influencer management stoke-on-trent", "ai influencer management agency stoke-on-trent", "ai influencer management company stoke-on-trent"],
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/ai-influencer-management-in-stoke-on-trent",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_GB",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Stoke-on-Trent" }],
   },
   twitter: {

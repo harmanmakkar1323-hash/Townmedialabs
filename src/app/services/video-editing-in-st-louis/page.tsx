@@ -5,7 +5,6 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["st_louis"];
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "Video Editing Agency in St. Louis",
   description: "TML offers expert Video Editing services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing st. louis", "video editing agency st. louis", "video editing company st. louis"],
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/video-editing-in-st-louis",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Video Editing Agency in St. Louis" }],
   },
   twitter: {

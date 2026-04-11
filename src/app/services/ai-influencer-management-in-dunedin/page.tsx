@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/ai-influencer-management-in-dunedin",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_NZ",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Dunedin" }],
   },
   twitter: {
@@ -27,7 +27,6 @@ export const metadata: Metadata = {
     description: "TML offers expert AI Influencer Management services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
     images: ["/og-image.png"],
   },
-  robots: { index: false, follow: true },
 };
 
 export default function AiInfluencerManagementInDunedinPage() {

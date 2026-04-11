@@ -20,29 +20,29 @@ const baseUrl = "https://townmedialabs.com";
 
 function buildPages(): MetadataRoute.Sitemap {
   return [
-    { url: baseUrl, lastModified: new Date("2026-03-25"), changeFrequency: "weekly", priority: 1.0 },
-    { url: `${baseUrl}/about`, lastModified: new Date("2026-03-20"), changeFrequency: "monthly", priority: 0.9 },
-    { url: `${baseUrl}/services`, lastModified: new Date("2026-03-20"), changeFrequency: "monthly", priority: 0.9 },
-    { url: `${baseUrl}/contact`, lastModified: new Date("2026-01-15"), changeFrequency: "monthly", priority: 0.9 },
-    { url: `${baseUrl}/careers`, lastModified: new Date("2026-03-10"), changeFrequency: "monthly", priority: 0.9 },
-    { url: `${baseUrl}/blog`, lastModified: new Date("2026-03-25"), changeFrequency: "weekly", priority: 0.9 },
-    { url: `${baseUrl}/portfolio`, lastModified: new Date("2026-03-20"), changeFrequency: "monthly", priority: 0.9 },
-    { url: `${baseUrl}/digital-marketing-agency-chandigarh`, lastModified: new Date("2026-03-15"), changeFrequency: "weekly", priority: 0.9 },
-    { url: `${baseUrl}/privacy-policy`, lastModified: new Date("2025-06-01"), changeFrequency: "yearly", priority: 0.2 },
-    { url: `${baseUrl}/terms-of-service`, lastModified: new Date("2025-06-01"), changeFrequency: "yearly", priority: 0.2 },
+    { url: `${baseUrl}/`, lastModified: new Date("2026-03-25"), changeFrequency: "weekly", priority: 1.0 },
+    { url: `${baseUrl}/about/`, lastModified: new Date("2026-03-20"), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/services/`, lastModified: new Date("2026-03-20"), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/contact/`, lastModified: new Date("2026-01-15"), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/careers/`, lastModified: new Date("2026-03-10"), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/blog/`, lastModified: new Date("2026-03-25"), changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/portfolio/`, lastModified: new Date("2026-03-20"), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/digital-marketing-agency-chandigarh/`, lastModified: new Date("2026-03-15"), changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/privacy-policy/`, lastModified: new Date("2025-06-01"), changeFrequency: "yearly", priority: 0.2 },
+    { url: `${baseUrl}/terms-of-service/`, lastModified: new Date("2025-06-01"), changeFrequency: "yearly", priority: 0.2 },
   ];
 }
 
 function buildServices(): MetadataRoute.Sitemap {
   const serviceEntries: MetadataRoute.Sitemap = (allServiceSlugs ?? []).map((slug) => ({
-    url: `${baseUrl}/services/${slug}`,
+    url: `${baseUrl}/services/${slug}/`,
     lastModified: new Date("2026-03-20"),
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
 
   const chandigarhEntries: MetadataRoute.Sitemap = (allChandigarhSlugs ?? []).map((slug) => ({
-    url: `${baseUrl}/services/${slug}`,
+    url: `${baseUrl}/services/${slug}/`,
     lastModified: new Date("2026-03-15"),
     changeFrequency: "weekly" as const,
     priority: 0.8,
@@ -59,7 +59,7 @@ function buildLocations(): MetadataRoute.Sitemap {
       .filter((def) => !chandigarhSlugSet.has(def.urlSlug))
       .filter((def) => !shouldNoindex(def.serviceSlug, def.locationSlug))
       .map((def) => ({
-        url: `${baseUrl}/services/${def.urlSlug}`,
+        url: `${baseUrl}/services/${def.urlSlug}/`,
         lastModified: new Date("2026-03-20"),
         changeFrequency: "monthly" as const,
         priority: 0.6,
@@ -72,7 +72,7 @@ function buildLocations(): MetadataRoute.Sitemap {
 function buildBlog(): MetadataRoute.Sitemap {
   try {
     return Object.entries(blogArticles ?? {}).map(([slug, article]) => ({
-      url: `${baseUrl}/blog/${slug}`,
+      url: `${baseUrl}/blog/${slug}/`,
       lastModified: new Date(article.date || "2026-03-20"),
       changeFrequency: "monthly" as const,
       priority: 0.6,
@@ -85,41 +85,35 @@ function buildBlog(): MetadataRoute.Sitemap {
 function buildIndustries(): MetadataRoute.Sitemap {
   const indexEntry: MetadataRoute.Sitemap = [
     {
-      url: `${baseUrl}/industries`,
+      url: `${baseUrl}/industries/`,
       lastModified: new Date("2026-03-20"),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
   ];
 
-  const industryEntries: MetadataRoute.Sitemap = (allIndustrySlugs ?? []).map((slug) => ({
-    url: `${baseUrl}/industries/${slug}`,
+  const uniqueSlugs = Array.from(new Set([...(allIndustrySlugs ?? []), ...(allIndustryPageSlugs ?? [])]));
+  const industryEntries: MetadataRoute.Sitemap = uniqueSlugs.map((slug) => ({
+    url: `${baseUrl}/industries/${slug}/`,
     lastModified: new Date("2026-03-20"),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
 
-  const tier1Entries: MetadataRoute.Sitemap = (allIndustryPageSlugs ?? []).map((slug) => ({
-    url: `${baseUrl}/industries/${slug}`,
-    lastModified: new Date("2026-03-20"),
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }));
-
-  return [...indexEntry, ...industryEntries, ...tier1Entries];
+  return [...indexEntry, ...industryEntries];
 }
 
 function buildToolsAndCases(): MetadataRoute.Sitemap {
   const locationHubEntries: MetadataRoute.Sitemap = [
     {
-      url: `${baseUrl}/locations`,
+      url: `${baseUrl}/locations/`,
       lastModified: new Date("2026-03-20"),
       changeFrequency: "monthly" as const,
       priority: 0.5,
     },
     ...["canada", "united-states", "united-kingdom", "australia", "new-zealand", "india", "uae"].map(
       (country) => ({
-        url: `${baseUrl}/locations/${country}`,
+        url: `${baseUrl}/locations/${country}/`,
         lastModified: new Date("2026-03-20"),
         changeFrequency: "monthly" as const,
         priority: 0.5,
@@ -129,13 +123,13 @@ function buildToolsAndCases(): MetadataRoute.Sitemap {
 
   const freeToolEntries: MetadataRoute.Sitemap = [
     {
-      url: `${baseUrl}/free-tools`,
+      url: `${baseUrl}/free-tools/`,
       lastModified: new Date("2026-03-15"),
       changeFrequency: "monthly" as const,
       priority: 0.5,
     },
     ...(allToolSlugs ?? []).map((slug) => ({
-      url: `${baseUrl}/free-tools/${slug}`,
+      url: `${baseUrl}/free-tools/${slug}/`,
       lastModified: new Date("2026-03-15"),
       changeFrequency: "monthly" as const,
       priority: 0.5,
@@ -144,13 +138,13 @@ function buildToolsAndCases(): MetadataRoute.Sitemap {
 
   const caseStudyEntries: MetadataRoute.Sitemap = [
     {
-      url: `${baseUrl}/case-studies`,
+      url: `${baseUrl}/case-studies/`,
       lastModified: new Date("2026-03-15"),
       changeFrequency: "monthly" as const,
       priority: 0.6,
     },
     ...(allCaseStudySlugs ?? []).map((slug) => ({
-      url: `${baseUrl}/case-studies/${slug}`,
+      url: `${baseUrl}/case-studies/${slug}/`,
       lastModified: new Date("2026-03-15"),
       changeFrequency: "monthly" as const,
       priority: 0.6,

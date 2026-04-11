@@ -67,59 +67,6 @@ const contactPageSchema = {
   },
 };
 
-const professionalServiceSchema = {
-  "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "@id": "https://townmedialabs.com/#localbusiness",
-  name: "TML Agency",
-  description:
-    "Chandigarh's leading digital marketing agency specializing in branding, SEO, Google Ads, social media marketing & web development.",
-  url: "https://townmedialabs.com",
-  telephone: "+91-98726-48209",
-  email: "info@townmedialabs.com",
-  image: "https://townmedialabs.com/logo.png",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "CO 112, Basement, Sector 34A",
-    addressLocality: "Chandigarh",
-    addressRegion: "Chandigarh",
-    postalCode: "160022",
-    addressCountry: "IN",
-  },
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: "30.7281",
-    longitude: "76.7726",
-  },
-  openingHoursSpecification: [
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: "10:00",
-      closes: "19:00",
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: "Saturday",
-      opens: "10:00",
-      closes: "17:00",
-    },
-  ],
-  priceRange: "$$",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "352",
-    bestRating: "5",
-  },
-  sameAs: [
-    "https://www.instagram.com/tmlagency/",
-    "https://www.facebook.com/tmlagency/",
-    "https://www.linkedin.com/company/tmlagency/",
-    "https://twitter.com/tmlagency",
-  ],
-};
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -166,12 +113,6 @@ export default function ContactPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(contactPageSchema),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(professionalServiceSchema),
         }}
       />
       <script

@@ -5,7 +5,6 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["san_jose"];
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "Packaging Design Agency in San Jose",
   description: "TML offers expert Packaging Design services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["packaging design san jose", "packaging design agency san jose", "packaging design company san jose"],
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/branding-packaging-in-san-jose",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Packaging Design Agency in San Jose" }],
   },
   twitter: {

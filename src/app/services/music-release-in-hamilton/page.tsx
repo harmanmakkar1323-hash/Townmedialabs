@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/music-release-in-hamilton",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_CA",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Hamilton" }],
   },
   twitter: {
@@ -27,7 +27,6 @@ export const metadata: Metadata = {
     description: "TML offers expert Music Release services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
     images: ["/og-image.png"],
   },
-  robots: { index: false, follow: true },
 };
 
 export default function MusicReleaseInHamiltonPage() {

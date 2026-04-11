@@ -15,12 +15,12 @@ import LazyVideo from "@/components/ui/LazyVideo";
 const ease = [0.23, 1, 0.32, 1] as const;
 
 const reels = [
-  { src: "/brand-motion-luxe-interiors.mp4", poster: "/brand-motion-luxe-interiors-poster.webp", label: "Brand Motion", client: "Luxe Interiors" },
-  { src: "/visual-identity-nova-studios.mp4", poster: "/visual-identity-nova-studios-poster.webp", label: "Visual Identity", client: "Nova Studios" },
-  { src: "/ad-creative-techvault.mp4", poster: "/ad-creative-techvault-poster.webp", label: "Ad Creative", client: "TechVault" },
-  { src: "/social-content-meridian-co.mp4", poster: "/social-content-meridian-co-poster.webp", label: "Social Content", client: "Meridian Co" },
-  { src: "/campaign-film-atlas-digital.mp4", poster: "/campaign-film-atlas-digital-poster.webp", label: "Campaign Film", client: "Atlas Digital" },
-  { src: "/product-story-vero-fashion.mp4", poster: "/product-story-vero-fashion-poster.webp", label: "Product Story", client: "Vero Fashion" },
+  { src: "/videos/product-ad-cinematic-1.mp4", poster: "", label: "Product Shoot", client: "Luxe Retail" },
+  { src: "/videos/product-ad-cinematic-2.mp4", poster: "", label: "Cinematic Ad", client: "Nova Brand" },
+  { src: "/videos/product-ad-cinematic-3.mp4", poster: "", label: "Brand Film", client: "Atlas Studios" },
+  { src: "/brand-motion-luxe-interiors.mp4", poster: "", label: "Brand Motion", client: "Luxe Interiors" },
+  { src: "/campaign-film-atlas-digital.mp4", poster: "", label: "Campaign Film", client: "Atlas Digital" },
+  { src: "/product-story-vero-fashion.mp4", poster: "", label: "Product Story", client: "Vero Fashion" },
 ];
 
 /* Floating particles background */
@@ -240,7 +240,7 @@ export function VideoShowcase() {
                   loop
                   playsInline
                   preload="none"
-                  poster={reel.poster}
+                  poster={reel.poster || undefined}
                   className={`h-full w-full object-cover transition-all duration-700 ${
                     hoveredIndex !== null && hoveredIndex !== i
                       ? "scale-[0.97] brightness-[0.3]"

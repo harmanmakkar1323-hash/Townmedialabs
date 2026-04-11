@@ -21,32 +21,36 @@ function ToolShell({
   return (
     <main className="min-h-screen bg-[#050505] text-white">
       <InnerNavbar />
-      <section className="pt-32 pb-20 px-4 md:px-8 max-w-4xl mx-auto">
-        <Breadcrumbs
-          items={[
-            { label: "Home", href: "/" },
-            { label: "Free Tools", href: "/free-tools" },
-            { label: tool.name, href: `/free-tools/${tool.slug}` },
-          ]}
-        />
+      <section className="hero-orange-gradient relative pt-32 pb-12 px-4 md:px-8 overflow-hidden">
+        <div className="relative z-10 max-w-4xl mx-auto">
+          <Breadcrumbs
+            items={[
+              { label: "Home", href: "/" },
+              { label: "Free Tools", href: "/free-tools" },
+              { label: tool.name, href: `/free-tools/${tool.slug}` },
+            ]}
+          />
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease }}
-          className="mt-8 mb-10"
-        >
-          <span className="text-xs font-medium text-[#ff4500] uppercase tracking-wider">
-            {tool.category} Tool
-          </span>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-[family-name:var(--font-syne)] mt-2 leading-tight">
-            {tool.name}
-          </h1>
-          <p className="text-white text-lg mt-4 max-w-2xl">
-            {tool.description}
-          </p>
-        </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, ease }}
+            className="mt-8 mb-2"
+          >
+            <span className="text-xs font-medium text-[#ff4500] uppercase tracking-wider">
+              {tool.category} Tool
+            </span>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-[family-name:var(--font-syne)] mt-2 leading-tight">
+              {tool.name}
+            </h1>
+            <p className="text-white text-lg mt-4 max-w-2xl">
+              {tool.description}
+            </p>
+          </motion.div>
+        </div>
+      </section>
 
+      <section className="pb-20 px-4 md:px-8 max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

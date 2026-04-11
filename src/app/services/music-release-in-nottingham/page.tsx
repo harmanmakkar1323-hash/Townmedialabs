@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/music-release-in-nottingham",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_GB",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Nottingham" }],
   },
   twitter: {
@@ -27,7 +27,6 @@ export const metadata: Metadata = {
     description: "TML offers expert Music Release services in Nottingham. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
-  robots: { index: false, follow: true },
 };
 
 export default function MusicReleaseInNottinghamPage() {

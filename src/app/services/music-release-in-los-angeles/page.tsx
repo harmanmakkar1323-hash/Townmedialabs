@@ -5,7 +5,6 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["los_angeles"];
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "Music Release Agency in Los Angeles",
   description: "TML offers expert Music Release services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release los angeles", "music release agency los angeles", "music release company los angeles"],
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/music-release-in-los-angeles",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Los Angeles" }],
   },
   twitter: {

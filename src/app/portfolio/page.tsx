@@ -2,25 +2,27 @@ import type { Metadata } from "next";
 import PortfolioPageClient from "./PortfolioPageClient";
 
 export const metadata: Metadata = {
-  title: { absolute: "Our Portfolio" },
+  title: "Portfolio — Web, Branding & Video Work | TML Agency",
   description:
-    "Explore the work we've done for brands across web design, branding, UI/UX, video production, and digital marketing. Real projects, real results.",
+    "Browse TML Agency's portfolio of web design, branding, UI/UX, video production & digital marketing projects for brands worldwide. See real work, real results.",
   openGraph: {
-    title: "Our Portfolio | TML Agency",
+    title: "Portfolio — Web, Branding & Video Work | TML Agency",
     description:
-      "Explore the work we've done for brands across web design, branding, UI/UX, video production, and digital marketing.",
-    url: "https://townmedialabs.com/portfolio",
+      "Browse TML Agency's portfolio of web design, branding, UI/UX, video production & digital marketing projects for brands worldwide.",
+    url: "https://townmedialabs.com/portfolio/",
+    siteName: "TML Agency",
     type: "website",
-    images: [{ url: "https://townmedialabs.com/og-image.png", width: 1200, height: 630 }],
+    locale: "en_IN",
+    images: [{ url: "https://townmedialabs.com/og-image.png", width: 1200, height: 630, alt: "TML Agency Portfolio" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Our Portfolio | TML Agency",
+    title: "Portfolio — Web, Branding & Video Work | TML Agency",
     description: "Real projects, real results. See what we've built for brands worldwide.",
     images: ["/og-image.png"],
   },
-  alternates: { canonical: "https://townmedialabs.com/portfolio" },
+  alternates: { canonical: "https://townmedialabs.com/portfolio/" },
 };
 
 export default function PortfolioPage() {

@@ -35,8 +35,69 @@
       "Bash(node scripts/submit-indexnow.mjs --sitemap)",
       "Bash(find /Users/ramanmakkar/Desktop/tml-nextjs/src/data -type f \\\\\\( -name \"*.js\" -o -name \"*.ts\" -o -name \"*.json\" \\\\\\) -exec wc -l {} \\\\;)",
       "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/2MEDIA/*.mp4)",
-      "Bash(node scripts/daily-google-indexer.mjs)"
+      "Bash(node scripts/daily-google-indexer.mjs)",
+      "Bash(gh org:*)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(curl -s http://localhost:3000/ -o /tmp/tml-home.html)",
+      "Bash(xargs -I {} ps -p {} -o pid,command)",
+      "Bash(grep -l \"LocationServiceTemplate\" src/app/services/*/page.tsx)",
+      "Bash(lsof -ti:3008)",
+      "Bash(node -e \"const { locations } = require\\('./src/data/locations.ts'\\); console.log\\('Cities:', Object.keys\\(locations\\).length\\);\")",
+      "Bash(sort wc:*)",
+      "Bash(xargs -r kill -9)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:3008/)",
+      "Bash(ls -lh public/videos/product-ad-cinematic-*.mp4)",
+      "Bash(ls -lh public/*.mp4 public/videos/*.mp4)",
+      "Bash(grep -l \"autoPlay\\\\|preload\" src/components/sections/*.tsx src/app/page.tsx)",
+      "Bash(ffmpeg -version)",
+      "Bash(mv product-ad-cinematic-1-opt.mp4 product-ad-cinematic-1.mp4)",
+      "Bash(mv product-ad-cinematic-2-opt.mp4 product-ad-cinematic-2.mp4)",
+      "Bash(mv product-ad-cinematic-3-opt.mp4 product-ad-cinematic-3.mp4)",
+      "Bash(ls -lh product-ad-cinematic-*.mp4)",
+      "Bash(xargs -I {} ls -la {})",
+      "Bash(sort -k5 -rn)",
+      "Skill(seo-competitor-pages)",
+      "Skill(seo-competitor-pages:*)",
+      "Bash(curl -sI https://townmedialabs.com/)",
+      "Bash(curl -s https://townmedialabs.com/)",
+      "Bash(curl -sL https://townmedialabs.com/ -o /tmp/tml_home.html)",
+      "Bash(awk -F/ '{:*)",
+      "Bash(curl -sL -A \"Mozilla/5.0\" https://townmedialabs.com/ -o /tmp/tml_home.html -w \"HTTP:%{http_code} SIZE:%{size_download}\\\\n\")",
+      "Bash(curl -sL https://townmedialabs.com/ -o /tmp/tml_home.html -w \"HTTP:%{http_code} SIZE:%{size_download}\\\\n\")",
+      "Bash(ls -la public/work/graphic-design-retro-illustration.*)",
+      "Bash(ls public/work/graphic-design-retro*.*)",
+      "Bash(curl -s -o /dev/null -w \"HTTP:%{http_code} SIZE:%{size_download}\\\\n\" https://townmedialabs.com/)",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" -o /dev/null -w \"HTTP:%{http_code} SIZE:%{size_download}\\\\n\" https://townmedialabs.com/)",
+      "Bash(curl -sI https://www.townmedialabs.com/)",
+      "Bash(curl -s -o /dev/null -w \"HTTP:%{http_code}\\\\n\" https://townmedialabs.com/about)",
+      "Bash(curl -s -o /dev/null -w \"HTTP:%{http_code}\\\\n\" https://townmedialabs.com/services/seo)",
+      "Bash(curl -s -o /dev/null -w \"HTTP:%{http_code}\\\\n\" https://townmedialabs.com/robots.txt)",
+      "Bash(curl -s -o /dev/null -w \"HTTP:%{http_code}\\\\n\" https://townmedialabs.com/sitemap.xml)",
+      "Bash(curl -s -o /dev/null -w \"home:%{http_code} \" https://townmedialabs.com/)",
+      "Bash(curl -s -o /dev/null -w \"about:%{http_code} \" https://townmedialabs.com/about)",
+      "Bash(curl -s -o /dev/null -w \"seo:%{http_code} \" https://townmedialabs.com/services/seo)",
+      "Bash(curl -s -o /dev/null -w \"robots:%{http_code} \" https://townmedialabs.com/robots.txt)",
+      "Bash(curl -s -o /dev/null -w \"sitemap:%{http_code}\\\\n\" https://townmedialabs.com/sitemap.xml)",
+      "Bash(curl -sIL https://townmedialabs.com/about)",
+      "Bash(curl -sIL https://townmedialabs.com/services/seo)",
+      "Bash(curl -sL https://townmedialabs.com/services/seo/ -o /tmp/tml_seo.html -w \"HTTP:%{http_code} SIZE:%{size_download}\\\\n\")",
+      "Bash(curl -sL https://townmedialabs.com/digital-marketing-agency-chandigarh/ -o /tmp/tml_chd.html -w \"HTTP:%{http_code} SIZE:%{size_download}\\\\n\")",
+      "Bash(curl -sL https://townmedialabs.com/services/seo-in-chandigarh/ -o /tmp/tml_seochd.html -w \"HTTP:%{http_code} SIZE:%{size_download}\\\\n\")",
+      "Bash(curl -sL https://townmedialabs.com/blog/ -o /tmp/tml_blog.html -w \"HTTP:%{http_code} SIZE:%{size_download}\\\\n\")",
+      "Bash(curl -s https://townmedialabs.com/sitemap.xml -o /tmp/tml_sitemap.xml)",
+      "Bash(awk -F/ '{print $2}')",
+      "Bash(curl -sL https://townmedialabs.com/services/seo-in-__TRACKED_VAR__/ -o /tmp/tml_seo___TRACKED_VAR__.html -w '__TRACKED_VAR__: %{http_code} %{size_download}\\\\n')",
+      "Bash(wc -l /Users/ramanmakkar/Desktop/tml-nextjs/src/data/cityServiceContent*)",
+      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/data/cityServiceAutoContent*)",
+      "Bash(wc -l /Users/ramanmakkar/Desktop/tml-nextjs/src/data/cityServiceAutoContent*)",
+      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/*.json)",
+      "Bash(sed -i '' \"s/'India': 'en_IN',/'India': 'en_IN',\\\\n  'USA': 'en_US',\\\\n  'UK': 'en_GB',/\" /tmp/fix-locale.mjs)",
+      "Bash(node /tmp/fix-locale.mjs)",
+      "Bash(node /tmp/fix-robots.mjs)",
+      "Bash(git -C /Users/ramanmakkar/Desktop/tml-nextjs remote -v)",
+      "Bash(git -C /Users/ramanmakkar/Desktop/tml-nextjs branch --show-current)"
     ],
+    "deny": [],
     "additionalDirectories": [
       "/Users/ramanmakkar/Desktop/tml-nextjs/2MEDIA"
     ]
@@ -45,20 +106,24 @@
     "PostToolUse": [
       {
         "matcher": "Edit|Write|Bash",
-        "command": "code-review-graph update --quiet",
-        "timeout": 5000
+        "hooks": [
+          {
+            "type": "command",
+            "command": "code-review-graph update",
+            "timeout": 5000
+          }
+        ]
       }
     ],
     "SessionStart": [
       {
-        "command": "code-review-graph status --json",
-        "timeout": 3000
-      }
-    ],
-    "PreCommit": [
-      {
-        "command": "code-review-graph detect-changes --brief",
-        "timeout": 10000
+        "hooks": [
+          {
+            "type": "command",
+            "command": "code-review-graph status --json",
+            "timeout": 3000
+          }
+        ]
       }
     ]
   }

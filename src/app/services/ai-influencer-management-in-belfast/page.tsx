@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/ai-influencer-management-in-belfast",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_GB",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Belfast" }],
   },
   twitter: {
@@ -27,7 +27,6 @@ export const metadata: Metadata = {
     description: "TML offers expert AI Influencer Management services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
     images: ["/og-image.png"],
   },
-  robots: { index: false, follow: true },
 };
 
 export default function AiInfluencerManagementInBelfastPage() {

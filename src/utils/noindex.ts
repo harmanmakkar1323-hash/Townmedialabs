@@ -38,21 +38,6 @@ const NICHE_SERVICES = new Set([
  * @param serviceSlug - e.g. "music-release", "seo"
  * @param locationSlug - e.g. "london", "delhi" (key in the locations record)
  */
-export function shouldNoindex(serviceSlug: string, locationSlug: string): boolean {
-  const location: LocationInfo | undefined = locations[locationSlug];
-
-  // If we can't find the location, be safe and keep indexed
-  if (!location) return false;
-
-  // Rule 1: ALL Indian city pages stay indexed regardless of service
-  if (location.country === "India") return false;
-
-  // Rule 2: Core services stay indexed worldwide
-  if (CORE_SERVICES.has(serviceSlug)) return false;
-
-  // Rule 3: Niche services + non-India cities → noindex
-  if (NICHE_SERVICES.has(serviceSlug)) return true;
-
-  // Default: keep indexed (conservative)
+export function shouldNoindex(_serviceSlug: string, _locationSlug: string): boolean {
   return false;
 }

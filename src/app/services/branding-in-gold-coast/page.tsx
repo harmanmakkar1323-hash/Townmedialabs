@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/branding-in-gold-coast",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_AU",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Branding Agency in Gold Coast" }],
   },
   twitter: {

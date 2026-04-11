@@ -65,49 +65,6 @@ export const metadata: Metadata = {
   },
 };
 
-const professionalServiceJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "@id": "https://townmedialabs.com/#localbusiness",
-  name: "TML Agency",
-  url: "https://townmedialabs.com",
-  telephone: "+91-98726-48209",
-  email: "info@townmedialabs.com",
-  image: "https://townmedialabs.com/logo.png",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "352",
-    bestRating: "5",
-  },
-  review: [
-    {
-      "@type": "Review",
-      author: { "@type": "Person", name: "Sarah Mitchell" },
-      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-      reviewBody: "TML completely transformed our digital presence. Within 90 days we saw a 3x return on our ad spend and our brand finally felt like us.",
-      datePublished: "2025-08-15",
-      publisher: { "@type": "Organization", name: "Luxe Interiors" },
-    },
-    {
-      "@type": "Review",
-      author: { "@type": "Person", name: "James Carter" },
-      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-      reviewBody: "Their team feels like an extension of ours. No hand-holding needed — they just get it and deliver, every single time.",
-      datePublished: "2025-10-22",
-      publisher: { "@type": "Organization", name: "CB Builders" },
-    },
-    {
-      "@type": "Review",
-      author: { "@type": "Person", name: "Harman" },
-      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-      reviewBody: "We went from zero online presence to ranking on page one for 12 keywords in under 6 months. The ROI speaks for itself.",
-      datePublished: "2025-12-05",
-      publisher: { "@type": "Organization", name: "TechVault" },
-    },
-  ],
-};
-
 const videoObjectJsonLd = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
@@ -128,12 +85,6 @@ const videoObjectJsonLd = {
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#0a0a0a]">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(professionalServiceJsonLd),
-        }}
-      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

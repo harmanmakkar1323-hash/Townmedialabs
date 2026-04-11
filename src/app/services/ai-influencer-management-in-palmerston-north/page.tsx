@@ -5,7 +5,6 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["palmerston_north"];
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "AI Influencer Management Agency in Palmerston North",
   description: "TML offers expert AI Influencer Management services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
   keywords: ["ai influencer management palmerston north", "ai influencer management agency palmerston north", "ai influencer management palmerston north nz"],
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/ai-influencer-management-in-palmerston-north",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_NZ",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best AI Influencer Management Agency in Palmerston North" }],
   },
   twitter: {

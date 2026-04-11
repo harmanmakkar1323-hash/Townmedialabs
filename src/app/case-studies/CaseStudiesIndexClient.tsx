@@ -130,7 +130,7 @@ export default function CaseStudiesIndexClient() {
       <InnerNavbar />
 
       {/* Hero */}
-      <section className="relative w-full px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:px-12 overflow-hidden">
+      <section className="hero-orange-gradient relative w-full px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:px-12 overflow-hidden">
         <div className="relative z-10 max-w-5xl mx-auto mb-8">
           <Breadcrumbs
             items={[

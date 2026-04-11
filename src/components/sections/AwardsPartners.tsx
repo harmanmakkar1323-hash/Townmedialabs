@@ -320,64 +320,6 @@ export function AwardsPartners() {
         </div>
       </motion.div>
 
-      {/* ── Certified Partners Grid ─────────────────────────── */}
-      <div className="px-6 lg:px-12 mt-24">
-        <div className="mx-auto max-w-7xl">
-          {/* Self-drawing separator line */}
-          <motion.div
-            initial={{ scaleX: 0 }}
-            animate={inView ? { scaleX: 1 } : {}}
-            transition={{ duration: 1.2, delay: 0.5, ease }}
-            className="w-full h-[1px] bg-gradient-to-r from-[#ff4500]/20 via-white/10 to-transparent mb-16 origin-left"
-          />
-
-          <div className="flex items-end justify-between mb-10">
-            <motion.p
-              initial={{ opacity: 0, y: 14 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.6, delay: 0.6, ease }}
-              className="text-[10px] md:text-xs text-white tracking-[0.2em] uppercase font-semibold"
-            >
-              Certified Partners
-            </motion.p>
-            <motion.span
-              initial={{ opacity: 0 }}
-              animate={inView ? { opacity: 1 } : {}}
-              transition={{ duration: 0.6, delay: 0.8, ease }}
-              className="text-xs text-white"
-            >
-              {partners.length} verified partnerships
-            </motion.span>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {partners.map((partner, i) => (
-              <PartnerCard
-                key={partner.name}
-                partner={partner}
-                index={i}
-                inView={inView}
-              />
-            ))}
-          </div>
-
-          {/* Bottom stat */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.7, delay: 1.2, ease }}
-            className="mt-16 flex items-center gap-3"
-          >
-            <span className="text-4xl md:text-5xl font-bold text-[#ff4500]/80">
-              <AnimatedCounter target={20} suffix="+" duration={1.8} />
-            </span>
-            <span className="text-sm text-white leading-tight">
-              Awards &amp;<br />
-              Certifications
-            </span>
-          </motion.div>
-        </div>
-      </div>
     </section>
   );
 }

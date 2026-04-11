@@ -5,7 +5,6 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["luton_uk"];
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "Video Editing Agency in Luton",
   description: "TML offers expert Video Editing services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing luton", "video editing agency luton", "video editing company luton"],
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/video-editing-in-luton-uk",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_GB",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Video Editing Agency in Luton" }],
   },
   twitter: {

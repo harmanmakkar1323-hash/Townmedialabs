@@ -5,7 +5,6 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["fort_worth"];
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "Video Editing Agency in Fort Worth",
   description: "TML offers expert Video Editing services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["video editing fort worth", "video editing agency fort worth", "video editing company fort worth"],
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/video-editing-in-fort-worth",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Video Editing Agency in Fort Worth" }],
   },
   twitter: {

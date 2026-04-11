@@ -69,8 +69,8 @@ const coreValues = [
 ];
 
 const teamMembers = [
-  { name: "Arvinder Singh", role: "Owner & Visionary", initial: "AS" },
-  { name: "Raman Makkar", role: "SEO & Growth", initial: "RM" },
+  { name: "Arvinder Singh", role: "Owner & Founder", initial: "AS" },
+  { name: "Raman Makkar", role: "Co-Founder & SEO Director", initial: "RM" },
   { name: "Taran", role: "Head of Sales", initial: "TS" },
   { name: "Harman", role: "Project Manager", initial: "HP" },
   { name: "Cristi", role: "Designer", initial: "CR" },
@@ -95,7 +95,7 @@ export default function AboutPageClient() {
       {/* ═══════════════════════════════════════════
           HERO SECTION
       ═══════════════════════════════════════════ */}
-      <section className="relative w-full px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:px-12 overflow-hidden">
+      <section className="hero-orange-gradient relative w-full px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:px-12 overflow-hidden">
         {/* Ambient glow */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] rounded-full bg-[#ff4500]/[0.04] blur-[150px] pointer-events-none" />
 
@@ -190,7 +190,7 @@ export default function AboutPageClient() {
             {/* Visual break — portfolio image */}
             <div className="hidden md:block relative overflow-hidden rounded-2xl border border-white/[0.06]">
               <Image
-                src="/work/product-photography-fashion-editorial.png"
+                src="/work/product-photography-fashion-editorial.webp"
                 alt="TML Agency creative work — fashion editorial photography"
                 fill
                 sizes="33vw"

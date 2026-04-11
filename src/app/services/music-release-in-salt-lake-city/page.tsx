@@ -5,7 +5,6 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["salt_lake_city"];
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "Music Release Agency in Salt Lake City",
   description: "TML offers expert Music Release services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release salt lake city", "music release agency salt lake city", "music release company salt lake city"],
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/music-release-in-salt-lake-city",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Salt Lake City" }],
   },
   twitter: {

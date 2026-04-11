@@ -172,7 +172,7 @@ export default function CareersPageClient() {
       {/* Hero */}
       <section
         ref={heroRef}
-        className="relative pt-32 pb-20 md:pt-40 md:pb-28 px-6 lg:px-12 overflow-hidden"
+        className="hero-orange-gradient relative pt-32 pb-20 md:pt-40 md:pb-28 px-6 lg:px-12 overflow-hidden"
       >
         {/* Background glow */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-[#ff4500]/[0.04] rounded-full blur-[150px] pointer-events-none" />

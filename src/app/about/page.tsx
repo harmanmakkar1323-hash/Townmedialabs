@@ -54,8 +54,8 @@ export const metadata: Metadata = {
 };
 
 const teamMembersJsonLd = [
-  { name: "Arvinder Singh", jobTitle: "Owner & Visionary" },
-  { name: "Raman Makkar", jobTitle: "SEO & Growth" },
+  { name: "Arvinder Singh", jobTitle: "Owner & Founder" },
+  { name: "Raman Makkar", jobTitle: "Co-Founder & SEO Director" },
   { name: "Taran", jobTitle: "Head of Sales" },
   { name: "Harman", jobTitle: "Project Manager" },
   { name: "Cristi", jobTitle: "Designer" },

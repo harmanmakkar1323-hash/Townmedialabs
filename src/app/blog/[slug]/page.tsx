@@ -27,11 +27,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: seoTitle,
     description: article.metaDescription,
     keywords: article.keywords,
-    alternates: { canonical: `/blog/${slug}` },
+    alternates: { canonical: `${siteUrl}/blog/${slug}/` },
     openGraph: {
       title: seoTitle,
       description: article.metaDescription,
-      url: `${siteUrl}/blog/${slug}`,
+      url: `${siteUrl}/blog/${slug}/`,
       siteName: "TML Agency",
       type: "article",
       locale: "en_IN",

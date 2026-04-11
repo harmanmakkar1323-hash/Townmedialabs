@@ -3,24 +3,23 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import type { LocationInfo } from "@/data/locations";
-import { locations, getLocationServiceSlug } from "@/data/locations";
-import { servicePages } from "@/data/servicePages";
 import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
 import InnerNavbar from "@/components/layout/InnerNavbar";
 import { FooterHome2 } from "@/components/sections/FooterHome2";
 import { generateServiceSchema, generateLocalBusinessSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
-import { serviceSeoContent } from "@/data/serviceSeoContent";
-import { blogArticles } from "@/data/blogArticles";
-import { industries, industryPages } from "@/data/industries";
-import { serviceRelatedBlogs, serviceRelatedIndustries } from "@/lib/internalLinks";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
-import { getCityServiceContent } from "@/data/cityServiceContent";
 import { getImagesForService } from "@/data/portfolioImages";
 import { getFeatureVariants, getProcessVariants } from "@/data/serviceFeatureVariants";
 import { getSectionHeading, getExpertiseStats, getTrustQuote } from "@/data/sectionVariants";
-import { serviceSeoOverlays } from "@/data/serviceSeoContentByCountry";
-import { getServiceSeoContentForCountry } from "@/data/serviceSeoContent";
+import type { LocationServicePreparedData } from "@/lib/locationServiceData";
 import Image from "next/image";
+
+// Inlined slug helper — avoids importing the large locations.ts data module.
+function getLocationServiceSlug(serviceSlug: string, locationSlug: string): string {
+  const loc = locationSlug.replace(/_/g, "-");
+  if (serviceSlug === "social-media") return `social-media-marketing-in-${loc}`;
+  return `${serviceSlug}-in-${loc}`;
+}
 
 
 function SectionDivider() {
@@ -165,21 +164,21 @@ interface Props {
   location: LocationInfo;
   serviceSlug: string;
   serviceName: string;
-  preparedData?: import("@/lib/locationServiceData").LocationServicePreparedData;
+  preparedData: LocationServicePreparedData;
 }
 
-export default function LocationServiceTemplate({ location, serviceSlug, serviceName }: Props) {
+export default function LocationServiceTemplate({ location, serviceSlug, serviceName, preparedData }: Props) {
   const { ref: statsRef, inView: statsInView } = useNativeInView(0.3);
-  const serviceData = servicePages[serviceSlug];
+  const serviceData = preparedData.serviceData;
   const cityName = location.name;
-  const enrichment = getCityServiceContent(serviceSlug, location.slug);
+  const enrichment = preparedData.enrichment;
   const cityFeatures = getFeatureVariants(serviceSlug, location);
   const cityProcess = getProcessVariants(serviceSlug, location);
 
   // Unique data sources for 80%+ content uniqueness
   const seed = cityName.length * 31 + serviceSlug.length * 17;
-  const countrySeoData = getServiceSeoContentForCountry(serviceSlug, location.country);
-  const countryOverlay = serviceSeoOverlays[serviceSlug]?.[location.country];
+  const countrySeoData = preparedData.countrySeoContent;
+  const countryOverlay = preparedData.seoOverlay;
   const cityExpertiseStats = getExpertiseStats(serviceSlug, location);
   const cityTrustQuote = getTrustQuote(serviceName, cityName, seed);
   const enrichedFaqs = enrichment?.faqs;
@@ -252,7 +251,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
       <InnerNavbar />
 
       {/* Hero */}
-      <section className="relative w-full px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:px-12 overflow-hidden">
+      <section className="hero-orange-gradient relative w-full px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:px-12 overflow-hidden">
         <div className="relative z-10 max-w-5xl mx-auto mb-8">
           <Breadcrumbs items={[
             { label: "Home", href: "/" },
@@ -261,7 +260,6 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
             { label: cityName, href: `/services/${getLocationServiceSlug(serviceSlug, location.slug)}` },
           ]} />
         </div>
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[700px] rounded-full bg-[#ff4500]/[0.05] blur-[180px] pointer-events-none" />
 
         <div className="relative mx-auto max-w-5xl text-center">
           <div
@@ -272,7 +270,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
           </div>
 
           <h1
-            className="hero-fade-up hero-delay-1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-medium tracking-tight mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-medium tracking-tight mb-6"
           >
             {(() => {
               const raw = enrichment?.h1 || `Best ${serviceName} Agency`;
@@ -839,7 +837,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
 
       {/* Rich SEO Content Section — engaging varied layouts */}
       {(() => {
-        const seoData = serviceSeoContent[serviceSlug];
+        const seoData = preparedData.seoContent;
         if (!seoData) return null;
         return (
           <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
@@ -1059,27 +1057,15 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
             {serviceName} in Other Cities
           </h3>
           <div className="flex flex-wrap items-center justify-center gap-3">
-            {(() => {
-              if (enrichment?.crossLinks) {
-                return enrichment.crossLinks.map((loc) => {
-                  const fullLoc = locations[loc.slug];
-                  if (!fullLoc) return null;
-                  return fullLoc;
-                }).filter(Boolean) as LocationInfo[];
-              }
-              const allOther = Object.values(locations).filter((loc) => loc.slug !== location.slug);
-              const sameCountry = allOther.filter((loc) => loc.country === location.country);
-              const otherCountry = allOther.filter((loc) => loc.country !== location.country);
-              return [...sameCountry.slice(0, 5), ...otherCountry.slice(0, 3)];
-            })().map((loc) => (
-                <Link
-                  key={loc.slug}
-                  href={`/services/${getLocationServiceSlug(serviceSlug, loc.slug)}`}
-                  className="px-4 py-2 rounded-full border border-white/[0.08] bg-white/[0.02] text-sm text-white hover:text-[#ff4500] hover:border-[#ff4500]/30 hover:bg-[#ff4500]/5 transition-all duration-300"
-                >
-                  {serviceName} in {loc.name}
-                </Link>
-              ))}
+            {preparedData.crossLinkLocations.map((loc) => (
+              <Link
+                key={loc.slug}
+                href={loc.href}
+                className="px-4 py-2 rounded-full border border-white/[0.08] bg-white/[0.02] text-sm text-white hover:text-[#ff4500] hover:border-[#ff4500]/30 hover:bg-[#ff4500]/5 transition-all duration-300"
+              >
+                {serviceName} in {loc.name}
+              </Link>
+            ))}
           </div>
         </div>
       </section>
@@ -1091,22 +1077,15 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
             {getSectionHeading("otherServices", serviceName, cityName, seed)}
           </h3>
           <div className="flex flex-wrap items-center justify-center gap-3">
-            {["branding", "seo", "google-ads", "website-development", "social-media", "lead-generation", "graphic-design", "video-editing", "branding-packaging", "ai-influencer-management", "music-release"]
-              .filter((s) => s !== serviceSlug)
-              .slice(0, 6)
-              .map((s) => {
-                const sData = servicePages[s];
-                if (!sData) return null;
-                return (
-                  <Link
-                    key={s}
-                    href={`/services/${getLocationServiceSlug(s, location.slug)}`}
-                    className="px-4 py-2 rounded-full border border-white/[0.08] bg-white/[0.02] text-sm text-white hover:text-[#ff4500] hover:border-[#ff4500]/30 hover:bg-[#ff4500]/5 transition-all duration-300"
-                  >
-                    {sData.title} in {cityName}
-                  </Link>
-                );
-              })}
+            {preparedData.otherServices.map((svc) => (
+              <Link
+                key={svc.slug}
+                href={svc.href}
+                className="px-4 py-2 rounded-full border border-white/[0.08] bg-white/[0.02] text-sm text-white hover:text-[#ff4500] hover:border-[#ff4500]/30 hover:bg-[#ff4500]/5 transition-all duration-300"
+              >
+                {svc.title} in {cityName}
+              </Link>
+            ))}
           </div>
         </div>
       </section>
@@ -1181,10 +1160,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
 
       {/* Related Blog Articles */}
       {(() => {
-        const blogSlugs = (serviceRelatedBlogs[serviceSlug] || []).slice(0, 3);
-        const relatedBlogs = blogSlugs
-          .map((slug) => ({ slug, article: blogArticles[slug] }))
-          .filter((b) => b.article);
+        const relatedBlogs = preparedData.relatedBlogs;
         if (relatedBlogs.length === 0) return null;
         return (
           <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 bg-[#080808] overflow-hidden">
@@ -1201,22 +1177,20 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                 <span className="text-[#ff4500]">.</span>
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-                {relatedBlogs.map(({ slug, article }) => (
-                  <div
-                    key={slug}
-                  >
+                {relatedBlogs.map((blog) => (
+                  <div key={blog.slug}>
                     <Link
-                      href={`/blog/${slug}`}
+                      href={`/blog/${blog.slug}`}
                       className="group block p-6 md:p-8 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] hover:border-[#ff4500]/20 transition-all duration-500 h-full"
                     >
                       <span className="inline-block text-[10px] tracking-wider uppercase bg-[#ff4500]/10 text-[#ff4500] rounded-full px-3 py-1 font-semibold mb-4">
-                        {article.category}
+                        {blog.category}
                       </span>
                       <h3 className="text-base font-semibold text-white mb-3 group-hover:text-[#ff4500] transition-colors leading-snug">
-                        {article.title}
+                        {blog.title}
                       </h3>
                       <p className="text-sm text-white leading-relaxed mb-4 line-clamp-2">
-                        {article.metaDescription}
+                        {blog.metaDescription}
                       </p>
                       <span className="text-xs text-[#ff4500] font-medium tracking-wide group-hover:underline">
                         Read Article &rarr;
@@ -1232,16 +1206,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
 
       {/* Industries We Serve in City */}
       {(() => {
-        const industrySlugs = serviceRelatedIndustries[serviceSlug] || [];
-        const relatedIndustryData = industrySlugs
-          .map((slug) => {
-            const legacy = industries[slug];
-            const v2 = industryPages[slug];
-            if (v2) return { slug, name: v2.name, description: v2.metaDescription };
-            if (legacy) return { slug, name: legacy.name, description: legacy.description };
-            return null;
-          })
-          .filter(Boolean) as { slug: string; name: string; description: string }[];
+        const relatedIndustryData = preparedData.relatedIndustries;
         if (relatedIndustryData.length === 0) return null;
         return (
           <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">

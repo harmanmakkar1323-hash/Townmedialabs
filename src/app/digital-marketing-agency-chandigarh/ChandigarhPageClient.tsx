@@ -96,7 +96,7 @@ export default function ChandigarhPageClient({ serviceMap }: ChandigarhPageClien
       <InnerNavbar />
 
       {/* Hero */}
-      <section className="relative w-full px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:px-12 overflow-hidden">
+      <section className="hero-orange-gradient relative w-full px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:px-12 overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[700px] rounded-full bg-[#ff4500]/[0.05] blur-[180px] pointer-events-none" />
 
         <div className="relative mx-auto max-w-5xl text-center">

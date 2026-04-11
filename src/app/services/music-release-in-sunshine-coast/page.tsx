@@ -5,7 +5,6 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["sunshine_coast"];
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "Music Release Agency in Sunshine Coast",
   description: "TML offers expert Music Release services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
   keywords: ["music release sunshine coast", "music release agency sunshine coast", "music release company sunshine coast"],
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/music-release-in-sunshine-coast",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_AU",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Sunshine Coast" }],
   },
   twitter: {

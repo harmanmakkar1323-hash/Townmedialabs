@@ -3,9 +3,9 @@ import { industries, industryPages, allIndustrySlugs, allIndustryPageSlugs } fro
 import IndustriesIndexClient from "./IndustriesIndexClient";
 
 export const metadata: Metadata = {
-  title: "Industries We Serve",
+  title: "Industries We Serve — Niche Marketing | TML Agency",
   description:
-    "Explore TML Agency's industry-specific digital marketing solutions. We help dentists, plumbers, electricians, salons, cafes, accountants, veterinarians, non-profits, and more grow with tailored strategies.",
+    "Industry-specific digital marketing for dentists, plumbers, electricians, salons, cafes, accountants, vets, non-profits and more. Tailored strategies that grow.",
   keywords: [
     "industry specific marketing",
     "digital marketing by industry",
@@ -14,24 +14,25 @@ export const metadata: Metadata = {
     "TML Agency industries",
   ],
   openGraph: {
-    title: "Industries We Serve",
+    title: "Industries We Serve — Niche Marketing | TML Agency",
     description:
-      "Industry-specific digital marketing solutions tailored to your business. From dentists to non-profits, we build strategies that drive growth.",
-    url: "https://townmedialabs.com/industries",
+      "Industry-specific digital marketing for dentists, plumbers, salons, cafes, accountants, vets, non-profits and more. Tailored strategies that grow.",
+    url: "https://townmedialabs.com/industries/",
     siteName: "TML Agency",
     type: "website",
+    locale: "en_IN",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Industries We Serve - TML Agency" }],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Industries We Serve",
+    title: "Industries We Serve — Niche Marketing | TML Agency",
     description:
-      "Industry-specific digital marketing solutions tailored to your business. From dentists to non-profits, we build strategies that drive growth.",
+      "Industry-specific digital marketing for dentists, plumbers, salons, cafes, accountants, vets, non-profits and more. Tailored strategies that grow.",
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://townmedialabs.com/industries",
+    canonical: "https://townmedialabs.com/industries/",
   },
 };
 

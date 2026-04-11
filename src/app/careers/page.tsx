@@ -4,9 +4,9 @@ import CareersPageClient from "./CareersPageClient";
 const siteUrl = "https://townmedialabs.com";
 
 export const metadata: Metadata = {
-  title: "Careers",
+  title: "Careers at TML Agency — Marketing Jobs in Chandigarh",
   description:
-    "Join TML Agency — Chandigarh's leading digital marketing & branding agency. We're hiring AI developers, video editors, graphic designers, social media managers & more. Apply now!",
+    "Join TML Agency in Chandigarh. We're hiring AI developers, video editors, graphic designers & social media managers. Explore open roles and apply today.",
   keywords: [
     "careers at tml agency",
     "digital marketing jobs chandigarh",
@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     "marketing agency hiring",
   ],
   alternates: {
-    canonical: "/careers",
+    canonical: "/careers/",
   },
   openGraph: {
-    title: "Careers",
+    title: "Careers at TML Agency — Marketing Jobs in Chandigarh",
     description:
-      "We're hiring! Join Chandigarh's top digital marketing agency. Open roles in AI, video, design, social media & more.",
-    url: `${siteUrl}/careers`,
+      "Join TML Agency in Chandigarh. Open roles in AI, video, design, social media and more. Explore careers and apply today.",
+    url: `${siteUrl}/careers/`,
     siteName: "TML Agency",
     type: "website",
     locale: "en_IN",
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Careers",
+    title: "Careers at TML Agency — Marketing Jobs in Chandigarh",
     description:
-      "We're hiring! Join Chandigarh's top digital marketing agency. Open roles in AI, video, design, social media & more.",
+      "Join TML Agency in Chandigarh. Open roles in AI, video, design, social media and more. Explore careers and apply today.",
     images: ["/og-image.png"],
   },
 };
