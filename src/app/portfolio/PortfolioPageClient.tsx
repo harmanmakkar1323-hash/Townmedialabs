@@ -569,7 +569,7 @@ export default function PortfolioPageClient() {
             or a full-scale digital campaign, let&apos;s make it happen.
           </p>
           <Link
-            href="/contact"
+            href="/contact/"
             className="inline-flex px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold hover:bg-[#ff5722] transition-colors"
           >
             Start a Conversation

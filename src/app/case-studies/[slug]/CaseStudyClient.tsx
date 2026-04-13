@@ -128,7 +128,7 @@ export default function CaseStudyClient({ study }: { study: CaseStudy }) {
             transition={{ duration: 0.8, delay: 0.3, ease }}
           >
             <Link
-              href="/contact"
+              href="/contact/"
               className="inline-flex px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]"
             >
               Get Results Like These
@@ -290,13 +290,13 @@ export default function CaseStudyClient({ study }: { study: CaseStudy }) {
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Link
-              href="/contact"
+              href="/contact/"
               className="px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]"
             >
               Start Your Growth Story
             </Link>
             <Link
-              href="/case-studies"
+              href="/case-studies/"
               className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
               View All Case Studies

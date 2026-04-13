@@ -329,7 +329,7 @@ export function FooterHome2() {
           {/* Center: Policy links */}
           <div className="flex items-center gap-4">
             <Link
-              href="/privacy-policy"
+              href="/privacy-policy/"
               className="group relative text-xs text-white hover:text-white transition-colors"
             >
               Privacy Policy
@@ -337,7 +337,7 @@ export function FooterHome2() {
             </Link>
             <span className="text-white">|</span>
             <Link
-              href="/terms-of-service"
+              href="/terms-of-service/"
               className="group relative text-xs text-white hover:text-white transition-colors"
             >
               Terms of Service

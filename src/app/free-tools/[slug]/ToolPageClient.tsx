@@ -73,7 +73,7 @@ function ToolShell({
             Our team of experts can help you get even better results. Let TML handle the heavy lifting while you focus on growing your business.
           </p>
           <Link
-            href="/contact"
+            href="/contact/"
             className="inline-flex items-center gap-2 mt-6 px-8 py-3.5 bg-[#ff4500] hover:bg-[#ff4500]/90 text-white font-semibold rounded-full transition-colors"
           >
             Contact TML

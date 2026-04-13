@@ -168,7 +168,7 @@ export default function NavbarHome2() {
 
         {/* CTA Button */}
         <Link
-          href="/contact"
+          href="/contact/"
           className="hidden sm:inline-flex px-6 py-2.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/5 text-[13px] font-semibold text-white transition-all ml-2"
         >
           Get in Touch
@@ -261,7 +261,7 @@ export default function NavbarHome2() {
                   Not sure what you need? Let us help.
                 </p>
                 <Link
-                  href="/contact"
+                  href="/contact/"
                   onClick={() => setActiveMega(null)}
                   className="text-[11px] px-4 py-2 rounded-full bg-[#ff4500]/10 border border-[#ff4500]/20 text-[#ff4500] font-semibold hover:bg-[#ff4500]/20 transition-colors"
                 >
@@ -311,7 +311,7 @@ export default function NavbarHome2() {
                       </div>
                     ))}
                     <Link
-                      href="/services"
+                      href="/services/"
                       onClick={() => { setMenuOpen(false); setMobileServicesOpen(false); }}
                       className="block py-1.5 text-xs text-[#ff4500] font-medium"
                     >
@@ -354,7 +354,7 @@ export default function NavbarHome2() {
                       </div>
                     ))}
                     <Link
-                      href="/industries"
+                      href="/industries/"
                       onClick={() => { setMenuOpen(false); setMobileIndustriesOpen(false); }}
                       className="block py-1.5 text-xs text-[#ff4500] font-medium"
                     >
@@ -377,7 +377,7 @@ export default function NavbarHome2() {
 
           {/* Contact CTA */}
           <Link
-            href="/contact"
+            href="/contact/"
             onClick={() => setMenuOpen(false)}
             className="block mt-2 py-3 px-4 text-sm text-center text-white font-semibold bg-[#ff4500]/20 border border-[#ff4500]/30 rounded-xl hover:bg-[#ff4500]/30 transition-colors"
           >

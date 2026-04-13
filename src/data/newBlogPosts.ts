@@ -46,7 +46,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>If you've Googled "digital marketing cost Canada," you've probably found a dozen articles that give you the same non-answer. So let me skip the fluff and give you actual numbers.</p>
 
-<p>I run a <a href="/services/seo">digital marketing agency</a> with offices in Chandigarh and Edmonton, and I've quoted hundreds of Canadian businesses — from solo plumbers to $20M+ companies. The pricing ranges below aren't pulled from thin air. They're based on what Canadian agencies actually charge in 2026, including us.</p>
+<p>I run a <a href="/services/seo/">digital marketing agency</a> with offices in Chandigarh and Edmonton, and I've quoted hundreds of Canadian businesses — from solo plumbers to $20M+ companies. The pricing ranges below aren't pulled from thin air. They're based on what Canadian agencies actually charge in 2026, including us.</p>
 
 <p>Here's the uncomfortable truth first: <strong>there's no single "right" number.</strong> A dentist in Red Deer and a SaaS company in Toronto have wildly different needs. But I can give you real ranges, explain what drives the price up or down, and help you figure out what makes sense for your business.</p>
 
@@ -57,7 +57,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <h3>SEO Pricing in Canada</h3>
 
-<p><a href="/services/seo">Search engine optimization</a> is the service with the widest pricing range — and the most confusion. Here's what you'll actually see:</p>
+<p><a href="/services/seo/">Search engine optimization</a> is the service with the widest pricing range — and the most confusion. Here's what you'll actually see:</p>
 
 <table>
 <thead>
@@ -78,7 +78,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <h3>Google Ads Cost in Canada</h3>
 
-<p><a href="/services/google-ads">Google Ads</a> has two costs: the management fee (what you pay the agency) and the ad spend (what you pay Google).</p>
+<p><a href="/services/google-ads/">Google Ads</a> has two costs: the management fee (what you pay the agency) and the ad spend (what you pay Google).</p>
 
 <table>
 <thead>
@@ -114,7 +114,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <h3>Social Media Marketing Cost in Canada</h3>
 
-<p><a href="/services/social-media">Social media management</a> pricing varies depending on how many platforms you need, how often you're posting, and whether paid ads are included.</p>
+<p><a href="/services/social-media/">Social media management</a> pricing varies depending on how many platforms you need, how often you're posting, and whether paid ads are included.</p>
 
 <table>
 <thead>
@@ -131,7 +131,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <h3>Website Design &amp; Development Cost in Canada</h3>
 
-<p><a href="/services/website-development">Website development</a> is usually a one-time project cost (sometimes with monthly maintenance).</p>
+<p><a href="/services/website-development/">Website development</a> is usually a one-time project cost (sometimes with monthly maintenance).</p>
 
 <table>
 <thead>
@@ -150,7 +150,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <h3>Branding &amp; Design Cost in Canada</h3>
 
-<p><a href="/services/branding">Branding</a> is often a one-time investment with occasional refreshes.</p>
+<p><a href="/services/branding/">Branding</a> is often a one-time investment with occasional refreshes.</p>
 
 <table>
 <thead>
@@ -295,11 +295,11 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>Or if you already know what you need, explore our specific services:</p>
 <ul>
-<li><a href="/services/seo">SEO Services</a></li>
-<li><a href="/services/google-ads">Google Ads Management</a></li>
-<li><a href="/services/social-media">Social Media Marketing</a></li>
-<li><a href="/services/website-development">Website Design &amp; Development</a></li>
-<li><a href="/services/branding">Branding &amp; Identity</a></li>
+<li><a href="/services/seo/">SEO Services</a></li>
+<li><a href="/services/google-ads/">Google Ads Management</a></li>
+<li><a href="/services/social-media/">Social Media Marketing</a></li>
+<li><a href="/services/website-development/">Website Design &amp; Development</a></li>
+<li><a href="/services/branding/">Branding &amp; Identity</a></li>
 </ul>
 `,
   },
@@ -330,7 +330,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>But here's the thing: Google Ads can also burn through your budget faster than anything else in marketing. I've audited accounts where businesses wasted $20,000+ on clicks that never had a chance of converting. Bad targeting, wrong keywords, terrible landing pages.</p>
 
-<p>This guide is for Canadian small business owners who want to understand how <a href="/services/google-ads">Google Ads</a> actually works, what it realistically costs, and how to avoid the most expensive mistakes. Whether you're doing it yourself or thinking about hiring an agency, you need this foundation.</p>
+<p>This guide is for Canadian small business owners who want to understand how <a href="/services/google-ads/">Google Ads</a> actually works, what it realistically costs, and how to avoid the most expensive mistakes. Whether you're doing it yourself or thinking about hiring an agency, you need this foundation.</p>
 
 <figure style="margin: 2rem 0;"><img src="/work/creative-ad-protein-fitness.webp" alt="High-converting fitness ad creative" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">High-converting fitness ad creative</figcaption></figure>
 <h2>How Google Ads Actually Works (Plain English Version)</h2>
@@ -368,7 +368,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 </tbody>
 </table>
 
-<p><strong>On top of ad spend, you'll need to budget for management.</strong> If you hire an agency for <a href="/services/ppc-management">PPC management</a>, expect $500–$2,500/month depending on the complexity. If you're managing it yourself, budget 5–10 hours per week of your time.</p>
+<p><strong>On top of ad spend, you'll need to budget for management.</strong> If you hire an agency for <a href="/services/ppc-management/">PPC management</a>, expect $500–$2,500/month depending on the complexity. If you're managing it yourself, budget 5–10 hours per week of your time.</p>
 
 <p><strong>The math that matters:</strong> If your average customer is worth $5,000 to your business (like a law client or HVAC installation), and your cost per lead is $75, you need roughly 10 leads to get one customer. That's $750 to acquire a $5,000 customer — a 6.7x return. That's the kind of math that makes Google Ads worthwhile.</p>
 
@@ -525,12 +525,12 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>If you want someone to look at your current campaigns (or help you build your first one the right way), <a href="/contact-us">reach out to our team</a>. We'll do a free audit of your account and tell you exactly where you're leaving money on the table.</p>
 
-<p>No long-term contracts. No pressure. Just honest feedback from people who manage <a href="/services/google-ads">Google Ads campaigns</a> for Canadian businesses every single day.</p>
+<p>No long-term contracts. No pressure. Just honest feedback from people who manage <a href="/services/google-ads/">Google Ads campaigns</a> for Canadian businesses every single day.</p>
 
 <ul>
-<li><a href="/services/google-ads">Google Ads Management Services</a></li>
-<li><a href="/services/ppc-management">PPC Management</a></li>
-<li><a href="/services/lead-generation">Lead Generation Services</a></li>
+<li><a href="/services/google-ads/">Google Ads Management Services</a></li>
+<li><a href="/services/ppc-management/">PPC Management</a></li>
+<li><a href="/services/lead-generation/">Lead Generation Services</a></li>
 </ul>
 `,
   },
@@ -634,7 +634,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <ul>
 <li>Are you ranking on page 1 for your most important keywords?</li>
 <li>Is your Google Business Profile complete and optimized?</li>
-<li>Do you have any technical <a href="/services/seo">SEO</a> issues (broken links, missing meta descriptions, duplicate content)?</li>
+<li>Do you have any technical <a href="/services/seo/">SEO</a> issues (broken links, missing meta descriptions, duplicate content)?</li>
 </ul>
 
 <p><strong>Social media audit:</strong></p>
@@ -665,12 +665,12 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <tr><th>Channel</th><th>Best For</th><th>Time to Results</th><th>Budget Needed</th><th>Difficulty</th></tr>
 </thead>
 <tbody>
-<tr><td><a href="/services/seo">SEO</a></td><td>Long-term lead generation, local businesses, content-driven businesses</td><td>4–8 months</td><td>$1,000–$3,500/mo</td><td>Hard</td></tr>
-<tr><td><a href="/services/google-ads">Google Ads</a></td><td>Immediate leads, high-intent services, competitive markets</td><td>1–2 weeks</td><td>$1,500–$10,000/mo</td><td>Moderate</td></tr>
-<tr><td><a href="/services/social-media">Social Media (Organic)</a></td><td>Brand building, community, visual products, B2C</td><td>3–6 months</td><td>$800–$3,000/mo</td><td>Moderate</td></tr>
+<tr><td><a href="/services/seo/">SEO</a></td><td>Long-term lead generation, local businesses, content-driven businesses</td><td>4–8 months</td><td>$1,000–$3,500/mo</td><td>Hard</td></tr>
+<tr><td><a href="/services/google-ads/">Google Ads</a></td><td>Immediate leads, high-intent services, competitive markets</td><td>1–2 weeks</td><td>$1,500–$10,000/mo</td><td>Moderate</td></tr>
+<tr><td><a href="/services/social-media/">Social Media (Organic)</a></td><td>Brand building, community, visual products, B2C</td><td>3–6 months</td><td>$800–$3,000/mo</td><td>Moderate</td></tr>
 <tr><td>Social Media Ads (Meta)</td><td>E-commerce, local awareness, retargeting, B2C</td><td>2–4 weeks</td><td>$1,000–$5,000/mo</td><td>Moderate</td></tr>
 <tr><td>Email Marketing</td><td>Nurturing leads, repeat customers, e-commerce, B2B</td><td>1–3 months</td><td>$200–$1,000/mo</td><td>Easy</td></tr>
-<tr><td><a href="/services/content-marketing">Content Marketing</a></td><td>Thought leadership, SEO, B2B, complex products</td><td>4–8 months</td><td>$1,500–$5,000/mo</td><td>Hard</td></tr>
+<tr><td><a href="/services/content-marketing/">Content Marketing</a></td><td>Thought leadership, SEO, B2B, complex products</td><td>4–8 months</td><td>$1,500–$5,000/mo</td><td>Hard</td></tr>
 <tr><td>LinkedIn (Organic + Ads)</td><td>B2B lead generation, recruiting, professional services</td><td>2–4 months</td><td>$500–$5,000/mo</td><td>Moderate</td></tr>
 </tbody>
 </table>
@@ -684,7 +684,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <h3>Step 5: Set Your Budget and Allocate It</h3>
 
-<p>I covered budget frameworks in detail in our <a href="/blog/digital-marketing-cost-canada">digital marketing cost guide</a>, but here's the quick version:</p>
+<p>I covered budget frameworks in detail in our <a href="/blog/digital-marketing-cost-canada/">digital marketing cost guide</a>, but here's the quick version:</p>
 
 <table>
 <thead>
@@ -801,11 +801,11 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <p>We'll walk through this framework together, identify your biggest opportunities, and give you a clear roadmap — whether you hire us or not.</p>
 
 <ul>
-<li><a href="/services/seo">SEO Services</a></li>
-<li><a href="/services/google-ads">Google Ads Management</a></li>
-<li><a href="/services/social-media">Social Media Marketing</a></li>
-<li><a href="/services/content-marketing">Content Marketing</a></li>
-<li><a href="/services/branding">Branding &amp; Strategy</a></li>
+<li><a href="/services/seo/">SEO Services</a></li>
+<li><a href="/services/google-ads/">Google Ads Management</a></li>
+<li><a href="/services/social-media/">Social Media Marketing</a></li>
+<li><a href="/services/content-marketing/">Content Marketing</a></li>
+<li><a href="/services/branding/">Branding &amp; Strategy</a></li>
 </ul>
 `,
   },
@@ -907,7 +907,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <h2>LinkedIn for Business: The Underrated Lead Machine</h2>
 
-<p>If you sell to other businesses, LinkedIn is probably your highest-value <a href="/services/social-media">social media</a> platform. It's also the one most businesses do wrong — they treat it like a job board instead of a content platform.</p>
+<p>If you sell to other businesses, LinkedIn is probably your highest-value <a href="/services/social-media/">social media</a> platform. It's also the one most businesses do wrong — they treat it like a job board instead of a content platform.</p>
 
 <h3>Pros</h3>
 <ul>
@@ -1042,15 +1042,15 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>Picking the right platforms is just step one. You also need a content strategy, a posting cadence, engagement processes, and a way to measure ROI. That's where having a team behind you makes a difference.</p>
 
-<p>At TML Agency, we manage <a href="/services/social-media">social media</a> for Canadian businesses that want results — not just pretty posts. We handle strategy, content creation, community management, and <a href="/services/meta-ads">paid social advertising</a> so you can focus on running your business.</p>
+<p>At TML Agency, we manage <a href="/services/social-media/">social media</a> for Canadian businesses that want results — not just pretty posts. We handle strategy, content creation, community management, and <a href="/services/meta-ads/">paid social advertising</a> so you can focus on running your business.</p>
 
 <p><strong><a href="/contact-us">Let's talk about your social media strategy →</a></strong></p>
 
 <ul>
-<li><a href="/services/social-media">Social Media Marketing</a></li>
-<li><a href="/services/meta-ads">Meta (Facebook &amp; Instagram) Ads</a></li>
-<li><a href="/services/content-marketing">Content Marketing</a></li>
-<li><a href="/services/influencer-marketing">Influencer Marketing</a></li>
+<li><a href="/services/social-media/">Social Media Marketing</a></li>
+<li><a href="/services/meta-ads/">Meta (Facebook &amp; Instagram) Ads</a></li>
+<li><a href="/services/content-marketing/">Content Marketing</a></li>
+<li><a href="/services/influencer-marketing/">Influencer Marketing</a></li>
 </ul>
 `,
   },
@@ -1124,7 +1124,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>Agencies are more expensive, but you're paying for a team — not a single person. A social media agency in India typically charges between <strong>₹20,000 and ₹1,50,000+ per month</strong>, depending on the scope.</p>
 
-<p>At an agency like <a href="/services/social-media">TML Agency</a>, you get a dedicated team: a strategist, a designer, a copywriter, a community manager, and an account manager. That's five people working on your brand compared to one freelancer doing everything.</p>
+<p>At an agency like <a href="/services/social-media/">TML Agency</a>, you get a dedicated team: a strategist, a designer, a copywriter, a community manager, and an account manager. That's five people working on your brand compared to one freelancer doing everything.</p>
 
 <p><strong>What a good agency includes:</strong></p>
 <ul>
@@ -1241,7 +1241,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <p>This is the sweet spot for most growing businesses. You should be getting custom designs, a content calendar, a mix of post formats (carousels, reels, stories), basic community management, and monthly performance insights. If your agency isn't delivering this at ₹50K — something's wrong.</p>
 
 <h3>At ₹75,000–₹1,50,000/month</h3>
-<p>At this level, you deserve a dedicated team, proactive strategy, video production, <a href="/services/meta-ads">paid ad management</a>, influencer outreach, and detailed analytics dashboards. This is where you start seeing real business impact — leads, sales, brand growth.</p>
+<p>At this level, you deserve a dedicated team, proactive strategy, video production, <a href="/services/meta-ads/">paid ad management</a>, influencer outreach, and detailed analytics dashboards. This is where you start seeing real business impact — leads, sales, brand growth.</p>
 
 <h3>At ₹1,50,000+/month</h3>
 <p>Full-service. Everything above plus brand campaigns, event coverage, UGC coordination, advanced competitor tracking, and a senior strategist on your account. This is for brands that are serious about social media as a primary revenue channel.</p>
@@ -1261,7 +1261,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li><strong>Month 12+:</strong> Compounding returns. Organic reach grows. Customer acquisition cost drops. Community becomes self-sustaining.</li>
 </ul>
 
-<p>For e-commerce brands running <a href="/services/meta-ads">Meta Ads</a> alongside organic social, you can see returns faster — sometimes within the first month. But organic social alone? Give it at least 6 months before judging ROI.</p>
+<p>For e-commerce brands running <a href="/services/meta-ads/">Meta Ads</a> alongside organic social, you can see returns faster — sometimes within the first month. But organic social alone? Give it at least 6 months before judging ROI.</p>
 
 <h2>When to DIY vs When to Hire</h2>
 
@@ -1289,7 +1289,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li>You need strategy + execution + reporting</li>
 <li>You're spending ₹30,000+/month and want real results</li>
 <li>You need multiple platforms managed professionally</li>
-<li>You want <a href="/services/content-writing">professional content</a> that actually converts</li>
+<li>You want <a href="/services/content-writing/">professional content</a> that actually converts</li>
 </ul>
 
 <figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
@@ -1389,11 +1389,11 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>This is the classic "growth plateau," and it's exactly where agencies shine. You have the product, the operations, and the cash flow — you just need someone who knows how to turn on new customer acquisition channels.</p>
 
-<p><strong>Real example:</strong> A restaurant chain in Chandigarh was doing well with walk-ins and Zomato, but revenue had been flat for 8 months. We set up <a href="/services/google-ads">Google Ads</a> targeting "best restaurants near me" searches, optimised their Google Business Profile, and ran Instagram Reels showcasing their food. Within 4 months, they saw a 40% increase in footfall and started getting catering enquiries they'd never had before. Their agency investment? ₹60,000/month. The additional revenue? Over ₹3,00,000/month.</p>
+<p><strong>Real example:</strong> A restaurant chain in Chandigarh was doing well with walk-ins and Zomato, but revenue had been flat for 8 months. We set up <a href="/services/google-ads/">Google Ads</a> targeting "best restaurants near me" searches, optimised their Google Business Profile, and ran Instagram Reels showcasing their food. Within 4 months, they saw a 40% increase in footfall and started getting catering enquiries they'd never had before. Their agency investment? ₹60,000/month. The additional revenue? Over ₹3,00,000/month.</p>
 
 <h3>2. You Don't Have Marketing Expertise In-House</h3>
 
-<p>Digital marketing in 2026 is not something you can wing. <a href="/services/seo">SEO</a> alone has become incredibly technical — core web vitals, E-E-A-T, AI overviews, schema markup. Then there's paid advertising across Google, Meta, LinkedIn. Social media algorithms change every few months. Email marketing, content strategy, analytics…</p>
+<p>Digital marketing in 2026 is not something you can wing. <a href="/services/seo/">SEO</a> alone has become incredibly technical — core web vitals, E-E-A-T, AI overviews, schema markup. Then there's paid advertising across Google, Meta, LinkedIn. Social media algorithms change every few months. Email marketing, content strategy, analytics…</p>
 
 <p>Hiring an agency gives you access to specialists in each of these areas for the price of one or two full-time employees. A mid-level digital marketing manager in India costs ₹40,000–₹70,000/month. For roughly the same investment, an agency gives you a team of 5–8 specialists.</p>
 
@@ -1407,7 +1407,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>Here's something most businesses don't realise: <strong>digital marketing channels work best together, not in isolation.</strong></p>
 
-<p>Your <a href="/services/seo">SEO</a> feeds your content. Your content fuels your social media. Your social media builds your remarketing audiences. Your remarketing converts those audiences through <a href="/services/google-ads">Google Ads</a>. Your brand identity ties everything together.</p>
+<p>Your <a href="/services/seo/">SEO</a> feeds your content. Your content fuels your social media. Your social media builds your remarketing audiences. Your remarketing converts those audiences through <a href="/services/google-ads/">Google Ads</a>. Your brand identity ties everything together.</p>
 
 <p>A freelancer managing your Instagram doesn't coordinate with the freelancer doing your SEO. An agency does — because they're one team with shared goals and shared data.</p>
 
@@ -1473,7 +1473,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <p>When you're evaluating agency pricing, most people only look at the monthly retainer. But there are other costs that catch businesses off guard:</p>
 
 <h3>Ad Spend</h3>
-<p>Agency fees and ad spend are almost always separate. If an agency charges ₹40,000/month for <a href="/services/google-ads">Google Ads management</a>, that's just their management fee. You'll need another ₹20,000–₹1,00,000+ for the actual ads. Make sure you understand the total investment.</p>
+<p>Agency fees and ad spend are almost always separate. If an agency charges ₹40,000/month for <a href="/services/google-ads/">Google Ads management</a>, that's just their management fee. You'll need another ₹20,000–₹1,00,000+ for the actual ads. Make sure you understand the total investment.</p>
 
 <h3>Content and Creative</h3>
 <p>Some agencies include content creation in their retainer. Others charge separately for blog posts, videos, photography, and graphic design. Ask upfront: <strong>what's included and what costs extra?</strong></p>
@@ -1511,12 +1511,12 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <h3>Scenario 1: The Restaurant Owner</h3>
 <p><strong>Situation:</strong> You own a restaurant in a busy area. Monthly revenue: ₹8–₹12 lakh. You're on Zomato and Swiggy but want more dine-in customers.</p>
 
-<p><strong>Verdict: Yes, hire an agency — but a focused one.</strong> You don't need full-service digital marketing. You need <a href="/services/social-media">Instagram/Facebook marketing</a>, Google Business Profile optimisation, and maybe some local Google Ads. Budget: ₹25,000–₹40,000/month (management) + ₹15,000–₹25,000/month (ad spend). Expected ROI: 15–30 additional covers per week within 3–4 months. Worth it.</p>
+<p><strong>Verdict: Yes, hire an agency — but a focused one.</strong> You don't need full-service digital marketing. You need <a href="/services/social-media/">Instagram/Facebook marketing</a>, Google Business Profile optimisation, and maybe some local Google Ads. Budget: ₹25,000–₹40,000/month (management) + ₹15,000–₹25,000/month (ad spend). Expected ROI: 15–30 additional covers per week within 3–4 months. Worth it.</p>
 
 <h3>Scenario 2: The SaaS Startup</h3>
 <p><strong>Situation:</strong> You've built a B2B SaaS product. You have 50 paying customers. Monthly revenue: ₹3–₹4 lakh. Average deal size: ₹20,000/month.</p>
 
-<p><strong>Verdict: Yes, absolutely.</strong> With a ₹20,000/month deal size, even one new customer per month from an agency justifies the entire spend. Go for an agency that understands B2B — <a href="/services/seo">SEO</a> and LinkedIn will be your biggest channels. Budget: ₹50,000–₹80,000/month. Expected ROI: 3–5 qualified leads per month within 6 months. Potentially ₹60,000–₹1,00,000 in new MRR per month.</p>
+<p><strong>Verdict: Yes, absolutely.</strong> With a ₹20,000/month deal size, even one new customer per month from an agency justifies the entire spend. Go for an agency that understands B2B — <a href="/services/seo/">SEO</a> and LinkedIn will be your biggest channels. Budget: ₹50,000–₹80,000/month. Expected ROI: 3–5 qualified leads per month within 6 months. Potentially ₹60,000–₹1,00,000 in new MRR per month.</p>
 
 <h3>Scenario 3: The Local Kirana Store</h3>
 <p><strong>Situation:</strong> You run a neighbourhood grocery store. Revenue: ₹2–₹3 lakh/month. Customers are within a 2 km radius.</p>
@@ -1531,7 +1531,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <h3>Scenario 5: The Freelance Consultant</h3>
 <p><strong>Situation:</strong> You're a solo HR consultant. Revenue: ₹80,000–₹1,20,000/month. You want more clients.</p>
 
-<p><strong>Verdict: Not yet.</strong> At this revenue level, an agency retainer will eat a massive chunk of your income. Instead: build your personal brand on LinkedIn (you can do this yourself), get a simple <a href="/services/website-development">website built</a> (one-time ₹30,000–₹50,000), and ask happy clients for referrals. Once you're consistently at ₹2–₹3 lakh/month, then consider an agency for scaling.</p>
+<p><strong>Verdict: Not yet.</strong> At this revenue level, an agency retainer will eat a massive chunk of your income. Instead: build your personal brand on LinkedIn (you can do this yourself), get a simple <a href="/services/website-development/">website built</a> (one-time ₹30,000–₹50,000), and ask happy clients for referrals. Once you're consistently at ₹2–₹3 lakh/month, then consider an agency for scaling.</p>
 
 <h2>What to Expect From a Good Agency</h2>
 
@@ -1631,7 +1631,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>I get it. You're not looking for a marketing lecture. You want to know: <strong>if I put ₹10,000 into Facebook or Instagram ads, what will I actually get back?</strong></p>
 
-<p>I manage <a href="/services/meta-ads">Meta Ads campaigns</a> for Indian businesses every day — from local restaurants in Chandigarh to D2C brands shipping across the country. The numbers I'm sharing here aren't from some global report that lumps India with the US and UK. These are <strong>India-specific benchmarks for 2026</strong>, based on what we're actually seeing in live campaigns.</p>
+<p>I manage <a href="/services/meta-ads/">Meta Ads campaigns</a> for Indian businesses every day — from local restaurants in Chandigarh to D2C brands shipping across the country. The numbers I'm sharing here aren't from some global report that lumps India with the US and UK. These are <strong>India-specific benchmarks for 2026</strong>, based on what we're actually seeing in live campaigns.</p>
 
 <p>Let's break it all down.</p>
 
@@ -1708,10 +1708,10 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <p>Now you're playing for real. At this level, you can run proper retargeting campaigns, test multiple creatives weekly, target different cities, and build a funnel (awareness → consideration → conversion). Most mid-sized businesses and growing D2C brands fall here.</p>
 
 <h3>₹75,000 – ₹2,00,000+/month (The Scale Budget)</h3>
-<p>This is for brands that have already validated their funnel and want to pour fuel on the fire. You're running campaigns across multiple objectives, doing serious retargeting, and likely working with a <a href="/services/meta-ads">dedicated ads management team</a>.</p>
+<p>This is for brands that have already validated their funnel and want to pour fuel on the fire. You're running campaigns across multiple objectives, doing serious retargeting, and likely working with a <a href="/services/meta-ads/">dedicated ads management team</a>.</p>
 
 <blockquote>
-<p><strong>Pro tip:</strong> If your monthly budget is below ₹15,000, consider spending that on organic <a href="/services/social-media">social media marketing</a> instead. The algorithm needs enough data (roughly 50 conversions per week) to optimise properly. Too little budget = the algorithm can't learn, and you're essentially guessing.</p>
+<p><strong>Pro tip:</strong> If your monthly budget is below ₹15,000, consider spending that on organic <a href="/services/social-media/">social media marketing</a> instead. The algorithm needs enough data (roughly 50 conversions per week) to optimise properly. Too little budget = the algorithm can't learn, and you're essentially guessing.</p>
 </blockquote>
 
 <figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
@@ -1831,7 +1831,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 </tbody>
 </table>
 
-<p><strong>Our recommendation:</strong> If you're a service business (dentist, lawyer, CA, plumber), start with <a href="/services/google-ads">Google Ads</a> — people are actively searching for you. If you're selling products or building a brand, start with <a href="/services/meta-ads">Meta Ads</a>. Ideally, you run both, but if budget is limited, pick the one that matches your buyer's behaviour.</p>
+<p><strong>Our recommendation:</strong> If you're a service business (dentist, lawyer, CA, plumber), start with <a href="/services/google-ads/">Google Ads</a> — people are actively searching for you. If you're selling products or building a brand, start with <a href="/services/meta-ads/">Meta Ads</a>. Ideally, you run both, but if budget is limited, pick the one that matches your buyer's behaviour.</p>
 
 <h2>So, What Should YOU Budget?</h2>
 
@@ -1857,7 +1857,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>Look, you can absolutely learn Meta Ads yourself. But there's a difference between running ads and running <em>profitable</em> ads. The platform changes constantly — new features, algorithm updates, policy changes — and keeping up with it all while running your business is a full-time job.</p>
 
-<p>At TML Agency, we manage <a href="/services/meta-ads">Facebook and Instagram ad campaigns</a> for businesses across India. We'll tell you upfront what budget you need, what results to expect, and we'll show you the numbers every month — no fluff, no vanity metrics.</p>
+<p>At TML Agency, we manage <a href="/services/meta-ads/">Facebook and Instagram ad campaigns</a> for businesses across India. We'll tell you upfront what budget you need, what results to expect, and we'll show you the numbers every month — no fluff, no vanity metrics.</p>
 
 <p><strong><a href="/contact-us">Get a free ad audit and budget recommendation →</a></strong></p>
 
@@ -1895,7 +1895,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>"On-page optimization." "Keyword research." "Monthly reporting." Cool. But what does any of that actually mean for your business? Will you get more customers? More phone calls? More revenue?</p>
 
-<p>I run an <a href="/services/seo">SEO agency</a> that works with small and mid-sized businesses across India. I've seen what works, what doesn't, and what's an outright scam. This guide is my honest breakdown of how to pick an SEO package that's actually worth your money in 2026.</p>
+<p>I run an <a href="/services/seo/">SEO agency</a> that works with small and mid-sized businesses across India. I've seen what works, what doesn't, and what's an outright scam. This guide is my honest breakdown of how to pick an SEO package that's actually worth your money in 2026.</p>
 
 <figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>What's Typically Included in an SEO Package?</h2>
@@ -1996,17 +1996,17 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><strong>Expected timeline:</strong> You should see noticeable ranking improvements in 3–4 months, and meaningful traffic growth by month 5–6. If an agency promises page 1 in 30 days at this budget, they're lying.</p>
 
-<p><strong>Honest verdict:</strong> This is where SEO starts working. If you're a local service business — <a href="/services/seo">CA firm, dental clinic, coaching institute, interior designer</a> — this budget will get you real results in your city.</p>
+<p><strong>Honest verdict:</strong> This is where SEO starts working. If you're a local service business — <a href="/services/seo/">CA firm, dental clinic, coaching institute, interior designer</a> — this budget will get you real results in your city.</p>
 
 <h3>Premium Package (₹25,000 – ₹50,000/month)</h3>
 
 <p>At this level, you're not just doing SEO — you're building a <strong>content-driven growth engine.</strong> This is for businesses serious about dominating search results, targeting multiple cities, or competing in tough industries.</p>
 
 <ul>
-<li>Comprehensive <a href="/services/technical-seo">technical SEO</a> with ongoing monitoring</li>
+<li>Comprehensive <a href="/services/technical-seo/">technical SEO</a> with ongoing monitoring</li>
 <li>30–60 keywords across multiple service categories and locations</li>
 <li>8–12 content pieces per month (blogs, landing pages, comparison pages)</li>
-<li>Aggressive <a href="/services/link-building">link building</a> — 20–30 high-quality backlinks from DA 30+ sites</li>
+<li>Aggressive <a href="/services/link-building/">link building</a> — 20–30 high-quality backlinks from DA 30+ sites</li>
 <li>Competitor gap analysis and strategy adjustments</li>
 <li>Conversion rate optimization (CRO) recommendations</li>
 <li>Bi-weekly strategy calls with a dedicated SEO manager</li>
@@ -2097,11 +2097,11 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li>Your time is better spent running your business and serving customers</li>
 <li>You're in a competitive market where you need a proper strategy</li>
 <li>You need results faster (an experienced team knows what works)</li>
-<li>You want <a href="/services/link-building">link building</a> done properly (this is nearly impossible to do well on your own)</li>
+<li>You want <a href="/services/link-building/">link building</a> done properly (this is nearly impossible to do well on your own)</li>
 <li>You can invest ₹12,000+ per month consistently for at least 6 months</li>
 </ul>
 
-<p><strong>The middle ground:</strong> Some business owners learn basic on-page SEO themselves and hire an agency just for <a href="/services/link-building">link building</a> and <a href="/services/content-writing">content creation</a> — the two most time-intensive parts. That can work well too.</p>
+<p><strong>The middle ground:</strong> Some business owners learn basic on-page SEO themselves and hire an agency just for <a href="/services/link-building/">link building</a> and <a href="/services/content-writing/">content creation</a> — the two most time-intensive parts. That can work well too.</p>
 
 <h2>How to Evaluate If Your SEO Package is Working</h2>
 
@@ -2127,7 +2127,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <h2>Our SEO Packages at TML Agency</h2>
 
-<p>I'll keep this short because this article is about helping you choose, not selling you. At <a href="/services/seo">TML Agency</a>, our SEO packages start at ₹12,000/month for local businesses and go up based on competition, number of keywords, and content needs.</p>
+<p>I'll keep this short because this article is about helping you choose, not selling you. At <a href="/services/seo/">TML Agency</a>, our SEO packages start at ₹12,000/month for local businesses and go up based on competition, number of keywords, and content needs.</p>
 
 <p>What makes us different:</p>
 
@@ -2173,7 +2173,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
   content: `
 <h2>The Honest Answer: It Depends on Where You Are Right Now</h2>
 
-<p>I run a <a href="/services/seo">digital marketing agency</a>, so you'd expect me to say "always hire an agency." But that would be dishonest — and honestly, bad advice for a lot of business owners reading this.</p>
+<p>I run a <a href="/services/seo/">digital marketing agency</a>, so you'd expect me to say "always hire an agency." But that would be dishonest — and honestly, bad advice for a lot of business owners reading this.</p>
 
 <p>The truth is, <strong>both freelancers and agencies have their place.</strong> I've seen freelancers do incredible work for small businesses. I've also seen agencies waste lakhs of rupees on mediocre results. And vice versa. The right choice depends on your budget, your goals, and the stage your business is in.</p>
 
@@ -2202,7 +2202,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <ul>
 <li><strong>Single point of failure</strong> — This is the biggest risk. If your freelancer gets sick, takes a vacation, or simply disappears (yes, this happens more often than you'd think), your marketing stops. I've heard from dozens of business owners who were left hanging mid-campaign because their freelancer ghosted them.</li>
-<li><strong>Limited skill set</strong> — Even the best freelancer can't be great at everything. If you need <a href="/services/seo">SEO</a>, <a href="/services/social-media">social media</a>, <a href="/services/google-ads">Google Ads</a>, and <a href="/services/website-development">web development</a> — you'll need to hire 3–4 different freelancers. Coordinating them becomes your job.</li>
+<li><strong>Limited skill set</strong> — Even the best freelancer can't be great at everything. If you need <a href="/services/seo/">SEO</a>, <a href="/services/social-media/">social media</a>, <a href="/services/google-ads/">Google Ads</a>, and <a href="/services/website-development/">web development</a> — you'll need to hire 3–4 different freelancers. Coordinating them becomes your job.</li>
 <li><strong>No strategic oversight</strong> — Freelancers execute. They rarely step back and say, "Hey, your entire marketing strategy needs rethinking." They do what you ask them to do. If you don't know what to ask for, you'll get activity without results.</li>
 <li><strong>Scalability issues</strong> — When your business grows and you need more output, a freelancer hits their capacity limit. They're one person. You can't get "more" of them.</li>
 <li><strong>Quality inconsistency</strong> — When a freelancer takes on too many clients (which is tempting when you're paying your own bills), quality drops. You may not even realize it until your results start slipping.</li>
@@ -2235,12 +2235,12 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <h3>Pros of Hiring an Agency</h3>
 
 <ul>
-<li><strong>Full-stack capabilities</strong> — Need <a href="/services/seo">SEO</a> + <a href="/services/social-media">social media</a> + <a href="/services/google-ads">Google Ads</a> + <a href="/services/branding">branding</a> working together? An agency coordinates all of it internally. Your social media team knows what the SEO team is doing, and campaigns are built holistically.</li>
+<li><strong>Full-stack capabilities</strong> — Need <a href="/services/seo/">SEO</a> + <a href="/services/social-media/">social media</a> + <a href="/services/google-ads/">Google Ads</a> + <a href="/services/branding/">branding</a> working together? An agency coordinates all of it internally. Your social media team knows what the SEO team is doing, and campaigns are built holistically.</li>
 <li><strong>No single point of failure</strong> — If one team member leaves or is out sick, someone else picks up. Your campaigns don't pause because one person has a personal emergency.</li>
 <li><strong>Strategic thinking</strong> — Good agencies don't just execute tasks. They build strategy. They'll tell you, "Hey, your website is leaking conversions — let's fix that before we pour money into ads." Freelancers rarely do this.</li>
 <li><strong>Premium tools included</strong> — Agencies invest in expensive tools like SEMrush (₹1,20,000/year), Ahrefs, Adobe Creative Suite, ad analytics platforms, and project management software. These costs are absorbed into the retainer — you don't pay separately.</li>
 <li><strong>Accountability & reporting</strong> — Most agencies provide structured reporting with clear KPIs. There's a contract, deliverables, and someone you can hold accountable.</li>
-<li><strong>Scalability</strong> — When you're ready to grow, an agency can scale with you. Need to add a new city to your <a href="/services/google-ads">Google Ads campaigns</a>? Launch on a new social platform? They have the bandwidth.</li>
+<li><strong>Scalability</strong> — When you're ready to grow, an agency can scale with you. Need to add a new city to your <a href="/services/google-ads/">Google Ads campaigns</a>? Launch on a new social platform? They have the bandwidth.</li>
 </ul>
 
 <h3>Cons of Hiring an Agency</h3>
@@ -2277,7 +2277,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <ul>
 <li><strong>Your budget is under ₹15,000/month</strong> — At this budget, an agency can't do much. A good freelancer can give you solid work on a single channel.</li>
 <li><strong>You need only one channel</strong> — If you just need someone to manage your Instagram or run your Google Ads, and nothing else, a specialist freelancer is often better value.</li>
-<li><strong>It's a one-time project</strong> — Need a <a href="/services/website-development">website built</a>? A logo designed? These are finite projects. Hire a freelancer, get it done, move on.</li>
+<li><strong>It's a one-time project</strong> — Need a <a href="/services/website-development/">website built</a>? A logo designed? These are finite projects. Hire a freelancer, get it done, move on.</li>
 <li><strong>You're testing the waters</strong> — Not sure if digital marketing works for your business? Spend ₹10,000 with a freelancer for 2 months before committing to an agency retainer.</li>
 <li><strong>You have marketing knowledge yourself</strong> — If you can set strategy and direction, you just need execution. A freelancer follows your playbook.</li>
 </ul>
@@ -2289,7 +2289,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li><strong>You're spending ₹50,000+ per month on ads</strong> — At this spend level, professional campaign management pays for itself. The optimization alone saves more than the management fee.</li>
 <li><strong>You don't have time to manage marketing yourself</strong> — An agency takes marketing off your plate entirely. You get a monthly report and a strategy call. That's it.</li>
 <li><strong>You're scaling</strong> — Growing from 1 city to 5? Launching a new product line? You need the bandwidth of a team, not a single person.</li>
-<li><strong>Your brand image matters</strong> — If inconsistent <a href="/services/branding">branding</a> could hurt you (real estate, healthcare, premium products), an agency ensures everything is polished and on-brand.</li>
+<li><strong>Your brand image matters</strong> — If inconsistent <a href="/services/branding/">branding</a> could hurt you (real estate, healthcare, premium products), an agency ensures everything is polished and on-brand.</li>
 </ul>
 
 <figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Digital marketing content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing content</figcaption></figure>
@@ -2311,7 +2311,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><strong>Recommendation: Agency.</strong></p>
 
-<p>You need SEO for organic traffic, <a href="/services/google-ads">Google Shopping ads</a>, <a href="/services/meta-ads">Meta ads</a> for remarketing, email automation, and someone keeping your website optimized. That's 4–5 different skill sets. An agency in the ₹40,000–₹70,000/month range will give you a proper team working in coordination. This is where agencies earn their fee.</p>
+<p>You need SEO for organic traffic, <a href="/services/google-ads/">Google Shopping ads</a>, <a href="/services/meta-ads/">Meta ads</a> for remarketing, email automation, and someone keeping your website optimized. That's 4–5 different skill sets. An agency in the ₹40,000–₹70,000/month range will give you a proper team working in coordination. This is where agencies earn their fee.</p>
 
 <h3>Scenario 4: A B2B Company Targeting Clients Pan-India</h3>
 
@@ -2447,7 +2447,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <strong>Difficulty:</strong> Medium<br />
 <strong>Best for:</strong> Service businesses, professionals (lawyers, CAs, doctors), local retail</p>
 
-<p><a href="/services/seo">Local SEO</a> is how you show up when someone types "best [your service] in [your city]" on Google. Unlike ads, you don't pay per click. Once you rank, you get free traffic every single day.</p>
+<p><a href="/services/seo/">Local SEO</a> is how you show up when someone types "best [your service] in [your city]" on Google. Unlike ads, you don't pay per click. Once you rank, you get free traffic every single day.</p>
 
 <p><strong>Key actions:</strong></p>
 <ul>
@@ -2476,7 +2476,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li><strong>Collaborate with micro-influencers</strong> — 10,000-follower local influencers often drive more business than someone with 1 million followers. Cost: ₹2,000–₹10,000 per collaboration.</li>
 </ul>
 
-<p><a href="/services/social-media">Need help with social media strategy?</a> We build Instagram growth engines for Indian businesses.</p>
+<p><a href="/services/social-media/">Need help with social media strategy?</a> We build Instagram growth engines for Indian businesses.</p>
 
 <h2>Strategy 4: WhatsApp Business — Your Secret Weapon</h2>
 
@@ -2505,7 +2505,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <strong>Difficulty:</strong> Medium–Hard<br />
 <strong>Best for:</strong> Businesses with clear services and decent margins (legal, medical, real estate, education, home services)</p>
 
-<p><a href="/services/google-ads">Google Ads</a> puts you at the top of search results immediately. No waiting 6 months for SEO. Someone searches "best interior designer in Chandigarh," your ad shows up first.</p>
+<p><a href="/services/google-ads/">Google Ads</a> puts you at the top of search results immediately. No waiting 6 months for SEO. Someone searches "best interior designer in Chandigarh," your ad shows up first.</p>
 
 <p><strong>What you need to know:</strong></p>
 <ul>
@@ -2536,7 +2536,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <strong>Difficulty:</strong> Medium<br />
 <strong>Best for:</strong> B2C businesses, especially those with visual products/services (fashion, food, events, weddings, real estate)</p>
 
-<p><a href="/services/meta-ads">Meta Ads</a> (Facebook + Instagram) are incredibly powerful for Indian businesses because the targeting is insanely specific. You can target women aged 25–35 in Mohali who are interested in organic skincare and have visited competitor websites.</p>
+<p><a href="/services/meta-ads/">Meta Ads</a> (Facebook + Instagram) are incredibly powerful for Indian businesses because the targeting is insanely specific. You can target women aged 25–35 in Mohali who are interested in organic skincare and have visited competitor websites.</p>
 
 <p><strong>What works in 2026:</strong></p>
 <ul>
@@ -2680,7 +2680,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <strong>Difficulty:</strong> Medium<br />
 <strong>Best for:</strong> Every business that's serious about growing online</p>
 
-<p>Your <a href="/services/website-development">website</a> is the foundation of everything on this list. Ads drive traffic to it. SEO ranks it. Social media links to it. If your website is slow, ugly, or confusing — you're losing customers at the last step.</p>
+<p>Your <a href="/services/website-development/">website</a> is the foundation of everything on this list. Ads drive traffic to it. SEO ranks it. Social media links to it. If your website is slow, ugly, or confusing — you're losing customers at the last step.</p>
 
 <p><strong>Non-negotiable website elements in 2026:</strong></p>
 <ul>
@@ -2730,7 +2730,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <h2>Need Help Getting More Customers Online?</h2>
 
-<p>If you'd rather have a team handle this while you focus on running your business, <a href="/contact-us">let's talk</a>. At TML Agency, we build complete digital marketing systems for Indian businesses — from <a href="/services/seo">SEO</a> and <a href="/services/google-ads">Google Ads</a> to <a href="/services/social-media">social media</a> and <a href="/services/website-development">website development</a>. We'll tell you which strategies make sense for your specific business and budget. No fluff, no lock-in contracts — just results.</p>
+<p>If you'd rather have a team handle this while you focus on running your business, <a href="/contact-us">let's talk</a>. At TML Agency, we build complete digital marketing systems for Indian businesses — from <a href="/services/seo/">SEO</a> and <a href="/services/google-ads/">Google Ads</a> to <a href="/services/social-media/">social media</a> and <a href="/services/website-development/">website development</a>. We'll tell you which strategies make sense for your specific business and budget. No fluff, no lock-in contracts — just results.</p>
 
 <p><a href="/contact-us"><strong>Get a free consultation →</strong></a></p>
 `,
@@ -2906,7 +2906,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li><strong>Keyword-rich hashtags</strong> (as discussed above)</li>
 </ul>
 
-<p>This is essentially <a href="/services/seo">SEO</a> for Instagram. And most businesses aren't doing it yet — which means there's a huge opportunity for you right now.</p>
+<p>This is essentially <a href="/services/seo/">SEO</a> for Instagram. And most businesses aren't doing it yet — which means there's a huge opportunity for you right now.</p>
 
 <h2>Step 5: Engagement Tactics That Build Community</h2>
 
@@ -2948,7 +2948,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li>Offer a barter deal: free products/services in exchange for 1 Reel + 2 Stories</li>
 </ul>
 
-<p>This is essentially free <a href="/services/social-media">social media marketing</a> that money can't easily buy — real people genuinely recommending your product to their engaged audience.</p>
+<p>This is essentially free <a href="/services/social-media/">social media marketing</a> that money can't easily buy — real people genuinely recommending your product to their engaged audience.</p>
 
 <figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-mockup.webp" alt="Instagram marketing mockup" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram marketing mockup</figcaption></figure>
 <h2>Step 7: Posting Schedule — When and How Often</h2>
@@ -3028,7 +3028,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li>Start going Live weekly</li>
 <li>Create a branded hashtag for your community</li>
 <li>Collaborate with complementary businesses (a salon collaborates with a makeup artist, a cafe collaborates with a bakery)</li>
-<li>Consider investing time in <a href="/services/content-writing">professional content writing</a> for your captions to increase engagement</li>
+<li>Consider investing time in <a href="/services/content-writing/">professional content writing</a> for your captions to increase engagement</li>
 </ul>
 
 <blockquote>
@@ -3067,7 +3067,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <h2>Need Help With Your Instagram Strategy?</h2>
 
-<p>Look, organic growth is powerful — but it takes time and consistency. If you want someone to handle your <a href="/services/social-media">social media marketing</a> while you focus on running your business, or if you want a custom Instagram strategy built specifically for your business — we're here.</p>
+<p>Look, organic growth is powerful — but it takes time and consistency. If you want someone to handle your <a href="/services/social-media/">social media marketing</a> while you focus on running your business, or if you want a custom Instagram strategy built specifically for your business — we're here.</p>
 
 <p>At Town Media Labs, we've helped hundreds of Indian businesses build their Instagram presence from scratch. No fake followers, no shortcuts — just real strategy that brings real customers.</p>
 
@@ -3114,7 +3114,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li>Free mein customers laana chahte hain bina ads ke</li>
 </ul>
 
-<p>Main Raman hoon, <a href="/services/gmb-listing">Town Media Labs</a> ka founder, aur pichle kai saalon mein humne 500+ businesses ki GMB profiles optimize ki hain. Jo main tujhe batane wala hoon, woh real experience se hai — koi copy-paste gyaan nahi.</p>
+<p>Main Raman hoon, <a href="/services/gmb-listing/">Town Media Labs</a> ka founder, aur pichle kai saalon mein humne 500+ businesses ki GMB profiles optimize ki hain. Jo main tujhe batane wala hoon, woh real experience se hai — koi copy-paste gyaan nahi.</p>
 
 <blockquote>
 <p><strong>Fun fact:</strong> Google My Business ab officially "Google Business Profile" ho gaya hai. Lekin sab log abhi bhi GMB hi bolte hain, toh hum bhi wahi use karenge.</p>
@@ -3168,7 +3168,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <h3>Business Description Kaise Likhein</h3>
 
-<p>Yeh 750 characters tera <a href="/services/seo">SEO</a> ka chance hai. Naturally apne keywords daal. Example:</p>
+<p>Yeh 750 characters tera <a href="/services/seo/">SEO</a> ka chance hai. Naturally apne keywords daal. Example:</p>
 
 <blockquote>
 <p>"Sharma Electronics Chandigarh mein 15 saalon se AC repair, refrigerator repair, aur washing machine service provide kar raha hai. Hum Chandigarh, Mohali, aur Panchkula mein same-day service dete hain. Trained technicians, genuine parts, aur 6 mahine ki warranty — har repair pe."</p>
@@ -3253,7 +3253,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <ul>
 <li><strong>NAP consistency:</strong> Tera Name, Address, Phone number EXACT same hona chahiye har jagah — GMB, website, JustDial, Sulekha, IndiaMART, Facebook, sab jagah. Ek comma ka fark bhi matter karta hai</li>
 <li><strong>Local citations banao:</strong> Apna business list karo JustDial, Sulekha, IndiaMART, Yellow Pages India, TradeIndia pe. Yeh sab free hai</li>
-<li><strong>Website pe local <a href="/services/seo">SEO</a> karo:</strong> Apni website pe city name, area name use karo naturally. "Chandigarh mein best AC repair" type content likho</li>
+<li><strong>Website pe local <a href="/services/seo/">SEO</a> karo:</strong> Apni website pe city name, area name use karo naturally. "Chandigarh mein best AC repair" type content likho</li>
 <li><strong>Backlinks lo:</strong> Local newspaper websites, business directories, blogs se links lena ranking boost deta hai</li>
 <li><strong>Regularly active raho</strong> — photos daalo, posts daalo, reviews ka reply do. Google active profiles ko prefer karta hai</li>
 </ul>
@@ -3342,9 +3342,9 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <h2>Kya Tujhe Kisi Ki Help Chahiye?</h2>
 
-<p>Dekh, yeh sab tu khud kar sakta hai — aur karna bhi chahiye. Lekin agar tere paas time nahi hai, ya tu chahta hai ki koi expert teri <a href="/services/gmb-listing">GMB profile properly optimize</a> kare, <a href="/services/local-seo">local SEO</a> set kare, aur tujhe consistently Google Maps pe top 3 mein laaye — toh hum hain na.</p>
+<p>Dekh, yeh sab tu khud kar sakta hai — aur karna bhi chahiye. Lekin agar tere paas time nahi hai, ya tu chahta hai ki koi expert teri <a href="/services/gmb-listing/">GMB profile properly optimize</a> kare, <a href="/services/local-seo/">local SEO</a> set kare, aur tujhe consistently Google Maps pe top 3 mein laaye — toh hum hain na.</p>
 
-<p>Town Media Labs mein hum specifically chote businesses ke liye <a href="/services/gmb-listing">Google My Business optimization</a> karte hain. Profile setup se lekar ranking tak, sab kuch handle karte hain.</p>
+<p>Town Media Labs mein hum specifically chote businesses ke liye <a href="/services/gmb-listing/">Google My Business optimization</a> karte hain. Profile setup se lekar ranking tak, sab kuch handle karte hain.</p>
 
 <p><strong><a href="/contact-us">Humse baat kar</a></strong> — free consultation hai. Tera current GMB profile dekhenge, batayenge kya sahi hai kya galat hai, aur ek clear plan denge. Chahe humse kaam karao ya khud karo — guidance free hai.</p>
 `,
@@ -3394,7 +3394,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><strong>Result?</strong> Zero online presence. Customers who searched "Spice Junction Chandigarh" on Google found nothing. No menu. No phone number. No address. They lost an estimated 40% of their walk-in traffic for three weeks before the account was restored.</p>
 
-<p>If they'd had a <a href="/services/website-development">basic website</a>, customers could have still found them on Google. Their menu, location, and phone number would have been right there. That three-week nightmare? It wouldn't have happened.</p>
+<p>If they'd had a <a href="/services/website-development/">basic website</a>, customers could have still found them on Google. Their menu, location, and phone number would have been right there. That three-week nightmare? It wouldn't have happened.</p>
 
 <h3>The Mumbai Boutique That Hit a Revenue Ceiling</h3>
 
@@ -3402,7 +3402,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>Why? Because Instagram only lets you sell to people who <em>already follow you</em>. There's no way for someone searching "designer kurtas Mumbai" on Google to find an Instagram shop. That boutique was invisible to 95% of potential customers.</p>
 
-<p>They launched a simple e-commerce website with <a href="/services/seo">proper SEO</a>. Within six months, 35% of their revenue was coming from Google search — customers who had never heard of them on Instagram.</p>
+<p>They launched a simple e-commerce website with <a href="/services/seo/">proper SEO</a>. Within six months, 35% of their revenue was coming from Google search — customers who had never heard of them on Instagram.</p>
 
 <h3>The Delhi Coaching Centre That Couldn't Scale</h3>
 
@@ -3426,7 +3426,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>When someone in Chandigarh searches "best digital marketing agency near me" or "affordable wedding photographer in Mumbai," they're going to Google. If you don't have a website, <strong>you literally don't exist for these high-intent buyers.</strong></p>
 
-<p>These aren't casual browsers. These are people with their wallet out, actively looking for what you sell. And without a website optimised for <a href="/services/seo">search engines</a>, you're handing all those customers to your competitors who do have one.</p>
+<p>These aren't casual browsers. These are people with their wallet out, actively looking for what you sell. And without a website optimised for <a href="/services/seo/">search engines</a>, you're handing all those customers to your competitors who do have one.</p>
 
 <h3>3. Credibility and Trust — The "Real Business" Factor</h3>
 
@@ -3459,7 +3459,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>Your Instagram post gets buried in 48 hours. Your story disappears in 24 hours. But a well-optimized website page can generate leads for <em>years</em>.</p>
 
-<p>I've written blog posts for clients that still generate 200-300 organic visitors per month — <strong>three years later</strong>. No ad spend. No boosting. Just solid content that ranks on Google. That's the power of a website combined with good <a href="/services/seo">SEO</a>.</p>
+<p>I've written blog posts for clients that still generate 200-300 organic visitors per month — <strong>three years later</strong>. No ad spend. No boosting. Just solid content that ranks on Google. That's the power of a website combined with good <a href="/services/seo/">SEO</a>.</p>
 
 <figure style="margin: 2rem 0;"><img src="/work/graphic-design-social-story-1.webp" alt="Social media story design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media story design</figcaption></figure>
 <h2>What Does a Business Website Cost in India in 2026?</h2>
@@ -3512,7 +3512,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li><strong>SSL certificate</strong> — The padlock icon in the browser. Without it, Chrome literally warns visitors that your site is "not secure." That's a conversion killer.</li>
 </ul>
 
-<p>A good <a href="/services/branding">brand identity</a> tied into your website design makes all of this come together. Your website shouldn't just function well — it should <em>feel</em> like your brand.</p>
+<p>A good <a href="/services/branding/">brand identity</a> tied into your website design makes all of this come together. Your website shouldn't just function well — it should <em>feel</em> like your brand.</p>
 
 <h2>Common Excuses — Debunked</h2>
 
@@ -3528,7 +3528,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>Social media is excellent for <em>awareness</em>. It's terrible for <em>everything else</em> in the customer journey. You can't rank on Google with an Instagram page. You can't control the algorithm. You can't build an email list. You can't showcase your full portfolio. You can't accept payments natively. I could go on.</p>
 
-<p>Social media and a website aren't either/or. They're <strong>peanut butter and jelly</strong>. They work best together. Use <a href="/services/social-media">social media</a> to drive traffic to your website, and use your website to convert that traffic into paying customers.</p>
+<p>Social media and a website aren't either/or. They're <strong>peanut butter and jelly</strong>. They work best together. Use <a href="/services/social-media/">social media</a> to drive traffic to your website, and use your website to convert that traffic into paying customers.</p>
 
 <h3>"I'll Get One Later When I Grow"</h3>
 
@@ -3545,9 +3545,9 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <ol>
 <li><strong>Build a clean, fast website</strong> with your services, about page, testimonials, and contact info</li>
-<li><strong>Optimize it for Google</strong> with proper <a href="/services/seo">SEO</a> — so people find you when they search</li>
+<li><strong>Optimize it for Google</strong> with proper <a href="/services/seo/">SEO</a> — so people find you when they search</li>
 <li><strong>Use social media</strong> to build community, share content, and drive traffic to your website</li>
-<li><strong>Run targeted ads</strong> (<a href="/services/google-ads">Google</a> or <a href="/services/meta-ads">Meta</a>) pointing to your website, not your Instagram</li>
+<li><strong>Run targeted ads</strong> (<a href="/services/google-ads/">Google</a> or <a href="/services/meta-ads/">Meta</a>) pointing to your website, not your Instagram</li>
 <li><strong>Collect leads</strong> through your website forms and build an email/WhatsApp list you own</li>
 </ol>
 
@@ -3555,7 +3555,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <h2>Ready to Get Serious About Your Online Presence?</h2>
 
-<p>Look, I'm not saying Instagram is bad. I love Instagram. We manage <a href="/services/social-media">social media accounts</a> for dozens of clients. But depending <em>only</em> on social media for your business is like building a house on someone else's land. It works until it doesn't.</p>
+<p>Look, I'm not saying Instagram is bad. I love Instagram. We manage <a href="/services/social-media/">social media accounts</a> for dozens of clients. But depending <em>only</em> on social media for your business is like building a house on someone else's land. It works until it doesn't.</p>
 
 <p>If you're a small business owner in India and you've been putting off getting a website — 2026 is the year to stop making excuses. The costs have come down. The tools have gotten better. And your competitors are already doing it.</p>
 
@@ -3625,7 +3625,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 </ul>
 
 <blockquote>
-<p><strong>Pro tip:</strong> GMB optimization ek skill hai. Agar aap chahte ho ki aapki listing top 3 mein aaye, toh <a href="/services/gmb-listing">professional GMB optimization</a> consider karo. Hum yeh karte hain aur results dramatic hote hain.</p>
+<p><strong>Pro tip:</strong> GMB optimization ek skill hai. Agar aap chahte ho ki aapki listing top 3 mein aaye, toh <a href="/services/gmb-listing/">professional GMB optimization</a> consider karo. Hum yeh karte hain aur results dramatic hote hain.</p>
 </blockquote>
 
 <h2>Step 2: Social Media Pe Presence Banao (Lekin Smart Tarike Se)</h2>
@@ -3662,7 +3662,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li><strong>10% promotional</strong> — offers, services, "book now" type posts</li>
 </ul>
 
-<p><strong>Bahut important baat:</strong> <a href="/services/social-media">Social media marketing</a> sirf posting nahi hai. Engage karo — comments ka reply do, DMs ka jawab do, doosron ki posts pe comment karo. Social media mein "social" hona padta hai.</p>
+<p><strong>Bahut important baat:</strong> <a href="/services/social-media/">Social media marketing</a> sirf posting nahi hai. Engage karo — comments ka reply do, DMs ka jawab do, doosron ki posts pe comment karo. Social media mein "social" hona padta hai.</p>
 
 <figure style="margin: 2rem 0;"><img src="/work/creative-ad-legal-education-red.webp" alt="Education industry ad design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Education industry ad design</figcaption></figure>
 <h2>Step 3: Basic Website Banwao — Apni Digital Dukaan</h2>
@@ -3681,7 +3681,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li><strong>Testimonials</strong> — Khush customers ke reviews</li>
 </ul>
 
-<p>Ek basic 5-page business website <strong>₹15,000–₹40,000</strong> mein ban jaati hai. Yeh ek phone se bhi sasti hai — aur yeh paisa wapas laati hai. Agar aap serious ho toh <a href="/services/website-development">professional website development</a> pe invest karo. DIY website builders se shuru kar sakte ho, lekin ek professionally built site ka impact alag hi hota hai.</p>
+<p>Ek basic 5-page business website <strong>₹15,000–₹40,000</strong> mein ban jaati hai. Yeh ek phone se bhi sasti hai — aur yeh paisa wapas laati hai. Agar aap serious ho toh <a href="/services/website-development/">professional website development</a> pe invest karo. DIY website builders se shuru kar sakte ho, lekin ek professionally built site ka impact alag hi hota hai.</p>
 
 <h2>Step 4: Content Create Karo — "Content Is King" Aaj Bhi Sach Hai</h2>
 
@@ -3723,13 +3723,13 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <h3>Google Ads</h3>
 
-<p><a href="/services/google-ads">Google Ads</a> tab use karo jab log actively tumhari service search kar rahe hon. Example: "plumber near me", "CA in Chandigarh", "best coaching for UPSC Delhi." Yeh high-intent traffic hai — yeh log khareedne ke mood mein hain.</p>
+<p><a href="/services/google-ads/">Google Ads</a> tab use karo jab log actively tumhari service search kar rahe hon. Example: "plumber near me", "CA in Chandigarh", "best coaching for UPSC Delhi." Yeh high-intent traffic hai — yeh log khareedne ke mood mein hain.</p>
 
 <p><strong>Minimum budget:</strong> ₹10,000–₹15,000/month se shuruat karo. Isse kam mein meaningful data nahi milega.</p>
 
 <h3>Meta Ads (Instagram/Facebook)</h3>
 
-<p><a href="/services/meta-ads">Meta Ads</a> tab use karo jab tumhe awareness create karni ho ya specific audience ko target karna ho. Fashion, food, lifestyle businesses ke liye yeh bahut powerful hai.</p>
+<p><a href="/services/meta-ads/">Meta Ads</a> tab use karo jab tumhe awareness create karni ho ya specific audience ko target karna ho. Fashion, food, lifestyle businesses ke liye yeh bahut powerful hai.</p>
 
 <p><strong>Minimum budget:</strong> ₹5,000–₹10,000/month se test karo. Pehle chhota start karo, dekho kya kaam kar raha hai, phir scale karo.</p>
 
@@ -3794,8 +3794,8 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <h3>₹15,000–₹30,000/Month Budget</h3>
 <ul>
 <li>Upar ka sab +</li>
-<li>Professional <a href="/services/social-media">social media management</a></li>
-<li>Proper <a href="/services/seo">SEO</a> shuru karo</li>
+<li>Professional <a href="/services/social-media/">social media management</a></li>
+<li>Proper <a href="/services/seo/">SEO</a> shuru karo</li>
 <li>Better ad budget (₹10,000–₹15,000)</li>
 <li>Monthly content calendar with quality posts</li>
 </ul>
@@ -3804,7 +3804,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <ul>
 <li>Sab kuch +</li>
 <li>Full digital marketing setup with agency support</li>
-<li><a href="/services/google-ads">Google Ads</a> + <a href="/services/meta-ads">Meta Ads</a> dono</li>
+<li><a href="/services/google-ads/">Google Ads</a> + <a href="/services/meta-ads/">Meta Ads</a> dono</li>
 <li>Regular blog content for SEO</li>
 <li>Email/WhatsApp marketing automation</li>
 <li>Monthly reporting aur strategy calls</li>

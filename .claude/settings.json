@@ -103,7 +103,8 @@
       "Bash(node /tmp/inject-blog-images2.mjs)",
       "Bash(wait)",
       "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/app/contact*/)",
-      "Bash(npx eslint:*)"
+      "Bash(npx eslint:*)",
+      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/data/*.bak)"
     ],
     "deny": [],
     "additionalDirectories": [

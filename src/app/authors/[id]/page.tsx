@@ -174,7 +174,7 @@ export default async function AuthorPage({ params }: Props) {
               TML Agency to discuss your needs.
             </p>
             <Link
-              href="/contact"
+              href="/contact/"
               className="inline-flex items-center px-6 py-3 rounded-xl bg-[#ff4500] text-white font-semibold hover:bg-[#ff6b35] transition-all duration-300 shadow-[0_0_25px_rgba(255,69,0,0.3)]"
             >
               Get a Free Consultation

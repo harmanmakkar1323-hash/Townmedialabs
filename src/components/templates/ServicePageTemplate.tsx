@@ -300,7 +300,7 @@ export default function ServicePageTemplate({ data, extras }: { data: ServicePag
             transition={{ duration: 0.6, ease }}
           >
             <Link
-              href="/services"
+              href="/services/"
               className="inline-flex items-center gap-2 text-[11px] text-white tracking-[0.2em] uppercase hover:text-white transition-colors mb-8"
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -340,7 +340,7 @@ export default function ServicePageTemplate({ data, extras }: { data: ServicePag
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Link
-              href="/contact"
+              href="/contact/"
               className="px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]"
             >
               Get a Free Quote
@@ -594,7 +594,7 @@ export default function ServicePageTemplate({ data, extras }: { data: ServicePag
                     <h2 className="text-xl md:text-2xl font-semibold text-white mb-4">{data.title} Pricing &amp; Investment</h2>
                     <p className="text-sm md:text-[15px] text-white leading-[1.8] mb-6">{data.pricingNote}</p>
                     <Link
-                      href="/contact"
+                      href="/contact/"
                       className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_20px_rgba(255,69,0,0.25)]"
                     >
                       Get a Custom Quote
@@ -752,7 +752,7 @@ export default function ServicePageTemplate({ data, extras }: { data: ServicePag
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Link
-              href="/contact"
+              href="/contact/"
               className="px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]"
             >
               Book a Free Strategy Call

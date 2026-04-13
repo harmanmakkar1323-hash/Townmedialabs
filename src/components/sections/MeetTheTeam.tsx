@@ -144,7 +144,7 @@ export function MeetTheTeam() {
           transition={{ duration: 0.7, delay: 0.3, ease }}
         >
           <motion.a
-            href="/contact"
+            href="/contact/"
             whileHover={{
               scale: 1.05,
               boxShadow: "0 10px 50px rgba(255,69,0,0.35)",

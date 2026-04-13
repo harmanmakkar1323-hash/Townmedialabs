@@ -202,7 +202,7 @@ export default function ChandigarhServiceTemplate({ data }: { data: ChandigarhSe
 
           <div className="hero-fade-up hero-delay-4 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="/contact"
+              href="/contact/"
               className="px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]"
             >
               Get a Free Quote
@@ -468,7 +468,7 @@ export default function ChandigarhServiceTemplate({ data }: { data: ChandigarhSe
             Get a free consultation for your {serviceData?.title.toLowerCase() || "project"} needs. No obligations — just expert advice from Chandigarh&apos;s top agency.
           </p>
           <div className="scroll-reveal scroll-delay-2 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link href="/contact" className="px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]">
+            <Link href="/contact/" className="px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]">
               Get Your Free Consultation
             </Link>
             <a href="tel:+91-98726-48209" className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors">

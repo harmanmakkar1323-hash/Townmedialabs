@@ -166,7 +166,7 @@ export default function CountryPageClient({
             transition={{ duration: 0.8, delay: 0.4, ease }}
           >
             <Link
-              href="/contact"
+              href="/contact/"
               className="inline-flex px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]"
             >
               Get a Free Consultation
@@ -244,7 +244,7 @@ export default function CountryPageClient({
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Link
-              href="/contact"
+              href="/contact/"
               className="px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]"
             >
               Let&apos;s Talk About Your Business

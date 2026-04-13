@@ -443,7 +443,7 @@ export default function BlogPageClient({ posts, categories }: BlogPageClientProp
               from Town Media Labs delivered straight to your inbox.
             </p>
             <Link
-              href="/contact"
+              href="/contact/"
               className="relative inline-flex items-center gap-2 bg-[#ff4500] text-white px-8 py-4 rounded-xl text-sm font-semibold hover:bg-[#ff5500] transition-colors"
             >
               Get In Touch

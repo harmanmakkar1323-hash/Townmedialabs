@@ -307,7 +307,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
             className="hero-fade-up hero-delay-4 flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Link
-              href="/contact"
+              href="/contact/"
               className="px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]"
             >
               Get a Free Quote
@@ -718,7 +718,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                       <p className="text-[10px] text-[#ff4500]/60 tracking-[0.2em] uppercase font-semibold mb-2">Transparent Pricing</p>
                       <h2 className="text-xl md:text-2xl font-semibold text-white mb-4">{getSectionHeading("pricing", serviceName, cityName, seed)}</h2>
                       <p className="text-sm md:text-[15px] text-white leading-[1.8] mb-6">{serviceData.pricingNote}</p>
-                      <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_20px_rgba(255,69,0,0.25)]">
+                      <Link href="/contact/" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_20px_rgba(255,69,0,0.25)]">
                         Get a Custom Quote
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
                       </Link>
@@ -919,7 +919,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                         <p className="text-[10px] text-[#ff4500]/60 uppercase tracking-wider font-semibold mb-1">Custom Quote</p>
                         <p className="text-sm text-white/70 leading-relaxed">Get a tailored proposal with transparent pricing for your {cityName} business.</p>
                       </div>
-                      <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_20px_rgba(255,69,0,0.25)] whitespace-nowrap">
+                      <Link href="/contact/" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_20px_rgba(255,69,0,0.25)] whitespace-nowrap">
                         Request a Quote
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
                       </Link>
@@ -1034,7 +1034,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                   <p className="text-sm text-white/60 leading-[1.9] mb-6">
                     Join 500+ businesses across {location.country} who have trusted TML with their {serviceName.toLowerCase()} needs. Our clients in {cityName} consistently report improved visibility, higher engagement, and measurable business growth.
                   </p>
-                  <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_20px_rgba(255,69,0,0.25)]">
+                  <Link href="/contact/" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_20px_rgba(255,69,0,0.25)]">
                     Get a Free Consultation
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
                   </Link>
@@ -1262,7 +1262,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
             Get a free consultation for your {serviceName.toLowerCase()} needs. No obligations — just expert advice for your {cityName} business.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link href="/contact" className="px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]">
+            <Link href="/contact/" className="px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]">
               Get Your Free Consultation
             </Link>
             <a href="tel:+91-98726-48209" className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors">

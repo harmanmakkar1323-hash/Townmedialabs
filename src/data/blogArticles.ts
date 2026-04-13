@@ -1533,7 +1533,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>…Google may crawl them but choose not to index or rank them.</p>
 
-<p><strong>The fix:</strong> Create original, comprehensive, genuinely useful content that answers real questions your target audience is searching for. This is the foundation of everything we do in <a href="/services/seo">TML Agency's SEO service</a>.</p>
+<p><strong>The fix:</strong> Create original, comprehensive, genuinely useful content that answers real questions your target audience is searching for. This is the foundation of everything we do in <a href="/services/seo/">TML Agency's SEO service</a>.</p>
 
 <hr />
 
@@ -1572,7 +1572,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p><strong>TML Agency</strong> offers comprehensive SEO audits that diagnose exactly why your site isn't indexing, along with a clear roadmap to fix it. Our team has resolved indexing issues for businesses across e-commerce, hospitality, healthcare, real estate, and professional services.</p>
 
-<p><a href="/contact"><strong>Book a free SEO audit with TML Agency →</strong></a></p>
+<p><a href="/contact/"><strong>Book a free SEO audit with TML Agency →</strong></a></p>
 
 <hr />
 
@@ -1580,7 +1580,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>A website that doesn't show on Google is essentially invisible to the internet. The good news is that the fix is almost always within reach — you just need to know where to look. Start with the basics: check for noindex tags, submit your sitemap, and use Search Console to request indexing. For most sites, these steps alone resolve the problem within weeks.</p>
 
-<p>If you need hands-on help, <a href="/services/seo">explore TML Agency's SEO services</a> or <a href="/contact">get in touch with our team</a> for a tailored solution.</p>
+<p>If you need hands-on help, <a href="/services/seo/">explore TML Agency's SEO services</a> or <a href="/contact/">get in touch with our team</a> for a tailored solution.</p>
 `,
   },
 
@@ -2427,7 +2427,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 <li>Collect and respond to Google reviews consistently</li>
 </ul>
 
-<p>Local SEO is a core part of the <a href="/services/seo">SEO service TML Agency</a> delivers for clients across the Chandigarh tricity and beyond.</p>
+<p>Local SEO is a core part of the <a href="/services/seo/">SEO service TML Agency</a> delivers for clients across the Chandigarh tricity and beyond.</p>
 
 <hr />
 
@@ -2491,7 +2491,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p><strong>TML Agency</strong> builds and executes comprehensive SEO strategies that deliver sustainable, measurable traffic growth. From technical audits and keyword research to content strategy and backlink building — we handle every layer of SEO under one roof.</p>
 
-<p><a href="/contact"><strong>Talk to TML Agency about growing your website traffic →</strong></a></p>
+<p><a href="/contact/"><strong>Talk to TML Agency about growing your website traffic →</strong></a></p>
 `,
   },
 
@@ -2734,7 +2734,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>We work with businesses across Chandigarh, Punjab, Delhi NCR, and internationally, helping them achieve and maintain page-one rankings for keywords that drive real revenue.</p>
 
-<p><a href="/services/seo"><strong>Explore TML Agency's SEO services →</strong></a> or <a href="/contact"><strong>book a free ranking consultation today →</strong></a></p>
+<p><a href="/services/seo/"><strong>Explore TML Agency's SEO services →</strong></a> or <a href="/contact/"><strong>book a free ranking consultation today →</strong></a></p>
 `,
   },
 
@@ -2884,7 +2884,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>At <strong>TML Agency</strong>, we've been integrating AI into our clients' digital marketing since it became genuinely useful — not just trendy. From AI-assisted content strategies to performance-driven ad campaigns, we help businesses in Chandigarh and globally use AI where it actually moves the needle.</p>
 
-<p><a href="/services/seo"><strong>See how TML Agency builds AI-powered marketing strategies →</strong></a> or <a href="/contact"><strong>talk to us about what AI can do for your business →</strong></a></p>
+<p><a href="/services/seo/"><strong>See how TML Agency builds AI-powered marketing strategies →</strong></a> or <a href="/contact/"><strong>talk to us about what AI can do for your business →</strong></a></p>
 `,
   },
 
@@ -3081,7 +3081,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>We handle everything from content creation and scheduling to community management and paid social campaigns — so you can focus on running your business while your social media works in the background.</p>
 
-<p><a href="/services/social-media"><strong>Explore TML Agency's social media marketing services →</strong></a> or <a href="/contact"><strong>get a free social media audit today →</strong></a></p>
+<p><a href="/services/social-media/"><strong>Explore TML Agency's social media marketing services →</strong></a> or <a href="/contact/"><strong>get a free social media audit today →</strong></a></p>
 `,
   },
 
@@ -3285,7 +3285,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p><strong>TML Agency</strong> specialises in local SEO for businesses in Chandigarh, Mohali, Panchkula, and across India — from complete Google Business Profile optimisation to local content strategies and citation building. We've helped hundreds of local businesses move from page 3 to the Maps Pack.</p>
 
-<p><a href="/services/seo"><strong>Explore TML Agency's local SEO services →</strong></a> or <a href="/contact"><strong>get a free local SEO audit today →</strong></a></p>
+<p><a href="/services/seo/"><strong>Explore TML Agency's local SEO services →</strong></a> or <a href="/contact/"><strong>get a free local SEO audit today →</strong></a></p>
 `,
   },
 
@@ -3463,7 +3463,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>If you want to know what a 12-month content strategy would look like for your specific business — and what ROI is realistic — let's talk.</p>
 
-<p><a href="/services/content-marketing"><strong>Explore TML Agency's content marketing services →</strong></a> or <a href="/contact"><strong>book a free content strategy consultation today →</strong></a></p>
+<p><a href="/services/content-marketing/"><strong>Explore TML Agency's content marketing services →</strong></a> or <a href="/contact/"><strong>book a free content strategy consultation today →</strong></a></p>
 `,
   },
 
@@ -12386,13 +12386,13 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 <p>Stop thinking about what a website "should" cost and start thinking about what it needs to <em>do</em> for your business.</p>
 
 <h3>If you're a startup or new business</h3>
-<p>Start with a clean, fast, mobile-first website in the ₹30,000 – ₹1,00,000 range. Focus on clear messaging, strong calls-to-action, and basic <a href="/services/seo">SEO</a>. You can always upgrade later.</p>
+<p>Start with a clean, fast, mobile-first website in the ₹30,000 – ₹1,00,000 range. Focus on clear messaging, strong calls-to-action, and basic <a href="/services/seo/">SEO</a>. You can always upgrade later.</p>
 
 <h3>If you're an established business</h3>
 <p>Invest ₹1,00,000 – ₹5,00,000 in a professionally designed website with proper branding, lead capture, and content strategy. This is the range where websites start actually generating business.</p>
 
 <h3>If you're building an e-commerce store</h3>
-<p>Budget ₹1,00,000 – ₹5,00,000 minimum for a store that can handle real traffic and conversions. Pair it with <a href="/services/ecommerce-marketing">e-commerce marketing</a> to actually drive sales. A beautiful store with no traffic is just an expensive catalogue.</p>
+<p>Budget ₹1,00,000 – ₹5,00,000 minimum for a store that can handle real traffic and conversions. Pair it with <a href="/services/ecommerce-marketing/">e-commerce marketing</a> to actually drive sales. A beautiful store with no traffic is just an expensive catalogue.</p>
 
 <hr />
 
@@ -12400,9 +12400,9 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <p>The biggest mistake we see? <strong>Businesses spending too little on their website and too much on ads to drive traffic to a site that doesn't convert.</strong> Your website is the foundation of every digital marketing effort. A ₹15,000 website will undermine a ₹50,000/month ad campaign.</p>
 
-<p>Invest in a website that loads fast, looks professional, works perfectly on mobile, and is built with <a href="/services/seo">SEO</a> from day one. Then invest in driving traffic to it. That's the order that works.</p>
+<p>Invest in a website that loads fast, looks professional, works perfectly on mobile, and is built with <a href="/services/seo/">SEO</a> from day one. Then invest in driving traffic to it. That's the order that works.</p>
 
-<p>Need a website that actually generates business? Our <a href="/services/website-development">website development</a> team builds performance-optimised sites for businesses across India. <a href="/contact">Get a free quote</a> — we'll give you an honest assessment of what your website needs and what it should cost.</p>
+<p>Need a website that actually generates business? Our <a href="/services/website-development/">website development</a> team builds performance-optimised sites for businesses across India. <a href="/contact/">Get a free quote</a> — we'll give you an honest assessment of what your website needs and what it should cost.</p>
 `,
   },
   "instagram-reels-marketing-strategy-guide": {
@@ -12490,7 +12490,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 <p>Screen recordings of analytics dashboards, client video testimonials, case study breakdowns. Show proof, not promises. A 15-second clip of a client saying "they doubled our leads" is worth more than any amount of self-promotion.</p>
 
 <h3>6. Day in the Life / POV</h3>
-<p>This format works brilliantly for service businesses. A day in the life of a <a href="/services/graphic-design">graphic designer</a>, a digital marketer's morning audit routine, a photographer on a shoot. It's entertainment that subtly showcases your expertise.</p>
+<p>This format works brilliantly for service businesses. A day in the life of a <a href="/services/graphic-design/">graphic designer</a>, a digital marketer's morning audit routine, a photographer on a shoot. It's entertainment that subtly showcases your expertise.</p>
 
 <h3>7. Trending Audio with a Twist</h3>
 <p>Using trending audio boosts discoverability, but only if you make it relevant to your niche. Don't just lip-sync — use the audio as a backdrop while showing something related to your industry. <strong>The audio gets them there, the content keeps them watching.</strong></p>
@@ -12545,7 +12545,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <h2>Posting Schedule — When and How Often</h2>
 
-<p>Consistency matters more than frequency. Here's what we recommend based on managing <a href="/services/social-media">social media</a> for hundreds of Indian businesses:</p>
+<p>Consistency matters more than frequency. Here's what we recommend based on managing <a href="/services/social-media/">social media</a> for hundreds of Indian businesses:</p>
 
 <table>
 <caption>Recommended Reels posting frequency by business size</caption>
@@ -12584,7 +12584,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <p>Reels aren't a magic bullet — they're a tool. Like any tool, they work best when used with strategy and consistency. Start with 3 Reels per week using the formats above, track your metrics, and double down on what works for your specific audience.</p>
 
-<p>Need help building a complete <a href="/services/social-media">social media strategy</a> that drives real business results? Our team manages social media for businesses across India — from content creation and <a href="/services/graphic-design">graphic design</a> to paid campaigns and analytics. <a href="/contact">Get a free strategy session</a> and we'll build a custom Reels plan for your brand.</p>
+<p>Need help building a complete <a href="/services/social-media/">social media strategy</a> that drives real business results? Our team manages social media for businesses across India — from content creation and <a href="/services/graphic-design/">graphic design</a> to paid campaigns and analytics. <a href="/contact/">Get a free strategy session</a> and we'll build a custom Reels plan for your brand.</p>
 `,
   },
   "google-ads-budget-mistakes": {
@@ -12835,7 +12835,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <p>Fix these 15 mistakes and you could realistically cut your cost-per-lead by 40-60% while getting more conversions from the same budget. We've seen it happen hundreds of times.</p>
 
-<p>Want a professional audit of your Google Ads account? Our <a href="/services/google-ads">Google Ads management</a> team will identify exactly where your budget is leaking and how to fix it. We also offer <a href="/services/ppc-management">comprehensive PPC management</a> and <a href="/services/lead-generation">lead generation</a> services. <a href="/contact">Request a free audit</a> — we'll show you what's broken and what it's costing you, no strings attached.</p>
+<p>Want a professional audit of your Google Ads account? Our <a href="/services/google-ads/">Google Ads management</a> team will identify exactly where your budget is leaking and how to fix it. We also offer <a href="/services/ppc-management/">comprehensive PPC management</a> and <a href="/services/lead-generation/">lead generation</a> services. <a href="/contact/">Request a free audit</a> — we'll show you what's broken and what it's costing you, no strings attached.</p>
 `,
   },
   "why-professional-branding-matters": {
@@ -12994,7 +12994,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <p>Your brand is either helping you or hurting you — there's no neutral. If your current branding was done on a shoestring, it's probably costing you more in lost opportunities than a professional rebrand would cost.</p>
 
-<p>Our <a href="/services/branding">branding team</a> has built brand identities for 500+ businesses across every industry. From strategy to <a href="/services/graphic-design">visual design</a> to <a href="/services/website-development">website implementation</a> — we handle the complete process. <a href="/contact">Get a free brand audit</a> — we'll tell you honestly whether your current branding is helping or hurting your business.</p>
+<p>Our <a href="/services/branding/">branding team</a> has built brand identities for 500+ businesses across every industry. From strategy to <a href="/services/graphic-design/">visual design</a> to <a href="/services/website-development/">website implementation</a> — we handle the complete process. <a href="/contact/">Get a free brand audit</a> — we'll tell you honestly whether your current branding is helping or hurting your business.</p>
 `,
   },
   "local-seo-complete-guide-2025": {
@@ -13189,7 +13189,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <p>Local SEO isn't complicated — but it requires consistent effort across multiple channels. The businesses that dominate the map pack aren't necessarily the best at what they do — they're the best at <em>showing</em> Google that they're relevant, trusted, and active.</p>
 
-<p>Need help with your local SEO? Our <a href="/services/seo">SEO team</a> handles everything from <a href="/services/gmb-listing">Google Business Profile optimization</a> to citation building, review strategy, and <a href="/services/content-writing">local content creation</a>. <a href="/contact">Get a free local SEO audit</a> — we'll show you exactly where you stand and what needs fixing.</p>
+<p>Need help with your local SEO? Our <a href="/services/seo/">SEO team</a> handles everything from <a href="/services/gmb-listing/">Google Business Profile optimization</a> to citation building, review strategy, and <a href="/services/content-writing/">local content creation</a>. <a href="/contact/">Get a free local SEO audit</a> — we'll show you exactly where you stand and what needs fixing.</p>
 `,
   },
   "ecommerce-seo-product-pages": {
@@ -13402,7 +13402,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <p>E-commerce SEO is technical, but the fixes are systematic. Start with your top 20 products by revenue, optimise them using this guide, and then work through the rest. The compound effect of fixing hundreds of product pages is massive.</p>
 
-<p>Need expert help? Our <a href="/services/seo">SEO team</a> specialises in <a href="/services/technical-seo">technical SEO</a> for e-commerce stores. We handle everything from schema implementation to site architecture. Combined with our <a href="/services/ecommerce-marketing">e-commerce marketing</a> services, we'll get your products ranking and converting. <a href="/contact">Get a free e-commerce SEO audit</a>.</p>
+<p>Need expert help? Our <a href="/services/seo/">SEO team</a> specialises in <a href="/services/technical-seo/">technical SEO</a> for e-commerce stores. We handle everything from schema implementation to site architecture. Combined with our <a href="/services/ecommerce-marketing/">e-commerce marketing</a> services, we'll get your products ranking and converting. <a href="/contact/">Get a free e-commerce SEO audit</a>.</p>
 `,
   },
   "social-media-content-calendar-2025": {
@@ -13567,7 +13567,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 <li>Behind-the-scenes of creating it → <strong>Instagram Story</strong></li>
 </ol>
 
-<p>One 1,500-word blog post can fuel 2 weeks of social media content across every platform. <a href="/services/content-writing">Strategic content creation</a> multiplies your output without multiplying your effort.</p>
+<p>One 1,500-word blog post can fuel 2 weeks of social media content across every platform. <a href="/services/content-writing/">Strategic content creation</a> multiplies your output without multiplying your effort.</p>
 
 <hr />
 
@@ -13591,7 +13591,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <p>A content calendar isn't bureaucracy — it's freedom. Freedom from the daily stress of "what should I post today?" Freedom to focus on quality over quantity. Freedom to actually see results from social media instead of posting into the void.</p>
 
-<p>Need a professional team to handle your <a href="/services/social-media">social media</a> end-to-end? We create content, design graphics, manage communities, and drive results for businesses across India. Our <a href="/services/graphic-design">design team</a> produces scroll-stopping visuals and our strategists know what works for the Indian market. <a href="/contact">Get a free social media strategy session</a>.</p>
+<p>Need a professional team to handle your <a href="/services/social-media/">social media</a> end-to-end? We create content, design graphics, manage communities, and drive results for businesses across India. Our <a href="/services/graphic-design/">design team</a> produces scroll-stopping visuals and our strategists know what works for the Indian market. <a href="/contact/">Get a free social media strategy session</a>.</p>
 `,
   },
   "b2b-lead-generation-strategies-2025": {
@@ -13671,7 +13671,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 </tbody>
 </table>
 
-<p>Pair these with dedicated landing pages (not your homepage) and <a href="/services/google-ads">professional ad management</a> for the best results.</p>
+<p>Pair these with dedicated landing pages (not your homepage) and <a href="/services/google-ads/">professional ad management</a> for the best results.</p>
 
 <hr />
 
@@ -13698,7 +13698,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <ul>
 <li><strong>Topic selection:</strong> Solve a specific problem. "How to reduce customer acquisition cost by 40%" beats "Digital marketing strategies 2025."</li>
-<li><strong>Promotion:</strong> LinkedIn posts, email list, <a href="/services/google-ads">targeted ads</a>, partner cross-promotion</li>
+<li><strong>Promotion:</strong> LinkedIn posts, email list, <a href="/services/google-ads/">targeted ads</a>, partner cross-promotion</li>
 <li><strong>During the webinar:</strong> 80% value, 20% pitch. Give away your best strategies freely — it builds trust</li>
 <li><strong>Follow-up:</strong> Send recording + slides to registrants. Follow up with a personal email to attendees within 48 hours</li>
 </ul>
@@ -13793,7 +13793,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <h2>Strategy #12: SEO — The Compounding Machine</h2>
 
-<p><a href="/services/seo">SEO</a> takes 6-12 months to build momentum, but once it does, it generates leads 24/7 at near-zero marginal cost. For B2B companies, <strong>ranking for industry-specific keywords creates a steady stream of high-intent visitors who are actively searching for what you offer.</strong></p>
+<p><a href="/services/seo/">SEO</a> takes 6-12 months to build momentum, but once it does, it generates leads 24/7 at near-zero marginal cost. For B2B companies, <strong>ranking for industry-specific keywords creates a steady stream of high-intent visitors who are actively searching for what you offer.</strong></p>
 
 <p>The key is targeting commercial-intent keywords (not just informational ones) and creating service pages that convert searchers into leads.</p>
 
@@ -13801,9 +13801,9 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <h2>Build a Predictable B2B Pipeline</h2>
 
-<p>The best B2B lead generation strategies combine 3-4 channels that work together. <a href="/services/google-ads">Google Ads</a> drives immediate leads while <a href="/services/seo">SEO</a> builds long-term organic traffic. Content marketing and LinkedIn build authority. Email nurturing converts leads that aren't ready to buy today.</p>
+<p>The best B2B lead generation strategies combine 3-4 channels that work together. <a href="/services/google-ads/">Google Ads</a> drives immediate leads while <a href="/services/seo/">SEO</a> builds long-term organic traffic. Content marketing and LinkedIn build authority. Email nurturing converts leads that aren't ready to buy today.</p>
 
-<p>Need help building a B2B <a href="/services/lead-generation">lead generation</a> system? Our team has generated thousands of qualified B2B leads for companies across India. <a href="/contact">Get a free strategy session</a> — we'll map out a lead generation plan tailored to your industry and budget.</p>
+<p>Need help building a B2B <a href="/services/lead-generation/">lead generation</a> system? Our team has generated thousands of qualified B2B leads for companies across India. <a href="/contact/">Get a free strategy session</a> — we'll map out a lead generation plan tailored to your industry and budget.</p>
 `,
   },
   "website-speed-optimization-guide": {
@@ -14003,7 +14003,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <p>Start with images — it's the biggest bang for your buck. Then tackle render-blocking resources and server response time. CLS and INP fixes come last because they require more technical knowledge.</p>
 
-<p>Need professional help? Our <a href="/services/website-development">web development</a> team builds performance-optimised websites from the ground up. For existing sites, our <a href="/services/technical-seo">technical SEO</a> team handles speed audits and Core Web Vitals fixes. We'll get your <a href="/services/seo">site ranking better</a> by making it faster. <a href="/contact">Get a free speed audit</a>.</p>
+<p>Need professional help? Our <a href="/services/website-development/">web development</a> team builds performance-optimised websites from the ground up. For existing sites, our <a href="/services/technical-seo/">technical SEO</a> team handles speed audits and Core Web Vitals fixes. We'll get your <a href="/services/seo/">site ranking better</a> by making it faster. <a href="/contact/">Get a free speed audit</a>.</p>
 `,
   },
   "how-to-create-brand-identity-guide": {
@@ -14238,7 +14238,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <p>Creating a brand identity is an investment that pays dividends for years. Every marketing effort, every customer interaction, every piece of content is amplified by a strong, cohesive brand. <strong>Don't rush it. Don't cheap out. Do it once, do it right.</strong></p>
 
-<p>Need professional help building your brand identity? Our <a href="/services/branding">branding team</a> handles every step — from strategy and positioning to <a href="/services/graphic-design">visual design</a> and <a href="/services/website-development">website implementation</a>. We've built brand identities for 500+ businesses across India. <a href="/contact">Get a free brand consultation</a> — we'll help you figure out where to start.</p>
+<p>Need professional help building your brand identity? Our <a href="/services/branding/">branding team</a> handles every step — from strategy and positioning to <a href="/services/graphic-design/">visual design</a> and <a href="/services/website-development/">website implementation</a>. We've built brand identities for 500+ businesses across India. <a href="/contact/">Get a free brand consultation</a> — we'll help you figure out where to start.</p>
 `,
   },
   "ai-digital-marketing-trends-2026": {

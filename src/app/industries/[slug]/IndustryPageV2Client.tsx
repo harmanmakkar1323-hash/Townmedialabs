@@ -191,7 +191,7 @@ export default function IndustryPageV2Client({ industry, relatedBlogs, portfolio
             transition={{ duration: 0.6, ease }}
           >
             <Link
-              href="/industries"
+              href="/industries/"
               className="inline-flex items-center gap-2 text-[11px] text-white tracking-[0.2em] uppercase hover:text-white transition-colors mb-8"
             >
               <svg
@@ -271,7 +271,7 @@ export default function IndustryPageV2Client({ industry, relatedBlogs, portfolio
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Link
-              href="/contact"
+              href="/contact/"
               className="px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]"
             >
               Get a Free Strategy Call
@@ -528,7 +528,7 @@ export default function IndustryPageV2Client({ industry, relatedBlogs, portfolio
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Link
-              href="/contact"
+              href="/contact/"
               className="px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]"
             >
               Book a Free Strategy Call

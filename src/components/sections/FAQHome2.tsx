@@ -234,7 +234,7 @@ export function FAQHome2() {
               <p className="text-xs md:text-sm text-white">
                 We&apos;d love to hear from you.{" "}
                 <a
-                  href="/contact"
+                  href="/contact/"
                   className="text-[#ff4500]/80 hover:text-[#ff4500] transition-colors duration-300 underline underline-offset-2 decoration-[#ff4500]/30 hover:decoration-[#ff4500]/60"
                 >
                   Get in touch

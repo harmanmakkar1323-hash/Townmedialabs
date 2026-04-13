@@ -142,13 +142,13 @@ export default function ChandigarhPageClient({ serviceMap }: ChandigarhPageClien
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Link
-              href="/contact"
+              href="/contact/"
               className="px-8 py-4 rounded-full bg-[#ff4500] text-white font-semibold text-sm hover:bg-[#ff5500] transition-colors shadow-[0_0_30px_rgba(255,69,0,0.3)]"
             >
               Get a Free Strategy Call
             </Link>
             <Link
-              href="/services"
+              href="/services/"
               className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
               View Our Services
@@ -293,7 +293,7 @@ export default function ChandigarhPageClient({ serviceMap }: ChandigarhPageClien
             className="text-center mt-10"
           >
             <Link
-              href="/services"
+              href="/services/"
               className="inline-flex items-center gap-2 text-sm text-[#ff4500] font-medium hover:underline"
             >
               View All Services
@@ -539,7 +539,7 @@ export default function ChandigarhPageClient({ serviceMap }: ChandigarhPageClien
               Book Free Strategy Call
             </a>
             <Link
-              href="/contact"
+              href="/contact/"
               className="px-8 py-4 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition-colors"
             >
               Contact Us

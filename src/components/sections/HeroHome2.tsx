@@ -62,7 +62,7 @@ export default function HeroHome2() {
           className="hero-fade-up hero-delay-2 flex flex-row gap-3 sm:gap-4 mb-10"
         >
           <a
-            href="/contact"
+            href="/contact/"
             className="relative inline-block rounded-xl bg-[#ff4500] px-5 sm:px-8 py-4 text-xs sm:text-sm font-semibold text-white text-center overflow-hidden group hover:shadow-[0_0_40px_rgba(255,69,0,0.35),0_0_80px_rgba(255,69,0,0.15)] active:scale-[0.97] transition-all duration-200"
           >
             <span className="relative z-10 inline-flex items-center gap-2">

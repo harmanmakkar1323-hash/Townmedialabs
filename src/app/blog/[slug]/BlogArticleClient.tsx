@@ -625,7 +625,7 @@ export default function BlogArticleClient({
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Link href="/contact"
+                <Link href="/contact/"
                   className="inline-flex items-center gap-2 bg-[#ff4500] text-white px-10 py-4 rounded-2xl text-sm font-semibold hover:bg-[#ff5500] transition-colors shadow-[0_0_40px_rgba(255,69,0,0.35)]">
                   Get Free Consultation
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
