@@ -71,6 +71,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 <p><strong>"Your brand is what people say about you when you're not in the room."</strong> — Jeff Bezos</p>
 </blockquote>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Brand identity design showcase" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand identity design showcase</figcaption></figure>
 <h2>How a Branding Agency Helps Your Business Grow</h2>
 
 <p>Still thinking branding is just a "nice to have"? Consider this: <strong>consistent brand presentation across all platforms increases revenue by up to 23%</strong> (source: Lucidpress). Here's how a professional branding agency directly impacts your bottom line:</p>
@@ -92,6 +93,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-creative-brand.webp" alt="Creative branding concept" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative branding concept</figcaption></figure>
 <h2>Top 10 Best Branding Agencies in Chandigarh (2025)</h2>
 
 <p>After extensive research, client reviews, portfolio analysis, and industry reputation — here are the <strong>10 best branding agencies in Chandigarh</strong> that are delivering exceptional work in 2025:</p>
@@ -383,6 +385,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-clean-minimal-ad.webp" alt="Clean minimal graphic design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Clean minimal graphic design</figcaption></figure>
 <h2>How to Choose the Right Branding Agency in Chandigarh</h2>
 
 <p>Picking a branding agency is one of the most important decisions you'll make for your business. Here's a framework to help you choose wisely:</p>
@@ -404,6 +407,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-creative-photography.webp" alt="Creative photography design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative photography design</figcaption></figure>
 <h2>Branding Costs in Chandigarh: What to Expect in 2025</h2>
 
 <p>Branding budgets vary widely based on scope, agency reputation, and deliverables. Here's a general pricing guide for <strong>branding agencies in Chandigarh</strong>:</p>
@@ -487,6 +491,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 <p><strong>"AI influencers are the future of brand marketing — they're always on-brand, never off-script, and available 24/7."</strong></p>
 </blockquote>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
 <h2>Top AI Influencers You Should Know in 2025</h2>
 
 <p>Before we dive into how to create your own, let's look at the <strong>biggest AI influencers</strong> already dominating social media:</p>
@@ -537,6 +542,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>How to Create Your Own AI Influencer (Step-by-Step)</h2>
 
 <p>Here's a practical guide to creating your own AI influencer from scratch:</p>
@@ -605,6 +611,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-typography.webp" alt="Brand typography and design system" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand typography and design system</figcaption></figure>
 <h2>How to Earn Money with AI Influencers</h2>
 
 <p>Here's where it gets exciting. AI influencers can generate real revenue through multiple streams:</p>
@@ -650,6 +657,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/packaging-design-minimalist-cans.webp" alt="Minimalist packaging design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Minimalist packaging design</figcaption></figure>
 <h2>Frequently Asked Questions About AI Influencers</h2>
 
 <h3>Is it legal to create an AI influencer?</h3>
@@ -709,6 +717,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 <p><strong>"It's not about making the best music anymore. It's about making sure the right people hear it."</strong></p>
 </blockquote>
 
+<figure style="margin: 2rem 0;"><img src="/work/poster-design-weeknd-blinding-lights.webp" alt="Music promotion poster design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Music promotion poster design</figcaption></figure>
 <h2>How to Upload Your Song Online for Free</h2>
 
 <p>Before promoting, you need your song on <strong>all major streaming platforms</strong>. Here are the best distribution services:</p>
@@ -734,6 +743,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-social-story-minimal.webp" alt="Minimal music promotion post" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Minimal music promotion post</figcaption></figure>
 <h2>Best Free Platforms to Promote Your Song</h2>
 
 <h3>1. Spotify for Artists</h3>
@@ -777,6 +787,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-real-estate-posts-grid.webp" alt="Social media content grid" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media content grid</figcaption></figure>
 <h2>Proven Strategies to Promote Your Song for Free</h2>
 
 <h3>1. Pre-Save Campaigns</h3>
@@ -811,6 +822,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-social-story-1.webp" alt="Social media story design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media story design</figcaption></figure>
 <h2>Paid Promotion Options (When You're Ready)</h2>
 
 <table>
@@ -897,6 +909,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/poster-design-weeknd-blinding-lights.webp" alt="Music promotion poster design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Music promotion poster design</figcaption></figure>
 <h2>Step-by-Step: How to Make Your Song Trend on Spotify</h2>
 
 <h3>1. Perfect Your Song Before Uploading</h3>
@@ -970,6 +983,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-mockup.webp" alt="Instagram marketing mockup" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram marketing mockup</figcaption></figure>
 <h2>What NOT to Do</h2>
 
 <ul>
@@ -981,6 +995,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Brand identity design showcase" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand identity design showcase</figcaption></figure>
 <h2>Spotify Promotion Timeline</h2>
 
 <table>
@@ -999,6 +1014,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-story-layout.webp" alt="Brand story layout design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand story layout design</figcaption></figure>
 <h2>Frequently Asked Questions About Trending on Spotify</h2>
 
 <h3>How many streams do you need to trend on Spotify?</h3>
@@ -1057,6 +1073,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/poster-design-weeknd-blinding-lights.webp" alt="Music promotion poster design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Music promotion poster design</figcaption></figure>
 <h2>How to Get Your Song on Instagram's Music Library</h2>
 
 <p>Before anyone can use your song in their Reels and Stories, it needs to be in Instagram's music library:</p>
@@ -1072,6 +1089,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-social-story-minimal.webp" alt="Minimal music promotion post" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Minimal music promotion post</figcaption></figure>
 <h2>Step-by-Step: Making Your Song Viral on Instagram</h2>
 
 <h3>1. Identify the "Viral Moment" in Your Song</h3>
@@ -1140,6 +1158,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-real-estate-posts-grid.webp" alt="Social media content grid" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media content grid</figcaption></figure>
 <h2>Content Ideas to Make Your Song Viral</h2>
 
 <table>
@@ -1158,6 +1177,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-social-story-1.webp" alt="Social media story design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media story design</figcaption></figure>
 <h2>Common Mistakes to Avoid</h2>
 
 <ul>
@@ -1225,6 +1245,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/poster-design-weeknd-blinding-lights.webp" alt="Music promotion poster design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Music promotion poster design</figcaption></figure>
 <h2>Step-by-Step: How to Get Your Song on Instagram</h2>
 
 <h3>Step 1: Choose a Music Distributor</h3>
@@ -1281,6 +1302,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-social-story-minimal.webp" alt="Minimal music promotion post" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Minimal music promotion post</figcaption></figure>
 <h2>Troubleshooting: Song Not Appearing on Instagram</h2>
 
 <p>If your song isn't showing up after 7 days, try these fixes:</p>
@@ -1307,6 +1329,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-real-estate-posts-grid.webp" alt="Social media content grid" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media content grid</figcaption></figure>
 <h2>How to Use Your Song in Instagram Reels</h2>
 
 <p>Once your song is in the library:</p>
@@ -1324,6 +1347,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-social-story-1.webp" alt="Social media story design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media story design</figcaption></figure>
 <h2>How to Use Your Song in Instagram Stories</h2>
 
 <ol>
@@ -1399,6 +1423,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>Step 1 — Confirm Your Website Isn't Indexed at All</h2>
 
 <p>Before troubleshooting, confirm the actual problem. Open Google and search:</p>
@@ -1423,6 +1448,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-agency-grid.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Reason 2: Noindex Tags Are Blocking Google</h2>
 
 <p>This is the #1 technical mistake we find at <strong>TML Agency</strong> during SEO audits. A single line of code can tell Google to completely ignore your website:</p>
@@ -1462,6 +1488,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-ai-design-tool.jpg" alt="AI-powered web design tool" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">AI-powered web design tool</figcaption></figure>
 <h2>Reason 4: Poor Website Technical Health</h2>
 
 <p>Google's crawlers are powerful but not unlimited. If your website is technically broken, Google may crawl it poorly — or not at all.</p>
@@ -1492,6 +1519,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Professional brand design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design</figcaption></figure>
 <h2>Reason 6: Your Content Has No Search Value</h2>
 
 <p>Google's Helpful Content algorithm (now integrated into its core ranking system) actively deprioritises websites that don't provide genuine value to users. If your pages are:</p>
@@ -1605,6 +1633,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>Reason 1: Your Website Is Brand New</h2>
 
 <p>This is the most common reason. If your website launched within the last few days or weeks, <strong>Google may simply not know it exists yet.</strong> Google doesn't instantly know about every new website — it has to discover it first.</p>
@@ -1680,6 +1709,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-agency-grid.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Reason 4: Your robots.txt File Is Blocking Google</h2>
 
 <p>The <strong>robots.txt</strong> file is a text file at the root of your website (yoursite.com/robots.txt) that tells search engine bots which pages they're allowed to crawl. If this file is misconfigured, it can block Google from accessing your entire site.</p>
@@ -1741,6 +1771,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-ai-design-tool.jpg" alt="AI-powered web design tool" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">AI-powered web design tool</figcaption></figure>
 <h2>Reason 7: Your Website Has a Google Penalty (Manual Action)</h2>
 
 <p>If your website previously violated Google's guidelines — whether through spammy backlinks, keyword stuffing, cloaking, or other black-hat tactics — Google may have issued a <strong>manual action</strong> (penalty) against your site. This can result in your site being partially or completely removed from search results.</p>
@@ -1813,6 +1844,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Professional brand design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design</figcaption></figure>
 <h2>The Complete Google Search Console Walkthrough</h2>
 
 <p>Google Search Console (GSC) is your <strong>single most important tool</strong> for diagnosing why your website isn't showing on Google. It's free, provided by Google, and gives you direct insight into how Google sees your website. Here's how to set it up and use it:</p>
@@ -1990,6 +2022,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Modern website design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Modern website design</figcaption></figure>
 <h2>Reason 2: You Have No Clear Call-to-Action (CTA)</h2>
 
 <p><strong>The problem:</strong> Visitors land on your website and have no idea what they're supposed to do next. There's no prominent button saying "Get a Free Quote," no phone number in the header, no form asking for their information. The website looks nice, but it doesn't <em>ask</em> for anything.</p>
@@ -2053,6 +2086,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="Web application design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Web application design</figcaption></figure>
 <h2>Reason 5: You're Attracting the Wrong Traffic</h2>
 
 <p><strong>The problem:</strong> Your website might be getting thousands of visitors, but if those visitors aren't your target customers, they'll never convert.</p>
@@ -2102,6 +2136,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/portfolio/byt-trucking-web-design.webp" alt="Trucking company website redesign" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Trucking company website redesign</figcaption></figure>
 <h2>Reason 8: No Lead Magnets or Value Exchange</h2>
 
 <p><strong>The problem:</strong> You're asking visitors to contact you, but you're not offering them anything in return. <strong>You need to offer value before asking for contact details.</strong></p>
@@ -2153,6 +2188,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-protein-fitness.webp" alt="High-converting ad creative" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">High-converting ad creative</figcaption></figure>
 <h2>Reason 11: No Local SEO or Google Business Profile</h2>
 
 <p><strong>The problem:</strong> If you're a local business and you haven't optimized your <strong>Google Business Profile</strong>, you're invisible in local results and Google Maps.</p>
@@ -2282,6 +2318,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>Fix 1: Do Keyword Research Before Writing Any Content</h2>
 
 <p>The single biggest reason websites don't get traffic is simple: they're not targeting keywords that people are actually searching for.</p>
@@ -2332,6 +2369,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-agency-grid.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Fix 4: Publish Content That Matches Search Intent</h2>
 
 <p>Google doesn't just match keywords — it matches <em>intent</em>. There are four types of search intent:</p>
@@ -2376,6 +2414,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-ai-design-tool.jpg" alt="AI-powered web design tool" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">AI-powered web design tool</figcaption></figure>
 <h2>Fix 7: Optimise for Local SEO (If You Serve a Geographic Area)</h2>
 
 <p>If your business serves customers in a specific city or region, local SEO can be your fastest path to meaningful traffic. When someone searches "SEO agency near me" or "digital marketing Chandigarh," Google shows a local pack of three businesses at the top of results.</p>
@@ -2418,6 +2457,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Professional brand design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design</figcaption></figure>
 <h2>Fix 10: Audit and Fix Underperforming Pages</h2>
 
 <p>Most websites have a handful of pages driving 80% of the traffic — and dozens of pages driving nothing. Instead of always creating new content, periodically audit your existing pages and fix the ones that are underperforming.</p>
@@ -2493,6 +2533,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>How Google Decides What to Rank</h2>
 
 <p>Google's algorithm evaluates over 200 signals to determine where a page should rank for a given search. However, they broadly fall into three categories:</p>
@@ -2548,6 +2589,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-agency-grid.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Part 2: Authority Problems — Why Google Doesn't Trust Your Website</h2>
 
 <h3>4. You Have No Backlinks (or Only Low-Quality Ones)</h3>
@@ -2610,6 +2652,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-ai-design-tool.jpg" alt="AI-powered web design tool" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">AI-powered web design tool</figcaption></figure>
 <h2>Part 4: Competition and SERP Reality</h2>
 
 <h3>10. Your Competition Simply Outguns You</h3>
@@ -2669,6 +2712,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Professional brand design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design</figcaption></figure>
 <h2>How Long Does It Take to Rank on Google?</h2>
 
 <p>Based on data from thousands of websites:</p>
@@ -2731,6 +2775,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>What AI Is Actually Doing in Marketing Right Now</h2>
 
 <p>Forget the hype. Forget the think-pieces about AI taking over the world. Here's what real businesses — including the 500+ brands we work with at <strong>TML Agency</strong> — are using AI for in their day-to-day marketing:</p>
@@ -2756,6 +2801,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
 <h2>The AI Tools Worth Your Attention in 2025</h2>
 
 <p>There are hundreds of AI marketing tools. Most aren't worth the monthly fee. Here are the ones that are actually delivering results:</p>
@@ -2776,6 +2822,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-social-story-1.webp" alt="Social media story design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media story design</figcaption></figure>
 <h2>What AI Still Can't Do (And Why That Matters)</h2>
 
 <p>Let's be honest here, because a lot of the AI content floating around right now is just... generic. And your audience can tell.</p>
@@ -2790,6 +2837,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-typography.webp" alt="Brand typography and design system" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand typography and design system</figcaption></figure>
 <h2>How to Start Using AI in Your Marketing (Practically)</h2>
 
 <p>You don't need to overhaul everything. Start small, build momentum.</p>
@@ -2877,6 +2925,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Brand identity design showcase" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand identity design showcase</figcaption></figure>
 <h2>First, Choose Your Battlefield</h2>
 
 <p>One of the biggest mistakes businesses make is trying to be everywhere at once. Instagram, LinkedIn, Facebook, Twitter/X, TikTok, YouTube, Pinterest — all at the same time, with the same energy. The result? Mediocre content on every platform and meaningful traction on none.</p>
@@ -2926,6 +2975,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-creative-brand.webp" alt="Creative branding concept" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative branding concept</figcaption></figure>
 <h2>The Algorithm Truth Nobody Likes Hearing</h2>
 
 <p>Every major platform — Instagram, LinkedIn, TikTok, YouTube — rewards one thing above all else: <strong>time spent</strong>. If people stop scrolling to watch, read, or engage with your content, the algorithm shows it to more people. If they scroll past, it disappears.</p>
@@ -2956,6 +3006,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
 <h2>What a Real Social Media Content Calendar Looks Like</h2>
 
 <p>Here's a practical weekly framework for a B2B or B2C business:</p>
@@ -2992,6 +3043,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>Paid Social: When and How to Use It</h2>
 
 <p>Organic social builds brand. Paid social accelerates it. But paid social without a strong organic foundation is expensive and often ineffective — you're asking strangers to buy from a brand they've never heard of.</p>
@@ -3070,6 +3122,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-food-ad.jpg" alt="Restaurant food advertising design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Restaurant food advertising design</figcaption></figure>
 <h2>What Is Local SEO and Why Does It Work Differently?</h2>
 
 <p>Regular SEO is about ranking on Google for broad keywords — "digital marketing agency," "accounting software," "running shoes." You're competing with websites from across the country or world.</p>
@@ -3108,6 +3161,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/product-photography-cocktails.webp" alt="Restaurant beverage photography" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Restaurant beverage photography</figcaption></figure>
 <h2>Step 2: Get the Reviews That Actually Influence Customers</h2>
 
 <p>You already know reviews matter. What most businesses miss is <em>how</em> to get them consistently and how to respond to them in a way that helps your rankings.</p>
@@ -3151,6 +3205,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-finance-hero.webp" alt="Professional website design optimized for search" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional website design optimized for search</figcaption></figure>
 <h2>Step 4: Optimise Your Website for Local Search</h2>
 
 <p>Your Google Business Profile gets you into the Maps Pack. Your website gets you into the organic results below — and both matter. Here's what needs to be on your website:</p>
@@ -3194,6 +3249,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Creative agency website design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative agency website design</figcaption></figure>
 <h2>Step 6: Create Local Content That Attracts Local Searches</h2>
 
 <p>Publishing content that's specifically relevant to your local area pulls in organic traffic from searches you'd never rank for otherwise. Think about what people in your area are searching for that relates to your business.</p>
@@ -3270,6 +3326,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-finance-hero.webp" alt="Lead generation landing page" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Lead generation landing page</figcaption></figure>
 <h2>What Does "Content Marketing ROI" Actually Mean?</h2>
 
 <p>Before we get into numbers, let's get clear on what we're measuring. Content marketing ROI can come from multiple sources:</p>
@@ -3311,6 +3368,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-mockup.webp" alt="Instagram marketing mockup" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram marketing mockup</figcaption></figure>
 <h2>Content Marketing vs. Paid Ads: The Real Comparison</h2>
 
 <p>This is the comparison that matters for most business owners deciding where to put their budget. Here's an honest breakdown:</p>
@@ -3359,6 +3417,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Brand identity design showcase" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand identity design showcase</figcaption></figure>
 <h2>Real ROI Numbers: What Businesses Actually See</h2>
 
 <p>Let's talk concrete numbers. Based on data from businesses that have run serious content programs for 12–24 months:</p>
@@ -3389,6 +3448,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-story-layout.webp" alt="Brand story layout design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand story layout design</figcaption></figure>
 <h2>Is Content Marketing Worth It for Your Business?</h2>
 
 <p>Probably yes — but only if you're willing to commit to it for at least 12 months, do it properly, and measure the right things. If you need leads next week, run ads. If you want sustainable, compounding growth that gets cheaper over time, invest in content alongside your other marketing.</p>
@@ -3446,6 +3506,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Modern website design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Modern website design</figcaption></figure>
 <h2>Sign #1: Your Website Is Not Mobile Responsive</h2>
 
 <p>This is the single biggest red flag in 2026. <strong>Over 65% of all web traffic now comes from mobile devices.</strong> If your website does not look and function perfectly on smartphones and tablets, you are alienating the majority of your audience.</p>
@@ -3503,6 +3564,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-travel-app.webp" alt="Travel website UI design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Travel website UI design</figcaption></figure>
 <h2>Sign #4: You Are Still Using Outdated Design Trends</h2>
 
 <p>Design trends evolve rapidly. What looked cutting-edge in 2020 looks dated in 2026. Here are design elements that instantly age your website:</p>
@@ -3567,6 +3629,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Graphic design brand identity" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Graphic design brand identity</figcaption></figure>
 <h2>Sign #7: It Is Difficult to Update Content</h2>
 
 <p>Can you update your website content without calling a developer? If the answer is no, you have a major problem. In 2026, your website needs to be a living, breathing asset &mdash; not a static brochure that requires a developer every time you want to change a phone number or add a new service.</p>
@@ -3632,6 +3695,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-fitness-billboard.webp" alt="Billboard graphic design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Billboard graphic design</figcaption></figure>
 <h2>Sign #10: Your Competitors Websites Look Better Than Yours</h2>
 
 <p>This one hurts, but it matters. <strong>Do a side-by-side comparison.</strong> Open your website in one tab and your top 3-5 competitors websites in other tabs. Now be honest:</p>
@@ -3779,6 +3843,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-protein-fitness.webp" alt="High-converting fitness ad creative" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">High-converting fitness ad creative</figcaption></figure>
 <h2>Mistake #1: Using the Wrong Keyword Match Types</h2>
 
 <p>This is the number one budget killer for most Google Ads accounts, and it is often the result of using default settings without understanding what they do.</p>
@@ -3864,6 +3929,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-legal-education-red.webp" alt="Education industry ad design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Education industry ad design</figcaption></figure>
 <h2>Mistake #4: Weak or Generic Ad Copy</h2>
 
 <p>Your ad copy is your first (and often only) chance to convince someone to click on your ad instead of the 3-7 other ads competing for the same search. Generic, uninspired ad copy is a conversion killer.</p>
@@ -3944,6 +4010,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>Mistake #7: Ignoring Quality Score</h2>
 
 <p>Quality Score is Google 1-10 rating of the quality and relevance of your keywords, ads, and landing pages. It is not just a vanity metric &mdash; <strong>Quality Score directly impacts how much you pay per click and where your ad appears.</strong></p>
@@ -4025,6 +4092,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-story-creative.webp" alt="Creative brand story design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative brand story design</figcaption></figure>
 <h2>Mistake #10: Using the Wrong Bidding Strategy</h2>
 
 <p>Google Ads offers multiple bidding strategies, and choosing the wrong one for your situation can dramatically impact performance. Many advertisers either stick with the default or switch to automated bidding before they have enough data for it to work.</p>
@@ -4154,6 +4222,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Your website is not Amazon. But the math scales down perfectly. If you are getting 1,000 visitors a month and converting at 3%, a 1-second improvement could mean 2-3 extra leads every single month. Over a year, that adds up.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Modern website design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Modern website design</figcaption></figure>
 <h2>Step 1: Diagnose the Problem First</h2>
 
 <p>Before you start randomly optimizing things, figure out what is actually slow. Here are the free tools you need:</p>
@@ -4191,6 +4260,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Set cache expiry headers for at least 30 days on static assets (images, CSS, JS). Your returning visitors will see a dramatically faster site.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-community-platform.webp" alt="Community platform website design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Community platform website design</figcaption></figure>
 <h2>Fix 3: Use a CDN (Content Delivery Network)</h2>
 
 <p>If your server is in Mumbai and someone in Toronto visits your site, the data has to travel halfway around the world. A CDN stores copies of your site on servers globally, so visitors load it from the nearest one.</p>
@@ -4220,6 +4290,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 <li>Move analytics scripts and third-party widgets to load after your main content</li>
 </ul>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-travel-app.webp" alt="Travel website UI design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Travel website UI design</figcaption></figure>
 <h2>Fix 6: Reduce HTTP Requests</h2>
 
 <p>Every file your page loads &mdash; each image, script, stylesheet, font &mdash; is a separate HTTP request. More requests = more time waiting.</p>
@@ -4245,6 +4316,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Code splitting breaks your app into smaller chunks that load on demand. Your homepage loads only homepage code. Your blog page loads only blog code. Modern frameworks like Next.js do this automatically with dynamic imports.</p>
 
+<figure style="margin: 2rem 0;"><img src="/portfolio/byt-trucking-web-design.webp" alt="Trucking company website redesign" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Trucking company website redesign</figcaption></figure>
 <h2>Fix 9: Optimize Server Response Time</h2>
 
 <p>Your server should respond to requests in under 200ms. If it is taking longer, the problem is usually:</p>
@@ -4363,6 +4435,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 <li><strong>Your actual phone</strong> &mdash; seriously, pull out your phone right now and visit your own site. Tap every button. Fill out every form. Is it frustrating? Then it is frustrating for your customers too.</li>
 </ul>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Modern website design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Modern website design</figcaption></figure>
 <h2>Fix 1: Add the Viewport Meta Tag</h2>
 
 <p>This is the absolute basics, but you would be surprised how many sites miss it. Without this single line of code in your HTML head, mobile browsers will try to render your desktop site at desktop width and zoom out to fit it on screen.</p>
@@ -4399,6 +4472,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Test by actually tapping every interactive element on your phone. If you have to zoom in or tap twice, it is too small.</p>
 
+<figure style="margin: 2rem 0;"><img src="/portfolio/cb-builders-web-design.webp" alt="Builder website design project" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Builder website design project</figcaption></figure>
 <h2>Fix 4: Implement a Proper Hamburger Menu</h2>
 
 <p>Your desktop navigation with 8 menu items and 3 dropdowns cannot simply shrink to mobile width. It needs to collapse into a hamburger menu (those three horizontal lines) that expands when tapped.</p>
@@ -4439,6 +4513,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Also watch out for text getting cut off or overflowing containers on small screens. Test at 320px width (the smallest common phone width).</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
 <h2>Fix 7: Make CTAs Thumb-Friendly</h2>
 
 <p>Your call-to-action buttons are the most important interactive elements on your site. On mobile, they need special attention:</p>
@@ -4476,6 +4551,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 <li>Use a CDN to reduce latency</li>
 </ul>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-typography.webp" alt="Brand typography and design system" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand typography and design system</figcaption></figure>
 <h2>Fix 10: Handle Popups and Interstitials Properly</h2>
 
 <p>Nothing is more infuriating on mobile than a popup that covers the entire screen and has a tiny "X" button you cannot tap. Google will actually <strong>penalize your mobile rankings</strong> for intrusive interstitials.</p>
@@ -4585,6 +4661,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Neither is inherently better. They solve different problems at different stages of business growth.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>The Head-to-Head Comparison</h2>
 
 <table>
@@ -4604,6 +4681,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 </tbody>
 </table>
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-roofing-company.webp" alt="Local business ad campaign example" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Local business ad campaign example</figcaption></figure>
 <h2>When Google Ads Is the Right Choice</h2>
 
 <p><strong>You are a new business.</strong> You launched last month, your website has zero authority, and you need leads yesterday. SEO will not help you for months. Google Ads gets you in front of customers within hours.</p>
@@ -4616,6 +4694,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p><strong>You want precise geographic targeting.</strong> Need to target only people within 10km of your store? Ads give you that precision.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-mockup.webp" alt="Instagram marketing mockup" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram marketing mockup</figcaption></figure>
 <h2>When SEO Is the Right Choice</h2>
 
 <p><strong>You are playing the long game.</strong> If you can afford to invest for 6-12 months before seeing significant returns, SEO will eventually deliver a lower cost per lead than ads.</p>
@@ -4628,6 +4707,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p><strong>You already have a content team or budget.</strong> If you are producing quality content anyway, layering SEO strategy onto it is a no-brainer.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-showcase.webp" alt="Professional brand design portfolio" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design portfolio</figcaption></figure>
 <h2>The Real Answer: Use Both (At the Right Time)</h2>
 
 <p>The smartest businesses use Google Ads for immediate results while building SEO for long-term sustainability. Here is what that actually looks like:</p>
@@ -4717,6 +4797,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>When you treat branding as "just get a nice logo," you end up with a nice logo attached to a forgettable, inconsistent experience.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Brand identity design showcase" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand identity design showcase</figcaption></figure>
 <h2>Mistake 2: Inconsistent Visual Identity</h2>
 
 <p>Your website uses navy blue. Your Instagram uses teal. Your business cards are royal blue. Your brochure uses a completely different font. Sound familiar?</p>
@@ -4733,6 +4814,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Ask yourself: if your brand were a person, how would they talk? Formal or casual? Serious or playful? Technical or simple? Write that down and stick to it.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-story-layout.webp" alt="Brand story layout design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand story layout design</figcaption></figure>
 <h2>Mistake 4: Copying Your Competitors</h2>
 
 <p>If your brand looks, sounds, and feels like your competitor's brand, congratulations &mdash; you have successfully made yourself invisible. When everyone in your industry uses the same stock photos, the same colour palette, and the same vague taglines, customers see you all as interchangeable.</p>
@@ -4747,6 +4829,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Talk to your best customers. What drew them to you? What do they value? What words do they use to describe your business? Build your brand around that.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-product-layout.webp" alt="Product layout design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Product layout design</figcaption></figure>
 <h2>Mistake 6: Getting a Cheap Logo and Calling It Done</h2>
 
 <p>A $5 logo from a freelance marketplace is worth exactly what you paid for it. It will be generic, likely similar to 500 other logos made from the same templates, and it will not represent anything unique about your business.</p>
@@ -4761,6 +4844,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>The best brand stories are honest and specific. Not "we are passionate about excellence." Rather, "We started this company after our founder spent 6 months trying to find a decent plumber and couldn't."</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-real-estate-posts-grid.webp" alt="Social media content grid" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media content grid</figcaption></figure>
 <h2>Mistake 8: Terrible Website Design</h2>
 
 <p>Your website is your digital storefront. In 2026, it is often the <strong>first and only</strong> impression someone has of your business. If it looks like it was built in 2012, loads slowly, or is confusing to navigate, visitors will judge your entire business accordingly.</p>
@@ -4852,6 +4936,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p><strong>They own your accounts.</strong> Your Google Ads account, your social media accounts, your website &mdash; these should always be owned by YOU. If an agency insists on owning your accounts, they are creating leverage to keep you hostage.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>What Good Agencies Do Differently</h2>
 
 <p><strong>They start with questions, not pitches.</strong> A good agency's first meeting should feel like a doctor's appointment. They ask about your business, your goals, your budget, your competition. They diagnose before they prescribe.</p>
@@ -4864,6 +4949,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p><strong>They have specialists, not generalists pretending to know everything.</strong> Real SEO requires different expertise than Google Ads, which requires different expertise than social media. A good agency has dedicated team members for each discipline.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Professional brand design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design</figcaption></figure>
 <h2>Questions to Ask Before Signing</h2>
 
 <ol>
@@ -4877,6 +4963,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 <li><strong>"Can I speak to a current client?"</strong> &mdash; If they say no, ask yourself why.</li>
 </ol>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Digital marketing content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing content</figcaption></figure>
 <h2>Understanding Pricing Models</h2>
 
 <table>
@@ -4893,6 +4980,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Monthly retainers are the most common for ongoing work. Just make sure you know exactly what that retainer buys you in terms of deliverables, not just hours.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="Marketing analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Marketing analytics dashboard</figcaption></figure>
 <h2>Agency vs Freelancer</h2>
 
 <p>Not every business needs an agency. If your budget is small and your needs are focused (just SEO, or just social media), a skilled freelancer might serve you better at a lower cost.</p>
@@ -4975,6 +5063,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Organic traffic is also the highest-converting traffic for e-commerce because the intent is crystal clear. Someone searching "buy wireless noise-cancelling headphones under $200" knows exactly what they want and is ready to purchase.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-web3-platform.jpg" alt="E-commerce platform design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">E-commerce platform design</figcaption></figure>
 <h2>Product Page SEO: Where the Money Is</h2>
 
 <p>Your product pages are your money pages. Here is how to optimize them properly:</p>
@@ -5005,6 +5094,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p><strong>Optimise filter pages wisely:</strong> If your store has filters (size, colour, price range), decide which filtered combinations deserve their own indexable pages. "Red running shoes" might be worth a unique page. "Size 9.5 red running shoes on sale" probably is not.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/product-photography-luxury-skincare.webp" alt="Luxury product e-commerce photography" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Luxury product e-commerce photography</figcaption></figure>
 <h2>Site Architecture for E-Commerce</h2>
 
 <p>Good site architecture means any product is reachable within 3 clicks from the homepage. Here is a clean hierarchy:</p>
@@ -5032,6 +5122,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p><strong>Out-of-stock pages:</strong> Do not delete or 404 out-of-stock product pages. They might have backlinks and rankings. Instead, show the product as unavailable and suggest similar products. If the product is permanently discontinued, 301 redirect to the closest alternative.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-community-platform.webp" alt="Website platform with SEO optimization" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Website platform with SEO optimization</figcaption></figure>
 <h2>Internal Linking Strategy</h2>
 
 <p>Internal links are free and powerful. Use them aggressively:</p>
@@ -5057,6 +5148,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Every blog post should naturally link to relevant product or category pages. This creates a content ecosystem that drives both traffic and sales.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Professional brand design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design</figcaption></figure>
 <h2>E-Commerce SEO Checklist</h2>
 
 <table>
@@ -5138,6 +5230,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Now let me explain what those numbers actually mean in terms of what you get.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>What You Get at Each Price Point</h2>
 
 <table>
@@ -5167,6 +5260,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>The "savings" from cheap SEO often cost you more in the long run because you end up paying a real agency to undo the damage. I have seen businesses spend 6 months and $3,000+ recovering from a Google penalty caused by their $200/month SEO "provider."</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/packaging-design-character-cups.webp" alt="Character cup packaging design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Character cup packaging design</figcaption></figure>
 <h2>What Factors Affect SEO Pricing?</h2>
 
 <p><strong>Your industry's competitiveness.</strong> Ranking a local bakery is vastly different from ranking a national insurance company. More competitive keywords require more content, more links, and more time.</p>
@@ -5189,6 +5283,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p><strong>Performance-based:</strong> You pay based on rankings achieved or traffic delivered. Sounds great in theory, but be cautious &mdash; how "performance" is defined matters enormously.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-mockup.webp" alt="Instagram marketing mockup" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram marketing mockup</figcaption></figure>
 <h2>How to Calculate SEO ROI</h2>
 
 <p>Here is a simple framework:</p>
@@ -5221,6 +5316,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 <li>You want accountability with regular reporting and strategy sessions</li>
 </ul>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-showcase.webp" alt="Professional brand design portfolio" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design portfolio</figcaption></figure>
 <h2>What About In-House?</h2>
 
 <p>Hiring a full-time SEO specialist costs $50,000-$80,000/year in salary alone. Add tools ($200-$500/month for Ahrefs, SEMrush, etc.), training, and management time, and you are looking at $70,000-$100,000/year total cost.</p>
@@ -5292,6 +5388,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 </tbody>
 </table>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-web3-platform.jpg" alt="E-commerce platform design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">E-commerce platform design</figcaption></figure>
 <h2>Platform Comparison: WordPress vs Shopify vs Custom (Next.js/React)</h2>
 
 <table>
@@ -5309,6 +5406,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 </tbody>
 </table>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-travel-app.webp" alt="Travel website UI design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Travel website UI design</figcaption></figure>
 <h2>Hidden Costs Most People Forget</h2>
 
 <p>The website build is just the beginning. Here are the ongoing costs most people do not budget for:</p>
@@ -5325,6 +5423,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p><strong>SEO:</strong> A beautiful website nobody can find is useless. Budget for ongoing SEO ($500-$3,000/month for most businesses).</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-fitness-billboard.webp" alt="Billboard graphic design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Billboard graphic design</figcaption></figure>
 <h2>Template vs Custom Design</h2>
 
 <p><strong>Template sites ($0-$200 + customization):</strong> Pre-designed templates that you customize with your content, colours, and logo. Platforms like Squarespace, Wix, and WordPress themes make this accessible to anyone.</p>
@@ -5339,6 +5438,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p><strong>The honest advice:</strong> If you are just starting out and need an online presence quickly, a template is fine. But if your website is your primary lead generation tool and you are investing in marketing to drive traffic to it, a custom site will pay for itself through better conversion rates.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-showcase.webp" alt="Professional brand design portfolio" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design portfolio</figcaption></figure>
 <h2>When to Invest in a Website Redesign</h2>
 
 <p>Your existing website needs a redesign if:</p>
@@ -5420,6 +5520,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>For India (INR), divide these numbers roughly by 3-5x for equivalent local CPC rates. A click that costs $5 in the US might cost Rs 40-80 in India.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-protein-fitness.webp" alt="High-converting fitness ad creative" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">High-converting fitness ad creative</figcaption></figure>
 <h2>What Actually Determines Your Cost</h2>
 
 <p><strong>Quality Score.</strong> This is the most important factor most businesses ignore. Google rates your ad relevance on a 1-10 scale based on your ad copy, landing page quality, and expected click-through rate. A Quality Score of 8+ can reduce your CPC by 30-50%. A score of 3 or below can double or triple your costs.</p>
@@ -5432,6 +5533,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p><strong>Geographic targeting.</strong> Ads targeting Sydney cost more than ads targeting a small rural town. But the leads from Sydney might be more valuable, so higher CPC is not necessarily bad.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-dental-clinic-fly.webp" alt="Healthcare ad campaign design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Healthcare ad campaign design</figcaption></figure>
 <h2>Minimum Budget Recommendations</h2>
 
 <p>Here is what I tell clients:</p>
@@ -5445,6 +5547,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>The biggest mistake is spending too little. Running $200/month in a competitive market gives you so few clicks that you cannot collect meaningful data, let alone generate leads.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
 <h2>Management Fees: What Agencies Charge</h2>
 
 <table>
@@ -5460,6 +5563,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>A word of warning about percentage-based pricing: it incentivizes the agency to increase your spend rather than optimize for efficiency. A flat fee aligns incentives better for most businesses.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-chupa-chups.webp" alt="Creative social media campaign" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative social media campaign</figcaption></figure>
 <h2>Hidden Costs of Google Ads</h2>
 
 <p><strong>Landing page development.</strong> Sending ad traffic to your homepage is a mistake. You need dedicated landing pages optimized for conversion. Budget $500-$2,000 per landing page.</p>
@@ -5560,6 +5664,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 </tbody>
 </table>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
 <h2>Organic vs Paid: What Is the Difference?</h2>
 
 <p><strong>Organic social media</strong> is everything you do without paying for advertising: posting content, engaging with followers, responding to comments, building community. It is "free" in the sense that you are not paying for reach, but it costs time and content creation effort.</p>
@@ -5568,6 +5673,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Most businesses need both. Organic builds trust and community. Paid drives targeted traffic and leads. Doing only organic is slow. Doing only paid without any organic presence looks suspicious (no posts but running ads = untrustworthy).</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>Platform-Specific Ad Costs</h2>
 
 <table>
@@ -5584,6 +5690,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>LinkedIn is the most expensive but also has the highest-value audiences for B2B. Do not let the CPM scare you &mdash; if a LinkedIn lead converts into a $50,000 B2B contract, that $8 click was the best money you ever spent.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/packaging-design-eskimo-ice-cream.webp" alt="Ice cream packaging design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Ice cream packaging design</figcaption></figure>
 <h2>What Does a Social Media Manager Actually Do?</h2>
 
 <p>When you hire someone (freelancer or agency) for social media management, here is what should be included:</p>
@@ -5599,6 +5706,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>If a provider quotes you $300/month for all of this, do the maths: that is maybe 3-4 hours of work. What quality do you think you are getting for 3-4 hours/month?</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Tool Costs</h2>
 
 <p>Social media management requires tools:</p>
@@ -5698,6 +5806,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 </tbody>
 </table>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Brand identity design showcase" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand identity design showcase</figcaption></figure>
 <h2>What You Get at Each Price Point</h2>
 
 <h3>Budget ($200-$2,000): The Starter Kit</h3>
@@ -5743,6 +5852,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 <li>Brand launch strategy</li>
 </ul>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-story-layout.webp" alt="Brand story layout design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand story layout design</figcaption></figure>
 <h2>Why Cheap Logo Design Usually Fails</h2>
 
 <p>A $5-$50 logo from a marketplace gets you:</p>
@@ -5758,6 +5868,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Compare that to a $1,000-$2,000 logo from a proper designer: they interview you about your business, study your competitors, understand your audience, create something unique and meaningful, and deliver professional files ready for every use case.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-product-layout.webp" alt="Product layout design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Product layout design</figcaption></figure>
 <h2>DIY Branding: Is It Worth It?</h2>
 
 <p>Tools like Canva, Looka, and Hatchful make it possible to create basic brand elements yourself. For a side hustle or hobby business, this is fine.</p>
@@ -5771,6 +5882,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>My advice: if branding is budget-constrained right now, go DIY for the immediate need, but plan and budget for professional branding within 12-18 months.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/packaging-design-eskimo-ice-cream.webp" alt="Ice cream packaging design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Ice cream packaging design</figcaption></figure>
 <h2>When to Rebrand</h2>
 
 <p>Rebranding typically costs 20-40% more than initial branding because you also need to update all existing materials. Consider rebranding if:</p>
@@ -5848,6 +5960,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 </tbody>
 </table>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>SEO Packages in India: What You Get</h2>
 
 <p><strong>Rs 5,000-15,000/month (Basic):</strong> You get basic on-page optimization, keyword research for 5-10 keywords, monthly reporting, and maybe a blog post or two. Suitable for local businesses targeting one city.</p>
@@ -5856,6 +5969,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p><strong>Rs 75,000-1,50,000/month (Aggressive):</strong> Full-spectrum SEO with dedicated strategist, large-scale content production, aggressive link building, international/multi-city targeting, CRO, and weekly reporting. For businesses in competitive industries or targeting multiple cities nationally.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-roofing-company.webp" alt="Local business ad campaign example" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Local business ad campaign example</figcaption></figure>
 <h2>Google Ads Cost in India</h2>
 
 <p>Google Ads cost has two parts: the ad spend itself (what you pay Google) and the management fee (what you pay someone to manage it).</p>
@@ -5879,12 +5993,14 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Minimum recommended ad spend: Rs 15,000-30,000/month for local businesses, Rs 50,000-1,00,000/month for competitive industries or national campaigns.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-mockup.webp" alt="Instagram marketing mockup" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram marketing mockup</figcaption></figure>
 <h2>Tier 1 vs Tier 2 City Pricing</h2>
 
 <p>Agencies in Delhi, Mumbai, and Bangalore typically charge 30-50% more than agencies in Chandigarh, Jaipur, or Pune. But here is a secret: <strong>the work quality is often identical</strong>. You are paying for the agency's office rent and lifestyle cost, not necessarily better talent.</p>
 
 <p>Many businesses are now choosing agencies in Tier 2 cities for significant cost savings without compromising on quality. At <a href="https://townmedialabs.com">TML Agency</a>, we are based in Chandigarh and serve clients across India and internationally &mdash; at Tier 2 pricing with Tier 1 quality.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/packaging-design-character-cups.webp" alt="Character cup packaging design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Character cup packaging design</figcaption></figure>
 <h2>What to Watch Out For</h2>
 
 <p><strong>"Complete digital marketing for Rs 5,000/month."</strong> Just no. At Rs 5,000/month, you are getting maybe 2-3 hours of work. That is not enough to move the needle on anything.</p>
@@ -5982,6 +6098,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Notice the pattern: <strong>organic/SEO leads are consistently 2-5x cheaper</strong> than paid ads. But they take longer to generate. This is the classic speed vs cost tradeoff.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>Cost Per Channel: What Each Method Really Costs</h2>
 
 <h3>Google Ads</h3>
@@ -6002,6 +6119,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 <h3>Cold Outreach (Email/Phone)</h3>
 <p>Average CPL: $20-$100. Labour-intensive but can be effective for B2B. Response rates are typically 1-5% for cold email.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-roofing-company.webp" alt="Local business ad campaign example" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Local business ad campaign example</figcaption></figure>
 <h2>How to Calculate Your Target CPL</h2>
 
 <p>Here is the formula that should drive all your lead gen decisions:</p>
@@ -6016,6 +6134,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>If your actual CPL is $100, you are doing great. If it is $400, you need to optimize or switch channels.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-mockup.webp" alt="Instagram marketing mockup" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram marketing mockup</figcaption></figure>
 <h2>Inbound vs Outbound: Which Is Cheaper?</h2>
 
 <p><strong>Inbound</strong> (SEO, content, social media) costs more upfront but gets cheaper over time. Your first blog post costs the same whether it generates 10 views or 10,000. As your content library grows, your CPL drops.</p>
@@ -6024,6 +6143,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>The ideal approach: use outbound for immediate lead flow while building inbound systems for long-term, low-cost lead generation.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-clean-minimal-ad.webp" alt="Clean email campaign design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Clean email campaign design</figcaption></figure>
 <h2>Hidden Costs of Lead Generation</h2>
 
 <ul>
@@ -6108,6 +6228,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 </tbody>
 </table>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
 <h2>What Affects Video Editing Pricing</h2>
 
 <p><strong>Video length.</strong> A 30-second Reel takes 1-2 hours to edit. A 15-minute YouTube video takes 5-15 hours. Length is the biggest cost driver.</p>
@@ -6120,6 +6241,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p><strong>Turnaround time.</strong> Need it tomorrow? Expect a 50-100% rush fee. Standard turnaround (3-7 days) gives you the best price.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>Freelancer vs Agency for Video Editing</h2>
 
 <p><strong>Freelancers</strong> are perfect for:</p>
@@ -6139,6 +6261,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 <li>Projects where quality cannot be compromised</li>
 </ul>
 
+<figure style="margin: 2rem 0;"><img src="/work/poster-design-netflix-induction.webp" alt="Video production poster design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Video production poster design</figcaption></figure>
 <h2>Bulk Pricing: Monthly Packages</h2>
 
 <p>If you need regular video content, monthly packages are significantly cheaper per video than one-off projects:</p>
@@ -6154,6 +6277,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 </tbody>
 </table>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-product-showcase.webp" alt="Product showcase graphic design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Product showcase graphic design</figcaption></figure>
 <h2>How to Get the Best Value</h2>
 
 <ul>
@@ -6234,6 +6358,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Comparing them is a bit like comparing a Swiss Army knife to a custom-forged blade. One does everything out of the box. The other requires skill to craft but can be exactly what you need.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>Speed and Performance</h2>
 
 <p>This is where Next.js pulls ahead, and it is not even close.</p>
@@ -6271,6 +6396,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>That said, WordPress with proper optimization and a good SEO plugin can absolutely rank on page one. Millions of WordPress sites prove this every day.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-agency-grid.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Security</h2>
 
 <p>WordPress is the most hacked CMS on the planet. Not because it is poorly built, but because it is the biggest target. When 43% of websites run on the same platform, hackers focus their efforts there.</p>
@@ -6316,6 +6442,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>A Next.js site costs more upfront but has almost zero recurring software costs. Hosting on Vercel's free tier handles most business sites comfortably. There are no plugin licenses to renew.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-ai-design-tool.jpg" alt="AI-powered web design tool" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">AI-powered web design tool</figcaption></figure>
 <h2>Flexibility and Customization</h2>
 
 <p>WordPress gives you flexibility through plugins and themes. Want a contact form? Install WPForms. Need an online store? Install WooCommerce. Want a booking system? There is a plugin for that. This "install and activate" approach means you can add features without touching code.</p>
@@ -6336,6 +6463,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>That said, if you need to make content changes frequently and do not have a developer on call, Next.js can be less convenient. Unless you pair it with a headless CMS like Sanity, Strapi, or Contentful, content updates mean code changes.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Professional brand design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design</figcaption></figure>
 <h2>Learning Curve</h2>
 
 <p>WordPress: A non-technical person can learn to manage a WordPress site in a day. Adding pages, writing blog posts, updating images — the dashboard makes it intuitive. You will not become a WordPress developer overnight, but you can handle day-to-day content management.</p>
@@ -6430,6 +6558,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Neither approach is better. They solve different problems at different stages of the buyer journey.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>The Numbers: Cost, ROI, and Timeline</h2>
 
 <table>
@@ -6484,6 +6613,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Also, organic reach on most platforms has been declining for years. Facebook organic reach for business pages is around 2-5% of your followers. Instagram is better but shrinking. You are increasingly paying to reach people who already follow you.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-agency-grid.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Lead Quality: This Is Where SEO Wins Big</h2>
 
 <p>Not all leads are created equal, and this is the factor most people overlook.</p>
@@ -6512,6 +6642,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Why? Your potential clients are searching Google for "GST filing services in Chandigarh" or "best CA firm for startups." They are not scrolling Instagram looking for accountants. SEO captures that high-intent traffic. Use LinkedIn (the 20%) for thought leadership and networking, but put the bulk of your budget into ranking for service keywords.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-mockup.webp" alt="Instagram marketing mockup" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram marketing mockup</figcaption></figure>
 <h2>Scenario 3: E-Commerce Brand</h2>
 
 <p>You sell handmade jewelry online. Budget is Rs 30,000 per month.</p>
@@ -6540,6 +6671,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p><strong>Month 12+:</strong> SEO should be your primary traffic driver. Social media supports it. You are now spending less per lead because organic search traffic is essentially free after the initial investment.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>What About Paid Social vs SEO?</h2>
 
 <p>Paid social media (Facebook Ads, Instagram Ads) is a different beast entirely from organic social. Paid social can generate leads immediately, and the targeting options are incredible. But the moment you stop paying, the leads stop too.</p>
@@ -6609,6 +6741,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Intent vs interest. Demand capture vs demand generation. This fundamental difference shapes everything — costs, conversion rates, creative strategy, and ROI timelines.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-web3-platform.jpg" alt="E-commerce platform design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">E-commerce platform design</figcaption></figure>
 <h2>Cost Comparison: CPC and CPM Benchmarks</h2>
 
 <p>Let us talk money, because that is what you actually care about.</p>
@@ -6668,6 +6801,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>The strength: you can reach incredibly specific audiences even if they have never heard of you. "Women aged 25-35 in Chandigarh who are interested in organic skincare and have a household income above Rs 10 lakh" — Facebook can find them. The weakness: these people were not looking for you. You are interrupting their scroll.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="E-commerce analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">E-commerce analytics dashboard</figcaption></figure>
 <h2>Creative Formats: What Works Where</h2>
 
 <p>Google Search Ads are text-based. Headlines, descriptions, sitelinks. There is no visual element (unless you run Shopping Ads or Display Ads). Your copywriting has to do all the heavy lifting.</p>
@@ -6703,6 +6837,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 </tbody>
 </table>
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-dental-clinic-fly.webp" alt="Healthcare ad campaign design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Healthcare ad campaign design</figcaption></figure>
 <h2>Which Industries Win on Facebook Ads?</h2>
 
 <table>
@@ -6738,6 +6873,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>The winning strategy most businesses miss: use Google Ads to capture high-intent traffic, then use Facebook retargeting to stay in front of people who did not convert. This combination typically produces the best ROI we see across all our clients.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-mockup.webp" alt="Instagram marketing mockup" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram marketing mockup</figcaption></figure>
 <h2>The Attribution Problem</h2>
 
 <p>Here is something nobody talks about enough: tracking is broken.</p>
@@ -6871,6 +7007,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>With a decent agency, you hand over the keys and check in periodically. They handle strategy, execution, reporting, and optimization. Your time investment drops to 2-3 hours per month.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>Expertise and Skill Range</h2>
 
 <p>Digital marketing is not one skill. It is at least eight:</p>
@@ -6909,6 +7046,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Here is a pro tip for either option: define your KPIs before you start. What metrics matter? Rankings? Traffic? Leads? Revenue? If both parties agree on what success looks like from day one, accountability follows naturally.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-agency-grid.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Communication and Responsiveness</h2>
 
 <p>Freelancers often win here, surprisingly.</p>
@@ -6942,6 +7080,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>A freelancer might use free or basic versions of these tools, or they might use premium tools and factor the cost into their pricing. Either way, ask what tools they use. If someone is doing your SEO without access to a proper keyword research tool, you are getting a subpar service.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-mockup.webp" alt="Instagram marketing mockup" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram marketing mockup</figcaption></figure>
 <h2>The Decision Framework</h2>
 
 <p>Answer these five questions honestly:</p>
@@ -6999,6 +7138,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 <li>Manages more than 15-20 clients simultaneously</li>
 </ul>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>Red Flags for Agencies</h2>
 
 <ul>
@@ -7084,6 +7224,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>Think of it this way: Shopify is like renting a fully furnished apartment. WooCommerce is like buying land and building your own house. Both give you a place to live, but the experience of getting there is completely different.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-web3-platform.jpg" alt="E-commerce platform design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">E-commerce platform design</figcaption></figure>
 <h2>Pricing: The Full Picture</h2>
 
 <p>This is where most comparison articles get it wrong. They compare Shopify's monthly fee to WooCommerce being "free" and call it a day. The real cost is much more nuanced.</p>
@@ -7147,6 +7288,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>WooCommerce's advantage is the sheer breadth of its plugin ecosystem. WordPress has 60,000+ plugins compared to Shopify's 8,000+ apps. Need a niche feature like product customization with image uploads, or a complex B2B pricing structure? WooCommerce probably has a plugin for it. Shopify might not.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/product-photography-luxury-skincare.webp" alt="Luxury product e-commerce photography" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Luxury product e-commerce photography</figcaption></figure>
 <h2>Customization and Design</h2>
 
 <p>Shopify themes are polished and professional. The Shopify Theme Store has around 180 themes (12 free, the rest Rs 15,000-25,000). They are well-coded, mobile-responsive, and optimized for conversion. But you are limited to what Shopify's theme engine allows. Deep customization requires learning Shopify's Liquid template language.</p>
@@ -7204,6 +7346,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>For most Indian businesses selling under 1,000 products, both platforms scale fine. The differences only matter when you are processing hundreds of orders per day or managing catalogs with 10,000+ SKUs.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-community-platform.webp" alt="Website platform with SEO optimization" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Website platform with SEO optimization</figcaption></figure>
 <h2>Security</h2>
 
 <p>Shopify handles security completely. They manage PCI compliance, SSL, server security, and fraud detection. You do not think about security — Shopify thinks about it for you. In the platform's history, there have been zero major security breaches affecting store data.</p>
@@ -7231,6 +7374,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 <li>You value your time more than saving Rs 2,000-3,000 per month</li>
 </ul>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Professional brand design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design</figcaption></figure>
 <h2>When WooCommerce Is the Right Choice</h2>
 
 <ul>
@@ -7303,6 +7447,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>The analogy we use at <a href="https://townmedialabs.com/services">TML Agency</a>: organic marketing is like growing a garden. You plant seeds, water them daily, and harvest fruit for years. Paid marketing is like going to the grocery store. You pay money and get food immediately, but you have to keep paying every time you need more.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>The Cost Equation: It Is Not What You Think</h2>
 
 <p>People call organic marketing "free." It is not. It costs time, expertise, and tools. Let us be honest about the real costs.</p>
@@ -7337,6 +7482,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>The speed advantage of paid marketing comes with a dependency. The moment you turn off the ads, the leads stop. You never "own" the traffic — you are renting it from Google or Meta. With organic marketing, the traffic you build is yours (as long as Google does not dramatically change its algorithm, which is a real but manageable risk).</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
 <h2>Trust and Credibility: The Organic Advantage</h2>
 
 <p>People trust organic results more than ads. Studies consistently show that 70-80% of users skip paid results in Google and click on organic listings instead. There is an inherent skepticism toward advertising that does not exist for organic content.</p>
@@ -7365,6 +7511,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>These numbers vary by industry, but the pattern is consistent: organic leads are warmer and more valuable.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-social-story-1.webp" alt="Social media story design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media story design</figcaption></figure>
 <h2>Sustainability: Building an Asset vs Renting Attention</h2>
 
 <p>Here is perhaps the most compelling argument for organic marketing: it is an asset that appreciates.</p>
@@ -7401,6 +7548,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <p>This is not a rigid formula. If you sell a seasonal product (Diwali gifts, wedding services), you will spike paid spending during peak seasons regardless of stage. If you are in a highly competitive market where organic rankings are hard to win, you might maintain a higher paid ratio longer.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-creative-brand.webp" alt="Creative branding concept" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative branding concept</figcaption></figure>
 <h2>The Power of Combining Both</h2>
 
 <p>The real magic happens when organic and paid work together, not in isolation.</p>
@@ -7486,6 +7634,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>Step 1: Start with Seed Keywords</h2>
 
 <p>Every keyword research project starts with seed keywords — broad terms that describe your business, products, or services. Think of these as the starting point from which you will branch out into hundreds of more specific keyword ideas.</p>
@@ -7548,6 +7697,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-ai-design-tool.jpg" alt="AI-powered web design tool" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">AI-powered web design tool</figcaption></figure>
 <h2>Step 3: Understand Search Intent (This Is Where Most Beginners Fail)</h2>
 
 <p>Search intent is the reason behind a search query — what the person actually wants when they type something into Google. This is the single most important concept in modern keyword research, and the one most beginners completely ignore.</p>
@@ -7621,6 +7771,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-chupa-chups.webp" alt="Creative social media campaign" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative social media campaign</figcaption></figure>
 <h2>Step 5: Analyse Your Competitors' Keywords</h2>
 
 <p>One of the fastest ways to find keyword opportunities is to look at what your competitors are already ranking for. Why start from scratch when you can learn from what is already working?</p>
@@ -7678,6 +7829,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-story-creative.webp" alt="Creative brand story design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative brand story design</figcaption></figure>
 <h2>Step 7: Map Keywords to Pages (Keyword Mapping)</h2>
 
 <p>Keyword mapping is the process of assigning each target keyword to a specific page on your website. This prevents keyword cannibalisation (multiple pages competing for the same keyword) and ensures every important keyword has a dedicated page targeting it.</p>
@@ -7799,6 +7951,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>Step 1: Create Your Google Business Profile</h2>
 
 <p>If you do not have a profile yet, here is how to create one from scratch.</p>
@@ -7869,6 +8022,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-agency-grid.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Step 3: Add High-Quality Photos (And Keep Adding Them)</h2>
 
 <p>Businesses with more than 100 photos on their Google Business Profile get <strong>520% more calls</strong> and <strong>2,717% more direction requests</strong> than the average business. Photos are not optional — they are one of the most powerful conversion tools on your profile.</p>
@@ -7916,6 +8070,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/product-photography-cocktails.webp" alt="Professional food and beverage photography" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional food and beverage photography</figcaption></figure>
 <h2>Step 5: Build and Manage Reviews</h2>
 
 <p>Reviews are the second most important ranking factor for the Google Maps Pack (after your primary category). But beyond rankings, they are the most powerful trust signal for potential customers. <strong>88% of consumers trust online reviews as much as personal recommendations.</strong></p>
@@ -7953,6 +8108,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/product-photography-food-croissant.webp" alt="Food product photography" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Food product photography</figcaption></figure>
 <h2>Step 7: Track Performance with GBP Insights</h2>
 
 <p>Your Google Business Profile dashboard includes an Insights section that shows you how customers are finding and interacting with your listing.</p>
@@ -8045,6 +8201,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>Step 1: Choose Topics That People Are Actually Searching For</h2>
 
 <p>The number one reason blog posts fail is that they target topics nobody is searching for. Before you write a single word, you need to validate that there is real search demand for your topic.</p>
@@ -8084,6 +8241,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-community-platform.webp" alt="Website platform with SEO optimization" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Website platform with SEO optimization</figcaption></figure>
 <h2>Step 3: Create a Detailed Outline Before Writing</h2>
 
 <p>Never start writing without an outline. An outline ensures your content is logically structured, covers all necessary subtopics, and stays focused on the search intent.</p>
@@ -8122,6 +8280,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Creative agency website design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative agency website design</figcaption></figure>
 <h2>Step 5: Optimise On-Page SEO Elements</h2>
 
 <p>On-page SEO is the process of optimising individual elements of your blog post to help Google understand what the page is about and rank it accordingly.</p>
@@ -8161,6 +8320,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Digital marketing content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing content</figcaption></figure>
 <h2>Step 7: Get the Content Length Right</h2>
 
 <p>There is no magic word count that guarantees rankings. The right length is however long it takes to comprehensively cover the topic — no padding, no fluff, no unnecessary tangents.</p>
@@ -8291,6 +8451,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-protein-fitness.webp" alt="High-converting fitness ad creative" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">High-converting fitness ad creative</figcaption></figure>
 <h2>Step 1: Set Up Your Meta Business Suite and Ad Account</h2>
 
 <p>Before you can run any ads, you need the right accounts set up. Do not skip this step or try to run ads from your personal Facebook profile — you will be severely limited.</p>
@@ -8362,6 +8523,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-legal-education-red.webp" alt="Education industry ad design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Education industry ad design</figcaption></figure>
 <h2>Step 4: Choose the Right Campaign Objective</h2>
 
 <p>Meta recently simplified its campaign objectives into six categories. Choosing the right one is crucial because it determines how the algorithm delivers your ads.</p>
@@ -8457,6 +8619,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>Step 7: Set Your Budget and Schedule</h2>
 
 <h3>How Facebook Ad Budgets Work</h3>
@@ -8520,6 +8683,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-story-creative.webp" alt="Creative brand story design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative brand story design</figcaption></figure>
 <h2>Step 10: Optimise for Better Results</h2>
 
 <p>Once you have data (typically after 7-14 days), start optimising.</p>
@@ -8609,6 +8773,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Modern website design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Modern website design</figcaption></figure>
 <h2>Step 1: Choose Your Email Marketing Platform</h2>
 
 <p>Before you can collect a single email, you need a platform to store and manage your subscribers. Here are the best options for different stages:</p>
@@ -8663,6 +8828,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/portfolio/byt-trucking-web-design.webp" alt="Trucking company website redesign" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Trucking company website redesign</figcaption></figure>
 <h2>Step 3: Build Opt-In Forms That Convert</h2>
 
 <p>Your opt-in form is where the conversion happens. A poorly designed or poorly placed form will kill your email list growth no matter how good your lead magnet is.</p>
@@ -8715,6 +8881,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-real-estate-posts-grid.webp" alt="Social media content grid" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media content grid</figcaption></figure>
 <h2>Step 5: Create Content Upgrades for Your Best Blog Posts</h2>
 
 <p>A content upgrade is a lead magnet that is specifically created for a particular blog post. It converts at 5-15% compared to 1-3% for generic opt-in forms because the offer is perfectly relevant to what the reader is already interested in.</p>
@@ -8749,6 +8916,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-typography.webp" alt="Brand typography and design system" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand typography and design system</figcaption></figure>
 <h2>Step 7: Build a Dedicated Landing Page</h2>
 
 <p>A landing page focused entirely on your lead magnet will convert at 20-50% compared to 1-5% for a form embedded in a blog post. It is a single page with one goal and no distractions.</p>
@@ -8872,6 +9040,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>Before You Start: Get Your Google Review Link</h2>
 
 <p>Every strategy in this guide requires making it as easy as possible for customers to leave a review. That starts with your direct Google review link.</p>
@@ -8932,6 +9101,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-minimal-brand-ad.webp" alt="Email marketing design template" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Email marketing design template</figcaption></figure>
 <h2>Strategy 4: Create a QR Code That Links to Your Review Page</h2>
 
 <p>QR codes bridge the physical-to-digital gap. Create a QR code that links directly to your Google review page using any free QR code generator (QR Code Generator, QRCode Monkey, etc.).</p>
@@ -8977,6 +9147,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-chupa-chups.webp" alt="Creative social media campaign" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative social media campaign</figcaption></figure>
 <h2>Strategy 8: Add a Review Request to Your Website</h2>
 
 <p>Create a dedicated "Leave a Review" or "Customer Feedback" page on your website with direct links to your Google Business Profile review page. Promote this page in your navigation footer, thank-you pages after purchases, and order confirmation emails.</p>
@@ -9030,6 +9201,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-typography.webp" alt="Brand typography and design system" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand typography and design system</figcaption></figure>
 <h2>Strategy 12: Time Your Requests Strategically</h2>
 
 <p>Not all moments are equal. Research and experience show the best times to ask for reviews are:</p>
@@ -9174,6 +9346,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-food-ad.jpg" alt="Restaurant food advertising design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Restaurant food advertising design</figcaption></figure>
 <h2>1. Google Business Profile: Your Most Important Free Marketing Tool</h2>
 
 <p>If you do nothing else from this guide, do this: <strong>optimize your Google Business Profile (GBP).</strong> When someone searches "restaurants near me" or "best pizza in [city]," Google shows the local 3-pack — and that is where 46% of all clicks go.</p>
@@ -9254,6 +9427,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-agency-grid.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>4. Local SEO: Owning Your Neighbourhood on Google</h2>
 
 <p>Local SEO goes beyond your Google Business Profile. It is about making sure every relevant local search leads back to your restaurant.</p>
@@ -9314,6 +9488,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-travel-app.webp" alt="Travel website UI design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Travel website UI design</figcaption></figure>
 <h2>7. Facebook and Instagram Ads for Restaurants</h2>
 
 <p>Paid social media ads allow you to reach thousands of potential customers within a specific radius of your restaurant. This is hyper-targeted marketing that traditional advertising cannot match.</p>
@@ -9391,6 +9566,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/product-photography-jewelry.webp" alt="Jewelry product photography" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Jewelry product photography</figcaption></figure>
 <h2>10. Influencer Marketing for Restaurants</h2>
 
 <p>Food influencers and bloggers can put your restaurant in front of thousands of local food enthusiasts overnight. But you need to do it strategically.</p>
@@ -9474,6 +9650,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-dental-clinic-fly.webp" alt="Healthcare clinic advertising" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Healthcare clinic advertising</figcaption></figure>
 <h2>1. Local SEO: The Foundation of Dental Marketing</h2>
 
 <p>For dentists, <strong>local SEO is everything.</strong> Nobody is traveling 50 km for a teeth cleaning. Your patients are within a 5-15 km radius, and Google knows this. When someone searches for dental services, Google prioritizes local results — the map pack with three listings that appears above the organic results.</p>
@@ -9547,6 +9724,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>3. Dental Website Optimization</h2>
 
 <p>Your website is your digital clinic. When a potential patient lands on it, they should immediately feel confident that you are professional, experienced, and trustworthy. Here is the page structure every dental website needs:</p>
@@ -9604,6 +9782,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-protein-fitness.webp" alt="High-converting fitness ad creative" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">High-converting fitness ad creative</figcaption></figure>
 <h2>5. Content Marketing for Dental Practices</h2>
 
 <p>Blogging is not just for fashion brands. For dentists, educational content serves three purposes: it ranks for informational keywords, it builds patient trust, and it positions you as an authority.</p>
@@ -9659,6 +9838,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-legal-education-red.webp" alt="Education industry ad design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Education industry ad design</figcaption></figure>
 <h2>7. Technical SEO Essentials for Dental Websites</h2>
 
 <p>Technical SEO ensures Google can properly crawl, index, and rank your website. Here are the essentials:</p>
@@ -9760,6 +9940,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-real-estate-posts-grid.webp" alt="Real estate social media marketing" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Real estate social media marketing</figcaption></figure>
 <h2>1. Listing SEO: Making Your Properties Findable on Google</h2>
 
 <p>Every property listing is an SEO opportunity. When someone searches "2 BHK flat for sale in Sector 22 Chandigarh," your listing should appear. Here is how to make that happen.</p>
@@ -9805,6 +9986,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-protein-fitness.webp" alt="High-converting fitness ad creative" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">High-converting fitness ad creative</figcaption></figure>
 <h2>3. Social Media Marketing for Real Estate</h2>
 
 <p>Social media is where you build your personal brand as an agent and showcase properties to an engaged audience. The platforms that matter most for real estate are Instagram, Facebook, YouTube, and LinkedIn.</p>
@@ -9866,6 +10048,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>5. Lead Generation Funnels</h2>
 
 <p>A lead generation funnel takes a cold prospect and warms them up until they are ready to talk to you. For real estate, funnels work exceptionally well because the buying cycle is long — often 3-12 months.</p>
@@ -9899,6 +10082,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Brand identity design showcase" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand identity design showcase</figcaption></figure>
 <h2>7. Content Marketing: Becoming the Local Market Expert</h2>
 
 <p>The agent who creates the most helpful content about their local market becomes the default choice. Content marketing is a long game with compounding returns.</p>
@@ -9979,6 +10163,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>1. Legal SEO: Ranking for High-Value Case Keywords</h2>
 
 <p>Legal keywords are among the most competitive — and most valuable — in all of search marketing. Ranking organically for these keywords saves you lakhs every year while generating a steady stream of leads.</p>
@@ -10013,6 +10198,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-protein-fitness.webp" alt="High-converting fitness ad creative" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">High-converting fitness ad creative</figcaption></figure>
 <h2>3. Ethical Considerations in Legal Marketing</h2>
 
 <p>The Bar Council of India has rules about lawyer advertising. Before implementing any marketing strategy, understand these boundaries.</p>
@@ -10062,6 +10248,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-legal-education-red.webp" alt="Education industry ad design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Education industry ad design</figcaption></figure>
 <h2>5. Google Ads for Law Firms</h2>
 
 <p>Google Ads lets you appear at the top of search results for high-intent keywords immediately.</p>
@@ -10103,6 +10290,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>7. Social Media for Law Firms</h2>
 
 <p>Social media for law firms is about authority building. LinkedIn is the most important platform.</p>
@@ -10195,6 +10383,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>Strategy 1: Transformation Content (Your Most Powerful Marketing Asset)</h2>
 
 <p>Nothing sells gym memberships like visible results. <strong>Before-and-after transformation posts consistently get 3-5x more engagement</strong> than any other content type in the fitness industry.</p>
@@ -10263,6 +10452,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-agency-grid.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Strategy 5: Facebook and Instagram Ads</h2>
 
 <p>Social media ads are the fastest way to fill your gym with new members.</p>
@@ -10323,6 +10513,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-mockup.webp" alt="Instagram marketing mockup" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram marketing mockup</figcaption></figure>
 <h2>Strategy 9: Email Marketing for Retention</h2>
 
 <p>Retaining existing members is 5-7x cheaper than acquiring new ones.</p>
@@ -10354,6 +10545,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>Strategy 13: WhatsApp Engagement</h2>
 
 <p>Create WhatsApp groups for different member segments. Share daily motivation, class reminders, and exclusive offers. WhatsApp has 98% open rates — nothing else comes close.</p>
@@ -10430,6 +10622,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-web3-platform.jpg" alt="E-commerce platform design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">E-commerce platform design</figcaption></figure>
 <h2>1. Product SEO: Free Traffic That Compounds</h2>
 
 <p>SEO is the most cost-effective traffic source for e-commerce. Unlike ads where you pay per click, organic traffic is free and compounds over time.</p>
@@ -10484,6 +10677,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-community-platform.webp" alt="Website platform with SEO optimization" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Website platform with SEO optimization</figcaption></figure>
 <h2>3. Retargeting Ads: Bringing Visitors Back</h2>
 
 <p>Only 2-3% of first-time visitors buy. Retargeting brings the other 97% back.</p>
@@ -10503,6 +10697,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-chupa-chups.webp" alt="Creative social media campaign" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative social media campaign</figcaption></figure>
 <h2>5. Influencer Partnerships</h2>
 
 <p>Micro-influencers (5K-50K followers) consistently outperform big names for e-commerce with 4-7% engagement rates.</p>
@@ -10529,6 +10724,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-showcase.webp" alt="Professional brand design portfolio" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design portfolio</figcaption></figure>
 <h2>7. Paid Acquisition: Facebook, Instagram, and Google Ads</h2>
 
 <h3>Facebook/Instagram Ads Funnel</h3>
@@ -10631,6 +10827,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>1. Content Marketing: The SaaS Growth Engine</h2>
 
 <p>Content marketing is the number one growth channel for SaaS companies. It generates organic traffic that compounds over time and builds authority in your niche.</p>
@@ -10694,6 +10891,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-protein-fitness.webp" alt="High-converting ad creative" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">High-converting ad creative</figcaption></figure>
 <h2>3. Free Trial Optimization</h2>
 
 <p>Your free trial is your most important conversion event. The goal: get users to their "aha moment" as fast as possible.</p>
@@ -10744,6 +10942,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-chupa-chups.webp" alt="Creative social media campaign" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative social media campaign</figcaption></figure>
 <h2>5. SEO for SaaS Companies</h2>
 
 <h3>SaaS Keyword Categories</h3>
@@ -10785,6 +10984,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-story-creative.webp" alt="Creative brand story design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative brand story design</figcaption></figure>
 <h2>7. Reducing Churn: The Retention Playbook</h2>
 
 <p>A 5% monthly churn means losing nearly half your customers yearly. Reducing from 5% to 3% can double revenue over 3 years.</p>
@@ -10888,6 +11088,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-dental-clinic-fly.webp" alt="Healthcare clinic advertising" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Healthcare clinic advertising</figcaption></figure>
 <h2>1. Compliance and Privacy in Healthcare Marketing</h2>
 
 <p><strong>Patient privacy is not optional.</strong> Every marketing activity must protect patient information.</p>
@@ -10940,6 +11141,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Creative agency website design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative agency website design</figcaption></figure>
 <h2>3. Patient Education Content</h2>
 
 <p>Patient education is the most ethical and effective healthcare marketing. You help people understand their health — and naturally build trust.</p>
@@ -10993,6 +11195,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-mockup.webp" alt="Instagram marketing mockup" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram marketing mockup</figcaption></figure>
 <h2>5. Google Ads for Healthcare</h2>
 
 <table>
@@ -11033,6 +11236,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Brand identity design showcase" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand identity design showcase</figcaption></figure>
 <h2>7. Social Media for Healthcare</h2>
 
 <p>Focus on education and trust-building across Facebook, Instagram, YouTube, and LinkedIn.</p>
@@ -11123,6 +11327,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>The Five Pillars of Small Business Digital Marketing</h2>
 
 <p>Before you spend a single rupee on marketing, you need to understand the five channels that actually move the needle for small businesses. Each one works differently, costs differently, and delivers results on a different timeline.</p>
@@ -11179,6 +11384,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-roofing-company.webp" alt="Local business ad campaign example" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Local business ad campaign example</figcaption></figure>
 <h2>Google Ads: Turning Budget Into Leads on Demand</h2>
 
 <p>If SEO is a marathon, <a href="https://townmedialabs.com/services/google-ads">Google Ads</a> is a sprint. You can go from zero to appearing at the top of Google search results <em>today</em>. The catch? You pay for every click, and costs add up quickly if you don't know what you're doing.</p>
@@ -11253,6 +11459,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-mockup.webp" alt="Instagram marketing mockup" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram marketing mockup</figcaption></figure>
 <h2>Email Marketing: The Channel Everyone Ignores (And Shouldn't)</h2>
 
 <p>Email marketing has the highest ROI of any digital marketing channel — <strong>₹36 returned for every ₹1 spent</strong>, according to Litmus research. Yet most small businesses either don't do it at all, or do it so badly (blasting their entire list with "SALE SALE SALE" every week) that they've trained their subscribers to ignore them.</p>
@@ -11307,6 +11514,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-clean-minimal-ad.webp" alt="Clean email campaign design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Clean email campaign design</figcaption></figure>
 <h2>Budget Allocation: Where to Spend Your First ₹50,000</h2>
 
 <p>This is the question every small business owner asks us: "I have a limited budget. Where should I spend it?" Here's our honest recommendation based on different starting budgets:</p>
@@ -11467,6 +11675,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Brand identity design showcase" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand identity design showcase</figcaption></figure>
 <h2>Understanding What You Actually Need Before You Start Looking</h2>
 
 <p>Before you Google "best branding agency," stop. The most common reason branding projects fail isn't bad design — it's unclear expectations. You need to know what you want before you can evaluate whether an agency can deliver it.</p>
@@ -11544,6 +11753,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-story-creative.webp" alt="Creative brand story design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative brand story design</figcaption></figure>
 <h2>Understanding Agency Pricing Models</h2>
 
 <p>Branding agency pricing is notoriously opaque. Some agencies charge ₹10,000 for a logo. Others charge ₹10,00,000. Both might claim to be "branding agencies." The difference is in what you're actually buying.</p>
@@ -11596,6 +11806,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/packaging-design-minimalist-cans.webp" alt="Minimalist packaging design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Minimalist packaging design</figcaption></figure>
 <h2>The Right Questions to Ask During Your Agency Evaluation</h2>
 
 <p>When you're down to your shortlist of 3–5 agencies, schedule discovery calls. Here are the questions that separate the real agencies from the pretenders:</p>
@@ -11653,6 +11864,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Digital marketing content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing content</figcaption></figure>
 <h2>The Selection Matrix: Scoring Your Shortlisted Agencies</h2>
 
 <p>Once you've received proposals, use a weighted scoring system to make an objective decision. Here's the framework we recommend:</p>
@@ -11780,6 +11992,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>How SEO and Google Ads Actually Work (In Plain Language)</h2>
 
 <p>Before we compare them, let's make sure we're on the same page about what each one does.</p>
@@ -11825,6 +12038,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-roofing-company.webp" alt="Local business ad campaign example" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Local business ad campaign example</figcaption></figure>
 <h2>The Real Cost of SEO vs Google Ads Over 12 Months</h2>
 
 <p>This is where the conversation gets interesting. Let's model what a realistic 12-month investment looks like for a small-to-medium business in India:</p>
@@ -11869,6 +12083,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-mockup.webp" alt="Instagram marketing mockup" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram marketing mockup</figcaption></figure>
 <h2>When Google Ads Should Be Your First Priority</h2>
 
 <p>Google Ads makes more sense as your starting channel in these situations:</p>
@@ -11914,6 +12129,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-showcase.webp" alt="Professional brand design portfolio" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design portfolio</figcaption></figure>
 <h2>How SEO and Google Ads Data Feed Each Other</h2>
 
 <p>This is the part most agencies don't tell you — and it's arguably the biggest reason to eventually do both. The data from each channel makes the other channel significantly better.</p>
@@ -12049,6 +12265,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-web3-platform.jpg" alt="E-commerce platform design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">E-commerce platform design</figcaption></figure>
 <h2>Website Cost by Type — The Full Breakdown</h2>
 
 <p>Every website falls into one of these categories. Find yours, and you'll have a realistic budget range within 30 seconds.</p>
@@ -12070,6 +12287,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <p>These are real market rates as of 2025. If someone quotes significantly below these ranges, ask yourself what corners they're cutting.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-travel-app.webp" alt="Travel website UI design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Travel website UI design</figcaption></figure>
 <h2>What Actually Determines the Cost?</h2>
 
 <p>The price gap between a ₹15,000 website and a ₹5,00,000 website isn't random. Here's exactly what drives the cost up or down:</p>
@@ -12122,6 +12340,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-fitness-billboard.webp" alt="Billboard graphic design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Billboard graphic design</figcaption></figure>
 <h2>Freelancer vs Agency vs DIY — An Honest Comparison</h2>
 
 <p>This is where most business owners get confused. Each option has legitimate pros and cons — and the right choice depends entirely on your situation.</p>
@@ -12142,6 +12361,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-showcase.webp" alt="Professional brand design portfolio" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design portfolio</figcaption></figure>
 <h2>Hidden Costs Nobody Tells You About</h2>
 
 <p>The development quote is never the full picture. Here are the costs that catch business owners off guard:</p>
@@ -12222,6 +12442,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
 <h2>How the Instagram Reels Algorithm Actually Works in 2025</h2>
 
 <p>Understanding the algorithm isn't about gaming the system — it's about creating content the algorithm <em>wants</em> to distribute. Here's what Instagram has publicly confirmed, plus what we've observed across hundreds of accounts:</p>
@@ -12248,6 +12469,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-chupa-chups.webp" alt="Creative social media campaign" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative social media campaign</figcaption></figure>
 <h2>7 Reel Content Formats That Actually Drive Business</h2>
 
 <p>Not all Reels are created equal. Here are the formats that consistently perform for business accounts:</p>
@@ -12275,6 +12497,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/product-photography-cinematic-portrait.webp" alt="Cinematic video production" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Cinematic video production</figcaption></figure>
 <h2>Production Tips — You Don't Need Expensive Equipment</h2>
 
 <p>We've seen Reels shot on an iPhone 12 outperform ones shot on a Sony A7III. <strong>Content beats production quality every time.</strong> That said, these basics will make a big difference:</p>
@@ -12305,6 +12528,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-dark-story-ad.webp" alt="Video content creative" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Video content creative</figcaption></figure>
 <h2>Hashtag Strategy for Reels in 2025</h2>
 
 <p>The hashtag game has changed. Instagram now uses AI to understand your content — hashtags are less important for discovery than they used to be, but still useful. Here's the current best practice:</p>
@@ -12400,6 +12624,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>Mistake #1: Using Broad Match Keywords by Default</h2>
 
 <p>This is the single biggest budget drain in Google Ads. <strong>Broad match lets Google show your ad for any search it considers "related" to your keyword</strong> — which is often hilariously unrelated.</p>
@@ -12475,6 +12700,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-agency-grid.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Mistake #5: Sending All Traffic to the Homepage</h2>
 
 <p>Your homepage is designed to introduce your business to everyone. <strong>A Google Ads landing page needs to speak directly to one specific audience about one specific problem.</strong> These are fundamentally different jobs.</p>
@@ -12537,6 +12763,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-roofing-company.webp" alt="Local business ad campaign example" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Local business ad campaign example</figcaption></figure>
 <h2>Mistake #9: Never Testing Ad Copy</h2>
 
 <p>Running a single ad per ad group is like placing one bet and hoping for the best. <strong>You should always have 3-4 active ads per ad group</strong> — including at least one Responsive Search Ad with 10+ headlines and 4 descriptions.</p>
@@ -12573,6 +12800,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-durex-football.webp" alt="Creative advertising campaign" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative advertising campaign</figcaption></figure>
 <h2>Mistake #13: No Remarketing</h2>
 
 <p>Only 2-3% of website visitors convert on their first visit. <strong>Remarketing shows ads to people who already visited your site</strong>, reminding them to come back. It's the highest-ROI campaign type in Google Ads — typically 3-5x the conversion rate of prospecting campaigns — yet most small businesses don't set it up.</p>
@@ -12651,6 +12879,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Brand identity design showcase" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand identity design showcase</figcaption></figure>
 <h2>What Professional Branding Actually Includes (And Why DIY Misses Most of It)</h2>
 
 <p>Most people think branding = logo. That's like thinking a house = front door. A logo is one small piece of a complete brand identity. Here's what professional branding actually involves:</p>
@@ -12686,6 +12915,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-creative-brand.webp" alt="Creative branding concept" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative branding concept</figcaption></figure>
 <h2>The Real Cost Comparison — DIY vs Freelancer vs Agency</h2>
 
 <table>
@@ -12705,6 +12935,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-clean-minimal-ad.webp" alt="Clean minimal graphic design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Clean minimal graphic design</figcaption></figure>
 <h2>The Psychology of Brand Perception — Why First Impressions Are Everything</h2>
 
 <p>Research from Stanford's Persuasive Technology Lab found that <strong>75% of users judge a company's credibility based on their visual design.</strong> Not their product. Not their service. Their <em>design</em>.</p>
@@ -12728,6 +12959,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-creative-photography.webp" alt="Creative photography design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative photography design</figcaption></figure>
 <h2>The Long-Term ROI of Professional Branding</h2>
 
 <p>Professional branding isn't an expense — it's the highest-leverage investment a growing business can make. Here's how it compounds over time:</p>
@@ -12802,6 +13034,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>Google Business Profile — The Foundation of Local SEO</h2>
 
 <p>Your Google Business Profile (GBP, formerly Google My Business) is the single most important factor in local search rankings. <strong>A fully optimised GBP is worth more than any other local SEO tactic combined.</strong></p>
@@ -12838,6 +13071,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-community-platform.webp" alt="Website platform with SEO optimization" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Website platform with SEO optimization</figcaption></figure>
 <h2>Local Citations — Building Your Digital Footprint Across India</h2>
 
 <p>A citation is any online mention of your business name, address, and phone number (NAP). Citations on established directories signal to Google that your business is real and trusted.</p>
@@ -12870,6 +13104,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Creative agency website design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative agency website design</figcaption></figure>
 <h2>Review Strategy — Quality, Quantity, and Velocity</h2>
 
 <p>Reviews are the second most important local ranking factor after your GBP optimization. But it's not just about having reviews — it's about the <strong>right kind of reviews at the right pace.</strong></p>
@@ -12896,6 +13131,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Digital marketing content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing content</figcaption></figure>
 <h2>Local Schema Markup — Technical Edge Most Competitors Miss</h2>
 
 <p>Schema markup is structured data that helps Google understand your business information. <strong>LocalBusiness schema tells Google exactly what your business is, where it's located, what hours you're open, and what you offer.</strong></p>
@@ -12993,6 +13229,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-web3-platform.jpg" alt="E-commerce platform design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">E-commerce platform design</figcaption></figure>
 <h2>Product Title Tags — The Most Underrated Ranking Factor</h2>
 
 <p>Your product title tag is what appears in Google search results. Most stores use the product name as the title tag and call it done. That's leaving massive search traffic on the table.</p>
@@ -13041,6 +13278,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/product-photography-luxury-skincare.webp" alt="Luxury product e-commerce photography" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Luxury product e-commerce photography</figcaption></figure>
 <h2>Product Schema Markup — Get Rich Results in Search</h2>
 
 <p>Product schema tells Google exactly what your product is, what it costs, whether it's in stock, and what customers rate it. <strong>Pages with Product schema can display star ratings, pricing, and availability directly in search results</strong> — dramatically increasing click-through rates.</p>
@@ -13084,6 +13322,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-community-platform.webp" alt="Website platform with SEO optimization" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Website platform with SEO optimization</figcaption></figure>
 <h2>URL Structure — Clean, Flat, and Keyword-Rich</h2>
 
 <p>The ideal e-commerce URL structure is simple:</p>
@@ -13122,6 +13361,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Professional brand design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design</figcaption></figure>
 <h2>Handling Out-of-Stock Products</h2>
 
 <p>This is where most stores make critical SEO mistakes. If a product goes out of stock, <strong>do NOT delete the page or return a 404.</strong> That page has backlinks, search rankings, and authority. Deleting it throws all of that away.</p>
@@ -13202,6 +13442,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
 <h2>Step 1: Define Your Content Pillars</h2>
 
 <p>Content pillars are the 4-5 core themes everything you post falls under. They ensure variety while keeping everything on-brand. <strong>Without pillars, you either post the same type of content repeatedly or post random content with no cohesion.</strong></p>
@@ -13226,6 +13467,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-real-estate-posts-grid.webp" alt="Social media content grid" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media content grid</figcaption></figure>
 <h2>Step 2: Set Platform-Specific Posting Frequency</h2>
 
 <p>Different platforms have different optimal frequencies. Posting too little means you lose visibility. Posting too much means you dilute quality and burn out.</p>
@@ -13250,6 +13492,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>Step 3: The Batch Creation Workflow</h2>
 
 <p>This is where the magic happens. Instead of creating one post at a time (which takes forever), <strong>batch your creation into dedicated blocks:</strong></p>
@@ -13268,6 +13511,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Step 4: The 30-Day Content Calendar Template</h2>
 
 <p>Here's a ready-to-use monthly template. Adapt it to your content pillars and posting frequency.</p>
@@ -13387,6 +13631,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-protein-fitness.webp" alt="High-converting fitness ad creative" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">High-converting fitness ad creative</figcaption></figure>
 <h2>Strategy #1: LinkedIn Outreach (The Non-Spammy Way)</h2>
 
 <p>LinkedIn has 100+ million users in India. Your potential clients are on there. But <strong>the "Hi, I'd like to offer you our services" cold message has a 0.1% response rate</strong> because everyone does it and nobody likes it.</p>
@@ -13446,6 +13691,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-finance-hero.webp" alt="Lead generation landing page" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Lead generation landing page</figcaption></figure>
 <h2>Strategy #4: Webinars and Virtual Workshops</h2>
 
 <p>A webinar is the closest thing to a sales meeting that prospects will voluntarily attend. <strong>A well-run 45-minute webinar can generate 50-200 qualified leads per session</strong> and position you as the obvious authority in your space.</p>
@@ -13484,6 +13730,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-real-estate-posts-grid.webp" alt="Social media content grid" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media content grid</figcaption></figure>
 <h2>Strategy #7: Strategic Partnerships</h2>
 
 <p>Find businesses that serve the same audience but aren't competitors. A web development agency partners with a branding agency. An accounting firm partners with a legal firm. <strong>Cross-refer leads, co-create content, co-host webinars.</strong></p>
@@ -13521,6 +13768,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-typography.webp" alt="Brand typography and design system" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand typography and design system</figcaption></figure>
 <h2>Strategy #10: Landing Page Optimization</h2>
 
 <p>You might be generating enough traffic but converting too little of it. <strong>Most B2B landing pages convert at 2-3%. The best convert at 10-15%.</strong> The difference is often small changes.</p>
@@ -13595,6 +13843,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Modern website design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Modern website design</figcaption></figure>
 <h2>Understanding Core Web Vitals (2025 Update)</h2>
 
 <p>Core Web Vitals are Google's specific metrics for measuring user experience. As of 2024, there are three core metrics:</p>
@@ -13648,6 +13897,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-community-platform.webp" alt="Community platform website design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Community platform website design</figcaption></figure>
 <h2>Priority 2: Eliminate Render-Blocking Resources</h2>
 
 <p>When a browser loads your page, it stops rendering whenever it encounters CSS or JavaScript files that must be downloaded and processed first. <strong>These are "render-blocking resources" and they're the primary cause of slow LCP.</strong></p>
@@ -13686,6 +13936,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-travel-app.webp" alt="Travel website UI design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Travel website UI design</figcaption></figure>
 <h2>Priority 4: Font Loading Optimization</h2>
 
 <p>Custom fonts are one of the most overlooked performance killers. A single Google Font can add 100-300KB and cause a visible "flash of unstyled text" (FOUT) or "flash of invisible text" (FOIT).</p>
@@ -13715,6 +13966,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/portfolio/byt-trucking-web-design.webp" alt="Trucking company website redesign" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Trucking company website redesign</figcaption></figure>
 <h2>Priority 6: Fixing INP (Interaction to Next Paint)</h2>
 
 <p>INP is the newest Core Web Vital and the hardest to optimise. It measures how quickly your page responds to user interactions — clicks, taps, and keyboard input.</p>
@@ -13791,6 +14043,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Brand identity design showcase" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand identity design showcase</figcaption></figure>
 <h2>Step 1: Define Your Brand Foundation</h2>
 
 <p>Before you touch anything visual, you need to answer the fundamental questions that everything else is built on.</p>
@@ -13843,6 +14096,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-creative-brand.webp" alt="Creative branding concept" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative branding concept</figcaption></figure>
 <h2>Step 3: Competitor Analysis — Find Your Visual White Space</h2>
 
 <p>Before designing anything, map out how your competitors present themselves visually. <strong>The goal isn't to copy what works — it's to find what's missing.</strong></p>
@@ -13881,6 +14135,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-clean-minimal-ad.webp" alt="Clean minimal graphic design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Clean minimal graphic design</figcaption></figure>
 <h2>Step 5: Colour Psychology — Choose Colours That Communicate</h2>
 
 <p>Colour is the most emotional element of your brand. <strong>People form an opinion about a brand within 90 seconds, and up to 90% of that assessment is based on colour alone</strong> (University of Winnipeg research).</p>
@@ -13926,6 +14181,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-creative-photography.webp" alt="Creative photography design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative photography design</figcaption></figure>
 <h2>Step 7: Brand Voice and Tone — How You Sound</h2>
 
 <p>Your visual identity is how you look. Your brand voice is how you sound. <strong>Every word your brand writes — website copy, social media posts, emails, customer support messages — should sound like it's coming from the same person.</strong></p>
@@ -14018,6 +14274,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
 <h2>1. Hyper-Personalization Powered by AI</h2>
 
 <p>Segmenting your email list by location and industry in 2025? That's baseline now. In 2026, if you're not personalizing at the individual level, you're leaving 40-60% of conversions on the table.</p>
@@ -14034,6 +14291,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>3. Predictive Analytics for Marketing ROI</h2>
 
 <p>Guessing which campaigns will perform is over. In 2026, AI is predicting marketing outcomes before you launch. AI analyzes customer data to predict lifetime value, which customers are about to leave, and campaign performance forecasting.</p>
@@ -14046,6 +14304,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-typography.webp" alt="Brand typography and design system" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand typography and design system</figcaption></figure>
 <h2>5. AI Video Marketing</h2>
 
 <p>Video content is dominating 2026, and AI is making it affordable. You write a script. AI generates a video with realistic avatars, voices, and background footage in minutes. Use cases include product demos, personalized video messages to leads, landing page videos, social shorts, and customer testimonials.</p>
@@ -14058,6 +14317,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/packaging-design-minimalist-cans.webp" alt="Minimalist packaging design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Minimalist packaging design</figcaption></figure>
 <h2>7. AI-Powered Customer Data & Privacy Compliance</h2>
 
 <p>As third-party cookies die, AI analyzes your own customer database to find patterns you'd never see manually. This lets you personalize without relying on third-party tracking. AI tools help you auto-comply with GDPR, CCPA, and India's data rules.</p>

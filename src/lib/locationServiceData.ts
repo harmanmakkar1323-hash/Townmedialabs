@@ -98,6 +98,18 @@ const OTHER_SERVICE_SLUGS = [
   "branding-packaging",
   "ai-influencer-management",
   "music-release",
+  "content-writing",
+  "content-marketing",
+  "email-marketing",
+  "influencer-marketing",
+  "ppc-management",
+  "online-reputation-management",
+  "conversion-rate-optimization",
+  "ecommerce-marketing",
+  "gmb-listing",
+  "technical-seo",
+  "link-building",
+  "meta-ads",
 ];
 
 const TOP_CITY_SLUGS = [

@@ -69,10 +69,13 @@ export function generateLocalBusinessSchema(params: {
     url: params.url,
     telephone: DEFAULT_PROVIDER.telephone,
     address: DEFAULT_PROVIDER.address,
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: String(coords.latitude),
-      longitude: String(coords.longitude),
+    location: {
+      "@type": "Place",
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: coords.latitude,
+        longitude: coords.longitude,
+      },
     },
     openingHoursSpecification: [
       {

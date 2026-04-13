@@ -95,7 +95,14 @@
       "Bash(node /tmp/fix-locale.mjs)",
       "Bash(node /tmp/fix-robots.mjs)",
       "Bash(git -C /Users/ramanmakkar/Desktop/tml-nextjs remote -v)",
-      "Bash(git -C /Users/ramanmakkar/Desktop/tml-nextjs branch --show-current)"
+      "Bash(git -C /Users/ramanmakkar/Desktop/tml-nextjs branch --show-current)",
+      "Bash(git credential-osxkeychain:*)",
+      "Bash(git config:*)",
+      "Bash(node /tmp/inject-blog-images.mjs)",
+      "Bash(sed -i '' \"s|const ARTICLES_PATH = path.join\\(ROOT, 'src/data/blogArticles.ts'\\);|const ARTICLES_PATH = path.join\\(ROOT, 'src/data/newBlogPosts.ts'\\);|\" /tmp/inject-blog-images2.mjs)",
+      "Bash(node /tmp/inject-blog-images2.mjs)",
+      "Bash(wait)",
+      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/app/contact*/)"
     ],
     "deny": [],
     "additionalDirectories": [

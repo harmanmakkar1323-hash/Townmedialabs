@@ -481,81 +481,81 @@ function generateLocalContent(
   const lm1 = location.landmarks[1] || location.state;
   const sn = serviceName.toLowerCase();
 
-  // Paragraph 1: City's market (10+ options)
+  // Paragraph 1: City's market (10+ options) — short sentences, simple words
   const p1Options = [
-    `${location.name} is ${location.description}, and its economy is powered by ${industries4} sectors. Businesses across ${location.region} are increasingly investing in digital strategies to stay competitive. TML helps ${location.name} businesses cut through the noise with ${sn} that delivers measurable results.`,
-    `The ${location.name} market presents unique opportunities for businesses willing to invest in professional ${sn}. As ${location.description}, the city's ${industries3} sectors are growing rapidly, and digital-first strategies are no longer optional — they are essential for any business that wants to compete.`,
-    `From the commercial hubs near ${lm0} to the business districts around ${lm1}, ${location.name} is a dynamic market with fierce competition. Businesses here need ${sn} that does more than look good on paper — they need strategies that produce real, trackable results in their local market.`,
-    `${location.name} has rapidly evolved into a key market within ${location.state}. Its ${industries3} sectors attract both established enterprises and ambitious startups, creating a competitive environment where professional ${sn} is the difference between growth and stagnation.`,
-    `The business landscape in ${location.name} is shaped by its position as ${location.description}. Local companies across ${industries3} are competing for attention in an increasingly digital marketplace, making expert ${sn} not just valuable but essential.`,
-    `${location.name}'s economy is built on its ${industries4} sectors, each contributing to a vibrant commercial ecosystem. For businesses near ${lm0} or anywhere in ${location.region}, the digital opportunity is immense — but only for those with the right ${sn} strategy.`,
-    `As one of ${location.state}'s key commercial centres, ${location.name} offers tremendous growth potential for businesses that invest in professional ${sn}. The city's ${topIndustry} and ${secondIndustry} sectors alone represent billions in economic activity — and the businesses winning are the ones with strong digital presence.`,
-    `${location.name} sits at the heart of ${location.region}, making it a strategic market for businesses in ${industries3} and beyond. The city's diverse economy means opportunities abound, but standing out requires ${sn} that is both data-driven and locally informed.`,
-    `Competition in ${location.name}'s ${topIndustry} sector has intensified dramatically in recent years. Businesses near ${lm0} and across ${location.state} are fighting for digital visibility, and only those with expert ${sn} strategies are consistently winning new customers.`,
-    `The digital landscape in ${location.name} mirrors its dynamic real-world economy. With ${industries4} all vying for online attention, the businesses that invest in professional ${sn} gain a compounding advantage over competitors still relying on word-of-mouth alone.`,
+    `${location.name} is ${location.description}. Its economy runs on ${industries4}. Businesses across ${location.region} are going digital fast. TML helps ${location.name} brands stand out with ${sn} that gets real results.`,
+    `The ${location.name} market is full of opportunity. The city's ${industries3} sectors are growing fast. Digital-first strategies are no longer optional. They are essential for any business that wants to compete.`,
+    `From ${lm0} to ${lm1}, ${location.name} is a busy, competitive market. Businesses here need ${sn} that works in the real world. Not just good on paper — strategies that bring trackable results.`,
+    `${location.name} has become a key market in ${location.state}. Its ${industries3} sectors attract startups and big companies alike. In this environment, good ${sn} is what separates growth from stagnation.`,
+    `${location.name} is known as ${location.description}. Local companies in ${industries3} are all competing for attention online. Expert ${sn} is no longer a luxury. It is a necessity.`,
+    `${location.name}'s economy is powered by ${industries4}. For businesses near ${lm0} or across ${location.region}, the digital opportunity is huge. But only if you have the right ${sn} strategy.`,
+    `${location.name} is one of ${location.state}'s biggest commercial hubs. The ${topIndustry} and ${secondIndustry} sectors alone drive billions in activity. The businesses winning? The ones with strong digital presence.`,
+    `${location.name} sits at the heart of ${location.region}. The economy is diverse. Opportunities are everywhere. But standing out takes ${sn} that is data-driven and locally informed.`,
+    `Competition in ${location.name}'s ${topIndustry} sector is fierce. Businesses near ${lm0} and across ${location.state} fight for visibility every day. Only those with expert ${sn} win consistently.`,
+    `${location.name}'s digital landscape mirrors its real-world energy. ${industries4} — all competing online. Businesses that invest in ${sn} gain an edge that compounds over time.`,
   ];
 
-  // Paragraph 2: Industries + how service helps (10+ options, with industry crossover)
+  // Paragraph 2: Industries + how service helps (10+ options) — short, scannable
   const p2Options = [
-    `TML has deep experience serving ${location.name}'s ${industries3} businesses. Each of these industries has distinct audience behaviours, competitive landscapes, and marketing cycles. Our ${sn} strategies are built around these realities — not generic templates — which is why ${location.name} businesses see consistent, measurable growth when they work with us.`,
-    `Whether you are in ${industries3} or any other ${location.name} industry, our ${sn} approach is grounded in data and local market intelligence. We study your competitors, map your audience's behaviour, and build campaigns that position your brand exactly where it needs to be in the ${location.state} market.`,
-    `${location.name}'s ${industries4} sectors each demand a different ${sn} playbook. A ${topIndustry} company near ${lm0} has different needs than a ${thirdIndustry} startup across town. TML builds custom strategies for each, drawing on our cross-industry experience.`,
-    `The intersection of ${sn} and ${location.name}'s ${topIndustry} sector is where we deliver our strongest results. We understand how ${topIndustry} businesses in ${location.state} attract customers, the keywords they need to rank for, and the digital channels that drive the most valuable leads.`,
-    `For ${secondIndustry} businesses in ${location.name}, ${sn} is not a nice-to-have — it is how you compete. Our team has delivered campaigns for ${secondIndustry} companies across ${location.region}, and we bring that sector-specific intelligence to every engagement.`,
-    `${location.name}'s ${topIndustry} companies face unique ${sn} challenges. From seasonal demand patterns to local competition dynamics, we have seen it all and built strategies that work. Our cross-industry experience in ${industries3} means we bring best practices from every sector.`,
-    `We have helped ${topIndustry} businesses near ${lm0} and ${secondIndustry} companies across ${location.state} grow with targeted ${sn}. Each industry requires a different approach — different keywords, different content, different conversion paths — and we build for each one.`,
-    `What makes our ${sn} work for ${location.name}'s ${industries3} businesses is specificity. We do not run the same playbook for a ${topIndustry} brand as we do for a ${thirdIndustry} company. Every strategy starts with deep research into your industry's competitive dynamics in ${location.state}.`,
-    `The ${topIndustry} and ${secondIndustry} sectors in ${location.name} are evolving fast, and so are their digital marketing needs. TML stays ahead of the curve by continuously analysing ${location.state} market data, competitor strategies, and emerging ${sn} opportunities specific to each industry.`,
-    `Our ${sn} campaigns for ${location.name} businesses are informed by real-world results across ${industries3} and more. We know what works for ${topIndustry} companies because we have done it — repeatedly, measurably, and with full transparency on results.`,
-    `${location.name}'s ${topIndustry} sector presents specific ${sn} opportunities that most agencies miss. Our team identifies the high-intent search queries, content gaps, and competitive weaknesses that let your business capture market share faster than traditional approaches.`,
+    `TML works with ${location.name}'s ${industries3} businesses every day. Each industry is different. Different audiences, different competition, different timing. We build ${sn} strategies around these realities — not templates.`,
+    `In ${industries3} or any other ${location.name} industry — our ${sn} starts with data. We study your competitors. We map your audience. Then we build campaigns that put your brand where it needs to be.`,
+    `${location.name}'s ${industries4} sectors each need a different ${sn} playbook. A ${topIndustry} company near ${lm0} has different needs than a ${thirdIndustry} startup. TML builds custom strategies for each.`,
+    `${sn} and ${location.name}'s ${topIndustry} sector — that is where we shine. We know the keywords, the channels, and the conversion paths that work for ${topIndustry} businesses in ${location.state}.`,
+    `For ${secondIndustry} businesses in ${location.name}, ${sn} is how you compete. Our team has delivered results for ${secondIndustry} companies across ${location.region}. We bring that experience to every project.`,
+    `${location.name}'s ${topIndustry} companies face unique ${sn} challenges. Seasonal demand. Local competition. We have seen it all. Our experience across ${industries3} means we bring best practices from every sector.`,
+    `We have helped ${topIndustry} businesses near ${lm0} and ${secondIndustry} companies across ${location.state} grow. Each industry needs a different approach. Different keywords. Different content. We build for each one.`,
+    `What makes our ${sn} work? Specificity. We do not use the same playbook for ${topIndustry} and ${thirdIndustry}. Every strategy starts with deep research into your industry's competitive landscape in ${location.state}.`,
+    `${topIndustry} and ${secondIndustry} in ${location.name} are changing fast. So are their marketing needs. TML stays ahead by tracking ${location.state} market data, competitor moves, and new ${sn} opportunities.`,
+    `Our ${sn} campaigns for ${location.name} are backed by real results across ${industries3}. We know what works for ${topIndustry} companies. We have done it — repeatedly and with full transparency.`,
+    `Most agencies miss the ${sn} opportunities in ${location.name}'s ${topIndustry} sector. Our team finds the high-intent searches, the content gaps, and the weaknesses in your competitors' strategies.`,
   ];
 
   // Paragraph 3: TML's approach for the region (10+ options, with country-aware content)
   const p3Base = [
-    `TML serves businesses across ${location.region}, combining the strategic thinking of a large agency with the agility and personal attention of a boutique firm. Our team is available for video calls, strategy sessions, and ongoing collaboration — ensuring your ${sn} campaigns are always aligned with your ${location.name} business goals.`,
-    `Our approach for ${location.name} clients is simple: understand the market, build a data-backed strategy, execute with precision, and optimise relentlessly. We provide transparent reporting on every metric that matters, so you always know exactly how your ${sn} investment is performing.`,
-    `As a ${sn} partner for ${location.name} businesses, TML brings both expertise and accountability. We set clear KPIs from day one, deliver regular performance updates, and continuously refine your campaigns to ensure maximum ROI in the ${location.state} market.`,
-    `TML operates as an extension of your ${location.name} team. We assign dedicated strategists to each account, provide 24/7 access to performance dashboards, and hold monthly strategy reviews to ensure your ${sn} campaigns are driving the business outcomes that matter most.`,
-    `Our ${location.name} clients value us because we communicate clearly, deliver on time, and obsess over results. No jargon, no mystery. Just ${sn} that works, backed by transparent reporting and a team that genuinely cares about your growth in ${location.state}.`,
-    `We believe ${sn} for ${location.name} businesses should be a growth engine, not a cost centre. That is why every campaign we build starts with revenue goals and works backward to strategy. If it does not contribute to your bottom line, we do not do it.`,
-    `TML's approach to ${sn} in ${location.name} is built on three pillars: research, execution, and optimisation. We invest heavily in understanding your market before we spend a single dollar on campaigns, then optimise continuously based on real performance data.`,
+    `TML serves businesses across ${location.region}. Big agency thinking. Boutique attention. Our team is available for video calls, strategy sessions, and ongoing support. Your ${sn} campaigns stay aligned with your ${location.name} goals.`,
+    `Our approach is simple. Understand the market. Build a strategy backed by data. Execute well. Optimise constantly. You get transparent reports on every metric that matters.`,
+    `TML brings expertise and accountability to ${location.name} businesses. Clear KPIs from day one. Regular performance updates. We refine your ${sn} campaigns until they deliver maximum ROI.`,
+    `Think of TML as part of your ${location.name} team. You get a dedicated strategist, 24/7 dashboard access, and monthly strategy reviews. Your ${sn} campaigns always drive real business results.`,
+    `Our ${location.name} clients value clear communication and on-time delivery. No jargon. No mystery. Just ${sn} that works. Transparent reporting. A team that cares about your growth.`,
+    `${sn} for ${location.name} businesses should be a growth engine. Not a cost centre. Every campaign starts with revenue goals and works backward. If it does not grow your bottom line, we skip it.`,
+    `TML's approach to ${sn} in ${location.name} rests on three pillars. Research. Execution. Optimisation. We understand your market first, then build campaigns that improve every month.`,
   ];
 
   const p3Country: Record<CountryPool, string[]> = {
     india: [
-      `India's digital economy is booming, and ${location.name} is at the centre of this growth. TML helps businesses here leverage this momentum with ${sn} strategies that account for India-specific factors — from UPI-driven conversions to vernacular search behaviour.`,
-      `With deep roots in the Indian market, TML understands how ${location.name} businesses operate. We account for festive season spikes, regional preferences, and the mobile-first behaviour that defines India's digital consumers.`,
-      `Our ${sn} approach for ${location.name} is built on Indian market intelligence. We understand how consumers in ${location.state} search, browse, and buy — and we optimise every touchpoint for the Indian digital journey.`,
+      `India's digital economy is booming. ${location.name} is at the centre of this growth. TML builds ${sn} strategies for India-specific factors — UPI conversions, vernacular search, mobile-first behaviour.`,
+      `TML understands how ${location.name} businesses work. Festive season spikes. Regional preferences. Mobile-first consumers. We build ${sn} around these Indian market realities.`,
+      `Our ${sn} for ${location.name} is built on Indian market intelligence. We know how consumers in ${location.state} search, browse, and buy. Every touchpoint is optimised for the Indian digital journey.`,
     ],
     usa: [
-      `In the US market, ${sn} success demands both scale and precision. TML delivers both for ${location.name} businesses — combining enterprise-level capabilities with the local market intelligence that wins in ${location.state}.`,
-      `American businesses demand accountability, and we deliver it. Every ${sn} campaign for ${location.name} clients comes with clear ROI tracking, regular performance reviews, and a relentless focus on the metrics that drive business growth.`,
-      `We help ${location.name} businesses compete in one of the world's most sophisticated digital markets. Our US-market ${sn} strategies are built on competitive intelligence, consumer data, and proven frameworks that scale.`,
+      `US market ${sn} demands scale and precision. TML delivers both for ${location.name}. Enterprise-level capability. Local market intelligence that wins in ${location.state}.`,
+      `American businesses demand accountability. We deliver it. Clear ROI tracking. Regular performance reviews. A focus on the metrics that grow your business.`,
+      `We help ${location.name} businesses compete in the world's toughest digital market. Our US ${sn} strategies are built on competitive intelligence and proven frameworks that scale.`,
     ],
     uk: [
-      `UK businesses expect professionalism, and TML delivers. Our ${sn} campaigns for ${location.name} clients are built on British market intelligence, GDPR compliance, and an understanding of how UK consumers make purchasing decisions.`,
-      `From ${location.name} to across the UK, our ${sn} approach is grounded in local market data and British consumer behaviour insights. We deliver campaigns that resonate with UK audiences and drive measurable business growth.`,
-      `TML understands the UK market's nuances — from seasonal buying patterns to regional preferences across ${location.state}. Our ${sn} strategies for ${location.name} businesses are built on this deep local understanding.`,
+      `UK businesses expect professionalism. TML delivers. Our ${sn} for ${location.name} is built on British market intelligence, GDPR compliance, and an understanding of how UK consumers buy.`,
+      `From ${location.name} to across the UK, our ${sn} is grounded in local data. We build campaigns that resonate with UK audiences and drive measurable growth.`,
+      `TML knows the UK market's nuances. Seasonal buying patterns. Regional preferences across ${location.state}. Our ${sn} strategies for ${location.name} are built on this understanding.`,
     ],
     australia: [
-      `The Australian market demands authenticity and results. TML delivers both for ${location.name} businesses with ${sn} strategies built on local market data, Australian consumer insights, and proven frameworks that work Down Under.`,
-      `Aussie businesses are pragmatic — they want ${sn} that works. TML delivers with transparent reporting, honest communication, and campaigns built for the realities of the Australian market in ${location.state}.`,
-      `From ${location.name} to across Australia, our ${sn} approach is built for the unique dynamics of the Australian digital economy. We understand seasonal patterns, local search behaviour, and the competitive landscape across ${location.state}.`,
+      `The Australian market demands authenticity and results. TML delivers both for ${location.name} with ${sn} built on local data and proven frameworks that work Down Under.`,
+      `Aussie businesses are pragmatic. They want ${sn} that works. TML delivers with transparent reporting, honest communication, and campaigns built for the ${location.state} market.`,
+      `From ${location.name} to across Australia, our ${sn} fits the unique dynamics of the local digital economy. Seasonal patterns. Local search behaviour. The ${location.state} competitive landscape.`,
     ],
     uae: [
-      `The UAE market demands premium quality, and TML delivers. Our ${sn} campaigns for ${location.name} businesses are built on deep understanding of Gulf consumer behaviour, multilingual content strategy, and the high service standards the region expects.`,
-      `${location.name}'s business ecosystem is unique — multicultural, fast-moving, and premium-oriented. Our ${sn} strategies account for Arabic and English audiences, expat demographics, and the digital channels that drive results in the UAE.`,
-      `TML helps ${location.name} businesses stand out in one of the world's most dynamic markets. Our ${sn} strategies are built for the UAE's unique blend of local tradition and global ambition.`,
+      `The UAE market demands premium quality. TML delivers. Our ${sn} for ${location.name} covers Gulf consumer behaviour, multilingual content, and the high service standards the region expects.`,
+      `${location.name}'s market is unique. Multicultural. Fast-moving. Premium-oriented. Our ${sn} covers Arabic and English audiences, expat demographics, and the channels that work in the UAE.`,
+      `TML helps ${location.name} businesses stand out in one of the world's most dynamic markets. Our ${sn} is built for the UAE's blend of local tradition and global ambition.`,
     ],
     nz: [
-      `New Zealand businesses value genuine relationships and honest results. TML brings both to our ${sn} partnerships with ${location.name} businesses — no hype, no vanity metrics, just strategies that grow your business.`,
-      `The NZ market may be smaller than some, but it is fiercely competitive. Our ${sn} strategies for ${location.name} businesses are built on Kiwi market intelligence and a deep understanding of how New Zealanders search and buy.`,
-      `From ${location.name} to across New Zealand, TML delivers ${sn} that punches above its weight. We help Kiwi businesses compete on the global stage with strategies built on local market knowledge and world-class execution.`,
+      `Kiwi businesses value honest results. TML brings that to our ${sn} partnerships with ${location.name}. No hype. No vanity metrics. Just strategies that grow your business.`,
+      `The NZ market is small but fierce. Our ${sn} for ${location.name} is built on Kiwi market intelligence and a deep understanding of how New Zealanders search and buy.`,
+      `From ${location.name} to across New Zealand, TML delivers ${sn} that punches above its weight. Local market knowledge. World-class execution. Real results.`,
     ],
     canada: [
-      `Canadian businesses expect honesty and results. TML delivers ${sn} for ${location.name} clients with full transparency, bilingual capability, and strategies built on Canadian market intelligence.`,
-      `From ${location.name} to across ${location.state} and the rest of Canada, our ${sn} approach accounts for bilingual search behaviour, seasonal patterns, and the competitive dynamics unique to the Canadian market.`,
-      `TML helps ${location.name} businesses succeed in Canada's competitive digital landscape. Our ${sn} strategies are built on Canadian consumer data, regulatory compliance, and proven frameworks that deliver measurable growth.`,
+      `Canadian businesses expect honesty and results. TML delivers ${sn} for ${location.name} with full transparency, bilingual capability, and Canadian market intelligence.`,
+      `From ${location.name} to across ${location.state}, our ${sn} accounts for bilingual search, seasonal patterns, and competitive dynamics unique to Canada.`,
+      `TML helps ${location.name} businesses win in Canada's competitive digital landscape. Canadian consumer data. Regulatory compliance. Proven frameworks that deliver growth.`,
     ],
   };
 

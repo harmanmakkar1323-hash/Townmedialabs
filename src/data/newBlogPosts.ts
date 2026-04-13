@@ -50,6 +50,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>Here's the uncomfortable truth first: <strong>there's no single "right" number.</strong> A dentist in Red Deer and a SaaS company in Toronto have wildly different needs. But I can give you real ranges, explain what drives the price up or down, and help you figure out what makes sense for your business.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>Digital Marketing Cost by Service (Canadian Pricing)</h2>
 
 <p>Let's break this down service by service. All prices are in CAD.</p>
@@ -183,6 +184,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><strong>But here's what matters more than the percentage:</strong> Are you spending it on the right things? I've seen businesses blow $5,000/month on social media posting when they don't even rank on Google for their primary service. If nobody can find you when they search "HVAC repair near me," pretty Instagram posts aren't going to save you.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Creative agency website design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative agency website design</figcaption></figure>
 <h2>How to Allocate Your Digital Marketing Budget</h2>
 
 <p>Here's a practical framework for a Canadian small-to-medium business with $3,000–$5,000/month to spend on digital marketing:</p>
@@ -225,6 +227,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li><strong>Scope of work.</strong> Want SEO only? That's straightforward. Want SEO + Google Ads + social media + email marketing + website updates? The complexity and coordination cost goes up</li>
 </ol>
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-dental-clinic-fly.webp" alt="Healthcare ad campaign design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Healthcare ad campaign design</figcaption></figure>
 <h2>Canadian Digital Marketing: Regional Context</h2>
 
 <p>If you're looking at digital marketing costs across Canada, here's some context that affects pricing by region:</p>
@@ -248,6 +251,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><strong>The cheapest option almost always costs more in the long run.</strong> I'd rather see a business spend $1,500/month on one service done exceptionally well than $1,500 split across five services done poorly.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-mockup.webp" alt="Instagram marketing mockup" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram marketing mockup</figcaption></figure>
 <h2>How to Evaluate Agency Pricing</h2>
 
 <p>When you're comparing quotes from different agencies, ask these questions:</p>
@@ -328,6 +332,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>This guide is for Canadian small business owners who want to understand how <a href="/services/google-ads">Google Ads</a> actually works, what it realistically costs, and how to avoid the most expensive mistakes. Whether you're doing it yourself or thinking about hiring an agency, you need this foundation.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-protein-fitness.webp" alt="High-converting fitness ad creative" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">High-converting fitness ad creative</figcaption></figure>
 <h2>How Google Ads Actually Works (Plain English Version)</h2>
 
 <p>Forget the jargon for a minute. Here's how Google Ads works in the simplest terms:</p>
@@ -367,6 +372,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><strong>The math that matters:</strong> If your average customer is worth $5,000 to your business (like a law client or HVAC installation), and your cost per lead is $75, you need roughly 10 leads to get one customer. That's $750 to acquire a $5,000 customer — a 6.7x return. That's the kind of math that makes Google Ads worthwhile.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-eyewear-fashion.webp" alt="Fashion brand ad creative" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Fashion brand ad creative</figcaption></figure>
 <h2>Setting Up Your First Campaign: Step by Step</h2>
 
 <p>Here's how to set up a Google Ads campaign that doesn't waste money from day one.</p>
@@ -449,6 +455,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <p>Running the same campaign for all of Alberta when you only service Calgary. Targeting every keyword related to your industry instead of the high-intent commercial keywords. Running ads 24/7 when your business only answers the phone 8am–5pm.</p>
 <p><strong>The fix:</strong> Start narrow and expand. It's much easier to scale a profitable campaign than to fix a broad, money-losing one.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-durex-football.webp" alt="Creative advertising campaign" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative advertising campaign</figcaption></figure>
 <h2>Google Ads vs. Facebook Ads: Which Should You Choose?</h2>
 
 <p>This is one of the most common questions I get. The honest answer: <strong>it depends on what you sell and how people buy it.</strong></p>
@@ -494,6 +501,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><strong>A warning about "Google Partners":</strong> Google's partner program incentivizes agencies to increase your spend, not your results. A Google Partner badge means the agency spends a lot of money on Google Ads — it doesn't mean they're good at it. Look at their results, not their badges.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Quick-Start Checklist for Your First Google Ads Campaign</h2>
 
 <p>If you're ready to get started, here's your checklist:</p>
@@ -561,6 +569,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>I've built marketing strategies for businesses ranging from solo consultants to $30M companies. The framework below is the same one we use at TML Agency for every client engagement. It works whether you're spending $1,000/month or $50,000/month.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>The 7-Step Digital Marketing Strategy Framework</h2>
 
 <h3>Step 1: Set SMART Goals (Not Vague Wishes)</h3>
@@ -765,6 +774,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><strong>The biggest mistake I see:</strong> Businesses review reports but don't take action. A report without action is just a pretty PDF. Every monthly review should produce at least 3 specific action items for the following month.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Professional brand design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design</figcaption></figure>
 <h2>Common Strategy Mistakes to Avoid</h2>
 
 <h3>Chasing Every New Platform</h3>
@@ -779,6 +789,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <h3>No Patience for Compounding</h3>
 <p>SEO and content marketing compound over time. A blog post you write today can generate traffic for years. But most businesses quit after 3 months because they don't see immediate results. <strong>The businesses that win at digital marketing are the ones that commit to 12+ months of consistent execution.</strong></p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Digital marketing content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing content</figcaption></figure>
 <h2>Need Help Building Your Strategy?</h2>
 
 <p>If this framework makes sense but you don't have the time or expertise to execute it, that's exactly what we do.</p>
@@ -833,6 +844,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>This guide will help you figure out which 2–3 platforms to choose, with honest pros and cons for each. No hype, no "you NEED to be on TikTok" nonsense — just practical advice based on what actually works for businesses in 2026.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
 <h2>Platform Comparison at a Glance</h2>
 
 <table>
@@ -870,6 +882,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><strong>Best for:</strong> Local service businesses, restaurants, real estate agents, event-based businesses, any business targeting ages 30+.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-real-estate-posts-grid.webp" alt="Social media content grid" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media content grid</figcaption></figure>
 <h2>Instagram for Business: Visual-First, Commerce-Ready</h2>
 
 <p>Instagram has evolved way beyond pretty photos. With Reels, Stories, Shopping, and DMs driving actual business conversations, it's become a legitimate commerce platform.</p>
@@ -914,6 +927,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><strong>Best for:</strong> B2B companies, professional services (accounting, consulting, legal), SaaS, recruiting, coaches, and anyone selling $5K+ services to businesses.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>TikTok for Business: Big Reach, Big Questions</h2>
 
 <p>TikTok is the wildcard. The organic reach potential is unmatched — a single video can reach millions of people with zero followers. But there are real concerns about the platform's future in North America, and converting that reach into revenue is harder than it looks.</p>
@@ -957,6 +971,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><strong>Best for:</strong> Businesses with complex services that benefit from education (HVAC, legal, financial), personal brands, SaaS companies, and any business willing to invest in long-term content assets.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Industry-Specific Platform Recommendations</h2>
 
 <p>Here's a cheat sheet based on what we see working for different industries:</p>
@@ -1074,6 +1089,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>I've spent years working in this space, and I'm going to break this down honestly. No fluff, no hidden agendas. Just real pricing from the Indian market in 2026, so you can make an informed decision for your business.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
 <h2>The Three Routes: Freelancer vs Agency vs In-House</h2>
 
 <p>Before we talk numbers, you need to understand the three main ways businesses handle social media in India. Each has wildly different cost structures — and trade-offs.</p>
@@ -1177,6 +1193,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><em>Note: Ad spend is almost always separate from management fees. If someone quotes you ₹15,000 "all-inclusive" with ads — run.</em></p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>Platform-Wise Breakdown: What Each One Costs</h2>
 
 <p>Not every platform costs the same to manage. Here's a realistic breakdown of what you should expect to pay per platform in India:</p>
@@ -1229,6 +1246,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <h3>At ₹1,50,000+/month</h3>
 <p>Full-service. Everything above plus brand campaigns, event coverage, UGC coordination, advanced competitor tracking, and a senior strategist on your account. This is for brands that are serious about social media as a primary revenue channel.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/packaging-design-eskimo-ice-cream.webp" alt="Ice cream packaging design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Ice cream packaging design</figcaption></figure>
 <h2>ROI Expectations: What Should You Expect Back?</h2>
 
 <p>Here's the uncomfortable truth: <strong>social media ROI in India is not always direct.</strong> If you're expecting to spend ₹20,000/month and get ₹2,00,000 in sales the next month — that's not how it works for most businesses.</p>
@@ -1274,6 +1292,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li>You want <a href="/services/content-writing">professional content</a> that actually converts</li>
 </ul>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Red Flags in Social Media Marketing Pricing</h2>
 
 <p>Over the years, I've seen businesses get burned by dodgy pricing. Here are the red flags you should watch for:</p>
@@ -1359,6 +1378,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>Let me walk you through this honestly.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>When Hiring a Digital Marketing Agency IS Worth It</h2>
 
 <p>Let's start with the scenarios where an agency genuinely makes sense:</p>
@@ -1447,6 +1467,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>The best client-agency relationships are partnerships, not vendor contracts. If you don't have 2–3 hours per month to review content, approve strategies, and share feedback — you're not ready.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Professional brand design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design</figcaption></figure>
 <h2>The Hidden Costs People Miss</h2>
 
 <p>When you're evaluating agency pricing, most people only look at the monthly retainer. But there are other costs that catch businesses off guard:</p>
@@ -1484,6 +1505,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <p>The businesses that benefit most from agencies are those where the <strong>customer lifetime value is significantly higher than the cost of acquisition.</strong> If one client is worth ₹50,000–₹5,00,000+ to your business, spending ₹50K–₹1L/month on an agency is a no-brainer.</p>
 </blockquote>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Digital marketing content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing content</figcaption></figure>
 <h2>Real Scenarios: Who Should and Shouldn't Hire an Agency</h2>
 
 <h3>Scenario 1: The Restaurant Owner</h3>
@@ -1525,6 +1547,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li><strong>Measurable results:</strong> Every activity is tied to a KPI. You can see what's working and what's not.</li>
 </ul>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="Marketing analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Marketing analytics dashboard</figcaption></figure>
 <h2>Signs of a Bad Agency (Run If You See These)</h2>
 
 <p>I've built my business partly on fixing the damage done by bad agencies. Here are the red flags:</p>
@@ -1612,6 +1635,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>Let's break it all down.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-protein-fitness.webp" alt="High-converting fitness ad creative" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">High-converting fitness ad creative</figcaption></figure>
 <h2>Understanding Meta Ads Costs: CPC, CPM, and CPL</h2>
 
 <p>Before we get to the tables, let's quickly clarify the three metrics that determine your cost:</p>
@@ -1648,6 +1672,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><strong>Key takeaway:</strong> Instagram generally costs 30–50% more per click than Facebook, but often delivers better engagement rates and higher-quality leads for visual industries like fashion, food, and real estate.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-dental-clinic-fly.webp" alt="Healthcare ad campaign design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Healthcare ad campaign design</figcaption></figure>
 <h2>Cost by Campaign Objective</h2>
 
 <p>This is where most businesses get confused. Meta offers different objectives, and <strong>each one costs differently.</strong> Here's a realistic breakdown:</p>
@@ -1689,6 +1714,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <p><strong>Pro tip:</strong> If your monthly budget is below ₹15,000, consider spending that on organic <a href="/services/social-media">social media marketing</a> instead. The algorithm needs enough data (roughly 50 conversions per week) to optimise properly. Too little budget = the algorithm can't learn, and you're essentially guessing.</p>
 </blockquote>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
 <h2>Ad Spend vs. Agency Management Fees</h2>
 
 <p>This catches a lot of people off guard. When an agency tells you "Facebook ads will cost ₹30,000/month," <strong>clarify whether that includes the ad spend or not.</strong></p>
@@ -1743,6 +1769,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <h3>Best Strategy: Use Both</h3>
 <p>In most cases, we recommend running campaigns across both platforms and letting Meta's algorithm decide where to deliver your ads. The Advantage+ placements feature does this automatically. For most of our clients, the <strong>budget split ends up roughly 60% Facebook and 40% Instagram</strong> — but this varies by industry.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-chupa-chups.webp" alt="Creative social media campaign" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative social media campaign</figcaption></figure>
 <h2>Budget Allocation Tips for Indian Businesses</h2>
 
 <p>Spending money on ads without a plan is like filling a bucket with holes. Here's how to allocate wisely:</p>
@@ -1870,6 +1897,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>I run an <a href="/services/seo">SEO agency</a> that works with small and mid-sized businesses across India. I've seen what works, what doesn't, and what's an outright scam. This guide is my honest breakdown of how to pick an SEO package that's actually worth your money in 2026.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>What's Typically Included in an SEO Package?</h2>
 
 <p>Before comparing prices, you need to understand what you're paying for. A legitimate SEO package should cover some combination of these services:</p>
@@ -1932,6 +1960,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 </tbody>
 </table>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-agency-grid.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>What to Expect at Each Level — Honestly</h2>
 
 <h3>Basic Package (₹5,000 – ₹12,000/month)</h3>
@@ -2007,6 +2036,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <h3>🚩 Long-Term Lock-In Contracts</h3>
 <p>Being asked to sign a 12-month contract upfront with a new agency is risky. A good agency retains clients through results, not contracts. Look for month-to-month arrangements, or at most, a 3-month minimum commitment (since SEO takes time to show results).</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/packaging-design-character-cups.webp" alt="Character cup packaging design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Character cup packaging design</figcaption></figure>
 <h2>How Long Does SEO Actually Take?</h2>
 
 <p>This is the question every business owner asks, and the answer nobody wants to hear: <strong>it takes 4–8 months to see significant results.</strong></p>
@@ -2048,6 +2078,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>Any agency worth hiring will answer these confidently and transparently. If they get defensive or vague, that tells you everything you need to know.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/packaging-design-minimalist-cans.webp" alt="Minimalist can packaging" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Minimalist can packaging</figcaption></figure>
 <h2>DIY SEO vs. Hiring an Agency</h2>
 
 <p>I'll be honest — I have a bias here since I run an agency. But I also believe in being straight with people. Here's the real comparison:</p>
@@ -2148,6 +2179,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>So instead of selling you on agencies, I'm going to lay out the full picture — the good, the bad, and the ugly of both options. By the end, you'll know exactly which one makes sense for <em>your</em> situation.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Freelancer: The Full Picture</h2>
 
 <h3>What You're Actually Getting</h3>
@@ -2237,6 +2269,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 </tbody>
 </table>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Professional brand design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand design</figcaption></figure>
 <h2>When a Freelancer Is the Right Choice</h2>
 
 <p>Don't overcomplicate this. Here are the situations where hiring a freelancer makes perfect sense:</p>
@@ -2259,6 +2292,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li><strong>Your brand image matters</strong> — If inconsistent <a href="/services/branding">branding</a> could hurt you (real estate, healthcare, premium products), an agency ensures everything is polished and on-brand.</li>
 </ul>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Digital marketing content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing content</figcaption></figure>
 <h2>Real Scenarios: What Would I Recommend?</h2>
 
 <h3>Scenario 1: A New Startup with ₹10,000/Month Budget</h3>
@@ -2296,6 +2330,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>This way, you get strategic oversight from the agency and cost-effective execution from freelancers. Some agencies (including us at TML) actually encourage this — we'd rather partner with a good freelance designer you already trust than force you to use ours if it doesn't make sense.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="Marketing analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Marketing analytics dashboard</figcaption></figure>
 <h2>How to Vet a Freelancer (Before You Get Burned)</h2>
 
 <p>Found a freelancer you like? Run through this checklist:</p>
@@ -2385,6 +2420,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <hr />
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-finance-hero.webp" alt="Lead generation landing page" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Lead generation landing page</figcaption></figure>
 <h2>Strategy 1: Optimize Your Google Business Profile (Google My Business)</h2>
 
 <p><strong>Cost:</strong> Free<br />
@@ -2462,6 +2498,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><strong>Pro tip:</strong> Add a WhatsApp click-to-chat link on your website, Instagram bio, and Google Business Profile. Make it stupid-easy for customers to message you.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="Analytics and lead tracking dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Analytics and lead tracking dashboard</figcaption></figure>
 <h2>Strategy 5: Google Ads — Instant Visibility</h2>
 
 <p><strong>Cost:</strong> ₹10,000 – ₹2,00,000+/month (ad spend + management)<br />
@@ -2544,6 +2581,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li>Add your website link and WhatsApp number in every description</li>
 </ul>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Strategy 9: Email Marketing — Underrated and Underused</h2>
 
 <p><strong>Cost:</strong> Free (up to 1,000 subscribers on most platforms) or ₹1,000–₹10,000/month<br />
@@ -2616,6 +2654,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>The cost is zero. The trust factor is high because the referral comes from a business the customer already trusts.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Digital marketing content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing content</figcaption></figure>
 <h2>Strategy 13: Online Reviews — Social Proof That Sells</h2>
 
 <p><strong>Cost:</strong> Free<br />
@@ -2730,6 +2769,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>This guide is that strategy. <strong>Step by step, screenshot-worthy practical.</strong> Whether you run a restaurant, sell clothes, offer services, or make products — this works. Let's get into it.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>Step 1: Set Up Your Instagram Business Profile Properly</h2>
 
 <p>Before you post a single photo, your profile needs to do the selling for you. Think of it as your digital shop front. If it looks messy, people walk away.</p>
@@ -2853,6 +2893,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <p><strong>Important:</strong> Don't use banned hashtags. Instagram silently shadowbans posts with certain hashtags. Google "Instagram banned hashtags 2026" before using any hashtag you're unsure about.</p>
 </blockquote>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-agency-grid.jpg" alt="Digital marketing agency work" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Digital marketing agency work</figcaption></figure>
 <h2>Step 4: Instagram SEO — The Secret Growth Lever</h2>
 
 <p>Instagram is now a search engine. People type "best cafe in Chandigarh" or "affordable wedding photographer" directly into Instagram search. Here's how to show up:</p>
@@ -2909,6 +2950,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>This is essentially free <a href="/services/social-media">social media marketing</a> that money can't easily buy — real people genuinely recommending your product to their engaged audience.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-mockup.webp" alt="Instagram marketing mockup" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram marketing mockup</figcaption></figure>
 <h2>Step 7: Posting Schedule — When and How Often</h2>
 
 <p>Consistency beats frequency. <strong>It's better to post 4 times a week consistently for 6 months than to post daily for 3 weeks and then disappear.</strong></p>
@@ -2993,6 +3035,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <p><strong>Reality check:</strong> 10K followers doesn't happen overnight. But with consistent effort, most businesses can reach it in 4-6 months. And honestly, <strong>an engaged 2,000-follower account that generates sales is worth more than a 50K-follower account with no conversions.</strong></p>
 </blockquote>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>Step 10: Mistakes That Kill Your Instagram Growth</h2>
 
 <p>I see these constantly. Avoid them like plague:</p>
@@ -3077,6 +3120,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <p><strong>Fun fact:</strong> Google My Business ab officially "Google Business Profile" ho gaya hai. Lekin sab log abhi bhi GMB hi bolte hain, toh hum bhi wahi use karenge.</p>
 </blockquote>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO analytics dashboard</figcaption></figure>
 <h2>Step 1: Google My Business Profile Kaise Banayein</h2>
 
 <p>Agar tune abhi tak apna GMB profile nahi banaya, toh yeh sabse pehle kar. It's 100% free.</p>
@@ -3132,6 +3176,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>Dekh — "AC repair Chandigarh," "refrigerator repair," "Mohali," "Panchkula" sab naturally aa gaye. Koi keyword stuffing nahi, koi awkward language nahi.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
 <h2>Step 3: Photos Aur Videos — Yeh Game Changer Hai</h2>
 
 <p>Sun, <strong>businesses jo regularly photos upload karte hain, unhe 42% zyada direction requests milti hain aur 35% zyada website clicks</strong> (Google ka apna data hai yeh).</p>
@@ -3190,6 +3235,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <p><strong>Pro tip:</strong> 4.2-4.8 star rating sabse ideal hai. Perfect 5.0 rating bhi suspicious lagti hai logon ko. Toh 1-2 average reviews se ghabrao mat — woh tera profile authentic dikhate hain.</p>
 </blockquote>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-social-story-1.webp" alt="Social media story design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media story design</figcaption></figure>
 <h2>Step 5: Google Maps Pe Rank Kaise Karein</h2>
 
 <p>Ab baat karte hain ranking ki. Jab koi "dentist near me" search karta hai, toh Google kaun se 3 results dikhaata hai sabse upar? Yeh decide hota hai teen cheezon se:</p>
@@ -3233,6 +3279,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <li>2-3 keywords naturally include kar</li>
 </ul>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-creative-brand.webp" alt="Creative branding concept" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative branding concept</figcaption></figure>
 <h2>Step 7: Google Business Profile Insights — Data Samjho, Grow Karo</h2>
 
 <p>GMB tumhe free analytics deta hai. Isko samajhna zaroori hai taaki tu pata kar sake kya kaam kar raha hai:</p>
@@ -3336,6 +3383,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>This isn't fear-mongering. This is happening right now, to real businesses, every single day. And I've seen the panic firsthand.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-brand-feed.webp" alt="Social media brand feed design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media brand feed design</figcaption></figure>
 <h2>Real Stories: When Social Media Alone Wasn't Enough</h2>
 
 <h3>The Chandigarh Restaurant That Lost Everything Overnight</h3>
@@ -3413,6 +3461,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>I've written blog posts for clients that still generate 200-300 organic visitors per month — <strong>three years later</strong>. No ad spend. No boosting. Just solid content that ranks on Google. That's the power of a website combined with good <a href="/services/seo">SEO</a>.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-social-story-1.webp" alt="Social media story design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Social media story design</figcaption></figure>
 <h2>What Does a Business Website Cost in India in 2026?</h2>
 
 <p>This is the question I get the most, so let me give you real numbers — not the inflated quotes some agencies throw around.</p>
@@ -3448,6 +3497,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 <h3>Web Application</h3>
 <p>Think Zomato, BookMyShow, or your own SaaS product. This is for businesses that need custom functionality beyond a standard website. Most small businesses don't need this — but if you do, <a href="/contact-us">let's talk</a>.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-travel-app.webp" alt="Travel website UI design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Travel website UI design</figcaption></figure>
 <h2>What Makes a Good Business Website in 2026?</h2>
 
 <p>Not all websites are created equal. I've seen businesses spend ₹2 lakh on a website that looks pretty but generates zero leads. And I've seen ₹25,000 websites that bring in 50+ enquiries a month. The difference is in the fundamentals:</p>
@@ -3488,6 +3538,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>With all due respect — yes, they do. India has 900+ million internet users in 2026. Your uncle might not search for businesses online, but your target customers absolutely do. Even if they find you through word-of-mouth, the first thing they do is Google your business name to check if you're legit.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-clean-minimal-ad.webp" alt="Clean minimal graphic design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Clean minimal graphic design</figcaption></figure>
 <h2>Website + SEO + Social Media: The Winning Combination</h2>
 
 <p>Here's the strategy that actually works for small businesses in India in 2026:</p>
@@ -3546,6 +3597,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p>Is guide mein main aapko step-by-step bataaunga ki online marketing kaise shuru karein — bilkul basic se. Koi jargon nahi, koi gyaan nahi, sirf practical advice jo aap <strong>aaj se implement</strong> kar sakte ho.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-protein-fitness.webp" alt="High-converting fitness ad creative" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">High-converting fitness ad creative</figcaption></figure>
 <h2>Step 1: Google My Business — Yeh Pehle Karo, Baaki Sab Baad Mein</h2>
 
 <p>Agar aap sirf EK cheez karte ho is poori guide mein, toh yeh karo: <strong>Google My Business (GMB) listing banao.</strong> Yeh free hai. 100% free. Aur yeh single most powerful tool hai local businesses ke liye.</p>
@@ -3612,6 +3664,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><strong>Bahut important baat:</strong> <a href="/services/social-media">Social media marketing</a> sirf posting nahi hai. Engage karo — comments ka reply do, DMs ka jawab do, doosron ki posts pe comment karo. Social media mein "social" hona padta hai.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-legal-education-red.webp" alt="Education industry ad design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Education industry ad design</figcaption></figure>
 <h2>Step 3: Basic Website Banwao — Apni Digital Dukaan</h2>
 
 <p>Main jaanta hoon, bahut log sochte hain — "Website ki kya zaroorat, Instagram pe sab chal raha hai." Bhai, <strong>Instagram Meta ka hai, website TUMHARA hai.</strong> Kal agar Instagram band ho jaaye, toh tumhara business kahan jayega?</p>
@@ -3663,6 +3716,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><strong>Consistency sabse important hai.</strong> Roz ek post se acha hai hafte mein 3 achi posts. Quality over quantity, hamesha.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/social-media-instagram-lifestyle.jpg" alt="Instagram lifestyle content" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Instagram lifestyle content</figcaption></figure>
 <h2>Step 5: Paid Ads Ka Basic Samjho — Paise Lagao Toh Samajhdaari Se</h2>
 
 <p>Organic (free) marketing time leti hai. Agar aap fast results chahte ho, toh paid advertising ek powerful tool hai. Lekin — <strong>bina samjhe paise mat daalo. Bahut log ₹500 boost karke bolte hain "ads kaam nahi karti."</strong> Bhai, aise nahi hota.</p>
@@ -3699,6 +3753,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 
 <p><strong>Important:</strong> WhatsApp pe spammy mat bano. Din mein 5 messages mat bhejo. Hafte mein 1-2 valuable messages — ek offer, ek useful tip. Jab log tumse annoyed hote hain, toh block kar dete hain. Phir woh customer permanent gaya.</p>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-story-creative.webp" alt="Creative brand story design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative brand story design</figcaption></figure>
 <h2>Step 7: Reviews Aur Reputation — Online Izzat Banao</h2>
 
 <p>India mein hum kisi bhi cheez mein "reviews" dekhte hain — Amazon pe, Zomato pe, Google pe. <strong>Aapke business ke Google reviews directly affect karte hain ki log aapse lenge ya nahi.</strong></p>

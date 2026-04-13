@@ -569,14 +569,12 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                     ) : (
                       <>
                         <p className="text-sm md:text-[15px] text-white/80 leading-[1.9]">
-                          As a leading {serviceName.toLowerCase()} agency serving {cityName}, TML has helped businesses across
-                          {" "}{location.region} achieve their digital marketing goals. Whether you&apos;re a startup or an established
-                          enterprise — our {serviceName.toLowerCase()} expertise delivers measurable results.
+                          TML is a leading {serviceName.toLowerCase()} agency serving {cityName}. We have helped businesses across
+                          {" "}{location.region} hit their marketing goals. Startups or enterprises — our expertise delivers real results.
                         </p>
                         <p className="text-sm md:text-[15px] text-white/80 leading-[1.9]">
                           From businesses near {location.landmarks[0]} to companies across {location.landmarks.slice(1, 3).join(" and ")} —
-                          we&apos;ve delivered {serviceName.toLowerCase()} solutions that drive growth. Our local knowledge combined
-                          with national-level expertise makes TML the ideal partner for {cityName} businesses.
+                          we deliver {serviceName.toLowerCase()} solutions that drive growth. Local knowledge. National-level expertise. The right partner for {cityName}.
                         </p>
                       </>
                     )}

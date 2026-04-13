@@ -51,6 +51,8 @@ function generateBlogContent(city: string, state: string, industries: string[]):
 <p><strong>"Your brand is what people say about you when you're not in the room."</strong> — Jeff Bezos</p>
 </blockquote>
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-identity.webp" alt="Professional brand identity design showcase" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional brand identity design by TML Agency</figcaption></figure>
+
 <h2>How a Branding Agency Helps Businesses in ${city} Grow</h2>
 
 <p>Think branding is just a "nice to have"? Consider this: <strong>consistent brand presentation across all platforms increases revenue by up to 23%</strong> (Lucidpress). Here's how a professional branding agency directly impacts your bottom line:</p>
@@ -68,6 +70,8 @@ function generateBlogContent(city: string, state: string, industries: string[]):
 <p>In ${city}'s growing job market, a well-branded company attracts better talent. People want to work for brands that look professional and feel like they're going somewhere. <strong>Your brand is your best recruiter.</strong></p>
 
 <hr />
+
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-showcase.webp" alt="Brand design portfolio showcase" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand design portfolio — TML Agency</figcaption></figure>
 
 <h2>Top 10 Best Branding Agencies in ${city} (2026)</h2>
 
@@ -164,6 +168,8 @@ ${otherAgencies.map((a, i) => `
 <hr />
 `).join("")}
 
+<figure style="margin: 2rem 0;"><img src="/work/graphic-design-brand-typography.webp" alt="Brand typography and design system" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Brand typography and design system</figcaption></figure>
+
 <h2>How to Choose the Right Branding Agency in ${city}</h2>
 
 <h3>1. Define Your Goals First</h3>
@@ -179,6 +185,8 @@ ${otherAgencies.map((a, i) => `
 <p>Branding isn't a one-time project. Choose an agency that offers ongoing support — social media, website updates, and campaign design over time.</p>
 
 <hr />
+
+<figure style="margin: 2rem 0;"><img src="/work/packaging-design-minimalist-cans.webp" alt="Minimalist packaging design example" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Packaging design by TML Agency</figcaption></figure>
 
 <h2>Branding Costs in ${city}: What to Expect in 2026</h2>
 

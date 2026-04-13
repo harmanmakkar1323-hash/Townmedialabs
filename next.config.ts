@@ -10,6 +10,17 @@ const nextConfig: NextConfig = {
   compress: true,
   async redirects() {
     return [
+      // Old /contact-us/ → canonical /contact/
+      {
+        source: "/contact-us",
+        destination: "/contact/",
+        permanent: true,
+      },
+      {
+        source: "/contact-us/",
+        destination: "/contact/",
+        permanent: true,
+      },
       // Old /about-us/ → canonical /about/
       {
         source: "/about-us",

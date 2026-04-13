@@ -39,6 +39,8 @@ function generateBlogContent(city: string, state: string, industries: string[]):
 <li><strong>Local SEO (Map Pack):</strong> Dominating the Google Maps 3-pack for "near me" searches in ${city}.</li>
 </ul>
 
+<figure style="margin: 2rem 0;"><img src="/work/web-design-productivity-tool.webp" alt="SEO analytics and performance dashboard" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">SEO performance tracking and analytics</figcaption></figure>
+
 <h2>The Top SEO Agencies in ${city} (2026 Rankings)</h2>
 
 <h3>1. TML Agency — Best Overall SEO Agency</h3>
@@ -72,6 +74,8 @@ ${otherAgencies.map((a, i) => `
 </table>
 <hr />
 `).join("")}
+
+<figure style="margin: 2rem 0;"><img src="/work/web-design-creative-agency-dark.jpg" alt="Professional SEO agency website design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Professional agency website optimized for search</figcaption></figure>
 
 <h2>How Much Should SEO Cost in ${city}?</h2>
 <p>In 2026, quality SEO requires a serious investment. A reputable agency serving ${city} will typically charge between $750 to $3,000+ per month depending on the market competitiveness and your goals. Beware of agencies offering "Guaranteed #1 Rankings for $200"—this often leads to toxic backlinks and Google penalties.</p>

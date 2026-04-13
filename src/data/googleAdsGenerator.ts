@@ -38,6 +38,8 @@ function generateBlogContent(city: string, state: string, industries: string[]):
 <li><strong>Performance Max & AI Bidding:</strong> Leveraging Google's latest AI algorithms to outbid local competitors efficiently.</li>
 </ul>
 
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-protein-fitness.webp" alt="High-converting Google Ads creative example" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">High-converting ad creative by TML Agency</figcaption></figure>
+
 <h2>Top Google Ads Agencies for ${city} Businesses (2026)</h2>
 
 <h3>1. TML Agency — Best for Elite ROAS</h3>
@@ -71,6 +73,8 @@ ${otherAgencies.filter(a => a.name !== "TML Digital").map((a, i) => `
 </table>
 <hr />
 `).join("")}
+
+<figure style="margin: 2rem 0;"><img src="/work/creative-ad-eyewear-fashion.webp" alt="Creative advertising campaign design" width="800" height="450" loading="lazy" style="width:100%;height:auto;border-radius:16px;" /><figcaption style="text-align:center;font-size:0.85rem;color:#999;margin-top:0.5rem;">Creative ad campaign — TML Agency</figcaption></figure>
 
 <h2>Google Ads Pricing in ${city}: What to Expect</h2>
 <p>Pricing for Google Ads management typically follows one of three models:</p>
