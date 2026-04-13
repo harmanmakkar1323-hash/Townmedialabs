@@ -1,7 +1,7 @@
 "use client";
 
-import { useRef, useState, useEffect, useCallback, useMemo } from "react";
-import { motion, useInView, useMotionValue, useTransform, useSpring, AnimatePresence } from "motion/react";
+import { useRef, useState, useEffect, useCallback } from "react";
+import { motion, useInView, useMotionValue, useSpring, AnimatePresence } from "motion/react";
 import { testimonials } from "@/data/testimonials";
 import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
 

@@ -102,7 +102,8 @@
       "Bash(sed -i '' \"s|const ARTICLES_PATH = path.join\\(ROOT, 'src/data/blogArticles.ts'\\);|const ARTICLES_PATH = path.join\\(ROOT, 'src/data/newBlogPosts.ts'\\);|\" /tmp/inject-blog-images2.mjs)",
       "Bash(node /tmp/inject-blog-images2.mjs)",
       "Bash(wait)",
-      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/app/contact*/)"
+      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/app/contact*/)",
+      "Bash(npx eslint:*)"
     ],
     "deny": [],
     "additionalDirectories": [

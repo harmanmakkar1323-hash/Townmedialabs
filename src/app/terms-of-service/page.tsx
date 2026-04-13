@@ -3,12 +3,12 @@ import InnerNavbar from "@/components/layout/InnerNavbar";
 import { FooterHome2 } from "@/components/sections/FooterHome2";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | TML Agency",
+  title: "Terms of Service",
   description:
     "Read the TML Agency terms of service. Understand the terms and conditions that govern your use of townmedialabs.com and our digital marketing services.",
   alternates: { canonical: "/terms-of-service/" },
   openGraph: {
-    title: "Terms of Service | TML Agency",
+    title: "Terms of Service",
     description:
       "Read the TML Agency terms of service governing your use of townmedialabs.com and our digital marketing services.",
     url: "https://townmedialabs.com/terms-of-service/",

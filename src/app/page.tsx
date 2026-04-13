@@ -12,7 +12,7 @@ const BelowFoldSections = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "TML Agency | Global Digital Marketing & Branding Agency",
+  title: { absolute: "TML Agency | Global Digital Marketing & Branding Agency" },
   description:
     "TML Agency is a global digital marketing agency serving 500+ brands across India, USA, UK, Canada, Australia & UAE. SEO, Google Ads, branding & web development.",
   keywords: [

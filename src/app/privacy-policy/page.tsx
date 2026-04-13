@@ -3,12 +3,12 @@ import InnerNavbar from "@/components/layout/InnerNavbar";
 import { FooterHome2 } from "@/components/sections/FooterHome2";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | TML Agency",
+  title: "Privacy Policy",
   description:
     "Read the TML Agency privacy policy. Learn how we collect, use, store and protect your personal information when you visit townmedialabs.com or contact us.",
   alternates: { canonical: "/privacy-policy/" },
   openGraph: {
-    title: "Privacy Policy | TML Agency",
+    title: "Privacy Policy",
     description:
       "Read the TML Agency privacy policy. Learn how we collect, use, store and protect your personal information.",
     url: "https://townmedialabs.com/privacy-policy/",

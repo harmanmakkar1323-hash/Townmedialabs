@@ -216,7 +216,7 @@ const localBusinessJsonLd = {
     latitude: "30.7281",
     longitude: "76.7726",
   },
-  hasMap: "https://www.google.com/maps/place/TML+Agency/@30.7281,76.7726,17z/",
+  hasMap: "https://www.google.com/maps?cid=6664828267545502633",
   areaServed: [
     { "@type": "Country", name: "Canada" },
     { "@type": "Country", name: "United States" },
@@ -299,12 +299,6 @@ const localBusinessJsonLd = {
         itemOffered: { "@type": "Service", name: "Performance Marketing" },
       },
     ],
-  },
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "352",
-    bestRating: "5",
   },
   review: [
     {

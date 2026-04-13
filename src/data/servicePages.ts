@@ -214,7 +214,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   seo: {
     slug: "seo",
-    title: "SEO",
+    title: "SEO Services — Data-Driven Organic Growth",
     tagline: "Dominate search. Own your market.",
     description: "Proven SEO strategies that boost your rankings, drive organic traffic, and grow your business sustainably. Our SEO team in Chandigarh specializes in technical SEO, on-page optimization, local SEO, and link building to help businesses worldwide achieve first-page rankings on Google for competitive keywords.",
     heroDescription: "We help businesses climb to the top of Google with white-hat SEO strategies. From technical optimization to content strategy and link building — we build organic growth engines that deliver results month after month.",

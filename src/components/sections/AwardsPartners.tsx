@@ -279,7 +279,7 @@ export function AwardsPartners() {
             style={{ y: headingY }}
             className="text-3xl sm:text-4xl md:text-5xl font-medium leading-[1.08] tracking-tight text-white max-w-3xl"
           >
-            Trusted by the{" "}
+            Powered by the{" "}
             <span className="text-white italic">best in industry.</span>
           </motion.h2>
         </div>

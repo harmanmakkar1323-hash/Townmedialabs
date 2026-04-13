@@ -53,7 +53,7 @@ function buildGroups() {
 }
 
 export const metadata: Metadata = {
-  title: "Our Locations — 250+ Cities Worldwide | TML Agency",
+  title: "Our Locations — 250+ Cities Worldwide",
   description:
     "TML Agency serves 250+ cities across India, Canada, USA, UK, Australia, New Zealand & UAE. Find digital marketing services in your city and start growing today.",
   keywords: [
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     "TML Agency cities",
   ],
   openGraph: {
-    title: "Our Locations — 250+ Cities Worldwide | TML Agency",
+    title: "Our Locations — 250+ Cities Worldwide",
     description:
       "Serving 250+ cities across 7 countries with tailored digital marketing strategies. Find TML Agency services in your city.",
     url: "https://townmedialabs.com/locations/",
@@ -76,7 +76,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Our Locations — 250+ Cities Worldwide | TML Agency",
+    title: "Our Locations — 250+ Cities Worldwide",
     description:
       "Serving 250+ cities across 7 countries with tailored digital marketing strategies. Find TML Agency services in your city.",
     images: ["/og-image.png"],

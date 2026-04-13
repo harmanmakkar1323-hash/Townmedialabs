@@ -3,7 +3,7 @@ import { industries, industryPages, allIndustrySlugs, allIndustryPageSlugs } fro
 import IndustriesIndexClient from "./IndustriesIndexClient";
 
 export const metadata: Metadata = {
-  title: "Industries We Serve — Niche Marketing | TML Agency",
+  title: "Industries We Serve — Niche Marketing",
   description:
     "Industry-specific digital marketing for dentists, plumbers, electricians, salons, cafes, accountants, vets, non-profits and more. Tailored strategies that grow.",
   keywords: [
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "TML Agency industries",
   ],
   openGraph: {
-    title: "Industries We Serve — Niche Marketing | TML Agency",
+    title: "Industries We Serve — Niche Marketing",
     description:
       "Industry-specific digital marketing for dentists, plumbers, salons, cafes, accountants, vets, non-profits and more. Tailored strategies that grow.",
     url: "https://townmedialabs.com/industries/",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Industries We Serve — Niche Marketing | TML Agency",
+    title: "Industries We Serve — Niche Marketing",
     description:
       "Industry-specific digital marketing for dentists, plumbers, salons, cafes, accountants, vets, non-profits and more. Tailored strategies that grow.",
     images: ["/og-image.png"],

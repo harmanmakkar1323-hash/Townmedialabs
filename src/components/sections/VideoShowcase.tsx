@@ -1,14 +1,11 @@
 "use client";
 
-import { useRef, useState, useEffect, useCallback } from "react";
+import { useRef, useState, useEffect } from "react";
 import {
   motion,
   useInView,
   useScroll,
   useTransform,
-  useSpring,
-  useMotionValue,
-  useAnimationFrame,
 } from "motion/react";
 import LazyVideo from "@/components/ui/LazyVideo";
 
@@ -23,18 +20,18 @@ const reels = [
   { src: "/product-story-vero-fashion.mp4", poster: "", label: "Product Story", client: "Vero Fashion" },
 ];
 
-/* Floating particles background */
+/* Floating particles background — stable positions via seeded values */
 function Particles() {
-  const particles = useRef(
-    Array.from({ length: 8 }, (_, i) => ({
-      id: i,
-      x: Math.random() * 100,
-      y: Math.random() * 100,
-      size: Math.random() * 2 + 1,
-      duration: Math.random() * 20 + 15,
-      delay: Math.random() * 10,
-    }))
-  ).current;
+  const particles = [
+    { id: 0, x: 12, y: 8, size: 2.1, duration: 22, delay: 3 },
+    { id: 1, x: 45, y: 23, size: 1.4, duration: 18, delay: 7 },
+    { id: 2, x: 78, y: 56, size: 2.8, duration: 25, delay: 1 },
+    { id: 3, x: 34, y: 72, size: 1.9, duration: 20, delay: 5 },
+    { id: 4, x: 91, y: 15, size: 1.2, duration: 30, delay: 9 },
+    { id: 5, x: 56, y: 88, size: 2.5, duration: 17, delay: 2 },
+    { id: 6, x: 23, y: 45, size: 1.7, duration: 28, delay: 6 },
+    { id: 7, x: 67, y: 34, size: 2.3, duration: 23, delay: 4 },
+  ];
 
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">

@@ -42,7 +42,7 @@ function getCountryPool(country: string): CountryPool {
 // ─── City tier system ─────────────────────────────────────────────────────────
 
 function getCityTier(location: LocationInfo): 1 | 2 | 3 {
-  return (location as any).cityTier || 2;
+  return (location as LocationInfo & { cityTier?: 1 | 2 | 3 }).cityTier || 2;
 }
 
 // ─── Deterministic hash ────────────────────────────────────────────────────────

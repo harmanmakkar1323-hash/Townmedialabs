@@ -8,12 +8,12 @@ import { authors } from "@/data/authors";
 const siteUrl = "https://townmedialabs.com";
 
 export const metadata: Metadata = {
-  title: "Authors & Contributors | TML Agency",
+  title: "Authors & Contributors",
   description:
     "Meet the team behind TML Agency — SEO experts, brand strategists, designers, and marketers with decades of combined experience helping 500+ brands grow.",
   alternates: { canonical: "/authors/" },
   openGraph: {
-    title: "Authors & Contributors | TML Agency",
+    title: "Authors & Contributors",
     description:
       "Meet the team behind TML Agency — SEO experts, brand strategists, designers, and marketers with decades of combined experience helping 500+ brands grow.",
     url: `${siteUrl}/authors/`,

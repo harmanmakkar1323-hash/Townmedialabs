@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import PortfolioPageClient from "./PortfolioPageClient";
 
 export const metadata: Metadata = {
-  title: "Portfolio — Web, Branding & Video Work | TML Agency",
+  title: "Portfolio — Web, Branding & Video Work",
   description:
     "Browse TML Agency's portfolio of web design, branding, UI/UX, video production & digital marketing projects for brands worldwide. See real work, real results.",
   openGraph: {
-    title: "Portfolio — Web, Branding & Video Work | TML Agency",
+    title: "Portfolio — Web, Branding & Video Work",
     description:
       "Browse TML Agency's portfolio of web design, branding, UI/UX, video production & digital marketing projects for brands worldwide.",
     url: "https://townmedialabs.com/portfolio/",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Portfolio — Web, Branding & Video Work | TML Agency",
+    title: "Portfolio — Web, Branding & Video Work",
     description: "Real projects, real results. See what we've built for brands worldwide.",
     images: ["/og-image.png"],
   },

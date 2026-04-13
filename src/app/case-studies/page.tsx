@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import CaseStudiesIndexClient from "./CaseStudiesIndexClient";
 
 export const metadata: Metadata = {
-  title: "Case Studies — Real Client Results | TML Agency",
+  title: "Case Studies — Real Client Results",
   description:
     "See TML Agency case studies: 300% more patient bookings, 10x organic traffic growth, and more. Real digital marketing results across industries. Read the stories.",
   keywords: [
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "marketing ROI examples",
   ],
   openGraph: {
-    title: "Case Studies — Real Client Results | TML Agency",
+    title: "Case Studies — Real Client Results",
     description:
       "Real results for real businesses. Explore TML Agency's successful digital marketing campaigns across industries and see what's possible.",
     url: "https://townmedialabs.com/case-studies/",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Case Studies — Real Client Results | TML Agency",
+    title: "Case Studies — Real Client Results",
     description:
       "Real results for real businesses. Explore TML Agency's successful digital marketing campaigns across industries and see what's possible.",
     images: ["/og-image.png"],

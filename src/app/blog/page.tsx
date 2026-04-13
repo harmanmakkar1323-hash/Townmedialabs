@@ -7,7 +7,7 @@ import { blogPosts, blogCategories } from "@/data/blogPosts";
 const siteUrl = "https://townmedialabs.com";
 
 export const metadata: Metadata = {
-  title: "Marketing, Branding & SEO Blog | TML Agency",
+  title: "Marketing, Branding & SEO Blog",
   description:
     "Expert insights on digital marketing, branding, SEO, AI, social media and ad strategy from TML Agency. Practical guides to grow your brand online.",
   keywords: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Marketing, Branding & SEO Blog | TML Agency",
+    title: "Marketing, Branding & SEO Blog",
     description:
       "Expert insights on digital marketing, branding, SEO, AI, and ad strategy from TML Agency. Practical guides to grow your brand online.",
     url: `${siteUrl}/blog/`,
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Marketing, Branding & SEO Blog | TML Agency",
+    title: "Marketing, Branding & SEO Blog",
     description:
       "Expert insights on digital marketing, branding, SEO, AI, and ad strategy from TML Agency. Practical guides to grow your brand online.",
     images: ["/og-image.png"],

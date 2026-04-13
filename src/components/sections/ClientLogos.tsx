@@ -134,7 +134,7 @@ export function ClientLogos() {
       {/* Section label */}
       <div className="text-center mb-12 md:mb-14">
         <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase font-semibold mb-4">
-          Trusted by ambitious brands
+          Tools & platforms we work with
         </p>
 
         {/* Brand counter */}

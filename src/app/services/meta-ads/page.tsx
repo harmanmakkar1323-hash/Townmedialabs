@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { servicePages } from "@/data/servicePages";
 import ServicePageTemplate from "@/components/templates/ServicePageTemplate";
 import { prepareServicePageExtras } from "@/lib/locationServiceData";
-import { ServicePageSchema } from "@/components/schema/ServicePageSchema";
 
 const data = servicePages["meta-ads"];
 
