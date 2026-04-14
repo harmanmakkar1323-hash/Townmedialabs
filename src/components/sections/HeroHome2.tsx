@@ -126,7 +126,7 @@ export default function HeroHome2() {
         </div>
 
         {/* Bottom Metadata / Description */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 mt-2 mb-12 md:mb-0">
           <div className="hero-fade-up hero-delay-5">
             <p className="text-[10px] md:text-xs text-white tracking-widest uppercase font-semibold mb-4">
               Full-service agency
