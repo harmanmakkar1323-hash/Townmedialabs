@@ -10,7 +10,7 @@ const trustStats = [
 export default function HeroHome2() {
   return (
     <section
-      className="relative w-full h-screen min-h-[800px] flex flex-col justify-end overflow-hidden pb-16 pt-32 bg-[#111]"
+      className="relative w-full h-screen min-h-[600px] md:min-h-[800px] flex flex-col justify-end overflow-hidden pb-10 md:pb-16 pt-24 md:pt-32 bg-[#111]"
     >
       {/* Background Video layer */}
       <div className="absolute inset-0 z-0">

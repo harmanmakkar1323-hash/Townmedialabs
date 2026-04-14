@@ -8,7 +8,7 @@ function LogoText({ name }: { name: string }) {
   return (
     <span className="group relative inline-flex items-center gap-[0.25em] text-lg sm:text-2xl md:text-3xl lg:text-4xl font-semibold tracking-tight whitespace-nowrap select-none cursor-default">
       <span className="absolute inset-0 bg-gradient-to-r from-transparent via-[#ff4500]/[0.04] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-md pointer-events-none" />
-      <span className="text-white/[0.08] transition-all duration-500 group-hover:text-white/90">
+      <span className="text-white/60 transition-all duration-500 group-hover:text-white">
         {name}
       </span>
     </span>
@@ -17,7 +17,7 @@ function LogoText({ name }: { name: string }) {
 
 function Separator() {
   return (
-    <span className="text-[#ff4500]/20 mx-4 sm:mx-6 md:mx-10 text-[6px] select-none flex items-center opacity-40">
+    <span className="text-[#ff4500]/60 mx-4 sm:mx-6 md:mx-10 text-[6px] select-none flex items-center">
       &#9670;
     </span>
   );
