@@ -257,7 +257,7 @@ export default function ChandigarhServiceTemplate({ data }: { data: ChandigarhSe
       {/* Why Choose Us */}
       <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
         <div className="relative mx-auto max-w-7xl">
-          <p className="scroll-reveal text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">Why Choose TML</p>
+          <p className="scroll-reveal text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">Best {serviceData?.title || data.title} Agency in Chandigarh</p>
           <h2 className="scroll-reveal scroll-delay-1 text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16">
             Why Chandigarh Businesses Choose Our {serviceData?.title || data.title}<span className="text-[#ff4500]">.</span>
           </h2>
@@ -280,7 +280,7 @@ export default function ChandigarhServiceTemplate({ data }: { data: ChandigarhSe
       {/* How We Work - Process */}
       <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
         <div className="relative mx-auto max-w-5xl">
-          <p className="scroll-reveal text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">How We Work</p>
+          <p className="scroll-reveal text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">{serviceData?.title || data.title} Process in Chandigarh</p>
           <h2 className="scroll-reveal scroll-delay-1 text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16">
             Our {serviceData?.title || data.title} Process in Chandigarh<span className="text-[#ff4500]">.</span>
           </h2>
@@ -309,7 +309,7 @@ export default function ChandigarhServiceTemplate({ data }: { data: ChandigarhSe
       {serviceData && (
         <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 bg-[#080808] overflow-hidden">
           <div className="relative mx-auto max-w-7xl">
-            <p className="scroll-reveal text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">What We Offer</p>
+            <p className="scroll-reveal text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">{serviceData?.title || data.title} Services in Chandigarh</p>
             <h2 className="scroll-reveal scroll-delay-1 text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16">
               Our {serviceData.title} Services in Chandigarh<span className="text-[#ff4500]">.</span>
             </h2>
@@ -331,7 +331,7 @@ export default function ChandigarhServiceTemplate({ data }: { data: ChandigarhSe
       {/* Industries We Serve */}
       <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
         <div className="relative mx-auto max-w-5xl text-center">
-          <p className="scroll-reveal text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">Who We Work With</p>
+          <p className="scroll-reveal text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">{serviceData?.title || data.title} for Chandigarh Industries</p>
           <h2 className="scroll-reveal scroll-delay-1 text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16">
             {serviceData?.title || data.title} for Chandigarh Industries<span className="text-[#ff4500]">.</span>
           </h2>
@@ -359,7 +359,7 @@ export default function ChandigarhServiceTemplate({ data }: { data: ChandigarhSe
       <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
         <div className="relative mx-auto max-w-4xl">
           <h2 className="scroll-reveal text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12">
-            {data.title} — Your Local Partner<span className="text-[#ff4500]">.</span>
+            {data.title} Agency in Chandigarh — Your Local Partner<span className="text-[#ff4500]">.</span>
           </h2>
           {/* Portfolio image for this service */}
           {(() => {

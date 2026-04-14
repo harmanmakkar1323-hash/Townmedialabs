@@ -41,7 +41,7 @@ export interface ServicePageData {
 export const servicePages: Record<string, ServicePageData> = {
   branding: {
     slug: "branding",
-    title: "Branding",
+    title: "Branding Agency — Build a Brand People Remember",
     tagline: "Build a brand that people remember.",
     description: "Strategic brand identity design that resonates with your audience and creates lasting impressions. Our branding experts in Chandigarh craft compelling visual identities, develop brand strategies, and build cohesive brand systems that help businesses stand out in competitive markets worldwide.",
     heroDescription: "We create powerful brand identities that tell your story, connect with your audience, and set you apart from competitors. From logo design to complete brand systems, we build brands that stand the test of time.",
@@ -127,7 +127,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "google-ads": {
     slug: "google-ads",
-    title: "Google Ads",
+    title: "Google Ads Management — Maximize Your Ad ROI",
     tagline: "Turn clicks into customers.",
     description: "Expert Google Ads management that maximizes ROI and drives qualified traffic to your business. As a certified Google Partner agency in Chandigarh, we build data-driven PPC campaigns with a proven track record of delivering high ROAS across search, display, and shopping networks for businesses worldwide.",
     heroDescription: "Our certified Google Ads specialists create data-driven campaigns that put your business in front of the right people at the right time. From search to display to shopping — we maximize every dollar of your ad spend.",
@@ -270,10 +270,10 @@ export const servicePages: Record<string, ServicePageData> = {
     ],
     pricingNote: "SEO packages at TML start at $500/month for local businesses targeting a single city with up to 20 keywords, including technical optimisation, on-page SEO, Google Business Profile management, and monthly reporting. Mid-tier packages for regional or national campaigns range from $1,500 to $3,000/month, covering broader keyword targeting, content creation, and link building. Enterprise SEO for large websites or highly competitive industries starts at $4,000/month. All plans include a dedicated account manager, monthly performance reports with clear KPIs, and access to a live reporting dashboard. We offer a free comprehensive SEO audit — no strings attached — so you can see exactly where your site stands before committing.",
     features: [
-      { title: "Technical SEO", description: "Site speed optimization, mobile-first indexing, schema markup, crawlability fixes, and Core Web Vitals improvement. We conduct thorough technical audits to identify and resolve every issue that could be holding your website back from achieving higher search rankings." },
+      { title: "Technical SEO — Fix What's Holding Your Rankings Back", description: "Site speed optimization, mobile-first indexing, schema markup, crawlability fixes, and Core Web Vitals improvement. We conduct thorough technical audits to identify and resolve every issue that could be holding your website back from achieving higher search rankings." },
       { title: "On-Page SEO", description: "Keyword optimization, meta tags, content structure, internal linking, and user experience enhancements. Our on-page specialists ensure every page on your website is perfectly optimized to rank for its target keywords while providing an excellent user experience." },
       { title: "Content Strategy", description: "Research-driven content calendars, blog strategy, pillar pages, and topic clusters that attract and convert. We identify content gaps in your niche and create comprehensive content plans that establish your website as an authoritative resource in your industry." },
-      { title: "Link Building", description: "High-quality backlink acquisition from authoritative domains through outreach, PR, and content marketing. Our link building campaigns focus on earning relevant, high-authority links that strengthen your domain authority and improve search visibility over time." },
+      { title: "Link Building — Earn Authoritative Backlinks", description: "High-quality backlink acquisition from authoritative domains through outreach, PR, and content marketing. Our link building campaigns focus on earning relevant, high-authority links that strengthen your domain authority and improve search visibility over time." },
       { title: "Local SEO", description: "Google Business Profile optimization, local citations, reviews management, and map pack ranking strategies. We help brick-and-mortar businesses and service-area businesses dominate local search results in Chandigarh and across their target regions." },
       { title: "SEO Audits", description: "Comprehensive site audits identifying technical issues, content gaps, and competitive opportunities. Our detailed audit reports include prioritized action plans with clear recommendations that your team or ours can implement for measurable ranking improvements." },
     ],
@@ -301,7 +301,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "website-development": {
     slug: "website-development",
-    title: "Website Development",
+    title: "Website Development — Fast, Modern, Conversion-Ready",
     tagline: "Websites that convert visitors into customers.",
     description: "Custom, high-performance websites built with modern technologies for speed, security, and conversions. Our web development team in Chandigarh specializes in Next.js, React, WordPress, and e-commerce solutions, delivering responsive websites that look stunning and drive measurable business results for clients worldwide.",
     heroDescription: "We build stunning, lightning-fast websites that don't just look great — they drive business results. From corporate websites to e-commerce platforms, our development team delivers pixel-perfect, conversion-optimized digital experiences.",
@@ -388,7 +388,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "social-media": {
     slug: "social-media",
-    title: "Social Media Marketing",
+    title: "Social Media Marketing — Grow Your Online Presence",
     tagline: "Build community. Drive engagement.",
     description: "Strategic social media management that grows your audience, builds brand loyalty, and generates leads. Our social media team in Chandigarh creates scroll-stopping content for Instagram, Facebook, LinkedIn, and other platforms, combining organic content marketing with paid social campaigns to deliver real business results globally.",
     heroDescription: "We help brands stand out in the social media noise. Our team creates scroll-stopping content, manages communities, and runs data-driven paid campaigns across Instagram, Facebook, LinkedIn, Twitter, and YouTube.",
@@ -467,7 +467,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "ai-influencer-management": {
     slug: "ai-influencer-management",
-    title: "AI Influencer Management",
+    title: "AI Influencer Management — Next-Gen Brand Promotion",
     tagline: "The future of influence is AI-powered.",
     description: "Cutting-edge AI influencer creation and management for brands looking to lead the next wave of digital marketing. Our team in Chandigarh designs hyper-realistic virtual influencer personas, develops their content strategies, and manages their social media presence to deliver consistent, always-on brand representation for forward-thinking companies worldwide.",
     heroDescription: "We create and manage AI-generated virtual influencers that represent your brand 24/7 across social platforms. From concept to content strategy, our AI influencer solutions deliver consistent brand messaging with unlimited creative potential.",
@@ -538,7 +538,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "lead-generation": {
     slug: "lead-generation",
-    title: "Lead Generation",
+    title: "Lead Generation — Get More Qualified Leads",
     tagline: "Fill your pipeline with qualified leads.",
     description: "Data-driven lead generation strategies that attract, capture, and convert high-quality prospects for your business. Our team in Chandigarh builds complete lead generation systems using landing pages, conversion optimization, CRM integration, and multi-channel campaigns to deliver qualified leads that fuel sustainable growth for businesses worldwide.",
     heroDescription: "We build lead generation machines that consistently deliver qualified prospects to your sales team. Through a mix of paid ads, landing pages, email marketing, and automation — we create systems that fill your pipeline and fuel growth.",
@@ -580,7 +580,7 @@ export const servicePages: Record<string, ServicePageData> = {
     features: [
       { title: "Landing Page Design", description: "High-converting landing pages optimized for lead capture with compelling copy and clear CTAs. Each page is built with proven persuasion frameworks, mobile-responsive layouts, and fast load times to maximize the percentage of visitors who become leads." },
       { title: "Lead Magnets", description: "Create valuable resources — ebooks, webinars, templates — that attract your ideal customers. We develop lead magnets that address specific pain points in your audience's journey, ensuring high download rates and quality lead capture." },
-      { title: "Email Marketing", description: "Automated nurture sequences that build trust and guide leads through your sales funnel. Our email campaigns feature personalized content, behavioural triggers, and strategic timing to keep prospects engaged and moving toward a purchase decision." },
+      { title: "Email Marketing — Nurture Leads Into Customers", description: "Automated nurture sequences that build trust and guide leads through your sales funnel. Our email campaigns feature personalized content, behavioural triggers, and strategic timing to keep prospects engaged and moving toward a purchase decision." },
       { title: "Paid Lead Gen", description: "Targeted ad campaigns on Google, Meta, and LinkedIn designed specifically for lead generation. We test multiple ad formats, audience segments, and offers simultaneously to identify the most cost-effective channels for acquiring qualified leads." },
       { title: "CRM Integration", description: "Seamless integration with your CRM to track, score, and manage leads efficiently. We connect your lead generation systems with tools like HubSpot, Salesforce, or Zoho to ensure every lead is captured, scored, and routed to the right sales representative." },
       { title: "Conversion Optimization", description: "Continuous A/B testing and funnel optimization to improve lead quality and reduce cost per lead. We test headlines, forms, CTAs, page layouts, and offers systematically, using data to make incremental improvements that compound into significant results." },
@@ -609,7 +609,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "music-release": {
     slug: "music-release",
-    title: "Music Release & Promotion",
+    title: "Music Release & Promotion — Get Your Music Heard",
     tagline: "Get your music heard by millions.",
     description: "End-to-end music release strategy covering distribution, promotion, playlist pitching, and audience growth. Based in Chandigarh, our team helps independent artists and labels distribute music on Spotify, Apple Music, and Tidal, with specialized expertise in Punjabi music promotion and playlist placements globally.",
     heroDescription: "We help independent artists and labels launch their music with maximum impact. From distribution setup to social media campaigns, playlist pitching, and PR — we handle the business so you can focus on creating.",
@@ -677,7 +677,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "video-editing": {
     slug: "video-editing",
-    title: "Video Editing & Production",
+    title: "Video Editing & Production — Cinematic Brand Content",
     tagline: "Stories that move people.",
     description: "Professional video editing and production services that bring your vision to life with cinematic quality. Our post-production team in Chandigarh delivers everything from social media reels and corporate videos to commercial productions, combining expert editing, motion graphics, and colour grading to create content that captivates audiences worldwide.",
     heroDescription: "From raw footage to polished masterpieces — our video editing team transforms your content into compelling visual stories. We handle everything from social media reels to corporate films, documentaries, and commercial productions.",
@@ -727,7 +727,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "branding-packaging": {
     slug: "branding-packaging",
-    title: "Branding & Packaging Design",
+    title: "Branding & Packaging Design — Stand Out on the Shelf",
     tagline: "Packaging that sells off the shelf.",
     description: "Eye-catching packaging design that communicates your brand story and drives purchase decisions at the point of sale. Our design studio in Chandigarh creates retail packaging, label designs, and unboxing experiences for product brands worldwide, combining print expertise with creative design to ensure your products stand out on every shelf.",
     heroDescription: "Great packaging doesn't just protect products — it sells them. Our design team creates packaging that tells your brand story, stands out on shelves, and creates unboxing experiences that customers share and remember.",
@@ -777,7 +777,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "graphic-design": {
     slug: "graphic-design",
-    title: "Graphic Design",
+    title: "Graphic Design — Creative Visuals That Convert",
     tagline: "Design that communicates. Visuals that convert.",
     description: "Professional graphic design services that bring your brand story to life across every visual touchpoint. Our design team in Chandigarh creates stunning social media graphics, print materials, presentations, and ad creatives that combine aesthetic excellence with strategic communication to help brands worldwide engage their audiences effectively.",
     heroDescription: "From social media creatives to print materials, presentations to brand collateral — our design team creates visuals that are not just beautiful but strategically designed to communicate, engage, and convert your audience.",
@@ -871,7 +871,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "meta-ads": {
     slug: "meta-ads",
-    title: "Meta Ads",
+    title: "Meta Ads — Facebook & Instagram Advertising",
     tagline: "Reach your ideal audience on Facebook & Instagram.",
     description: "Expert Meta advertising management that drives real results on Facebook and Instagram. We create, optimise, and scale ad campaigns that generate leads, sales, and brand awareness through precision targeting and compelling creative.",
     heroDescription: "We turn Meta's powerful advertising platform into your growth engine. From audience targeting to creative production to conversion optimisation, we manage every aspect of your Facebook and Instagram advertising.",
@@ -915,7 +915,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "content-writing": {
     slug: "content-writing",
-    title: "Content Writing",
+    title: "Content Writing — SEO-Optimized Copy That Ranks",
     tagline: "Words that rank. Content that converts.",
     description: "Professional content writing services that drive organic traffic, engage your audience, and convert readers into customers. Our content team creates SEO-optimised blogs, website copy, articles, and marketing content that builds authority and delivers measurable business results.",
     heroDescription: "We create content that ranks on Google, engages your audience, and drives conversions. From blog posts and website copy to whitepapers and email sequences, every piece of content is strategically crafted to grow your business.",
@@ -959,7 +959,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "gmb-listing": {
     slug: "gmb-listing",
-    title: "GMB Listing",
+    title: "Google Business Profile — Dominate Local Search",
     tagline: "Dominate local search. Get found first.",
     description: "Expert Google My Business optimisation that puts your business at the top of local search results. We optimise, manage, and grow your GMB profile to drive foot traffic, calls, and local leads with proven local SEO strategies.",
     heroDescription: "We make your business the first thing people see in local search results. Our GMB optimisation services cover everything from profile setup and optimisation to review management and local SEO strategies that drive real-world customers to your door.",
@@ -1047,7 +1047,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "content-marketing": {
     slug: "content-marketing",
-    title: "Content Marketing",
+    title: "Content Marketing — Attract, Engage, Convert",
     tagline: "Attract. Engage. Convert.",
     description: "Strategic content marketing services that build brand authority, drive organic traffic, and generate qualified leads. Our content marketing team in Chandigarh develops comprehensive content strategies, creates high-value assets, and distributes them across the right channels to grow your audience and convert readers into customers worldwide.",
     heroDescription: "We build content engines that attract your ideal customers at every stage of the buying journey. From blog strategies and lead magnets to video content and case studies, we create content that earns attention, builds trust, and drives measurable business growth.",
@@ -1207,7 +1207,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "influencer-marketing": {
     slug: "influencer-marketing",
-    title: "Influencer Marketing",
+    title: "Influencer Marketing — Authentic Brand Partnerships",
     tagline: "Amplify your brand through authentic voices.",
     description: "Strategic influencer marketing campaigns that connect your brand with the right creators to reach engaged, targeted audiences at scale. Our influencer marketing team in Chandigarh identifies, vets, briefs, and manages influencer partnerships across Instagram, YouTube, and emerging platforms to drive awareness, conversions, and genuine brand affinity for businesses worldwide.",
     heroDescription: "We connect brands with the right influencers to create authentic, high-impact campaigns that reach new audiences and drive real results. From micro-influencer campaigns to celebrity partnerships, we manage the entire process — discovery, briefing, contracting, content approval, and performance reporting.",
@@ -1279,7 +1279,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "ppc-management": {
     slug: "ppc-management",
-    title: "PPC Management",
+    title: "PPC Management — Paid Search That Delivers ROI",
     tagline: "Every click. Every dollar. Maximised.",
     description: "Comprehensive pay-per-click management across Google, Meta, LinkedIn, and programmatic platforms that maximises your advertising ROI. Our certified PPC specialists in Chandigarh manage multi-platform ad campaigns with a data-driven approach to bidding, creative, and targeting that consistently delivers above-average returns for businesses across India and internationally.",
     heroDescription: "We manage your entire paid advertising portfolio across every platform — Google, Meta, LinkedIn, YouTube, and more. Our certified PPC specialists combine strategic planning with relentless optimisation to squeeze maximum ROI from every dollar of your ad budget.",
@@ -1351,7 +1351,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "online-reputation-management": {
     slug: "online-reputation-management",
-    title: "Online Reputation Management",
+    title: "Online Reputation Management — Protect Your Brand",
     tagline: "Protect, build, and control your digital narrative.",
     description: "Comprehensive online reputation management (ORM) services that protect your brand from negative content, build positive sentiment, and give you control over what appears when people search for your business. Our ORM specialists in Chandigarh monitor, manage, and improve the digital reputation of businesses and individuals across India and globally.",
     heroDescription: "Your online reputation is your most valuable business asset — and your most vulnerable. We monitor, protect, and build your digital reputation through proactive content strategies, review management, crisis response, and search result suppression that ensures your brand story is told on your terms.",
@@ -1431,7 +1431,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "conversion-rate-optimization": {
     slug: "conversion-rate-optimization",
-    title: "Conversion Rate Optimization",
+    title: "Conversion Rate Optimization — Turn Visitors Into Buyers",
     tagline: "More revenue from the traffic you already have.",
     description: "Data-driven conversion rate optimization (CRO) services that turn more of your existing website visitors into paying customers. Our CRO specialists in Chandigarh use user research, behavioural analytics, and structured A/B testing to systematically identify and remove the friction points costing your business revenue — without spending an additional dollar on traffic.",
     heroDescription: "Doubling your conversion rate is mathematically equivalent to doubling your traffic — but far cheaper. We identify exactly why visitors leave without converting and fix it through research-backed testing. Our CRO process delivers consistent, measurable improvements to your conversion rates, average order values, and revenue per visitor.",
@@ -1511,7 +1511,7 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "ecommerce-marketing": {
     slug: "ecommerce-marketing",
-    title: "E-Commerce Marketing",
+    title: "E-Commerce Marketing — Scale Your Online Store",
     tagline: "Grow your online store. Scale your revenue.",
     description: "End-to-end e-commerce marketing services that drive traffic, improve conversion rates, and build customer lifetime value for online stores. Our e-commerce specialists in Chandigarh manage the complete growth stack for Shopify, WooCommerce, and custom e-commerce businesses — from paid ads and SEO to email marketing and CRO — delivering sustainable revenue growth across India and internationally.",
     heroDescription: "We grow e-commerce brands with a full-funnel marketing approach. From acquiring new customers through Google Shopping and Meta Ads to converting them with optimised product pages, retaining them through email flows, and maximising their lifetime value — we manage the complete e-commerce growth engine.",

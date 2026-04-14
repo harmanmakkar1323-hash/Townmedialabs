@@ -104,7 +104,8 @@
       "Bash(wait)",
       "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/app/contact*/)",
       "Bash(npx eslint:*)",
-      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/data/*.bak)"
+      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/data/*.bak)",
+      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/*.md /Users/ramanmakkar/Desktop/tml-nextjs/*.log)"
     ],
     "deny": [],
     "additionalDirectories": [

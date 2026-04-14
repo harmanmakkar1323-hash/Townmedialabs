@@ -362,7 +362,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
       {/* Why Choose Us */}
       <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
         <div className="relative mx-auto max-w-7xl">
-          <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">Why Choose TML</p>
+          <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">Why Choose TML for {serviceName} in {cityName}</p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16">
             {getSectionHeading("whyChoose", serviceName, cityName, seed)}<span className="text-[#ff4500]">.</span>
           </h2>
@@ -392,7 +392,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
       {/* How We Work - Process Section */}
       <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
         <div className="relative mx-auto max-w-7xl">
-          <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">Our Process</p>
+          <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">Our {serviceName} Process in {cityName}</p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16">
             {getSectionHeading("process", serviceName, cityName, seed)}<span className="text-[#ff4500]">.</span>
           </h2>
@@ -451,7 +451,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
       {serviceData && (
         <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 bg-[#080808] overflow-hidden">
           <div className="relative mx-auto max-w-7xl">
-            <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">What We Offer</p>
+            <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">{serviceName} Services in {cityName}</p>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16">
               {getSectionHeading("services", serviceName, cityName, seed)}<span className="text-[#ff4500]">.</span>
             </h2>
@@ -490,7 +490,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
       {/* Our Expertise */}
       <section className="relative w-full px-6 py-16 md:py-24 lg:px-12 overflow-hidden">
         <div className="relative mx-auto max-w-7xl">
-          <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">Our Expertise</p>
+          <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4">{serviceName} Expertise in {cityName}</p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16">
             {getSectionHeading("trust", serviceName, cityName, seed)}<span className="text-[#ff4500]">.</span>
           </h2>
@@ -523,7 +523,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
         <div className="relative mx-auto max-w-5xl">
           {/* Section header */}
           <div className="flex items-center gap-4 mb-10">
-            <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase font-semibold">Local Expertise</p>
+            <p className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase font-semibold">{serviceName} Agency in {cityName}</p>
             <div className="flex-1 h-[1px] bg-white/[0.06]" />
           </div>
 
@@ -560,7 +560,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                 )}
                 {/* Content side */}
                 <div className={localImages[0] ? "md:w-[60%]" : "md:w-full"}>
-                  <h3 className="text-2xl sm:text-3xl font-medium text-white leading-tight mb-6">Your Local {serviceName} Partner<span className="text-[#ff4500]">.</span></h3>
+                  <h3 className="text-2xl sm:text-3xl font-medium text-white leading-tight mb-6">Your {serviceName} Partner in {cityName}<span className="text-[#ff4500]">.</span></h3>
                   <div className="space-y-5">
                     {enrichment?.localContent ? (
                       enrichment.localContent.map((p, i) => (
@@ -607,7 +607,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                 )}
                 {/* Content side */}
                 <div className={localImages[1] ? "md:w-[60%]" : "md:w-full"}>
-                  <h3 className="text-2xl sm:text-3xl font-medium text-white leading-tight mb-4">{cityName} Market Overview<span className="text-[#ff4500]">.</span></h3>
+                  <h3 className="text-2xl sm:text-3xl font-medium text-white leading-tight mb-4">{serviceName} Market in {cityName}<span className="text-[#ff4500]">.</span></h3>
                   {/* Inline industry tags */}
                   <div className="flex flex-wrap gap-2 mb-6">
                     {location.industries.slice(0, 6).map((industry, i) => (
@@ -654,7 +654,7 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
                   <span className="text-xs font-mono text-[#ff4500]/50 font-bold">{enrichment?.caseStudySnippet ? "04" : "03"}</span>
                   <div className="flex-1 h-[1px] bg-gradient-to-r from-[#ff4500]/20 to-transparent" />
                 </div>
-                <h3 className="text-2xl sm:text-3xl font-medium text-white leading-tight mb-8">What Makes {cityName} Unique<span className="text-[#ff4500]">.</span></h3>
+                <h3 className="text-2xl sm:text-3xl font-medium text-white leading-tight mb-8">Why {serviceName} Works Differently in {cityName}<span className="text-[#ff4500]">.</span></h3>
 
                 {/* Pull quote from first paragraph */}
                 <div className="mb-8 pl-6 border-l-2 border-[#ff4500]/40">

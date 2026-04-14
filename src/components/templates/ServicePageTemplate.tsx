@@ -403,7 +403,7 @@ export default function ServicePageTemplate({ data, extras }: { data: ServicePag
             transition={{ duration: 0.6, ease }}
             className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
           >
-            What We Offer
+            {data.title} Services We Offer
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -412,7 +412,7 @@ export default function ServicePageTemplate({ data, extras }: { data: ServicePag
             transition={{ duration: 0.7, ease }}
             className="text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16"
           >
-            Our {data.title} Services
+            Our {data.title} Services for Growing Businesses
             <span className="text-[#ff4500]">.</span>
           </motion.h2>
 
@@ -451,7 +451,7 @@ export default function ServicePageTemplate({ data, extras }: { data: ServicePag
                 transition={{ duration: 0.6, ease }}
                 className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase font-semibold"
               >
-                Why {data.title}
+                Why Choose {data.title} Services
               </motion.p>
               <motion.div initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} viewport={{ once: true }} transition={{ duration: 0.8, ease }} className="flex-1 h-[1px] bg-white/[0.06] origin-left" />
             </div>
@@ -463,7 +463,7 @@ export default function ServicePageTemplate({ data, extras }: { data: ServicePag
               transition={{ duration: 0.7, ease }}
               className="text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12"
             >
-              Why Your Business Needs {data.title}
+              Why Your Business Needs Professional {data.title} Services
               <span className="text-[#ff4500]">.</span>
             </motion.h2>
 
@@ -620,7 +620,7 @@ export default function ServicePageTemplate({ data, extras }: { data: ServicePag
             transition={{ duration: 0.6, ease }}
             className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4"
           >
-            Our Process
+            How Our {data.title} Agency Works
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -629,7 +629,7 @@ export default function ServicePageTemplate({ data, extras }: { data: ServicePag
             transition={{ duration: 0.7, ease }}
             className="text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16"
           >
-            How Our {data.title} Process Works
+            Our Proven {data.title} Process — Step by Step
             <span className="text-[#ff4500]">.</span>
           </motion.h2>
 
@@ -656,7 +656,7 @@ export default function ServicePageTemplate({ data, extras }: { data: ServicePag
             transition={{ duration: 0.6, ease }}
             className="text-[10px] md:text-xs text-white tracking-[0.25em] uppercase mb-4 text-center"
           >
-            FAQ
+            {data.title} FAQ
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -665,7 +665,7 @@ export default function ServicePageTemplate({ data, extras }: { data: ServicePag
             transition={{ duration: 0.7, ease }}
             className="text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 text-center"
           >
-            {data.title} Questions Answered
+            Frequently Asked {data.title} Questions
             <span className="text-[#ff4500]">.</span>
           </motion.h2>
 
