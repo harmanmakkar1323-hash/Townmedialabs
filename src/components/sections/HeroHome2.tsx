@@ -20,7 +20,7 @@ export default function HeroHome2() {
           loop
           playsInline
           poster="/hero-background.webp"
-          className="absolute inset-0 w-full h-full object-cover opacity-50 mix-blend-screen"
+          className="absolute inset-0 w-full h-full object-cover opacity-80"
         >
           <source src="/hero-showreel.mp4" type="video/mp4" />
         </video>
@@ -46,7 +46,7 @@ export default function HeroHome2() {
       />
 
       {/* Gradient fade from bottom to make text readable */}
-      <div className="absolute inset-0 z-[3] bg-gradient-to-t from-[#050505] via-[#050505]/80 to-transparent h-full"></div>
+      <div className="absolute inset-0 z-[3] bg-gradient-to-t from-[#050505] via-[#050505]/40 to-transparent h-full"></div>
 
       {/* Content Container */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-12 flex flex-col h-full">
