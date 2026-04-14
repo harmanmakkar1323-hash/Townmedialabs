@@ -12,17 +12,29 @@ export default function HeroHome2() {
     <section
       className="relative w-full h-screen min-h-[800px] flex flex-col justify-end overflow-hidden pb-16 pt-32 bg-[#111]"
     >
-      {/* Background Image layer */}
-      <div className="absolute inset-0 z-0 flex items-center justify-center">
-        <Image
-          src="/hero-background.webp"
-          alt="TML Agency creative team working on brand strategy"
-          fill
-          sizes="100vw"
-          className="object-cover object-center opacity-50 mix-blend-screen"
-          priority
-          fetchPriority="high"
-        />
+      {/* Background Video layer */}
+      <div className="absolute inset-0 z-0">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          poster="/hero-background.webp"
+          className="absolute inset-0 w-full h-full object-cover opacity-50 mix-blend-screen"
+        >
+          <source src="/hero-showreel.mp4" type="video/mp4" />
+        </video>
+        {/* Fallback image for SSR / no-JS */}
+        <noscript>
+          <Image
+            src="/hero-background.webp"
+            alt="TML Agency creative team working on brand strategy"
+            fill
+            sizes="100vw"
+            className="object-cover object-center opacity-50 mix-blend-screen"
+            priority
+          />
+        </noscript>
       </div>
 
       {/* Red/Orange Central Halo */}
