@@ -27,14 +27,14 @@ export const locationReviewMeta: LocationReviewMeta[] = [
   {
     id: "chandigarh",
     label: "Chandigarh HQ",
-    placeId: "REPLACE_WITH_CHANDIGARH_PLACE_ID",
+    placeId: "ChIJcxIu82HtDzkRyAW7GkhFwEE",
     rating: 4.9,
     reviewCount: 250,
   },
   {
     id: "edmonton",
     label: "Edmonton Office",
-    placeId: "REPLACE_WITH_EDMONTON_PLACE_ID",
+    placeId: "ChIJozGGr-0joFMRMSWW5nYx_ew",
     rating: 5.0,
     reviewCount: 100,
   },

@@ -32,12 +32,12 @@ const LOCATIONS = [
   {
     id: 'chandigarh',
     label: 'Chandigarh HQ',
-    placeId: process.env.CHANDIGARH_PLACE_ID || 'REPLACE_WITH_CHANDIGARH_PLACE_ID',
+    placeId: process.env.CHANDIGARH_PLACE_ID || 'ChIJcxIu82HtDzkRyAW7GkhFwEE',
   },
   {
     id: 'edmonton',
     label: 'Edmonton Office',
-    placeId: process.env.EDMONTON_PLACE_ID || 'REPLACE_WITH_EDMONTON_PLACE_ID',
+    placeId: process.env.EDMONTON_PLACE_ID || 'ChIJozGGr-0joFMRMSWW5nYx_ew',
   },
 ];
 
