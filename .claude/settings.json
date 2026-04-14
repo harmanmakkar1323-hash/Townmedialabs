@@ -114,7 +114,8 @@
     ],
     "deny": [],
     "additionalDirectories": [
-      "/Users/ramanmakkar/Desktop/tml-nextjs/2MEDIA"
+      "/Users/ramanmakkar/Desktop/tml-nextjs/2MEDIA",
+      "/Users/ramanmakkar/Desktop/tml-nextjs/src/app"
     ]
   },
   "hooks": {

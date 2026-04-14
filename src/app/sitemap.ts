@@ -28,6 +28,10 @@ function buildPages(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/`, lastModified: new Date("2026-04-13"), changeFrequency: "weekly", priority: 0.9 },
     { url: `${baseUrl}/portfolio/`, lastModified: new Date("2026-04-13"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${baseUrl}/digital-marketing-agency-chandigarh/`, lastModified: new Date("2026-04-13"), changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/digital-marketing-consultant-in-canada/`, lastModified: new Date("2026-04-14"), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/ppc-training-in-chandigarh/`, lastModified: new Date("2026-04-14"), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/seo-in-punjab/`, lastModified: new Date("2026-04-14"), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/social-media-marketing-expert-in-toronto/`, lastModified: new Date("2026-04-14"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/privacy-policy/`, lastModified: new Date("2025-06-01"), changeFrequency: "yearly", priority: 0.2 },
     { url: `${baseUrl}/terms-of-service/`, lastModified: new Date("2025-06-01"), changeFrequency: "yearly", priority: 0.2 },
   ];
