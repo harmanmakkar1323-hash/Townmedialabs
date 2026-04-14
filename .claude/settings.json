@@ -105,7 +105,12 @@
       "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/app/contact*/)",
       "Bash(npx eslint:*)",
       "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/data/*.bak)",
-      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/*.md /Users/ramanmakkar/Desktop/tml-nextjs/*.log)"
+      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/*.md /Users/ramanmakkar/Desktop/tml-nextjs/*.log)",
+      "WebFetch(domain:share.google)",
+      "WebFetch(domain:www.google.com)",
+      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/components/sections/Google* /Users/ramanmakkar/Desktop/tml-nextjs/src/components/sections/Review* /Users/ramanmakkar/Desktop/tml-nextjs/src/components/sections/Testimonial*)",
+      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/components/sections/Testimonial*)",
+      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/data/testimonials*)"
     ],
     "deny": [],
     "additionalDirectories": [

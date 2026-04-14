@@ -300,6 +300,14 @@ const localBusinessJsonLd = {
       },
     ],
   },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.9",
+    reviewCount: "350",
+    bestRating: "5",
+    worstRating: "1",
+    url: "https://www.google.com/maps/place/Townmedialabs/",
+  },
   review: [
     {
       "@type": "Review",

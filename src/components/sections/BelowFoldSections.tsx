@@ -27,6 +27,7 @@ const AboutHome2 = dynamic(() => import("@/components/sections/AboutHome2").then
 const ServicesHome2 = dynamic(() => import("@/components/sections/ServicesHome2").then((mod) => ({ default: mod.ServicesHome2 })), { loading: () => <SectionSkeleton height="h-[800px]" /> });
 const ProcessHome2 = dynamic(() => import("@/components/sections/ProcessHome2").then((mod) => ({ default: mod.ProcessHome2 })), { loading: () => <SectionSkeleton /> });
 const TestimonialsHome2 = dynamic(() => import("@/components/sections/TestimonialsHome2").then((mod) => ({ default: mod.TestimonialsHome2 })), { loading: () => <SectionSkeleton /> });
+const GoogleReviews = dynamic(() => import("@/components/sections/GoogleReviews").then((mod) => ({ default: mod.GoogleReviews })), { loading: () => <SectionSkeleton /> });
 const FAQHome2 = dynamic(() => import("@/components/sections/FAQHome2").then((mod) => ({ default: mod.FAQHome2 })), { loading: () => <SectionSkeleton height="h-[500px]" /> });
 
 // Client-only sections (non-SEO-critical) — excluded from SSR bundle for performance.
@@ -60,6 +61,7 @@ export default function BelowFoldSections() {
       {/* Group: Plans, Testimonials, FAQ, Life */}
       <div style={{ contentVisibility: 'auto', containIntrinsicSize: '0 2000px' }}>
         <CampaignPlans />
+        <GoogleReviews />
         <TestimonialsHome2 />
         <FAQHome2 />
         <LifeAtTML />
