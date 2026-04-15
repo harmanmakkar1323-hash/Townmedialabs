@@ -284,6 +284,20 @@ export default function LocationServiceTemplate({ location, serviceSlug, service
       {/* Stats — client island for animated counters */}
       {serviceData && <StatsSection stats={serviceData.stats} />}
 
+      {/* Keyword-rich intro — natural placement of search term variations */}
+      <section className="relative w-full px-6 py-12 md:py-16 lg:px-12">
+        <div className="relative mx-auto max-w-4xl">
+          <p className="text-sm md:text-[15px] text-white/70 leading-[1.9]">
+            Looking for the <strong className="text-white">best {serviceName.toLowerCase()} agency in {cityName}</strong>? TML is a top-rated{" "}
+            <strong className="text-white">{serviceName.toLowerCase()} company in {cityName}</strong> trusted by 500+ businesses. Our{" "}
+            <strong className="text-white">{serviceName.toLowerCase()} services in {cityName}</strong> cover everything from strategy to execution.
+            Whether you need an affordable <strong className="text-white">{serviceName.toLowerCase()} expert in {cityName}</strong> or a
+            full-service <strong className="text-white">{serviceName.toLowerCase()} firm in {cityName}</strong> — TML delivers real, measurable results
+            for businesses across {location.state}.
+          </p>
+        </div>
+      </section>
+
       {/* Group: Core content sections — Why Choose, Process, Features, Expertise */}
       <div className="contents">
 
