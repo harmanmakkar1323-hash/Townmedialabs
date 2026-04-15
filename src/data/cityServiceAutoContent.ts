@@ -77,16 +77,17 @@ function generateH1(
 ): string {
   const pool = getCountryPool(location.country);
 
-  // Simple, SEO-friendly patterns — template appends "in {cityName}" separately.
+  // SEO-friendly patterns — template appends "in {cityName}" separately.
+  // Includes "agency", "company", "services" variations for search coverage.
   const patterns = [
     `Best ${serviceName} Agency`,
-    `Top ${serviceName} Agency`,
-    `#1 ${serviceName} Agency`,
+    `Top ${serviceName} Company`,
+    `#1 ${serviceName} Services`,
     `Leading ${serviceName} Agency`,
-    `Trusted ${serviceName} Agency`,
     `Best ${serviceName} Company`,
-    `Top-Rated ${serviceName} Agency`,
-    `Professional ${serviceName} Agency`,
+    `Top-Rated ${serviceName} Services`,
+    `Best ${serviceName} Services`,
+    `Professional ${serviceName} Company`,
   ];
 
   return pick(patterns, seed);
