@@ -110,7 +110,9 @@
       "WebFetch(domain:www.google.com)",
       "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/components/sections/Google* /Users/ramanmakkar/Desktop/tml-nextjs/src/components/sections/Review* /Users/ramanmakkar/Desktop/tml-nextjs/src/components/sections/Testimonial*)",
       "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/components/sections/Testimonial*)",
-      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/data/testimonials*)"
+      "Bash(ls /Users/ramanmakkar/Desktop/tml-nextjs/src/data/testimonials*)",
+      "Bash(node /tmp/fix-service-template.mjs)",
+      "Bash(node /tmp/fix-braces.mjs)"
     ],
     "deny": [],
     "additionalDirectories": [
