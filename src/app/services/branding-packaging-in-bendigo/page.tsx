@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["bendigo"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Bendigo",
-  description: "TML offers expert Packaging Design services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Bendigo",
+  description: "Top-rated Packaging Design company in Bendigo. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design bendigo", "packaging design agency bendigo", "packaging design company bendigo"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-bendigo",
   },
   openGraph: {
-    title: "Packaging Design Agency in Bendigo",
-    description: "TML offers expert Packaging Design services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Bendigo",
+    description: "Top-rated Packaging Design company in Bendigo. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-bendigo",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Bendigo",
-    description: "TML offers expert Packaging Design services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Bendigo",
+    description: "Top-rated Packaging Design company in Bendigo. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

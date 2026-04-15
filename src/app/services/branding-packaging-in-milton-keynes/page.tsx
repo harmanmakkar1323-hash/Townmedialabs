@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["milton_keynes"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Milton Keynes",
-  description: "TML offers expert Packaging Design services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Milton Keynes",
+  description: "Top-rated Packaging Design company in Milton Keynes. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design milton keynes", "packaging design agency milton keynes", "packaging design company milton keynes"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-milton-keynes",
   },
   openGraph: {
-    title: "Packaging Design Agency in Milton Keynes",
-    description: "TML offers expert Packaging Design services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Milton Keynes",
+    description: "Top-rated Packaging Design company in Milton Keynes. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-milton-keynes",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Milton Keynes",
-    description: "TML offers expert Packaging Design services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Milton Keynes",
+    description: "Top-rated Packaging Design company in Milton Keynes. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

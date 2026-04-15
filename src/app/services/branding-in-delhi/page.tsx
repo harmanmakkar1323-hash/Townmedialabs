@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["delhi"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Delhi",
-  description: "TML offers expert Branding services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Delhi",
+  description: "Top-rated Branding company in Delhi. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding delhi", "branding agency delhi", "branding company delhi"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-delhi",
   },
   openGraph: {
-    title: "Branding Agency in Delhi",
-    description: "TML offers expert Branding services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Delhi",
+    description: "Top-rated Branding company in Delhi. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-delhi",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Delhi",
-    description: "TML offers expert Branding services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Delhi",
+    description: "Top-rated Branding company in Delhi. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

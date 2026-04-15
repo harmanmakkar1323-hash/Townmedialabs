@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["stoke_on_trent"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Stoke-on-Trent",
-  description: "TML offers expert Branding services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Stoke-on-Trent",
+  description: "Top-rated Branding company in Stoke-on-Trent. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding stoke-on-trent", "branding agency stoke-on-trent", "branding company stoke-on-trent"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-stoke-on-trent",
   },
   openGraph: {
-    title: "Branding Agency in Stoke-on-Trent",
-    description: "TML offers expert Branding services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Stoke-on-Trent",
+    description: "Top-rated Branding company in Stoke-on-Trent. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-stoke-on-trent",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Stoke-on-Trent",
-    description: "TML offers expert Branding services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Stoke-on-Trent",
+    description: "Top-rated Branding company in Stoke-on-Trent. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

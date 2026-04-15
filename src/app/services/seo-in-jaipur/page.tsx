@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["jaipur"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Jaipur",
-  description: "TML offers expert Search Engine Optimization services in Jaipur. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Jaipur",
+  description: "Top-rated SEO company in Jaipur. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization jaipur", "search engine optimization agency jaipur", "search engine optimization company jaipur"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-jaipur",
   },
   openGraph: {
-    title: "SEO Agency in Jaipur",
-    description: "TML offers expert Search Engine Optimization services in Jaipur. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Jaipur",
+    description: "Top-rated SEO company in Jaipur. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-jaipur",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Jaipur",
-    description: "TML offers expert Search Engine Optimization services in Jaipur. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Jaipur",
+    description: "Top-rated SEO company in Jaipur. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["perth"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Perth",
-  description: "TML offers expert Branding services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Perth",
+  description: "Top-rated Branding company in Perth. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding perth", "branding agency perth", "branding company perth"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-perth",
   },
   openGraph: {
-    title: "Branding Agency in Perth",
-    description: "TML offers expert Branding services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Perth",
+    description: "Top-rated Branding company in Perth. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-perth",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Perth",
-    description: "TML offers expert Branding services in Perth. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Perth",
+    description: "Top-rated Branding company in Perth. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

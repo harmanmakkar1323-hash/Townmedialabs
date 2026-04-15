@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["derby"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Derby",
-  description: "TML offers expert SEO services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Derby",
+  description: "Top-rated SEO company in Derby. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo derby", "seo agency derby", "seo company derby"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-derby",
   },
   openGraph: {
-    title: "SEO Agency in Derby",
-    description: "TML offers expert SEO services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Derby",
+    description: "Top-rated SEO company in Derby. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-derby",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Derby",
-    description: "TML offers expert SEO services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Derby",
+    description: "Top-rated SEO company in Derby. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

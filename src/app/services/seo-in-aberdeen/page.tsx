@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["aberdeen"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Aberdeen",
-  description: "TML offers expert SEO services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Aberdeen",
+  description: "Top-rated SEO company in Aberdeen. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo aberdeen", "seo agency aberdeen", "seo company aberdeen"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-aberdeen",
   },
   openGraph: {
-    title: "SEO Agency in Aberdeen",
-    description: "TML offers expert SEO services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Aberdeen",
+    description: "Top-rated SEO company in Aberdeen. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-aberdeen",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Aberdeen",
-    description: "TML offers expert SEO services in Aberdeen. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Aberdeen",
+    description: "Top-rated SEO company in Aberdeen. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

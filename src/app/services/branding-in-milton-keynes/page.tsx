@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["milton_keynes"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Milton Keynes",
-  description: "TML offers expert Branding services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Milton Keynes",
+  description: "Top-rated Branding company in Milton Keynes. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding milton keynes", "branding agency milton keynes", "branding company milton keynes"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-milton-keynes",
   },
   openGraph: {
-    title: "Branding Agency in Milton Keynes",
-    description: "TML offers expert Branding services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Milton Keynes",
+    description: "Top-rated Branding company in Milton Keynes. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-milton-keynes",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Milton Keynes",
-    description: "TML offers expert Branding services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Milton Keynes",
+    description: "Top-rated Branding company in Milton Keynes. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

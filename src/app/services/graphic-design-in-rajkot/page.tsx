@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["rajkot"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Rajkot",
-  description: "TML offers expert Graphic Design services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Graphic Design Agency in Rajkot",
+  description: "Top-rated Graphic Design company in Rajkot. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design rajkot", "graphic design agency rajkot", "graphic design company rajkot"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-rajkot",
   },
   openGraph: {
-    title: "Graphic Design Agency in Rajkot",
-    description: "TML offers expert Graphic Design services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Rajkot",
+    description: "Top-rated Graphic Design company in Rajkot. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-rajkot",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Rajkot",
-    description: "TML offers expert Graphic Design services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Rajkot",
+    description: "Top-rated Graphic Design company in Rajkot. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

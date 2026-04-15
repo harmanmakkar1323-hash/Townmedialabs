@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["dehradun"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Dehradun",
-  description: "TML offers expert Graphic Design services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Graphic Design Agency in Dehradun",
+  description: "Top-rated Graphic Design company in Dehradun. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design dehradun", "graphic design agency dehradun", "graphic design company dehradun"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-dehradun",
   },
   openGraph: {
-    title: "Graphic Design Agency in Dehradun",
-    description: "TML offers expert Graphic Design services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Dehradun",
+    description: "Top-rated Graphic Design company in Dehradun. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-dehradun",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Dehradun",
-    description: "TML offers expert Graphic Design services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Dehradun",
+    description: "Top-rated Graphic Design company in Dehradun. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

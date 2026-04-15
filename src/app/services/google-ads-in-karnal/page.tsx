@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["karnal"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Karnal",
-  description: "TML offers expert Google Ads management services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Karnal",
+  description: "Top-rated Google Ads company in Karnal. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["Google Ads management karnal", "Google Ads management agency karnal", "Google Ads management company karnal"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-karnal",
   },
   openGraph: {
-    title: "Google Ads Agency in Karnal",
-    description: "TML offers expert Google Ads management services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Karnal",
+    description: "Top-rated Google Ads company in Karnal. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-karnal",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Karnal",
-    description: "TML offers expert Google Ads management services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Karnal",
+    description: "Top-rated Google Ads company in Karnal. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

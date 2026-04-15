@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["leicester"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Leicester",
-  description: "TML offers expert Branding services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Leicester",
+  description: "Top-rated Branding company in Leicester. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding leicester", "branding agency leicester", "branding company leicester"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-leicester",
   },
   openGraph: {
-    title: "Branding Agency in Leicester",
-    description: "TML offers expert Branding services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Leicester",
+    description: "Top-rated Branding company in Leicester. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-leicester",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Leicester",
-    description: "TML offers expert Branding services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Leicester",
+    description: "Top-rated Branding company in Leicester. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

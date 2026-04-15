@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["indianapolis"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Indianapolis",
-  description: "TML offers expert Video Editing services in Indianapolis. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Indianapolis",
+  description: "Top-rated Video Editing company in Indianapolis. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing indianapolis", "video editing agency indianapolis", "video editing company indianapolis"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-indianapolis",
   },
   openGraph: {
-    title: "Video Editing Agency in Indianapolis",
-    description: "TML offers expert Video Editing services in Indianapolis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Indianapolis",
+    description: "Top-rated Video Editing company in Indianapolis. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-indianapolis",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Indianapolis",
-    description: "TML offers expert Video Editing services in Indianapolis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Indianapolis",
+    description: "Top-rated Video Editing company in Indianapolis. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

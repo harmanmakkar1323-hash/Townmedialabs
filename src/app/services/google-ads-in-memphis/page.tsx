@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["memphis"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Memphis",
-  description: "TML offers expert Google Ads services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Memphis",
+  description: "Top-rated Google Ads company in Memphis. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads memphis", "google ads agency memphis", "google ads company memphis"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-memphis",
   },
   openGraph: {
-    title: "Google Ads Agency in Memphis",
-    description: "TML offers expert Google Ads services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Memphis",
+    description: "Top-rated Google Ads company in Memphis. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-memphis",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Memphis",
-    description: "TML offers expert Google Ads services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Memphis",
+    description: "Top-rated Google Ads company in Memphis. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

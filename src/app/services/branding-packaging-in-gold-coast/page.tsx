@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["gold_coast"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Gold Coast",
-  description: "TML offers expert Packaging Design services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Gold Coast",
+  description: "Top-rated Packaging Design company in Gold Coast. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design gold coast", "packaging design agency gold coast", "packaging design company gold coast"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-gold-coast",
   },
   openGraph: {
-    title: "Packaging Design Agency in Gold Coast",
-    description: "TML offers expert Packaging Design services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Gold Coast",
+    description: "Top-rated Packaging Design company in Gold Coast. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-gold-coast",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Gold Coast",
-    description: "TML offers expert Packaging Design services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Gold Coast",
+    description: "Top-rated Packaging Design company in Gold Coast. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

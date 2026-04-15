@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["auckland"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Auckland",
-  description: "TML offers expert SEO services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Auckland",
+  description: "Top-rated SEO company in Auckland. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo auckland", "seo agency auckland", "seo company auckland"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-auckland",
   },
   openGraph: {
-    title: "SEO Agency in Auckland",
-    description: "TML offers expert SEO services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Auckland",
+    description: "Top-rated SEO company in Auckland. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-auckland",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Auckland",
-    description: "TML offers expert SEO services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Auckland",
+    description: "Top-rated SEO company in Auckland. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

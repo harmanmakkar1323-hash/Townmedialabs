@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["faridabad"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Faridabad",
-  description: "TML offers expert Branding services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Faridabad",
+  description: "Top-rated Branding company in Faridabad. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding faridabad", "branding agency faridabad", "branding company faridabad"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-faridabad",
   },
   openGraph: {
-    title: "Branding Agency in Faridabad",
-    description: "TML offers expert Branding services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Faridabad",
+    description: "Top-rated Branding company in Faridabad. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-faridabad",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Faridabad",
-    description: "TML offers expert Branding services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Faridabad",
+    description: "Top-rated Branding company in Faridabad. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

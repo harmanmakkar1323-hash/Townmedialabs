@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["middlesbrough"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Middlesbrough",
-  description: "TML offers expert Music Release services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Middlesbrough",
+  description: "Top-rated Music Release company in Middlesbrough. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release middlesbrough", "music release agency middlesbrough", "music release company middlesbrough"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-middlesbrough",
   },
   openGraph: {
-    title: "Music Release Agency in Middlesbrough",
-    description: "TML offers expert Music Release services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Middlesbrough",
+    description: "Top-rated Music Release company in Middlesbrough. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-middlesbrough",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Middlesbrough",
-    description: "TML offers expert Music Release services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Middlesbrough",
+    description: "Top-rated Music Release company in Middlesbrough. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

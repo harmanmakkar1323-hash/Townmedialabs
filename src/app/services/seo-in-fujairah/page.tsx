@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["fujairah"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Fujairah",
-  description: "TML offers expert SEO services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Fujairah",
+  description: "Top-rated SEO company in Fujairah. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo fujairah", "seo agency fujairah", "seo company fujairah"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-fujairah",
   },
   openGraph: {
-    title: "SEO Agency in Fujairah",
-    description: "TML offers expert SEO services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Fujairah",
+    description: "Top-rated SEO company in Fujairah. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-fujairah",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Fujairah",
-    description: "TML offers expert SEO services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Fujairah",
+    description: "Top-rated SEO company in Fujairah. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

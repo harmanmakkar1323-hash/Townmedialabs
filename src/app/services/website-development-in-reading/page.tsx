@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["reading"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Reading",
-  description: "TML offers expert Website Development services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Reading",
+  description: "Top-rated Website Development company in Reading. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development reading", "website development agency reading", "website development company reading"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-reading",
   },
   openGraph: {
-    title: "Website Development Agency in Reading",
-    description: "TML offers expert Website Development services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Reading",
+    description: "Top-rated Website Development company in Reading. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-reading",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Reading",
-    description: "TML offers expert Website Development services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Reading",
+    description: "Top-rated Website Development company in Reading. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

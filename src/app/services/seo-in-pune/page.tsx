@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["pune"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Pune",
-  description: "TML offers expert Search Engine Optimization services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Pune",
+  description: "Top-rated SEO company in Pune. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization pune", "search engine optimization agency pune", "search engine optimization company pune"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-pune",
   },
   openGraph: {
-    title: "SEO Agency in Pune",
-    description: "TML offers expert Search Engine Optimization services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Pune",
+    description: "Top-rated SEO company in Pune. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-pune",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Pune",
-    description: "TML offers expert Search Engine Optimization services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Pune",
+    description: "Top-rated SEO company in Pune. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

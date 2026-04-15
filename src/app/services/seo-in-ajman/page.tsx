@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["ajman"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Ajman",
-  description: "TML offers expert SEO services in Ajman. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Ajman",
+  description: "Top-rated SEO company in Ajman. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo ajman", "seo agency ajman", "seo company ajman"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-ajman",
   },
   openGraph: {
-    title: "SEO Agency in Ajman",
-    description: "TML offers expert SEO services in Ajman. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Ajman",
+    description: "Top-rated SEO company in Ajman. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-ajman",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Ajman",
-    description: "TML offers expert SEO services in Ajman. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Ajman",
+    description: "Top-rated SEO company in Ajman. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

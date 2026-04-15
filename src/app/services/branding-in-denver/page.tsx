@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["denver"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Denver",
-  description: "TML offers expert Branding services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Denver",
+  description: "Top-rated Branding company in Denver. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding denver", "branding agency denver", "branding company denver"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-denver",
   },
   openGraph: {
-    title: "Branding Agency in Denver",
-    description: "TML offers expert Branding services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Denver",
+    description: "Top-rated Branding company in Denver. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-denver",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Denver",
-    description: "TML offers expert Branding services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Denver",
+    description: "Top-rated Branding company in Denver. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

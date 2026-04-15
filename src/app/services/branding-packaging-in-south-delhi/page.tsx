@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["south_delhi"];
 
 export const metadata: Metadata = {
-  title: "Branding & Packaging Agency in South Delhi",
-  description: "TML offers expert Branding and Packaging services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding & Packaging Agency in South Delhi",
+  description: "Top-rated Branding & Packaging company in South Delhi. TML offers expert Branding & Packaging services for 500+ businesses. Get a free Branding & Packaging consultation today.",
   keywords: ["branding and packaging south delhi", "branding and packaging agency south delhi", "branding and packaging company south delhi"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-south-delhi",
   },
   openGraph: {
-    title: "Branding & Packaging Agency in South Delhi",
-    description: "TML offers expert Branding and Packaging services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding & Packaging Agency in South Delhi",
+    description: "Top-rated Branding & Packaging company in South Delhi. TML offers expert Branding & Packaging services for 500+ businesses. Get a free Branding & Packaging consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-south-delhi",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding & Packaging Agency in South Delhi",
-    description: "TML offers expert Branding and Packaging services in South Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding & Packaging Agency in South Delhi",
+    description: "Top-rated Branding & Packaging company in South Delhi. TML offers expert Branding & Packaging services for 500+ businesses. Get a free Branding & Packaging consultation today.",
     images: ["/og-image.png"],
   },
 };

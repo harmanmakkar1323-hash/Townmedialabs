@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["faridabad"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Faridabad",
-  description: "TML offers expert Search Engine Optimization services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Faridabad",
+  description: "Top-rated SEO company in Faridabad. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization faridabad", "search engine optimization agency faridabad", "search engine optimization company faridabad"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-faridabad",
   },
   openGraph: {
-    title: "SEO Agency in Faridabad",
-    description: "TML offers expert Search Engine Optimization services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Faridabad",
+    description: "Top-rated SEO company in Faridabad. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-faridabad",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Faridabad",
-    description: "TML offers expert Search Engine Optimization services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Faridabad",
+    description: "Top-rated SEO company in Faridabad. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

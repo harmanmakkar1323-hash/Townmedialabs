@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["delhi"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Delhi",
-  description: "TML offers expert SEO services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Delhi",
+  description: "Top-rated SEO company in Delhi. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo delhi", "seo agency delhi", "seo company delhi"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-delhi",
   },
   openGraph: {
-    title: "SEO Agency in Delhi",
-    description: "TML offers expert SEO services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Delhi",
+    description: "Top-rated SEO company in Delhi. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-delhi",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Delhi",
-    description: "TML offers expert SEO services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Delhi",
+    description: "Top-rated SEO company in Delhi. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

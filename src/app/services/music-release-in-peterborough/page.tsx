@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["peterborough"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Peterborough",
-  description: "TML offers expert Music Release services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Peterborough",
+  description: "Top-rated Music Release company in Peterborough. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release peterborough", "music release agency peterborough", "music release company peterborough"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-peterborough",
   },
   openGraph: {
-    title: "Music Release Agency in Peterborough",
-    description: "TML offers expert Music Release services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Peterborough",
+    description: "Top-rated Music Release company in Peterborough. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-peterborough",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Peterborough",
-    description: "TML offers expert Music Release services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Peterborough",
+    description: "Top-rated Music Release company in Peterborough. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

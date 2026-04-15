@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["preston"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Preston",
-  description: "TML offers expert Music Release services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Preston",
+  description: "Top-rated Music Release company in Preston. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release preston", "music release agency preston", "music release company preston"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-preston",
   },
   openGraph: {
-    title: "Music Release Agency in Preston",
-    description: "TML offers expert Music Release services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Preston",
+    description: "Top-rated Music Release company in Preston. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-preston",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Preston",
-    description: "TML offers expert Music Release services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Preston",
+    description: "Top-rated Music Release company in Preston. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

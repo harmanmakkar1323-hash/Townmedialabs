@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["kolkata"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Kolkata",
-  description: "TML offers expert Search Engine Optimization services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Kolkata",
+  description: "Top-rated SEO company in Kolkata. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization kolkata", "search engine optimization agency kolkata", "search engine optimization company kolkata"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-kolkata",
   },
   openGraph: {
-    title: "SEO Agency in Kolkata",
-    description: "TML offers expert Search Engine Optimization services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Kolkata",
+    description: "Top-rated SEO company in Kolkata. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-kolkata",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Kolkata",
-    description: "TML offers expert Search Engine Optimization services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Kolkata",
+    description: "Top-rated SEO company in Kolkata. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

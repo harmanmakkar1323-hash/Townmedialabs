@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["karnal"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Karnal",
-  description: "TML offers expert Search Engine Optimization services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Karnal",
+  description: "Top-rated SEO company in Karnal. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization karnal", "search engine optimization agency karnal", "search engine optimization company karnal"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-karnal",
   },
   openGraph: {
-    title: "SEO Agency in Karnal",
-    description: "TML offers expert Search Engine Optimization services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Karnal",
+    description: "Top-rated SEO company in Karnal. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-karnal",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Karnal",
-    description: "TML offers expert Search Engine Optimization services in Karnal. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Karnal",
+    description: "Top-rated SEO company in Karnal. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["queenstown"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Queenstown",
-  description: "TML offers expert Website Development services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best Website Development Agency in Queenstown",
+  description: "Top-rated Website Development company in Queenstown. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development queenstown", "website development agency queenstown", "website development queenstown nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-queenstown",
   },
   openGraph: {
-    title: "Website Development Agency in Queenstown",
-    description: "TML offers expert Website Development services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Website Development Agency in Queenstown",
+    description: "Top-rated Website Development company in Queenstown. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-queenstown",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Queenstown",
-    description: "TML offers expert Website Development services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Website Development Agency in Queenstown",
+    description: "Top-rated Website Development company in Queenstown. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

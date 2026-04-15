@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="100" fill="#1a1a2e"/>
+  <circle cx="100" cy="100" r="96" fill="url(#grad4)"/>
+  <!-- Hair - slick back -->
+  <path d="M60 80c0-30 18-50 40-50s40 20 40 50c0 0-8-25-40-25s-40 25-40 25z" fill="#1a1a1a"/>
+  <!-- Face -->
+  <ellipse cx="100" cy="95" rx="35" ry="39" fill="#c9956b"/>
+  <!-- Eyes -->
+  <ellipse cx="87" cy="89" rx="4" ry="4.5" fill="#1a1a1a"/>
+  <ellipse cx="113" cy="89" rx="4" ry="4.5" fill="#1a1a1a"/>
+  <circle cx="88.5" cy="88" r="1.5" fill="white"/>
+  <circle cx="114.5" cy="88" r="1.5" fill="white"/>
+  <!-- Eyebrows -->
+  <path d="M80 81c3-4 8-5 12-3" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M108 78c4-2 9-1 12 3" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Confident smile -->
+  <path d="M87 106c5 8 21 8 26 0" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Teeth hint -->
+  <path d="M92 107c3 3 13 3 16 0" fill="white" opacity="0.8"/>
+  <!-- Blazer -->
+  <path d="M55 148c0-18 20-25 45-25s45 7 45 25v52H55v-52z" fill="#1a1a3a"/>
+  <!-- Lapels -->
+  <path d="M85 123l15 20-5 2-15-18z" fill="#15152a"/>
+  <path d="M115 123l-15 20 5 2 15-18z" fill="#15152a"/>
+  <!-- Shirt -->
+  <path d="M93 123v10l7 5 7-5v-10" fill="white" opacity="0.9"/>
+  <!-- Tie -->
+  <rect x="98" y="133" width="4" height="15" rx="1" fill="#ff4500"/>
+  <defs>
+    <radialGradient id="grad4" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2a2a4a"/>
+      <stop offset="100%" stop-color="#0f0f1e"/>
+    </radialGradient>
+  </defs>
+</svg>

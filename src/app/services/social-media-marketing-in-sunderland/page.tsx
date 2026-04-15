@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["sunderland"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Sunderland",
-  description: "TML offers expert Social Media Marketing services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in Sunderland",
+  description: "Top-rated Social Media Marketing company in Sunderland. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing sunderland", "social media marketing agency sunderland", "social media marketing company sunderland"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-sunderland",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Sunderland",
-    description: "TML offers expert Social Media Marketing services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Sunderland",
+    description: "Top-rated Social Media Marketing company in Sunderland. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-sunderland",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Sunderland",
-    description: "TML offers expert Social Media Marketing services in Sunderland. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Sunderland",
+    description: "Top-rated Social Media Marketing company in Sunderland. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["virginia_beach"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Virginia Beach",
-  description: "TML offers expert Branding services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Virginia Beach",
+  description: "Top-rated Branding company in Virginia Beach. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding virginia beach", "branding agency virginia beach", "branding company virginia beach"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-virginia-beach",
   },
   openGraph: {
-    title: "Branding Agency in Virginia Beach",
-    description: "TML offers expert Branding services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Virginia Beach",
+    description: "Top-rated Branding company in Virginia Beach. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-virginia-beach",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Virginia Beach",
-    description: "TML offers expert Branding services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Virginia Beach",
+    description: "Top-rated Branding company in Virginia Beach. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

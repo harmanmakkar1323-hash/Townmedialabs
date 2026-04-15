@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["charlotte"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Charlotte",
-  description: "TML offers expert Music Release services in Charlotte. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Charlotte",
+  description: "Top-rated Music Release company in Charlotte. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release charlotte", "music release agency charlotte", "music release company charlotte"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-charlotte",
   },
   openGraph: {
-    title: "Music Release Agency in Charlotte",
-    description: "TML offers expert Music Release services in Charlotte. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Charlotte",
+    description: "Top-rated Music Release company in Charlotte. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-charlotte",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Charlotte",
-    description: "TML offers expert Music Release services in Charlotte. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Charlotte",
+    description: "Top-rated Music Release company in Charlotte. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

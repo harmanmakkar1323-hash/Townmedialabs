@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["mumbai"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Mumbai",
-  description: "TML offers expert SEO services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Mumbai",
+  description: "Top-rated SEO company in Mumbai. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo mumbai", "seo agency mumbai", "seo company mumbai"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-mumbai",
   },
   openGraph: {
-    title: "SEO Agency in Mumbai",
-    description: "TML offers expert SEO services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Mumbai",
+    description: "Top-rated SEO company in Mumbai. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-mumbai",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Mumbai",
-    description: "TML offers expert SEO services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Mumbai",
+    description: "Top-rated SEO company in Mumbai. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

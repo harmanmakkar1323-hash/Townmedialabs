@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["bhopal"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Bhopal",
-  description: "TML offers expert Search Engine Optimization services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Bhopal",
+  description: "Top-rated SEO company in Bhopal. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization bhopal", "search engine optimization agency bhopal", "search engine optimization company bhopal"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-bhopal",
   },
   openGraph: {
-    title: "SEO Agency in Bhopal",
-    description: "TML offers expert Search Engine Optimization services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Bhopal",
+    description: "Top-rated SEO company in Bhopal. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-bhopal",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Bhopal",
-    description: "TML offers expert Search Engine Optimization services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Bhopal",
+    description: "Top-rated SEO company in Bhopal. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

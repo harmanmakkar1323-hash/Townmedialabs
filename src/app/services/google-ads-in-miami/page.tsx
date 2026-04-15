@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["miami"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Miami",
-  description: "TML offers expert Google Ads services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Miami",
+  description: "Top-rated Google Ads company in Miami. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads miami", "google ads agency miami", "google ads company miami"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-miami",
   },
   openGraph: {
-    title: "Google Ads Agency in Miami",
-    description: "TML offers expert Google Ads services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Miami",
+    description: "Top-rated Google Ads company in Miami. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-miami",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Miami",
-    description: "TML offers expert Google Ads services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Miami",
+    description: "Top-rated Google Ads company in Miami. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

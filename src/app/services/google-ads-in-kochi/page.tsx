@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["kochi"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Kochi",
-  description: "TML offers expert Google Ads management services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Kochi",
+  description: "Top-rated Google Ads company in Kochi. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["Google Ads management kochi", "Google Ads management agency kochi", "Google Ads management company kochi"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-kochi",
   },
   openGraph: {
-    title: "Google Ads Agency in Kochi",
-    description: "TML offers expert Google Ads management services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Kochi",
+    description: "Top-rated Google Ads company in Kochi. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-kochi",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Kochi",
-    description: "TML offers expert Google Ads management services in Kochi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Kochi",
+    description: "Top-rated Google Ads company in Kochi. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["san_diego"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in San Diego",
-  description: "TML offers expert Social Media Marketing services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in San Diego",
+  description: "Top-rated Social Media Marketing company in San Diego. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing san diego", "social media marketing agency san diego", "social media marketing company san diego"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-san-diego",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in San Diego",
-    description: "TML offers expert Social Media Marketing services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in San Diego",
+    description: "Top-rated Social Media Marketing company in San Diego. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-san-diego",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in San Diego",
-    description: "TML offers expert Social Media Marketing services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in San Diego",
+    description: "Top-rated Social Media Marketing company in San Diego. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

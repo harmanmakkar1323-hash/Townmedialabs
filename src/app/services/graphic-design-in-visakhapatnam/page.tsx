@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["visakhapatnam"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Visakhapatnam",
-  description: "TML offers expert Graphic Design services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Graphic Design Agency in Visakhapatnam",
+  description: "Top-rated Graphic Design company in Visakhapatnam. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design visakhapatnam", "graphic design agency visakhapatnam", "graphic design company visakhapatnam"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-visakhapatnam",
   },
   openGraph: {
-    title: "Graphic Design Agency in Visakhapatnam",
-    description: "TML offers expert Graphic Design services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Visakhapatnam",
+    description: "Top-rated Graphic Design company in Visakhapatnam. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-visakhapatnam",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Visakhapatnam",
-    description: "TML offers expert Graphic Design services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Visakhapatnam",
+    description: "Top-rated Graphic Design company in Visakhapatnam. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

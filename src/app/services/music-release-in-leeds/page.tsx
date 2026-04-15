@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["leeds"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Leeds",
-  description: "TML offers expert Music Release services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Leeds",
+  description: "Top-rated Music Release company in Leeds. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release leeds", "music release agency leeds", "music release company leeds"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-leeds",
   },
   openGraph: {
-    title: "Music Release Agency in Leeds",
-    description: "TML offers expert Music Release services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Leeds",
+    description: "Top-rated Music Release company in Leeds. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-leeds",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Leeds",
-    description: "TML offers expert Music Release services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Leeds",
+    description: "Top-rated Music Release company in Leeds. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

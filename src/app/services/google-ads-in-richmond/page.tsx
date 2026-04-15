@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["richmond"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Richmond",
-  description: "TML offers expert Google Ads services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Richmond",
+  description: "Top-rated Google Ads company in Richmond. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads richmond", "google ads agency richmond", "google ads company richmond"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-richmond",
   },
   openGraph: {
-    title: "Google Ads Agency in Richmond",
-    description: "TML offers expert Google Ads services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Richmond",
+    description: "Top-rated Google Ads company in Richmond. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-richmond",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Richmond",
-    description: "TML offers expert Google Ads services in Richmond. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Richmond",
+    description: "Top-rated Google Ads company in Richmond. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

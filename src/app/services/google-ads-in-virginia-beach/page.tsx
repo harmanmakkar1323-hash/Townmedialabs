@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["virginia_beach"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Virginia Beach",
-  description: "TML offers expert Google Ads services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Virginia Beach",
+  description: "Top-rated Google Ads company in Virginia Beach. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads virginia beach", "google ads agency virginia beach", "google ads company virginia beach"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-virginia-beach",
   },
   openGraph: {
-    title: "Google Ads Agency in Virginia Beach",
-    description: "TML offers expert Google Ads services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Virginia Beach",
+    description: "Top-rated Google Ads company in Virginia Beach. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-virginia-beach",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Virginia Beach",
-    description: "TML offers expert Google Ads services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Virginia Beach",
+    description: "Top-rated Google Ads company in Virginia Beach. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

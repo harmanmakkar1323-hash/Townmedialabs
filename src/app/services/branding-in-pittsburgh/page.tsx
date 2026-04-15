@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["pittsburgh"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Pittsburgh",
-  description: "TML offers expert Branding services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Pittsburgh",
+  description: "Top-rated Branding company in Pittsburgh. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding pittsburgh", "branding agency pittsburgh", "branding company pittsburgh"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-pittsburgh",
   },
   openGraph: {
-    title: "Branding Agency in Pittsburgh",
-    description: "TML offers expert Branding services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Pittsburgh",
+    description: "Top-rated Branding company in Pittsburgh. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-pittsburgh",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Pittsburgh",
-    description: "TML offers expert Branding services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Pittsburgh",
+    description: "Top-rated Branding company in Pittsburgh. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

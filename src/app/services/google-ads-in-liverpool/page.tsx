@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["liverpool"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Liverpool",
-  description: "TML offers expert Google Ads services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Liverpool",
+  description: "Top-rated Google Ads company in Liverpool. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads liverpool", "google ads agency liverpool", "google ads company liverpool"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-liverpool",
   },
   openGraph: {
-    title: "Google Ads Agency in Liverpool",
-    description: "TML offers expert Google Ads services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Liverpool",
+    description: "Top-rated Google Ads company in Liverpool. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-liverpool",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Liverpool",
-    description: "TML offers expert Google Ads services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Liverpool",
+    description: "Top-rated Google Ads company in Liverpool. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

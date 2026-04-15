@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["leicester"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Leicester",
-  description: "TML offers expert Music Release services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Leicester",
+  description: "Top-rated Music Release company in Leicester. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release leicester", "music release agency leicester", "music release company leicester"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-leicester",
   },
   openGraph: {
-    title: "Music Release Agency in Leicester",
-    description: "TML offers expert Music Release services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Leicester",
+    description: "Top-rated Music Release company in Leicester. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-leicester",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Leicester",
-    description: "TML offers expert Music Release services in Leicester. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Leicester",
+    description: "Top-rated Music Release company in Leicester. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

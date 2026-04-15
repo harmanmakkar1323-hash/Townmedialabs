@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["sacramento"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Sacramento",
-  description: "TML offers expert Branding services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Sacramento",
+  description: "Top-rated Branding company in Sacramento. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding sacramento", "branding agency sacramento", "branding company sacramento"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-sacramento",
   },
   openGraph: {
-    title: "Branding Agency in Sacramento",
-    description: "TML offers expert Branding services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Sacramento",
+    description: "Top-rated Branding company in Sacramento. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-sacramento",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Sacramento",
-    description: "TML offers expert Branding services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Sacramento",
+    description: "Top-rated Branding company in Sacramento. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

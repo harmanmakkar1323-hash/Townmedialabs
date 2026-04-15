@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["detroit"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Detroit",
-  description: "TML offers expert Graphic Design services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Graphic Design Agency in Detroit",
+  description: "Top-rated Graphic Design company in Detroit. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design detroit", "graphic design agency detroit", "graphic design company detroit"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-detroit",
   },
   openGraph: {
-    title: "Graphic Design Agency in Detroit",
-    description: "TML offers expert Graphic Design services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Detroit",
+    description: "Top-rated Graphic Design company in Detroit. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-detroit",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Detroit",
-    description: "TML offers expert Graphic Design services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Detroit",
+    description: "Top-rated Graphic Design company in Detroit. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

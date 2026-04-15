@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["new_york"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in New York",
-  description: "TML offers expert Lead Generation services in New York. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Lead Generation Agency in New York",
+  description: "Top-rated Lead Generation company in New York. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation new york", "lead generation agency new york", "lead generation company new york"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-new-york",
   },
   openGraph: {
-    title: "Lead Generation Agency in New York",
-    description: "TML offers expert Lead Generation services in New York. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in New York",
+    description: "Top-rated Lead Generation company in New York. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-new-york",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in New York",
-    description: "TML offers expert Lead Generation services in New York. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in New York",
+    description: "Top-rated Lead Generation company in New York. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

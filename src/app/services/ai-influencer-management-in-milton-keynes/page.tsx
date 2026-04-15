@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["milton_keynes"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Milton Keynes",
-  description: "TML offers expert AI Influencer Management services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Milton Keynes",
+  description: "Top-rated AI Influencer Management company in Milton Keynes. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management milton keynes", "ai influencer management agency milton keynes", "ai influencer management company milton keynes"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-milton-keynes",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Milton Keynes",
-    description: "TML offers expert AI Influencer Management services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Milton Keynes",
+    description: "Top-rated AI Influencer Management company in Milton Keynes. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-milton-keynes",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Milton Keynes",
-    description: "TML offers expert AI Influencer Management services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Milton Keynes",
+    description: "Top-rated AI Influencer Management company in Milton Keynes. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["ambala"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Ambala",
-  description: "TML offers expert Google Ads management services in Ambala. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Ambala",
+  description: "Top-rated Google Ads company in Ambala. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["Google Ads management ambala", "Google Ads management agency ambala", "Google Ads management company ambala"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-ambala",
   },
   openGraph: {
-    title: "Google Ads Agency in Ambala",
-    description: "TML offers expert Google Ads management services in Ambala. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Ambala",
+    description: "Top-rated Google Ads company in Ambala. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-ambala",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Ambala",
-    description: "TML offers expert Google Ads management services in Ambala. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Ambala",
+    description: "Top-rated Google Ads company in Ambala. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

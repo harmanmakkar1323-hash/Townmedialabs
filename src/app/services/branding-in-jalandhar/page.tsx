@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["jalandhar"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Jalandhar",
-  description: "TML offers expert Branding services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Jalandhar",
+  description: "Top-rated Branding company in Jalandhar. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding jalandhar", "branding agency jalandhar", "branding company jalandhar"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-jalandhar",
   },
   openGraph: {
-    title: "Branding Agency in Jalandhar",
-    description: "TML offers expert Branding services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Jalandhar",
+    description: "Top-rated Branding company in Jalandhar. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-jalandhar",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Jalandhar",
-    description: "TML offers expert Branding services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Jalandhar",
+    description: "Top-rated Branding company in Jalandhar. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

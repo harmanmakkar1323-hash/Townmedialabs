@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["pune"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Pune",
-  description: "TML offers expert Social Media Marketing services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in Pune",
+  description: "Top-rated Social Media Marketing company in Pune. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing pune", "social media marketing agency pune", "social media marketing company pune"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-pune",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Pune",
-    description: "TML offers expert Social Media Marketing services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Pune",
+    description: "Top-rated Social Media Marketing company in Pune. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-pune",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Pune",
-    description: "TML offers expert Social Media Marketing services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Pune",
+    description: "Top-rated Social Media Marketing company in Pune. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["panchkula"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Panchkula",
-  description: "TML offers expert Search Engine Optimization services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Panchkula",
+  description: "Top-rated SEO company in Panchkula. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization panchkula", "search engine optimization agency panchkula", "search engine optimization company panchkula"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-panchkula",
   },
   openGraph: {
-    title: "SEO Agency in Panchkula",
-    description: "TML offers expert Search Engine Optimization services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Panchkula",
+    description: "Top-rated SEO company in Panchkula. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-panchkula",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Panchkula",
-    description: "TML offers expert Search Engine Optimization services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Panchkula",
+    description: "Top-rated SEO company in Panchkula. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

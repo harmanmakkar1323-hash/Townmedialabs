@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["sydney"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Sydney",
-  description: "TML offers expert Packaging Design services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Sydney",
+  description: "Top-rated Packaging Design company in Sydney. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design sydney", "packaging design agency sydney", "packaging design company sydney"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-sydney",
   },
   openGraph: {
-    title: "Packaging Design Agency in Sydney",
-    description: "TML offers expert Packaging Design services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Sydney",
+    description: "Top-rated Packaging Design company in Sydney. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-sydney",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Sydney",
-    description: "TML offers expert Packaging Design services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Sydney",
+    description: "Top-rated Packaging Design company in Sydney. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

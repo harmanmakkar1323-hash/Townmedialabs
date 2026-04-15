@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["adelaide"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Adelaide",
-  description: "TML offers expert Graphic Design services in Adelaide. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Graphic Design Agency in Adelaide",
+  description: "Top-rated Graphic Design company in Adelaide. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design adelaide", "graphic design agency adelaide", "graphic design company adelaide"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-adelaide",
   },
   openGraph: {
-    title: "Graphic Design Agency in Adelaide",
-    description: "TML offers expert Graphic Design services in Adelaide. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Adelaide",
+    description: "Top-rated Graphic Design company in Adelaide. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-adelaide",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Adelaide",
-    description: "TML offers expert Graphic Design services in Adelaide. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Adelaide",
+    description: "Top-rated Graphic Design company in Adelaide. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

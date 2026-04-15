@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["wellington"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Wellington",
-  description: "TML offers expert AI Influencer Management services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Wellington",
+  description: "Top-rated AI Influencer Management company in Wellington. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management wellington", "ai influencer management agency wellington", "ai influencer management wellington nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-wellington",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Wellington",
-    description: "TML offers expert AI Influencer Management services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Wellington",
+    description: "Top-rated AI Influencer Management company in Wellington. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-wellington",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Wellington",
-    description: "TML offers expert AI Influencer Management services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Wellington",
+    description: "Top-rated AI Influencer Management company in Wellington. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

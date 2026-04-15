@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["milton_keynes"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Milton Keynes",
-  description: "TML offers expert Google Ads services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Milton Keynes",
+  description: "Top-rated Google Ads company in Milton Keynes. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads milton keynes", "google ads agency milton keynes", "google ads company milton keynes"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-milton-keynes",
   },
   openGraph: {
-    title: "Google Ads Agency in Milton Keynes",
-    description: "TML offers expert Google Ads services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Milton Keynes",
+    description: "Top-rated Google Ads company in Milton Keynes. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-milton-keynes",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Milton Keynes",
-    description: "TML offers expert Google Ads services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Milton Keynes",
+    description: "Top-rated Google Ads company in Milton Keynes. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

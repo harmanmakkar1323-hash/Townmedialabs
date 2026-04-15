@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["bournemouth"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Bournemouth",
-  description: "TML offers expert Music Release services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Bournemouth",
+  description: "Top-rated Music Release company in Bournemouth. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release bournemouth", "music release agency bournemouth", "music release company bournemouth"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-bournemouth",
   },
   openGraph: {
-    title: "Music Release Agency in Bournemouth",
-    description: "TML offers expert Music Release services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Bournemouth",
+    description: "Top-rated Music Release company in Bournemouth. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-bournemouth",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Bournemouth",
-    description: "TML offers expert Music Release services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Bournemouth",
+    description: "Top-rated Music Release company in Bournemouth. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["zirakpur"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Zirakpur",
-  description: "TML offers expert Packaging Design services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Zirakpur",
+  description: "Top-rated Packaging Design company in Zirakpur. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design zirakpur", "packaging design agency zirakpur", "packaging design company zirakpur"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-zirakpur",
   },
   openGraph: {
-    title: "Packaging Design Agency in Zirakpur",
-    description: "TML offers expert Packaging Design services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Zirakpur",
+    description: "Top-rated Packaging Design company in Zirakpur. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-zirakpur",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Zirakpur",
-    description: "TML offers expert Packaging Design services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Zirakpur",
+    description: "Top-rated Packaging Design company in Zirakpur. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

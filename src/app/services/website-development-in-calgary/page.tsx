@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["calgary"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Calgary",
-  description: "TML offers expert Website Development services in Calgary, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Calgary",
+  description: "Top-rated Website Development company in Calgary. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development calgary", "website development agency calgary"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-calgary",
   },
   openGraph: {
-    title: "Website Development Agency in Calgary",
-    description: "TML offers expert Website Development services in Calgary, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Calgary",
+    description: "Top-rated Website Development company in Calgary. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-calgary",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Calgary",
-    description: "TML offers expert Website Development services in Calgary, Alberta. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Calgary",
+    description: "Top-rated Website Development company in Calgary. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

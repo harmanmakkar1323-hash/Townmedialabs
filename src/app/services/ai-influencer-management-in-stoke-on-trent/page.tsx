@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["stoke_on_trent"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Stoke-on-Trent",
-  description: "TML offers expert AI Influencer Management services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Stoke-on-Trent",
+  description: "Top-rated AI Influencer Management company in Stoke-on-Trent. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management stoke-on-trent", "ai influencer management agency stoke-on-trent", "ai influencer management company stoke-on-trent"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-stoke-on-trent",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Stoke-on-Trent",
-    description: "TML offers expert AI Influencer Management services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Stoke-on-Trent",
+    description: "Top-rated AI Influencer Management company in Stoke-on-Trent. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-stoke-on-trent",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Stoke-on-Trent",
-    description: "TML offers expert AI Influencer Management services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Stoke-on-Trent",
+    description: "Top-rated AI Influencer Management company in Stoke-on-Trent. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

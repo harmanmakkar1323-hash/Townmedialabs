@@ -1,22 +1,20 @@
 import type { Metadata } from "next";
 import { locations } from "@/data/locations";
-import { getCityServiceContent } from "@/data/cityServiceContent";
 import LocationServicePage from "@/components/templates/LocationServicePage";
 
 const location = locations["chandigarh"];
-const enrichment = getCityServiceContent("social-media", "chandigarh");
 
 export const metadata: Metadata = {
-  title: enrichment?.metaTitle || "Best Social Media Marketing Agency in Chandigarh",
-  description: enrichment?.metaDescription || "TML offers expert Social Media Marketing services in Chandigarh. Proven results for 500+ businesses.",
-  keywords: enrichment?.keywords || ["social-media chandigarh"],
+  title: "Best Social Media Marketing Agency in Chandigarh",
+  description: "Top-rated social media marketing company in Chandigarh. TML offers expert social media marketing services for 500+ businesses across Punjab. Get a free social media marketing consultation today.",
+  keywords: ["best social media marketing agency chandigarh", "social media marketing company chandigarh", "social media marketing services chandigarh", "best social media marketing chandigarh", "top social media marketing agency chandigarh"],
   alternates: {
-    canonical: "https://townmedialabs.com/services/social-media-marketing-in-chandigarh",
+    canonical: "https://townmedialabs.com/services/social-media-marketing-in-chandigarh/",
   },
   openGraph: {
-    title: enrichment?.metaTitle || "Best Social Media Marketing Agency in Chandigarh",
-    description: enrichment?.metaDescription || "TML offers expert Social Media Marketing services in Chandigarh. Proven results for 500+ businesses.",
-    url: "https://townmedialabs.com/services/social-media-marketing-in-chandigarh",
+    title: "Best Social Media Marketing Agency in Chandigarh",
+    description: "Top-rated social media marketing company in Chandigarh. TML offers expert social media marketing services for 500+ businesses across Punjab. Get a free social media marketing consultation today.",
+    url: "https://townmedialabs.com/services/social-media-marketing-in-chandigarh/",
     siteName: "TML Agency",
     type: "website",
     locale: "en_IN",
@@ -25,12 +23,11 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: enrichment?.metaTitle || "Best Social Media Marketing Agency in Chandigarh",
-    description: enrichment?.metaDescription || "TML offers expert Social Media Marketing services in Chandigarh. Proven results for 500+ businesses.",
+    title: "Best Social Media Marketing Agency in Chandigarh",
+    description: "Top-rated social media marketing company in Chandigarh. TML offers expert social media marketing services for 500+ businesses across Punjab. Get a free social media marketing consultation today.",
     images: ["/og-image.png"],
   },
 };
-
 export default function UsocialUmediaUmarketingUinUchandigarhPage() {
   return (
     <LocationServicePage

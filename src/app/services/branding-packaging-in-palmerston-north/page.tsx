@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["palmerston_north"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Palmerston North",
-  description: "TML offers expert Packaging Design services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Palmerston North",
+  description: "Top-rated Packaging Design company in Palmerston North. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design palmerston north", "packaging design agency palmerston north", "packaging design palmerston north nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-palmerston-north",
   },
   openGraph: {
-    title: "Packaging Design Agency in Palmerston North",
-    description: "TML offers expert Packaging Design services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Palmerston North",
+    description: "Top-rated Packaging Design company in Palmerston North. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-palmerston-north",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Palmerston North",
-    description: "TML offers expert Packaging Design services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Palmerston North",
+    description: "Top-rated Packaging Design company in Palmerston North. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

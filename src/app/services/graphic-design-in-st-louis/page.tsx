@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["st_louis"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in St. Louis",
-  description: "TML offers expert Graphic Design services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Graphic Design Agency in St. Louis",
+  description: "Top-rated Graphic Design company in St. Louis. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design st. louis", "graphic design agency st. louis", "graphic design company st. louis"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-st-louis",
   },
   openGraph: {
-    title: "Graphic Design Agency in St. Louis",
-    description: "TML offers expert Graphic Design services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in St. Louis",
+    description: "Top-rated Graphic Design company in St. Louis. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-st-louis",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in St. Louis",
-    description: "TML offers expert Graphic Design services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in St. Louis",
+    description: "Top-rated Graphic Design company in St. Louis. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

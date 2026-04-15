@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["hamilton"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Hamilton",
-  description: "TML offers expert Branding services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+  title: "Best Branding Agency in Hamilton",
+  description: "Top-rated Branding company in Hamilton. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding hamilton", "branding agency hamilton", "branding hamilton ontario"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-hamilton",
   },
   openGraph: {
-    title: "Branding Agency in Hamilton",
-    description: "TML offers expert Branding services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+    title: "Best Branding Agency in Hamilton",
+    description: "Top-rated Branding company in Hamilton. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-hamilton",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Hamilton",
-    description: "TML offers expert Branding services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+    title: "Best Branding Agency in Hamilton",
+    description: "Top-rated Branding company in Hamilton. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

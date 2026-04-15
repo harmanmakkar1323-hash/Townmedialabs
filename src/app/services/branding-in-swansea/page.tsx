@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["swansea"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Swansea",
-  description: "TML offers expert Branding services in Swansea. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Swansea",
+  description: "Top-rated Branding company in Swansea. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding swansea", "branding agency swansea", "branding company swansea"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-swansea",
   },
   openGraph: {
-    title: "Branding Agency in Swansea",
-    description: "TML offers expert Branding services in Swansea. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Swansea",
+    description: "Top-rated Branding company in Swansea. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-swansea",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Swansea",
-    description: "TML offers expert Branding services in Swansea. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Swansea",
+    description: "Top-rated Branding company in Swansea. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["canberra"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Canberra",
-  description: "TML offers expert Music Release services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Canberra",
+  description: "Top-rated Music Release company in Canberra. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release canberra", "music release agency canberra", "music release company canberra"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-canberra",
   },
   openGraph: {
-    title: "Music Release Agency in Canberra",
-    description: "TML offers expert Music Release services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Canberra",
+    description: "Top-rated Music Release company in Canberra. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-canberra",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Canberra",
-    description: "TML offers expert Music Release services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Canberra",
+    description: "Top-rated Music Release company in Canberra. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

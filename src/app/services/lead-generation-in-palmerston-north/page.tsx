@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["palmerston_north"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Palmerston North",
-  description: "TML offers expert Lead Generation services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Palmerston North",
+  description: "Top-rated Lead Generation company in Palmerston North. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation palmerston north", "lead generation agency palmerston north", "lead generation palmerston north nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-palmerston-north",
   },
   openGraph: {
-    title: "Lead Generation Agency in Palmerston North",
-    description: "TML offers expert Lead Generation services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Palmerston North",
+    description: "Top-rated Lead Generation company in Palmerston North. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-palmerston-north",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Palmerston North",
-    description: "TML offers expert Lead Generation services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Palmerston North",
+    description: "Top-rated Lead Generation company in Palmerston North. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

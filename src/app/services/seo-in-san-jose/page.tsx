@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["san_jose"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in San Jose",
-  description: "TML offers expert SEO services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in San Jose",
+  description: "Top-rated SEO company in San Jose. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo san jose", "seo agency san jose", "seo company san jose"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-san-jose",
   },
   openGraph: {
-    title: "SEO Agency in San Jose",
-    description: "TML offers expert SEO services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in San Jose",
+    description: "Top-rated SEO company in San Jose. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-san-jose",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in San Jose",
-    description: "TML offers expert SEO services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in San Jose",
+    description: "Top-rated SEO company in San Jose. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

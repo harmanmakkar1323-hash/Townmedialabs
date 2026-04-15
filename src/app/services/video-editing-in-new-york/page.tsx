@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["new_york"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in New York",
-  description: "TML offers expert Video Editing services in New York. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in New York",
+  description: "Top-rated Video Editing company in New York. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing new york", "video editing agency new york", "video editing company new york"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-new-york",
   },
   openGraph: {
-    title: "Video Editing Agency in New York",
-    description: "TML offers expert Video Editing services in New York. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in New York",
+    description: "Top-rated Video Editing company in New York. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-new-york",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in New York",
-    description: "TML offers expert Video Editing services in New York. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in New York",
+    description: "Top-rated Video Editing company in New York. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

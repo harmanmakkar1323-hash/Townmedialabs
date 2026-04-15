@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["derabassi"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Derabassi",
-  description: "TML offers expert Lead Generation services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Derabassi",
+  description: "Top-rated Lead Generation company in Derabassi. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation derabassi", "lead generation agency derabassi", "lead generation company derabassi"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-derabassi",
   },
   openGraph: {
-    title: "Lead Generation Agency in Derabassi",
-    description: "TML offers expert Lead Generation services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Derabassi",
+    description: "Top-rated Lead Generation company in Derabassi. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-derabassi",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Derabassi",
-    description: "TML offers expert Lead Generation services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Derabassi",
+    description: "Top-rated Lead Generation company in Derabassi. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

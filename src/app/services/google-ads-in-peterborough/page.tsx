@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["peterborough"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Peterborough",
-  description: "TML offers expert Google Ads services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Peterborough",
+  description: "Top-rated Google Ads company in Peterborough. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads peterborough", "google ads agency peterborough", "google ads company peterborough"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-peterborough",
   },
   openGraph: {
-    title: "Google Ads Agency in Peterborough",
-    description: "TML offers expert Google Ads services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Peterborough",
+    description: "Top-rated Google Ads company in Peterborough. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-peterborough",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Peterborough",
-    description: "TML offers expert Google Ads services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Peterborough",
+    description: "Top-rated Google Ads company in Peterborough. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["salt_lake_city"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Salt Lake City",
-  description: "TML offers expert Music Release services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Salt Lake City",
+  description: "Top-rated Music Release company in Salt Lake City. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release salt lake city", "music release agency salt lake city", "music release company salt lake city"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-salt-lake-city",
   },
   openGraph: {
-    title: "Music Release Agency in Salt Lake City",
-    description: "TML offers expert Music Release services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Salt Lake City",
+    description: "Top-rated Music Release company in Salt Lake City. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-salt-lake-city",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Salt Lake City",
-    description: "TML offers expert Music Release services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Salt Lake City",
+    description: "Top-rated Music Release company in Salt Lake City. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

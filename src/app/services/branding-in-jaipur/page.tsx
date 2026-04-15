@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["jaipur"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Jaipur",
-  description: "TML offers expert Branding services in Jaipur. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Jaipur",
+  description: "Top-rated Branding company in Jaipur. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding jaipur", "branding agency jaipur", "branding company jaipur"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-jaipur",
   },
   openGraph: {
-    title: "Branding Agency in Jaipur",
-    description: "TML offers expert Branding services in Jaipur. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Jaipur",
+    description: "Top-rated Branding company in Jaipur. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-jaipur",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Jaipur",
-    description: "TML offers expert Branding services in Jaipur. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Jaipur",
+    description: "Top-rated Branding company in Jaipur. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

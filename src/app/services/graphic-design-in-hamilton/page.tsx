@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["hamilton"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Hamilton",
-  description: "TML offers expert Graphic Design services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+  title: "Best Graphic Design Agency in Hamilton",
+  description: "Top-rated Graphic Design company in Hamilton. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design hamilton", "graphic design agency hamilton", "graphic design hamilton ontario"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-hamilton",
   },
   openGraph: {
-    title: "Graphic Design Agency in Hamilton",
-    description: "TML offers expert Graphic Design services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Hamilton",
+    description: "Top-rated Graphic Design company in Hamilton. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-hamilton",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Hamilton",
-    description: "TML offers expert Graphic Design services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Hamilton",
+    description: "Top-rated Graphic Design company in Hamilton. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

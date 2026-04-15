@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["fujairah"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Fujairah",
-  description: "TML offers expert Packaging Design services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Fujairah",
+  description: "Top-rated Packaging Design company in Fujairah. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design fujairah", "packaging design agency fujairah", "packaging design company fujairah"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-fujairah",
   },
   openGraph: {
-    title: "Packaging Design Agency in Fujairah",
-    description: "TML offers expert Packaging Design services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Fujairah",
+    description: "Top-rated Packaging Design company in Fujairah. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-fujairah",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Fujairah",
-    description: "TML offers expert Packaging Design services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Fujairah",
+    description: "Top-rated Packaging Design company in Fujairah. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["cheltenham"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Cheltenham",
-  description: "TML offers expert Graphic Design services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Graphic Design Agency in Cheltenham",
+  description: "Top-rated Graphic Design company in Cheltenham. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design cheltenham", "graphic design agency cheltenham", "graphic design company cheltenham"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-cheltenham",
   },
   openGraph: {
-    title: "Graphic Design Agency in Cheltenham",
-    description: "TML offers expert Graphic Design services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Cheltenham",
+    description: "Top-rated Graphic Design company in Cheltenham. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-cheltenham",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Cheltenham",
-    description: "TML offers expert Graphic Design services in Cheltenham. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Cheltenham",
+    description: "Top-rated Graphic Design company in Cheltenham. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

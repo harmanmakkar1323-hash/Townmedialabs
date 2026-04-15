@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["seattle"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Seattle",
-  description: "TML offers expert Google Ads services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Seattle",
+  description: "Top-rated Google Ads company in Seattle. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads seattle", "google ads agency seattle", "google ads company seattle"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-seattle",
   },
   openGraph: {
-    title: "Google Ads Agency in Seattle",
-    description: "TML offers expert Google Ads services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Seattle",
+    description: "Top-rated Google Ads company in Seattle. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-seattle",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Seattle",
-    description: "TML offers expert Google Ads services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Seattle",
+    description: "Top-rated Google Ads company in Seattle. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

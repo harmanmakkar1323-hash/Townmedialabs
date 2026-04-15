@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["ambala"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Ambala",
-  description: "TML offers expert AI Influencer Management services in Ambala. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Ambala",
+  description: "Top-rated AI Influencer Management company in Ambala. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["AI influencer management ambala", "AI influencer management agency ambala", "AI influencer management company ambala"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-ambala",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Ambala",
-    description: "TML offers expert AI Influencer Management services in Ambala. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Ambala",
+    description: "Top-rated AI Influencer Management company in Ambala. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-ambala",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Ambala",
-    description: "TML offers expert AI Influencer Management services in Ambala. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Ambala",
+    description: "Top-rated AI Influencer Management company in Ambala. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

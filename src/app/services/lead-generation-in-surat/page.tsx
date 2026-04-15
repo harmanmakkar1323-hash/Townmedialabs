@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["surat"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Surat",
-  description: "TML offers expert Lead Generation services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Surat",
+  description: "Top-rated Lead Generation company in Surat. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation surat", "lead generation agency surat", "lead generation company surat"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-surat",
   },
   openGraph: {
-    title: "Lead Generation Agency in Surat",
-    description: "TML offers expert Lead Generation services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Surat",
+    description: "Top-rated Lead Generation company in Surat. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-surat",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Surat",
-    description: "TML offers expert Lead Generation services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Surat",
+    description: "Top-rated Lead Generation company in Surat. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

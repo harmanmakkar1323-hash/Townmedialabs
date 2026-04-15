@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["noida"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Noida",
-  description: "TML offers expert Video Editing services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Noida",
+  description: "Top-rated Video Editing company in Noida. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing noida", "video editing agency noida", "video editing company noida"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-noida",
   },
   openGraph: {
-    title: "Video Editing Agency in Noida",
-    description: "TML offers expert Video Editing services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Noida",
+    description: "Top-rated Video Editing company in Noida. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-noida",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Noida",
-    description: "TML offers expert Video Editing services in Noida. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Noida",
+    description: "Top-rated Video Editing company in Noida. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

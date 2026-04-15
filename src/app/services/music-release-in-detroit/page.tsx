@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["detroit"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Detroit",
-  description: "TML offers expert Music Release services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Detroit",
+  description: "Top-rated Music Release company in Detroit. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release detroit", "music release agency detroit", "music release company detroit"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-detroit",
   },
   openGraph: {
-    title: "Music Release Agency in Detroit",
-    description: "TML offers expert Music Release services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Detroit",
+    description: "Top-rated Music Release company in Detroit. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-detroit",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Detroit",
-    description: "TML offers expert Music Release services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Detroit",
+    description: "Top-rated Music Release company in Detroit. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

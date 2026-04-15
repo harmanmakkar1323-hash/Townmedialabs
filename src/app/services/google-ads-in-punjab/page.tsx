@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["punjab"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Punjab",
-  description: "TML offers expert Google Ads services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Punjab",
+  description: "Top-rated Google Ads company in Punjab. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads punjab", "google ads agency punjab", "google ads company punjab"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-punjab",
   },
   openGraph: {
-    title: "Google Ads Agency in Punjab",
-    description: "TML offers expert Google Ads services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Punjab",
+    description: "Top-rated Google Ads company in Punjab. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-punjab",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Punjab",
-    description: "TML offers expert Google Ads services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Punjab",
+    description: "Top-rated Google Ads company in Punjab. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

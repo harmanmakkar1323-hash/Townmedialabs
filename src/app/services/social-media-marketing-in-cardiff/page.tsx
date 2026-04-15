@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["cardiff"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Cardiff",
-  description: "TML offers expert Social Media Marketing services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in Cardiff",
+  description: "Top-rated Social Media Marketing company in Cardiff. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing cardiff", "social media marketing agency cardiff", "social media marketing company cardiff"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-cardiff",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Cardiff",
-    description: "TML offers expert Social Media Marketing services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Cardiff",
+    description: "Top-rated Social Media Marketing company in Cardiff. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-cardiff",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Cardiff",
-    description: "TML offers expert Social Media Marketing services in Cardiff. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Cardiff",
+    description: "Top-rated Social Media Marketing company in Cardiff. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

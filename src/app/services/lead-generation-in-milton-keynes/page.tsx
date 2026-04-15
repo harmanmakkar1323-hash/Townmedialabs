@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["milton_keynes"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Milton Keynes",
-  description: "TML offers expert Lead Generation services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Milton Keynes",
+  description: "Top-rated Lead Generation company in Milton Keynes. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation milton keynes", "lead generation agency milton keynes", "lead generation company milton keynes"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-milton-keynes",
   },
   openGraph: {
-    title: "Lead Generation Agency in Milton Keynes",
-    description: "TML offers expert Lead Generation services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Milton Keynes",
+    description: "Top-rated Lead Generation company in Milton Keynes. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-milton-keynes",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Milton Keynes",
-    description: "TML offers expert Lead Generation services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Milton Keynes",
+    description: "Top-rated Lead Generation company in Milton Keynes. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

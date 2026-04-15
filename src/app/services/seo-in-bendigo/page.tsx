@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["bendigo"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Bendigo",
-  description: "TML offers expert SEO services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Bendigo",
+  description: "Top-rated SEO company in Bendigo. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo bendigo", "seo agency bendigo", "seo company bendigo"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-bendigo",
   },
   openGraph: {
-    title: "SEO Agency in Bendigo",
-    description: "TML offers expert SEO services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Bendigo",
+    description: "Top-rated SEO company in Bendigo. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-bendigo",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Bendigo",
-    description: "TML offers expert SEO services in Bendigo. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Bendigo",
+    description: "Top-rated SEO company in Bendigo. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

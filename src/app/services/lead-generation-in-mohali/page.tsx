@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["mohali"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Mohali",
-  description: "TML offers expert Lead Generation services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Mohali",
+  description: "Top-rated Lead Generation company in Mohali. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation mohali", "lead generation agency mohali", "lead generation company mohali"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-mohali",
   },
   openGraph: {
-    title: "Lead Generation Agency in Mohali",
-    description: "TML offers expert Lead Generation services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Mohali",
+    description: "Top-rated Lead Generation company in Mohali. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-mohali",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Mohali",
-    description: "TML offers expert Lead Generation services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Mohali",
+    description: "Top-rated Lead Generation company in Mohali. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

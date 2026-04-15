@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["chennai"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Chennai",
-  description: "TML offers expert Search Engine Optimization services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Chennai",
+  description: "Top-rated SEO company in Chennai. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization chennai", "search engine optimization agency chennai", "search engine optimization company chennai"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-chennai",
   },
   openGraph: {
-    title: "SEO Agency in Chennai",
-    description: "TML offers expert Search Engine Optimization services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Chennai",
+    description: "Top-rated SEO company in Chennai. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-chennai",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Chennai",
-    description: "TML offers expert Search Engine Optimization services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Chennai",
+    description: "Top-rated SEO company in Chennai. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

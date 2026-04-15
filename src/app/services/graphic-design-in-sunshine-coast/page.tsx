@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["sunshine_coast"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Sunshine Coast",
-  description: "TML offers expert Graphic Design services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Graphic Design Agency in Sunshine Coast",
+  description: "Top-rated Graphic Design company in Sunshine Coast. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design sunshine coast", "graphic design agency sunshine coast", "graphic design company sunshine coast"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-sunshine-coast",
   },
   openGraph: {
-    title: "Graphic Design Agency in Sunshine Coast",
-    description: "TML offers expert Graphic Design services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Sunshine Coast",
+    description: "Top-rated Graphic Design company in Sunshine Coast. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-sunshine-coast",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Sunshine Coast",
-    description: "TML offers expert Graphic Design services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Sunshine Coast",
+    description: "Top-rated Graphic Design company in Sunshine Coast. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

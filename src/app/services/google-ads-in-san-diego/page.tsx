@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["san_diego"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in San Diego",
-  description: "TML offers expert Google Ads services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in San Diego",
+  description: "Top-rated Google Ads company in San Diego. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads san diego", "google ads agency san diego", "google ads company san diego"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-san-diego",
   },
   openGraph: {
-    title: "Google Ads Agency in San Diego",
-    description: "TML offers expert Google Ads services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in San Diego",
+    description: "Top-rated Google Ads company in San Diego. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-san-diego",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in San Diego",
-    description: "TML offers expert Google Ads services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in San Diego",
+    description: "Top-rated Google Ads company in San Diego. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

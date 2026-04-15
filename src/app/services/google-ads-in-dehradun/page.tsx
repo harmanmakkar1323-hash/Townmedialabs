@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["dehradun"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Dehradun",
-  description: "TML offers expert Google Ads management services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Dehradun",
+  description: "Top-rated Google Ads company in Dehradun. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["Google Ads management dehradun", "Google Ads management agency dehradun", "Google Ads management company dehradun"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-dehradun",
   },
   openGraph: {
-    title: "Google Ads Agency in Dehradun",
-    description: "TML offers expert Google Ads management services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Dehradun",
+    description: "Top-rated Google Ads company in Dehradun. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-dehradun",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Dehradun",
-    description: "TML offers expert Google Ads management services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Dehradun",
+    description: "Top-rated Google Ads company in Dehradun. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

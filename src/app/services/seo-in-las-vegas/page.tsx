@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["las_vegas"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Las Vegas",
-  description: "TML offers expert SEO services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Las Vegas",
+  description: "Top-rated SEO company in Las Vegas. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo las vegas", "seo agency las vegas", "seo company las vegas"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-las-vegas",
   },
   openGraph: {
-    title: "SEO Agency in Las Vegas",
-    description: "TML offers expert SEO services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Las Vegas",
+    description: "Top-rated SEO company in Las Vegas. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-las-vegas",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Las Vegas",
-    description: "TML offers expert SEO services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Las Vegas",
+    description: "Top-rated SEO company in Las Vegas. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["columbus_oh"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Columbus",
-  description: "TML offers expert Google Ads services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Columbus",
+  description: "Top-rated Google Ads company in Columbus. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads columbus", "google ads agency columbus", "google ads company columbus"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-columbus-oh",
   },
   openGraph: {
-    title: "Google Ads Agency in Columbus",
-    description: "TML offers expert Google Ads services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Columbus",
+    description: "Top-rated Google Ads company in Columbus. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-columbus-oh",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Columbus",
-    description: "TML offers expert Google Ads services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Columbus",
+    description: "Top-rated Google Ads company in Columbus. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

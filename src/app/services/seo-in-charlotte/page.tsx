@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["charlotte"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Charlotte",
-  description: "TML offers expert SEO services in Charlotte. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Charlotte",
+  description: "Top-rated SEO company in Charlotte. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo charlotte", "seo agency charlotte", "seo company charlotte"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-charlotte",
   },
   openGraph: {
-    title: "SEO Agency in Charlotte",
-    description: "TML offers expert SEO services in Charlotte. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Charlotte",
+    description: "Top-rated SEO company in Charlotte. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-charlotte",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Charlotte",
-    description: "TML offers expert SEO services in Charlotte. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Charlotte",
+    description: "Top-rated SEO company in Charlotte. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

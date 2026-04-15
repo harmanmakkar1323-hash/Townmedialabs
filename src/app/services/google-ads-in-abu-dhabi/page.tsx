@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["abu_dhabi"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Abu Dhabi",
-  description: "TML offers expert Google Ads services in Abu Dhabi. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Abu Dhabi",
+  description: "Top-rated Google Ads company in Abu Dhabi. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads abu dhabi", "google ads agency abu dhabi", "google ads company abu dhabi"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-abu-dhabi",
   },
   openGraph: {
-    title: "Google Ads Agency in Abu Dhabi",
-    description: "TML offers expert Google Ads services in Abu Dhabi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Abu Dhabi",
+    description: "Top-rated Google Ads company in Abu Dhabi. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-abu-dhabi",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Abu Dhabi",
-    description: "TML offers expert Google Ads services in Abu Dhabi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Abu Dhabi",
+    description: "Top-rated Google Ads company in Abu Dhabi. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

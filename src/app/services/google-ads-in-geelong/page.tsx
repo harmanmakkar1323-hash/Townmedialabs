@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["geelong"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Geelong",
-  description: "TML offers expert Google Ads services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Geelong",
+  description: "Top-rated Google Ads company in Geelong. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads geelong", "google ads agency geelong", "google ads company geelong"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-geelong",
   },
   openGraph: {
-    title: "Google Ads Agency in Geelong",
-    description: "TML offers expert Google Ads services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Geelong",
+    description: "Top-rated Google Ads company in Geelong. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-geelong",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Geelong",
-    description: "TML offers expert Google Ads services in Geelong. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Geelong",
+    description: "Top-rated Google Ads company in Geelong. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

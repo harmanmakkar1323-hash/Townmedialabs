@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["leeds"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Leeds",
-  description: "TML offers expert Branding services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Leeds",
+  description: "Top-rated Branding company in Leeds. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding leeds", "branding agency leeds", "branding company leeds"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-leeds",
   },
   openGraph: {
-    title: "Branding Agency in Leeds",
-    description: "TML offers expert Branding services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Leeds",
+    description: "Top-rated Branding company in Leeds. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-leeds",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Leeds",
-    description: "TML offers expert Branding services in Leeds. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Leeds",
+    description: "Top-rated Branding company in Leeds. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

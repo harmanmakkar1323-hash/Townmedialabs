@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["wellington"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Wellington",
-  description: "TML offers expert Packaging Design services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Wellington",
+  description: "Top-rated Packaging Design company in Wellington. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design wellington", "packaging design agency wellington", "packaging design wellington nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-wellington",
   },
   openGraph: {
-    title: "Packaging Design Agency in Wellington",
-    description: "TML offers expert Packaging Design services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Wellington",
+    description: "Top-rated Packaging Design company in Wellington. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-wellington",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Wellington",
-    description: "TML offers expert Packaging Design services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Wellington",
+    description: "Top-rated Packaging Design company in Wellington. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

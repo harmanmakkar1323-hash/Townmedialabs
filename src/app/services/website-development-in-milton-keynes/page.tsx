@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["milton_keynes"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Milton Keynes",
-  description: "TML offers expert Website Development services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Milton Keynes",
+  description: "Top-rated Website Development company in Milton Keynes. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development milton keynes", "website development agency milton keynes", "website development company milton keynes"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-milton-keynes",
   },
   openGraph: {
-    title: "Website Development Agency in Milton Keynes",
-    description: "TML offers expert Website Development services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Milton Keynes",
+    description: "Top-rated Website Development company in Milton Keynes. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-milton-keynes",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Milton Keynes",
-    description: "TML offers expert Website Development services in Milton Keynes. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Milton Keynes",
+    description: "Top-rated Website Development company in Milton Keynes. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

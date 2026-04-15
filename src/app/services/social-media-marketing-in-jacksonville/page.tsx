@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["jacksonville"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Jacksonville",
-  description: "TML offers expert Social Media Marketing services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in Jacksonville",
+  description: "Top-rated Social Media Marketing company in Jacksonville. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing jacksonville", "social media marketing agency jacksonville", "social media marketing company jacksonville"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-jacksonville",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Jacksonville",
-    description: "TML offers expert Social Media Marketing services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Jacksonville",
+    description: "Top-rated Social Media Marketing company in Jacksonville. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-jacksonville",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Jacksonville",
-    description: "TML offers expert Social Media Marketing services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Jacksonville",
+    description: "Top-rated Social Media Marketing company in Jacksonville. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

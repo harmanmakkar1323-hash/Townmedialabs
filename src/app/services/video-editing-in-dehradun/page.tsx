@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["dehradun"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Dehradun",
-  description: "TML offers expert Video Editing services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Dehradun",
+  description: "Top-rated Video Editing company in Dehradun. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing dehradun", "video editing agency dehradun", "video editing company dehradun"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-dehradun",
   },
   openGraph: {
-    title: "Video Editing Agency in Dehradun",
-    description: "TML offers expert Video Editing services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Dehradun",
+    description: "Top-rated Video Editing company in Dehradun. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-dehradun",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Dehradun",
-    description: "TML offers expert Video Editing services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Dehradun",
+    description: "Top-rated Video Editing company in Dehradun. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

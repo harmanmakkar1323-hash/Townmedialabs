@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["manchester"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Manchester",
-  description: "TML offers expert Branding services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Manchester",
+  description: "Top-rated Branding company in Manchester. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding manchester", "branding agency manchester", "branding company manchester"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-manchester",
   },
   openGraph: {
-    title: "Branding Agency in Manchester",
-    description: "TML offers expert Branding services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Manchester",
+    description: "Top-rated Branding company in Manchester. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-manchester",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Manchester",
-    description: "TML offers expert Branding services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Manchester",
+    description: "Top-rated Branding company in Manchester. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

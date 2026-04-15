@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["nashville"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Nashville",
-  description: "TML offers expert Google Ads services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Nashville",
+  description: "Top-rated Google Ads company in Nashville. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads nashville", "google ads agency nashville", "google ads company nashville"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-nashville",
   },
   openGraph: {
-    title: "Google Ads Agency in Nashville",
-    description: "TML offers expert Google Ads services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Nashville",
+    description: "Top-rated Google Ads company in Nashville. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-nashville",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Nashville",
-    description: "TML offers expert Google Ads services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Nashville",
+    description: "Top-rated Google Ads company in Nashville. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

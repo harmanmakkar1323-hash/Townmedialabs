@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["chennai"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Chennai",
-  description: "TML offers expert Music Release and Distribution services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Chennai",
+  description: "Top-rated Music Release company in Chennai. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release and distribution chennai", "music release and distribution agency chennai", "music release and distribution company chennai"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-chennai",
   },
   openGraph: {
-    title: "Music Release Agency in Chennai",
-    description: "TML offers expert Music Release and Distribution services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Chennai",
+    description: "Top-rated Music Release company in Chennai. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-chennai",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Chennai",
-    description: "TML offers expert Music Release and Distribution services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Chennai",
+    description: "Top-rated Music Release company in Chennai. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

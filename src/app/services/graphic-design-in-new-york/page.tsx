@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["new_york"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in New York",
-  description: "TML offers expert Graphic Design services in New York. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Graphic Design Agency in New York",
+  description: "Top-rated Graphic Design company in New York. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design new york", "graphic design agency new york", "graphic design company new york"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-new-york",
   },
   openGraph: {
-    title: "Graphic Design Agency in New York",
-    description: "TML offers expert Graphic Design services in New York. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in New York",
+    description: "Top-rated Graphic Design company in New York. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-new-york",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in New York",
-    description: "TML offers expert Graphic Design services in New York. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in New York",
+    description: "Top-rated Graphic Design company in New York. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

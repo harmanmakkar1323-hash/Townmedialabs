@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["san_antonio"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in San Antonio",
-  description: "TML offers expert Branding services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in San Antonio",
+  description: "Top-rated Branding company in San Antonio. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding san antonio", "branding agency san antonio", "branding company san antonio"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-san-antonio",
   },
   openGraph: {
-    title: "Branding Agency in San Antonio",
-    description: "TML offers expert Branding services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in San Antonio",
+    description: "Top-rated Branding company in San Antonio. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-san-antonio",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in San Antonio",
-    description: "TML offers expert Branding services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in San Antonio",
+    description: "Top-rated Branding company in San Antonio. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

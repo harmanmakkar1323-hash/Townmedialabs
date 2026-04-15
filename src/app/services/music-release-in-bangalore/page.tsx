@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["bangalore"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Bangalore",
-  description: "TML offers expert Music Release and Distribution services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Bangalore",
+  description: "Top-rated Music Release company in Bangalore. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release and distribution bangalore", "music release and distribution agency bangalore", "music release and distribution company bangalore"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-bangalore",
   },
   openGraph: {
-    title: "Music Release Agency in Bangalore",
-    description: "TML offers expert Music Release and Distribution services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Bangalore",
+    description: "Top-rated Music Release company in Bangalore. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-bangalore",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Bangalore",
-    description: "TML offers expert Music Release and Distribution services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Bangalore",
+    description: "Top-rated Music Release company in Bangalore. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

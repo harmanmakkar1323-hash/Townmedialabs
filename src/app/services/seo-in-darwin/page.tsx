@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["darwin"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Darwin",
-  description: "TML offers expert SEO services in Darwin. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Darwin",
+  description: "Top-rated SEO company in Darwin. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo darwin", "seo agency darwin", "seo company darwin"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-darwin",
   },
   openGraph: {
-    title: "SEO Agency in Darwin",
-    description: "TML offers expert SEO services in Darwin. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Darwin",
+    description: "Top-rated SEO company in Darwin. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-darwin",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Darwin",
-    description: "TML offers expert SEO services in Darwin. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Darwin",
+    description: "Top-rated SEO company in Darwin. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

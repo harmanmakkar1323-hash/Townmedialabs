@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["vadodara"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Vadodara",
-  description: "TML offers expert Branding services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Vadodara",
+  description: "Top-rated Branding company in Vadodara. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding vadodara", "branding agency vadodara", "branding company vadodara"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-vadodara",
   },
   openGraph: {
-    title: "Branding Agency in Vadodara",
-    description: "TML offers expert Branding services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Vadodara",
+    description: "Top-rated Branding company in Vadodara. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-vadodara",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Vadodara",
-    description: "TML offers expert Branding services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Vadodara",
+    description: "Top-rated Branding company in Vadodara. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

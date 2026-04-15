@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["ambala"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Ambala",
-  description: "TML offers expert Search Engine Optimization services in Ambala. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Ambala",
+  description: "Top-rated SEO company in Ambala. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization ambala", "search engine optimization agency ambala", "search engine optimization company ambala"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-ambala",
   },
   openGraph: {
-    title: "SEO Agency in Ambala",
-    description: "TML offers expert Search Engine Optimization services in Ambala. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Ambala",
+    description: "Top-rated SEO company in Ambala. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-ambala",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Ambala",
-    description: "TML offers expert Search Engine Optimization services in Ambala. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Ambala",
+    description: "Top-rated SEO company in Ambala. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

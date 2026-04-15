@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["milwaukee"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Milwaukee",
-  description: "TML offers expert Branding services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Milwaukee",
+  description: "Top-rated Branding company in Milwaukee. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding milwaukee", "branding agency milwaukee", "branding company milwaukee"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-milwaukee",
   },
   openGraph: {
-    title: "Branding Agency in Milwaukee",
-    description: "TML offers expert Branding services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Milwaukee",
+    description: "Top-rated Branding company in Milwaukee. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-milwaukee",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Milwaukee",
-    description: "TML offers expert Branding services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Milwaukee",
+    description: "Top-rated Branding company in Milwaukee. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

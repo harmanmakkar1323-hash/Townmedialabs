@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["columbus_oh"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Columbus",
-  description: "TML offers expert Website Development services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Columbus",
+  description: "Top-rated Website Development company in Columbus. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development columbus", "website development agency columbus", "website development company columbus"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-columbus-oh",
   },
   openGraph: {
-    title: "Website Development Agency in Columbus",
-    description: "TML offers expert Website Development services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Columbus",
+    description: "Top-rated Website Development company in Columbus. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-columbus-oh",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Columbus",
-    description: "TML offers expert Website Development services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Columbus",
+    description: "Top-rated Website Development company in Columbus. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

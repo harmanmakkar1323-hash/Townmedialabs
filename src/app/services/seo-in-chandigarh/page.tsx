@@ -1,22 +1,20 @@
 import type { Metadata } from "next";
 import { locations } from "@/data/locations";
-import { getCityServiceContent } from "@/data/cityServiceContent";
 import LocationServicePage from "@/components/templates/LocationServicePage";
 
 const location = locations["chandigarh"];
-const enrichment = getCityServiceContent("seo", "chandigarh");
 
 export const metadata: Metadata = {
-  title: enrichment?.metaTitle || "Best SEO Agency in Chandigarh",
-  description: enrichment?.metaDescription || "TML offers expert SEO services in Chandigarh. Proven results for 500+ businesses.",
-  keywords: enrichment?.keywords || ["seo chandigarh"],
+  title: "Best SEO Agency in Chandigarh",
+  description: "Top-rated seo company in Chandigarh. TML offers expert seo services for 500+ businesses across Punjab. Get a free seo consultation today.",
+  keywords: ["best seo agency chandigarh", "seo company chandigarh", "seo services chandigarh", "best seo chandigarh", "top seo agency chandigarh"],
   alternates: {
-    canonical: "https://townmedialabs.com/services/seo-in-chandigarh",
+    canonical: "https://townmedialabs.com/services/seo-in-chandigarh/",
   },
   openGraph: {
-    title: enrichment?.metaTitle || "Best SEO Agency in Chandigarh",
-    description: enrichment?.metaDescription || "TML offers expert SEO services in Chandigarh. Proven results for 500+ businesses.",
-    url: "https://townmedialabs.com/services/seo-in-chandigarh",
+    title: "Best SEO Agency in Chandigarh",
+    description: "Top-rated seo company in Chandigarh. TML offers expert seo services for 500+ businesses across Punjab. Get a free seo consultation today.",
+    url: "https://townmedialabs.com/services/seo-in-chandigarh/",
     siteName: "TML Agency",
     type: "website",
     locale: "en_IN",
@@ -25,12 +23,11 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: enrichment?.metaTitle || "Best SEO Agency in Chandigarh",
-    description: enrichment?.metaDescription || "TML offers expert SEO services in Chandigarh. Proven results for 500+ businesses.",
+    title: "Best SEO Agency in Chandigarh",
+    description: "Top-rated seo company in Chandigarh. TML offers expert seo services for 500+ businesses across Punjab. Get a free seo consultation today.",
     images: ["/og-image.png"],
   },
 };
-
 export default function UseoUinUchandigarhPage() {
   return (
     <LocationServicePage

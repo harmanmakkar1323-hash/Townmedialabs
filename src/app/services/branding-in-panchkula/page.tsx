@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["panchkula"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Panchkula",
-  description: "TML offers expert Branding services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Panchkula",
+  description: "Top-rated Branding company in Panchkula. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding panchkula", "branding agency panchkula", "branding company panchkula"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-panchkula",
   },
   openGraph: {
-    title: "Branding Agency in Panchkula",
-    description: "TML offers expert Branding services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Panchkula",
+    description: "Top-rated Branding company in Panchkula. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-panchkula",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Panchkula",
-    description: "TML offers expert Branding services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Panchkula",
+    description: "Top-rated Branding company in Panchkula. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

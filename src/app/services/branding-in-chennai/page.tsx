@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["chennai"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Chennai",
-  description: "TML offers expert Branding services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Chennai",
+  description: "Top-rated Branding company in Chennai. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding chennai", "branding agency chennai", "branding company chennai"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-chennai",
   },
   openGraph: {
-    title: "Branding Agency in Chennai",
-    description: "TML offers expert Branding services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Chennai",
+    description: "Top-rated Branding company in Chennai. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-chennai",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Chennai",
-    description: "TML offers expert Branding services in Chennai. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Chennai",
+    description: "Top-rated Branding company in Chennai. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

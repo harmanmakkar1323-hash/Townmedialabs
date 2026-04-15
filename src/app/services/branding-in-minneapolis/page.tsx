@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["minneapolis"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Minneapolis",
-  description: "TML offers expert Branding services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Minneapolis",
+  description: "Top-rated Branding company in Minneapolis. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding minneapolis", "branding agency minneapolis", "branding company minneapolis"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-minneapolis",
   },
   openGraph: {
-    title: "Branding Agency in Minneapolis",
-    description: "TML offers expert Branding services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Minneapolis",
+    description: "Top-rated Branding company in Minneapolis. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-minneapolis",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Minneapolis",
-    description: "TML offers expert Branding services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Minneapolis",
+    description: "Top-rated Branding company in Minneapolis. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

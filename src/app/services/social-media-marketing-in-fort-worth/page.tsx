@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["fort_worth"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Fort Worth",
-  description: "TML offers expert Social Media Marketing services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in Fort Worth",
+  description: "Top-rated Social Media Marketing company in Fort Worth. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing fort worth", "social media marketing agency fort worth", "social media marketing company fort worth"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-fort-worth",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Fort Worth",
-    description: "TML offers expert Social Media Marketing services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Fort Worth",
+    description: "Top-rated Social Media Marketing company in Fort Worth. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-fort-worth",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Fort Worth",
-    description: "TML offers expert Social Media Marketing services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Fort Worth",
+    description: "Top-rated Social Media Marketing company in Fort Worth. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

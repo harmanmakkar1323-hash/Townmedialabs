@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["boise"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Boise",
-  description: "TML offers expert SEO services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Boise",
+  description: "Top-rated SEO company in Boise. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo boise", "seo agency boise", "seo company boise"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-boise",
   },
   openGraph: {
-    title: "SEO Agency in Boise",
-    description: "TML offers expert SEO services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Boise",
+    description: "Top-rated SEO company in Boise. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-boise",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Boise",
-    description: "TML offers expert SEO services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Boise",
+    description: "Top-rated SEO company in Boise. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

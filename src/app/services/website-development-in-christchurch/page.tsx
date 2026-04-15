@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["christchurch"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Christchurch",
-  description: "TML offers expert Website Development services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best Website Development Agency in Christchurch",
+  description: "Top-rated Website Development company in Christchurch. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development christchurch", "website development agency christchurch", "website development christchurch nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-christchurch",
   },
   openGraph: {
-    title: "Website Development Agency in Christchurch",
-    description: "TML offers expert Website Development services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Website Development Agency in Christchurch",
+    description: "Top-rated Website Development company in Christchurch. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-christchurch",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Christchurch",
-    description: "TML offers expert Website Development services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Website Development Agency in Christchurch",
+    description: "Top-rated Website Development company in Christchurch. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["delhi"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Delhi",
-  description: "TML offers expert Lead Generation services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Delhi",
+  description: "Top-rated Lead Generation company in Delhi. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation delhi", "lead generation agency delhi", "lead generation company delhi"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-delhi",
   },
   openGraph: {
-    title: "Lead Generation Agency in Delhi",
-    description: "TML offers expert Lead Generation services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Delhi",
+    description: "Top-rated Lead Generation company in Delhi. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-delhi",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Delhi",
-    description: "TML offers expert Lead Generation services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Delhi",
+    description: "Top-rated Lead Generation company in Delhi. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

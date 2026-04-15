@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["bath"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Bath",
-  description: "TML offers expert AI Influencer Management services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Bath",
+  description: "Top-rated AI Influencer Management company in Bath. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management bath", "ai influencer management agency bath", "ai influencer management company bath"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-bath",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Bath",
-    description: "TML offers expert AI Influencer Management services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Bath",
+    description: "Top-rated AI Influencer Management company in Bath. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-bath",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Bath",
-    description: "TML offers expert AI Influencer Management services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Bath",
+    description: "Top-rated AI Influencer Management company in Bath. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

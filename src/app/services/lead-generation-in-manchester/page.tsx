@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["manchester"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Manchester",
-  description: "TML offers expert Lead Generation services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Manchester",
+  description: "Top-rated Lead Generation company in Manchester. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation manchester", "lead generation agency manchester", "lead generation company manchester"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-manchester",
   },
   openGraph: {
-    title: "Lead Generation Agency in Manchester",
-    description: "TML offers expert Lead Generation services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Manchester",
+    description: "Top-rated Lead Generation company in Manchester. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-manchester",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Manchester",
-    description: "TML offers expert Lead Generation services in Manchester. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Manchester",
+    description: "Top-rated Lead Generation company in Manchester. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["hamilton"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Hamilton",
-  description: "TML offers expert AI Influencer Management services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Hamilton",
+  description: "Top-rated AI Influencer Management company in Hamilton. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management hamilton", "ai influencer management agency hamilton", "ai influencer management hamilton ontario"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-hamilton",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Hamilton",
-    description: "TML offers expert AI Influencer Management services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Hamilton",
+    description: "Top-rated AI Influencer Management company in Hamilton. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-hamilton",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Hamilton",
-    description: "TML offers expert AI Influencer Management services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Hamilton",
+    description: "Top-rated AI Influencer Management company in Hamilton. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

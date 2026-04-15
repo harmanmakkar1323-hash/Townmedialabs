@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["toowoomba"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Toowoomba",
-  description: "TML offers expert AI Influencer Management services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Toowoomba",
+  description: "Top-rated AI Influencer Management company in Toowoomba. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management toowoomba", "ai influencer management agency toowoomba", "ai influencer management company toowoomba"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-toowoomba",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Toowoomba",
-    description: "TML offers expert AI Influencer Management services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Toowoomba",
+    description: "Top-rated AI Influencer Management company in Toowoomba. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-toowoomba",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Toowoomba",
-    description: "TML offers expert AI Influencer Management services in Toowoomba. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Toowoomba",
+    description: "Top-rated AI Influencer Management company in Toowoomba. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

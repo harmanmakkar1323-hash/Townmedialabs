@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["columbus_oh"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Columbus",
-  description: "TML offers expert Social Media Marketing services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in Columbus",
+  description: "Top-rated Social Media Marketing company in Columbus. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing columbus", "social media marketing agency columbus", "social media marketing company columbus"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-columbus-oh",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Columbus",
-    description: "TML offers expert Social Media Marketing services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Columbus",
+    description: "Top-rated Social Media Marketing company in Columbus. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-columbus-oh",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Columbus",
-    description: "TML offers expert Social Media Marketing services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Columbus",
+    description: "Top-rated Social Media Marketing company in Columbus. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["zirakpur"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Zirakpur",
-  description: "TML offers expert Google Ads services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Zirakpur",
+  description: "Top-rated Google Ads company in Zirakpur. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads zirakpur", "google ads agency zirakpur", "google ads company zirakpur"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-zirakpur",
   },
   openGraph: {
-    title: "Google Ads Agency in Zirakpur",
-    description: "TML offers expert Google Ads services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Zirakpur",
+    description: "Top-rated Google Ads company in Zirakpur. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-zirakpur",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Zirakpur",
-    description: "TML offers expert Google Ads services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Zirakpur",
+    description: "Top-rated Google Ads company in Zirakpur. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

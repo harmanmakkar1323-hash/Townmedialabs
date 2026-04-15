@@ -217,7 +217,7 @@ export default function IndustryPageClient({ industry, relatedBlogs, serviceData
             <h2
               className="scroll-reveal text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16"
             >
-              How We Help {industry.name}
+              How Our Agency Helps {industry.name}
               <span className="text-[#ff4500]">.</span>
             </h2>
 
@@ -235,7 +235,7 @@ export default function IndustryPageClient({ industry, relatedBlogs, serviceData
             <h2
               className="scroll-reveal text-2xl sm:text-3xl font-medium text-white mb-10"
             >
-              Our Work in {industry.name}<span className="text-[#ff4500]">.</span>
+              {industry.name} Portfolio &amp; Case Studies<span className="text-[#ff4500]">.</span>
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               {portfolioImages.map((img) => (
@@ -296,7 +296,7 @@ export default function IndustryPageClient({ industry, relatedBlogs, serviceData
             <h2
               className="scroll-reveal text-3xl sm:text-4xl md:text-5xl font-medium text-white mb-12 md:mb-16"
             >
-              Services for {industry.name}
+              Our {industry.name} Marketing Services
               <span className="text-[#ff4500]">.</span>
             </h2>
 
@@ -380,7 +380,7 @@ export default function IndustryPageClient({ industry, relatedBlogs, serviceData
               <h2
                 className="scroll-reveal text-2xl sm:text-3xl font-medium text-white mb-10"
               >
-                Related Reading
+                {industry.name} Marketing Insights
                 <span className="text-[#ff4500]">.</span>
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-5">

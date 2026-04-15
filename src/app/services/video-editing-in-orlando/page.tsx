@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["orlando"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Orlando",
-  description: "TML offers expert Video Editing services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Orlando",
+  description: "Top-rated Video Editing company in Orlando. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing orlando", "video editing agency orlando", "video editing company orlando"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-orlando",
   },
   openGraph: {
-    title: "Video Editing Agency in Orlando",
-    description: "TML offers expert Video Editing services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Orlando",
+    description: "Top-rated Video Editing company in Orlando. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-orlando",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Orlando",
-    description: "TML offers expert Video Editing services in Orlando. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Orlando",
+    description: "Top-rated Video Editing company in Orlando. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

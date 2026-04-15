@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["amritsar"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Amritsar",
-  description: "TML offers expert Branding services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Amritsar",
+  description: "Top-rated Branding company in Amritsar. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding amritsar", "branding agency amritsar", "branding company amritsar"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-amritsar",
   },
   openGraph: {
-    title: "Branding Agency in Amritsar",
-    description: "TML offers expert Branding services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Amritsar",
+    description: "Top-rated Branding company in Amritsar. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-amritsar",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Amritsar",
-    description: "TML offers expert Branding services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Amritsar",
+    description: "Top-rated Branding company in Amritsar. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

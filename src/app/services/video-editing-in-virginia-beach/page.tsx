@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["virginia_beach"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Virginia Beach",
-  description: "TML offers expert Video Editing services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Virginia Beach",
+  description: "Top-rated Video Editing company in Virginia Beach. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing virginia beach", "video editing agency virginia beach", "video editing company virginia beach"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-virginia-beach",
   },
   openGraph: {
-    title: "Video Editing Agency in Virginia Beach",
-    description: "TML offers expert Video Editing services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Virginia Beach",
+    description: "Top-rated Video Editing company in Virginia Beach. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-virginia-beach",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Virginia Beach",
-    description: "TML offers expert Video Editing services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Virginia Beach",
+    description: "Top-rated Video Editing company in Virginia Beach. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["palmerston_north"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Palmerston North",
-  description: "TML offers expert SEO services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best SEO Agency in Palmerston North",
+  description: "Top-rated SEO company in Palmerston North. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo palmerston north", "seo agency palmerston north", "seo palmerston north nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-palmerston-north",
   },
   openGraph: {
-    title: "SEO Agency in Palmerston North",
-    description: "TML offers expert SEO services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best SEO Agency in Palmerston North",
+    description: "Top-rated SEO company in Palmerston North. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-palmerston-north",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Palmerston North",
-    description: "TML offers expert SEO services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best SEO Agency in Palmerston North",
+    description: "Top-rated SEO company in Palmerston North. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

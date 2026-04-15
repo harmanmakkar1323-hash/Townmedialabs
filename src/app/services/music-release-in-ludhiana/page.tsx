@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["ludhiana"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Ludhiana",
-  description: "TML offers expert Music Release services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Ludhiana",
+  description: "Top-rated Music Release company in Ludhiana. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release ludhiana", "music release agency ludhiana", "music release company ludhiana"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-ludhiana",
   },
   openGraph: {
-    title: "Music Release Agency in Ludhiana",
-    description: "TML offers expert Music Release services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Ludhiana",
+    description: "Top-rated Music Release company in Ludhiana. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-ludhiana",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Ludhiana",
-    description: "TML offers expert Music Release services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Ludhiana",
+    description: "Top-rated Music Release company in Ludhiana. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

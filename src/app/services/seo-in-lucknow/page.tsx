@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["lucknow"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Lucknow",
-  description: "TML offers expert Search Engine Optimization services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Lucknow",
+  description: "Top-rated SEO company in Lucknow. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization lucknow", "search engine optimization agency lucknow", "search engine optimization company lucknow"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-lucknow",
   },
   openGraph: {
-    title: "SEO Agency in Lucknow",
-    description: "TML offers expert Search Engine Optimization services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Lucknow",
+    description: "Top-rated SEO company in Lucknow. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-lucknow",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Lucknow",
-    description: "TML offers expert Search Engine Optimization services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Lucknow",
+    description: "Top-rated SEO company in Lucknow. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

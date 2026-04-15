@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["sacramento"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Sacramento",
-  description: "TML offers expert Google Ads services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Sacramento",
+  description: "Top-rated Google Ads company in Sacramento. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads sacramento", "google ads agency sacramento", "google ads company sacramento"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-sacramento",
   },
   openGraph: {
-    title: "Google Ads Agency in Sacramento",
-    description: "TML offers expert Google Ads services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Sacramento",
+    description: "Top-rated Google Ads company in Sacramento. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-sacramento",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Sacramento",
-    description: "TML offers expert Google Ads services in Sacramento. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Sacramento",
+    description: "Top-rated Google Ads company in Sacramento. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

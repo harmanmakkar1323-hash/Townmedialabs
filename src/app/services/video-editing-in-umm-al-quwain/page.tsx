@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["umm_al_quwain"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Umm Al Quwain",
-  description: "TML offers expert Video Editing services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Umm Al Quwain",
+  description: "Top-rated Video Editing company in Umm Al Quwain. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing umm al quwain", "video editing agency umm al quwain", "video editing company umm al quwain"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-umm-al-quwain",
   },
   openGraph: {
-    title: "Video Editing Agency in Umm Al Quwain",
-    description: "TML offers expert Video Editing services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Umm Al Quwain",
+    description: "Top-rated Video Editing company in Umm Al Quwain. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-umm-al-quwain",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Umm Al Quwain",
-    description: "TML offers expert Video Editing services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Umm Al Quwain",
+    description: "Top-rated Video Editing company in Umm Al Quwain. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

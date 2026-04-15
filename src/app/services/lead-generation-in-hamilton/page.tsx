@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["hamilton"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Hamilton",
-  description: "TML offers expert Lead Generation services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Hamilton",
+  description: "Top-rated Lead Generation company in Hamilton. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation hamilton", "lead generation agency hamilton", "lead generation hamilton ontario"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-hamilton",
   },
   openGraph: {
-    title: "Lead Generation Agency in Hamilton",
-    description: "TML offers expert Lead Generation services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Hamilton",
+    description: "Top-rated Lead Generation company in Hamilton. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-hamilton",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Hamilton",
-    description: "TML offers expert Lead Generation services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Hamilton",
+    description: "Top-rated Lead Generation company in Hamilton. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

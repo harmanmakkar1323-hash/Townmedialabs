@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["kolkata"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Kolkata",
-  description: "TML offers expert Music Release and Distribution services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Kolkata",
+  description: "Top-rated Music Release company in Kolkata. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release and distribution kolkata", "music release and distribution agency kolkata", "music release and distribution company kolkata"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-kolkata",
   },
   openGraph: {
-    title: "Music Release Agency in Kolkata",
-    description: "TML offers expert Music Release and Distribution services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Kolkata",
+    description: "Top-rated Music Release company in Kolkata. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-kolkata",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Kolkata",
-    description: "TML offers expert Music Release and Distribution services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Kolkata",
+    description: "Top-rated Music Release company in Kolkata. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

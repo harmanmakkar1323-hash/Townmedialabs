@@ -1,22 +1,20 @@
 import type { Metadata } from "next";
 import { locations } from "@/data/locations";
-import { getCityServiceContent } from "@/data/cityServiceContent";
 import LocationServicePage from "@/components/templates/LocationServicePage";
 
 const location = locations["chandigarh"];
-const enrichment = getCityServiceContent("google-ads", "chandigarh");
 
 export const metadata: Metadata = {
-  title: enrichment?.metaTitle || "Best Google Ads Agency in Chandigarh",
-  description: enrichment?.metaDescription || "TML offers expert Google Ads services in Chandigarh. Proven results for 500+ businesses.",
-  keywords: enrichment?.keywords || ["google-ads chandigarh"],
+  title: "Best Google Ads Agency in Chandigarh",
+  description: "Top-rated google ads company in Chandigarh. TML offers expert google ads services for 500+ businesses across Punjab. Get a free google ads consultation today.",
+  keywords: ["best google ads agency chandigarh", "google ads company chandigarh", "google ads services chandigarh", "best google ads chandigarh", "top google ads agency chandigarh"],
   alternates: {
-    canonical: "https://townmedialabs.com/services/google-ads-in-chandigarh",
+    canonical: "https://townmedialabs.com/services/google-ads-in-chandigarh/",
   },
   openGraph: {
-    title: enrichment?.metaTitle || "Best Google Ads Agency in Chandigarh",
-    description: enrichment?.metaDescription || "TML offers expert Google Ads services in Chandigarh. Proven results for 500+ businesses.",
-    url: "https://townmedialabs.com/services/google-ads-in-chandigarh",
+    title: "Best Google Ads Agency in Chandigarh",
+    description: "Top-rated google ads company in Chandigarh. TML offers expert google ads services for 500+ businesses across Punjab. Get a free google ads consultation today.",
+    url: "https://townmedialabs.com/services/google-ads-in-chandigarh/",
     siteName: "TML Agency",
     type: "website",
     locale: "en_IN",
@@ -25,12 +23,11 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: enrichment?.metaTitle || "Best Google Ads Agency in Chandigarh",
-    description: enrichment?.metaDescription || "TML offers expert Google Ads services in Chandigarh. Proven results for 500+ businesses.",
+    title: "Best Google Ads Agency in Chandigarh",
+    description: "Top-rated google ads company in Chandigarh. TML offers expert google ads services for 500+ businesses across Punjab. Get a free google ads consultation today.",
     images: ["/og-image.png"],
   },
 };
-
 export default function UgoogleUadsUinUchandigarhPage() {
   return (
     <LocationServicePage

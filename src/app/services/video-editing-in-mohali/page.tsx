@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["mohali"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Mohali",
-  description: "TML offers expert Video Editing services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Mohali",
+  description: "Top-rated Video Editing company in Mohali. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing mohali", "video editing agency mohali", "video editing company mohali"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-mohali",
   },
   openGraph: {
-    title: "Video Editing Agency in Mohali",
-    description: "TML offers expert Video Editing services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Mohali",
+    description: "Top-rated Video Editing company in Mohali. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-mohali",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Mohali",
-    description: "TML offers expert Video Editing services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Mohali",
+    description: "Top-rated Video Editing company in Mohali. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

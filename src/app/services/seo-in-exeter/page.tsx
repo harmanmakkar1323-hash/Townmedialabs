@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["exeter"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Exeter",
-  description: "TML offers expert SEO services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Exeter",
+  description: "Top-rated SEO company in Exeter. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo exeter", "seo agency exeter", "seo company exeter"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-exeter",
   },
   openGraph: {
-    title: "SEO Agency in Exeter",
-    description: "TML offers expert SEO services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Exeter",
+    description: "Top-rated SEO company in Exeter. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-exeter",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Exeter",
-    description: "TML offers expert SEO services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Exeter",
+    description: "Top-rated SEO company in Exeter. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

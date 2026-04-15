@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["surat"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Surat",
-  description: "TML offers expert Music Release and Distribution services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Surat",
+  description: "Top-rated Music Release company in Surat. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release and distribution surat", "music release and distribution agency surat", "music release and distribution company surat"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-surat",
   },
   openGraph: {
-    title: "Music Release Agency in Surat",
-    description: "TML offers expert Music Release and Distribution services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Surat",
+    description: "Top-rated Music Release company in Surat. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-surat",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Surat",
-    description: "TML offers expert Music Release and Distribution services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Surat",
+    description: "Top-rated Music Release company in Surat. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

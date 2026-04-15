@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["ghaziabad"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Ghaziabad",
-  description: "TML offers expert Search Engine Optimization services in Ghaziabad. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Ghaziabad",
+  description: "Top-rated SEO company in Ghaziabad. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization ghaziabad", "search engine optimization agency ghaziabad", "search engine optimization company ghaziabad"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-ghaziabad",
   },
   openGraph: {
-    title: "SEO Agency in Ghaziabad",
-    description: "TML offers expert Search Engine Optimization services in Ghaziabad. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Ghaziabad",
+    description: "Top-rated SEO company in Ghaziabad. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-ghaziabad",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Ghaziabad",
-    description: "TML offers expert Search Engine Optimization services in Ghaziabad. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Ghaziabad",
+    description: "Top-rated SEO company in Ghaziabad. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

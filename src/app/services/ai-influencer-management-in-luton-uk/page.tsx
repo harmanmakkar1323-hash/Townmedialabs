@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["luton_uk"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Luton",
-  description: "TML offers expert AI Influencer Management services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Luton",
+  description: "Top-rated AI Influencer Management company in Luton. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management luton", "ai influencer management agency luton", "ai influencer management company luton"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-luton-uk",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Luton",
-    description: "TML offers expert AI Influencer Management services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Luton",
+    description: "Top-rated AI Influencer Management company in Luton. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-luton-uk",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Luton",
-    description: "TML offers expert AI Influencer Management services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Luton",
+    description: "Top-rated AI Influencer Management company in Luton. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

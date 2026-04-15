@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["mumbai"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Mumbai",
-  description: "TML offers expert Music Release services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Mumbai",
+  description: "Top-rated Music Release company in Mumbai. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release mumbai", "music release agency mumbai", "music release company mumbai"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-mumbai",
   },
   openGraph: {
-    title: "Music Release Agency in Mumbai",
-    description: "TML offers expert Music Release services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Mumbai",
+    description: "Top-rated Music Release company in Mumbai. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-mumbai",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Mumbai",
-    description: "TML offers expert Music Release services in Mumbai. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Mumbai",
+    description: "Top-rated Music Release company in Mumbai. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

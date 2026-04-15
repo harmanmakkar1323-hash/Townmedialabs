@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["san_jose"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in San Jose",
-  description: "TML offers expert Video Editing services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in San Jose",
+  description: "Top-rated Video Editing company in San Jose. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing san jose", "video editing agency san jose", "video editing company san jose"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-san-jose",
   },
   openGraph: {
-    title: "Video Editing Agency in San Jose",
-    description: "TML offers expert Video Editing services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in San Jose",
+    description: "Top-rated Video Editing company in San Jose. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-san-jose",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in San Jose",
-    description: "TML offers expert Video Editing services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in San Jose",
+    description: "Top-rated Video Editing company in San Jose. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

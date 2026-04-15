@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["miami"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Miami",
-  description: "TML offers expert SEO services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Miami",
+  description: "Top-rated SEO company in Miami. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo miami", "seo agency miami", "seo company miami"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-miami",
   },
   openGraph: {
-    title: "SEO Agency in Miami",
-    description: "TML offers expert SEO services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Miami",
+    description: "Top-rated SEO company in Miami. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-miami",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Miami",
-    description: "TML offers expert SEO services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Miami",
+    description: "Top-rated SEO company in Miami. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

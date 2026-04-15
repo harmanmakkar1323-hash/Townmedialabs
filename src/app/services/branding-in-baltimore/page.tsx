@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["baltimore"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Baltimore",
-  description: "TML offers expert Branding services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Baltimore",
+  description: "Top-rated Branding company in Baltimore. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding baltimore", "branding agency baltimore", "branding company baltimore"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-baltimore",
   },
   openGraph: {
-    title: "Branding Agency in Baltimore",
-    description: "TML offers expert Branding services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Baltimore",
+    description: "Top-rated Branding company in Baltimore. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-baltimore",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Baltimore",
-    description: "TML offers expert Branding services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Baltimore",
+    description: "Top-rated Branding company in Baltimore. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

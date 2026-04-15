@@ -458,7 +458,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
   "what-are-ai-influencers-how-to-create-earn-money": {
     title: "What Are AI Influencers? How to Create One, Best Tools & How to Earn Money (2025 Guide)",
-    metaTitle: "AI Influencers: How to Create, Best Tools & Earn Money (2025)",
+    metaTitle: "AI Influencers: How to Create & Earn Money (2025)",
     metaDescription: "What are AI influencers? Learn how to create one, the best tools, how to earn money, and top AI influencers to follow in 2025.",
     keywords: [
       "ai influencer",
@@ -686,7 +686,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
   "best-way-to-promote-song-online-free": {
     title: "Best Way to Promote Your Song Online for Free — Top Platforms & Strategies (2025)",
-    metaTitle: "How to Promote Your Song Online Free — Best Platforms (2025)",
+    metaTitle: "How to Promote Your Song Online Free (2025)",
     metaDescription: "Promote your music online for free using TuneCore, DistroKid & Spotify for Artists. Proven strategies to get your song heard.",
     keywords: [
       "how to promote song online",
@@ -11291,7 +11291,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
   "digital-marketing-guide-small-business-2025": {
     title: "Complete Guide to Digital Marketing for Small Businesses in 2025",
-    metaTitle: "Digital Marketing for Small Businesses (2025 Guide) — SEO, Ads, Social & More",
+    metaTitle: "Digital Marketing for Small Businesses (2025 Guide)",
     metaDescription: "The only digital marketing guide small businesses need. Learn SEO, Google Ads, social media, email, and content strategy with action plans.",
     keywords: [
       "digital marketing for small business",
@@ -11639,7 +11639,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
   "how-to-choose-branding-agency-checklist": {
     title: "How to Choose the Right Branding Agency: A Complete Checklist",
-    metaTitle: "How to Choose the Right Branding Agency — Complete Checklist (2025)",
+    metaTitle: "How to Choose a Branding Agency: Checklist (2025)",
     metaDescription: "How to choose a branding agency: checklist covering portfolio evaluation, pricing models, red flags, and the RFP process.",
     keywords: [
       "how to choose branding agency",
@@ -11954,7 +11954,7 @@ const handWrittenArticles: Record<string, BlogArticle> = {
 
   "seo-vs-google-ads-which-invest-first": {
     title: "SEO vs Google Ads: Which Should You Invest In First?",
-    metaTitle: "SEO vs Google Ads: Which Should You Invest In First? (2025 Comparison)",
+    metaTitle: "SEO vs Google Ads: Which to Invest In First? (2025)",
     metaDescription: "SEO or Google Ads first? Detailed comparison of costs, timelines, ROI, and a decision framework to choose the right strategy.",
     keywords: [
       "seo vs google ads",
@@ -12228,7 +12228,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
   },
   "how-much-does-website-cost-india-2025": {
     title: "How Much Does a Website Cost in India? Complete Pricing Guide (2025)",
-    metaTitle: "Website Development Cost in India 2025 — Complete Pricing Breakdown",
+    metaTitle: "Website Development Cost in India 2025: Pricing",
     metaDescription: "How much does a website cost in India? Real pricing from ₹5,000 to ₹25 lakh+. Freelancer vs agency vs DIY compared.",
     keywords: [
       "website cost india",
@@ -12407,7 +12407,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
   },
   "instagram-reels-marketing-strategy-guide": {
     title: "Instagram Reels Marketing Strategy: The Complete Guide for Indian Businesses (2025)",
-    metaTitle: "Instagram Reels Marketing Strategy — Complete Business Guide 2025",
+    metaTitle: "Instagram Reels Marketing Strategy for Business (2025)",
     metaDescription: "Use Instagram Reels to grow your business. Covers the algorithm, content types, shooting tips, editing tools, and hashtag strategy.",
     keywords: [
       "instagram reels marketing",
@@ -12589,7 +12589,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
   },
   "google-ads-budget-mistakes": {
     title: "15 Google Ads Mistakes That Are Burning Your Budget (And How to Fix Them)",
-    metaTitle: "15 Google Ads Mistakes Wasting Your Budget — Fix Them Now (2025)",
+    metaTitle: "15 Google Ads Mistakes Wasting Your Budget (2025)",
     metaDescription: "Wasting money on Google Ads? 15 common mistakes that drain budgets without results and how to fix each one.",
     keywords: [
       "google ads mistakes",
@@ -12840,7 +12840,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
   },
   "why-professional-branding-matters": {
     title: "Why Professional Branding Matters: The Real ROI of Branding vs DIY (2025)",
-    metaTitle: "Professional Branding vs DIY — The Real ROI Comparison (2025)",
+    metaTitle: "Professional Branding vs DIY: ROI Comparison (2025)",
     metaDescription: "Professional branding vs DIY: we compare costs, results, and outcomes. See when DIY works and when it costs you more.",
     keywords: [
       "professional branding",
@@ -12999,7 +12999,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
   },
   "local-seo-complete-guide-2025": {
     title: "Local SEO in India: The Complete Guide to Dominating Google Maps & Local Search (2025)",
-    metaTitle: "Local SEO Guide India 2025 — Google Maps, GMB, Citations & More",
+    metaTitle: "Local SEO Guide India 2025: Google Maps & GMB",
     metaDescription: "Local SEO guide for Indian businesses. Covers Google Business Profile, local citations, review strategy, and map pack rankings.",
     keywords: [
       "local seo india",
@@ -13194,7 +13194,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
   },
   "ecommerce-seo-product-pages": {
     title: "E-Commerce SEO for Product Pages: The Technical Guide That Actually Ranks (2025)",
-    metaTitle: "E-Commerce Product Page SEO — Technical Guide for Online Stores (2025)",
+    metaTitle: "E-Commerce Product Page SEO: Technical Guide (2025)",
     metaDescription: "Optimize e-commerce product pages for search. Covers title tags, product schema, image optimization, URL structure, and more.",
     keywords: [
       "ecommerce seo",
@@ -13407,7 +13407,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
   },
   "social-media-content-calendar-2025": {
     title: "How to Create a Social Media Content Calendar That Actually Works (2025)",
-    metaTitle: "Social Media Content Calendar 2025 — Templates, Strategy & Workflow",
+    metaTitle: "Social Media Content Calendar 2025: Free Templates",
     metaDescription: "Build a social media content calendar that saves time and drives results. Includes content pillars, posting frequency, and a 30-day template.",
     keywords: [
       "social media content calendar",
@@ -13808,7 +13808,7 @@ Under ₹20,000 → SEO only (Google Ads is too thin at this budget to be effect
   },
   "website-speed-optimization-guide": {
     title: "Website Speed Optimization: The Complete Guide to Faster Load Times (2025)",
-    metaTitle: "Website Speed Optimization Guide — Core Web Vitals & Performance (2025)",
+    metaTitle: "Website Speed Optimization: Core Web Vitals (2025)",
     metaDescription: "Slow website killing conversions? Speed optimization guide covering Core Web Vitals, image compression, caching, and CDN setup.",
     keywords: [
       "website speed optimization",

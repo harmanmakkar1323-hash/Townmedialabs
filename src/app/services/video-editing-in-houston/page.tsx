@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["houston"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Houston",
-  description: "TML offers expert Video Editing services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Houston",
+  description: "Top-rated Video Editing company in Houston. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing houston", "video editing agency houston", "video editing company houston"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-houston",
   },
   openGraph: {
-    title: "Video Editing Agency in Houston",
-    description: "TML offers expert Video Editing services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Houston",
+    description: "Top-rated Video Editing company in Houston. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-houston",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Houston",
-    description: "TML offers expert Video Editing services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Houston",
+    description: "Top-rated Video Editing company in Houston. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

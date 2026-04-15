@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["sunshine_coast"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Sunshine Coast",
-  description: "TML offers expert Branding services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Sunshine Coast",
+  description: "Top-rated Branding company in Sunshine Coast. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding sunshine coast", "branding agency sunshine coast", "branding company sunshine coast"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-sunshine-coast",
   },
   openGraph: {
-    title: "Branding Agency in Sunshine Coast",
-    description: "TML offers expert Branding services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Sunshine Coast",
+    description: "Top-rated Branding company in Sunshine Coast. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-sunshine-coast",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Sunshine Coast",
-    description: "TML offers expert Branding services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Sunshine Coast",
+    description: "Top-rated Branding company in Sunshine Coast. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

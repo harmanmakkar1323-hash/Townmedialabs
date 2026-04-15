@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["gurgaon"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Gurgaon",
-  description: "TML offers expert Search Engine Optimization services in Gurgaon. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Gurgaon",
+  description: "Top-rated SEO company in Gurgaon. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization gurgaon", "search engine optimization agency gurgaon", "search engine optimization company gurgaon"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-gurgaon",
   },
   openGraph: {
-    title: "SEO Agency in Gurgaon",
-    description: "TML offers expert Search Engine Optimization services in Gurgaon. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Gurgaon",
+    description: "Top-rated SEO company in Gurgaon. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-gurgaon",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Gurgaon",
-    description: "TML offers expert Search Engine Optimization services in Gurgaon. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Gurgaon",
+    description: "Top-rated SEO company in Gurgaon. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

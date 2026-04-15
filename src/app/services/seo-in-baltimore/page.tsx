@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["baltimore"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Baltimore",
-  description: "TML offers expert SEO services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Baltimore",
+  description: "Top-rated SEO company in Baltimore. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo baltimore", "seo agency baltimore", "seo company baltimore"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-baltimore",
   },
   openGraph: {
-    title: "SEO Agency in Baltimore",
-    description: "TML offers expert SEO services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Baltimore",
+    description: "Top-rated SEO company in Baltimore. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-baltimore",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Baltimore",
-    description: "TML offers expert SEO services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Baltimore",
+    description: "Top-rated SEO company in Baltimore. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

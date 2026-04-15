@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["norwich"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Norwich",
-  description: "TML offers expert Lead Generation services in Norwich. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Norwich",
+  description: "Top-rated Lead Generation company in Norwich. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation norwich", "lead generation agency norwich", "lead generation company norwich"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-norwich",
   },
   openGraph: {
-    title: "Lead Generation Agency in Norwich",
-    description: "TML offers expert Lead Generation services in Norwich. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Norwich",
+    description: "Top-rated Lead Generation company in Norwich. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-norwich",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Norwich",
-    description: "TML offers expert Lead Generation services in Norwich. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Norwich",
+    description: "Top-rated Lead Generation company in Norwich. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

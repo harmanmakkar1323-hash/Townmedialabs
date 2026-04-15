@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["wellington"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Wellington",
-  description: "TML offers expert Google Ads services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best Google Ads Agency in Wellington",
+  description: "Top-rated Google Ads company in Wellington. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads wellington", "google ads agency wellington", "google ads wellington nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-wellington",
   },
   openGraph: {
-    title: "Google Ads Agency in Wellington",
-    description: "TML offers expert Google Ads services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Google Ads Agency in Wellington",
+    description: "Top-rated Google Ads company in Wellington. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-wellington",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Wellington",
-    description: "TML offers expert Google Ads services in Wellington, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Google Ads Agency in Wellington",
+    description: "Top-rated Google Ads company in Wellington. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

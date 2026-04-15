@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["virginia_beach"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Virginia Beach",
-  description: "TML offers expert Website Development services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Virginia Beach",
+  description: "Top-rated Website Development company in Virginia Beach. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development virginia beach", "website development agency virginia beach", "website development company virginia beach"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-virginia-beach",
   },
   openGraph: {
-    title: "Website Development Agency in Virginia Beach",
-    description: "TML offers expert Website Development services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Virginia Beach",
+    description: "Top-rated Website Development company in Virginia Beach. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-virginia-beach",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Virginia Beach",
-    description: "TML offers expert Website Development services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Virginia Beach",
+    description: "Top-rated Website Development company in Virginia Beach. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

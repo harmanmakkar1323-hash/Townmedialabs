@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["napier"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Napier",
-  description: "TML offers expert Branding services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best Branding Agency in Napier",
+  description: "Top-rated Branding company in Napier. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding napier", "branding agency napier", "branding napier nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-napier",
   },
   openGraph: {
-    title: "Branding Agency in Napier",
-    description: "TML offers expert Branding services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Branding Agency in Napier",
+    description: "Top-rated Branding company in Napier. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-napier",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Napier",
-    description: "TML offers expert Branding services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Branding Agency in Napier",
+    description: "Top-rated Branding company in Napier. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

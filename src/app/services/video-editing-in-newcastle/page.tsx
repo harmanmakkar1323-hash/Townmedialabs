@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["newcastle"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Newcastle",
-  description: "TML offers expert Video Editing services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Newcastle",
+  description: "Top-rated Video Editing company in Newcastle. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing newcastle", "video editing agency newcastle", "video editing company newcastle"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-newcastle",
   },
   openGraph: {
-    title: "Video Editing Agency in Newcastle",
-    description: "TML offers expert Video Editing services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Newcastle",
+    description: "Top-rated Video Editing company in Newcastle. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-newcastle",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Newcastle",
-    description: "TML offers expert Video Editing services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Newcastle",
+    description: "Top-rated Video Editing company in Newcastle. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

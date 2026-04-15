@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["nashville"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Nashville",
-  description: "TML offers expert Music Release services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Nashville",
+  description: "Top-rated Music Release company in Nashville. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release nashville", "music release agency nashville", "music release company nashville"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-nashville",
   },
   openGraph: {
-    title: "Music Release Agency in Nashville",
-    description: "TML offers expert Music Release services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Nashville",
+    description: "Top-rated Music Release company in Nashville. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-nashville",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Nashville",
-    description: "TML offers expert Music Release services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Nashville",
+    description: "Top-rated Music Release company in Nashville. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

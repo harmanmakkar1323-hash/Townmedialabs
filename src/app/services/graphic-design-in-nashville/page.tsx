@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["nashville"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Nashville",
-  description: "TML offers expert Graphic Design services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Graphic Design Agency in Nashville",
+  description: "Top-rated Graphic Design company in Nashville. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design nashville", "graphic design agency nashville", "graphic design company nashville"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-nashville",
   },
   openGraph: {
-    title: "Graphic Design Agency in Nashville",
-    description: "TML offers expert Graphic Design services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Nashville",
+    description: "Top-rated Graphic Design company in Nashville. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-nashville",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Nashville",
-    description: "TML offers expert Graphic Design services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Nashville",
+    description: "Top-rated Graphic Design company in Nashville. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["luton_uk"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Luton",
-  description: "TML offers expert SEO services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Luton",
+  description: "Top-rated SEO company in Luton. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo luton", "seo agency luton", "seo company luton"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-luton-uk",
   },
   openGraph: {
-    title: "SEO Agency in Luton",
-    description: "TML offers expert SEO services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Luton",
+    description: "Top-rated SEO company in Luton. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-luton-uk",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Luton",
-    description: "TML offers expert SEO services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Luton",
+    description: "Top-rated SEO company in Luton. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

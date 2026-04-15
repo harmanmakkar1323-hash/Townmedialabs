@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["napier"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Napier",
-  description: "TML offers expert AI Influencer Management services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Napier",
+  description: "Top-rated AI Influencer Management company in Napier. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management napier", "ai influencer management agency napier", "ai influencer management napier nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-napier",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Napier",
-    description: "TML offers expert AI Influencer Management services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Napier",
+    description: "Top-rated AI Influencer Management company in Napier. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-napier",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Napier",
-    description: "TML offers expert AI Influencer Management services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Napier",
+    description: "Top-rated AI Influencer Management company in Napier. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

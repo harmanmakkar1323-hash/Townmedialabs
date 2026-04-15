@@ -318,10 +318,14 @@ export default function BlogArticleClient({
             className="flex items-center justify-between"
           >
             <div className="flex items-center gap-4">
-              <Link href={author ? `/authors/${author.id}` : "#"} className="group">
-                <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#ff4500] to-[#ff6b35] flex items-center justify-center text-white text-sm font-bold shadow-[0_0_20px_rgba(255,69,0,0.3)] group-hover:shadow-[0_0_30px_rgba(255,69,0,0.5)] transition-all duration-300">
-                  {author?.name.split(' ').map(n => n[0]).join('') || 'TML'}
-                </div>
+              <Link href={author ? `/authors/${author.id}/` : "#"} className="group">
+                {author?.image ? (
+                  <img src={author.image} alt={author.name} className="w-12 h-12 rounded-2xl object-cover border border-white/10 shadow-[0_0_20px_rgba(255,69,0,0.2)] group-hover:shadow-[0_0_30px_rgba(255,69,0,0.4)] transition-all duration-300" />
+                ) : (
+                  <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#ff4500] to-[#ff6b35] flex items-center justify-center text-white text-sm font-bold shadow-[0_0_20px_rgba(255,69,0,0.3)] group-hover:shadow-[0_0_30px_rgba(255,69,0,0.5)] transition-all duration-300">
+                    {author?.name.split(' ').map(n => n[0]).join('') || 'TML'}
+                  </div>
+                )}
               </Link>
               <div>
                 <Link

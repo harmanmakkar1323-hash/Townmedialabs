@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["newcastle"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Newcastle",
-  description: "TML offers expert Branding services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Newcastle",
+  description: "Top-rated Branding company in Newcastle. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding newcastle", "branding agency newcastle", "branding company newcastle"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-newcastle",
   },
   openGraph: {
-    title: "Branding Agency in Newcastle",
-    description: "TML offers expert Branding services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Newcastle",
+    description: "Top-rated Branding company in Newcastle. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-newcastle",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Newcastle",
-    description: "TML offers expert Branding services in Newcastle. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Newcastle",
+    description: "Top-rated Branding company in Newcastle. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

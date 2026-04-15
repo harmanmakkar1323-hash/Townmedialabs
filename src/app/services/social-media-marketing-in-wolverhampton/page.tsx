@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["wolverhampton"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Wolverhampton",
-  description: "TML offers expert Social Media Marketing services in Wolverhampton. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in Wolverhampton",
+  description: "Top-rated Social Media Marketing company in Wolverhampton. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing wolverhampton", "social media marketing agency wolverhampton", "social media marketing company wolverhampton"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-wolverhampton",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Wolverhampton",
-    description: "TML offers expert Social Media Marketing services in Wolverhampton. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Wolverhampton",
+    description: "Top-rated Social Media Marketing company in Wolverhampton. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-wolverhampton",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Wolverhampton",
-    description: "TML offers expert Social Media Marketing services in Wolverhampton. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Wolverhampton",
+    description: "Top-rated Social Media Marketing company in Wolverhampton. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

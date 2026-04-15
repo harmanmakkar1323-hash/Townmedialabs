@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["cambridge"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Cambridge",
-  description: "TML offers expert Packaging Design services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Cambridge",
+  description: "Top-rated Packaging Design company in Cambridge. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design cambridge", "packaging design agency cambridge", "packaging design company cambridge"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-cambridge",
   },
   openGraph: {
-    title: "Packaging Design Agency in Cambridge",
-    description: "TML offers expert Packaging Design services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Cambridge",
+    description: "Top-rated Packaging Design company in Cambridge. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-cambridge",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Cambridge",
-    description: "TML offers expert Packaging Design services in Cambridge. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Cambridge",
+    description: "Top-rated Packaging Design company in Cambridge. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

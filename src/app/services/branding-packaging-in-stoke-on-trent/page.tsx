@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["stoke_on_trent"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Stoke-on-Trent",
-  description: "TML offers expert Packaging Design services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Stoke-on-Trent",
+  description: "Top-rated Packaging Design company in Stoke-on-Trent. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design stoke-on-trent", "packaging design agency stoke-on-trent", "packaging design company stoke-on-trent"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-stoke-on-trent",
   },
   openGraph: {
-    title: "Packaging Design Agency in Stoke-on-Trent",
-    description: "TML offers expert Packaging Design services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Stoke-on-Trent",
+    description: "Top-rated Packaging Design company in Stoke-on-Trent. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-stoke-on-trent",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Stoke-on-Trent",
-    description: "TML offers expert Packaging Design services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Stoke-on-Trent",
+    description: "Top-rated Packaging Design company in Stoke-on-Trent. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

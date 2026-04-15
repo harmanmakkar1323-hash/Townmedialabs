@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["ipswich"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Ipswich",
-  description: "TML offers expert SEO services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Ipswich",
+  description: "Top-rated SEO company in Ipswich. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo ipswich", "seo agency ipswich", "seo company ipswich"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-ipswich",
   },
   openGraph: {
-    title: "SEO Agency in Ipswich",
-    description: "TML offers expert SEO services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Ipswich",
+    description: "Top-rated SEO company in Ipswich. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-ipswich",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Ipswich",
-    description: "TML offers expert SEO services in Ipswich. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Ipswich",
+    description: "Top-rated SEO company in Ipswich. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

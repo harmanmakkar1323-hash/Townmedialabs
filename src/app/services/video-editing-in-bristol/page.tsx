@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["bristol"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Bristol",
-  description: "TML offers expert Video Editing services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Bristol",
+  description: "Top-rated Video Editing company in Bristol. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing bristol", "video editing agency bristol", "video editing company bristol"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-bristol",
   },
   openGraph: {
-    title: "Video Editing Agency in Bristol",
-    description: "TML offers expert Video Editing services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Bristol",
+    description: "Top-rated Video Editing company in Bristol. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-bristol",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Bristol",
-    description: "TML offers expert Video Editing services in Bristol. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Bristol",
+    description: "Top-rated Video Editing company in Bristol. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

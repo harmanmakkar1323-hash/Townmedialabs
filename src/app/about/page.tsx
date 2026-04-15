@@ -4,9 +4,9 @@ import AboutPageClient from "./AboutPageClient";
 const siteUrl = "https://townmedialabs.com";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "About TML — Digital Marketing Agency in Chandigarh",
   description:
-    "TML Agency — Chandigarh's top digital marketing & branding agency. 500+ clients, 70+ experts, 15+ years of SEO, web development & creative excellence.",
+    "TML is a digital marketing agency in Chandigarh with 500+ clients, 70+ experts, and 15+ years of experience. Our company delivers SEO, branding, web development, and creative services.",
   keywords: [
     "about tml",
     "digital marketing agency chandigarh",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "About Us",
+    title: "About TML — Digital Marketing Agency in Chandigarh",
     description:
-      "Chandigarh's leading digital marketing agency — 500+ clients, 70+ team members, 15+ years of branding, SEO, web development & social media marketing excellence.",
+      "TML is a digital marketing agency in Chandigarh with 500+ clients, 70+ experts, and 15+ years of experience delivering branding, SEO, web development, and social media services.",
     url: `${siteUrl}/about`,
     siteName: "TML Agency",
     type: "website",
@@ -46,9 +46,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "About Us",
+    title: "About TML — Digital Marketing Agency in Chandigarh",
     description:
-      "Chandigarh's leading digital marketing agency — 500+ clients, 70+ team members, 15+ years of branding, SEO & web development excellence.",
+      "TML is a digital marketing agency in Chandigarh with 500+ clients, 70+ experts, and 15+ years of branding, SEO, and web development services.",
     images: ["/og-image.png"],
   },
 };

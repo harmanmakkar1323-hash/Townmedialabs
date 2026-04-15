@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["sydney"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Sydney",
-  description: "TML offers expert Branding services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Sydney",
+  description: "Top-rated Branding company in Sydney. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding sydney", "branding agency sydney", "branding company sydney"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-sydney",
   },
   openGraph: {
-    title: "Branding Agency in Sydney",
-    description: "TML offers expert Branding services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Sydney",
+    description: "Top-rated Branding company in Sydney. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-sydney",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Sydney",
-    description: "TML offers expert Branding services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Sydney",
+    description: "Top-rated Branding company in Sydney. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

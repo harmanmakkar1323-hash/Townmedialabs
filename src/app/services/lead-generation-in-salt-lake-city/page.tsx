@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["salt_lake_city"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Salt Lake City",
-  description: "TML offers expert Lead Generation services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Salt Lake City",
+  description: "Top-rated Lead Generation company in Salt Lake City. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation salt lake city", "lead generation agency salt lake city", "lead generation company salt lake city"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-salt-lake-city",
   },
   openGraph: {
-    title: "Lead Generation Agency in Salt Lake City",
-    description: "TML offers expert Lead Generation services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Salt Lake City",
+    description: "Top-rated Lead Generation company in Salt Lake City. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-salt-lake-city",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Salt Lake City",
-    description: "TML offers expert Lead Generation services in Salt Lake City. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Salt Lake City",
+    description: "Top-rated Lead Generation company in Salt Lake City. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

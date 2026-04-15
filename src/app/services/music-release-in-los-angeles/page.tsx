@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["los_angeles"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Los Angeles",
-  description: "TML offers expert Music Release services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Los Angeles",
+  description: "Top-rated Music Release company in Los Angeles. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release los angeles", "music release agency los angeles", "music release company los angeles"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-los-angeles",
   },
   openGraph: {
-    title: "Music Release Agency in Los Angeles",
-    description: "TML offers expert Music Release services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Los Angeles",
+    description: "Top-rated Music Release company in Los Angeles. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-los-angeles",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Los Angeles",
-    description: "TML offers expert Music Release services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Los Angeles",
+    description: "Top-rated Music Release company in Los Angeles. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

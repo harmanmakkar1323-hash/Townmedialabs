@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["fujairah"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Fujairah",
-  description: "TML offers expert AI Influencer Management services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Fujairah",
+  description: "Top-rated AI Influencer Management company in Fujairah. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management fujairah", "ai influencer management agency fujairah", "ai influencer management company fujairah"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-fujairah",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Fujairah",
-    description: "TML offers expert AI Influencer Management services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Fujairah",
+    description: "Top-rated AI Influencer Management company in Fujairah. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-fujairah",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Fujairah",
-    description: "TML offers expert AI Influencer Management services in Fujairah. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Fujairah",
+    description: "Top-rated AI Influencer Management company in Fujairah. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

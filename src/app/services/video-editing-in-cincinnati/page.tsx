@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["cincinnati"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Cincinnati",
-  description: "TML offers expert Video Editing services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Cincinnati",
+  description: "Top-rated Video Editing company in Cincinnati. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing cincinnati", "video editing agency cincinnati", "video editing company cincinnati"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-cincinnati",
   },
   openGraph: {
-    title: "Video Editing Agency in Cincinnati",
-    description: "TML offers expert Video Editing services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Cincinnati",
+    description: "Top-rated Video Editing company in Cincinnati. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-cincinnati",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Cincinnati",
-    description: "TML offers expert Video Editing services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Cincinnati",
+    description: "Top-rated Video Editing company in Cincinnati. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

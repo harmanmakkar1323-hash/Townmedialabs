@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["kolkata"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Kolkata",
-  description: "TML offers expert Website Development services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Kolkata",
+  description: "Top-rated Website Development company in Kolkata. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development kolkata", "website development agency kolkata", "website development company kolkata"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-kolkata",
   },
   openGraph: {
-    title: "Website Development Agency in Kolkata",
-    description: "TML offers expert Website Development services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Kolkata",
+    description: "Top-rated Website Development company in Kolkata. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-kolkata",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Kolkata",
-    description: "TML offers expert Website Development services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Kolkata",
+    description: "Top-rated Website Development company in Kolkata. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

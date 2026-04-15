@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["punjab"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Punjab",
-  description: "TML offers expert Lead Generation services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Punjab",
+  description: "Top-rated Lead Generation company in Punjab. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation punjab", "lead generation agency punjab", "lead generation company punjab"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-punjab",
   },
   openGraph: {
-    title: "Lead Generation Agency in Punjab",
-    description: "TML offers expert Lead Generation services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Punjab",
+    description: "Top-rated Lead Generation company in Punjab. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-punjab",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Punjab",
-    description: "TML offers expert Lead Generation services in Punjab. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Punjab",
+    description: "Top-rated Lead Generation company in Punjab. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

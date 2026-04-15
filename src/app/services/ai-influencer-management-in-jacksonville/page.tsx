@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["jacksonville"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Jacksonville",
-  description: "TML offers expert AI Influencer Management services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Jacksonville",
+  description: "Top-rated AI Influencer Management company in Jacksonville. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management jacksonville", "ai influencer management agency jacksonville", "ai influencer management company jacksonville"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-jacksonville",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Jacksonville",
-    description: "TML offers expert AI Influencer Management services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Jacksonville",
+    description: "Top-rated AI Influencer Management company in Jacksonville. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-jacksonville",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Jacksonville",
-    description: "TML offers expert AI Influencer Management services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Jacksonville",
+    description: "Top-rated AI Influencer Management company in Jacksonville. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

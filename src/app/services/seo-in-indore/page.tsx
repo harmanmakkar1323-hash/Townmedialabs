@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["indore"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Indore",
-  description: "TML offers expert Search Engine Optimization services in Indore. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Indore",
+  description: "Top-rated SEO company in Indore. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization indore", "search engine optimization agency indore", "search engine optimization company indore"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-indore",
   },
   openGraph: {
-    title: "SEO Agency in Indore",
-    description: "TML offers expert Search Engine Optimization services in Indore. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Indore",
+    description: "Top-rated SEO company in Indore. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-indore",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Indore",
-    description: "TML offers expert Search Engine Optimization services in Indore. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Indore",
+    description: "Top-rated SEO company in Indore. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

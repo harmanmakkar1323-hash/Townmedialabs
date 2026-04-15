@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["zirakpur"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Zirakpur",
-  description: "TML offers expert Website Development services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Zirakpur",
+  description: "Top-rated Website Development company in Zirakpur. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development zirakpur", "website development agency zirakpur", "website development company zirakpur"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-zirakpur",
   },
   openGraph: {
-    title: "Website Development Agency in Zirakpur",
-    description: "TML offers expert Website Development services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Zirakpur",
+    description: "Top-rated Website Development company in Zirakpur. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-zirakpur",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Zirakpur",
-    description: "TML offers expert Website Development services in Zirakpur. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Zirakpur",
+    description: "Top-rated Website Development company in Zirakpur. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

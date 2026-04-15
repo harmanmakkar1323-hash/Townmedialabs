@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["townsville"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Townsville",
-  description: "TML offers expert Website Development services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Townsville",
+  description: "Top-rated Website Development company in Townsville. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development townsville", "website development agency townsville", "website development company townsville"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-townsville",
   },
   openGraph: {
-    title: "Website Development Agency in Townsville",
-    description: "TML offers expert Website Development services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Townsville",
+    description: "Top-rated Website Development company in Townsville. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-townsville",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Townsville",
-    description: "TML offers expert Website Development services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Townsville",
+    description: "Top-rated Website Development company in Townsville. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

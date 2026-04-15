@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="100" fill="#1a1a2e"/>
+  <circle cx="100" cy="100" r="96" fill="url(#grad2)"/>
+  <!-- Turban -->
+  <ellipse cx="100" cy="62" rx="42" ry="30" fill="#ff6b35"/>
+  <path d="M58 62c0 0 5-25 42-25s42 25 42 25" fill="#ff4500"/>
+  <rect x="96" y="38" width="8" height="25" rx="4" fill="#ffd700" opacity="0.8"/>
+  <!-- Face -->
+  <ellipse cx="100" cy="95" rx="35" ry="38" fill="#c9956b"/>
+  <!-- Beard -->
+  <path d="M70 100c0 0 5 40 30 40s30-40 30-40" fill="#1a1a1a" opacity="0.8"/>
+  <!-- Eyes -->
+  <ellipse cx="87" cy="88" rx="4" ry="4.5" fill="#1a1a1a"/>
+  <ellipse cx="113" cy="88" rx="4" ry="4.5" fill="#1a1a1a"/>
+  <circle cx="88.5" cy="87" r="1.5" fill="white"/>
+  <circle cx="114.5" cy="87" r="1.5" fill="white"/>
+  <!-- Eyebrows -->
+  <path d="M80 80c3-4 8-5 12-3" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M108 77c4-2 9-1 12 3" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Gentle smile -->
+  <path d="M90 108c4 5 16 5 20 0" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Shirt -->
+  <path d="M60 148c0-15 18-22 40-22s40 7 40 22v52H60v-52z" fill="#2a2a4a"/>
+  <defs>
+    <radialGradient id="grad2" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2a2a4a"/>
+      <stop offset="100%" stop-color="#0f0f1e"/>
+    </radialGradient>
+  </defs>
+</svg>

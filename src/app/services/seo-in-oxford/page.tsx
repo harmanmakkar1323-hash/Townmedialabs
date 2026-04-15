@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["oxford"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Oxford",
-  description: "TML offers expert SEO services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Oxford",
+  description: "Top-rated SEO company in Oxford. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo oxford", "seo agency oxford", "seo company oxford"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-oxford",
   },
   openGraph: {
-    title: "SEO Agency in Oxford",
-    description: "TML offers expert SEO services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Oxford",
+    description: "Top-rated SEO company in Oxford. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-oxford",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Oxford",
-    description: "TML offers expert SEO services in Oxford. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Oxford",
+    description: "Top-rated SEO company in Oxford. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

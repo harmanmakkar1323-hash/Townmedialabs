@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["plymouth"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Plymouth",
-  description: "TML offers expert Music Release services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Plymouth",
+  description: "Top-rated Music Release company in Plymouth. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release plymouth", "music release agency plymouth", "music release company plymouth"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-plymouth",
   },
   openGraph: {
-    title: "Music Release Agency in Plymouth",
-    description: "TML offers expert Music Release services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Plymouth",
+    description: "Top-rated Music Release company in Plymouth. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-plymouth",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Plymouth",
-    description: "TML offers expert Music Release services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Plymouth",
+    description: "Top-rated Music Release company in Plymouth. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

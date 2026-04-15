@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["seattle"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Seattle",
-  description: "TML offers expert Packaging Design services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Seattle",
+  description: "Top-rated Packaging Design company in Seattle. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design seattle", "packaging design agency seattle", "packaging design company seattle"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-seattle",
   },
   openGraph: {
-    title: "Packaging Design Agency in Seattle",
-    description: "TML offers expert Packaging Design services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Seattle",
+    description: "Top-rated Packaging Design company in Seattle. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-seattle",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Seattle",
-    description: "TML offers expert Packaging Design services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Seattle",
+    description: "Top-rated Packaging Design company in Seattle. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

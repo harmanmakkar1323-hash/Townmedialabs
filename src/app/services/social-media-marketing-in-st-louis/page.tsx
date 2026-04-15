@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["st_louis"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in St. Louis",
-  description: "TML offers expert Social Media Marketing services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in St. Louis",
+  description: "Top-rated Social Media Marketing company in St. Louis. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing st. louis", "social media marketing agency st. louis", "social media marketing company st. louis"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-st-louis",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in St. Louis",
-    description: "TML offers expert Social Media Marketing services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in St. Louis",
+    description: "Top-rated Social Media Marketing company in St. Louis. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-st-louis",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in St. Louis",
-    description: "TML offers expert Social Media Marketing services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in St. Louis",
+    description: "Top-rated Social Media Marketing company in St. Louis. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

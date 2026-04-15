@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["stoke_on_trent"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Stoke-on-Trent",
-  description: "TML offers expert Lead Generation services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Stoke-on-Trent",
+  description: "Top-rated Lead Generation company in Stoke-on-Trent. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation stoke-on-trent", "lead generation agency stoke-on-trent", "lead generation company stoke-on-trent"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-stoke-on-trent",
   },
   openGraph: {
-    title: "Lead Generation Agency in Stoke-on-Trent",
-    description: "TML offers expert Lead Generation services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Stoke-on-Trent",
+    description: "Top-rated Lead Generation company in Stoke-on-Trent. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-stoke-on-trent",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Stoke-on-Trent",
-    description: "TML offers expert Lead Generation services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Stoke-on-Trent",
+    description: "Top-rated Lead Generation company in Stoke-on-Trent. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

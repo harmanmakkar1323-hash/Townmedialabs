@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["indianapolis"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Indianapolis",
-  description: "TML offers expert AI Influencer Management services in Indianapolis. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Indianapolis",
+  description: "Top-rated AI Influencer Management company in Indianapolis. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management indianapolis", "ai influencer management agency indianapolis", "ai influencer management company indianapolis"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-indianapolis",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Indianapolis",
-    description: "TML offers expert AI Influencer Management services in Indianapolis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Indianapolis",
+    description: "Top-rated AI Influencer Management company in Indianapolis. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-indianapolis",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Indianapolis",
-    description: "TML offers expert AI Influencer Management services in Indianapolis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Indianapolis",
+    description: "Top-rated AI Influencer Management company in Indianapolis. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

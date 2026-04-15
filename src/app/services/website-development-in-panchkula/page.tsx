@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["panchkula"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Panchkula",
-  description: "TML offers expert Website Development services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Panchkula",
+  description: "Top-rated Website Development company in Panchkula. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development panchkula", "website development agency panchkula", "website development company panchkula"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-panchkula",
   },
   openGraph: {
-    title: "Website Development Agency in Panchkula",
-    description: "TML offers expert Website Development services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Panchkula",
+    description: "Top-rated Website Development company in Panchkula. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-panchkula",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Panchkula",
-    description: "TML offers expert Website Development services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Panchkula",
+    description: "Top-rated Website Development company in Panchkula. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

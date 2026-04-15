@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["omaha"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Omaha",
-  description: "TML offers expert Graphic Design services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Graphic Design Agency in Omaha",
+  description: "Top-rated Graphic Design company in Omaha. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design omaha", "graphic design agency omaha", "graphic design company omaha"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-omaha",
   },
   openGraph: {
-    title: "Graphic Design Agency in Omaha",
-    description: "TML offers expert Graphic Design services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Omaha",
+    description: "Top-rated Graphic Design company in Omaha. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-omaha",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Omaha",
-    description: "TML offers expert Graphic Design services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Omaha",
+    description: "Top-rated Graphic Design company in Omaha. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["boston"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Boston",
-  description: "TML offers expert Music Release services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Boston",
+  description: "Top-rated Music Release company in Boston. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release boston", "music release agency boston", "music release company boston"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-boston",
   },
   openGraph: {
-    title: "Music Release Agency in Boston",
-    description: "TML offers expert Music Release services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Boston",
+    description: "Top-rated Music Release company in Boston. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-boston",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Boston",
-    description: "TML offers expert Music Release services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Boston",
+    description: "Top-rated Music Release company in Boston. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

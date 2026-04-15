@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["abu_dhabi"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Abu Dhabi",
-  description: "TML offers expert SEO services in Abu Dhabi. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Abu Dhabi",
+  description: "Top-rated SEO company in Abu Dhabi. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo abu dhabi", "seo agency abu dhabi", "seo company abu dhabi"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-abu-dhabi",
   },
   openGraph: {
-    title: "SEO Agency in Abu Dhabi",
-    description: "TML offers expert SEO services in Abu Dhabi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Abu Dhabi",
+    description: "Top-rated SEO company in Abu Dhabi. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-abu-dhabi",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Abu Dhabi",
-    description: "TML offers expert SEO services in Abu Dhabi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Abu Dhabi",
+    description: "Top-rated SEO company in Abu Dhabi. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

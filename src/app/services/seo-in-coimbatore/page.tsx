@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["coimbatore"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Coimbatore",
-  description: "TML offers expert Search Engine Optimization services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Coimbatore",
+  description: "Top-rated SEO company in Coimbatore. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization coimbatore", "search engine optimization agency coimbatore", "search engine optimization company coimbatore"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-coimbatore",
   },
   openGraph: {
-    title: "SEO Agency in Coimbatore",
-    description: "TML offers expert Search Engine Optimization services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Coimbatore",
+    description: "Top-rated SEO company in Coimbatore. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-coimbatore",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Coimbatore",
-    description: "TML offers expert Search Engine Optimization services in Coimbatore. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Coimbatore",
+    description: "Top-rated SEO company in Coimbatore. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

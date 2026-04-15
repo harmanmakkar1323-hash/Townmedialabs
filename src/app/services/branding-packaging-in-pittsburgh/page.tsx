@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["pittsburgh"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Pittsburgh",
-  description: "TML offers expert Packaging Design services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Pittsburgh",
+  description: "Top-rated Packaging Design company in Pittsburgh. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design pittsburgh", "packaging design agency pittsburgh", "packaging design company pittsburgh"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-pittsburgh",
   },
   openGraph: {
-    title: "Packaging Design Agency in Pittsburgh",
-    description: "TML offers expert Packaging Design services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Pittsburgh",
+    description: "Top-rated Packaging Design company in Pittsburgh. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-pittsburgh",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Pittsburgh",
-    description: "TML offers expert Packaging Design services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Pittsburgh",
+    description: "Top-rated Packaging Design company in Pittsburgh. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

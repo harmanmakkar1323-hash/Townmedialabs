@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["umm_al_quwain"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Umm Al Quwain",
-  description: "TML offers expert Google Ads services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Umm Al Quwain",
+  description: "Top-rated Google Ads company in Umm Al Quwain. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads umm al quwain", "google ads agency umm al quwain", "google ads company umm al quwain"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-umm-al-quwain",
   },
   openGraph: {
-    title: "Google Ads Agency in Umm Al Quwain",
-    description: "TML offers expert Google Ads services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Umm Al Quwain",
+    description: "Top-rated Google Ads company in Umm Al Quwain. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-umm-al-quwain",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Umm Al Quwain",
-    description: "TML offers expert Google Ads services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Umm Al Quwain",
+    description: "Top-rated Google Ads company in Umm Al Quwain. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

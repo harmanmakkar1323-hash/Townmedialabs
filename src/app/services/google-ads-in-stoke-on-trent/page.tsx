@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["stoke_on_trent"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Stoke-on-Trent",
-  description: "TML offers expert Google Ads services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Stoke-on-Trent",
+  description: "Top-rated Google Ads company in Stoke-on-Trent. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads stoke-on-trent", "google ads agency stoke-on-trent", "google ads company stoke-on-trent"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-stoke-on-trent",
   },
   openGraph: {
-    title: "Google Ads Agency in Stoke-on-Trent",
-    description: "TML offers expert Google Ads services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Stoke-on-Trent",
+    description: "Top-rated Google Ads company in Stoke-on-Trent. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-stoke-on-trent",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Stoke-on-Trent",
-    description: "TML offers expert Google Ads services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Stoke-on-Trent",
+    description: "Top-rated Google Ads company in Stoke-on-Trent. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

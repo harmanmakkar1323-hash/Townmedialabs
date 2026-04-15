@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["san_jose"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in San Jose",
-  description: "TML offers expert Music Release services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in San Jose",
+  description: "Top-rated Music Release company in San Jose. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release san jose", "music release agency san jose", "music release company san jose"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-san-jose",
   },
   openGraph: {
-    title: "Music Release Agency in San Jose",
-    description: "TML offers expert Music Release services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in San Jose",
+    description: "Top-rated Music Release company in San Jose. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-san-jose",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in San Jose",
-    description: "TML offers expert Music Release services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in San Jose",
+    description: "Top-rated Music Release company in San Jose. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

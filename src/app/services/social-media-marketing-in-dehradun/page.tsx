@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["dehradun"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Dehradun",
-  description: "TML offers expert Social Media Marketing services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in Dehradun",
+  description: "Top-rated Social Media Marketing company in Dehradun. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing dehradun", "social media marketing agency dehradun", "social media marketing company dehradun"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-dehradun",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Dehradun",
-    description: "TML offers expert Social Media Marketing services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Dehradun",
+    description: "Top-rated Social Media Marketing company in Dehradun. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-dehradun",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Dehradun",
-    description: "TML offers expert Social Media Marketing services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Dehradun",
+    description: "Top-rated Social Media Marketing company in Dehradun. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

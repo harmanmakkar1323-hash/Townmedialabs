@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["mohali"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Mohali",
-  description: "TML offers expert Google Ads management services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Mohali",
+  description: "Top-rated Google Ads company in Mohali. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["Google Ads management mohali", "Google Ads management agency mohali", "Google Ads management company mohali"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-mohali",
   },
   openGraph: {
-    title: "Google Ads Agency in Mohali",
-    description: "TML offers expert Google Ads management services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Mohali",
+    description: "Top-rated Google Ads company in Mohali. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-mohali",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Mohali",
-    description: "TML offers expert Google Ads management services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Mohali",
+    description: "Top-rated Google Ads company in Mohali. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["reading"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Reading",
-  description: "TML offers expert SEO services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Reading",
+  description: "Top-rated SEO company in Reading. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo reading", "seo agency reading", "seo company reading"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-reading",
   },
   openGraph: {
-    title: "SEO Agency in Reading",
-    description: "TML offers expert SEO services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Reading",
+    description: "Top-rated SEO company in Reading. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-reading",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Reading",
-    description: "TML offers expert SEO services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Reading",
+    description: "Top-rated SEO company in Reading. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

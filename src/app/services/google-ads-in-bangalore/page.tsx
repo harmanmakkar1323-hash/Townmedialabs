@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["bangalore"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Bangalore",
-  description: "TML offers expert Google Ads management services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Bangalore",
+  description: "Top-rated Google Ads company in Bangalore. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["Google Ads management bangalore", "Google Ads management agency bangalore", "Google Ads management company bangalore"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-bangalore",
   },
   openGraph: {
-    title: "Google Ads Agency in Bangalore",
-    description: "TML offers expert Google Ads management services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Bangalore",
+    description: "Top-rated Google Ads company in Bangalore. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-bangalore",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Bangalore",
-    description: "TML offers expert Google Ads management services in Bangalore. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Bangalore",
+    description: "Top-rated Google Ads company in Bangalore. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

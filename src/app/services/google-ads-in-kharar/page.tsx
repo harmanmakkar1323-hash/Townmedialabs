@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["kharar"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Kharar",
-  description: "TML offers expert Google Ads management services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Kharar",
+  description: "Top-rated Google Ads company in Kharar. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["Google Ads management kharar", "Google Ads management agency kharar", "Google Ads management company kharar"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-kharar",
   },
   openGraph: {
-    title: "Google Ads Agency in Kharar",
-    description: "TML offers expert Google Ads management services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Kharar",
+    description: "Top-rated Google Ads company in Kharar. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-kharar",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Kharar",
-    description: "TML offers expert Google Ads management services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Kharar",
+    description: "Top-rated Google Ads company in Kharar. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

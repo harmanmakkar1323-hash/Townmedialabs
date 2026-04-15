@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["delhi"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Delhi",
-  description: "TML offers expert Website Development services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Delhi",
+  description: "Top-rated Website Development company in Delhi. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development delhi", "website development agency delhi", "website development company delhi"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-delhi",
   },
   openGraph: {
-    title: "Website Development Agency in Delhi",
-    description: "TML offers expert Website Development services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Delhi",
+    description: "Top-rated Website Development company in Delhi. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-delhi",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Delhi",
-    description: "TML offers expert Website Development services in Delhi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Delhi",
+    description: "Top-rated Website Development company in Delhi. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["denver"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Denver",
-  description: "TML offers expert Packaging Design services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Denver",
+  description: "Top-rated Packaging Design company in Denver. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design denver", "packaging design agency denver", "packaging design company denver"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-denver",
   },
   openGraph: {
-    title: "Packaging Design Agency in Denver",
-    description: "TML offers expert Packaging Design services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Denver",
+    description: "Top-rated Packaging Design company in Denver. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-denver",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Denver",
-    description: "TML offers expert Packaging Design services in Denver. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Denver",
+    description: "Top-rated Packaging Design company in Denver. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

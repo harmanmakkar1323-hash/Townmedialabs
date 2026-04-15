@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["miami"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Miami",
-  description: "TML offers expert Website Development services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Miami",
+  description: "Top-rated Website Development company in Miami. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development miami", "website development agency miami", "website development company miami"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-miami",
   },
   openGraph: {
-    title: "Website Development Agency in Miami",
-    description: "TML offers expert Website Development services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Miami",
+    description: "Top-rated Website Development company in Miami. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-miami",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Miami",
-    description: "TML offers expert Website Development services in Miami. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Miami",
+    description: "Top-rated Website Development company in Miami. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

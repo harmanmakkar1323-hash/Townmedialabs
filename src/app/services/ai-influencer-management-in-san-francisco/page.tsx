@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["san_francisco"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in San Francisco",
-  description: "TML offers expert AI Influencer Management services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in San Francisco",
+  description: "Top-rated AI Influencer Management company in San Francisco. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management san francisco", "ai influencer management agency san francisco", "ai influencer management company san francisco"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-san-francisco",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in San Francisco",
-    description: "TML offers expert AI Influencer Management services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in San Francisco",
+    description: "Top-rated AI Influencer Management company in San Francisco. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-san-francisco",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in San Francisco",
-    description: "TML offers expert AI Influencer Management services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in San Francisco",
+    description: "Top-rated AI Influencer Management company in San Francisco. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

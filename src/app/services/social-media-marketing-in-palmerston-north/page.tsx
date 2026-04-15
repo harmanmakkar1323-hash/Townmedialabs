@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["palmerston_north"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Palmerston North",
-  description: "TML offers expert Social Media Marketing services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in Palmerston North",
+  description: "Top-rated Social Media Marketing company in Palmerston North. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing palmerston north", "social media marketing agency palmerston north", "social media marketing palmerston north nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-palmerston-north",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Palmerston North",
-    description: "TML offers expert Social Media Marketing services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Palmerston North",
+    description: "Top-rated Social Media Marketing company in Palmerston North. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-palmerston-north",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Palmerston North",
-    description: "TML offers expert Social Media Marketing services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Palmerston North",
+    description: "Top-rated Social Media Marketing company in Palmerston North. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

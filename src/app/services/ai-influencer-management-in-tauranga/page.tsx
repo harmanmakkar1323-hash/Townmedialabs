@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["tauranga"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Tauranga",
-  description: "TML offers expert AI Influencer Management services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Tauranga",
+  description: "Top-rated AI Influencer Management company in Tauranga. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management tauranga", "ai influencer management agency tauranga", "ai influencer management tauranga nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-tauranga",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Tauranga",
-    description: "TML offers expert AI Influencer Management services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Tauranga",
+    description: "Top-rated AI Influencer Management company in Tauranga. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-tauranga",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Tauranga",
-    description: "TML offers expert AI Influencer Management services in Tauranga, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Tauranga",
+    description: "Top-rated AI Influencer Management company in Tauranga. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

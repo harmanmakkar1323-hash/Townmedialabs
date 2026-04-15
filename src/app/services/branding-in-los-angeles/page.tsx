@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["los_angeles"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Los Angeles",
-  description: "TML offers expert Branding services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Los Angeles",
+  description: "Top-rated Branding company in Los Angeles. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding los angeles", "branding agency los angeles", "branding company los angeles"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-los-angeles",
   },
   openGraph: {
-    title: "Branding Agency in Los Angeles",
-    description: "TML offers expert Branding services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Los Angeles",
+    description: "Top-rated Branding company in Los Angeles. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-los-angeles",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Los Angeles",
-    description: "TML offers expert Branding services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Los Angeles",
+    description: "Top-rated Branding company in Los Angeles. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

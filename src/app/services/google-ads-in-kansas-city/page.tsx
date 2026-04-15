@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["kansas_city"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Kansas City",
-  description: "TML offers expert Google Ads services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Kansas City",
+  description: "Top-rated Google Ads company in Kansas City. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads kansas city", "google ads agency kansas city", "google ads company kansas city"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-kansas-city",
   },
   openGraph: {
-    title: "Google Ads Agency in Kansas City",
-    description: "TML offers expert Google Ads services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Kansas City",
+    description: "Top-rated Google Ads company in Kansas City. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-kansas-city",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Kansas City",
-    description: "TML offers expert Google Ads services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Kansas City",
+    description: "Top-rated Google Ads company in Kansas City. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

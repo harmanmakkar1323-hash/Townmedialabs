@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["palmerston_north"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Palmerston North",
-  description: "TML offers expert Graphic Design services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best Graphic Design Agency in Palmerston North",
+  description: "Top-rated Graphic Design company in Palmerston North. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design palmerston north", "graphic design agency palmerston north", "graphic design palmerston north nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-palmerston-north",
   },
   openGraph: {
-    title: "Graphic Design Agency in Palmerston North",
-    description: "TML offers expert Graphic Design services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Palmerston North",
+    description: "Top-rated Graphic Design company in Palmerston North. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-palmerston-north",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Palmerston North",
-    description: "TML offers expert Graphic Design services in Palmerston North, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Palmerston North",
+    description: "Top-rated Graphic Design company in Palmerston North. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

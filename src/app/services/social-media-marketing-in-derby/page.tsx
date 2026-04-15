@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["derby"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Derby",
-  description: "TML offers expert Social Media Marketing services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in Derby",
+  description: "Top-rated Social Media Marketing company in Derby. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing derby", "social media marketing agency derby", "social media marketing company derby"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-derby",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Derby",
-    description: "TML offers expert Social Media Marketing services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Derby",
+    description: "Top-rated Social Media Marketing company in Derby. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-derby",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Derby",
-    description: "TML offers expert Social Media Marketing services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Derby",
+    description: "Top-rated Social Media Marketing company in Derby. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

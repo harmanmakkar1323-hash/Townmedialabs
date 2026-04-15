@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["queenstown"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Queenstown",
-  description: "TML offers expert AI Influencer Management services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Queenstown",
+  description: "Top-rated AI Influencer Management company in Queenstown. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management queenstown", "ai influencer management agency queenstown", "ai influencer management queenstown nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-queenstown",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Queenstown",
-    description: "TML offers expert AI Influencer Management services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Queenstown",
+    description: "Top-rated AI Influencer Management company in Queenstown. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-queenstown",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Queenstown",
-    description: "TML offers expert AI Influencer Management services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Queenstown",
+    description: "Top-rated AI Influencer Management company in Queenstown. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

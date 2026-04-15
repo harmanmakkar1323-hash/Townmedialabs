@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["peterborough"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Peterborough",
-  description: "TML offers expert SEO services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Peterborough",
+  description: "Top-rated SEO company in Peterborough. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo peterborough", "seo agency peterborough", "seo company peterborough"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-peterborough",
   },
   openGraph: {
-    title: "SEO Agency in Peterborough",
-    description: "TML offers expert SEO services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Peterborough",
+    description: "Top-rated SEO company in Peterborough. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-peterborough",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Peterborough",
-    description: "TML offers expert SEO services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Peterborough",
+    description: "Top-rated SEO company in Peterborough. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

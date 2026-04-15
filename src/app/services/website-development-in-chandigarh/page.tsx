@@ -1,22 +1,20 @@
 import type { Metadata } from "next";
 import { locations } from "@/data/locations";
-import { getCityServiceContent } from "@/data/cityServiceContent";
 import LocationServicePage from "@/components/templates/LocationServicePage";
 
 const location = locations["chandigarh"];
-const enrichment = getCityServiceContent("website-development", "chandigarh");
 
 export const metadata: Metadata = {
-  title: enrichment?.metaTitle || "Best Website Development Agency in Chandigarh",
-  description: enrichment?.metaDescription || "TML offers expert Website Development services in Chandigarh. Proven results for 500+ businesses.",
-  keywords: enrichment?.keywords || ["website-development chandigarh"],
+  title: "Best Website Development Agency in Chandigarh",
+  description: "Top-rated website development company in Chandigarh. TML offers expert website development services for 500+ businesses across Punjab. Get a free website development consultation today.",
+  keywords: ["best website development agency chandigarh", "website development company chandigarh", "website development services chandigarh", "best website development chandigarh", "top website development agency chandigarh"],
   alternates: {
-    canonical: "https://townmedialabs.com/services/website-development-in-chandigarh",
+    canonical: "https://townmedialabs.com/services/website-development-in-chandigarh/",
   },
   openGraph: {
-    title: enrichment?.metaTitle || "Best Website Development Agency in Chandigarh",
-    description: enrichment?.metaDescription || "TML offers expert Website Development services in Chandigarh. Proven results for 500+ businesses.",
-    url: "https://townmedialabs.com/services/website-development-in-chandigarh",
+    title: "Best Website Development Agency in Chandigarh",
+    description: "Top-rated website development company in Chandigarh. TML offers expert website development services for 500+ businesses across Punjab. Get a free website development consultation today.",
+    url: "https://townmedialabs.com/services/website-development-in-chandigarh/",
     siteName: "TML Agency",
     type: "website",
     locale: "en_IN",
@@ -25,12 +23,11 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: enrichment?.metaTitle || "Best Website Development Agency in Chandigarh",
-    description: enrichment?.metaDescription || "TML offers expert Website Development services in Chandigarh. Proven results for 500+ businesses.",
+    title: "Best Website Development Agency in Chandigarh",
+    description: "Top-rated website development company in Chandigarh. TML offers expert website development services for 500+ businesses across Punjab. Get a free website development consultation today.",
     images: ["/og-image.png"],
   },
 };
-
 export default function UwebsiteUdevelopmentUinUchandigarhPage() {
   return (
     <LocationServicePage

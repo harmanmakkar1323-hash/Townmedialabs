@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["fort_worth"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Fort Worth",
-  description: "TML offers expert AI Influencer Management services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Fort Worth",
+  description: "Top-rated AI Influencer Management company in Fort Worth. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management fort worth", "ai influencer management agency fort worth", "ai influencer management company fort worth"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-fort-worth",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Fort Worth",
-    description: "TML offers expert AI Influencer Management services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Fort Worth",
+    description: "Top-rated AI Influencer Management company in Fort Worth. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-fort-worth",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Fort Worth",
-    description: "TML offers expert AI Influencer Management services in Fort Worth. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Fort Worth",
+    description: "Top-rated AI Influencer Management company in Fort Worth. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

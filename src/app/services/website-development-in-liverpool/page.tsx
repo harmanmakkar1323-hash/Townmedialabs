@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["liverpool"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Liverpool",
-  description: "TML offers expert Website Development services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Liverpool",
+  description: "Top-rated Website Development company in Liverpool. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development liverpool", "website development agency liverpool", "website development company liverpool"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-liverpool",
   },
   openGraph: {
-    title: "Website Development Agency in Liverpool",
-    description: "TML offers expert Website Development services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Liverpool",
+    description: "Top-rated Website Development company in Liverpool. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-liverpool",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Liverpool",
-    description: "TML offers expert Website Development services in Liverpool. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Liverpool",
+    description: "Top-rated Website Development company in Liverpool. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

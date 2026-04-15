@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["jalandhar"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Jalandhar",
-  description: "TML offers expert Google Ads management services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Jalandhar",
+  description: "Top-rated Google Ads company in Jalandhar. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["Google Ads management jalandhar", "Google Ads management agency jalandhar", "Google Ads management company jalandhar"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-jalandhar",
   },
   openGraph: {
-    title: "Google Ads Agency in Jalandhar",
-    description: "TML offers expert Google Ads management services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Jalandhar",
+    description: "Top-rated Google Ads company in Jalandhar. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-jalandhar",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Jalandhar",
-    description: "TML offers expert Google Ads management services in Jalandhar. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Jalandhar",
+    description: "Top-rated Google Ads company in Jalandhar. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["memphis"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Memphis",
-  description: "TML offers expert Packaging Design services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Memphis",
+  description: "Top-rated Packaging Design company in Memphis. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design memphis", "packaging design agency memphis", "packaging design company memphis"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-memphis",
   },
   openGraph: {
-    title: "Packaging Design Agency in Memphis",
-    description: "TML offers expert Packaging Design services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Memphis",
+    description: "Top-rated Packaging Design company in Memphis. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-memphis",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Memphis",
-    description: "TML offers expert Packaging Design services in Memphis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Memphis",
+    description: "Top-rated Packaging Design company in Memphis. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

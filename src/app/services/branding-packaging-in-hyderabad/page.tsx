@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["hyderabad"];
 
 export const metadata: Metadata = {
-  title: "Branding & Packaging Agency in Hyderabad",
-  description: "TML offers expert Branding and Packaging services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding & Packaging Agency in Hyderabad",
+  description: "Top-rated Branding & Packaging company in Hyderabad. TML offers expert Branding & Packaging services for 500+ businesses. Get a free Branding & Packaging consultation today.",
   keywords: ["branding and packaging hyderabad", "branding and packaging agency hyderabad", "branding and packaging company hyderabad"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-hyderabad",
   },
   openGraph: {
-    title: "Branding & Packaging Agency in Hyderabad",
-    description: "TML offers expert Branding and Packaging services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding & Packaging Agency in Hyderabad",
+    description: "Top-rated Branding & Packaging company in Hyderabad. TML offers expert Branding & Packaging services for 500+ businesses. Get a free Branding & Packaging consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-hyderabad",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding & Packaging Agency in Hyderabad",
-    description: "TML offers expert Branding and Packaging services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding & Packaging Agency in Hyderabad",
+    description: "Top-rated Branding & Packaging company in Hyderabad. TML offers expert Branding & Packaging services for 500+ businesses. Get a free Branding & Packaging consultation today.",
     images: ["/og-image.png"],
   },
 };

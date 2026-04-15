@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["baltimore"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Baltimore",
-  description: "TML offers expert Google Ads services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Baltimore",
+  description: "Top-rated Google Ads company in Baltimore. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads baltimore", "google ads agency baltimore", "google ads company baltimore"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-baltimore",
   },
   openGraph: {
-    title: "Google Ads Agency in Baltimore",
-    description: "TML offers expert Google Ads services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Baltimore",
+    description: "Top-rated Google Ads company in Baltimore. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-baltimore",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Baltimore",
-    description: "TML offers expert Google Ads services in Baltimore. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Baltimore",
+    description: "Top-rated Google Ads company in Baltimore. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

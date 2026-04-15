@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["chicago"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Chicago",
-  description: "TML offers expert Packaging Design services in Chicago. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Chicago",
+  description: "Top-rated Packaging Design company in Chicago. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design chicago", "packaging design agency chicago", "packaging design company chicago"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-chicago",
   },
   openGraph: {
-    title: "Packaging Design Agency in Chicago",
-    description: "TML offers expert Packaging Design services in Chicago. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Chicago",
+    description: "Top-rated Packaging Design company in Chicago. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-chicago",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Chicago",
-    description: "TML offers expert Packaging Design services in Chicago. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Chicago",
+    description: "Top-rated Packaging Design company in Chicago. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

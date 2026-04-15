@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["houston"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Houston",
-  description: "TML offers expert SEO services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Houston",
+  description: "Top-rated SEO company in Houston. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo houston", "seo agency houston", "seo company houston"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-houston",
   },
   openGraph: {
-    title: "SEO Agency in Houston",
-    description: "TML offers expert SEO services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Houston",
+    description: "Top-rated SEO company in Houston. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-houston",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Houston",
-    description: "TML offers expert SEO services in Houston. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Houston",
+    description: "Top-rated SEO company in Houston. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

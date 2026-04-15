@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["dubai"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Dubai",
-  description: "TML offers expert Google Ads services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Dubai",
+  description: "Top-rated Google Ads company in Dubai. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads dubai", "google ads agency dubai", "google ads company dubai"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-dubai",
   },
   openGraph: {
-    title: "Google Ads Agency in Dubai",
-    description: "TML offers expert Google Ads services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Dubai",
+    description: "Top-rated Google Ads company in Dubai. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-dubai",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Dubai",
-    description: "TML offers expert Google Ads services in Dubai. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Dubai",
+    description: "Top-rated Google Ads company in Dubai. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

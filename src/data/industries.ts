@@ -20,9 +20,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Dentists & Dental Clinics",
     description:
       "Attract more patients and grow your dental practice with tailored digital marketing strategies. From SEO and web design to social media and Google Ads, we help dentists dominate local search and fill their appointment books.",
-    metaTitle: "Digital Marketing & Web Design for Dentists",
+    metaTitle: "Digital Marketing Agency for Dentists | SEO & Web Design",
     metaDescription:
-      "Grow your dental practice with SEO, Google Ads, social media & high-converting websites. Marketing strategies that bring new patients to your door.",
+      "Full-service dental marketing agency. SEO, Google Ads, social media & web design services that bring new patients to your practice every month.",
     keywords: [
       "dental marketing agency",
       "web design for dentists",
@@ -126,9 +126,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Plumbers",
     description:
       "Generate a steady flow of service calls with digital marketing built for plumbing businesses. We help plumbers rank on Google, run high-converting ads, and build websites that turn searches into booked jobs.",
-    metaTitle: "Digital Marketing for Plumbers | Plumbing SEO & PPC",
+    metaTitle: "Digital Marketing Agency for Plumbers | SEO & PPC Services",
     metaDescription:
-      "Get more plumbing leads with SEO, Google Ads & web design. Local search strategies that drive real service calls & booked jobs for plumbers.",
+      "Plumbing marketing company specializing in SEO, Google Ads & web design services. Local search strategies that drive real service calls for plumbers.",
     keywords: [
       "plumber marketing",
       "plumbing SEO",
@@ -230,9 +230,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Electricians",
     description:
       "Power up your electrical contracting business with digital marketing that generates consistent leads. We help electricians rank locally, run profitable ad campaigns, and build professional websites that win trust.",
-    metaTitle: "Digital Marketing for Electricians | Electrical Contractor SEO",
+    metaTitle: "Digital Marketing for Electricians | SEO & Ads Services",
     metaDescription:
-      "Grow your electrical business with SEO, Google Ads & web design. Lead generation strategies built specifically for electricians & contractors.",
+      "Electrical contractor marketing agency. SEO, Google Ads & web design services built to generate leads and grow your electrician business.",
     keywords: [
       "electrician marketing",
       "electrician SEO",
@@ -334,9 +334,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Landscaping Companies",
     description:
       "Grow your landscaping business with digital marketing that generates year-round leads. From seasonal SEO strategies to targeted Google Ads, we help landscapers fill their project pipeline and build lasting client relationships.",
-    metaTitle: "Digital Marketing for Landscapers | Landscaping SEO & Ads",
+    metaTitle: "Digital Marketing for Landscapers | SEO & Ad Services",
     metaDescription:
-      "Get more landscaping leads with SEO, Google Ads & social media. Strategies built for landscaping & lawn care companies that drive bookings.",
+      "Landscaping marketing agency offering SEO, Google Ads & social media services. Lead generation strategies that drive bookings for lawn care companies.",
     keywords: [
       "landscaping marketing",
       "landscaper SEO",
@@ -438,9 +438,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Cleaning Services",
     description:
       "Scale your cleaning business with digital marketing that delivers a consistent stream of residential and commercial clients. We build systems for lead generation, local SEO, and online booking that grow cleaning companies predictably.",
-    metaTitle: "Digital Marketing for Cleaning Companies | Cleaning Service SEO",
+    metaTitle: "Marketing Agency for Cleaning Companies | SEO Services",
     metaDescription:
-      "Grow your cleaning business with local SEO, Google Ads & web design. Lead generation that brings in residential & commercial clients consistently.",
+      "Cleaning company marketing services — local SEO, Google Ads & web design. Our agency helps you attract residential & commercial clients consistently.",
     keywords: [
       "cleaning company marketing",
       "cleaning service SEO",
@@ -542,9 +542,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Veterinarians",
     description:
       "Grow your veterinary practice with digital marketing that connects you with pet owners in your community. From local SEO and Google Ads to compassionate content marketing, we help vets fill their appointment schedules.",
-    metaTitle: "Digital Marketing for Veterinarians | Vet Clinic Marketing",
+    metaTitle: "Marketing Agency for Veterinarians | SEO & Web Services",
     metaDescription:
-      "Attract more pet owners to your vet practice with local SEO, Google Ads & social media. Web design & marketing for vet clinics & animal hospitals.",
+      "Vet clinic marketing company — local SEO, Google Ads, social media & web design services that attract more pet owners to your veterinary practice.",
     keywords: [
       "veterinarian marketing",
       "vet clinic SEO",
@@ -646,9 +646,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Cafes & Coffee Shops",
     description:
       "Brew up more foot traffic and online orders with digital marketing designed for cafes and coffee shops. We build beautiful websites, manage social media, and optimise your local presence to turn coffee lovers into regulars.",
-    metaTitle: "Web Design & Digital Marketing for Cafes | Coffee Shop Marketing",
+    metaTitle: "Digital Marketing for Cafes | Web Design & SEO Services",
     metaDescription:
-      "Grow your cafe with web design, social media, local SEO & Google Business Profile optimisation. Drive more foot traffic & online orders.",
+      "Cafe marketing agency — web design, social media, local SEO & Google Business Profile services. Drive more foot traffic & online orders to your coffee shop.",
     keywords: [
       "cafe website design",
       "coffee shop marketing",
@@ -750,9 +750,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Hair Salons",
     description:
       "Fill your salon chairs with new clients through digital marketing built for the beauty industry. We help hair salons build stunning online portfolios, dominate local search, and leverage social media to drive bookings.",
-    metaTitle: "Digital Marketing for Hair Salons | Salon Marketing Agency",
+    metaTitle: "Digital Marketing Agency for Hair Salons | SEO Services",
     metaDescription:
-      "Grow your hair salon with social media, local SEO, Google Ads & web design. Online booking strategies that keep your chairs full.",
+      "Hair salon marketing company — social media, local SEO, Google Ads & web design services. Online booking strategies that keep your chairs full.",
     keywords: [
       "hair salon marketing",
       "salon SEO",
@@ -854,9 +854,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Accounting Firms",
     description:
       "Attract high-value clients to your accounting firm with digital marketing that builds authority and trust. We help accountants generate leads through SEO, thought leadership content, and targeted advertising.",
-    metaTitle: "Digital Marketing for Accountants | Accounting Firm SEO",
+    metaTitle: "Digital Marketing for Accountants | SEO & Web Services",
     metaDescription:
-      "Grow your accounting firm with SEO, content marketing, Google Ads & web design. Attract high-value clients & position your firm as a trusted authority.",
+      "Accounting firm marketing agency — SEO, content marketing, Google Ads & web design services. Attract high-value clients and build your firm's authority.",
     keywords: [
       "accounting firm marketing",
       "accountant SEO",
@@ -958,9 +958,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Churches & Non-Profits",
     description:
       "Amplify your mission with digital marketing that increases donations, volunteer engagement, and community reach. We help churches and non-profits build impactful websites and digital strategies that grow their impact.",
-    metaTitle: "Web Design & Marketing for Non-Profits & Churches",
+    metaTitle: "Marketing Agency for Non-Profits & Churches | Web Design",
     metaDescription:
-      "Grow your non-profit or church with web design, social media & SEO. Donation optimisation strategies that expand your reach & engage your community.",
+      "Non-profit marketing services — web design, social media & SEO for churches and charities. Donation optimisation strategies that expand your reach.",
     keywords: [
       "non-profit website design",
       "church marketing",
@@ -1062,9 +1062,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Chiropractors & Chiropractic Clinics",
     description:
       "Attract more patients to your chiropractic practice with a digital marketing strategy built for your industry. From local SEO and Google Ads to patient-focused web design, we help chiropractors grow their caseload and build lasting trust online.",
-    metaTitle: "Digital Marketing for Chiropractors",
+    metaTitle: "Digital Marketing Agency for Chiropractors | SEO Services",
     metaDescription:
-      "Grow your chiropractic practice with local SEO, Google Ads & web design. Marketing strategies that bring new patients through your door.",
+      "Chiropractic marketing company — local SEO, Google Ads & web design services that bring new patients to your practice every month.",
     keywords: [
       "chiropractic marketing",
       "digital marketing for chiropractors",
@@ -1149,9 +1149,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Photographers & Photography Studios",
     description:
       "Showcase your creative work with a stunning portfolio website and digital marketing strategy that attracts high-value clients. We help photographers build an online presence that reflects the artistry of their work and drives consistent bookings.",
-    metaTitle: "Web Design for Photographers",
+    metaTitle: "Web Design & Marketing for Photographers | SEO Services",
     metaDescription:
-      "Stand out with a portfolio website built for photographers. SEO, social media & web design that attract dream clients & fill your calendar.",
+      "Photography marketing agency — portfolio web design, SEO & social media services that attract dream clients and fill your calendar.",
     keywords: [
       "web design for photographers",
       "photographer website design",
@@ -1236,9 +1236,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Gyms & Fitness Centers",
     description:
       "Fill your gym with motivated members using digital marketing that targets fitness enthusiasts in your area. From lead generation and local SEO to social media and Google Ads, we help gyms grow membership and reduce churn.",
-    metaTitle: "Digital Marketing for Gyms & Fitness Centers",
+    metaTitle: "Digital Marketing Agency for Gyms | SEO & Ad Services",
     metaDescription:
-      "Grow your gym membership with local SEO, Google Ads & social media. Lead generation that brings motivated members through your door every month.",
+      "Gym marketing company — local SEO, Google Ads & social media services. Lead generation that brings motivated members to your fitness center every month.",
     keywords: [
       "gym marketing",
       "digital marketing for gyms",
@@ -1323,9 +1323,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Yoga Studios & Wellness Centers",
     description:
       "Grow your yoga studio with mindful digital marketing that attracts students who are seeking exactly what you offer. From serene web design to local SEO and community-building social media, we help wellness businesses thrive.",
-    metaTitle: "Digital Marketing for Yoga Studios",
+    metaTitle: "Digital Marketing for Yoga Studios | SEO & Web Services",
     metaDescription:
-      "Attract more students to your yoga studio with SEO, web design & social media. Marketing strategies tailored for yoga & wellness businesses.",
+      "Yoga studio marketing agency — SEO, web design & social media services tailored for yoga and wellness businesses. Attract more students consistently.",
     keywords: [
       "yoga studio marketing",
       "digital marketing for yoga studios",
@@ -1410,9 +1410,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Interior Designers & Design Studios",
     description:
       "Elevate your interior design business with a portfolio website and digital marketing strategy that attracts high-end clients. We help interior designers build an online presence that reflects their aesthetic vision and generates qualified project inquiries.",
-    metaTitle: "Web Design for Interior Designers",
+    metaTitle: "Web Design & Marketing for Interior Designers | SEO",
     metaDescription:
-      "Showcase your work with a stunning portfolio website. SEO, social media & web design strategies that attract premium interior design clients.",
+      "Interior design marketing agency — portfolio web design, SEO & social media services that attract premium clients and showcase your best work.",
     keywords: [
       "web design for interior designers",
       "interior designer website",
@@ -1497,9 +1497,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Pest Control Companies",
     description:
       "Dominate your local market with digital marketing built for pest control businesses. From emergency-intent Google Ads to local SEO and seasonal campaign strategies, we help pest control companies generate consistent leads year-round.",
-    metaTitle: "Digital Marketing for Pest Control Companies",
+    metaTitle: "Digital Marketing for Pest Control | SEO & PPC Services",
     metaDescription:
-      "Grow your pest control business with local SEO, Google Ads & web design. Lead generation that keeps your trucks rolling & schedule full.",
+      "Pest control marketing agency — local SEO, Google Ads & web design services. Lead generation that keeps your trucks rolling and schedule full.",
     keywords: [
       "pest control marketing",
       "digital marketing for pest control",
@@ -1584,9 +1584,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Roofing Companies & Contractors",
     description:
       "Generate a steady stream of roofing leads with digital marketing that captures homeowners at the moment they need roof repair or replacement. From storm damage campaigns to local SEO, we help roofers fill their project pipeline.",
-    metaTitle: "Digital Marketing for Roofing Companies",
+    metaTitle: "Digital Marketing Agency for Roofers | SEO & Ad Services",
     metaDescription:
-      "Grow your roofing business with Google Ads, local SEO & web design. Lead generation that keeps your crew busy with high-value projects.",
+      "Roofing marketing company — Google Ads, local SEO & web design services. Lead generation that keeps your crew busy with high-value roofing projects.",
     keywords: [
       "roofing company marketing",
       "digital marketing for roofers",
@@ -1671,9 +1671,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Real Estate Agents & Brokerages",
     description:
       "Stand out in a crowded real estate market with a personal brand website and digital marketing strategy that generates seller leads and buyer inquiries. We help agents build a digital presence that positions them as the go-to expert in their market.",
-    metaTitle: "Web Design for Real Estate Agents",
+    metaTitle: "Web Design & Marketing for Real Estate Agents | SEO",
     metaDescription:
-      "Grow your real estate business with a personal brand website, SEO, Google Ads & social media. Lead generation built for agents & brokerages.",
+      "Real estate marketing agency — personal brand web design, SEO, Google Ads & social media services. Lead generation built for agents and brokerages.",
     keywords: [
       "real estate agent website design",
       "web design for real estate agents",
@@ -1758,9 +1758,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Daycare Centers & Childcare Providers",
     description:
       "Fill your enrollment with digital marketing that helps parents discover and trust your daycare center. From reassuring web design to local SEO and parent-focused content, we help childcare providers build waitlists and grow sustainably.",
-    metaTitle: "Digital Marketing for Daycare Centers",
+    metaTitle: "Digital Marketing for Daycare Centers | SEO & Web Services",
     metaDescription:
-      "Grow your daycare enrollment with web design, local SEO & Google Ads. Strategies that help parents find & choose your childcare center.",
+      "Childcare marketing agency — web design, local SEO & Google Ads services. Help parents find and choose your daycare center with proven strategies.",
     keywords: [
       "daycare marketing",
       "digital marketing for daycare centers",
@@ -1845,9 +1845,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Tattoo Shops & Tattoo Artists",
     description:
       "Attract dream clients and fill your booking calendar with digital marketing built for the tattoo industry. From portfolio-driven web design to Instagram strategy and local SEO, we help tattoo artists and shops grow their brand and bookings.",
-    metaTitle: "Digital Marketing for Tattoo Shops",
+    metaTitle: "Digital Marketing Agency for Tattoo Shops | SEO Services",
     metaDescription:
-      "Grow your tattoo business with web design, SEO & social media that showcases your artistry. Strategies that attract quality clients & fill your books.",
+      "Tattoo shop marketing company — web design, SEO & social media services that showcase your artistry and attract quality clients to fill your books.",
     keywords: [
       "tattoo shop marketing",
       "digital marketing for tattoo shops",
@@ -1932,9 +1932,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Insurance Agents & Agencies",
     description:
       "Generate qualified leads and build lasting client relationships with digital marketing strategies built for insurance agents. From local SEO and Google Ads to content marketing and social media, we help insurance professionals stand out in a crowded market and earn trust before the first conversation.",
-    metaTitle: "Digital Marketing for Insurance Agents",
+    metaTitle: "Marketing for Insurance Agents | SEO & PPC Services",
     metaDescription:
-      "Grow your insurance business with SEO, Google Ads & social media. Lead generation strategies that help agents attract & convert high-value clients.",
+      "Insurance marketing agency — SEO, Google Ads & social media services. Lead generation strategies that help agents attract and convert high-value clients.",
     keywords: [
       "insurance agent marketing",
       "digital marketing for insurance",
@@ -2019,9 +2019,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Wedding Planners & Event Designers",
     description:
       "Attract dream clients and showcase your creative vision with a stunning website and digital marketing strategy built for wedding planners. From portfolio design and SEO to social media and Google Ads, we help wedding professionals book more high-value events.",
-    metaTitle: "Web Design & Digital Marketing for Wedding Planners",
+    metaTitle: "Marketing Agency for Wedding Planners | Web Design & SEO",
     metaDescription:
-      "Elevate your wedding planning business with a beautiful website, SEO & social media. Attract ideal clients with portfolio-driven web design.",
+      "Wedding planner marketing services — portfolio web design, SEO & social media. Attract ideal couples with a digital presence that reflects your style.",
     keywords: [
       "web design for wedding planners",
       "wedding planner marketing",
@@ -2106,9 +2106,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Auto Repair Shops & Mechanics",
     description:
       "Drive more customers to your auto repair shop with digital marketing strategies that build trust and visibility. From local SEO and Google Ads to review management and web design, we help mechanics and shop owners fill their bays and build loyal customer bases.",
-    metaTitle: "Digital Marketing for Auto Repair Shops",
+    metaTitle: "Digital Marketing for Auto Repair Shops | SEO Services",
     metaDescription:
-      "Grow your auto repair business with local SEO, Google Ads, review management & high-converting websites. More customers for your shop.",
+      "Auto repair marketing agency — local SEO, Google Ads, review management & web design services. Drive more customers to your shop consistently.",
     keywords: [
       "auto repair marketing",
       "digital marketing for mechanics",
@@ -2193,9 +2193,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "HVAC Companies & Contractors",
     description:
       "Generate consistent leads and dominate local search with digital marketing strategies built for HVAC companies. From emergency service advertising and local SEO to seasonal campaigns and web design, we help heating and cooling businesses grow year-round.",
-    metaTitle: "Digital Marketing for HVAC Companies",
+    metaTitle: "Digital Marketing Agency for HVAC Companies | SEO & Ads",
     metaDescription:
-      "Grow your HVAC business with local SEO, Google Ads & web design. Lead generation that helps heating & cooling companies book more jobs year-round.",
+      "HVAC marketing company — local SEO, Google Ads & web design services. Lead generation that helps heating and cooling businesses book jobs year-round.",
     keywords: [
       "HVAC marketing",
       "digital marketing for HVAC",
@@ -2280,9 +2280,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Florists & Flower Shops",
     description:
       "Bloom online with a beautiful website and digital marketing strategy designed for florists. From e-commerce and local SEO to social media and Google Ads, we help flower shops attract more orders, build loyal customers, and stand out from wire services and big box competitors.",
-    metaTitle: "Web Design & Digital Marketing for Florists",
+    metaTitle: "Marketing Agency for Florists | Web Design & SEO Services",
     metaDescription:
-      "Grow your flower shop with a stunning website, local SEO & Google Ads. Beautiful web design & social media that drive more online orders.",
+      "Florist marketing company — stunning web design, local SEO & Google Ads services. Social media strategies that drive more online flower orders.",
     keywords: [
       "web design for florists",
       "florist website design",
@@ -2367,9 +2367,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Moving Companies & Relocation Services",
     description:
       "Pack your schedule with qualified leads through digital marketing strategies built for moving companies. From local SEO and Google Ads to reputation management and web design, we help movers dominate search results and book more high-value jobs.",
-    metaTitle: "Digital Marketing for Moving Companies",
+    metaTitle: "Marketing Agency for Moving Companies | SEO & PPC",
     metaDescription:
-      "Grow your moving company with local SEO, Google Ads & web design. Lead generation that helps movers book more jobs & build trusted reputations.",
+      "Moving company marketing agency — local SEO, Google Ads & web design services. Lead generation that helps movers book more jobs and build trust.",
     keywords: [
       "moving company marketing",
       "digital marketing for movers",
@@ -2454,9 +2454,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Personal Trainers & Fitness Coaches",
     description:
       "Build your personal brand and fill your client roster with digital marketing strategies designed for personal trainers and fitness coaches. From professional web design and local SEO to social media strategy and content marketing, we help fitness professionals attract ideal clients.",
-    metaTitle: "Digital Marketing for Personal Trainers",
+    metaTitle: "Marketing for Personal Trainers | SEO & Web Services",
     metaDescription:
-      "Grow your personal training business with web design, local SEO & social media. Attract more fitness clients & build your brand online.",
+      "Personal trainer marketing agency — web design, local SEO & social media services. Attract more fitness clients and build your brand online.",
     keywords: [
       "personal trainer marketing",
       "digital marketing for fitness coaches",
@@ -2541,9 +2541,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Travel Agencies & Tour Operators",
     description:
       "Inspire wanderlust and book more trips with a stunning website and digital marketing strategy built for travel agencies and tour operators. From immersive web design and SEO to social media and content marketing, we help travel businesses thrive in the digital age.",
-    metaTitle: "Web Design & Digital Marketing for Travel Agencies",
+    metaTitle: "Marketing Agency for Travel Agencies | Web Design & SEO",
     metaDescription:
-      "Grow your travel agency with a stunning website, SEO & social media. Immersive web design & content strategies that attract more clients.",
+      "Travel agency marketing services — immersive web design, SEO & social media. Content strategies that attract more clients and grow bookings.",
     keywords: [
       "web design for travel agencies",
       "travel agency website design",
@@ -2628,9 +2628,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Spas & Massage Therapists",
     description:
       "Attract more clients and fill your appointment book with digital marketing strategies designed for spas and massage therapists. From local SEO and Google Ads to beautiful web design and social media, we help wellness businesses create a calming online presence that converts.",
-    metaTitle: "Digital Marketing for Spas & Massage Therapists",
+    metaTitle: "Marketing for Spas & Massage | SEO & Web Services",
     metaDescription:
-      "Grow your spa or massage therapy business with local SEO, Google Ads & web design. Attract more wellness clients with social media & marketing.",
+      "Spa marketing agency — local SEO, Google Ads & web design services for massage therapists and wellness businesses. Attract more clients consistently.",
     keywords: [
       "spa marketing",
       "digital marketing for massage therapists",
@@ -2715,9 +2715,9 @@ export const industries: Record<string, IndustryInfo> = {
     name: "Car Dealerships & Auto Dealers",
     description:
       "Accelerate your sales with digital marketing strategies built for car dealerships. From inventory-focused SEO and Google Ads to social media, reputation management, and high-converting web design, we help auto dealers drive more qualified leads to their showrooms.",
-    metaTitle: "Digital Marketing for Car Dealerships",
+    metaTitle: "Marketing Agency for Car Dealerships | SEO & Ads",
     metaDescription:
-      "Grow your car dealership with SEO, Google Ads & social media. Drive more showroom traffic with reputation management & inventory marketing.",
+      "Car dealership marketing company — SEO, Google Ads & social media services. Drive more showroom traffic with reputation management and inventory marketing.",
     keywords: [
       "car dealership marketing",
       "digital marketing for auto dealers",
@@ -2823,9 +2823,9 @@ export const industryPages: Record<string, IndustryPage> = {
   "real-estate": {
     slug: "real-estate",
     name: "Real Estate",
-    metaTitle: "Digital Marketing for Real Estate",
+    metaTitle: "Digital Marketing Agency for Real Estate | SEO & Ads",
     metaDescription:
-      "ROI-driven marketing for real estate developers, brokers & property portals. SEO, Google Ads, social media & lead generation for property businesses.",
+      "Real estate marketing company — ROI-driven SEO, Google Ads, social media & lead generation services for developers, brokers and property portals.",
     keywords: [
       "real estate digital marketing",
       "property marketing agency",
@@ -2973,9 +2973,9 @@ export const industryPages: Record<string, IndustryPage> = {
   "healthcare-medical": {
     slug: "healthcare-medical",
     name: "Healthcare & Medical",
-    metaTitle: "Digital Marketing for Healthcare & Medical",
+    metaTitle: "Healthcare Marketing Agency | SEO & Ads Services",
     metaDescription:
-      "Compliant, ROI-focused marketing for hospitals, clinics & health tech. SEO, Google Ads, social media & patient acquisition strategies.",
+      "Healthcare marketing company — compliant SEO, Google Ads, social media & patient acquisition services for hospitals, clinics and health tech.",
     keywords: [
       "healthcare digital marketing",
       "medical practice marketing",
@@ -3124,9 +3124,9 @@ export const industryPages: Record<string, IndustryPage> = {
   "restaurants-food": {
     slug: "restaurants-food",
     name: "Restaurants & Food",
-    metaTitle: "Digital Marketing for Restaurants & Food Businesses",
+    metaTitle: "Restaurant Marketing Agency | SEO & Social Services",
     metaDescription:
-      "Drive footfall, online orders & brand loyalty for restaurants, cafes, QSRs & cloud kitchens. Social media, SEO & Google Ads for food brands.",
+      "Restaurant marketing company — social media, SEO & Google Ads services that drive footfall, online orders and brand loyalty for food businesses.",
     keywords: [
       "restaurant digital marketing",
       "food brand marketing",
@@ -3242,9 +3242,9 @@ export const industryPages: Record<string, IndustryPage> = {
   "e-commerce": {
     slug: "e-commerce",
     name: "E-Commerce",
-    metaTitle: "Digital Marketing for E-Commerce",
+    metaTitle: "E-Commerce Marketing Agency | SEO & Ads Services",
     metaDescription:
-      "Scale your e-commerce brand with performance marketing, SEO & social commerce. Data-driven strategies that increase ROAS & reduce acquisition cost.",
+      "E-commerce marketing company — performance marketing, SEO & social commerce services. Data-driven strategies that increase ROAS and reduce acquisition cost.",
     keywords: [
       "e-commerce digital marketing",
       "e-commerce SEO",
@@ -3393,9 +3393,9 @@ export const industryPages: Record<string, IndustryPage> = {
   "education-edtech": {
     slug: "education-edtech",
     name: "Education & EdTech",
-    metaTitle: "Digital Marketing for Education & EdTech",
+    metaTitle: "Education Marketing Agency | SEO & Enrollment",
     metaDescription:
-      "Drive student enrollment & brand authority for schools, universities & EdTech platforms. Full-funnel education marketing strategies.",
+      "Education marketing company — full-funnel SEO, ads & content services that drive student enrollment and brand authority for schools, universities and EdTech.",
     keywords: [
       "education digital marketing",
       "EdTech marketing agency",
@@ -3511,9 +3511,9 @@ export const industryPages: Record<string, IndustryPage> = {
   "legal-law-firms": {
     slug: "legal-law-firms",
     name: "Law Firms & Legal Services",
-    metaTitle: "Digital Marketing for Law Firms & Legal Services",
+    metaTitle: "Law Firm Marketing Agency | SEO & PPC Services",
     metaDescription:
-      "TML builds authoritative digital presences for law firms and attorneys. SEO, Google Ads, reputation management & compliant legal marketing.",
+      "Legal marketing company — SEO, Google Ads, reputation management & compliant marketing services that build authoritative digital presences for law firms.",
     keywords: [
       "law firm digital marketing",
       "legal SEO agency",
@@ -3662,9 +3662,9 @@ export const industryPages: Record<string, IndustryPage> = {
   "fitness-wellness": {
     slug: "fitness-wellness",
     name: "Fitness & Wellness",
-    metaTitle: "Digital Marketing for Fitness & Wellness Businesses",
+    metaTitle: "Fitness Marketing Agency | SEO & Social Services",
     metaDescription:
-      "Drive memberships & class bookings for gyms, yoga studios & fitness brands. Social media, SEO & performance marketing for wellness businesses.",
+      "Fitness marketing company — social media, SEO & performance marketing services that drive memberships and class bookings for gyms and wellness brands.",
     keywords: [
       "fitness digital marketing",
       "gym marketing agency",
@@ -3780,9 +3780,9 @@ export const industryPages: Record<string, IndustryPage> = {
   automotive: {
     slug: "automotive",
     name: "Automotive",
-    metaTitle: "Digital Marketing for Automotive Businesses",
+    metaTitle: "Automotive Marketing Agency | SEO & Ads Services",
     metaDescription:
-      "Drive leads, showroom visits & service bookings for dealerships & automotive brands. SEO, Google Ads & performance marketing for auto businesses.",
+      "Automotive marketing company — SEO, Google Ads & performance marketing services that drive leads, showroom visits and service bookings for dealerships.",
     keywords: [
       "automotive digital marketing",
       "car dealership marketing",
@@ -3898,9 +3898,9 @@ export const industryPages: Record<string, IndustryPage> = {
   "construction-home-services": {
     slug: "construction-home-services",
     name: "Construction & Home Services",
-    metaTitle: "Digital Marketing for Construction & Home Services",
+    metaTitle: "Construction Marketing Agency | SEO & Lead Gen",
     metaDescription:
-      "Generate qualified leads for construction companies, contractors & home service businesses. Local SEO, Google Ads & lead generation for trades.",
+      "Construction marketing company — local SEO, Google Ads & lead generation services for contractors, builders and home service businesses.",
     keywords: [
       "construction digital marketing",
       "home services marketing",
@@ -4049,9 +4049,9 @@ export const industryPages: Record<string, IndustryPage> = {
   "saas-technology": {
     slug: "saas-technology",
     name: "SaaS & Technology",
-    metaTitle: "Digital Marketing for SaaS & Technology Companies",
+    metaTitle: "SaaS Marketing Agency | SEO, PPC & Growth Services",
     metaDescription:
-      "Drive user acquisition, MRR growth & brand authority for SaaS & tech companies. Demand generation, SEO, PPC & content for software businesses.",
+      "SaaS marketing company — demand generation, SEO, PPC & content services that drive user acquisition, MRR growth and brand authority for tech companies.",
     keywords: [
       "SaaS marketing agency",
       "technology company marketing",

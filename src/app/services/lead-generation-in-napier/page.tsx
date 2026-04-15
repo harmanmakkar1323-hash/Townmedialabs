@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["napier"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Napier",
-  description: "TML offers expert Lead Generation services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Napier",
+  description: "Top-rated Lead Generation company in Napier. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation napier", "lead generation agency napier", "lead generation napier nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-napier",
   },
   openGraph: {
-    title: "Lead Generation Agency in Napier",
-    description: "TML offers expert Lead Generation services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Napier",
+    description: "Top-rated Lead Generation company in Napier. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-napier",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Napier",
-    description: "TML offers expert Lead Generation services in Napier, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Napier",
+    description: "Top-rated Lead Generation company in Napier. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

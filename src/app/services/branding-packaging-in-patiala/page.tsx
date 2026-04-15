@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["patiala"];
 
 export const metadata: Metadata = {
-  title: "Branding & Packaging Agency in Patiala",
-  description: "TML offers expert Branding and Packaging services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding & Packaging Agency in Patiala",
+  description: "Top-rated Branding & Packaging company in Patiala. TML offers expert Branding & Packaging services for 500+ businesses. Get a free Branding & Packaging consultation today.",
   keywords: ["branding and packaging patiala", "branding and packaging agency patiala", "branding and packaging company patiala"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-patiala",
   },
   openGraph: {
-    title: "Branding & Packaging Agency in Patiala",
-    description: "TML offers expert Branding and Packaging services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding & Packaging Agency in Patiala",
+    description: "Top-rated Branding & Packaging company in Patiala. TML offers expert Branding & Packaging services for 500+ businesses. Get a free Branding & Packaging consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-patiala",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding & Packaging Agency in Patiala",
-    description: "TML offers expert Branding and Packaging services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding & Packaging Agency in Patiala",
+    description: "Top-rated Branding & Packaging company in Patiala. TML offers expert Branding & Packaging services for 500+ businesses. Get a free Branding & Packaging consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["boise"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Boise",
-  description: "TML offers expert Social Media Marketing services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in Boise",
+  description: "Top-rated Social Media Marketing company in Boise. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing boise", "social media marketing agency boise", "social media marketing company boise"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-boise",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Boise",
-    description: "TML offers expert Social Media Marketing services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Boise",
+    description: "Top-rated Social Media Marketing company in Boise. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-boise",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Boise",
-    description: "TML offers expert Social Media Marketing services in Boise. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Boise",
+    description: "Top-rated Social Media Marketing company in Boise. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

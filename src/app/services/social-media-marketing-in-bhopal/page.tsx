@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["bhopal"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Bhopal",
-  description: "TML offers expert Social Media Marketing services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in Bhopal",
+  description: "Top-rated Social Media Marketing company in Bhopal. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing bhopal", "social media marketing agency bhopal", "social media marketing company bhopal"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-bhopal",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Bhopal",
-    description: "TML offers expert Social Media Marketing services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Bhopal",
+    description: "Top-rated Social Media Marketing company in Bhopal. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-bhopal",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Bhopal",
-    description: "TML offers expert Social Media Marketing services in Bhopal. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Bhopal",
+    description: "Top-rated Social Media Marketing company in Bhopal. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

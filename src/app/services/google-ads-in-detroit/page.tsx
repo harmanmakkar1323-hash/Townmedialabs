@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["detroit"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Detroit",
-  description: "TML offers expert Google Ads services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Detroit",
+  description: "Top-rated Google Ads company in Detroit. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads detroit", "google ads agency detroit", "google ads company detroit"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-detroit",
   },
   openGraph: {
-    title: "Google Ads Agency in Detroit",
-    description: "TML offers expert Google Ads services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Detroit",
+    description: "Top-rated Google Ads company in Detroit. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-detroit",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Detroit",
-    description: "TML offers expert Google Ads services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Detroit",
+    description: "Top-rated Google Ads company in Detroit. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

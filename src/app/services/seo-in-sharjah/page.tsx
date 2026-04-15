@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["sharjah"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Sharjah",
-  description: "TML offers expert SEO services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Sharjah",
+  description: "Top-rated SEO company in Sharjah. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo sharjah", "seo agency sharjah", "seo company sharjah"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-sharjah",
   },
   openGraph: {
-    title: "SEO Agency in Sharjah",
-    description: "TML offers expert SEO services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Sharjah",
+    description: "Top-rated SEO company in Sharjah. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-sharjah",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Sharjah",
-    description: "TML offers expert SEO services in Sharjah. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Sharjah",
+    description: "Top-rated SEO company in Sharjah. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

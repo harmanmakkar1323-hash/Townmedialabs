@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["ajman"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Ajman",
-  description: "TML offers expert Website Development services in Ajman. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Ajman",
+  description: "Top-rated Website Development company in Ajman. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development ajman", "website development agency ajman", "website development company ajman"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-ajman",
   },
   openGraph: {
-    title: "Website Development Agency in Ajman",
-    description: "TML offers expert Website Development services in Ajman. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Ajman",
+    description: "Top-rated Website Development company in Ajman. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-ajman",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Ajman",
-    description: "TML offers expert Website Development services in Ajman. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Ajman",
+    description: "Top-rated Website Development company in Ajman. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["derabassi"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Derabassi",
-  description: "TML offers expert Branding services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Derabassi",
+  description: "Top-rated Branding company in Derabassi. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding derabassi", "branding agency derabassi", "branding company derabassi"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-derabassi",
   },
   openGraph: {
-    title: "Branding Agency in Derabassi",
-    description: "TML offers expert Branding services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Derabassi",
+    description: "Top-rated Branding company in Derabassi. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-derabassi",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Derabassi",
-    description: "TML offers expert Branding services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Derabassi",
+    description: "Top-rated Branding company in Derabassi. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

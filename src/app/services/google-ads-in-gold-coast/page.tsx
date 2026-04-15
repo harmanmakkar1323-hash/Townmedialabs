@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["gold_coast"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Gold Coast",
-  description: "TML offers expert Google Ads services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Gold Coast",
+  description: "Top-rated Google Ads company in Gold Coast. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads gold coast", "google ads agency gold coast", "google ads company gold coast"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-gold-coast",
   },
   openGraph: {
-    title: "Google Ads Agency in Gold Coast",
-    description: "TML offers expert Google Ads services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Gold Coast",
+    description: "Top-rated Google Ads company in Gold Coast. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-gold-coast",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Gold Coast",
-    description: "TML offers expert Google Ads services in Gold Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Gold Coast",
+    description: "Top-rated Google Ads company in Gold Coast. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

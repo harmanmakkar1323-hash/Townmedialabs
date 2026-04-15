@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["derabassi"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Derabassi",
-  description: "TML offers expert Search Engine Optimization services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Derabassi",
+  description: "Top-rated SEO company in Derabassi. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization derabassi", "search engine optimization agency derabassi", "search engine optimization company derabassi"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-derabassi",
   },
   openGraph: {
-    title: "SEO Agency in Derabassi",
-    description: "TML offers expert Search Engine Optimization services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Derabassi",
+    description: "Top-rated SEO company in Derabassi. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-derabassi",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Derabassi",
-    description: "TML offers expert Search Engine Optimization services in Derabassi. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Derabassi",
+    description: "Top-rated SEO company in Derabassi. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

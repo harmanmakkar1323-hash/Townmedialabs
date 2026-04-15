@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["jacksonville"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Jacksonville",
-  description: "TML offers expert Music Release services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Jacksonville",
+  description: "Top-rated Music Release company in Jacksonville. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release jacksonville", "music release agency jacksonville", "music release company jacksonville"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-jacksonville",
   },
   openGraph: {
-    title: "Music Release Agency in Jacksonville",
-    description: "TML offers expert Music Release services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Jacksonville",
+    description: "Top-rated Music Release company in Jacksonville. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-jacksonville",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Jacksonville",
-    description: "TML offers expert Music Release services in Jacksonville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Jacksonville",
+    description: "Top-rated Music Release company in Jacksonville. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["mohali"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Mohali",
-  description: "TML offers expert Music Release and Distribution services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Mohali",
+  description: "Top-rated Music Release company in Mohali. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release and distribution mohali", "music release and distribution agency mohali", "music release and distribution company mohali"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-mohali",
   },
   openGraph: {
-    title: "Music Release Agency in Mohali",
-    description: "TML offers expert Music Release and Distribution services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Mohali",
+    description: "Top-rated Music Release company in Mohali. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-mohali",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Mohali",
-    description: "TML offers expert Music Release and Distribution services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Mohali",
+    description: "Top-rated Music Release company in Mohali. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

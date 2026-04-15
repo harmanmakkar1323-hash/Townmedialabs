@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["sheffield"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Sheffield",
-  description: "TML offers expert Music Release services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Sheffield",
+  description: "Top-rated Music Release company in Sheffield. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release sheffield", "music release agency sheffield", "music release company sheffield"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-sheffield",
   },
   openGraph: {
-    title: "Music Release Agency in Sheffield",
-    description: "TML offers expert Music Release services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Sheffield",
+    description: "Top-rated Music Release company in Sheffield. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-sheffield",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Sheffield",
-    description: "TML offers expert Music Release services in Sheffield. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Sheffield",
+    description: "Top-rated Music Release company in Sheffield. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

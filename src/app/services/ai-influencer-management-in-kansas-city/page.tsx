@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["kansas_city"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Kansas City",
-  description: "TML offers expert AI Influencer Management services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Kansas City",
+  description: "Top-rated AI Influencer Management company in Kansas City. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management kansas city", "ai influencer management agency kansas city", "ai influencer management company kansas city"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-kansas-city",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Kansas City",
-    description: "TML offers expert AI Influencer Management services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Kansas City",
+    description: "Top-rated AI Influencer Management company in Kansas City. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-kansas-city",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Kansas City",
-    description: "TML offers expert AI Influencer Management services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Kansas City",
+    description: "Top-rated AI Influencer Management company in Kansas City. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

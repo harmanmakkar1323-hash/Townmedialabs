@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["exeter"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Exeter",
-  description: "TML offers expert Social Media Marketing services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in Exeter",
+  description: "Top-rated Social Media Marketing company in Exeter. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing exeter", "social media marketing agency exeter", "social media marketing company exeter"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-exeter",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Exeter",
-    description: "TML offers expert Social Media Marketing services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Exeter",
+    description: "Top-rated Social Media Marketing company in Exeter. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-exeter",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Exeter",
-    description: "TML offers expert Social Media Marketing services in Exeter. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Exeter",
+    description: "Top-rated Social Media Marketing company in Exeter. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

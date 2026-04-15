@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["queenstown"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Queenstown",
-  description: "TML offers expert SEO services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best SEO Agency in Queenstown",
+  description: "Top-rated SEO company in Queenstown. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo queenstown", "seo agency queenstown", "seo queenstown nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-queenstown",
   },
   openGraph: {
-    title: "SEO Agency in Queenstown",
-    description: "TML offers expert SEO services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best SEO Agency in Queenstown",
+    description: "Top-rated SEO company in Queenstown. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-queenstown",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Queenstown",
-    description: "TML offers expert SEO services in Queenstown, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best SEO Agency in Queenstown",
+    description: "Top-rated SEO company in Queenstown. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

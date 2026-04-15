@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["san_francisco"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in San Francisco",
-  description: "TML offers expert Packaging Design services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in San Francisco",
+  description: "Top-rated Packaging Design company in San Francisco. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design san francisco", "packaging design agency san francisco", "packaging design company san francisco"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-san-francisco",
   },
   openGraph: {
-    title: "Packaging Design Agency in San Francisco",
-    description: "TML offers expert Packaging Design services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in San Francisco",
+    description: "Top-rated Packaging Design company in San Francisco. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-san-francisco",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in San Francisco",
-    description: "TML offers expert Packaging Design services in San Francisco. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in San Francisco",
+    description: "Top-rated Packaging Design company in San Francisco. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

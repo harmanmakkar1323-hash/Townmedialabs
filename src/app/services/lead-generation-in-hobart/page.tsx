@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["hobart"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Hobart",
-  description: "TML offers expert Lead Generation services in Hobart. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Hobart",
+  description: "Top-rated Lead Generation company in Hobart. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation hobart", "lead generation agency hobart", "lead generation company hobart"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-hobart",
   },
   openGraph: {
-    title: "Lead Generation Agency in Hobart",
-    description: "TML offers expert Lead Generation services in Hobart. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Hobart",
+    description: "Top-rated Lead Generation company in Hobart. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-hobart",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Hobart",
-    description: "TML offers expert Lead Generation services in Hobart. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Hobart",
+    description: "Top-rated Lead Generation company in Hobart. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

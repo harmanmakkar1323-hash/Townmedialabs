@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["rajkot"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Rajkot",
-  description: "TML offers expert Google Ads management services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Rajkot",
+  description: "Top-rated Google Ads company in Rajkot. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["Google Ads management rajkot", "Google Ads management agency rajkot", "Google Ads management company rajkot"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-rajkot",
   },
   openGraph: {
-    title: "Google Ads Agency in Rajkot",
-    description: "TML offers expert Google Ads management services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Rajkot",
+    description: "Top-rated Google Ads company in Rajkot. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-rajkot",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Rajkot",
-    description: "TML offers expert Google Ads management services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Rajkot",
+    description: "Top-rated Google Ads company in Rajkot. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

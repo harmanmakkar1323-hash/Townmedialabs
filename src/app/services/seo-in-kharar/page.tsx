@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["kharar"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Kharar",
-  description: "TML offers expert Search Engine Optimization services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Kharar",
+  description: "Top-rated SEO company in Kharar. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization kharar", "search engine optimization agency kharar", "search engine optimization company kharar"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-kharar",
   },
   openGraph: {
-    title: "SEO Agency in Kharar",
-    description: "TML offers expert Search Engine Optimization services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Kharar",
+    description: "Top-rated SEO company in Kharar. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-kharar",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Kharar",
-    description: "TML offers expert Search Engine Optimization services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Kharar",
+    description: "Top-rated SEO company in Kharar. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

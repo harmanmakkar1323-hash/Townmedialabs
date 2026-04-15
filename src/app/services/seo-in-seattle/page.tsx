@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["seattle"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Seattle",
-  description: "TML offers expert SEO services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Seattle",
+  description: "Top-rated SEO company in Seattle. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo seattle", "seo agency seattle", "seo company seattle"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-seattle",
   },
   openGraph: {
-    title: "SEO Agency in Seattle",
-    description: "TML offers expert SEO services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Seattle",
+    description: "Top-rated SEO company in Seattle. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-seattle",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Seattle",
-    description: "TML offers expert SEO services in Seattle. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Seattle",
+    description: "Top-rated SEO company in Seattle. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["mohali"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Mohali",
-  description: "TML offers expert Branding services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Mohali",
+  description: "Top-rated Branding company in Mohali. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding mohali", "branding agency mohali", "branding company mohali"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-mohali",
   },
   openGraph: {
-    title: "Branding Agency in Mohali",
-    description: "TML offers expert Branding services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Mohali",
+    description: "Top-rated Branding company in Mohali. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-mohali",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Mohali",
-    description: "TML offers expert Branding services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Mohali",
+    description: "Top-rated Branding company in Mohali. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

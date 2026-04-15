@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["wollongong"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Wollongong",
-  description: "TML offers expert Packaging Design services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Wollongong",
+  description: "Top-rated Packaging Design company in Wollongong. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design wollongong", "packaging design agency wollongong", "packaging design company wollongong"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-wollongong",
   },
   openGraph: {
-    title: "Packaging Design Agency in Wollongong",
-    description: "TML offers expert Packaging Design services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Wollongong",
+    description: "Top-rated Packaging Design company in Wollongong. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-wollongong",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Wollongong",
-    description: "TML offers expert Packaging Design services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Wollongong",
+    description: "Top-rated Packaging Design company in Wollongong. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

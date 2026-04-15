@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["southampton"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Southampton",
-  description: "TML offers expert Google Ads services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Southampton",
+  description: "Top-rated Google Ads company in Southampton. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads southampton", "google ads agency southampton", "google ads company southampton"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-southampton",
   },
   openGraph: {
-    title: "Google Ads Agency in Southampton",
-    description: "TML offers expert Google Ads services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Southampton",
+    description: "Top-rated Google Ads company in Southampton. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-southampton",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Southampton",
-    description: "TML offers expert Google Ads services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Southampton",
+    description: "Top-rated Google Ads company in Southampton. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

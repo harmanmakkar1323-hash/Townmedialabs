@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["swansea"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Swansea",
-  description: "TML offers expert SEO services in Swansea. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Swansea",
+  description: "Top-rated SEO company in Swansea. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo swansea", "seo agency swansea", "seo company swansea"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-swansea",
   },
   openGraph: {
-    title: "SEO Agency in Swansea",
-    description: "TML offers expert SEO services in Swansea. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Swansea",
+    description: "Top-rated SEO company in Swansea. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-swansea",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Swansea",
-    description: "TML offers expert SEO services in Swansea. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Swansea",
+    description: "Top-rated SEO company in Swansea. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

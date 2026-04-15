@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["austin"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Austin",
-  description: "TML offers expert Video Editing services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Austin",
+  description: "Top-rated Video Editing company in Austin. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing austin", "video editing agency austin", "video editing company austin"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-austin",
   },
   openGraph: {
-    title: "Video Editing Agency in Austin",
-    description: "TML offers expert Video Editing services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Austin",
+    description: "Top-rated Video Editing company in Austin. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-austin",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Austin",
-    description: "TML offers expert Video Editing services in Austin. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Austin",
+    description: "Top-rated Video Editing company in Austin. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

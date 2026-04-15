@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["hamilton"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Hamilton",
-  description: "TML offers expert Video Editing services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+  title: "Best Video Editing Agency in Hamilton",
+  description: "Top-rated Video Editing company in Hamilton. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing hamilton", "video editing agency hamilton", "video editing hamilton ontario"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-hamilton",
   },
   openGraph: {
-    title: "Video Editing Agency in Hamilton",
-    description: "TML offers expert Video Editing services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+    title: "Best Video Editing Agency in Hamilton",
+    description: "Top-rated Video Editing company in Hamilton. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-hamilton",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Hamilton",
-    description: "TML offers expert Video Editing services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+    title: "Best Video Editing Agency in Hamilton",
+    description: "Top-rated Video Editing company in Hamilton. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

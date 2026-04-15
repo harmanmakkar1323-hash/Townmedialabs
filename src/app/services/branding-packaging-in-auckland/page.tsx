@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["auckland"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Auckland",
-  description: "TML offers expert Packaging Design services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Auckland",
+  description: "Top-rated Packaging Design company in Auckland. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design auckland", "packaging design agency auckland", "packaging design company auckland"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-auckland",
   },
   openGraph: {
-    title: "Packaging Design Agency in Auckland",
-    description: "TML offers expert Packaging Design services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Auckland",
+    description: "Top-rated Packaging Design company in Auckland. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-auckland",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Auckland",
-    description: "TML offers expert Packaging Design services in Auckland. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Auckland",
+    description: "Top-rated Packaging Design company in Auckland. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

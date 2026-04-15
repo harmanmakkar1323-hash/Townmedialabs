@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["ahmedabad"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Ahmedabad",
-  description: "TML offers expert Video Editing services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Ahmedabad",
+  description: "Top-rated Video Editing company in Ahmedabad. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing ahmedabad", "video editing agency ahmedabad", "video editing company ahmedabad"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-ahmedabad",
   },
   openGraph: {
-    title: "Video Editing Agency in Ahmedabad",
-    description: "TML offers expert Video Editing services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Ahmedabad",
+    description: "Top-rated Video Editing company in Ahmedabad. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-ahmedabad",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Ahmedabad",
-    description: "TML offers expert Video Editing services in Ahmedabad. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Ahmedabad",
+    description: "Top-rated Video Editing company in Ahmedabad. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

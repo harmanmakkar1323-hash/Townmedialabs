@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["pittsburgh"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Pittsburgh",
-  description: "TML offers expert SEO services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Pittsburgh",
+  description: "Top-rated SEO company in Pittsburgh. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo pittsburgh", "seo agency pittsburgh", "seo company pittsburgh"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-pittsburgh",
   },
   openGraph: {
-    title: "SEO Agency in Pittsburgh",
-    description: "TML offers expert SEO services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Pittsburgh",
+    description: "Top-rated SEO company in Pittsburgh. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-pittsburgh",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Pittsburgh",
-    description: "TML offers expert SEO services in Pittsburgh. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Pittsburgh",
+    description: "Top-rated SEO company in Pittsburgh. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

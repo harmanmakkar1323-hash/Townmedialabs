@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["coventry"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Coventry",
-  description: "TML offers expert Music Release services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Coventry",
+  description: "Top-rated Music Release company in Coventry. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release coventry", "music release agency coventry", "music release company coventry"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-coventry",
   },
   openGraph: {
-    title: "Music Release Agency in Coventry",
-    description: "TML offers expert Music Release services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Coventry",
+    description: "Top-rated Music Release company in Coventry. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-coventry",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Coventry",
-    description: "TML offers expert Music Release services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Coventry",
+    description: "Top-rated Music Release company in Coventry. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

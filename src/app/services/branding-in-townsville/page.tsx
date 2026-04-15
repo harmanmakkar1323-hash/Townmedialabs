@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["townsville"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Townsville",
-  description: "TML offers expert Branding services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Townsville",
+  description: "Top-rated Branding company in Townsville. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding townsville", "branding agency townsville", "branding company townsville"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-townsville",
   },
   openGraph: {
-    title: "Branding Agency in Townsville",
-    description: "TML offers expert Branding services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Townsville",
+    description: "Top-rated Branding company in Townsville. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-townsville",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Townsville",
-    description: "TML offers expert Branding services in Townsville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Townsville",
+    description: "Top-rated Branding company in Townsville. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

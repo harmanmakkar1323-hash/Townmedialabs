@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["st_louis"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in St. Louis",
-  description: "TML offers expert Branding services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in St. Louis",
+  description: "Top-rated Branding company in St. Louis. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding st. louis", "branding agency st. louis", "branding company st. louis"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-st-louis",
   },
   openGraph: {
-    title: "Branding Agency in St. Louis",
-    description: "TML offers expert Branding services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in St. Louis",
+    description: "Top-rated Branding company in St. Louis. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-st-louis",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in St. Louis",
-    description: "TML offers expert Branding services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in St. Louis",
+    description: "Top-rated Branding company in St. Louis. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

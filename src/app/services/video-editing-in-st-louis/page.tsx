@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["st_louis"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in St. Louis",
-  description: "TML offers expert Video Editing services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in St. Louis",
+  description: "Top-rated Video Editing company in St. Louis. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing st. louis", "video editing agency st. louis", "video editing company st. louis"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-st-louis",
   },
   openGraph: {
-    title: "Video Editing Agency in St. Louis",
-    description: "TML offers expert Video Editing services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in St. Louis",
+    description: "Top-rated Video Editing company in St. Louis. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-st-louis",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in St. Louis",
-    description: "TML offers expert Video Editing services in St. Louis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in St. Louis",
+    description: "Top-rated Video Editing company in St. Louis. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

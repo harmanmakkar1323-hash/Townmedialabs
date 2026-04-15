@@ -2149,7 +2149,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
 },
 "freelancer-vs-digital-marketing-agency": {
   title: "Freelancer vs Digital Marketing Agency: Which Is Better for Your Business?",
-  metaTitle: "Freelancer vs Agency for Marketing: Honest Comparison (2026)",
+  metaTitle: "Freelancer vs Agency for Marketing: Comparison (2026)",
   metaDescription:
     "Freelancer vs digital marketing agency — honest pros, cons & cost comparison with real Indian pricing. Find what's right for your business in 2026.",
   keywords: [
@@ -3871,7 +3871,7 @@ export const newBlogPosts: Record<string, BlogArticle> = {
     title:
       "We Analyzed 200 Indian Business Websites in 2026 — Here's What We Found",
     metaTitle:
-      "We Analyzed 200 Indian Business Websites — SEO & Performance Data (2026)",
+      "200 Indian Business Websites Analyzed: SEO Data (2026)",
     metaDescription:
       "We crawled 200 Indian business websites across 10 industries. Here are the real numbers on speed, SEO, mobile experience, and what most businesses get wrong.",
     keywords: [

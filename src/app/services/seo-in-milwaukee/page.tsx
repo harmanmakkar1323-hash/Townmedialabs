@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["milwaukee"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Milwaukee",
-  description: "TML offers expert SEO services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Milwaukee",
+  description: "Top-rated SEO company in Milwaukee. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo milwaukee", "seo agency milwaukee", "seo company milwaukee"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-milwaukee",
   },
   openGraph: {
-    title: "SEO Agency in Milwaukee",
-    description: "TML offers expert SEO services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Milwaukee",
+    description: "Top-rated SEO company in Milwaukee. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-milwaukee",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Milwaukee",
-    description: "TML offers expert SEO services in Milwaukee. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Milwaukee",
+    description: "Top-rated SEO company in Milwaukee. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["york"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in York",
-  description: "TML offers expert Branding services in York. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in York",
+  description: "Top-rated Branding company in York. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding york", "branding agency york", "branding company york"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-york",
   },
   openGraph: {
-    title: "Branding Agency in York",
-    description: "TML offers expert Branding services in York. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in York",
+    description: "Top-rated Branding company in York. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-york",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in York",
-    description: "TML offers expert Branding services in York. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in York",
+    description: "Top-rated Branding company in York. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

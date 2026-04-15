@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="100" fill="#1a1a2e"/>
+  <circle cx="100" cy="100" r="96" fill="url(#grad1)"/>
+  <!-- Hair -->
+  <path d="M60 75c0-25 18-45 40-45s40 20 40 45v5c0 0-10-15-40-15s-40 15-40 15v-5z" fill="#1a1a1a"/>
+  <!-- Face -->
+  <ellipse cx="100" cy="95" rx="35" ry="40" fill="#d4a574"/>
+  <!-- Beard shadow -->
+  <path d="M72 105c0 0 8 35 28 35s28-35 28-35" fill="#8b6b4a" opacity="0.3"/>
+  <!-- Eyes -->
+  <ellipse cx="87" cy="88" rx="4" ry="4.5" fill="#1a1a1a"/>
+  <ellipse cx="113" cy="88" rx="4" ry="4.5" fill="#1a1a1a"/>
+  <circle cx="88.5" cy="87" r="1.5" fill="white"/>
+  <circle cx="114.5" cy="87" r="1.5" fill="white"/>
+  <!-- Eyebrows -->
+  <path d="M80 80c3-4 8-5 12-3" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M108 77c4-2 9-1 12 3" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Smile -->
+  <path d="M88 105c5 7 19 7 24 0" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Collar/Shirt -->
+  <path d="M60 145c0-15 18-25 40-25s40 10 40 25v55H60v-55z" fill="#ff4500"/>
+  <path d="M90 120v15l10 5 10-5v-15" fill="#1a1a2e" stroke="#1a1a2e" stroke-width="1"/>
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2a2a4a"/>
+      <stop offset="100%" stop-color="#0f0f1e"/>
+    </radialGradient>
+  </defs>
+</svg>

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["rajkot"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Rajkot",
-  description: "TML offers expert Search Engine Optimization services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Rajkot",
+  description: "Top-rated SEO company in Rajkot. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization rajkot", "search engine optimization agency rajkot", "search engine optimization company rajkot"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-rajkot",
   },
   openGraph: {
-    title: "SEO Agency in Rajkot",
-    description: "TML offers expert Search Engine Optimization services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Rajkot",
+    description: "Top-rated SEO company in Rajkot. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-rajkot",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Rajkot",
-    description: "TML offers expert Search Engine Optimization services in Rajkot. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Rajkot",
+    description: "Top-rated SEO company in Rajkot. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

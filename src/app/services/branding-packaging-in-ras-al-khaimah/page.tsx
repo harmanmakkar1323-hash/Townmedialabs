@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["ras_al_khaimah"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Ras Al Khaimah",
-  description: "TML offers expert Packaging Design services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Ras Al Khaimah",
+  description: "Top-rated Packaging Design company in Ras Al Khaimah. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design ras al khaimah", "packaging design agency ras al khaimah", "packaging design company ras al khaimah"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-ras-al-khaimah",
   },
   openGraph: {
-    title: "Packaging Design Agency in Ras Al Khaimah",
-    description: "TML offers expert Packaging Design services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Ras Al Khaimah",
+    description: "Top-rated Packaging Design company in Ras Al Khaimah. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-ras-al-khaimah",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Ras Al Khaimah",
-    description: "TML offers expert Packaging Design services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Ras Al Khaimah",
+    description: "Top-rated Packaging Design company in Ras Al Khaimah. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

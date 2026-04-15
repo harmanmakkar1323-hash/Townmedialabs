@@ -18,6 +18,7 @@ export const authors: Record<string, Author> = {
     bio: "Raman leads SEO and growth at TML Agency, a full-service digital marketing agency serving 500+ brands across India. With 10+ years of experience in SEO, brand strategy, and digital marketing, Raman specializes in helping businesses achieve sustainable growth through data-driven strategies and human-centered brand building.",
     expertise: ["SEO", "Branding", "Digital Marketing Strategy", "Growth Strategy"],
     yearsOfExperience: 10,
+    image: "/authors/raman-makkar.svg",
     linkedin: "https://linkedin.com/in/ramanmakkar",
     twitter: "https://twitter.com/ramanmakkar",
   },
@@ -28,6 +29,7 @@ export const authors: Record<string, Author> = {
     bio: "TML Agency is a full-service branding and digital marketing agency founded in 2010. Our team of 70+ designers, developers, strategists, and marketers create comprehensive brand ecosystems for businesses across India. We combine creativity with data-driven insights to deliver measurable results.",
     expertise: ["Branding", "Web Development", "Digital Marketing", "Video Production", "Google Ads", "SEO"],
     yearsOfExperience: 10,
+    image: "/authors/tml-agency.svg",
     linkedin: "https://linkedin.com/company/town-media-labs",
   },
   "arvinder-singh": {
@@ -37,6 +39,7 @@ export const authors: Record<string, Author> = {
     bio: "Arvinder is the founder and visionary behind TML Agency, with 15+ years of experience in digital marketing and SEO. He oversees the agency's strategic direction and has helped 500+ brands improve their search visibility through technical SEO, content strategy, and building E-E-A-T signals for AI-ready content.",
     expertise: ["SEO", "Technical SEO", "Content Strategy", "E-E-A-T", "AI-Ready Content"],
     yearsOfExperience: 15,
+    image: "/authors/arvinder-singh.svg",
   },
   "taran": {
     id: "taran",
@@ -45,6 +48,7 @@ export const authors: Record<string, Author> = {
     bio: "Taran leads sales and brand strategy at TML Agency, specializing in brand positioning, visual identity, and brand messaging. With 8+ years of experience, he has developed brand identities for startups, established brands, and enterprises across multiple industries.",
     expertise: ["Brand Strategy", "Brand Positioning", "Visual Identity", "Brand Messaging", "Design Thinking"],
     yearsOfExperience: 8,
+    image: "/authors/taran.svg",
   },
   "harman": {
     id: "harman",
@@ -53,6 +57,7 @@ export const authors: Record<string, Author> = {
     bio: "Harman manages performance marketing initiatives at TML Agency, overseeing campaigns across Google Ads, Facebook, Instagram, and LinkedIn. With 6+ years of experience, he has helped brands achieve 300%+ ROI improvements through data-driven marketing strategies and meticulous project management.",
     expertise: ["Google Ads", "Performance Marketing", "Facebook Ads", "Marketing Analytics", "Conversion Optimization"],
     yearsOfExperience: 6,
+    image: "/authors/harman.svg",
   },
   "cristi": {
     id: "cristi",
@@ -61,6 +66,7 @@ export const authors: Record<string, Author> = {
     bio: "Cristi creates compelling content and visual designs that rank, convert, and resonate with audiences. As a designer and content strategist at TML Agency with 5+ years of experience, she specializes in blog content, website copy, visual storytelling, and content strategy for B2B and B2C brands.",
     expertise: ["Content Writing", "Content Strategy", "SEO Writing", "Copywriting", "Blog Content"],
     yearsOfExperience: 5,
+    image: "/authors/cristi.svg",
   },
 };
 

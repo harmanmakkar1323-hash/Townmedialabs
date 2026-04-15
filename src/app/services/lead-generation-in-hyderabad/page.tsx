@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["hyderabad"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Hyderabad",
-  description: "TML offers expert Lead Generation services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Hyderabad",
+  description: "Top-rated Lead Generation company in Hyderabad. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation hyderabad", "lead generation agency hyderabad", "lead generation company hyderabad"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-hyderabad",
   },
   openGraph: {
-    title: "Lead Generation Agency in Hyderabad",
-    description: "TML offers expert Lead Generation services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Hyderabad",
+    description: "Top-rated Lead Generation company in Hyderabad. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-hyderabad",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Hyderabad",
-    description: "TML offers expert Lead Generation services in Hyderabad. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Hyderabad",
+    description: "Top-rated Lead Generation company in Hyderabad. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

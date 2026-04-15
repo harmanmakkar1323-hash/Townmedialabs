@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["peterborough"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Peterborough",
-  description: "TML offers expert Branding services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Peterborough",
+  description: "Top-rated Branding company in Peterborough. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding peterborough", "branding agency peterborough", "branding company peterborough"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-peterborough",
   },
   openGraph: {
-    title: "Branding Agency in Peterborough",
-    description: "TML offers expert Branding services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Peterborough",
+    description: "Top-rated Branding company in Peterborough. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-peterborough",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Peterborough",
-    description: "TML offers expert Branding services in Peterborough. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Peterborough",
+    description: "Top-rated Branding company in Peterborough. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

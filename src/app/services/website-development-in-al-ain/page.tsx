@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["al_ain"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Al Ain",
-  description: "TML offers expert Website Development services in Al Ain. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Al Ain",
+  description: "Top-rated Website Development company in Al Ain. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development al ain", "website development agency al ain", "website development company al ain"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-al-ain",
   },
   openGraph: {
-    title: "Website Development Agency in Al Ain",
-    description: "TML offers expert Website Development services in Al Ain. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Al Ain",
+    description: "Top-rated Website Development company in Al Ain. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-al-ain",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Al Ain",
-    description: "TML offers expert Website Development services in Al Ain. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Al Ain",
+    description: "Top-rated Website Development company in Al Ain. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

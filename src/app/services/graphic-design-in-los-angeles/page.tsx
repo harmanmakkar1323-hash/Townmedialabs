@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["los_angeles"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Los Angeles",
-  description: "TML offers expert Graphic Design services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Graphic Design Agency in Los Angeles",
+  description: "Top-rated Graphic Design company in Los Angeles. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design los angeles", "graphic design agency los angeles", "graphic design company los angeles"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-los-angeles",
   },
   openGraph: {
-    title: "Graphic Design Agency in Los Angeles",
-    description: "TML offers expert Graphic Design services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Los Angeles",
+    description: "Top-rated Graphic Design company in Los Angeles. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-los-angeles",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Los Angeles",
-    description: "TML offers expert Graphic Design services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Los Angeles",
+    description: "Top-rated Graphic Design company in Los Angeles. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

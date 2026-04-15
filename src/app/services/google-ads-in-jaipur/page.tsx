@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["jaipur"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Jaipur",
-  description: "TML offers expert Google Ads management services in Jaipur. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Jaipur",
+  description: "Top-rated Google Ads company in Jaipur. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["Google Ads management jaipur", "Google Ads management agency jaipur", "Google Ads management company jaipur"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-jaipur",
   },
   openGraph: {
-    title: "Google Ads Agency in Jaipur",
-    description: "TML offers expert Google Ads management services in Jaipur. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Jaipur",
+    description: "Top-rated Google Ads company in Jaipur. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-jaipur",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Jaipur",
-    description: "TML offers expert Google Ads management services in Jaipur. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Jaipur",
+    description: "Top-rated Google Ads company in Jaipur. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

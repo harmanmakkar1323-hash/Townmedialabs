@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["glasgow"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Glasgow",
-  description: "TML offers expert Music Release services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Glasgow",
+  description: "Top-rated Music Release company in Glasgow. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release glasgow", "music release agency glasgow", "music release company glasgow"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-glasgow",
   },
   openGraph: {
-    title: "Music Release Agency in Glasgow",
-    description: "TML offers expert Music Release services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Glasgow",
+    description: "Top-rated Music Release company in Glasgow. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-glasgow",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Glasgow",
-    description: "TML offers expert Music Release services in Glasgow. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Glasgow",
+    description: "Top-rated Music Release company in Glasgow. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["columbus_oh"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Columbus",
-  description: "TML offers expert Video Editing services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Columbus",
+  description: "Top-rated Video Editing company in Columbus. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing columbus", "video editing agency columbus", "video editing company columbus"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-columbus-oh",
   },
   openGraph: {
-    title: "Video Editing Agency in Columbus",
-    description: "TML offers expert Video Editing services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Columbus",
+    description: "Top-rated Video Editing company in Columbus. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-columbus-oh",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Columbus",
-    description: "TML offers expert Video Editing services in Columbus. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Columbus",
+    description: "Top-rated Video Editing company in Columbus. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["vadodara"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Vadodara",
-  description: "TML offers expert Google Ads management services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Vadodara",
+  description: "Top-rated Google Ads company in Vadodara. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["Google Ads management vadodara", "Google Ads management agency vadodara", "Google Ads management company vadodara"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-vadodara",
   },
   openGraph: {
-    title: "Google Ads Agency in Vadodara",
-    description: "TML offers expert Google Ads management services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Vadodara",
+    description: "Top-rated Google Ads company in Vadodara. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-vadodara",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Vadodara",
-    description: "TML offers expert Google Ads management services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Vadodara",
+    description: "Top-rated Google Ads company in Vadodara. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

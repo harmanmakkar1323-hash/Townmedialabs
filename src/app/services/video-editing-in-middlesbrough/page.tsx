@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["middlesbrough"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Middlesbrough",
-  description: "TML offers expert Video Editing services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Middlesbrough",
+  description: "Top-rated Video Editing company in Middlesbrough. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing middlesbrough", "video editing agency middlesbrough", "video editing company middlesbrough"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-middlesbrough",
   },
   openGraph: {
-    title: "Video Editing Agency in Middlesbrough",
-    description: "TML offers expert Video Editing services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Middlesbrough",
+    description: "Top-rated Video Editing company in Middlesbrough. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-middlesbrough",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Middlesbrough",
-    description: "TML offers expert Video Editing services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Middlesbrough",
+    description: "Top-rated Video Editing company in Middlesbrough. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["los_angeles"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Los Angeles",
-  description: "TML offers expert SEO services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Los Angeles",
+  description: "Top-rated SEO company in Los Angeles. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo los angeles", "seo agency los angeles", "seo company los angeles"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-los-angeles",
   },
   openGraph: {
-    title: "SEO Agency in Los Angeles",
-    description: "TML offers expert SEO services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Los Angeles",
+    description: "Top-rated SEO company in Los Angeles. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-los-angeles",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Los Angeles",
-    description: "TML offers expert SEO services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Los Angeles",
+    description: "Top-rated SEO company in Los Angeles. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

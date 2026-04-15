@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["kansas_city"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Kansas City",
-  description: "TML offers expert Branding services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Kansas City",
+  description: "Top-rated Branding company in Kansas City. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding kansas city", "branding agency kansas city", "branding company kansas city"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-kansas-city",
   },
   openGraph: {
-    title: "Branding Agency in Kansas City",
-    description: "TML offers expert Branding services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Kansas City",
+    description: "Top-rated Branding company in Kansas City. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-kansas-city",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Kansas City",
-    description: "TML offers expert Branding services in Kansas City. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Kansas City",
+    description: "Top-rated Branding company in Kansas City. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["patiala"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Patiala",
-  description: "TML offers expert Branding services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Patiala",
+  description: "Top-rated Branding company in Patiala. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding patiala", "branding agency patiala", "branding company patiala"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-patiala",
   },
   openGraph: {
-    title: "Branding Agency in Patiala",
-    description: "TML offers expert Branding services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Patiala",
+    description: "Top-rated Branding company in Patiala. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-patiala",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Patiala",
-    description: "TML offers expert Branding services in Patiala. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Patiala",
+    description: "Top-rated Branding company in Patiala. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

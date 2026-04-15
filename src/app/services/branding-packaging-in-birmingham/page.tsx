@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["birmingham"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Birmingham",
-  description: "TML offers expert Packaging Design services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Birmingham",
+  description: "Top-rated Packaging Design company in Birmingham. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design birmingham", "packaging design agency birmingham", "packaging design company birmingham"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-birmingham",
   },
   openGraph: {
-    title: "Packaging Design Agency in Birmingham",
-    description: "TML offers expert Packaging Design services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Birmingham",
+    description: "Top-rated Packaging Design company in Birmingham. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-birmingham",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Birmingham",
-    description: "TML offers expert Packaging Design services in Birmingham. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Birmingham",
+    description: "Top-rated Packaging Design company in Birmingham. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["stoke_on_trent"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Stoke-on-Trent",
-  description: "TML offers expert Website Development services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Stoke-on-Trent",
+  description: "Top-rated Website Development company in Stoke-on-Trent. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development stoke-on-trent", "website development agency stoke-on-trent", "website development company stoke-on-trent"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-stoke-on-trent",
   },
   openGraph: {
-    title: "Website Development Agency in Stoke-on-Trent",
-    description: "TML offers expert Website Development services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Stoke-on-Trent",
+    description: "Top-rated Website Development company in Stoke-on-Trent. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-stoke-on-trent",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Stoke-on-Trent",
-    description: "TML offers expert Website Development services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Stoke-on-Trent",
+    description: "Top-rated Website Development company in Stoke-on-Trent. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

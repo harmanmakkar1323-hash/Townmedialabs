@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["plymouth"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Plymouth",
-  description: "TML offers expert Google Ads services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Plymouth",
+  description: "Top-rated Google Ads company in Plymouth. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads plymouth", "google ads agency plymouth", "google ads company plymouth"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-plymouth",
   },
   openGraph: {
-    title: "Google Ads Agency in Plymouth",
-    description: "TML offers expert Google Ads services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Plymouth",
+    description: "Top-rated Google Ads company in Plymouth. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-plymouth",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Plymouth",
-    description: "TML offers expert Google Ads services in Plymouth. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Plymouth",
+    description: "Top-rated Google Ads company in Plymouth. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["stoke_on_trent"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Stoke-on-Trent",
-  description: "TML offers expert Social Media Marketing services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in Stoke-on-Trent",
+  description: "Top-rated Social Media Marketing company in Stoke-on-Trent. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing stoke-on-trent", "social media marketing agency stoke-on-trent", "social media marketing company stoke-on-trent"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-stoke-on-trent",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Stoke-on-Trent",
-    description: "TML offers expert Social Media Marketing services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Stoke-on-Trent",
+    description: "Top-rated Social Media Marketing company in Stoke-on-Trent. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-stoke-on-trent",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Stoke-on-Trent",
-    description: "TML offers expert Social Media Marketing services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Stoke-on-Trent",
+    description: "Top-rated Social Media Marketing company in Stoke-on-Trent. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

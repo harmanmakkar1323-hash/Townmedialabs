@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import ContactPageClient from "./ContactPageClient";
 
 export const metadata: Metadata = {
-  title: "Contact Us",
+  title: "Contact TML Agency — Free Marketing Consultation",
   description:
-    "Get in touch with TML Agency, Chandigarh's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
+    "Contact TML, a digital marketing agency in Chandigarh offering free consultations. Reach our company for branding, SEO, Google Ads, social media, and web development services.",
   keywords: [
     "contact tml",
     "digital marketing consultation",
@@ -13,9 +13,9 @@ export const metadata: Metadata = {
     "digital marketing agency contact",
   ],
   openGraph: {
-    title: "Contact Us",
+    title: "Contact TML Agency — Free Marketing Consultation",
     description:
-      "Get in touch with TML Agency, Chandigarh's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
+      "Contact TML, a digital marketing agency in Chandigarh offering free consultations. Reach our company for branding, SEO, Google Ads, social media, and web development services.",
     type: "website",
     url: "https://townmedialabs.com/contact",
     siteName: "TML Agency",
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Contact Us",
+    title: "Contact TML Agency — Free Marketing Consultation",
     description:
-      "Get in touch with TML Agency, Chandigarh's leading digital marketing agency. Free consultation for branding, SEO, Google Ads, social media & web development.",
+      "Contact TML, a digital marketing agency in Chandigarh offering free consultations for branding, SEO, Google Ads, social media, and web development services.",
     images: ["/og-image.png"],
   },
   alternates: {

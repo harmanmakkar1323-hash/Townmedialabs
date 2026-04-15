@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["san_diego"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in San Diego",
-  description: "TML offers expert Packaging Design services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in San Diego",
+  description: "Top-rated Packaging Design company in San Diego. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design san diego", "packaging design agency san diego", "packaging design company san diego"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-san-diego",
   },
   openGraph: {
-    title: "Packaging Design Agency in San Diego",
-    description: "TML offers expert Packaging Design services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in San Diego",
+    description: "Top-rated Packaging Design company in San Diego. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-san-diego",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in San Diego",
-    description: "TML offers expert Packaging Design services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in San Diego",
+    description: "Top-rated Packaging Design company in San Diego. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

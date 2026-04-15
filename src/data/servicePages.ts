@@ -45,8 +45,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Build a brand that people remember.",
     description: "Strategic brand identity design that resonates with your audience and creates lasting impressions. Our branding experts in Chandigarh craft compelling visual identities, develop brand strategies, and build cohesive brand systems that help businesses stand out in competitive markets worldwide.",
     heroDescription: "We create powerful brand identities that tell your story, connect with your audience, and set you apart from competitors. From logo design to complete brand systems, we build brands that stand the test of time.",
-    metaTitle: "Branding & Identity Design — Strategy to Launch",
-    metaDescription: "Build a brand that earns trust and drives revenue. We craft logos, visual identities, and brand systems grounded in strategy. Book a free consultation.",
+    metaTitle: "Branding Agency — Identity Design & Strategy",
+    metaDescription: "TML is a full-service branding agency that builds identities earning trust and revenue. Logo design, brand strategy, and visual systems from a company with 500+ brands delivered.",
     metaKeywords: ["branding agency Chandigarh", "logo design services", "brand identity design", "brand strategy services", "corporate branding", "visual identity design", "brand guidelines"],
     seoContent: [
       "A strong brand is the foundation of every successful business. At TML Agency in Chandigarh, our branding services go beyond logo design to encompass complete brand identity systems. We combine market research, competitor analysis, and creative excellence to develop brands that connect emotionally with your target audience and drive long-term business growth globally.",
@@ -131,8 +131,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Turn clicks into customers.",
     description: "Expert Google Ads management that maximizes ROI and drives qualified traffic to your business. As a certified Google Partner agency in Chandigarh, we build data-driven PPC campaigns with a proven track record of delivering high ROAS across search, display, and shopping networks for businesses worldwide.",
     heroDescription: "Our certified Google Ads specialists create data-driven campaigns that put your business in front of the right people at the right time. From search to display to shopping — we maximize every dollar of your ad spend.",
-    metaTitle: "Google Ads Management — Certified PPC Experts",
-    metaDescription: "Turn ad spend into measurable revenue with certified Google Ads management. We optimize campaigns for ROAS, not vanity clicks. Get a free account audit today.",
+    metaTitle: "Google Ads Agency — Certified PPC Management",
+    metaDescription: "TML is a certified Google Ads agency that turns ad spend into revenue. Our PPC management services optimize campaigns for ROAS, not vanity clicks. Free audit.",
     metaKeywords: ["Google Ads agency Chandigarh", "PPC management India", "SEM services", "Google Partner agency", "ROAS optimization", "pay per click advertising", "search engine marketing"],
     seoContent: [
       "Google Ads is one of the most powerful tools for reaching customers who are actively searching for your products or services. At TML Agency, our certified PPC specialists in Chandigarh design and manage high-performance search engine marketing campaigns that deliver measurable returns. We focus on maximizing your ROAS while reducing wasted ad spend through precise targeting and continuous optimization.",
@@ -218,8 +218,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Dominate search. Own your market.",
     description: "Proven SEO strategies that boost your rankings, drive organic traffic, and grow your business sustainably. Our SEO team in Chandigarh specializes in technical SEO, on-page optimization, local SEO, and link building to help businesses worldwide achieve first-page rankings on Google for competitive keywords.",
     heroDescription: "We help businesses climb to the top of Google with white-hat SEO strategies. From technical optimization to content strategy and link building — we build organic growth engines that deliver results month after month.",
-    metaTitle: "SEO Services — Data-Driven Organic Growth",
-    metaDescription: "Grow organic traffic with SEO strategies built on data, not guesswork. Technical audits, content, and link building that rank. Get a free SEO audit.",
+    metaTitle: "SEO Agency — Data-Driven SEO Services",
+    metaDescription: "TML is an SEO agency that grows organic traffic with data-driven services. Technical audits, content strategy, and link building from a company that ranks. Free SEO audit.",
     metaKeywords: ["SEO services Chandigarh", "organic search optimization", "local SEO services", "technical SEO audit", "Google rankings", "search engine optimization agency", "link building services"],
     seoContent: [
       "Search engine optimization is the most sustainable way to drive qualified traffic to your website. At TML Agency in Chandigarh, we implement white-hat SEO strategies that improve your organic search rankings and deliver long-term results. Our approach combines technical excellence, content marketing, and authoritative link building to help your business outrank competitors on Google.",
@@ -305,8 +305,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Websites that convert visitors into customers.",
     description: "Custom, high-performance websites built with modern technologies for speed, security, and conversions. Our web development team in Chandigarh specializes in Next.js, React, WordPress, and e-commerce solutions, delivering responsive websites that look stunning and drive measurable business results for clients worldwide.",
     heroDescription: "We build stunning, lightning-fast websites that don't just look great — they drive business results. From corporate websites to e-commerce platforms, our development team delivers pixel-perfect, conversion-optimized digital experiences.",
-    metaTitle: "Website Development — Fast, SEO-Ready Sites",
-    metaDescription: "We build websites that load fast, rank well, and convert visitors into customers. Next.js, React, and WordPress development. Book a free consultation to get started.",
+    metaTitle: "Web Development Agency — Fast, SEO-Ready Sites",
+    metaDescription: "TML is a web development agency building sites that load fast, rank well, and convert. Our company delivers Next.js, React, and WordPress development services. Free consultation.",
     metaKeywords: ["website development Chandigarh", "web design India", "Next.js development", "React website", "WordPress developer", "e-commerce website", "responsive web design", "custom web application"],
     seoContent: [
       "Your website is often the first interaction customers have with your business, and it needs to make a powerful impression. At TML Agency in Chandigarh, we build custom websites using modern technologies like Next.js, React, and WordPress that are fast, secure, and optimized for conversions. Every website we deliver is mobile-responsive, SEO-friendly, and designed to grow with your business.",
@@ -392,8 +392,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Build community. Drive engagement.",
     description: "Strategic social media management that grows your audience, builds brand loyalty, and generates leads. Our social media team in Chandigarh creates scroll-stopping content for Instagram, Facebook, LinkedIn, and other platforms, combining organic content marketing with paid social campaigns to deliver real business results globally.",
     heroDescription: "We help brands stand out in the social media noise. Our team creates scroll-stopping content, manages communities, and runs data-driven paid campaigns across Instagram, Facebook, LinkedIn, Twitter, and YouTube.",
-    metaTitle: "Social Media Marketing — Engagement That Converts",
-    metaDescription: "Grow your brand on Instagram, Facebook, and LinkedIn with content that sparks engagement and drives real leads. Get a free social media audit and strategy call.",
+    metaTitle: "Social Media Marketing Agency — Grow & Convert",
+    metaDescription: "TML is a social media marketing agency growing brands on Instagram, Facebook, and LinkedIn. Our services drive engagement and real leads. Free social media audit.",
     metaKeywords: ["social media marketing Chandigarh", "Instagram marketing India", "Facebook advertising", "LinkedIn marketing", "content marketing agency", "social media management", "influencer marketing"],
     seoContent: [
       "Social media is where your customers spend their time, and your brand needs to show up with purpose. At TML Agency in Chandigarh, we develop comprehensive social media marketing strategies that build engaged communities around your brand. Our content-first approach combines creative storytelling with data-driven targeting to grow your audience on Instagram, Facebook, LinkedIn, and other platforms.",
@@ -471,8 +471,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "The future of influence is AI-powered.",
     description: "Cutting-edge AI influencer creation and management for brands looking to lead the next wave of digital marketing. Our team in Chandigarh designs hyper-realistic virtual influencer personas, develops their content strategies, and manages their social media presence to deliver consistent, always-on brand representation for forward-thinking companies worldwide.",
     heroDescription: "We create and manage AI-generated virtual influencers that represent your brand 24/7 across social platforms. From concept to content strategy, our AI influencer solutions deliver consistent brand messaging with unlimited creative potential.",
-    metaTitle: "AI Influencer Management — Virtual Creator Studio",
-    metaDescription: "Launch AI-powered virtual influencers that engage audiences 24/7. Custom persona design, content automation, and social management. Book a discovery call to explore.",
+    metaTitle: "AI Influencer Agency — Virtual Creator Services",
+    metaDescription: "TML is an AI influencer management agency offering virtual creator services. Custom persona design, content automation, and social management. Book a discovery call.",
     metaKeywords: ["AI influencer management", "virtual influencer creation", "AI persona design", "digital influencer marketing", "AI content generation", "virtual brand ambassador"],
     seoContent: [
       "AI-powered virtual influencers are transforming the way brands connect with digital audiences. At TML Agency, we are among the first agencies in India to offer comprehensive AI influencer creation and management services. Our team designs custom virtual personas with unique visual identities, compelling backstories, and distinct personalities that resonate with your target audience across social media platforms.",
@@ -538,12 +538,12 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "lead-generation": {
     slug: "lead-generation",
-    title: "Lead Generation — Get More Qualified Leads",
+    title: "Lead Generation Services — Get More Qualified Leads",
     tagline: "Fill your pipeline with qualified leads.",
     description: "Data-driven lead generation strategies that attract, capture, and convert high-quality prospects for your business. Our team in Chandigarh builds complete lead generation systems using landing pages, conversion optimization, CRM integration, and multi-channel campaigns to deliver qualified leads that fuel sustainable growth for businesses worldwide.",
     heroDescription: "We build lead generation machines that consistently deliver qualified prospects to your sales team. Through a mix of paid ads, landing pages, email marketing, and automation — we create systems that fill your pipeline and fuel growth.",
-    metaTitle: "Lead Generation — Fill Your Sales Pipeline",
-    metaDescription: "Stop chasing cold leads. We build landing pages, run targeted campaigns, and integrate your CRM to deliver qualified prospects on autopilot. Get a free audit.",
+    metaTitle: "Lead Generation Agency — Qualified Leads on Tap",
+    metaDescription: "TML is a lead generation agency that builds landing pages, runs targeted campaigns, and integrates your CRM. Our services deliver qualified prospects on autopilot. Free audit.",
     metaKeywords: ["lead generation Chandigarh", "landing page optimization", "conversion rate optimization", "CRM integration services", "B2B lead generation services", "sales funnel optimization", "lead nurturing"],
     seoContent: [
       "Generating a steady stream of qualified leads is essential for business growth. At TML Agency in Chandigarh, we build end-to-end lead generation systems that combine high-converting landing pages, targeted advertising, email automation, and CRM integration. Our data-driven approach ensures you receive leads that are genuinely interested in your products or services, reducing wasted sales efforts and improving conversion rates.",
@@ -613,8 +613,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Get your music heard by millions.",
     description: "End-to-end music release strategy covering distribution, promotion, playlist pitching, and audience growth. Based in Chandigarh, our team helps independent artists and labels distribute music on Spotify, Apple Music, and Tidal, with specialized expertise in Punjabi music promotion and playlist placements globally.",
     heroDescription: "We help independent artists and labels launch their music with maximum impact. From distribution setup to social media campaigns, playlist pitching, and PR — we handle the business so you can focus on creating.",
-    metaTitle: "Music Release & Promotion — Get Heard Globally",
-    metaDescription: "From distribution to playlist pitching, we handle your entire music release strategy. Spotify, Apple Music, and YouTube promotion included. Book a free consultation.",
+    metaTitle: "Music Release Agency — Distribution & Promotion",
+    metaDescription: "TML is a music release agency handling distribution, playlist pitching, and promotion services across Spotify, Apple Music, and YouTube. Free artist consultation.",
     metaKeywords: ["music release services", "Spotify playlist pitching", "music distribution services", "Punjabi music promotion", "music marketing Chandigarh", "artist promotion", "music PR services"],
     seoContent: [
       "Releasing music in today's streaming-first world requires more than just uploading tracks to a distributor. At TML Agency in Chandigarh, we provide complete music release strategies that cover distribution setup, playlist pitching, social media campaigns, and press outreach. Our team has helped launch over five hundred songs, generating more than fifty million streams for independent artists and labels worldwide.",
@@ -681,8 +681,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Stories that move people.",
     description: "Professional video editing and production services that bring your vision to life with cinematic quality. Our post-production team in Chandigarh delivers everything from social media reels and corporate videos to commercial productions, combining expert editing, motion graphics, and colour grading to create content that captivates audiences worldwide.",
     heroDescription: "From raw footage to polished masterpieces — our video editing team transforms your content into compelling visual stories. We handle everything from social media reels to corporate films, documentaries, and commercial productions.",
-    metaTitle: "Video Editing & Production Services",
-    metaDescription: "Reels, corporate videos, motion graphics, and colour grading delivered fast. Scroll-stopping content with a 48-hour turnaround. Get a free quote on your next project.",
+    metaTitle: "Video Editing Agency — Production Services",
+    metaDescription: "TML is a video editing agency delivering reels, corporate videos, and motion graphics. Our production company offers 48-hour turnaround on scroll-stopping content. Free quote.",
     metaKeywords: ["video editing services Chandigarh", "post-production services", "social media reels editing", "corporate video production", "motion graphics", "colour grading", "video production agency"],
     seoContent: [
       "Video content drives more engagement than any other format across digital platforms. At TML Agency in Chandigarh, our professional video editing team transforms raw footage into polished, compelling visual stories. Whether you need scroll-stopping reels for Instagram, a corporate brand film, or a high-impact commercial, our post-production expertise ensures every frame serves your message and captivates your audience.",
@@ -731,8 +731,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Packaging that sells off the shelf.",
     description: "Eye-catching packaging design that communicates your brand story and drives purchase decisions at the point of sale. Our design studio in Chandigarh creates retail packaging, label designs, and unboxing experiences for product brands worldwide, combining print expertise with creative design to ensure your products stand out on every shelf.",
     heroDescription: "Great packaging doesn't just protect products — it sells them. Our design team creates packaging that tells your brand story, stands out on shelves, and creates unboxing experiences that customers share and remember.",
-    metaTitle: "Packaging Design — Shelf-Ready Brand Packaging",
-    metaDescription: "Packaging that sells itself off the shelf. We design product labels, boxes, and retail packaging aligned with your brand identity. Get a free design consultation.",
+    metaTitle: "Packaging Design Agency — Shelf-Ready Branding",
+    metaDescription: "TML is a packaging design agency creating product labels, boxes, and retail packaging. Our branding services ensure your products stand out on every shelf. Free consultation.",
     metaKeywords: ["packaging design Chandigarh", "label design services", "product packaging services", "print design agency", "box design", "retail packaging", "packaging branding"],
     seoContent: [
       "Product packaging is often the final touchpoint before a purchase decision, making it one of the most important elements of your brand experience. At TML Agency in Chandigarh, our packaging design team creates visually compelling, structurally sound packaging that communicates your brand values and drives sales at the point of purchase. We design for shelf impact, ensuring your products command attention in competitive retail environments.",
@@ -781,8 +781,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Design that communicates. Visuals that convert.",
     description: "Professional graphic design services that bring your brand story to life across every visual touchpoint. Our design team in Chandigarh creates stunning social media graphics, print materials, presentations, and ad creatives that combine aesthetic excellence with strategic communication to help brands worldwide engage their audiences effectively.",
     heroDescription: "From social media creatives to print materials, presentations to brand collateral — our design team creates visuals that are not just beautiful but strategically designed to communicate, engage, and convert your audience.",
-    metaTitle: "Graphic Design Services — On-Brand, On Time",
-    metaDescription: "Social media graphics, ad creatives, print design, and presentations that stay on-brand every time. Fast delivery, unlimited revisions. Get a free quote today.",
+    metaTitle: "Graphic Design Agency — On-Brand, On Time",
+    metaDescription: "TML is a graphic design agency delivering social media graphics, ad creatives, print design, and presentations. Our services stay on-brand every time. Free quote.",
     metaKeywords: ["graphic design services Chandigarh", "visual design services", "social media graphics", "print design agency", "presentation design", "ad creative design", "infographic design"],
     seoContent: [
       "Great graphic design is the visual language of your brand, and it speaks before a single word is read. At TML Agency in Chandigarh, our design team creates visuals that communicate your message clearly, engage your audience emotionally, and drive the actions that matter to your business. From social media creatives to print collateral and digital advertisements, every design we produce is strategically crafted for impact.",
@@ -827,12 +827,12 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "link-building": {
     slug: "link-building",
-    title: "Link Building",
+    title: "Link Building Services — White-Hat Authority Growth",
     tagline: "Build authority. Earn trust. Rank higher.",
     description: "Strategic link building services that boost your domain authority and search rankings. We acquire high-quality backlinks from authoritative, relevant websites through ethical outreach, guest posting, and digital PR strategies that drive lasting SEO results.",
     heroDescription: "We build high-quality backlink profiles that search engines trust. Our link building strategies focus on earning genuine, relevant links that drive authority, referral traffic, and long-term ranking improvements.",
-    metaTitle: "Link Building — White-Hat Authority Growth",
-    metaDescription: "Earn high-authority backlinks that boost your domain rating and search rankings. Ethical, white-hat outreach strategies only. Get a free link profile audit today.",
+    metaTitle: "Link Building Agency — White-Hat SEO Services",
+    metaDescription: "TML is a link building agency earning high-authority backlinks that boost domain rating and rankings. Our company uses ethical, white-hat outreach only. Free audit.",
     metaKeywords: ["link building services", "backlink building agency", "SEO link building Chandigarh", "white hat link building", "guest posting services", "digital PR services", "authority building"],
     seoContent: [
       "High-quality backlinks remain one of the top three ranking factors in Google's algorithm. At TML Agency, our link building services focus on acquiring genuine, editorially placed links from authoritative websites in your niche. We use ethical, white-hat strategies including guest posting, digital PR, broken link building, and resource page outreach to build backlink profiles that withstand algorithm updates.",
@@ -875,8 +875,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Reach your ideal audience on Facebook & Instagram.",
     description: "Expert Meta advertising management that drives real results on Facebook and Instagram. We create, optimise, and scale ad campaigns that generate leads, sales, and brand awareness through precision targeting and compelling creative.",
     heroDescription: "We turn Meta's powerful advertising platform into your growth engine. From audience targeting to creative production to conversion optimisation, we manage every aspect of your Facebook and Instagram advertising.",
-    metaTitle: "Meta Ads — Facebook & Instagram Ad Campaigns",
-    metaDescription: "Reach your ideal customers on Facebook and Instagram with targeted Meta ad campaigns built for conversions, not impressions. Get a free ad account audit today.",
+    metaTitle: "Meta Ads Agency — Facebook & Instagram Services",
+    metaDescription: "TML is a Meta ads agency running Facebook and Instagram campaigns built for conversions. Our ad management services target your ideal customers. Free account audit.",
     metaKeywords: ["Meta ads agency", "Facebook ads Chandigarh", "Instagram advertising India", "social media advertising", "Facebook marketing agency", "Meta business partner", "paid social media"],
     seoContent: [
       "Meta platforms (Facebook and Instagram) reach over 3 billion people globally, making them essential channels for any business serious about growth. At TML Agency, our Meta advertising specialists create data-driven campaigns that connect your brand with the right audience at the right moment, driving measurable results in leads, sales, and brand awareness.",
@@ -919,8 +919,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Words that rank. Content that converts.",
     description: "Professional content writing services that drive organic traffic, engage your audience, and convert readers into customers. Our content team creates SEO-optimised blogs, website copy, articles, and marketing content that builds authority and delivers measurable business results.",
     heroDescription: "We create content that ranks on Google, engages your audience, and drives conversions. From blog posts and website copy to whitepapers and email sequences, every piece of content is strategically crafted to grow your business.",
-    metaTitle: "Content Writing — SEO Copy That Ranks & Converts",
-    metaDescription: "Content that earns rankings and turns readers into buyers. Blog posts, landing pages, and web copy written for search engines and humans. Book a consultation today.",
+    metaTitle: "Content Writing Agency — SEO Copy That Ranks",
+    metaDescription: "TML is a content writing agency producing SEO copy that ranks and converts. Our services include blog posts, landing pages, and web copy for search engines and humans.",
     metaKeywords: ["content writing services", "SEO content writing", "blog writing agency", "website copywriting", "content marketing Chandigarh", "article writing services", "content strategy"],
     seoContent: [
       "Content is the backbone of every successful digital marketing strategy. At TML Agency, our content writing services combine SEO expertise with compelling storytelling to create content that ranks on Google, resonates with your target audience, and drives measurable business outcomes. We write for both search engines and humans — because the best content does both.",
@@ -963,8 +963,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Dominate local search. Get found first.",
     description: "Expert Google My Business optimisation that puts your business at the top of local search results. We optimise, manage, and grow your GMB profile to drive foot traffic, calls, and local leads with proven local SEO strategies.",
     heroDescription: "We make your business the first thing people see in local search results. Our GMB optimisation services cover everything from profile setup and optimisation to review management and local SEO strategies that drive real-world customers to your door.",
-    metaTitle: "Google Business Profile & Local SEO Services",
-    metaDescription: "Show up when local customers search for your services. We optimize your Google Business Profile and local SEO to drive calls, visits, and leads. Get a free audit.",
+    metaTitle: "GMB Agency — Google Business Profile Services",
+    metaDescription: "TML is a local SEO agency optimizing your Google Business Profile to drive calls, visits, and leads. Our GMB management services get your company found first. Free audit.",
     metaKeywords: ["GMB listing services", "Google My Business optimisation", "local SEO Chandigarh", "Google Business Profile management", "local search ranking", "GMB agency India", "local SEO services"],
     seoContent: [
       "46% of all Google searches have local intent. If your Google Business Profile isn't optimised, you're invisible to nearly half your potential customers. At TML Agency, our GMB optimisation services ensure your business appears prominently in Google Maps, the local pack, and local search results — driving phone calls, direction requests, and website visits from high-intent customers.",
@@ -1003,12 +1003,12 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "technical-seo": {
     slug: "technical-seo",
-    title: "Technical SEO",
+    title: "Technical SEO Services — Fix What's Holding You Back",
     tagline: "Fix the foundation. Unlock your rankings.",
     description: "Expert technical SEO services that fix the hidden issues holding back your search rankings. We optimise site speed, crawlability, indexation, Core Web Vitals, and technical infrastructure to ensure search engines can properly discover, crawl, and rank your content.",
     heroDescription: "We fix the technical foundations that determine whether your content can rank. From site speed and Core Web Vitals to crawl optimisation and structured data, we handle the technical complexities so your SEO efforts deliver maximum results.",
-    metaTitle: "Technical SEO — Speed, Crawlability & Indexing",
-    metaDescription: "Fix the hidden issues killing your rankings. Site speed, crawlability, Core Web Vitals, and indexation audits with hands-on implementation. Get a free technical audit.",
+    metaTitle: "Technical SEO Agency — Audits & Implementation",
+    metaDescription: "TML is a technical SEO agency fixing hidden issues killing your rankings. Our services cover site speed, Core Web Vitals, crawlability, and indexation. Free technical audit.",
     metaKeywords: ["technical SEO services", "technical SEO audit", "site speed optimisation", "Core Web Vitals", "crawlability SEO", "schema markup", "technical SEO agency Chandigarh"],
     seoContent: [
       "Great content and strong backlinks mean nothing if search engines can't properly crawl, index, and render your website. Technical SEO is the foundation that everything else is built on. At TML Agency, our technical SEO specialists identify and fix the hidden issues that prevent your site from reaching its full ranking potential.",
@@ -1051,8 +1051,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Attract. Engage. Convert.",
     description: "Strategic content marketing services that build brand authority, drive organic traffic, and generate qualified leads. Our content marketing team in Chandigarh develops comprehensive content strategies, creates high-value assets, and distributes them across the right channels to grow your audience and convert readers into customers worldwide.",
     heroDescription: "We build content engines that attract your ideal customers at every stage of the buying journey. From blog strategies and lead magnets to video content and case studies, we create content that earns attention, builds trust, and drives measurable business growth.",
-    metaTitle: "Content Marketing — Strategy, Creation & Growth",
-    metaDescription: "Attract, engage, and convert your audience with content marketing that compounds over time. Strategy, creation, and distribution under one roof. Book a consultation.",
+    metaTitle: "Content Marketing Agency — Strategy & Creation",
+    metaDescription: "TML is a content marketing agency delivering strategy, creation, and distribution services that compound over time. Our company attracts and converts your audience. Free consultation.",
     metaKeywords: ["content marketing services", "content marketing agency Chandigarh", "content strategy services", "blog marketing", "inbound marketing", "thought leadership content", "content distribution"],
     seoContent: [
       "Content marketing generates three times more leads than outbound marketing while costing 62% less. At TML Agency in Chandigarh, we build data-driven content marketing programs that attract your ideal customers through genuinely useful, well-optimised content. We go beyond writing blog posts to create complete content ecosystems that support every stage of your customer's journey from awareness to purchase.",
@@ -1127,12 +1127,12 @@ export const servicePages: Record<string, ServicePageData> = {
 
   "email-marketing": {
     slug: "email-marketing",
-    title: "Email Marketing",
+    title: "Email Marketing Services — Automation That Drives Revenue",
     tagline: "The highest ROI channel in digital marketing.",
     description: "Strategic email marketing services that nurture leads, retain customers, and drive revenue on autopilot. Our email marketing team in Chandigarh designs, builds, and optimises email campaigns and automation flows that deliver an average 42:1 ROI for businesses across India and internationally.",
     heroDescription: "Email marketing delivers $42 in revenue for every $1 spent — the highest ROI of any digital marketing channel. We build and manage email programs that turn subscribers into loyal customers through strategic campaigns, automation sequences, and rigorous performance optimisation.",
-    metaTitle: "Email Marketing — Automation That Drives Revenue",
-    metaDescription: "Turn your email list into a revenue channel. Campaigns, automation workflows, and segmentation built for opens, clicks, and sales. Get a free email strategy audit.",
+    metaTitle: "Email Marketing Agency — Automation & Campaigns",
+    metaDescription: "TML is an email marketing agency turning your list into a revenue channel. Our services include campaigns, automation workflows, and segmentation built for sales. Free audit.",
     metaKeywords: ["email marketing services", "email marketing agency Chandigarh", "email automation services", "email campaign management", "drip email campaigns", "newsletter marketing", "email list building"],
     seoContent: [
       "Email marketing consistently delivers the highest return on investment of any digital marketing channel — averaging $42 in revenue for every $1 invested. At TML Agency in Chandigarh, we design and manage email marketing programs that turn your subscriber list into a predictable revenue engine. From welcome sequences and nurture flows to promotional campaigns and retention programmes, we handle every aspect of email marketing strategy and execution.",
@@ -1211,8 +1211,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Amplify your brand through authentic voices.",
     description: "Strategic influencer marketing campaigns that connect your brand with the right creators to reach engaged, targeted audiences at scale. Our influencer marketing team in Chandigarh identifies, vets, briefs, and manages influencer partnerships across Instagram, YouTube, and emerging platforms to drive awareness, conversions, and genuine brand affinity for businesses worldwide.",
     heroDescription: "We connect brands with the right influencers to create authentic, high-impact campaigns that reach new audiences and drive real results. From micro-influencer campaigns to celebrity partnerships, we manage the entire process — discovery, briefing, contracting, content approval, and performance reporting.",
-    metaTitle: "Influencer Marketing — Managed Creator Campaigns",
-    metaDescription: "We find, vet, and manage influencer partnerships that deliver real ROI, not just reach. Instagram and YouTube campaigns measured end to end. Book a strategy call.",
+    metaTitle: "Influencer Marketing Agency — Managed Campaigns",
+    metaDescription: "TML is an influencer marketing agency that finds, vets, and manages creator partnerships for real ROI. Our company runs Instagram and YouTube campaign services end to end.",
     metaKeywords: ["influencer marketing agency", "influencer marketing Chandigarh", "Instagram influencer campaigns", "YouTube influencer marketing", "brand influencer collaboration", "micro influencer marketing", "influencer management agency"],
     seoContent: [
       "92% of consumers trust recommendations from individuals over brands — and influencer marketing harnesses this trust at scale. At TML Agency in Chandigarh, we build influencer marketing campaigns that connect your brand with creators whose audiences match your target customers. Our data-driven approach to influencer selection, campaign management, and performance measurement ensures every partnership delivers genuine business results beyond vanity metrics.",
@@ -1283,8 +1283,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Every click. Every dollar. Maximised.",
     description: "Comprehensive pay-per-click management across Google, Meta, LinkedIn, and programmatic platforms that maximises your advertising ROI. Our certified PPC specialists in Chandigarh manage multi-platform ad campaigns with a data-driven approach to bidding, creative, and targeting that consistently delivers above-average returns for businesses across India and internationally.",
     heroDescription: "We manage your entire paid advertising portfolio across every platform — Google, Meta, LinkedIn, YouTube, and more. Our certified PPC specialists combine strategic planning with relentless optimisation to squeeze maximum ROI from every dollar of your ad budget.",
-    metaTitle: "PPC Management — Maximize Every Ad Dollar",
-    metaDescription: "Data-driven PPC management across Google, Meta, LinkedIn, and YouTube. We optimize bids, creatives, and landing pages to lower your CPA. Get a free account audit.",
+    metaTitle: "PPC Management Agency — Maximize Every Ad Dollar",
+    metaDescription: "TML is a PPC management agency optimizing ads across Google, Meta, LinkedIn, and YouTube. Our services lower your CPA through data-driven bid and creative optimization. Free audit.",
     metaKeywords: ["PPC management agency", "pay per click management Chandigarh", "paid advertising India", "multi-platform PPC", "Google Ads management", "Meta ads management", "PPC agency India"],
     seoContent: [
       "Pay-per-click advertising is the fastest way to place your business in front of high-intent customers, but without expert management, it is also the fastest way to burn through budget with little to show for it. At TML Agency in Chandigarh, our PPC management service covers your entire paid advertising portfolio — Google Ads, Meta Ads, LinkedIn Ads, YouTube, Bing, and programmatic — with a unified strategy designed to maximize ROI across every platform.",
@@ -1355,8 +1355,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Protect, build, and control your digital narrative.",
     description: "Comprehensive online reputation management (ORM) services that protect your brand from negative content, build positive sentiment, and give you control over what appears when people search for your business. Our ORM specialists in Chandigarh monitor, manage, and improve the digital reputation of businesses and individuals across India and globally.",
     heroDescription: "Your online reputation is your most valuable business asset — and your most vulnerable. We monitor, protect, and build your digital reputation through proactive content strategies, review management, crisis response, and search result suppression that ensures your brand story is told on your terms.",
-    metaTitle: "Reputation Management — Protect Your Brand",
-    metaDescription: "Take control of your online reputation. We monitor reviews, suppress negative content, and build positive brand sentiment across search and social. Book a consultation.",
+    metaTitle: "Reputation Management Agency — Protect Your Brand",
+    metaDescription: "TML is an online reputation management agency that monitors reviews, suppresses negative content, and builds brand sentiment. Our ORM services protect your company. Free consultation.",
     metaKeywords: ["online reputation management", "ORM services India", "brand reputation management", "reputation management agency Chandigarh", "negative content removal", "review management", "crisis PR"],
     seoContent: [
       "93% of consumers read online reviews before making a purchase, and 94% say a negative review has convinced them to avoid a business. Your online reputation is no longer just a PR concern — it directly impacts revenue, recruitment, investor relations, and long-term business sustainability. At TML Agency, our ORM services help businesses take control of their digital narrative and build the online reputation they deserve.",
@@ -1435,8 +1435,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "More revenue from the traffic you already have.",
     description: "Data-driven conversion rate optimization (CRO) services that turn more of your existing website visitors into paying customers. Our CRO specialists in Chandigarh use user research, behavioural analytics, and structured A/B testing to systematically identify and remove the friction points costing your business revenue — without spending an additional dollar on traffic.",
     heroDescription: "Doubling your conversion rate is mathematically equivalent to doubling your traffic — but far cheaper. We identify exactly why visitors leave without converting and fix it through research-backed testing. Our CRO process delivers consistent, measurable improvements to your conversion rates, average order values, and revenue per visitor.",
-    metaTitle: "CRO Services — Turn Traffic Into Revenue",
-    metaDescription: "Get more conversions without spending more on ads. A/B testing, UX audits, and data-driven CRO that turns your existing traffic into revenue. Get a free site audit.",
+    metaTitle: "CRO Agency — Turn Traffic Into Revenue",
+    metaDescription: "TML is a CRO agency helping companies get more conversions without more ad spend. Our services include A/B testing, UX audits, and data-driven optimization. Free site audit.",
     metaKeywords: ["conversion rate optimization", "CRO services India", "A/B testing agency", "CRO agency Chandigarh", "website conversion optimization", "landing page optimization", "user experience optimization"],
     seoContent: [
       "The average website converts only 2-3% of visitors. That means 97% of the people who visit your website — people you have spent money attracting through SEO, PPC, or social media — leave without taking the action you need them to take. Conversion rate optimization is the process of systematically improving that percentage through research, testing, and data-driven iteration. At TML Agency, our CRO specialists identify the specific barriers preventing visitors from converting and eliminate them.",
@@ -1515,8 +1515,8 @@ export const servicePages: Record<string, ServicePageData> = {
     tagline: "Grow your online store. Scale your revenue.",
     description: "End-to-end e-commerce marketing services that drive traffic, improve conversion rates, and build customer lifetime value for online stores. Our e-commerce specialists in Chandigarh manage the complete growth stack for Shopify, WooCommerce, and custom e-commerce businesses — from paid ads and SEO to email marketing and CRO — delivering sustainable revenue growth across India and internationally.",
     heroDescription: "We grow e-commerce brands with a full-funnel marketing approach. From acquiring new customers through Google Shopping and Meta Ads to converting them with optimised product pages, retaining them through email flows, and maximising their lifetime value — we manage the complete e-commerce growth engine.",
-    metaTitle: "E-Commerce Marketing — Grow Your Online Store",
-    metaDescription: "Drive more traffic, increase AOV, and build repeat customers for your Shopify or WooCommerce store with full-funnel e-commerce marketing. Get a free store audit.",
+    metaTitle: "E-Commerce Marketing Agency — Grow Your Store",
+    metaDescription: "TML is an e-commerce marketing agency growing Shopify and WooCommerce stores with full-funnel services. Our company drives traffic, increases AOV, and builds loyalty. Free audit.",
     metaKeywords: ["e-commerce marketing agency", "Shopify marketing India", "WooCommerce marketing", "e-commerce growth agency Chandigarh", "online store marketing", "e-commerce SEO", "e-commerce advertising"],
     seoContent: [
       "E-commerce is one of the most competitive and complex marketing environments in digital — success requires excellence across multiple channels simultaneously, from paid acquisition and SEO to email retention and conversion optimisation. At TML Agency in Chandigarh, we provide integrated e-commerce marketing services that manage your entire growth stack, ensuring every channel works together to acquire, convert, and retain customers profitably.",

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["detroit"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Detroit",
-  description: "TML offers expert Lead Generation services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Detroit",
+  description: "Top-rated Lead Generation company in Detroit. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation detroit", "lead generation agency detroit", "lead generation company detroit"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-detroit",
   },
   openGraph: {
-    title: "Lead Generation Agency in Detroit",
-    description: "TML offers expert Lead Generation services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Detroit",
+    description: "Top-rated Lead Generation company in Detroit. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-detroit",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Detroit",
-    description: "TML offers expert Lead Generation services in Detroit. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Detroit",
+    description: "Top-rated Lead Generation company in Detroit. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

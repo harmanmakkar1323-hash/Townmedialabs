@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["christchurch"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Christchurch",
-  description: "TML offers expert Packaging Design services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Christchurch",
+  description: "Top-rated Packaging Design company in Christchurch. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design christchurch", "packaging design agency christchurch", "packaging design christchurch nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-christchurch",
   },
   openGraph: {
-    title: "Packaging Design Agency in Christchurch",
-    description: "TML offers expert Packaging Design services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Christchurch",
+    description: "Top-rated Packaging Design company in Christchurch. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-christchurch",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Christchurch",
-    description: "TML offers expert Packaging Design services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Christchurch",
+    description: "Top-rated Packaging Design company in Christchurch. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

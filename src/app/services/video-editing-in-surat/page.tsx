@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["surat"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Surat",
-  description: "TML offers expert Video Editing services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Surat",
+  description: "Top-rated Video Editing company in Surat. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing surat", "video editing agency surat", "video editing company surat"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-surat",
   },
   openGraph: {
-    title: "Video Editing Agency in Surat",
-    description: "TML offers expert Video Editing services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Surat",
+    description: "Top-rated Video Editing company in Surat. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-surat",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Surat",
-    description: "TML offers expert Video Editing services in Surat. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Surat",
+    description: "Top-rated Video Editing company in Surat. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

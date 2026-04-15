@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["philadelphia"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Philadelphia",
-  description: "TML offers expert Branding services in Philadelphia. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Philadelphia",
+  description: "Top-rated Branding company in Philadelphia. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding philadelphia", "branding agency philadelphia", "branding company philadelphia"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-philadelphia",
   },
   openGraph: {
-    title: "Branding Agency in Philadelphia",
-    description: "TML offers expert Branding services in Philadelphia. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Philadelphia",
+    description: "Top-rated Branding company in Philadelphia. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-philadelphia",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Philadelphia",
-    description: "TML offers expert Branding services in Philadelphia. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Philadelphia",
+    description: "Top-rated Branding company in Philadelphia. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["lucknow"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Lucknow",
-  description: "TML offers expert Google Ads management services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Lucknow",
+  description: "Top-rated Google Ads company in Lucknow. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["Google Ads management lucknow", "Google Ads management agency lucknow", "Google Ads management company lucknow"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-lucknow",
   },
   openGraph: {
-    title: "Google Ads Agency in Lucknow",
-    description: "TML offers expert Google Ads management services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Lucknow",
+    description: "Top-rated Google Ads company in Lucknow. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-lucknow",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Lucknow",
-    description: "TML offers expert Google Ads management services in Lucknow. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Lucknow",
+    description: "Top-rated Google Ads company in Lucknow. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

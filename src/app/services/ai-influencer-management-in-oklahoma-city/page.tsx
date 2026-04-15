@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["oklahoma_city"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Oklahoma City",
-  description: "TML offers expert AI Influencer Management services in Oklahoma City. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Oklahoma City",
+  description: "Top-rated AI Influencer Management company in Oklahoma City. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management oklahoma city", "ai influencer management agency oklahoma city", "ai influencer management company oklahoma city"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-oklahoma-city",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Oklahoma City",
-    description: "TML offers expert AI Influencer Management services in Oklahoma City. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Oklahoma City",
+    description: "Top-rated AI Influencer Management company in Oklahoma City. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-oklahoma-city",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Oklahoma City",
-    description: "TML offers expert AI Influencer Management services in Oklahoma City. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Oklahoma City",
+    description: "Top-rated AI Influencer Management company in Oklahoma City. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

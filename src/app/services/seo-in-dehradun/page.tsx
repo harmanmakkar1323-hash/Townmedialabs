@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["dehradun"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Dehradun",
-  description: "TML offers expert Search Engine Optimization services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Dehradun",
+  description: "Top-rated SEO company in Dehradun. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization dehradun", "search engine optimization agency dehradun", "search engine optimization company dehradun"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-dehradun",
   },
   openGraph: {
-    title: "SEO Agency in Dehradun",
-    description: "TML offers expert Search Engine Optimization services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Dehradun",
+    description: "Top-rated SEO company in Dehradun. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-dehradun",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Dehradun",
-    description: "TML offers expert Search Engine Optimization services in Dehradun. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Dehradun",
+    description: "Top-rated SEO company in Dehradun. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["christchurch"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Christchurch",
-  description: "TML offers expert Video Editing services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best Video Editing Agency in Christchurch",
+  description: "Top-rated Video Editing company in Christchurch. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing christchurch", "video editing agency christchurch", "video editing christchurch nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-christchurch",
   },
   openGraph: {
-    title: "Video Editing Agency in Christchurch",
-    description: "TML offers expert Video Editing services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Video Editing Agency in Christchurch",
+    description: "Top-rated Video Editing company in Christchurch. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-christchurch",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Christchurch",
-    description: "TML offers expert Video Editing services in Christchurch, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best Video Editing Agency in Christchurch",
+    description: "Top-rated Video Editing company in Christchurch. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

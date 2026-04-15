@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["kolkata"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Kolkata",
-  description: "TML offers expert Branding services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Kolkata",
+  description: "Top-rated Branding company in Kolkata. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding kolkata", "branding agency kolkata", "branding company kolkata"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-kolkata",
   },
   openGraph: {
-    title: "Branding Agency in Kolkata",
-    description: "TML offers expert Branding services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Kolkata",
+    description: "Top-rated Branding company in Kolkata. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-kolkata",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Kolkata",
-    description: "TML offers expert Branding services in Kolkata. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Kolkata",
+    description: "Top-rated Branding company in Kolkata. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

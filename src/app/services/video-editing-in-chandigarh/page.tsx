@@ -1,22 +1,20 @@
 import type { Metadata } from "next";
 import { locations } from "@/data/locations";
-import { getCityServiceContent } from "@/data/cityServiceContent";
 import LocationServicePage from "@/components/templates/LocationServicePage";
 
 const location = locations["chandigarh"];
-const enrichment = getCityServiceContent("video-editing", "chandigarh");
 
 export const metadata: Metadata = {
-  title: enrichment?.metaTitle || "Best Video Editing Agency in Chandigarh",
-  description: enrichment?.metaDescription || "TML offers expert Video Editing services in Chandigarh. Proven results for 500+ businesses.",
-  keywords: enrichment?.keywords || ["video-editing chandigarh"],
+  title: "Best Video Editing Agency in Chandigarh",
+  description: "Top-rated video editing company in Chandigarh. TML offers expert video editing services for 500+ businesses across Punjab. Get a free video editing consultation today.",
+  keywords: ["best video editing agency chandigarh", "video editing company chandigarh", "video editing services chandigarh", "best video editing chandigarh", "top video editing agency chandigarh"],
   alternates: {
-    canonical: "https://townmedialabs.com/services/video-editing-in-chandigarh",
+    canonical: "https://townmedialabs.com/services/video-editing-in-chandigarh/",
   },
   openGraph: {
-    title: enrichment?.metaTitle || "Best Video Editing Agency in Chandigarh",
-    description: enrichment?.metaDescription || "TML offers expert Video Editing services in Chandigarh. Proven results for 500+ businesses.",
-    url: "https://townmedialabs.com/services/video-editing-in-chandigarh",
+    title: "Best Video Editing Agency in Chandigarh",
+    description: "Top-rated video editing company in Chandigarh. TML offers expert video editing services for 500+ businesses across Punjab. Get a free video editing consultation today.",
+    url: "https://townmedialabs.com/services/video-editing-in-chandigarh/",
     siteName: "TML Agency",
     type: "website",
     locale: "en_IN",
@@ -25,12 +23,11 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: enrichment?.metaTitle || "Best Video Editing Agency in Chandigarh",
-    description: enrichment?.metaDescription || "TML offers expert Video Editing services in Chandigarh. Proven results for 500+ businesses.",
+    title: "Best Video Editing Agency in Chandigarh",
+    description: "Top-rated video editing company in Chandigarh. TML offers expert video editing services for 500+ businesses across Punjab. Get a free video editing consultation today.",
     images: ["/og-image.png"],
   },
 };
-
 export default function UvideoUeditingUinUchandigarhPage() {
   return (
     <LocationServicePage

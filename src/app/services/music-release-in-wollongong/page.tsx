@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["wollongong"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Wollongong",
-  description: "TML offers expert Music Release services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Wollongong",
+  description: "Top-rated Music Release company in Wollongong. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release wollongong", "music release agency wollongong", "music release company wollongong"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-wollongong",
   },
   openGraph: {
-    title: "Music Release Agency in Wollongong",
-    description: "TML offers expert Music Release services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Wollongong",
+    description: "Top-rated Music Release company in Wollongong. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-wollongong",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Wollongong",
-    description: "TML offers expert Music Release services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Wollongong",
+    description: "Top-rated Music Release company in Wollongong. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

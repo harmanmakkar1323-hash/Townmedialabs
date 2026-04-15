@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["los_angeles"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Los Angeles",
-  description: "TML offers expert Packaging Design services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Los Angeles",
+  description: "Top-rated Packaging Design company in Los Angeles. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design los angeles", "packaging design agency los angeles", "packaging design company los angeles"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-los-angeles",
   },
   openGraph: {
-    title: "Packaging Design Agency in Los Angeles",
-    description: "TML offers expert Packaging Design services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Los Angeles",
+    description: "Top-rated Packaging Design company in Los Angeles. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-los-angeles",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Los Angeles",
-    description: "TML offers expert Packaging Design services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Los Angeles",
+    description: "Top-rated Packaging Design company in Los Angeles. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

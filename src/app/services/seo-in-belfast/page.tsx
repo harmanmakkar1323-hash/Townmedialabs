@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["belfast"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Belfast",
-  description: "TML offers expert SEO services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Belfast",
+  description: "Top-rated SEO company in Belfast. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo belfast", "seo agency belfast", "seo company belfast"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-belfast",
   },
   openGraph: {
-    title: "SEO Agency in Belfast",
-    description: "TML offers expert SEO services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Belfast",
+    description: "Top-rated SEO company in Belfast. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-belfast",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Belfast",
-    description: "TML offers expert SEO services in Belfast. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Belfast",
+    description: "Top-rated SEO company in Belfast. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["bournemouth"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Bournemouth",
-  description: "TML offers expert AI Influencer Management services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Bournemouth",
+  description: "Top-rated AI Influencer Management company in Bournemouth. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management bournemouth", "ai influencer management agency bournemouth", "ai influencer management company bournemouth"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-bournemouth",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Bournemouth",
-    description: "TML offers expert AI Influencer Management services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Bournemouth",
+    description: "Top-rated AI Influencer Management company in Bournemouth. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-bournemouth",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Bournemouth",
-    description: "TML offers expert AI Influencer Management services in Bournemouth. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Bournemouth",
+    description: "Top-rated AI Influencer Management company in Bournemouth. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

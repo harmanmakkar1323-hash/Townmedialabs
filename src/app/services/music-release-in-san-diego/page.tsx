@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["san_diego"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in San Diego",
-  description: "TML offers expert Music Release services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in San Diego",
+  description: "Top-rated Music Release company in San Diego. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release san diego", "music release agency san diego", "music release company san diego"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-san-diego",
   },
   openGraph: {
-    title: "Music Release Agency in San Diego",
-    description: "TML offers expert Music Release services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in San Diego",
+    description: "Top-rated Music Release company in San Diego. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-san-diego",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in San Diego",
-    description: "TML offers expert Music Release services in San Diego. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in San Diego",
+    description: "Top-rated Music Release company in San Diego. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

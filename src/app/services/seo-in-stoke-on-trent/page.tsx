@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["stoke_on_trent"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Stoke-on-Trent",
-  description: "TML offers expert SEO services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Stoke-on-Trent",
+  description: "Top-rated SEO company in Stoke-on-Trent. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo stoke-on-trent", "seo agency stoke-on-trent", "seo company stoke-on-trent"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-stoke-on-trent",
   },
   openGraph: {
-    title: "SEO Agency in Stoke-on-Trent",
-    description: "TML offers expert SEO services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Stoke-on-Trent",
+    description: "Top-rated SEO company in Stoke-on-Trent. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-stoke-on-trent",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Stoke-on-Trent",
-    description: "TML offers expert SEO services in Stoke-on-Trent. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Stoke-on-Trent",
+    description: "Top-rated SEO company in Stoke-on-Trent. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

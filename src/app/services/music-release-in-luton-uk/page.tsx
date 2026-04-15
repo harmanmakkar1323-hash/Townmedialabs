@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["luton_uk"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Luton",
-  description: "TML offers expert Music Release services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Luton",
+  description: "Top-rated Music Release company in Luton. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release luton", "music release agency luton", "music release company luton"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-luton-uk",
   },
   openGraph: {
-    title: "Music Release Agency in Luton",
-    description: "TML offers expert Music Release services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Luton",
+    description: "Top-rated Music Release company in Luton. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-luton-uk",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Luton",
-    description: "TML offers expert Music Release services in Luton. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Luton",
+    description: "Top-rated Music Release company in Luton. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

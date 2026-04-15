@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["bath"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Bath",
-  description: "TML offers expert Video Editing services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Bath",
+  description: "Top-rated Video Editing company in Bath. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing bath", "video editing agency bath", "video editing company bath"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-bath",
   },
   openGraph: {
-    title: "Video Editing Agency in Bath",
-    description: "TML offers expert Video Editing services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Bath",
+    description: "Top-rated Video Editing company in Bath. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-bath",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Bath",
-    description: "TML offers expert Video Editing services in Bath. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Bath",
+    description: "Top-rated Video Editing company in Bath. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

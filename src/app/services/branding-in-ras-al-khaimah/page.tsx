@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["ras_al_khaimah"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Ras Al Khaimah",
-  description: "TML offers expert Branding services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Ras Al Khaimah",
+  description: "Top-rated Branding company in Ras Al Khaimah. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding ras al khaimah", "branding agency ras al khaimah", "branding company ras al khaimah"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-ras-al-khaimah",
   },
   openGraph: {
-    title: "Branding Agency in Ras Al Khaimah",
-    description: "TML offers expert Branding services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Ras Al Khaimah",
+    description: "Top-rated Branding company in Ras Al Khaimah. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-ras-al-khaimah",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Ras Al Khaimah",
-    description: "TML offers expert Branding services in Ras Al Khaimah. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Ras Al Khaimah",
+    description: "Top-rated Branding company in Ras Al Khaimah. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

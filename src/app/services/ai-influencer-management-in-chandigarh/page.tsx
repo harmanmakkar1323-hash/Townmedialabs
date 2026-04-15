@@ -1,22 +1,20 @@
 import type { Metadata } from "next";
 import { locations } from "@/data/locations";
-import { getCityServiceContent } from "@/data/cityServiceContent";
 import LocationServicePage from "@/components/templates/LocationServicePage";
 
 const location = locations["chandigarh"];
-const enrichment = getCityServiceContent("ai-influencer-management", "chandigarh");
 
 export const metadata: Metadata = {
-  title: enrichment?.metaTitle || "Best AI Influencer Management Agency in Chandigarh",
-  description: enrichment?.metaDescription || "TML offers expert AI Influencer Management services in Chandigarh. Proven results for 500+ businesses.",
-  keywords: enrichment?.keywords || ["ai-influencer-management chandigarh"],
+  title: "Best AI Influencer Management Agency in Chandigarh",
+  description: "Top-rated ai influencer management company in Chandigarh. TML offers expert ai influencer management services for 500+ businesses across Punjab. Get a free ai influencer management consultation today.",
+  keywords: ["best ai influencer management agency chandigarh", "ai influencer management company chandigarh", "ai influencer management services chandigarh", "best ai influencer management chandigarh", "top ai influencer management agency chandigarh"],
   alternates: {
-    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-chandigarh",
+    canonical: "https://townmedialabs.com/services/ai-influencer-management-in-chandigarh/",
   },
   openGraph: {
-    title: enrichment?.metaTitle || "Best AI Influencer Management Agency in Chandigarh",
-    description: enrichment?.metaDescription || "TML offers expert AI Influencer Management services in Chandigarh. Proven results for 500+ businesses.",
-    url: "https://townmedialabs.com/services/ai-influencer-management-in-chandigarh",
+    title: "Best AI Influencer Management Agency in Chandigarh",
+    description: "Top-rated ai influencer management company in Chandigarh. TML offers expert ai influencer management services for 500+ businesses across Punjab. Get a free ai influencer management consultation today.",
+    url: "https://townmedialabs.com/services/ai-influencer-management-in-chandigarh/",
     siteName: "TML Agency",
     type: "website",
     locale: "en_IN",
@@ -25,12 +23,11 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: enrichment?.metaTitle || "Best AI Influencer Management Agency in Chandigarh",
-    description: enrichment?.metaDescription || "TML offers expert AI Influencer Management services in Chandigarh. Proven results for 500+ businesses.",
+    title: "Best AI Influencer Management Agency in Chandigarh",
+    description: "Top-rated ai influencer management company in Chandigarh. TML offers expert ai influencer management services for 500+ businesses across Punjab. Get a free ai influencer management consultation today.",
     images: ["/og-image.png"],
   },
 };
-
 export default function UaiUinfluencerUmanagementUinUchandigarhPage() {
   return (
     <LocationServicePage

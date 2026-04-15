@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["cleveland"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Cleveland",
-  description: "TML offers expert SEO services in Cleveland. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Cleveland",
+  description: "Top-rated SEO company in Cleveland. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo cleveland", "seo agency cleveland", "seo company cleveland"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-cleveland",
   },
   openGraph: {
-    title: "SEO Agency in Cleveland",
-    description: "TML offers expert SEO services in Cleveland. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Cleveland",
+    description: "Top-rated SEO company in Cleveland. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-cleveland",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Cleveland",
-    description: "TML offers expert SEO services in Cleveland. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Cleveland",
+    description: "Top-rated SEO company in Cleveland. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

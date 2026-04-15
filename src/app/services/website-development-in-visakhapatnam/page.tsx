@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["visakhapatnam"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Visakhapatnam",
-  description: "TML offers expert Website Development services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Visakhapatnam",
+  description: "Top-rated Website Development company in Visakhapatnam. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development visakhapatnam", "website development agency visakhapatnam", "website development company visakhapatnam"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-visakhapatnam",
   },
   openGraph: {
-    title: "Website Development Agency in Visakhapatnam",
-    description: "TML offers expert Website Development services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Visakhapatnam",
+    description: "Top-rated Website Development company in Visakhapatnam. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-visakhapatnam",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Visakhapatnam",
-    description: "TML offers expert Website Development services in Visakhapatnam. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Visakhapatnam",
+    description: "Top-rated Website Development company in Visakhapatnam. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

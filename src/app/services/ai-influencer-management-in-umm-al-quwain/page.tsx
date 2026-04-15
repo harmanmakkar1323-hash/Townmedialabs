@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["umm_al_quwain"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Umm Al Quwain",
-  description: "TML offers expert AI Influencer Management services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Umm Al Quwain",
+  description: "Top-rated AI Influencer Management company in Umm Al Quwain. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management umm al quwain", "ai influencer management agency umm al quwain", "ai influencer management company umm al quwain"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-umm-al-quwain",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Umm Al Quwain",
-    description: "TML offers expert AI Influencer Management services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Umm Al Quwain",
+    description: "Top-rated AI Influencer Management company in Umm Al Quwain. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-umm-al-quwain",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Umm Al Quwain",
-    description: "TML offers expert AI Influencer Management services in Umm Al Quwain. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Umm Al Quwain",
+    description: "Top-rated AI Influencer Management company in Umm Al Quwain. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

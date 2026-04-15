@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["hamilton"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Hamilton",
-  description: "TML offers expert Google Ads services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+  title: "Best Google Ads Agency in Hamilton",
+  description: "Top-rated Google Ads company in Hamilton. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads hamilton", "google ads agency hamilton", "google ads hamilton ontario"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-hamilton",
   },
   openGraph: {
-    title: "Google Ads Agency in Hamilton",
-    description: "TML offers expert Google Ads services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+    title: "Best Google Ads Agency in Hamilton",
+    description: "Top-rated Google Ads company in Hamilton. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-hamilton",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Hamilton",
-    description: "TML offers expert Google Ads services in Hamilton, Ontario. Proven results for businesses across Canada. Get a free consultation today.",
+    title: "Best Google Ads Agency in Hamilton",
+    description: "Top-rated Google Ads company in Hamilton. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

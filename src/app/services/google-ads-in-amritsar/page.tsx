@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["amritsar"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Amritsar",
-  description: "TML offers expert Google Ads management services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Amritsar",
+  description: "Top-rated Google Ads company in Amritsar. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["Google Ads management amritsar", "Google Ads management agency amritsar", "Google Ads management company amritsar"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-amritsar",
   },
   openGraph: {
-    title: "Google Ads Agency in Amritsar",
-    description: "TML offers expert Google Ads management services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Amritsar",
+    description: "Top-rated Google Ads company in Amritsar. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-amritsar",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Amritsar",
-    description: "TML offers expert Google Ads management services in Amritsar. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Amritsar",
+    description: "Top-rated Google Ads company in Amritsar. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

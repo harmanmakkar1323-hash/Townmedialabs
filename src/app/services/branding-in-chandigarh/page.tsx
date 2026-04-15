@@ -1,22 +1,20 @@
 import type { Metadata } from "next";
 import { locations } from "@/data/locations";
-import { getCityServiceContent } from "@/data/cityServiceContent";
 import LocationServicePage from "@/components/templates/LocationServicePage";
 
 const location = locations["chandigarh"];
-const enrichment = getCityServiceContent("branding", "chandigarh");
 
 export const metadata: Metadata = {
-  title: enrichment?.metaTitle || "Best Branding Agency in Chandigarh",
-  description: enrichment?.metaDescription || "TML offers expert Branding services in Chandigarh. Proven results for 500+ businesses.",
-  keywords: enrichment?.keywords || ["branding chandigarh"],
+  title: "Best Branding Agency in Chandigarh",
+  description: "Top-rated branding company in Chandigarh. TML offers expert branding services for 500+ businesses across Punjab. Get a free branding consultation today.",
+  keywords: ["best branding agency chandigarh", "branding company chandigarh", "branding services chandigarh", "best branding chandigarh", "top branding agency chandigarh"],
   alternates: {
-    canonical: "https://townmedialabs.com/services/branding-in-chandigarh",
+    canonical: "https://townmedialabs.com/services/branding-in-chandigarh/",
   },
   openGraph: {
-    title: enrichment?.metaTitle || "Best Branding Agency in Chandigarh",
-    description: enrichment?.metaDescription || "TML offers expert Branding services in Chandigarh. Proven results for 500+ businesses.",
-    url: "https://townmedialabs.com/services/branding-in-chandigarh",
+    title: "Best Branding Agency in Chandigarh",
+    description: "Top-rated branding company in Chandigarh. TML offers expert branding services for 500+ businesses across Punjab. Get a free branding consultation today.",
+    url: "https://townmedialabs.com/services/branding-in-chandigarh/",
     siteName: "TML Agency",
     type: "website",
     locale: "en_IN",
@@ -25,12 +23,11 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: enrichment?.metaTitle || "Best Branding Agency in Chandigarh",
-    description: enrichment?.metaDescription || "TML offers expert Branding services in Chandigarh. Proven results for 500+ businesses.",
+    title: "Best Branding Agency in Chandigarh",
+    description: "Top-rated branding company in Chandigarh. TML offers expert branding services for 500+ businesses across Punjab. Get a free branding consultation today.",
     images: ["/og-image.png"],
   },
 };
-
 export default function UbrandingUinUchandigarhPage() {
   return (
     <LocationServicePage

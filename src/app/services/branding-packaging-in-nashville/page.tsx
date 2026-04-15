@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["nashville"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Nashville",
-  description: "TML offers expert Packaging Design services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Nashville",
+  description: "Top-rated Packaging Design company in Nashville. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design nashville", "packaging design agency nashville", "packaging design company nashville"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-nashville",
   },
   openGraph: {
-    title: "Packaging Design Agency in Nashville",
-    description: "TML offers expert Packaging Design services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Nashville",
+    description: "Top-rated Packaging Design company in Nashville. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-nashville",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Nashville",
-    description: "TML offers expert Packaging Design services in Nashville. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Nashville",
+    description: "Top-rated Packaging Design company in Nashville. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

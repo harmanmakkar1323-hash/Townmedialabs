@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["ludhiana"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Ludhiana",
-  description: "TML offers expert Graphic Design services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Graphic Design Agency in Ludhiana",
+  description: "Top-rated Graphic Design company in Ludhiana. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design ludhiana", "graphic design agency ludhiana", "graphic design company ludhiana"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-ludhiana",
   },
   openGraph: {
-    title: "Graphic Design Agency in Ludhiana",
-    description: "TML offers expert Graphic Design services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Ludhiana",
+    description: "Top-rated Graphic Design company in Ludhiana. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-ludhiana",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Ludhiana",
-    description: "TML offers expert Graphic Design services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Ludhiana",
+    description: "Top-rated Graphic Design company in Ludhiana. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

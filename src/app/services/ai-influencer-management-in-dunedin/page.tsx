@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["dunedin"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Dunedin",
-  description: "TML offers expert AI Influencer Management services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Dunedin",
+  description: "Top-rated AI Influencer Management company in Dunedin. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management dunedin", "ai influencer management agency dunedin", "ai influencer management dunedin nz"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-dunedin",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Dunedin",
-    description: "TML offers expert AI Influencer Management services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Dunedin",
+    description: "Top-rated AI Influencer Management company in Dunedin. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-dunedin",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Dunedin",
-    description: "TML offers expert AI Influencer Management services in Dunedin, New Zealand. Proven results for businesses across NZ. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Dunedin",
+    description: "Top-rated AI Influencer Management company in Dunedin. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

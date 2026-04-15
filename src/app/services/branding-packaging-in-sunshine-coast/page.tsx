@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["sunshine_coast"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Sunshine Coast",
-  description: "TML offers expert Packaging Design services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Sunshine Coast",
+  description: "Top-rated Packaging Design company in Sunshine Coast. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design sunshine coast", "packaging design agency sunshine coast", "packaging design company sunshine coast"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-sunshine-coast",
   },
   openGraph: {
-    title: "Packaging Design Agency in Sunshine Coast",
-    description: "TML offers expert Packaging Design services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Sunshine Coast",
+    description: "Top-rated Packaging Design company in Sunshine Coast. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-sunshine-coast",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Sunshine Coast",
-    description: "TML offers expert Packaging Design services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Sunshine Coast",
+    description: "Top-rated Packaging Design company in Sunshine Coast. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["bathinda"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Bathinda",
-  description: "TML offers expert Google Ads services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Bathinda",
+  description: "Top-rated Google Ads company in Bathinda. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads bathinda", "google ads agency bathinda", "google ads company bathinda"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-bathinda",
   },
   openGraph: {
-    title: "Google Ads Agency in Bathinda",
-    description: "TML offers expert Google Ads services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Bathinda",
+    description: "Top-rated Google Ads company in Bathinda. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-bathinda",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Bathinda",
-    description: "TML offers expert Google Ads services in Bathinda. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Bathinda",
+    description: "Top-rated Google Ads company in Bathinda. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

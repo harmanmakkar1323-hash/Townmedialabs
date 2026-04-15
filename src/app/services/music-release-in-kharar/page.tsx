@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["kharar"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Kharar",
-  description: "TML offers expert Music Release and Distribution services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Kharar",
+  description: "Top-rated Music Release company in Kharar. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release and distribution kharar", "music release and distribution agency kharar", "music release and distribution company kharar"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-kharar",
   },
   openGraph: {
-    title: "Music Release Agency in Kharar",
-    description: "TML offers expert Music Release and Distribution services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Kharar",
+    description: "Top-rated Music Release company in Kharar. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-kharar",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Kharar",
-    description: "TML offers expert Music Release and Distribution services in Kharar. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Kharar",
+    description: "Top-rated Music Release company in Kharar. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

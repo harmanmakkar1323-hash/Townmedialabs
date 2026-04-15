@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="100" fill="#1a1a2e"/>
+  <circle cx="100" cy="100" r="96" fill="url(#grad3)"/>
+  <!-- Hair - modern style -->
+  <path d="M58 78c0-28 19-48 42-48s42 20 42 48c0 0-5-20-42-20s-42 20-42 20z" fill="#2a1810"/>
+  <path d="M60 78c2-5 8-10 15-8" fill="#2a1810"/>
+  <!-- Face -->
+  <ellipse cx="100" cy="95" rx="34" ry="38" fill="#d4a574"/>
+  <!-- Stubble -->
+  <ellipse cx="100" cy="115" rx="22" ry="15" fill="#8b6b4a" opacity="0.15"/>
+  <!-- Eyes -->
+  <ellipse cx="87" cy="90" rx="4.5" ry="5" fill="#1a1a1a"/>
+  <ellipse cx="113" cy="90" rx="4.5" ry="5" fill="#1a1a1a"/>
+  <circle cx="88.5" cy="89" r="1.8" fill="white"/>
+  <circle cx="114.5" cy="89" r="1.8" fill="white"/>
+  <!-- Eyebrows -->
+  <path d="M79 82c4-5 9-5 13-2" stroke="#2a1810" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M108 80c4-3 9-3 13 2" stroke="#2a1810" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Smile -->
+  <path d="M89 107c4 6 18 6 22 0" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Hoodie -->
+  <path d="M55 148c0-18 20-25 45-25s45 7 45 25v52H55v-52z" fill="#3a3a5a"/>
+  <path d="M85 123v12c0 3 7 8 15 8s15-5 15-8v-12" fill="#2a2a4a"/>
+  <!-- Hoodie string -->
+  <line x1="92" y1="130" x2="92" y2="145" stroke="#666" stroke-width="1.5"/>
+  <line x1="108" y1="130" x2="108" y2="145" stroke="#666" stroke-width="1.5"/>
+  <defs>
+    <radialGradient id="grad3" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2a2a4a"/>
+      <stop offset="100%" stop-color="#0f0f1e"/>
+    </radialGradient>
+  </defs>
+</svg>

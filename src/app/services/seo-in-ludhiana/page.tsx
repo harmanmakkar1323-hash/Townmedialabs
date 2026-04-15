@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["ludhiana"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Ludhiana",
-  description: "TML offers expert SEO services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Ludhiana",
+  description: "Top-rated SEO company in Ludhiana. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo ludhiana", "seo agency ludhiana", "seo company ludhiana"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-ludhiana",
   },
   openGraph: {
-    title: "SEO Agency in Ludhiana",
-    description: "TML offers expert SEO services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Ludhiana",
+    description: "Top-rated SEO company in Ludhiana. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-ludhiana",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Ludhiana",
-    description: "TML offers expert SEO services in Ludhiana. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Ludhiana",
+    description: "Top-rated SEO company in Ludhiana. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

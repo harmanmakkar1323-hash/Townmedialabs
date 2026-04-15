@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["los_angeles"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Los Angeles",
-  description: "TML offers expert AI Influencer Management services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Los Angeles",
+  description: "Top-rated AI Influencer Management company in Los Angeles. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management los angeles", "ai influencer management agency los angeles", "ai influencer management company los angeles"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-los-angeles",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Los Angeles",
-    description: "TML offers expert AI Influencer Management services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Los Angeles",
+    description: "Top-rated AI Influencer Management company in Los Angeles. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-los-angeles",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Los Angeles",
-    description: "TML offers expert AI Influencer Management services in Los Angeles. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Los Angeles",
+    description: "Top-rated AI Influencer Management company in Los Angeles. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

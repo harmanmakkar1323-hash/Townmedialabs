@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["sydney"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Sydney",
-  description: "TML offers expert SEO services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Sydney",
+  description: "Top-rated SEO company in Sydney. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo sydney", "seo agency sydney", "seo company sydney"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-sydney",
   },
   openGraph: {
-    title: "SEO Agency in Sydney",
-    description: "TML offers expert SEO services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Sydney",
+    description: "Top-rated SEO company in Sydney. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-sydney",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Sydney",
-    description: "TML offers expert SEO services in Sydney. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Sydney",
+    description: "Top-rated SEO company in Sydney. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

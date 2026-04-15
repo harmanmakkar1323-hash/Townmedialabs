@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["mohali"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Mohali",
-  description: "TML offers expert Search Engine Optimization services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Mohali",
+  description: "Top-rated SEO company in Mohali. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["search engine optimization mohali", "search engine optimization agency mohali", "search engine optimization company mohali"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-mohali",
   },
   openGraph: {
-    title: "SEO Agency in Mohali",
-    description: "TML offers expert Search Engine Optimization services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Mohali",
+    description: "Top-rated SEO company in Mohali. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-mohali",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Mohali",
-    description: "TML offers expert Search Engine Optimization services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Mohali",
+    description: "Top-rated SEO company in Mohali. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

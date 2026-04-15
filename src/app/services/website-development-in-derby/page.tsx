@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["derby"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in Derby",
-  description: "TML offers expert Website Development services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in Derby",
+  description: "Top-rated Website Development company in Derby. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development derby", "website development agency derby", "website development company derby"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-derby",
   },
   openGraph: {
-    title: "Website Development Agency in Derby",
-    description: "TML offers expert Website Development services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Derby",
+    description: "Top-rated Website Development company in Derby. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-derby",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in Derby",
-    description: "TML offers expert Website Development services in Derby. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in Derby",
+    description: "Top-rated Website Development company in Derby. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

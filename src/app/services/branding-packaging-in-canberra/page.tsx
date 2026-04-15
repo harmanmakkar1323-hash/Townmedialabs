@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["canberra"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Canberra",
-  description: "TML offers expert Packaging Design services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Canberra",
+  description: "Top-rated Packaging Design company in Canberra. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design canberra", "packaging design agency canberra", "packaging design company canberra"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-canberra",
   },
   openGraph: {
-    title: "Packaging Design Agency in Canberra",
-    description: "TML offers expert Packaging Design services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Canberra",
+    description: "Top-rated Packaging Design company in Canberra. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-canberra",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Canberra",
-    description: "TML offers expert Packaging Design services in Canberra. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Canberra",
+    description: "Top-rated Packaging Design company in Canberra. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

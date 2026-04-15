@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["middlesbrough"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Middlesbrough",
-  description: "TML offers expert Graphic Design services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Graphic Design Agency in Middlesbrough",
+  description: "Top-rated Graphic Design company in Middlesbrough. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design middlesbrough", "graphic design agency middlesbrough", "graphic design company middlesbrough"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-middlesbrough",
   },
   openGraph: {
-    title: "Graphic Design Agency in Middlesbrough",
-    description: "TML offers expert Graphic Design services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Middlesbrough",
+    description: "Top-rated Graphic Design company in Middlesbrough. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-middlesbrough",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Middlesbrough",
-    description: "TML offers expert Graphic Design services in Middlesbrough. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Middlesbrough",
+    description: "Top-rated Graphic Design company in Middlesbrough. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

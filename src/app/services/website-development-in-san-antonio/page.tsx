@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["san_antonio"];
 
 export const metadata: Metadata = {
-  title: "Website Development Agency in San Antonio",
-  description: "TML offers expert Website Development services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Website Development Agency in San Antonio",
+  description: "Top-rated Website Development company in San Antonio. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
   keywords: ["website development san antonio", "website development agency san antonio", "website development company san antonio"],
   alternates: {
     canonical: "https://townmedialabs.com/services/website-development-in-san-antonio",
   },
   openGraph: {
-    title: "Website Development Agency in San Antonio",
-    description: "TML offers expert Website Development services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in San Antonio",
+    description: "Top-rated Website Development company in San Antonio. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     url: "https://townmedialabs.com/services/website-development-in-san-antonio",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Website Development Agency in San Antonio",
-    description: "TML offers expert Website Development services in San Antonio. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Website Development Agency in San Antonio",
+    description: "Top-rated Website Development company in San Antonio. TML offers expert Website Development services for 500+ businesses. Get a free Website Development consultation today.",
     images: ["/og-image.png"],
   },
 };

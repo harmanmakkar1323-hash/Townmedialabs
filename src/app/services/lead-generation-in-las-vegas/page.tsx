@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["las_vegas"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Las Vegas",
-  description: "TML offers expert Lead Generation services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Las Vegas",
+  description: "Top-rated Lead Generation company in Las Vegas. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation las vegas", "lead generation agency las vegas", "lead generation company las vegas"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-las-vegas",
   },
   openGraph: {
-    title: "Lead Generation Agency in Las Vegas",
-    description: "TML offers expert Lead Generation services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Las Vegas",
+    description: "Top-rated Lead Generation company in Las Vegas. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-las-vegas",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Las Vegas",
-    description: "TML offers expert Lead Generation services in Las Vegas. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Las Vegas",
+    description: "Top-rated Lead Generation company in Las Vegas. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["pune"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Pune",
-  description: "TML offers expert Music Release and Distribution services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Pune",
+  description: "Top-rated Music Release company in Pune. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release and distribution pune", "music release and distribution agency pune", "music release and distribution company pune"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-pune",
   },
   openGraph: {
-    title: "Music Release Agency in Pune",
-    description: "TML offers expert Music Release and Distribution services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Pune",
+    description: "Top-rated Music Release company in Pune. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-pune",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Pune",
-    description: "TML offers expert Music Release and Distribution services in Pune. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Pune",
+    description: "Top-rated Music Release company in Pune. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

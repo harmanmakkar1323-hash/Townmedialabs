@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["virginia_beach"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Virginia Beach",
-  description: "TML offers expert SEO services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Virginia Beach",
+  description: "Top-rated SEO company in Virginia Beach. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo virginia beach", "seo agency virginia beach", "seo company virginia beach"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-virginia-beach",
   },
   openGraph: {
-    title: "SEO Agency in Virginia Beach",
-    description: "TML offers expert SEO services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Virginia Beach",
+    description: "Top-rated SEO company in Virginia Beach. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-virginia-beach",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Virginia Beach",
-    description: "TML offers expert SEO services in Virginia Beach. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Virginia Beach",
+    description: "Top-rated SEO company in Virginia Beach. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

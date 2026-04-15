@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["preston"];
 
 export const metadata: Metadata = {
-  title: "SEO Agency in Preston",
-  description: "TML offers expert SEO services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best SEO Agency in Preston",
+  description: "Top-rated SEO company in Preston. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
   keywords: ["seo preston", "seo agency preston", "seo company preston"],
   alternates: {
     canonical: "https://townmedialabs.com/services/seo-in-preston",
   },
   openGraph: {
-    title: "SEO Agency in Preston",
-    description: "TML offers expert SEO services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Preston",
+    description: "Top-rated SEO company in Preston. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     url: "https://townmedialabs.com/services/seo-in-preston",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "SEO Agency in Preston",
-    description: "TML offers expert SEO services in Preston. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best SEO Agency in Preston",
+    description: "Top-rated SEO company in Preston. TML offers expert SEO services for 500+ businesses. Get a free SEO consultation today.",
     images: ["/og-image.png"],
   },
 };

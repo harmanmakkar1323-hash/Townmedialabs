@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["cleveland"];
 
 export const metadata: Metadata = {
-  title: "Music Release Agency in Cleveland",
-  description: "TML offers expert Music Release services in Cleveland. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Music Release Agency in Cleveland",
+  description: "Top-rated Music Release company in Cleveland. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
   keywords: ["music release cleveland", "music release agency cleveland", "music release company cleveland"],
   alternates: {
     canonical: "https://townmedialabs.com/services/music-release-in-cleveland",
   },
   openGraph: {
-    title: "Music Release Agency in Cleveland",
-    description: "TML offers expert Music Release services in Cleveland. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Cleveland",
+    description: "Top-rated Music Release company in Cleveland. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     url: "https://townmedialabs.com/services/music-release-in-cleveland",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Music Release Agency in Cleveland",
-    description: "TML offers expert Music Release services in Cleveland. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Music Release Agency in Cleveland",
+    description: "Top-rated Music Release company in Cleveland. TML offers expert Music Release services for 500+ businesses. Get a free Music Release consultation today.",
     images: ["/og-image.png"],
   },
 };

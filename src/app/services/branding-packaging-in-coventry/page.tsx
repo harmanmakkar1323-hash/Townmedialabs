@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["coventry"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Coventry",
-  description: "TML offers expert Packaging Design services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Coventry",
+  description: "Top-rated Packaging Design company in Coventry. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design coventry", "packaging design agency coventry", "packaging design company coventry"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-coventry",
   },
   openGraph: {
-    title: "Packaging Design Agency in Coventry",
-    description: "TML offers expert Packaging Design services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Coventry",
+    description: "Top-rated Packaging Design company in Coventry. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-coventry",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Coventry",
-    description: "TML offers expert Packaging Design services in Coventry. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Coventry",
+    description: "Top-rated Packaging Design company in Coventry. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

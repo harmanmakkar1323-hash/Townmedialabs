@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["indianapolis"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Indianapolis",
-  description: "TML offers expert Packaging Design services in Indianapolis. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Indianapolis",
+  description: "Top-rated Packaging Design company in Indianapolis. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design indianapolis", "packaging design agency indianapolis", "packaging design company indianapolis"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-indianapolis",
   },
   openGraph: {
-    title: "Packaging Design Agency in Indianapolis",
-    description: "TML offers expert Packaging Design services in Indianapolis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Indianapolis",
+    description: "Top-rated Packaging Design company in Indianapolis. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-indianapolis",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Indianapolis",
-    description: "TML offers expert Packaging Design services in Indianapolis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Indianapolis",
+    description: "Top-rated Packaging Design company in Indianapolis. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

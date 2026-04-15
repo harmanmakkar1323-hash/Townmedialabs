@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["panchkula"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in Panchkula",
-  description: "TML offers expert Graphic Design services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Graphic Design Agency in Panchkula",
+  description: "Top-rated Graphic Design company in Panchkula. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design panchkula", "graphic design agency panchkula", "graphic design company panchkula"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-panchkula",
   },
   openGraph: {
-    title: "Graphic Design Agency in Panchkula",
-    description: "TML offers expert Graphic Design services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Panchkula",
+    description: "Top-rated Graphic Design company in Panchkula. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-panchkula",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in Panchkula",
-    description: "TML offers expert Graphic Design services in Panchkula. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in Panchkula",
+    description: "Top-rated Graphic Design company in Panchkula. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

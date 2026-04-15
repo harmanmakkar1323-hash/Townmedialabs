@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["cincinnati"];
 
 export const metadata: Metadata = {
-  title: "Packaging Design Agency in Cincinnati",
-  description: "TML offers expert Packaging Design services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Packaging Design Agency in Cincinnati",
+  description: "Top-rated Packaging Design company in Cincinnati. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
   keywords: ["packaging design cincinnati", "packaging design agency cincinnati", "packaging design company cincinnati"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-cincinnati",
   },
   openGraph: {
-    title: "Packaging Design Agency in Cincinnati",
-    description: "TML offers expert Packaging Design services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Cincinnati",
+    description: "Top-rated Packaging Design company in Cincinnati. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-cincinnati",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Packaging Design Agency in Cincinnati",
-    description: "TML offers expert Packaging Design services in Cincinnati. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Packaging Design Agency in Cincinnati",
+    description: "Top-rated Packaging Design company in Cincinnati. TML offers expert Packaging Design services for 500+ businesses. Get a free Packaging Design consultation today.",
     images: ["/og-image.png"],
   },
 };

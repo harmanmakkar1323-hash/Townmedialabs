@@ -5,9 +5,9 @@ import { servicePages } from "@/data/servicePages";
 const siteUrl = "https://townmedialabs.com";
 
 export const metadata: Metadata = {
-  title: "Our Services — Full-Service Digital Marketing",
+  title: "Digital Marketing Services — TML Agency",
   description:
-    "Explore TML Agency's full range of digital marketing services — Branding, SEO, Google Ads, Social Media, Web Development, AI Influencer Management, Lead Generation, and more.",
+    "Explore the full range of digital marketing services from TML Agency. Our company delivers branding, SEO, Google Ads, social media, web development, lead generation, and more.",
   keywords: [
     "digital marketing services",
     "branding services",
@@ -26,9 +26,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Our Services — Full-Service Digital Marketing",
+    title: "Digital Marketing Services — TML Agency",
     description:
-      "Explore TML Agency's full range of digital marketing services — Branding, SEO, Google Ads, Social Media, Web Development & more.",
+      "TML Agency offers a full range of digital marketing services including branding, SEO, Google Ads, social media, web development, and more.",
     url: `${siteUrl}/services`,
     siteName: "TML Agency",
     type: "website",
@@ -45,9 +45,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Our Services — Full-Service Digital Marketing",
+    title: "Digital Marketing Services — TML Agency",
     description:
-      "Explore TML Agency's full range of digital marketing services — Branding, SEO, Google Ads, Social Media, Web Development & more.",
+      "TML Agency offers a full range of digital marketing services including branding, SEO, Google Ads, social media, web development, and more.",
     images: ["/og-image.png"],
   },
 };

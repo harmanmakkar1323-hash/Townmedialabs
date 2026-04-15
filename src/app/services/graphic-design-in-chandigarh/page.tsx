@@ -1,22 +1,20 @@
 import type { Metadata } from "next";
 import { locations } from "@/data/locations";
-import { getCityServiceContent } from "@/data/cityServiceContent";
 import LocationServicePage from "@/components/templates/LocationServicePage";
 
 const location = locations["chandigarh"];
-const enrichment = getCityServiceContent("graphic-design", "chandigarh");
 
 export const metadata: Metadata = {
-  title: enrichment?.metaTitle || "Best Graphic Design Agency in Chandigarh",
-  description: enrichment?.metaDescription || "TML offers expert Graphic Design services in Chandigarh. Proven results for 500+ businesses.",
-  keywords: enrichment?.keywords || ["graphic-design chandigarh"],
+  title: "Best Graphic Design Agency in Chandigarh",
+  description: "Top-rated graphic design company in Chandigarh. TML offers expert graphic design services for 500+ businesses across Punjab. Get a free graphic design consultation today.",
+  keywords: ["best graphic design agency chandigarh", "graphic design company chandigarh", "graphic design services chandigarh", "best graphic design chandigarh", "top graphic design agency chandigarh"],
   alternates: {
-    canonical: "https://townmedialabs.com/services/graphic-design-in-chandigarh",
+    canonical: "https://townmedialabs.com/services/graphic-design-in-chandigarh/",
   },
   openGraph: {
-    title: enrichment?.metaTitle || "Best Graphic Design Agency in Chandigarh",
-    description: enrichment?.metaDescription || "TML offers expert Graphic Design services in Chandigarh. Proven results for 500+ businesses.",
-    url: "https://townmedialabs.com/services/graphic-design-in-chandigarh",
+    title: "Best Graphic Design Agency in Chandigarh",
+    description: "Top-rated graphic design company in Chandigarh. TML offers expert graphic design services for 500+ businesses across Punjab. Get a free graphic design consultation today.",
+    url: "https://townmedialabs.com/services/graphic-design-in-chandigarh/",
     siteName: "TML Agency",
     type: "website",
     locale: "en_IN",
@@ -25,12 +23,11 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: enrichment?.metaTitle || "Best Graphic Design Agency in Chandigarh",
-    description: enrichment?.metaDescription || "TML offers expert Graphic Design services in Chandigarh. Proven results for 500+ businesses.",
+    title: "Best Graphic Design Agency in Chandigarh",
+    description: "Top-rated graphic design company in Chandigarh. TML offers expert graphic design services for 500+ businesses across Punjab. Get a free graphic design consultation today.",
     images: ["/og-image.png"],
   },
 };
-
 export default function UgraphicUdesignUinUchandigarhPage() {
   return (
     <LocationServicePage

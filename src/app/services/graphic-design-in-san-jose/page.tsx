@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["san_jose"];
 
 export const metadata: Metadata = {
-  title: "Graphic Design Agency in San Jose",
-  description: "TML offers expert Graphic Design services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Graphic Design Agency in San Jose",
+  description: "Top-rated Graphic Design company in San Jose. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
   keywords: ["graphic design san jose", "graphic design agency san jose", "graphic design company san jose"],
   alternates: {
     canonical: "https://townmedialabs.com/services/graphic-design-in-san-jose",
   },
   openGraph: {
-    title: "Graphic Design Agency in San Jose",
-    description: "TML offers expert Graphic Design services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in San Jose",
+    description: "Top-rated Graphic Design company in San Jose. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     url: "https://townmedialabs.com/services/graphic-design-in-san-jose",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Graphic Design Agency in San Jose",
-    description: "TML offers expert Graphic Design services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Graphic Design Agency in San Jose",
+    description: "Top-rated Graphic Design company in San Jose. TML offers expert Graphic Design services for 500+ businesses. Get a free Graphic Design consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["boston"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Boston",
-  description: "TML offers expert Branding services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Boston",
+  description: "Top-rated Branding company in Boston. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding boston", "branding agency boston", "branding company boston"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-boston",
   },
   openGraph: {
-    title: "Branding Agency in Boston",
-    description: "TML offers expert Branding services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Boston",
+    description: "Top-rated Branding company in Boston. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-boston",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Boston",
-    description: "TML offers expert Branding services in Boston. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Boston",
+    description: "Top-rated Branding company in Boston. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

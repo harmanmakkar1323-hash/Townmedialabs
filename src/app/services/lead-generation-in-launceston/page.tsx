@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["launceston"];
 
 export const metadata: Metadata = {
-  title: "Lead Generation Agency in Launceston",
-  description: "TML offers expert Lead Generation services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Lead Generation Agency in Launceston",
+  description: "Top-rated Lead Generation company in Launceston. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
   keywords: ["lead generation launceston", "lead generation agency launceston", "lead generation company launceston"],
   alternates: {
     canonical: "https://townmedialabs.com/services/lead-generation-in-launceston",
   },
   openGraph: {
-    title: "Lead Generation Agency in Launceston",
-    description: "TML offers expert Lead Generation services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Launceston",
+    description: "Top-rated Lead Generation company in Launceston. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     url: "https://townmedialabs.com/services/lead-generation-in-launceston",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Lead Generation Agency in Launceston",
-    description: "TML offers expert Lead Generation services in Launceston. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Lead Generation Agency in Launceston",
+    description: "Top-rated Lead Generation company in Launceston. TML offers expert Lead Generation services for 500+ businesses. Get a free Lead Generation consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["faridabad"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Faridabad",
-  description: "TML offers expert Google Ads management services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Faridabad",
+  description: "Top-rated Google Ads company in Faridabad. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["Google Ads management faridabad", "Google Ads management agency faridabad", "Google Ads management company faridabad"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-faridabad",
   },
   openGraph: {
-    title: "Google Ads Agency in Faridabad",
-    description: "TML offers expert Google Ads management services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Faridabad",
+    description: "Top-rated Google Ads company in Faridabad. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-faridabad",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Faridabad",
-    description: "TML offers expert Google Ads management services in Faridabad. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Faridabad",
+    description: "Top-rated Google Ads company in Faridabad. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

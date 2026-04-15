@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["southampton"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Southampton",
-  description: "TML offers expert Social Media Marketing services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in Southampton",
+  description: "Top-rated Social Media Marketing company in Southampton. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing southampton", "social media marketing agency southampton", "social media marketing company southampton"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-southampton",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Southampton",
-    description: "TML offers expert Social Media Marketing services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Southampton",
+    description: "Top-rated Social Media Marketing company in Southampton. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-southampton",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Southampton",
-    description: "TML offers expert Social Media Marketing services in Southampton. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Southampton",
+    description: "Top-rated Social Media Marketing company in Southampton. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["dundee"];
 
 export const metadata: Metadata = {
-  title: "Branding Agency in Dundee",
-  description: "TML offers expert Branding services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding Agency in Dundee",
+  description: "Top-rated Branding company in Dundee. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
   keywords: ["branding dundee", "branding agency dundee", "branding company dundee"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-in-dundee",
   },
   openGraph: {
-    title: "Branding Agency in Dundee",
-    description: "TML offers expert Branding services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Dundee",
+    description: "Top-rated Branding company in Dundee. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     url: "https://townmedialabs.com/services/branding-in-dundee",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding Agency in Dundee",
-    description: "TML offers expert Branding services in Dundee. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding Agency in Dundee",
+    description: "Top-rated Branding company in Dundee. TML offers expert Branding services for 500+ businesses. Get a free Branding consultation today.",
     images: ["/og-image.png"],
   },
 };

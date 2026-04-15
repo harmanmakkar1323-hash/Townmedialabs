@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["reading"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Reading",
-  description: "TML offers expert Video Editing services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Reading",
+  description: "Top-rated Video Editing company in Reading. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing reading", "video editing agency reading", "video editing company reading"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-reading",
   },
   openGraph: {
-    title: "Video Editing Agency in Reading",
-    description: "TML offers expert Video Editing services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Reading",
+    description: "Top-rated Video Editing company in Reading. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-reading",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Reading",
-    description: "TML offers expert Video Editing services in Reading. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Reading",
+    description: "Top-rated Video Editing company in Reading. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

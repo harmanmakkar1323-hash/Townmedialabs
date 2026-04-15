@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["phoenix"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Phoenix",
-  description: "TML offers expert Video Editing services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Phoenix",
+  description: "Top-rated Video Editing company in Phoenix. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing phoenix", "video editing agency phoenix", "video editing company phoenix"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-phoenix",
   },
   openGraph: {
-    title: "Video Editing Agency in Phoenix",
-    description: "TML offers expert Video Editing services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Phoenix",
+    description: "Top-rated Video Editing company in Phoenix. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-phoenix",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Phoenix",
-    description: "TML offers expert Video Editing services in Phoenix. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Phoenix",
+    description: "Top-rated Video Editing company in Phoenix. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

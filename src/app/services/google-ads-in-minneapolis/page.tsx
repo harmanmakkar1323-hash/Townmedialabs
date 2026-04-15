@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["minneapolis"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in Minneapolis",
-  description: "TML offers expert Google Ads services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in Minneapolis",
+  description: "Top-rated Google Ads company in Minneapolis. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads minneapolis", "google ads agency minneapolis", "google ads company minneapolis"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-minneapolis",
   },
   openGraph: {
-    title: "Google Ads Agency in Minneapolis",
-    description: "TML offers expert Google Ads services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Minneapolis",
+    description: "Top-rated Google Ads company in Minneapolis. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-minneapolis",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in Minneapolis",
-    description: "TML offers expert Google Ads services in Minneapolis. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in Minneapolis",
+    description: "Top-rated Google Ads company in Minneapolis. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

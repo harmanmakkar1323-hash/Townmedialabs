@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["san_jose"];
 
 export const metadata: Metadata = {
-  title: "Google Ads Agency in San Jose",
-  description: "TML offers expert Google Ads services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Google Ads Agency in San Jose",
+  description: "Top-rated Google Ads company in San Jose. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
   keywords: ["google ads san jose", "google ads agency san jose", "google ads company san jose"],
   alternates: {
     canonical: "https://townmedialabs.com/services/google-ads-in-san-jose",
   },
   openGraph: {
-    title: "Google Ads Agency in San Jose",
-    description: "TML offers expert Google Ads services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in San Jose",
+    description: "Top-rated Google Ads company in San Jose. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     url: "https://townmedialabs.com/services/google-ads-in-san-jose",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Google Ads Agency in San Jose",
-    description: "TML offers expert Google Ads services in San Jose. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Google Ads Agency in San Jose",
+    description: "Top-rated Google Ads company in San Jose. TML offers expert Google Ads services for 500+ businesses. Get a free Google Ads consultation today.",
     images: ["/og-image.png"],
   },
 };

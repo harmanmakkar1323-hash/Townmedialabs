@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["wollongong"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Wollongong",
-  description: "TML offers expert AI Influencer Management services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Wollongong",
+  description: "Top-rated AI Influencer Management company in Wollongong. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management wollongong", "ai influencer management agency wollongong", "ai influencer management company wollongong"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-wollongong",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Wollongong",
-    description: "TML offers expert AI Influencer Management services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Wollongong",
+    description: "Top-rated AI Influencer Management company in Wollongong. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-wollongong",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Wollongong",
-    description: "TML offers expert AI Influencer Management services in Wollongong. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Wollongong",
+    description: "Top-rated AI Influencer Management company in Wollongong. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

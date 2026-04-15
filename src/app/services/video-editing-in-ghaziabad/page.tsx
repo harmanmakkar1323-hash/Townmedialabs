@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["ghaziabad"];
 
 export const metadata: Metadata = {
-  title: "Video Editing Agency in Ghaziabad",
-  description: "TML offers expert Video Editing services in Ghaziabad. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Video Editing Agency in Ghaziabad",
+  description: "Top-rated Video Editing company in Ghaziabad. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
   keywords: ["video editing ghaziabad", "video editing agency ghaziabad", "video editing company ghaziabad"],
   alternates: {
     canonical: "https://townmedialabs.com/services/video-editing-in-ghaziabad",
   },
   openGraph: {
-    title: "Video Editing Agency in Ghaziabad",
-    description: "TML offers expert Video Editing services in Ghaziabad. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Ghaziabad",
+    description: "Top-rated Video Editing company in Ghaziabad. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     url: "https://townmedialabs.com/services/video-editing-in-ghaziabad",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Video Editing Agency in Ghaziabad",
-    description: "TML offers expert Video Editing services in Ghaziabad. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Video Editing Agency in Ghaziabad",
+    description: "Top-rated Video Editing company in Ghaziabad. TML offers expert Video Editing services for 500+ businesses. Get a free Video Editing consultation today.",
     images: ["/og-image.png"],
   },
 };

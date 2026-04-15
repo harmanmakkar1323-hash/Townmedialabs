@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["omaha"];
 
 export const metadata: Metadata = {
-  title: "AI Influencer Management Agency in Omaha",
-  description: "TML offers expert AI Influencer Management services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best AI Influencer Management Agency in Omaha",
+  description: "Top-rated AI Influencer Management company in Omaha. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
   keywords: ["ai influencer management omaha", "ai influencer management agency omaha", "ai influencer management company omaha"],
   alternates: {
     canonical: "https://townmedialabs.com/services/ai-influencer-management-in-omaha",
   },
   openGraph: {
-    title: "AI Influencer Management Agency in Omaha",
-    description: "TML offers expert AI Influencer Management services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Omaha",
+    description: "Top-rated AI Influencer Management company in Omaha. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     url: "https://townmedialabs.com/services/ai-influencer-management-in-omaha",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "AI Influencer Management Agency in Omaha",
-    description: "TML offers expert AI Influencer Management services in Omaha. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best AI Influencer Management Agency in Omaha",
+    description: "Top-rated AI Influencer Management company in Omaha. TML offers expert AI Influencer Management services for 500+ businesses. Get a free AI Influencer Management consultation today.",
     images: ["/og-image.png"],
   },
 };

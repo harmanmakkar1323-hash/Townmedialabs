@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["mohali"];
 
 export const metadata: Metadata = {
-  title: "Branding & Packaging Agency in Mohali",
-  description: "TML offers expert Branding and Packaging services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding & Packaging Agency in Mohali",
+  description: "Top-rated Branding & Packaging company in Mohali. TML offers expert Branding & Packaging services for 500+ businesses. Get a free Branding & Packaging consultation today.",
   keywords: ["branding and packaging mohali", "branding and packaging agency mohali", "branding and packaging company mohali"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-mohali",
   },
   openGraph: {
-    title: "Branding & Packaging Agency in Mohali",
-    description: "TML offers expert Branding and Packaging services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding & Packaging Agency in Mohali",
+    description: "Top-rated Branding & Packaging company in Mohali. TML offers expert Branding & Packaging services for 500+ businesses. Get a free Branding & Packaging consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-mohali",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding & Packaging Agency in Mohali",
-    description: "TML offers expert Branding and Packaging services in Mohali. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding & Packaging Agency in Mohali",
+    description: "Top-rated Branding & Packaging company in Mohali. TML offers expert Branding & Packaging services for 500+ businesses. Get a free Branding & Packaging consultation today.",
     images: ["/og-image.png"],
   },
 };

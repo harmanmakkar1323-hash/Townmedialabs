@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["sunshine_coast"];
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency in Sunshine Coast",
-  description: "TML offers expert Social Media Marketing services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Social Media Marketing Agency in Sunshine Coast",
+  description: "Top-rated Social Media Marketing company in Sunshine Coast. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
   keywords: ["social media marketing sunshine coast", "social media marketing agency sunshine coast", "social media marketing company sunshine coast"],
   alternates: {
     canonical: "https://townmedialabs.com/services/social-media-marketing-in-sunshine-coast",
   },
   openGraph: {
-    title: "Social Media Marketing Agency in Sunshine Coast",
-    description: "TML offers expert Social Media Marketing services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Sunshine Coast",
+    description: "Top-rated Social Media Marketing company in Sunshine Coast. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     url: "https://townmedialabs.com/services/social-media-marketing-in-sunshine-coast",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Social Media Marketing Agency in Sunshine Coast",
-    description: "TML offers expert Social Media Marketing services in Sunshine Coast. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Social Media Marketing Agency in Sunshine Coast",
+    description: "Top-rated Social Media Marketing company in Sunshine Coast. TML offers expert Social Media Marketing services for 500+ businesses. Get a free Social Media Marketing consultation today.",
     images: ["/og-image.png"],
   },
 };

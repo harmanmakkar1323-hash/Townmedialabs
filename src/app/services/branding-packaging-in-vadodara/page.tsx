@@ -5,15 +5,15 @@ import LocationServicePage from "@/components/templates/LocationServicePage";
 const location = locations["vadodara"];
 
 export const metadata: Metadata = {
-  title: "Branding & Packaging Agency in Vadodara",
-  description: "TML offers expert Branding and Packaging services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
+  title: "Best Branding & Packaging Agency in Vadodara",
+  description: "Top-rated Branding & Packaging company in Vadodara. TML offers expert Branding & Packaging services for 500+ businesses. Get a free Branding & Packaging consultation today.",
   keywords: ["branding and packaging vadodara", "branding and packaging agency vadodara", "branding and packaging company vadodara"],
   alternates: {
     canonical: "https://townmedialabs.com/services/branding-packaging-in-vadodara",
   },
   openGraph: {
-    title: "Branding & Packaging Agency in Vadodara",
-    description: "TML offers expert Branding and Packaging services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding & Packaging Agency in Vadodara",
+    description: "Top-rated Branding & Packaging company in Vadodara. TML offers expert Branding & Packaging services for 500+ businesses. Get a free Branding & Packaging consultation today.",
     url: "https://townmedialabs.com/services/branding-packaging-in-vadodara",
     siteName: "TML Agency",
     type: "website",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@tmlagency",
-    title: "Branding & Packaging Agency in Vadodara",
-    description: "TML offers expert Branding and Packaging services in Vadodara. Proven results for 500+ businesses. Get a free consultation today.",
+    title: "Best Branding & Packaging Agency in Vadodara",
+    description: "Top-rated Branding & Packaging company in Vadodara. TML offers expert Branding & Packaging services for 500+ businesses. Get a free Branding & Packaging consultation today.",
     images: ["/og-image.png"],
   },
 };
