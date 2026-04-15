@@ -65,8 +65,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const location = locations[parsed.locationSlug];
   const { serviceName } = parsed;
   const cityName = location.name;
-  const title = `${serviceName} Agency in ${cityName}`;
-  const description = `TML offers expert ${serviceName} services in ${cityName}. Proven results for 500+ businesses. Get a free consultation today.`;
+  const sn = serviceName.toLowerCase();
+  const cn = cityName.toLowerCase();
+  const title = `Best ${serviceName} Agency in ${cityName}`;
+  const description = `Top-rated ${sn} company in ${cityName}. TML offers expert ${sn} services for 500+ businesses across ${location.state}. Get a free ${sn} consultation today.`;
   const url = `https://townmedialabs.com/services/${slug}`;
   const isNoindex = shouldNoindex(parsed.serviceSlug, parsed.locationSlug);
 
@@ -74,9 +76,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title,
     description,
     keywords: [
-      `${serviceName.toLowerCase()} ${cityName.toLowerCase()}`,
-      `${serviceName.toLowerCase()} agency ${cityName.toLowerCase()}`,
-      `${serviceName.toLowerCase()} company ${cityName.toLowerCase()}`,
+      `best ${sn} agency ${cn}`,
+      `${sn} agency in ${cn}`,
+      `${sn} company ${cn}`,
+      `best ${sn} company in ${cn}`,
+      `${sn} services ${cn}`,
+      `${sn} services in ${cn}`,
+      `top ${sn} agency ${cn}`,
     ],
     alternates: { canonical: url },
     robots: { index: !isNoindex, follow: true },
