@@ -30,7 +30,7 @@ const siteUrl = "https://townmedialabs.com";
 export const metadata: Metadata = {
   title: {
     default: "TML Agency | Full-Service Branding & Digital Marketing",
-    template: "%s | TML Agency",
+    template: "%s",
   },
   description:
     "TML Agency — global digital marketing & branding agency. 500+ brands scaled across India, USA, UK, Canada & UAE. SEO, Google Ads, web development & social media.",
