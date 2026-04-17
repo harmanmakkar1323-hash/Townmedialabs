@@ -69,11 +69,11 @@ const coreValues = [
 ];
 
 const teamMembers = [
-  { name: "Arvinder Singh", role: "Owner & Founder", initial: "AS" },
-  { name: "Raman Makkar", role: "Co-Founder & SEO Director", initial: "RM" },
-  { name: "Taran", role: "Head of Sales", initial: "TS" },
-  { name: "Harman", role: "Project Manager", initial: "HP" },
-  { name: "Cristi", role: "Designer", initial: "CR" },
+  { name: "Arvinder Singh", role: "Owner & Founder", initial: "AS", image: "/authors/arvinder-singh.svg" },
+  { name: "Raman Makkar", role: "Co-Founder & SEO Director", initial: "RM", image: "/authors/raman-makkar.svg" },
+  { name: "Taran", role: "Head of Sales", initial: "TS", image: "/authors/taran.svg" },
+  { name: "Harman", role: "Project Manager", initial: "HP", image: "/authors/harman.svg" },
+  { name: "Cristi", role: "Designer", initial: "CR", image: "/authors/cristi.svg" },
   { name: "Tammy", role: "Product Designer", initial: "TM" },
   { name: "Mr Hoop", role: "Branding Manager", initial: "MH" },
   { name: "Karan", role: "WordPress Developer", initial: "KR" },
@@ -88,16 +88,16 @@ export default function AboutPageClient() {
     <main className="bg-[#050505] text-white min-h-screen">
       <InnerNavbar />
 
-      <div className="px-6 pt-24 md:pt-28 lg:px-12 max-w-7xl mx-auto">
-        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "About Us", href: "/about" }]} />
-      </div>
-
       {/* ═══════════════════════════════════════════
           HERO SECTION
       ═══════════════════════════════════════════ */}
       <section className="hero-orange-gradient relative w-full px-6 pt-32 pb-16 md:pt-40 md:pb-24 lg:px-12 overflow-hidden">
         {/* Ambient glow */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] rounded-full bg-[#ff4500]/[0.04] blur-[150px] pointer-events-none" />
+
+        <div className="relative z-10 max-w-5xl mx-auto mb-8">
+          <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "About Us", href: "/about/" }]} />
+        </div>
 
         <div className="relative mx-auto max-w-7xl text-center">
           <motion.p
@@ -482,9 +482,13 @@ export default function AboutPageClient() {
                 className="group text-center"
               >
                 <div className="relative w-full aspect-square rounded-2xl border border-white/[0.06] bg-white/[0.02] flex items-center justify-center mb-4 overflow-hidden group-hover:border-[#ff4500]/20 group-hover:bg-white/[0.04] transition-all duration-500">
-                  <span className="text-2xl md:text-3xl font-bold text-white group-hover:text-[#ff4500]/40 transition-colors">
-                    {person.initial}
-                  </span>
+                  {"image" in person && person.image ? (
+                    <img src={person.image as string} alt={person.name} className="w-full h-full object-cover" />
+                  ) : (
+                    <span className="text-2xl md:text-3xl font-bold text-white group-hover:text-[#ff4500]/40 transition-colors">
+                      {person.initial}
+                    </span>
+                  )}
                 </div>
                 <h3 className="text-sm md:text-base font-semibold text-white">{person.name}</h3>
                 <p className="text-xs text-white mt-1">{person.role}</p>
