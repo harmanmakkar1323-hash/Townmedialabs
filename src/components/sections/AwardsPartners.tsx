@@ -23,9 +23,6 @@ const marqueeLogos: MarqueeLogo[] = [
   { name: "ISO 27001", src: "/awards/ISO-icon-1.svg", width: 80, height: 80 },
   { name: "ISO 9001", src: "/awards/ISO-icon-2.svg", width: 80, height: 80 },
   { name: "Flutter Service Award", src: "/awards/Service-Award-1-flutter.webp", width: 110, height: 110 },
-  { name: "AWS Advanced Tier", src: "/awards/aws-advance-tier.svg", width: 100, height: 100 },
-  { name: "AWS Security", src: "/awards/aws-security-1.png", width: 100, height: 100 },
-  { name: "Google Developer", src: "/awards/google-developer.png", width: 100, height: 100 },
   { name: "Red Herring Winner", src: "/awards/red-hirring.webp", width: 110, height: 110 },
   { name: "SOC II Compliant", src: "/awards/socII-icon.svg", width: 80, height: 80 },
   { name: "Top Clutch App Dev", src: "/awards/top_clutch.co_app_development.webp", width: 110, height: 110 },
@@ -36,7 +33,6 @@ const marqueeLogos: MarqueeLogo[] = [
   { name: "WordPress", src: "/partner/WordPress-Logo.png", width: 100, height: 100 },
   { name: "Bing Ads", src: "/partner/bing-advertising-certifications.webp", width: 100, height: 100 },
   { name: "Google Cloud", src: "/partner/Google-Partner.jpg", width: 100, height: 100 },
-  { name: "Claude AI", src: "/partner/claude-ai-partner-logo.webp", width: 100, height: 100 },
   { name: "ChatGPT", src: "/partner/chatgpt-ai-partner-logo.webp", width: 100, height: 100 },
   { name: "Google Gemini", src: "/partner/google-gemini-new-rainbow-colours.jpg", width: 100, height: 100 },
 ];

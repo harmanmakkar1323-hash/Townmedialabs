@@ -12,12 +12,14 @@ import LazyVideo from "@/components/ui/LazyVideo";
 const ease = [0.23, 1, 0.32, 1] as const;
 
 const reels = [
-  { src: "/videos/product-ad-cinematic-1.mp4", poster: "", label: "Product Shoot", client: "Luxe Retail" },
-  { src: "/videos/product-ad-cinematic-2.mp4", poster: "", label: "Cinematic Ad", client: "Nova Brand" },
-  { src: "/videos/product-ad-cinematic-3.mp4", poster: "", label: "Brand Film", client: "Atlas Studios" },
-  { src: "/brand-motion-luxe-interiors.mp4", poster: "", label: "Brand Motion", client: "Luxe Interiors" },
-  { src: "/campaign-film-atlas-digital.mp4", poster: "", label: "Campaign Film", client: "Atlas Digital" },
-  { src: "/product-story-vero-fashion.mp4", poster: "", label: "Product Story", client: "Vero Fashion" },
+  { src: "/reels/pinsnap-10485011674239898-story1.mp4", poster: "", label: "Brand Story", client: "Luxe Retail" },
+  { src: "/reels/pinsnap-1196337404607782.mp4", poster: "", label: "Product Reel", client: "Nova Brand" },
+  { src: "/reels/pinsnap-127578601939309129.mp4", poster: "", label: "Cinematic Ad", client: "Atlas Studios" },
+  { src: "/reels/pinsnap-1688918606022011.mp4", poster: "", label: "Social Campaign", client: "Meridian Co" },
+  { src: "/reels/pinsnap-2462974793234671-story1.mp4", poster: "", label: "Product Story", client: "Vero Fashion" },
+  { src: "/reels/pinsnap-505036545736344319.mp4", poster: "", label: "Brand Film", client: "TechVault" },
+  { src: "/reels/pinsnap-710091066292364090.mp4", poster: "", label: "Motion Graphics", client: "Nova Studios" },
+  { src: "/reels/pinsnap-970525788468350000.mp4", poster: "", label: "Creative Reel", client: "Atlas Digital" },
 ];
 
 /* Floating particles background — stable positions via seeded values */

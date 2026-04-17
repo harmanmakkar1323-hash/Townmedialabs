@@ -422,7 +422,7 @@ export function WorkHome2() {
             className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.02]"
           >
             <source
-              src="/portfolio/tml-portfolio-showreel-2025.mp4"
+              src="/portfolio/tml-showreel-2026.mp4"
               type="video/mp4"
             />
           </LazyVideo>
@@ -439,7 +439,7 @@ export function WorkHome2() {
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
           <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12">
             <p className="text-[10px] text-[#ff4500]/80 tracking-[0.15em] uppercase font-semibold mb-2">
-              Showreel 2025
+              Showreel 2026
             </p>
             <h3 className="text-2xl md:text-3xl font-medium text-white tracking-tight">
               A year of building brands that matter

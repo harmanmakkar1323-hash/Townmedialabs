@@ -68,9 +68,9 @@ export const metadata: Metadata = {
 const videoObjectJsonLd = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
-  name: "TML Agency Showreel 2025",
+  name: "TML Agency Showreel 2026",
   description:
-    "A showcase of TML Agency's best digital marketing, branding, and creative work from 2025.",
+    "A showcase of TML Agency's best digital marketing, branding, and creative work from 2026.",
   thumbnailUrl: "https://townmedialabs.com/og-image.png",
   contentUrl: "https://townmedialabs.com/portfolio/tml-portfolio-showreel-2025.mp4",
   uploadDate: "2025-01-01",
