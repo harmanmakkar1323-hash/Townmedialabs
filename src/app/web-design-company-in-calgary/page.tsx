@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     "web development company calgary",
   ],
   alternates: {
-    canonical: "https://townmedialabs.ca/web-design-company-in-calgary",
+    canonical: "https://townmedialabs.com/web-design-company-in-calgary/",
   },
   openGraph: {
     title: "Web Design Company in Calgary | TML Agency",
     description:
       "TML Agency is a leading web design company in Calgary, Alberta. Custom websites built with modern technology for Calgary businesses. 500+ brands served, 98% client retention.",
-    url: "https://townmedialabs.ca/web-design-company-in-calgary",
+    url: "https://townmedialabs.com/web-design-company-in-calgary/",
     siteName: "TML Agency",
     type: "website",
     locale: "en_CA",

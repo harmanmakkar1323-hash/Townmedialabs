@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: `${siteUrl}/authors/${id}/`,
       siteName: "TML Agency",
       type: "profile",
-      locale: "en_IN",
+      locale: "en_US",
     },
   };
 }

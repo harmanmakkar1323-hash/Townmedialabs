@@ -178,7 +178,7 @@ export function generateArticleSchema(params: {
     },
     ...(params.keywords && { keywords: params.keywords.join(", ") }),
     ...(params.category && { articleSection: params.category }),
-    inLanguage: "en-IN",
+    inLanguage: "en",
   };
 }
 

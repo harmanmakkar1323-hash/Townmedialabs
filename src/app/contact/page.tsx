@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://townmedialabs.com/contact",
     siteName: "TML Agency",
-    locale: "en_IN",
+    locale: "en_US",
     images: [
       {
         url: "/og-image.png",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/contact",
     languages: {
-      "en-IN": "https://townmedialabs.com/contact",
+      "en": "https://townmedialabs.com/contact",
       "x-default": "https://townmedialabs.com/contact",
     },
   },

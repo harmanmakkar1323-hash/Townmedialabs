@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/services/${data.slug}`,
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [
       {
         url: "/og-image.png",

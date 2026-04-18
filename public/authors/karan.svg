@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="100" fill="#1a1a2e"/>
+  <circle cx="100" cy="100" r="96" fill="url(#gradKaran)"/>
+  <!-- Hair - modern textured with slight fringe -->
+  <path d="M58 72c0-26 19-46 42-46s42 20 42 46v8c0 0-8-18-42-18s-42 18-42 18v-8z" fill="#1a0f08"/>
+  <!-- Hair fringe sweep -->
+  <path d="M65 68c6-10 18-18 35-18" stroke="#1a0f08" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <!-- Side-taper highlights -->
+  <path d="M60 85c-1 4-1 8 0 12" stroke="#3a2418" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M140 85c1 4 1 8 0 12" stroke="#3a2418" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <!-- Face -->
+  <ellipse cx="100" cy="97" rx="34" ry="38" fill="#d4a574"/>
+  <!-- Light stubble -->
+  <path d="M72 110c2 16 12 28 28 28s26-12 28-28c-4 6-13 10-28 10s-24-4-28-10z" fill="#2a1810" opacity="0.18"/>
+  <!-- Eyes -->
+  <ellipse cx="87" cy="92" rx="4" ry="5" fill="#1a1a1a"/>
+  <ellipse cx="113" cy="92" rx="4" ry="5" fill="#1a1a1a"/>
+  <circle cx="88.5" cy="91" r="1.8" fill="white"/>
+  <circle cx="114.5" cy="91" r="1.8" fill="white"/>
+  <!-- Eyebrows -->
+  <path d="M79 84c4-4 10-4 13-1" stroke="#1a0f08" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M108 83c3-3 9-3 13 1" stroke="#1a0f08" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Smile -->
+  <path d="M88 110c5 6 19 6 24 0" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Shirt -->
+  <path d="M58 148c0-16 19-23 42-23s42 7 42 23v52H58v-52z" fill="#0ea5e9"/>
+  <!-- Collar -->
+  <path d="M88 124l12 10 12-10" fill="#1a1a2e" stroke="#1a1a2e" stroke-width="1"/>
+  <defs>
+    <radialGradient id="gradKaran" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2a2a4a"/>
+      <stop offset="100%" stop-color="#0f0f1e"/>
+    </radialGradient>
+  </defs>
+</svg>

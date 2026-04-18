@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/video-editing-in-lucknow",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Video Editing Agency in Lucknow" }],
   },
   twitter: {

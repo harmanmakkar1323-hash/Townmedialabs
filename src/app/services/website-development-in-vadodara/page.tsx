@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/website-development-in-vadodara",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Website Development Agency in Vadodara" }],
   },
   twitter: {

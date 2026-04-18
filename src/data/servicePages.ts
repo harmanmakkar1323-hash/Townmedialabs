@@ -41,7 +41,7 @@ export interface ServicePageData {
 export const servicePages: Record<string, ServicePageData> = {
   branding: {
     slug: "branding",
-    title: "Branding Agency — Build a Brand People Remember",
+    title: "#1 Branding Agency — Build a Brand People Remember",
     tagline: "Build a brand that people remember.",
     description: "Strategic brand identity design that resonates with your audience and creates lasting impressions. Our branding experts in Chandigarh craft compelling visual identities, develop brand strategies, and build cohesive brand systems that help businesses stand out in competitive markets worldwide.",
     heroDescription: "We create powerful brand identities that tell your story, connect with your audience, and set you apart from competitors. From logo design to complete brand systems, we build brands that stand the test of time.",

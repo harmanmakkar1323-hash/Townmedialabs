@@ -74,10 +74,10 @@ const teamMembers = [
   { name: "Taran", role: "Head of Sales", initial: "TS", image: "/authors/taran.svg" },
   { name: "Harman", role: "Project Manager", initial: "HP", image: "/authors/harman.svg" },
   { name: "Cristi", role: "Designer", initial: "CR", image: "/authors/cristi.svg" },
-  { name: "Tammy", role: "Product Designer", initial: "TM" },
-  { name: "Mr Hoop", role: "Branding Manager", initial: "MH" },
-  { name: "Karan", role: "WordPress Developer", initial: "KR" },
-  { name: "Bavneet", role: "UI/UX Designer", initial: "BV" },
+  { name: "Tammy", role: "Product Designer", initial: "TM", image: "/authors/tammy.svg" },
+  { name: "Mr Hoop", role: "Branding Manager", initial: "MH", image: "/authors/mr-hoop.svg" },
+  { name: "Karan", role: "WordPress Developer", initial: "KR", image: "/authors/karan.svg" },
+  { name: "Bavneet", role: "UI/UX Designer", initial: "BV", image: "/authors/bavneet.svg" },
 ];
 
 export default function AboutPageClient() {

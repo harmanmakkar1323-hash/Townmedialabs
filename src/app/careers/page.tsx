@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/careers/`,
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [
       {
         url: "/og-image.png",

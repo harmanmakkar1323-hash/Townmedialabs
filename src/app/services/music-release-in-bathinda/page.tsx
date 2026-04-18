@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/services/music-release-in-bathinda",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Best Music Release Agency in Bathinda" }],
   },
   twitter: {

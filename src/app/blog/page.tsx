@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/blog/",
     languages: {
-      "en-IN": "https://townmedialabs.com/blog/",
+      "en": "https://townmedialabs.com/blog/",
       "x-default": "https://townmedialabs.com/blog/",
     },
   },
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/blog/`,
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [
       {
         url: "/og-image.png",
@@ -69,7 +69,7 @@ const blogJsonLd = {
       url: `${siteUrl}/logo.png`,
     },
   },
-  inLanguage: "en-IN",
+  inLanguage: "en",
 };
 
 const blogCollectionJsonLd = {

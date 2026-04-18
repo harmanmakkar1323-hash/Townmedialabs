@@ -72,7 +72,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: siteUrl,
     languages: {
-      "en-IN": siteUrl,
+      "en": siteUrl,
       "x-default": siteUrl,
     },
   },
@@ -86,7 +86,7 @@ export const metadata: Metadata = {
     url: siteUrl,
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [
       {
         url: "/og-image.png",
@@ -358,7 +358,7 @@ const websiteJsonLd = {
     },
     "query-input": "required name=search_term_string",
   },
-  inLanguage: "en-IN",
+  inLanguage: "en",
 };
 
 export default function RootLayout({

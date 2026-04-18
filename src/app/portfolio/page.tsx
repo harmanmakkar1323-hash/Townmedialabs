@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/portfolio/",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "https://townmedialabs.com/og-image.png", width: 1200, height: 630, alt: "TML Agency Portfolio" }],
   },
   twitter: {

@@ -11,7 +11,7 @@ const ease = [0.23, 1, 0.32, 1] as const;
 type SortOption = "newest" | "oldest";
 
 function formatDate(dateStr: string) {
-  return new Date(dateStr).toLocaleDateString("en-IN", {
+  return new Date(dateStr).toLocaleDateString("en", {
     year: "numeric",
     month: "long",
     day: "numeric",

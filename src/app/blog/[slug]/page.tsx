@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: `${siteUrl}/blog/${slug}/`,
       siteName: "TML Agency",
       type: "article",
-      locale: "en_IN",
+      locale: "en_US",
       publishedTime: article.date,
       modifiedTime: article.dateModified || article.date,
       authors: author ? [author.name] : ["TML Agency"],

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/ppc-training-in-chandigarh/`,
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "PPC Training in Chandigarh" }],
   },
 };

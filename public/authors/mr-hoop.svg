@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="100" fill="#1a1a2e"/>
+  <circle cx="100" cy="100" r="96" fill="url(#gradHoop)"/>
+  <!-- Bald head (no hair) -->
+  <ellipse cx="100" cy="90" rx="38" ry="42" fill="#c99874"/>
+  <!-- Subtle head shine highlight -->
+  <ellipse cx="88" cy="62" rx="12" ry="6" fill="#ffffff" opacity="0.12"/>
+  <!-- Ears -->
+  <ellipse cx="62" cy="100" rx="5" ry="8" fill="#b87e5c"/>
+  <ellipse cx="138" cy="100" rx="5" ry="8" fill="#b87e5c"/>
+  <!-- Face -->
+  <ellipse cx="100" cy="100" rx="34" ry="38" fill="#c99874"/>
+  <!-- Beard / stubble -->
+  <path d="M70 112c2 18 13 30 30 30s28-12 30-30c-4 8-14 14-30 14s-26-6-30-14z" fill="#3a2418" opacity="0.85"/>
+  <!-- Mustache -->
+  <path d="M84 112c4-3 10-3 16 0 6-3 12-3 16 0" stroke="#3a2418" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Eyes -->
+  <ellipse cx="87" cy="95" rx="4.5" ry="5" fill="#1a1a1a"/>
+  <ellipse cx="113" cy="95" rx="4.5" ry="5" fill="#1a1a1a"/>
+  <circle cx="88.5" cy="94" r="1.8" fill="white"/>
+  <circle cx="114.5" cy="94" r="1.8" fill="white"/>
+  <!-- Strong eyebrows -->
+  <path d="M78 86c4-4 11-4 15-1" stroke="#2a1810" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M107 85c4-3 11-3 15 1" stroke="#2a1810" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Smile -->
+  <path d="M88 118c5 6 19 6 24 0" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Shirt / collar -->
+  <path d="M55 150c0-16 20-25 45-25s45 9 45 25v50H55v-50z" fill="#1f2937"/>
+  <!-- Collar detail -->
+  <path d="M80 128l20 12 20-12" fill="none" stroke="#4b5563" stroke-width="2"/>
+  <defs>
+    <radialGradient id="gradHoop" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2a2a4a"/>
+      <stop offset="100%" stop-color="#0f0f1e"/>
+    </radialGradient>
+  </defs>
+</svg>

@@ -278,7 +278,7 @@ export default function BlogArticleClient({
             </span>
             <span className="w-1 h-1 rounded-full bg-white/15" />
             <span className="text-[10px] tracking-wider uppercase text-white font-medium">
-              {new Date(article.date).toLocaleDateString("en-IN", {
+              {new Date(article.date).toLocaleDateString("en", {
                 year: "numeric",
                 month: "long",
                 day: "numeric",

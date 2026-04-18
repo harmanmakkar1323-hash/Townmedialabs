@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/terms-of-service/",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
   },
 };
 

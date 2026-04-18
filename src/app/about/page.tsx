@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/about",
     languages: {
-      "en-IN": "https://townmedialabs.com/about",
+      "en": "https://townmedialabs.com/about",
       "x-default": "https://townmedialabs.com/about",
     },
   },
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/about`,
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [
       {
         url: "/og-image.png",

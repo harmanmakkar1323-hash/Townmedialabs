@@ -175,13 +175,13 @@ export default function ContactPageClient() {
     <main className="bg-[#050505] text-white min-h-screen">
       <InnerNavbar />
 
-      <div className="px-6 pt-24 md:pt-28 lg:px-12 max-w-7xl mx-auto">
-        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Contact Us", href: "/contact" }]} />
-      </div>
-
       {/* ── Hero ── */}
-      <section className="hero-orange-gradient relative w-full px-6 pt-12 pb-8 md:pt-16 md:pb-12 lg:px-12 overflow-hidden">
+      <section className="hero-orange-gradient relative w-full px-6 pt-32 pb-8 md:pt-40 md:pb-12 lg:px-12 overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] rounded-full bg-[#ff4500]/[0.04] blur-[150px] pointer-events-none" />
+
+        <div className="relative z-10 max-w-5xl mx-auto mb-8">
+          <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Contact Us", href: "/contact" }]} />
+        </div>
 
         <div className="relative mx-auto max-w-5xl text-center">
           <motion.p

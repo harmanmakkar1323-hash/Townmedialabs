@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/authors/`,
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
   },
 };
 

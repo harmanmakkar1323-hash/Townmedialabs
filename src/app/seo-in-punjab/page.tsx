@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: `${siteUrl}/seo-in-punjab/`,
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "SEO Agency in Punjab" }],
   },
 };

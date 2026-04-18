@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: "https://townmedialabs.com/digital-marketing-agency-chandigarh/",
     siteName: "TML Agency",
     type: "website",
-    locale: "en_IN",
+    locale: "en_US",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Digital Marketing Agency in Chandigarh - TML Agency" }],
   },
   twitter: {

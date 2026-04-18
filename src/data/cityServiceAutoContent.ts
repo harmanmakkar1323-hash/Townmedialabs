@@ -22,6 +22,44 @@ import { locations } from "./locations";
 import type { ServicePageData } from "./servicePages";
 import type { CityServiceContent } from "./cityServiceContent";
 
+// ─── Short, clean service-name map ────────────────────────────────────────────
+// servicePages[slug].title is a marketing headline like "Email Marketing Services — Automation That Drives Revenue",
+// which breaks H1s like "Leading <title> Agency in Mohali". We use the short display name for all auto-generated copy.
+const SHORT_SERVICE_NAMES: Record<string, string> = {
+  "branding": "Branding",
+  "google-ads": "Google Ads",
+  "seo": "SEO",
+  "website-development": "Website Development",
+  "social-media": "Social Media Marketing",
+  "ai-influencer-management": "AI Influencer Management",
+  "lead-generation": "Lead Generation",
+  "music-release": "Music Release",
+  "video-editing": "Video Editing",
+  "branding-packaging": "Packaging Design",
+  "graphic-design": "Graphic Design",
+  "link-building": "Link Building",
+  "meta-ads": "Meta Ads",
+  "content-writing": "Content Writing",
+  "gmb-listing": "GMB Listing",
+  "technical-seo": "Technical SEO",
+  "content-marketing": "Content Marketing",
+  "email-marketing": "Email Marketing",
+  "influencer-marketing": "Influencer Marketing",
+  "ppc-management": "PPC Management",
+  "online-reputation-management": "Online Reputation Management",
+  "conversion-rate-optimization": "Conversion Rate Optimization",
+  "ecommerce-marketing": "E-commerce Marketing",
+};
+
+function getShortServiceName(slug: string): string {
+  const mapped = SHORT_SERVICE_NAMES[slug];
+  if (mapped) return mapped;
+  return slug
+    .split("-")
+    .map((w) => (w ? w[0].toUpperCase() + w.slice(1) : w))
+    .join(" ");
+}
+
 // ─── Country pool system ──────────────────────────────────────────────────────
 
 type CountryPool = "india" | "usa" | "uk" | "australia" | "uae" | "nz" | "canada";
@@ -1601,7 +1639,7 @@ export function generateAutoContent(
 ): CityServiceContent {
   const key = `${serviceSlug}:${location.slug}`;
   const seed = simpleHash(key);
-  const serviceName = serviceData.title;
+  const serviceName = getShortServiceName(serviceSlug);
   const cityName = location.name;
 
   return {
